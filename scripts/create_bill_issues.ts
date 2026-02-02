@@ -8,6 +8,9 @@ import * as fs from "fs";
 import * as path from "path";
 import { fileURLToPath } from "url";
 import { Octokit } from "@octokit/rest";
+import axios from "axios";
+
+const KOKKAI_API = "https://kokkai.ndl.go.jp/api/speech";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -176,12 +179,74 @@ function getPartyLabel(party: string): string | null {
   return null;
 }
 
+// 国会会議録APIから法案に関する議論を取得
+interface Discussion {
+  date: string;
+  meeting: string;
+  speaker: string;
+  party: string;
+  speech: string;
+  speechUrl?: string;
+}
+
+async function fetchDiscussions(billName: string, session: number): Promise<Discussion[]> {
+  const discussions: Discussion[] = [];
+
+  try {
+    // 法案名で検索（短い名前に加工して検索精度を上げる）
+    const searchTerm = billName
+      .replace(/の一部を改正する法律案$/, "")
+      .replace(/に関する法律案$/, "")
+      .slice(0, 30);
+
+    const url = `${KOKKAI_API}?any=${encodeURIComponent(searchTerm)}&sessionFrom=${session}&sessionTo=${session}&recordPacking=json&maximumRecords=10`;
+
+    const response = await axios.get(url, { timeout: 30000 });
+    const records = response.data?.speechRecord || [];
+
+    for (const record of records.slice(0, 5)) {
+      const speech = record.speech || "";
+      // 発言が短すぎるものは除外
+      if (speech.length < 50) continue;
+
+      discussions.push({
+        date: record.date || "",
+        meeting: record.nameOfMeeting || "",
+        speaker: record.speaker || "",
+        party: record.speakerGroup || "",
+        speech: speech.slice(0, 300) + (speech.length > 300 ? "..." : ""),
+        speechUrl: record.speechURL,
+      });
+    }
+  } catch (error: any) {
+    console.log(`    ⚠️ 議論取得スキップ: ${error.message}`);
+  }
+
+  return discussions;
+}
+
+// 議論をMarkdown形式に整形
+function formatDiscussions(discussions: Discussion[]): string {
+  if (discussions.length === 0) {
+    return "*（国会会議録APIに該当する議論が見つかりませんでした）*";
+  }
+
+  return discussions.map(d => {
+    const link = d.speechUrl ? `[📄](${d.speechUrl})` : "";
+    return `#### ${d.date} ${d.meeting} ${link}
+> **${d.speaker}**（${d.party}）
+>
+> ${d.speech.replace(/\n/g, "\n> ")}`;
+  }).join("\n\n");
+}
+
 async function createOrUpdateIssue(
   octokit: Octokit,
   owner: string,
   repo: string,
   bill: Bill,
-  existingIssueNumber?: number
+  existingIssueNumber?: number,
+  fetchDiscussionData: boolean = true
 ): Promise<number | null> {
   const labels = [
     "法案",
@@ -204,6 +269,21 @@ async function createOrUpdateIssue(
     ? `https://github.com/${owner}/${repo}/issues?q=is%3Aissue+label%3A%22提案者%2F${encodeURIComponent(bill.proposer.split(/[、,　 ]/)[0] || "")}%22`
     : null;
 
+  // 国会での議論を取得（新規作成時のみ）
+  let discussionSection = "";
+  if (fetchDiscussionData && !existingIssueNumber) {
+    const discussions = await fetchDiscussions(bill.bill_name, bill.diet_session);
+    discussionSection = `
+
+---
+
+### 💬 国会での議論
+
+${formatDiscussions(discussions)}
+
+[🔍 国会会議録で詳しく検索](https://kokkai.ndl.go.jp/#/search?any=${encodeURIComponent(bill.bill_name.slice(0, 30))}&sessionFrom=${bill.diet_session}&sessionTo=${bill.diet_session})`;
+  }
+
   const body = `## 📋 法案情報
 
 | 項目 | 内容 |
@@ -221,7 +301,7 @@ async function createOrUpdateIssue(
 
 ### 👤 提出者による他の法案
 
-${proposerSearchUrl ? `[${bill.proposer?.split(/[、,　 ]/)[0] || "提出者"}の提出法案一覧](${proposerSearchUrl})` : "（閣法のため該当なし）"}
+${proposerSearchUrl ? `[${bill.proposer?.split(/[、,　 ]/)[0] || "提出者"}の提出法案一覧](${proposerSearchUrl})` : "（閣法のため該当なし）"}${discussionSection}
 
 ---
 
@@ -361,7 +441,7 @@ async function main(): Promise<void> {
     // Rate limiting: wait between requests
     await new Promise((resolve) => setTimeout(resolve, 500));
 
-    const issueNum = await createOrUpdateIssue(octokit, owner, repo, bill);
+    const issueNum = await createOrUpdateIssue(octokit, owner, repo, bill, undefined, true);
     if (issueNum) {
       tracking.issues[bill.id] = issueNum;
       created++;
@@ -375,14 +455,14 @@ async function main(): Promise<void> {
     }
   }
 
-  // 既存Issueの更新（ステータス変更のみ）
+  // 既存Issueの更新（ステータス変更のみ、議論は再取得しない）
   for (const bill of existingBills) {
     const existingIssue = tracking.issues[bill.id];
 
     // Rate limiting
     await new Promise((resolve) => setTimeout(resolve, 300));
 
-    const issueNum = await createOrUpdateIssue(octokit, owner, repo, bill, existingIssue);
+    const issueNum = await createOrUpdateIssue(octokit, owner, repo, bill, existingIssue, false);
     if (issueNum) {
       updated++;
     }
