@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>法令参照グラフ - 日本法令データベース</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    #graph-container {
+      width: 100%;
+      height: 600px;
+      background: #f8fafc;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    .node circle {
+      stroke: #fff;
+      stroke-width: 2px;
+      cursor: pointer;
+    }
+    .node text {
+      font-size: 10px;
+      pointer-events: none;
+    }
+    .link {
+      stroke: #999;
+      stroke-opacity: 0.6;
+    }
+    .link.highlighted {
+      stroke: #3b82f6;
+      stroke-width: 3px;
+      stroke-opacity: 1;
+    }
+    .node.highlighted circle {
+      stroke: #3b82f6;
+      stroke-width: 4px;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 min-h-screen">
+  <header class="bg-blue-900 text-white py-6">
+    <div class="max-w-7xl mx-auto px-4">
+      <nav class="text-blue-200 text-sm mb-2">
+        <a href="../" class="hover:underline">ホーム</a> &gt; 法令参照グラフ
+      </nav>
+      <h1 class="text-3xl font-bold">🔗 法令参照グラフ</h1>
+      <p class="text-blue-200 mt-1">法令間の参照関係を可視化・探索</p>
+    </div>
+  </header>
+
+  <main class="max-w-7xl mx-auto px-4 py-8">
+    <!-- コントロールパネル -->
+    <section class="bg-white rounded-lg shadow-md p-4 mb-6">
+      <div class="grid md:grid-cols-3 gap-4">
+        <!-- 起点法令選択 -->
+        <div>
+          <label class="block text-sm font-medium text-gray-700 mb-1">起点法令</label>
+          <select id="startLaw" class="w-full rounded border-gray-300">
+            <option value="">選択してください</option>
+          </select>
+        </div>
+        
+        <!-- 終点法令選択 -->
+        <div>
+          <label class="block text-sm font-medium text-gray-700 mb-1">終点法令（経路検索時）</label>
+          <select id="endLaw" class="w-full rounded border-gray-300">
+            <option value="">選択してください</option>
+          </select>
+        </div>
+        
+        <!-- 操作ボタン -->
+        <div class="flex items-end gap-2">
+          <button id="showReferences" class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">
+            参照を表示
+          </button>
+          <button id="findPath" class="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700">
+            経路を検索
+          </button>
+          <button id="resetGraph" class="px-4 py-2 bg-gray-600 text-white rounded hover:bg-gray-700">
+            リセット
+          </button>
+        </div>
+      </div>
+      
+      <!-- ホップ数スライダー -->
+      <div class="mt-4">
+        <label class="block text-sm font-medium text-gray-700 mb-1">
+          表示ホップ数: <span id="hopValue">2</span>
+        </label>
+        <input type="range" id="hopSlider" min="1" max="10" value="2" class="w-full max-w-xs">
+      </div>
+    </section>
+
+    <!-- 統計パネル -->
+    <section class="grid md:grid-cols-4 gap-4 mb-6">
+      <div class="bg-white rounded-lg shadow p-4">
+        <div class="text-2xl font-bold text-blue-600" id="stat-nodes">-</div>
+        <div class="text-sm text-gray-500">アクティブ法令</div>
+      </div>
+      <div class="bg-white rounded-lg shadow p-4">
+        <div class="text-2xl font-bold text-green-600" id="stat-edges">-</div>
+        <div class="text-sm text-gray-500">参照関係</div>
+      </div>
+      <div class="bg-white rounded-lg shadow p-4">
+        <div class="text-2xl font-bold text-yellow-600" id="stat-selected">-</div>
+        <div class="text-sm text-gray-500">選択中のノード</div>
+      </div>
+      <div class="bg-white rounded-lg shadow p-4">
+        <div class="text-2xl font-bold text-purple-600" id="stat-path">-</div>
+        <div class="text-sm text-gray-500">経路ホップ数</div>
+      </div>
+    </section>
+
+    <!-- グラフ表示エリア -->
+    <section class="bg-white rounded-lg shadow-md mb-6">
+      <div id="graph-container"></div>
+    </section>
+
+    <!-- 詳細パネル -->
+    <section class="grid md:grid-cols-2 gap-6">
+      <!-- 選択した法令の情報 -->
+      <div class="bg-white rounded-lg shadow-md p-4">
+        <h3 class="text-lg font-bold mb-3">📋 選択した法令</h3>
+        <div id="selectedLawInfo" class="text-gray-600">
+          法令をクリックすると詳細が表示されます
+        </div>
+      </div>
+      
+      <!-- 経路情報 -->
+      <div class="bg-white rounded-lg shadow-md p-4">
+        <h3 class="text-lg font-bold mb-3">🛤️ 経路</h3>
+        <div id="pathInfo" class="text-gray-600">
+          2つの法令を選択して「経路を検索」をクリック
+        </div>
+      </div>
+    </section>
+
+    <!-- 被参照ランキング -->
+    <section class="bg-white rounded-lg shadow-md p-4 mt-6">
+      <h3 class="text-lg font-bold mb-3">🏆 被参照数ランキング</h3>
+      <div id="ranking" class="grid md:grid-cols-2 gap-4">
+        読み込み中...
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-gray-800 text-gray-400 py-6 mt-8">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+      <p>© 2025 Japan Law Database Project</p>
+    </div>
+  </footer>
+
+  <script>
+    // グローバル変数
+    let nodes = [];
+    let edges = [];
+    let reachability = {};
+    let nodeMap = new Map();
+    let simulation = null;
+    let svg = null;
+    let g = null;
+
+    // カテゴリカラー
+    const categoryColors = {
+      constitution: '#8b5cf6',
+      acts: '#3b82f6',
+      cabinet_orders: '#10b981',
+      imperial_orders: '#f59e0b',
+      ministerial_ordinances: '#ef4444',
+      rules: '#ec4899',
+      misc: '#6b7280',
+    };
+
+    // データ読み込み
+    async function loadData() {
+      try {
+        const [nodesRes, edgesRes, reachRes] = await Promise.all([
+          fetch('../data/index/graph/nodes.json'),
+          fetch('../data/index/graph/edges.json'),
+          fetch('../data/index/graph/reachability.json').catch(() => ({ json: () => ({ data: {} }) })),
+        ]);
+
+        const nodesData = await nodesRes.json();
+        const edgesData = await edgesRes.json();
+        const reachData = await reachRes.json();
+
+        nodes = nodesData.nodes || [];
+        edges = edgesData.edges || [];
+        reachability = reachData.data || {};
+
+        // ノードマップ作成
+        for (const node of nodes) {
+          nodeMap.set(node.id, node);
+        }
+
+        // 統計更新
+        document.getElementById('stat-nodes').textContent = nodes.length.toLocaleString();
+        document.getElementById('stat-edges').textContent = edges.length.toLocaleString();
+
+        // セレクトボックス設定
+        populateSelects();
+
+        // ランキング表示
+        showRanking();
+
+        // 初期グラフ（トップ50）
+        showTopLaws(50);
+
+      } catch (e) {
+        console.error('Failed to load data:', e);
+        document.getElementById('graph-container').innerHTML = 
+          '<p class="p-8 text-center text-gray-500">データの読み込みに失敗しました。先にbuild_full_graph.tsを実行してください。</p>';
+      }
+    }
+
+    // セレクトボックスを設定
+    function populateSelects() {
+      const sortedNodes = [...nodes].sort((a, b) => b.in_degree - a.in_degree);
+      const startSelect = document.getElementById('startLaw');
+      const endSelect = document.getElementById('endLaw');
+
+      for (const node of sortedNodes.slice(0, 500)) {
+        const option1 = document.createElement('option');
+        option1.value = node.id;
+        option1.textContent = `${node.title} (被参照: ${node.in_degree})`;
+        startSelect.appendChild(option1);
+
+        const option2 = option1.cloneNode(true);
+        endSelect.appendChild(option2);
+      }
+    }
+
+    // ランキング表示
+    function showRanking() {
+      const sorted = [...nodes].sort((a, b) => b.in_degree - a.in_degree).slice(0, 20);
+      const container = document.getElementById('ranking');
+      
+      container.innerHTML = sorted.map((node, i) => `
+        <div class="flex items-center justify-between py-2 border-b cursor-pointer hover:bg-gray-50" 
+             onclick="selectLaw('${node.id}')">
+          <div class="flex items-center">
+            <span class="w-6 h-6 flex items-center justify-center bg-blue-100 text-blue-800 rounded-full text-sm font-bold mr-2">${i + 1}</span>
+            <span class="text-sm">${node.title}</span>
+          </div>
+          <span class="text-gray-500 text-sm">${node.in_degree} 法令から参照</span>
+        </div>
+      `).join('');
+    }
+
+    // トップ法令を表示
+    function showTopLaws(count) {
+      const topNodes = [...nodes]
+        .sort((a, b) => b.in_degree - a.in_degree)
+        .slice(0, count);
+
+      const topIds = new Set(topNodes.map(n => n.id));
+      const filteredEdges = edges.filter(e => topIds.has(e.from) && topIds.has(e.to));
+
+      renderGraph(topNodes, filteredEdges);
+    }
+
+    // 参照を表示
+    function showReferences() {
+      const startId = document.getElementById('startLaw').value;
+      if (!startId) {
+        alert('起点法令を選択してください');
+        return;
+      }
+
+      const maxHops = parseInt(document.getElementById('hopSlider').value);
+      const { visitedNodes, visitedEdges } = traverseGraph(startId, maxHops);
+
+      const filteredNodes = nodes.filter(n => visitedNodes.has(n.id));
+      const filteredEdges = edges.filter(e => visitedEdges.has(`${e.from}-${e.to}`));
+
+      document.getElementById('stat-selected').textContent = filteredNodes.length;
+      renderGraph(filteredNodes, filteredEdges, startId);
+    }
+
+    // グラフ探索（BFS）
+    function traverseGraph(startId, maxHops) {
+      const visitedNodes = new Set([startId]);
+      const visitedEdges = new Set();
+      const queue = [{ id: startId, hop: 0 }];
+
+      while (queue.length > 0) {
+        const { id, hop } = queue.shift();
+        if (hop >= maxHops) continue;
+
+        // 出力エッジ（この法令が参照している）
+        for (const edge of edges) {
+          if (edge.from === id && !visitedNodes.has(edge.to)) {
+            visitedNodes.add(edge.to);
+            visitedEdges.add(`${edge.from}-${edge.to}`);
+            queue.push({ id: edge.to, hop: hop + 1 });
+          }
+        }
+
+        // 入力エッジ（この法令を参照している）
+        for (const edge of edges) {
+          if (edge.to === id && !visitedNodes.has(edge.from)) {
+            visitedNodes.add(edge.from);
+            visitedEdges.add(`${edge.from}-${edge.to}`);
+            queue.push({ id: edge.from, hop: hop + 1 });
+          }
+        }
+      }
+
+      return { visitedNodes, visitedEdges };
+    }
+
+    // 経路検索（BFS）
+    function findPath() {
+      const startId = document.getElementById('startLaw').value;
+      const endId = document.getElementById('endLaw').value;
+
+      if (!startId || !endId) {
+        alert('起点と終点の両方を選択してください');
+        return;
+      }
+
+      // 隣接リスト作成
+      const adj = new Map();
+      for (const edge of edges) {
+        if (!adj.has(edge.from)) adj.set(edge.from, []);
+        adj.get(edge.from).push(edge.to);
+      }
+
+      // BFS
+      const queue = [{ id: startId, path: [startId] }];
+      const visited = new Set([startId]);
+
+      while (queue.length > 0) {
+        const { id, path } = queue.shift();
+
+        if (id === endId) {
+          // 経路発見
+          showPath(path);
+          return;
+        }
+
+        const neighbors = adj.get(id) || [];
+        for (const neighbor of neighbors) {
+          if (!visited.has(neighbor)) {
+            visited.add(neighbor);
+            queue.push({ id: neighbor, path: [...path, neighbor] });
+          }
+        }
+      }
+
+      document.getElementById('pathInfo').innerHTML = 
+        '<span class="text-red-500">経路が見つかりませんでした</span>';
+      document.getElementById('stat-path').textContent = '×';
+    }
+
+    // 経路を表示
+    function showPath(pathIds) {
+      document.getElementById('stat-path').textContent = (pathIds.length - 1) + 'ホップ';
+
+      const pathHtml = pathIds.map((id, i) => {
+        const node = nodeMap.get(id);
+        const arrow = i < pathIds.length - 1 ? ' → ' : '';
+        return `<span class="font-medium">${node?.title || id}</span>${arrow}`;
+      }).join('');
+
+      document.getElementById('pathInfo').innerHTML = pathHtml;
+
+      // グラフ上でハイライト
+      const pathSet = new Set(pathIds);
+      const pathEdges = new Set();
+      for (let i = 0; i < pathIds.length - 1; i++) {
+        pathEdges.add(`${pathIds[i]}-${pathIds[i + 1]}`);
+      }
+
+      // 経路に関係するノードとエッジのみ表示
+      const filteredNodes = nodes.filter(n => pathSet.has(n.id));
+      const filteredEdges = edges.filter(e => pathEdges.has(`${e.from}-${e.to}`));
+
+      renderGraph(filteredNodes, filteredEdges, pathIds[0], pathIds);
+    }
+
+    // グラフ描画
+    function renderGraph(graphNodes, graphEdges, highlightId = null, pathIds = []) {
+      const container = document.getElementById('graph-container');
+      container.innerHTML = '';
+
+      const width = container.clientWidth;
+      const height = container.clientHeight;
+
+      svg = d3.select('#graph-container')
+        .append('svg')
+        .attr('width', width)
+        .attr('height', height);
+
+      // ズーム機能
+      const zoom = d3.zoom()
+        .scaleExtent([0.1, 4])
+        .on('zoom', (event) => {
+          g.attr('transform', event.transform);
+        });
+
+      svg.call(zoom);
+
+      g = svg.append('g');
+
+      // シミュレーション
+      simulation = d3.forceSimulation(graphNodes)
+        .force('link', d3.forceLink(graphEdges).id(d => d.id).distance(100))
+        .force('charge', d3.forceManyBody().strength(-300))
+        .force('center', d3.forceCenter(width / 2, height / 2))
+        .force('collision', d3.forceCollide().radius(30));
+
+      // エッジ
+      const pathSet = new Set(pathIds);
+      const link = g.append('g')
+        .selectAll('line')
+        .data(graphEdges)
+        .join('line')
+        .attr('class', d => {
+          const isPath = pathIds.length > 1 && 
+            pathIds.includes(d.from) && pathIds.includes(d.to);
+          return isPath ? 'link highlighted' : 'link';
+        })
+        .attr('stroke-width', d => Math.min(d.count, 5));
+
+      // ノード
+      const node = g.append('g')
+        .selectAll('g')
+        .data(graphNodes)
+        .join('g')
+        .attr('class', d => pathSet.has(d.id) ? 'node highlighted' : 'node')
+        .call(d3.drag()
+          .on('start', dragstarted)
+          .on('drag', dragged)
+          .on('end', dragended));
+
+      node.append('circle')
+        .attr('r', d => 5 + Math.sqrt(d.in_degree) * 2)
+        .attr('fill', d => categoryColors[d.category] || '#6b7280')
+        .on('click', (event, d) => selectLaw(d.id));
+
+      node.append('text')
+        .attr('dx', 12)
+        .attr('dy', 4)
+        .text(d => d.title.length > 15 ? d.title.substring(0, 15) + '...' : d.title);
+
+      simulation.on('tick', () => {
+        link
+          .attr('x1', d => d.source.x)
+          .attr('y1', d => d.source.y)
+          .attr('x2', d => d.target.x)
+          .attr('y2', d => d.target.y);
+
+        node.attr('transform', d => `translate(${d.x},${d.y})`);
+      });
+
+      function dragstarted(event) {
+        if (!event.active) simulation.alphaTarget(0.3).restart();
+        event.subject.fx = event.subject.x;
+        event.subject.fy = event.subject.y;
+      }
+
+      function dragged(event) {
+        event.subject.fx = event.x;
+        event.subject.fy = event.y;
+      }
+
+      function dragended(event) {
+        if (!event.active) simulation.alphaTarget(0);
+        event.subject.fx = null;
+        event.subject.fy = null;
+      }
+    }
+
+    // 法令選択
+    function selectLaw(lawId) {
+      const node = nodeMap.get(lawId);
+      if (!node) return;
+
+      document.getElementById('startLaw').value = lawId;
+      
+      const info = `
+        <div class="space-y-2">
+          <h4 class="font-bold text-lg">${node.title}</h4>
+          <p class="text-sm text-gray-600">カテゴリ: ${node.category}</p>
+          <p class="text-sm">この法令が参照: <strong>${node.out_degree}</strong> 法令</p>
+          <p class="text-sm">この法令を参照: <strong>${node.in_degree}</strong> 法令</p>
+        </div>
+      `;
+      document.getElementById('selectedLawInfo').innerHTML = info;
+      document.getElementById('stat-selected').textContent = 1;
+    }
+
+    // リセット
+    function resetGraph() {
+      document.getElementById('startLaw').value = '';
+      document.getElementById('endLaw').value = '';
+      document.getElementById('stat-selected').textContent = '-';
+      document.getElementById('stat-path').textContent = '-';
+      document.getElementById('selectedLawInfo').innerHTML = '法令をクリックすると詳細が表示されます';
+      document.getElementById('pathInfo').innerHTML = '2つの法令を選択して「経路を検索」をクリック';
+      showTopLaws(50);
+    }
+
+    // イベントリスナー
+    document.getElementById('showReferences').addEventListener('click', showReferences);
+    document.getElementById('findPath').addEventListener('click', findPath);
+    document.getElementById('resetGraph').addEventListener('click', resetGraph);
+    document.getElementById('hopSlider').addEventListener('input', (e) => {
+      document.getElementById('hopValue').textContent = e.target.value;
+    });
+
+    // 初期化
+    loadData();
+  </script>
+</body>
+</html>

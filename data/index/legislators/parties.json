@@ -1,0 +1,77 @@
+{
+  "updated_at": "2025-02-01T00:00:00Z",
+  "parties": [
+    {
+      "id": "ldp",
+      "name": "自由民主党",
+      "short_name": "自民",
+      "color": "#e74c3c",
+      "github_label": "政党/自由民主党",
+      "official_url": "https://www.jimin.jp/"
+    },
+    {
+      "id": "cdp",
+      "name": "立憲民主党",
+      "short_name": "立憲",
+      "color": "#3498db",
+      "github_label": "政党/立憲民主党",
+      "official_url": "https://cdp-japan.jp/"
+    },
+    {
+      "id": "komei",
+      "name": "公明党",
+      "short_name": "公明",
+      "color": "#f39c12",
+      "github_label": "政党/公明党",
+      "official_url": "https://www.komei.or.jp/"
+    },
+    {
+      "id": "ishin",
+      "name": "日本維新の会",
+      "short_name": "維新",
+      "color": "#27ae60",
+      "github_label": "政党/日本維新の会",
+      "official_url": "https://o-ishin.jp/"
+    },
+    {
+      "id": "dpfp",
+      "name": "国民民主党",
+      "short_name": "国民",
+      "color": "#9b59b6",
+      "github_label": "政党/国民民主党",
+      "official_url": "https://new-kokumin.jp/"
+    },
+    {
+      "id": "jcp",
+      "name": "日本共産党",
+      "short_name": "共産",
+      "color": "#c0392b",
+      "github_label": "政党/日本共産党",
+      "official_url": "https://www.jcp.or.jp/"
+    },
+    {
+      "id": "reiwa",
+      "name": "れいわ新選組",
+      "short_name": "れいわ",
+      "color": "#e91e63",
+      "github_label": "政党/れいわ新選組",
+      "official_url": "https://reiwa-shinsengumi.com/"
+    },
+    {
+      "id": "independent",
+      "name": "無所属",
+      "short_name": "無",
+      "color": "#95a5a6",
+      "github_label": "政党/無所属",
+      "official_url": null
+    },
+    {
+      "id": "other",
+      "name": "その他",
+      "short_name": "他",
+      "color": "#7f8c8d",
+      "github_label": "政党/その他",
+      "official_url": null
+    }
+  ]
+}

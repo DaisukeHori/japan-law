@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>議員一覧 - 日本法令データベース</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body class="bg-gray-50 min-h-screen">
+  <div x-data="legislatorList()" x-init="loadData()">
+    <!-- Header -->
+    <header class="bg-blue-900 text-white py-6">
+      <div class="max-w-6xl mx-auto px-4">
+        <nav class="text-blue-200 text-sm mb-2">
+          <a href="../" class="hover:underline">ホーム</a> &gt; 議員一覧
+        </nav>
+        <h1 class="text-3xl font-bold">👤 議員一覧</h1>
+      </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-4 py-8">
+      <!-- フィルター -->
+      <section class="bg-white rounded-lg shadow-md p-4 mb-6">
+        <div class="flex flex-wrap gap-4 items-center">
+          <div>
+            <label class="text-sm text-gray-600">政党</label>
+            <select x-model="filterParty" class="ml-2 rounded border-gray-300 text-sm">
+              <option value="">全て</option>
+              <template x-for="party in parties" :key="party.id">
+                <option :value="party.id" x-text="party.name"></option>
+              </template>
+            </select>
+          </div>
+          
+          <div>
+            <label class="text-sm text-gray-600">議院</label>
+            <select x-model="filterHouse" class="ml-2 rounded border-gray-300 text-sm">
+              <option value="">全て</option>
+              <option value="衆議院">衆議院</option>
+              <option value="参議院">参議院</option>
+            </select>
+          </div>
+          
+          <div>
+            <label class="text-sm text-gray-600">並び順</label>
+            <select x-model="sortBy" class="ml-2 rounded border-gray-300 text-sm">
+              <option value="total_bills">法案数</option>
+              <option value="success_rate">成功率</option>
+              <option value="name">名前</option>
+            </select>
+          </div>
+          
+          <div class="flex-1">
+            <input 
+              type="text" 
+              x-model="searchQuery"
+              placeholder="議員名で検索..."
+              class="w-full max-w-xs rounded border-gray-300 text-sm px-3 py-2"
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- 統計サマリー -->
+      <section class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+        <div class="bg-white rounded-lg shadow p-4 text-center">
+          <div class="text-2xl font-bold text-blue-600" x-text="stats.total_legislators || 0"></div>
+          <div class="text-sm text-gray-500">総議員数</div>
+        </div>
+        <div class="bg-white rounded-lg shadow p-4 text-center">
+          <div class="text-2xl font-bold text-green-600" x-text="stats.total_bills || 0"></div>
+          <div class="text-sm text-gray-500">総法案数</div>
+        </div>
+        <div class="bg-white rounded-lg shadow p-4 text-center">
+          <div class="text-2xl font-bold text-yellow-600" x-text="stats.passed_bills || 0"></div>
+          <div class="text-sm text-gray-500">成立数</div>
+        </div>
+        <div class="bg-white rounded-lg shadow p-4 text-center">
+          <div class="text-2xl font-bold text-purple-600" x-text="((stats.overall_success_rate || 0) * 100).toFixed(1) + '%'"></div>
+          <div class="text-sm text-gray-500">成功率</div>
+        </div>
+      </section>
+
+      <!-- 議員テーブル -->
+      <section class="bg-white rounded-lg shadow-md overflow-hidden">
+        <div class="overflow-x-auto">
+          <table class="w-full">
+            <thead class="bg-gray-50 border-b">
+              <tr>
+                <th class="px-4 py-3 text-left text-sm font-semibold text-gray-600">議員名</th>
+                <th class="px-4 py-3 text-left text-sm font-semibold text-gray-600">政党</th>
+                <th class="px-4 py-3 text-left text-sm font-semibold text-gray-600">議院</th>
+                <th class="px-4 py-3 text-right text-sm font-semibold text-gray-600">法案数</th>
+                <th class="px-4 py-3 text-right text-sm font-semibold text-gray-600">成立</th>
+                <th class="px-4 py-3 text-right text-sm font-semibold text-gray-600">成功率</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y">
+              <template x-for="leg in filteredLegislators" :key="leg.id">
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-3">
+                    <span class="font-medium" x-text="leg.name"></span>
+                  </td>
+                  <td class="px-4 py-3">
+                    <span 
+                      class="inline-block px-2 py-1 text-xs rounded-full"
+                      :style="{ backgroundColor: getPartyColor(leg.party) + '20', color: getPartyColor(leg.party) }"
+                      x-text="leg.party"
+                    ></span>
+                  </td>
+                  <td class="px-4 py-3 text-gray-600" x-text="leg.house"></td>
+                  <td class="px-4 py-3 text-right font-medium" x-text="leg.total_bills || 0"></td>
+                  <td class="px-4 py-3 text-right" x-text="leg.passed_bills || 0"></td>
+                  <td class="px-4 py-3 text-right">
+                    <span x-text="((leg.success_rate || 0) * 100).toFixed(1) + '%'"></span>
+                  </td>
+                </tr>
+              </template>
+              <tr x-show="filteredLegislators.length === 0">
+                <td colspan="6" class="px-4 py-8 text-center text-gray-500">
+                  該当する議員がいません
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-gray-800 text-gray-400 py-6 mt-8">
+      <div class="max-w-6xl mx-auto px-4 text-center">
+        <p>© 2025 Japan Law Database Project</p>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    function legislatorList() {
+      return {
+        legislators: [],
+        parties: [],
+        stats: {},
+        filterParty: '',
+        filterHouse: '',
+        sortBy: 'total_bills',
+        searchQuery: '',
+
+        async loadData() {
+          try {
+            const [statsRes, partiesRes, legislatorsRes] = await Promise.all([
+              fetch('../data/index/legislators/activity_stats.json'),
+              fetch('../data/index/legislators/parties.json'),
+              fetch('../data/index/legislators/legislators.json')
+            ]);
+
+            const statsData = await statsRes.json();
+            const partiesData = await partiesRes.json();
+            const legislatorsData = await legislatorsRes.json();
+
+            this.stats = statsData.summary || {};
+            this.parties = partiesData.parties || [];
+            
+            // 議員データと統計データをマージ
+            const statsByLeg = statsData.by_legislator || {};
+            this.legislators = (legislatorsData.legislators || []).map(leg => ({
+              ...leg,
+              ...(statsByLeg[leg.id] || {})
+            }));
+          } catch (e) {
+            console.error('Failed to load data:', e);
+          }
+        },
+
+        get filteredLegislators() {
+          let result = this.legislators;
+
+          if (this.filterParty) {
+            result = result.filter(l => l.party_id === this.filterParty);
+          }
+          if (this.filterHouse) {
+            result = result.filter(l => l.house === this.filterHouse);
+          }
+          if (this.searchQuery) {
+            const q = this.searchQuery.toLowerCase();
+            result = result.filter(l => l.name.toLowerCase().includes(q));
+          }
+
+          // ソート
+          result = [...result].sort((a, b) => {
+            if (this.sortBy === 'name') {
+              return (a.name || '').localeCompare(b.name || '');
+            }
+            return (b[this.sortBy] || 0) - (a[this.sortBy] || 0);
+          });
+
+          return result;
+        },
+
+        getPartyColor(partyName) {
+          const party = this.parties.find(p => p.name === partyName);
+          return party?.color || '#666666';
+        }
+      };
+    }
+  </script>
+</body>
+</html>

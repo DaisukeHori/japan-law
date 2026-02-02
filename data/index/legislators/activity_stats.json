@@ -1,0 +1,11 @@
+{
+  "updated_at": "2025-02-01T00:00:00Z",
+  "summary": {
+    "total_legislators": 0,
+    "total_bills": 0,
+    "passed_bills": 0,
+    "overall_success_rate": 0
+  },
+  "by_legislator": {},
+  "by_party": {}
+}

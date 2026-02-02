@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>法令検索 - 日本法令データベース</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
+</head>
+<body class="bg-gray-50 min-h-screen">
+  <div id="app">
+    <!-- Header -->
+    <header class="bg-blue-900 text-white py-6">
+      <div class="max-w-6xl mx-auto px-4">
+        <nav class="text-blue-200 text-sm mb-2">
+          <a href="./" class="hover:underline">ホーム</a> &gt; 法令検索
+        </nav>
+        <h1 class="text-3xl font-bold">📖 法令検索</h1>
+        <p class="text-blue-200 mt-1">約9,000件の法令を検索できます</p>
+      </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-4 py-8">
+      <!-- 検索ボックス -->
+      <section class="bg-white rounded-lg shadow-md p-6 mb-6">
+        <div class="flex flex-col md:flex-row gap-4">
+          <div class="flex-1">
+            <input 
+              type="text" 
+              id="searchInput"
+              placeholder="法令名、キーワードを入力..."
+              class="w-full px-4 py-3 text-lg border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500"
+              autofocus
+            >
+          </div>
+          <div class="flex gap-2">
+            <select id="categoryFilter" class="px-4 py-3 border border-gray-300 rounded-lg">
+              <option value="">全カテゴリ</option>
+              <option value="constitution">憲法</option>
+              <option value="acts">法律</option>
+              <option value="cabinet_orders">政令</option>
+              <option value="imperial_orders">勅令</option>
+              <option value="ministerial_ordinances">府省令</option>
+              <option value="rules">規則</option>
+              <option value="misc">その他</option>
+            </select>
+            <button 
+              id="searchBtn"
+              class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+            >
+              検索
+            </button>
+          </div>
+        </div>
+        <div class="mt-3 text-sm text-gray-500">
+          <span id="totalCount">読み込み中...</span>
+        </div>
+      </section>
+
+      <!-- 検索結果 -->
+      <section id="results" class="space-y-4">
+        <!-- 初期メッセージ -->
+        <div id="initialMessage" class="bg-white rounded-lg shadow-md p-8 text-center text-gray-500">
+          <p class="text-lg mb-4">🔍 検索キーワードを入力してください</p>
+          <p class="text-sm">法令名や関連するキーワードで検索できます</p>
+        </div>
+
+        <!-- ローディング -->
+        <div id="loading" class="hidden bg-white rounded-lg shadow-md p-8 text-center">
+          <div class="animate-spin inline-block w-8 h-8 border-4 border-blue-500 border-t-transparent rounded-full"></div>
+          <p class="mt-4 text-gray-600">検索中...</p>
+        </div>
+
+        <!-- 結果リスト -->
+        <div id="resultList" class="hidden space-y-3"></div>
+
+        <!-- 結果なし -->
+        <div id="noResults" class="hidden bg-white rounded-lg shadow-md p-8 text-center text-gray-500">
+          <p class="text-lg">😕 該当する法令が見つかりませんでした</p>
+          <p class="text-sm mt-2">別のキーワードで検索してみてください</p>
+        </div>
+      </section>
+
+      <!-- ページネーション -->
+      <section id="pagination" class="hidden mt-6 flex justify-center gap-2">
+        <button id="prevBtn" class="px-4 py-2 bg-gray-200 rounded hover:bg-gray-300 disabled:opacity-50">前へ</button>
+        <span id="pageInfo" class="px-4 py-2"></span>
+        <button id="nextBtn" class="px-4 py-2 bg-gray-200 rounded hover:bg-gray-300 disabled:opacity-50">次へ</button>
+      </section>
+    </main>
+
+    <footer class="bg-gray-800 text-gray-400 py-6 mt-8">
+      <div class="max-w-6xl mx-auto px-4 text-center">
+        <p>© 2025 Japan Law Database Project</p>
+        <p class="text-sm mt-2">
+          法令データは<a href="https://elaws.e-gov.go.jp/" class="text-blue-400 hover:underline">e-Gov法令検索</a>より取得
+        </p>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    // グローバル変数
+    let laws = [];
+    let fuse = null;
+    let currentResults = [];
+    let currentPage = 1;
+    const perPage = 20;
+
+    // カテゴリ名のマッピング
+    const categoryNames = {
+      constitution: "憲法",
+      acts: "法律",
+      cabinet_orders: "政令",
+      imperial_orders: "勅令",
+      ministerial_ordinances: "府省令",
+      rules: "規則",
+      misc: "その他",
+    };
+
+    // カテゴリの色
+    const categoryColors = {
+      constitution: "bg-purple-100 text-purple-800",
+      acts: "bg-blue-100 text-blue-800",
+      cabinet_orders: "bg-green-100 text-green-800",
+      imperial_orders: "bg-yellow-100 text-yellow-800",
+      ministerial_ordinances: "bg-orange-100 text-orange-800",
+      rules: "bg-red-100 text-red-800",
+      misc: "bg-gray-100 text-gray-800",
+    };
+
+    // 初期化
+    async function init() {
+      try {
+        const response = await fetch("./data/index/laws.json");
+        const data = await response.json();
+        laws = data.laws || [];
+
+        // Fuseインスタンス作成
+        fuse = new Fuse(laws, {
+          keys: ["title", "lawNum"],
+          threshold: 0.3,
+          includeScore: true,
+          minMatchCharLength: 2,
+        });
+
+        document.getElementById("totalCount").textContent = `${laws.length.toLocaleString()} 件の法令`;
+
+        // イベントリスナー設定
+        document.getElementById("searchInput").addEventListener("keypress", (e) => {
+          if (e.key === "Enter") search();
+        });
+        document.getElementById("searchBtn").addEventListener("click", search);
+        document.getElementById("categoryFilter").addEventListener("change", search);
+        document.getElementById("prevBtn").addEventListener("click", () => changePage(-1));
+        document.getElementById("nextBtn").addEventListener("click", () => changePage(1));
+
+      } catch (error) {
+        console.error("Failed to load laws:", error);
+        document.getElementById("totalCount").textContent = "データの読み込みに失敗しました";
+      }
+    }
+
+    // 検索実行
+    function search() {
+      const query = document.getElementById("searchInput").value.trim();
+      const category = document.getElementById("categoryFilter").value;
+
+      // UIリセット
+      document.getElementById("initialMessage").classList.add("hidden");
+      document.getElementById("noResults").classList.add("hidden");
+      document.getElementById("resultList").classList.add("hidden");
+      document.getElementById("pagination").classList.add("hidden");
+      document.getElementById("loading").classList.remove("hidden");
+
+      // 少し遅延させてUIを更新
+      setTimeout(() => {
+        let results;
+
+        if (query) {
+          // Fuseで検索
+          results = fuse.search(query).map(r => r.item);
+        } else {
+          // クエリなしの場合は全件
+          results = [...laws];
+        }
+
+        // カテゴリフィルター
+        if (category) {
+          results = results.filter(law => law.category === category);
+        }
+
+        currentResults = results;
+        currentPage = 1;
+
+        document.getElementById("loading").classList.add("hidden");
+
+        if (results.length === 0) {
+          document.getElementById("noResults").classList.remove("hidden");
+        } else {
+          renderResults();
+        }
+      }, 100);
+    }
+
+    // 結果を描画
+    function renderResults() {
+      const resultList = document.getElementById("resultList");
+      resultList.innerHTML = "";
+      resultList.classList.remove("hidden");
+
+      const start = (currentPage - 1) * perPage;
+      const end = start + perPage;
+      const pageResults = currentResults.slice(start, end);
+
+      for (const law of pageResults) {
+        const card = document.createElement("div");
+        card.className = "bg-white rounded-lg shadow-md p-4 hover:shadow-lg transition-shadow cursor-pointer";
+        card.innerHTML = `
+          <div class="flex items-start justify-between">
+            <div class="flex-1">
+              <h3 class="text-lg font-semibold text-blue-800 hover:underline">${law.title}</h3>
+              <p class="text-sm text-gray-600 mt-1">${law.lawNum}</p>
+            </div>
+            <span class="ml-4 px-2 py-1 text-xs rounded ${categoryColors[law.category] || categoryColors.misc}">
+              ${categoryNames[law.category] || "その他"}
+            </span>
+          </div>
+        `;
+
+        card.addEventListener("click", () => {
+          window.open(`./data/markdown/${law.category}/${law.id}.md`, "_blank");
+        });
+
+        resultList.appendChild(card);
+      }
+
+      // ページネーション
+      const totalPages = Math.ceil(currentResults.length / perPage);
+      if (totalPages > 1) {
+        document.getElementById("pagination").classList.remove("hidden");
+        document.getElementById("pageInfo").textContent = `${currentPage} / ${totalPages} ページ（${currentResults.length} 件）`;
+        document.getElementById("prevBtn").disabled = currentPage === 1;
+        document.getElementById("nextBtn").disabled = currentPage === totalPages;
+      } else {
+        document.getElementById("pagination").classList.add("hidden");
+      }
+    }
+
+    // ページ変更
+    function changePage(delta) {
+      const totalPages = Math.ceil(currentResults.length / perPage);
+      const newPage = currentPage + delta;
+
+      if (newPage >= 1 && newPage <= totalPages) {
+        currentPage = newPage;
+        renderResults();
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+    }
+
+    // 初期化実行
+    init();
+  </script>
+</body>
+</html>

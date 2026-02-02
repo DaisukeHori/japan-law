@@ -1,0 +1,10 @@
+{
+  "updated_at": "2026-02-02T06:24:37.017Z",
+  "stats": {
+    "total_nodes": 8593,
+    "total_edges": 85002,
+    "total_reachable_pairs": 0,
+    "max_hop": 0
+  },
+  "data": {}
+}
