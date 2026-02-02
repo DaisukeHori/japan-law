@@ -87,6 +87,17 @@ function loadExistingIndex(): LawIndex | null {
   return null;
 }
 
+// 既存インデックスからカテゴリマップを作成
+function buildCategoryMap(index: LawIndex | null): Map<string, string> {
+  const map = new Map<string, string>();
+  if (index?.laws) {
+    for (const law of index.laws) {
+      map.set(law.id, law.category);
+    }
+  }
+  return map;
+}
+
 // 法令一覧を取得（XML解析）
 async function fetchLawList(): Promise<LawListItem[]> {
   console.log("📋 法令一覧を取得中...");
@@ -171,6 +182,7 @@ async function main(): Promise<void> {
   // 既存インデックス読み込み
   const existingIndex = loadExistingIndex();
   const existingLawIds = new Set(existingIndex?.laws.map(l => l.id) || []);
+  const existingCategoryMap = buildCategoryMap(existingIndex);
 
   console.log(`📊 既存法令: ${existingLawIds.size} 件`);
 
@@ -180,6 +192,14 @@ async function main(): Promise<void> {
   if (lawList.length === 0) {
     console.log("⚠️ 法令一覧を取得できませんでした。既存インデックスを維持します。");
     return;
+  }
+
+  // 既存カテゴリを使用（存在しない場合のみ推測）
+  for (const law of lawList) {
+    const existingCategory = existingCategoryMap.get(law.LawId);
+    if (existingCategory) {
+      law.category = existingCategory;
+    }
   }
 
   // 新規法令を特定
