@@ -6,6 +6,10 @@
 import axios from "axios";
 import * as fs from "fs";
 import * as path from "path";
+import { fileURLToPath } from "url";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const API_BASE = "https://laws.e-gov.go.jp/api/1";
 const DATA_DIR = path.join(__dirname, "..", "data");
