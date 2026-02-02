@@ -432,14 +432,25 @@ ${proposerSearchUrl ? `[${bill.proposer?.split(/[、,　 ]/)[0] || "提出者"}�
           per_page: 100,
         });
 
-        const existingDates = new Set(
+        // 日付 + 発言者 + 会議名 の組み合わせで重複チェック
+        const existingKeys = new Set(
           existingComments.data
-            .map(c => c.body?.match(/### 📅 (\d{4}-\d{2}-\d{2})/)?.[1])
+            .map(c => {
+              const dateMatch = c.body?.match(/### 📅 (\d{4}-\d{2}-\d{2}) - (.+)\n/);
+              const speakerMatch = c.body?.match(/\*\*発言者:\*\* (.+?)（/);
+              if (dateMatch && speakerMatch) {
+                return `${dateMatch[1]}|${dateMatch[2]}|${speakerMatch[1]}`;
+              }
+              return null;
+            })
             .filter(Boolean)
         );
 
         const discussions = await fetchDiscussions(bill.bill_name, bill.diet_session);
-        const newDiscussions = discussions.filter(d => !existingDates.has(d.date));
+        const newDiscussions = discussions.filter(d => {
+          const key = `${d.date}|${d.meeting}|${d.speaker}`;
+          return !existingKeys.has(key);
+        });
 
         if (newDiscussions.length > 0) {
           console.log(`    💬 ${newDiscussions.length}件の新しい議論を追記中...`);
