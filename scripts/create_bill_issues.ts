@@ -186,7 +186,26 @@ interface Discussion {
   speaker: string;
   party: string;
   speech: string;
+  summary: string;
   speechUrl?: string;
+}
+
+// 発言から要約を生成（先頭の要点を抽出）
+function generateSummary(speech: string): string {
+  // 改行で分割して最初の実質的な文を取得
+  const lines = speech.split(/[。\n]/).filter(l => l.trim().length > 10);
+  if (lines.length === 0) return "";
+
+  // 最初の2-3文を要約として使用
+  const summaryLines = lines.slice(0, 2);
+  let summary = summaryLines.join("。");
+
+  // 200文字以内に収める
+  if (summary.length > 200) {
+    summary = summary.slice(0, 197) + "...";
+  }
+
+  return summary;
 }
 
 async function fetchDiscussions(billName: string, session: number): Promise<Discussion[]> {
@@ -214,7 +233,8 @@ async function fetchDiscussions(billName: string, session: number): Promise<Disc
         meeting: record.nameOfMeeting || "",
         speaker: record.speaker || "",
         party: record.speakerGroup || "",
-        speech: speech.slice(0, 300) + (speech.length > 300 ? "..." : ""),
+        speech: speech, // 全文を保持
+        summary: generateSummary(speech),
         speechUrl: record.speechURL,
       });
     }
@@ -227,7 +247,17 @@ async function fetchDiscussions(billName: string, session: number): Promise<Disc
 
 // 議論を個別コメント用に整形
 function formatDiscussionAsComment(discussion: Discussion): string {
-  const link = discussion.speechUrl ? `[📄 会議録を見る](${discussion.speechUrl})` : "";
+  const link = discussion.speechUrl ? `[📄 会議録全文を見る](${discussion.speechUrl})` : "";
+
+  // 全文が長い場合は折りたたみ形式で表示
+  const fullText = discussion.speech.length > 500
+    ? `<details>
+<summary>📜 発言全文を表示（${discussion.speech.length}文字）</summary>
+
+${discussion.speech}
+
+</details>`
+    : discussion.speech;
 
   return `### 📅 ${discussion.date} - ${discussion.meeting}
 
@@ -235,7 +265,14 @@ function formatDiscussionAsComment(discussion: Discussion): string {
 
 ---
 
-${discussion.speech}
+#### 💡 要約
+> ${discussion.summary || "（要約なし）"}
+
+---
+
+#### 📝 発言内容
+
+${fullText}
 
 ${link}
 
@@ -356,6 +393,8 @@ ${proposerSearchUrl ? `[${bill.proposer?.split(/[、,　 ]/)[0] || "提出者"}�
   try {
     if (existingIssueNumber) {
       // Update existing issue
+      const newState = bill.status === "成立" || bill.status === "廃案" || bill.status === "撤回" ? "closed" : "open";
+
       await octokit.issues.update({
         owner,
         repo,
@@ -363,9 +402,51 @@ ${proposerSearchUrl ? `[${bill.proposer?.split(/[、,　 ]/)[0] || "提出者"}�
         title,
         body,
         labels,
-        state: bill.status === "成立" || bill.status === "廃案" || bill.status === "撤回" ? "closed" : "open",
+        state: newState,
       });
       console.log(`  📝 Issue #${existingIssueNumber} 更新: ${bill.bill_name.slice(0, 30)}...`);
+
+      // ステータス変更時にコメントを追加
+      if (newState === "closed") {
+        const statusEmoji = bill.status === "成立" ? "✅" : bill.status === "廃案" ? "❌" : "🔙";
+        await octokit.issues.createComment({
+          owner,
+          repo,
+          issue_number: existingIssueNumber,
+          body: `### ${statusEmoji} 法案ステータス更新
+
+**${bill.status}** となりました。
+
+> 🤖 自動更新`,
+        });
+        console.log(`    📊 ステータス更新コメント追加: ${bill.status}`);
+      }
+
+      // 既存Issueにも新しい議論を追記（オプション）
+      if (fetchDiscussionData) {
+        // 既存コメントを取得して重複チェック
+        const existingComments = await octokit.issues.listComments({
+          owner,
+          repo,
+          issue_number: existingIssueNumber,
+          per_page: 100,
+        });
+
+        const existingDates = new Set(
+          existingComments.data
+            .map(c => c.body?.match(/### 📅 (\d{4}-\d{2}-\d{2})/)?.[1])
+            .filter(Boolean)
+        );
+
+        const discussions = await fetchDiscussions(bill.bill_name, bill.diet_session);
+        const newDiscussions = discussions.filter(d => !existingDates.has(d.date));
+
+        if (newDiscussions.length > 0) {
+          console.log(`    💬 ${newDiscussions.length}件の新しい議論を追記中...`);
+          await addDiscussionComments(octokit, owner, repo, existingIssueNumber, newDiscussions);
+        }
+      }
+
       return existingIssueNumber;
     } else {
       // Create new issue
