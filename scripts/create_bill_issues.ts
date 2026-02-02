@@ -225,19 +225,61 @@ async function fetchDiscussions(billName: string, session: number): Promise<Disc
   return discussions;
 }
 
-// 議論をMarkdown形式に整形
-function formatDiscussions(discussions: Discussion[]): string {
+// 議論を個別コメント用に整形
+function formatDiscussionAsComment(discussion: Discussion): string {
+  const link = discussion.speechUrl ? `[📄 会議録を見る](${discussion.speechUrl})` : "";
+
+  return `### 📅 ${discussion.date} - ${discussion.meeting}
+
+**発言者:** ${discussion.speaker}（${discussion.party}）
+
+---
+
+${discussion.speech}
+
+${link}
+
+---
+> 🤖 [国会会議録API](https://kokkai.ndl.go.jp/) から自動取得`;
+}
+
+// 議論を個別コメントとして追加
+async function addDiscussionComments(
+  octokit: Octokit,
+  owner: string,
+  repo: string,
+  issueNumber: number,
+  discussions: Discussion[]
+): Promise<void> {
   if (discussions.length === 0) {
-    return "*（国会会議録APIに該当する議論が見つかりませんでした）*";
+    // 議論がない場合は1つのコメントで通知
+    await octokit.issues.createComment({
+      owner,
+      repo,
+      issue_number: issueNumber,
+      body: `### 💬 国会での議論
+
+*国会会議録APIに該当する議論が見つかりませんでした。*
+
+> 🤖 自動検索結果`,
+    });
+    return;
   }
 
-  return discussions.map(d => {
-    const link = d.speechUrl ? `[📄](${d.speechUrl})` : "";
-    return `#### ${d.date} ${d.meeting} ${link}
-> **${d.speaker}**（${d.party}）
->
-> ${d.speech.replace(/\n/g, "\n> ")}`;
-  }).join("\n\n");
+  // 各議論を個別コメントとして追加
+  for (const discussion of discussions) {
+    await new Promise((resolve) => setTimeout(resolve, 300)); // Rate limiting
+    try {
+      await octokit.issues.createComment({
+        owner,
+        repo,
+        issue_number: issueNumber,
+        body: formatDiscussionAsComment(discussion),
+      });
+    } catch (e: any) {
+      console.log(`    ⚠️ コメント追加失敗: ${e.message}`);
+    }
+  }
 }
 
 async function createOrUpdateIssue(
@@ -269,21 +311,6 @@ async function createOrUpdateIssue(
     ? `https://github.com/${owner}/${repo}/issues?q=is%3Aissue+label%3A%22提案者%2F${encodeURIComponent(bill.proposer.split(/[、,　 ]/)[0] || "")}%22`
     : null;
 
-  // 国会での議論を取得（新規作成時のみ）
-  let discussionSection = "";
-  if (fetchDiscussionData && !existingIssueNumber) {
-    const discussions = await fetchDiscussions(bill.bill_name, bill.diet_session);
-    discussionSection = `
-
----
-
-### 💬 国会での議論
-
-${formatDiscussions(discussions)}
-
-[🔍 国会会議録で詳しく検索](https://kokkai.ndl.go.jp/#/search?any=${encodeURIComponent(bill.bill_name.slice(0, 30))}&sessionFrom=${bill.diet_session}&sessionTo=${bill.diet_session})`;
-  }
-
   const body = `## 📋 法案情報
 
 | 項目 | 内容 |
@@ -301,7 +328,15 @@ ${formatDiscussions(discussions)}
 
 ### 👤 提出者による他の法案
 
-${proposerSearchUrl ? `[${bill.proposer?.split(/[、,　 ]/)[0] || "提出者"}の提出法案一覧](${proposerSearchUrl})` : "（閣法のため該当なし）"}${discussionSection}
+${proposerSearchUrl ? `[${bill.proposer?.split(/[、,　 ]/)[0] || "提出者"}の提出法案一覧](${proposerSearchUrl})` : "（閣法のため該当なし）"}
+
+---
+
+### 🔍 国会会議録
+
+[国会会議録で検索](https://kokkai.ndl.go.jp/#/search?any=${encodeURIComponent(bill.bill_name.slice(0, 30))}&sessionFrom=${bill.diet_session}&sessionTo=${bill.diet_session})
+
+*関連する議論はコメント欄に自動追加されます*
 
 ---
 
@@ -342,6 +377,15 @@ ${proposerSearchUrl ? `[${bill.proposer?.split(/[、,　 ]/)[0] || "提出者"}�
         labels,
       });
       console.log(`  ✅ Issue #${response.data.number} 作成: ${bill.bill_name.slice(0, 30)}...`);
+
+      // 議論をコメントとして追加（新規作成時のみ）
+      if (fetchDiscussionData) {
+        const discussions = await fetchDiscussions(bill.bill_name, bill.diet_session);
+        if (discussions.length > 0) {
+          console.log(`    💬 ${discussions.length}件の議論をコメントとして追加中...`);
+          await addDiscussionComments(octokit, owner, repo, response.data.number, discussions);
+        }
+      }
 
       // If already completed, close it
       if (bill.status === "成立" || bill.status === "廃案" || bill.status === "撤回") {
