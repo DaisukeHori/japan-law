@@ -3,107 +3,140 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>法案一覧 - 日本法令データベース</title>
+  <title>法案（Issues） - 日本法令データベース</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-50 min-h-screen">
   <header class="bg-blue-900 text-white py-6">
     <div class="max-w-6xl mx-auto px-4">
       <nav class="text-blue-200 text-sm mb-2">
-        <a href="../" class="hover:underline">ホーム</a> &gt; 法案一覧
+        <a href="../" class="hover:underline">ホーム</a> &gt; 法案（Issues）
       </nav>
-      <h1 class="text-3xl font-bold">📋 法案一覧</h1>
-      <p class="text-blue-200 mt-1">国会に提出された法律案（スマートニュースMRIデータ）</p>
+      <h1 class="text-3xl font-bold">📋 法案 = GitHub Issues</h1>
+      <p class="text-blue-200 mt-1">法律の改正提案をIssueとして管理</p>
     </div>
   </header>
 
   <main class="max-w-6xl mx-auto px-4 py-8">
-    <!-- フィルター -->
-    <section class="bg-white rounded-lg shadow-md p-4 mb-6">
-      <div class="flex flex-wrap gap-4 items-center">
-        <div>
-          <label class="text-sm text-gray-600">状態</label>
-          <select id="filterStatus" class="ml-2 rounded border-gray-300 text-sm">
-            <option value="">全て</option>
-            <option value="成立">成立</option>
-            <option value="審議中">審議中</option>
-            <option value="廃案">廃案</option>
-            <option value="撤回">撤回</option>
-            <option value="継続審議">継続審議</option>
-          </select>
+    <!-- コンセプト説明 -->
+    <section class="bg-white rounded-lg shadow-md p-6 mb-6">
+      <h2 class="text-xl font-bold mb-4">💡 法律 = ソースコード</h2>
+      <p class="text-gray-700 mb-4">
+        このプロジェクトでは、法律をソースコードのように Git で管理しています。
+        法案（Bill）は、ソフトウェア開発における「Issue」や「Pull Request」に相当します。
+      </p>
+
+      <div class="grid md:grid-cols-2 gap-6 mt-6">
+        <div class="border rounded-lg p-4">
+          <h3 class="font-bold text-lg mb-2">🔄 ソフトウェア開発</h3>
+          <ul class="text-sm space-y-2 text-gray-600">
+            <li><strong>Issue:</strong> バグ報告・機能要望</li>
+            <li><strong>Pull Request:</strong> コード変更の提案</li>
+            <li><strong>Merge:</strong> 変更の承認・反映</li>
+            <li><strong>git diff:</strong> 変更差分の確認</li>
+            <li><strong>git log:</strong> 変更履歴の追跡</li>
+          </ul>
         </div>
-        
-        <div>
-          <label class="text-sm text-gray-600">種別</label>
-          <select id="filterType" class="ml-2 rounded border-gray-300 text-sm">
-            <option value="">全て</option>
-            <option value="閣法">閣法（内閣提出）</option>
-            <option value="衆法">衆法（衆議院議員提出）</option>
-            <option value="参法">参法（参議院議員提出）</option>
-          </select>
-        </div>
-        
-        <div class="flex-1">
-          <input 
-            type="text" 
-            id="searchInput"
-            placeholder="法案名で検索..."
-            class="w-full max-w-xs rounded border-gray-300 text-sm px-3 py-2"
-          >
+        <div class="border rounded-lg p-4 bg-blue-50">
+          <h3 class="font-bold text-lg mb-2">⚖️ 立法プロセス</h3>
+          <ul class="text-sm space-y-2 text-gray-600">
+            <li><strong>Issue:</strong> 法案提出・審議開始</li>
+            <li><strong>Pull Request:</strong> 法案の内容（新旧対照表）</li>
+            <li><strong>Merge:</strong> 法案成立・公布</li>
+            <li><strong>git diff:</strong> 改正前後の差分</li>
+            <li><strong>git log:</strong> 改正履歴</li>
+          </ul>
         </div>
       </div>
     </section>
 
-    <!-- 統計 -->
-    <section class="grid grid-cols-2 md:grid-cols-5 gap-4 mb-6">
-      <div class="bg-white rounded-lg shadow p-4 text-center">
-        <div class="text-2xl font-bold text-blue-600" id="stat-total">0</div>
-        <div class="text-sm text-gray-500">総法案数</div>
-      </div>
-      <div class="bg-white rounded-lg shadow p-4 text-center">
-        <div class="text-2xl font-bold text-green-600" id="stat-passed">0</div>
-        <div class="text-sm text-gray-500">成立</div>
-      </div>
-      <div class="bg-white rounded-lg shadow p-4 text-center">
-        <div class="text-2xl font-bold text-yellow-600" id="stat-pending">0</div>
-        <div class="text-sm text-gray-500">審議中</div>
-      </div>
-      <div class="bg-white rounded-lg shadow p-4 text-center">
-        <div class="text-2xl font-bold text-red-600" id="stat-rejected">0</div>
-        <div class="text-sm text-gray-500">廃案</div>
-      </div>
-      <div class="bg-white rounded-lg shadow p-4 text-center">
-        <div class="text-2xl font-bold text-purple-600" id="stat-rate">0%</div>
-        <div class="text-sm text-gray-500">成立率</div>
+    <!-- GitHub Issues リンク -->
+    <section class="bg-white rounded-lg shadow-md p-6 mb-6">
+      <h2 class="text-xl font-bold mb-4">📝 法案を Issue として管理</h2>
+      <p class="text-gray-700 mb-4">
+        法案の提案・議論は GitHub Issues で行います。
+        ラベルを使って状態（審議中・成立・廃案）を管理できます。
+      </p>
+
+      <div class="flex flex-wrap gap-4 mt-6">
+        <a href="https://github.com/DaisukeHori/japan-law/issues"
+           target="_blank"
+           class="inline-flex items-center px-6 py-3 bg-gray-900 text-white rounded-lg hover:bg-gray-700">
+          <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+          Issues を見る
+        </a>
+        <a href="https://github.com/DaisukeHori/japan-law/issues/new"
+           target="_blank"
+           class="inline-flex items-center px-6 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700">
+          ➕ 新しい法案を提案
+        </a>
+        <a href="https://github.com/DaisukeHori/japan-law/pulls"
+           target="_blank"
+           class="inline-flex items-center px-6 py-3 bg-purple-600 text-white rounded-lg hover:bg-purple-700">
+          🔀 Pull Requests
+        </a>
       </div>
     </section>
 
-    <!-- 結果 -->
-    <section class="bg-white rounded-lg shadow-md overflow-hidden">
-      <div class="p-4 border-b">
-        <span id="resultCount" class="text-gray-600">読み込み中...</span>
+    <!-- ラベル一覧 -->
+    <section class="bg-white rounded-lg shadow-md p-6 mb-6">
+      <h2 class="text-xl font-bold mb-4">🏷️ 推奨ラベル</h2>
+      <div class="grid md:grid-cols-3 gap-4">
+        <div class="border rounded p-3">
+          <span class="inline-block px-2 py-1 text-sm rounded bg-yellow-100 text-yellow-800 mb-2">審議中</span>
+          <p class="text-sm text-gray-600">国会で審議中の法案</p>
+        </div>
+        <div class="border rounded p-3">
+          <span class="inline-block px-2 py-1 text-sm rounded bg-green-100 text-green-800 mb-2">成立</span>
+          <p class="text-sm text-gray-600">可決成立した法案</p>
+        </div>
+        <div class="border rounded p-3">
+          <span class="inline-block px-2 py-1 text-sm rounded bg-red-100 text-red-800 mb-2">廃案</span>
+          <p class="text-sm text-gray-600">否決・廃案となった法案</p>
+        </div>
+        <div class="border rounded p-3">
+          <span class="inline-block px-2 py-1 text-sm rounded bg-purple-100 text-purple-800 mb-2">閣法</span>
+          <p class="text-sm text-gray-600">内閣提出法案</p>
+        </div>
+        <div class="border rounded p-3">
+          <span class="inline-block px-2 py-1 text-sm rounded bg-orange-100 text-orange-800 mb-2">衆法</span>
+          <p class="text-sm text-gray-600">衆議院議員提出法案</p>
+        </div>
+        <div class="border rounded p-3">
+          <span class="inline-block px-2 py-1 text-sm rounded bg-pink-100 text-pink-800 mb-2">参法</span>
+          <p class="text-sm text-gray-600">参議院議員提出法案</p>
+        </div>
       </div>
-      <div class="overflow-x-auto">
-        <table class="w-full">
-          <thead class="bg-gray-50">
-            <tr>
-              <th class="px-4 py-3 text-left text-sm font-semibold text-gray-600">法案名</th>
-              <th class="px-4 py-3 text-left text-sm font-semibold text-gray-600">提出者</th>
-              <th class="px-4 py-3 text-center text-sm font-semibold text-gray-600">種別</th>
-              <th class="px-4 py-3 text-center text-sm font-semibold text-gray-600">状態</th>
-              <th class="px-4 py-3 text-center text-sm font-semibold text-gray-600">国会</th>
-            </tr>
-          </thead>
-          <tbody id="billsTable" class="divide-y">
-          </tbody>
-        </table>
+    </section>
+
+    <!-- 既存データ -->
+    <section class="bg-white rounded-lg shadow-md p-6">
+      <h2 class="text-xl font-bold mb-4">📊 過去の法案データ（参考）</h2>
+      <p class="text-gray-700 mb-4">
+        スマートニュース メディア研究所から取得した過去の法案データです。
+      </p>
+
+      <div id="stats" class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+        <div class="bg-blue-50 rounded p-3 text-center">
+          <div class="text-xl font-bold text-blue-600" id="stat-total">-</div>
+          <div class="text-xs text-gray-500">総法案数</div>
+        </div>
+        <div class="bg-green-50 rounded p-3 text-center">
+          <div class="text-xl font-bold text-green-600" id="stat-passed">-</div>
+          <div class="text-xs text-gray-500">成立</div>
+        </div>
+        <div class="bg-red-50 rounded p-3 text-center">
+          <div class="text-xl font-bold text-red-600" id="stat-rejected">-</div>
+          <div class="text-xs text-gray-500">廃案</div>
+        </div>
+        <div class="bg-purple-50 rounded p-3 text-center">
+          <div class="text-xl font-bold text-purple-600" id="stat-rate">-</div>
+          <div class="text-xs text-gray-500">成立率</div>
+        </div>
       </div>
-      
-      <!-- ページネーション -->
-      <div id="pagination" class="p-4 border-t flex justify-center gap-2">
-        <button id="prevBtn" class="px-4 py-2 bg-gray-200 rounded hover:bg-gray-300 disabled:opacity-50">前へ</button>
-        <span id="pageInfo" class="px-4 py-2"></span>
-        <button id="nextBtn" class="px-4 py-2 bg-gray-200 rounded hover:bg-gray-300 disabled:opacity-50">次へ</button>
+
+      <div id="recent-bills" class="space-y-2 max-h-64 overflow-y-auto">
+        <p class="text-gray-500 text-center py-4">読み込み中...</p>
       </div>
     </section>
   </main>
@@ -112,115 +145,62 @@
     <div class="max-w-6xl mx-auto px-4 text-center">
       <p>© 2025 Japan Law Database Project</p>
       <p class="text-sm mt-2">
-        議案データは<a href="https://github.com/smartnews-smri" class="text-blue-400 hover:underline">スマートニュース メディア研究所</a>より取得（MIT License）
+        法案データは<a href="https://github.com/smartnews-smri" class="text-blue-400 hover:underline">スマートニュース メディア研究所</a>より取得（MIT License）
       </p>
     </div>
   </footer>
 
   <script>
-    let bills = [];
-    let filteredBills = [];
-    let currentPage = 1;
-    const perPage = 50;
-
-    const statusColors = {
-      '成立': 'bg-green-100 text-green-800',
-      '審議中': 'bg-yellow-100 text-yellow-800',
-      '廃案': 'bg-red-100 text-red-800',
-      '撤回': 'bg-gray-100 text-gray-800',
-      '継続審議': 'bg-blue-100 text-blue-800',
-    };
-
-    const typeColors = {
-      '閣法': 'bg-purple-100 text-purple-800',
-      '衆法': 'bg-orange-100 text-orange-800',
-      '参法': 'bg-pink-100 text-pink-800',
-    };
-
     async function loadData() {
       try {
         const response = await fetch('../data/index/legislators/smri_bills.json');
         const data = await response.json();
-        bills = data.bills || [];
-        
-        updateStats();
-        applyFilters();
+        const bills = data.bills || [];
+
+        // 統計
+        const total = bills.length;
+        const passed = bills.filter(b => b.status === '成立').length;
+        const rejected = bills.filter(b => b.status === '廃案').length;
+        const rate = total > 0 ? ((passed / total) * 100).toFixed(1) : 0;
+
+        document.getElementById('stat-total').textContent = total.toLocaleString();
+        document.getElementById('stat-passed').textContent = passed.toLocaleString();
+        document.getElementById('stat-rejected').textContent = rejected.toLocaleString();
+        document.getElementById('stat-rate').textContent = rate + '%';
+
+        // 最近の法案
+        const recent = bills.sort((a, b) => b.diet_session - a.diet_session).slice(0, 20);
+        const container = document.getElementById('recent-bills');
+
+        if (recent.length === 0) {
+          container.innerHTML = '<p class="text-gray-500 text-center">データがありません</p>';
+          return;
+        }
+
+        container.innerHTML = recent.map(b => {
+          const statusClass = {
+            '成立': 'bg-green-100 text-green-800',
+            '審議中': 'bg-yellow-100 text-yellow-800',
+            '廃案': 'bg-red-100 text-red-800'
+          }[b.status] || 'bg-gray-100';
+
+          return `
+            <div class="border rounded p-2 text-sm">
+              <div class="flex items-center justify-between">
+                <span class="font-medium truncate flex-1">${b.bill_name}</span>
+                <span class="px-2 py-0.5 text-xs rounded ${statusClass} ml-2">${b.status}</span>
+              </div>
+              <div class="text-xs text-gray-500 mt-1">第${b.diet_session}回国会 / ${b.proposer_type}</div>
+            </div>
+          `;
+        }).join('');
+
       } catch (e) {
-        console.error('Failed to load bills:', e);
-        document.getElementById('resultCount').textContent = 'データの読み込みに失敗しました';
+        console.error('Failed to load:', e);
+        document.getElementById('recent-bills').innerHTML =
+          '<p class="text-gray-500 text-center">データの読み込みに失敗しました</p>';
       }
     }
-
-    function updateStats() {
-      const total = bills.length;
-      const passed = bills.filter(b => b.status === '成立').length;
-      const pending = bills.filter(b => b.status === '審議中').length;
-      const rejected = bills.filter(b => b.status === '廃案').length;
-      const rate = total > 0 ? ((passed / total) * 100).toFixed(1) : 0;
-
-      document.getElementById('stat-total').textContent = total.toLocaleString();
-      document.getElementById('stat-passed').textContent = passed.toLocaleString();
-      document.getElementById('stat-pending').textContent = pending.toLocaleString();
-      document.getElementById('stat-rejected').textContent = rejected.toLocaleString();
-      document.getElementById('stat-rate').textContent = rate + '%';
-    }
-
-    function applyFilters() {
-      const status = document.getElementById('filterStatus').value;
-      const type = document.getElementById('filterType').value;
-      const query = document.getElementById('searchInput').value.toLowerCase();
-
-      filteredBills = bills.filter(b => {
-        if (status && b.status !== status) return false;
-        if (type && b.proposer_type !== type) return false;
-        if (query && !b.bill_name.toLowerCase().includes(query)) return false;
-        return true;
-      });
-
-      // 新しい順にソート
-      filteredBills.sort((a, b) => b.diet_session - a.diet_session);
-
-      currentPage = 1;
-      renderTable();
-    }
-
-    function renderTable() {
-      const start = (currentPage - 1) * perPage;
-      const end = start + perPage;
-      const pageBills = filteredBills.slice(start, end);
-
-      const tbody = document.getElementById('billsTable');
-      tbody.innerHTML = pageBills.map(b => `
-        <tr class="hover:bg-gray-50">
-          <td class="px-4 py-3">
-            <div class="font-medium text-gray-900">${b.bill_name}</div>
-          </td>
-          <td class="px-4 py-3 text-sm text-gray-600">${b.proposer || '-'}</td>
-          <td class="px-4 py-3 text-center">
-            <span class="px-2 py-1 text-xs rounded ${typeColors[b.proposer_type] || 'bg-gray-100'}">${b.proposer_type || '-'}</span>
-          </td>
-          <td class="px-4 py-3 text-center">
-            <span class="px-2 py-1 text-xs rounded ${statusColors[b.status] || 'bg-gray-100'}">${b.status}</span>
-          </td>
-          <td class="px-4 py-3 text-center text-sm text-gray-600">第${b.diet_session}回</td>
-        </tr>
-      `).join('');
-
-      document.getElementById('resultCount').textContent = `${filteredBills.length.toLocaleString()} 件`;
-
-      // ページネーション
-      const totalPages = Math.ceil(filteredBills.length / perPage);
-      document.getElementById('pageInfo').textContent = `${currentPage} / ${totalPages}`;
-      document.getElementById('prevBtn').disabled = currentPage === 1;
-      document.getElementById('nextBtn').disabled = currentPage >= totalPages;
-    }
-
-    // イベントリスナー
-    document.getElementById('filterStatus').addEventListener('change', applyFilters);
-    document.getElementById('filterType').addEventListener('change', applyFilters);
-    document.getElementById('searchInput').addEventListener('input', applyFilters);
-    document.getElementById('prevBtn').addEventListener('click', () => { currentPage--; renderTable(); });
-    document.getElementById('nextBtn').addEventListener('click', () => { currentPage++; renderTable(); });
 
     loadData();
   </script>

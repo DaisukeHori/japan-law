@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>政党統計 - 日本法令データベース</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/alpinejs@3.x.x/dist/cdn.min.js" defer></script>
+</head>
+<body class="bg-gray-50 min-h-screen">
+  <div x-data="partyStats()" x-init="loadData()">
+    <!-- Header -->
+    <header class="bg-blue-900 text-white py-6">
+      <div class="max-w-6xl mx-auto px-4">
+        <nav class="text-blue-200 text-sm mb-2">
+          <a href="../" class="hover:underline">ホーム</a> &gt; 政党統計
+        </nav>
+        <h1 class="text-3xl font-bold">🏢 政党統計</h1>
+        <p class="text-blue-200 mt-1">政党別の議員数・法案提出状況</p>
+      </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-4 py-8">
+      <!-- 全体統計 -->
+      <section class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
+        <div class="bg-white rounded-lg shadow p-4 text-center">
+          <div class="text-2xl font-bold text-blue-600" x-text="stats.total_legislators || 0"></div>
+          <div class="text-sm text-gray-500">総議員数</div>
+        </div>
+        <div class="bg-white rounded-lg shadow p-4 text-center">
+          <div class="text-2xl font-bold text-green-600" x-text="parties.length"></div>
+          <div class="text-sm text-gray-500">政党数</div>
+        </div>
+        <div class="bg-white rounded-lg shadow p-4 text-center">
+          <div class="text-2xl font-bold text-yellow-600" x-text="stats.total_bills || 0"></div>
+          <div class="text-sm text-gray-500">総法案数</div>
+        </div>
+        <div class="bg-white rounded-lg shadow p-4 text-center">
+          <div class="text-2xl font-bold text-purple-600" x-text="stats.passed_bills || 0"></div>
+          <div class="text-sm text-gray-500">成立法案数</div>
+        </div>
+      </section>
+
+      <!-- 政党カード -->
+      <section class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <template x-for="party in sortedParties" :key="party.id">
+          <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+            <div class="p-4 text-white" :style="{ backgroundColor: party.color }">
+              <h3 class="text-xl font-bold" x-text="party.name"></h3>
+              <p class="text-sm opacity-80" x-text="party.short_name"></p>
+            </div>
+            <div class="p-4">
+              <div class="grid grid-cols-2 gap-4 text-center mb-4">
+                <div>
+                  <div class="text-2xl font-bold" x-text="party.member_count || 0"></div>
+                  <div class="text-xs text-gray-500">議員数</div>
+                </div>
+                <div>
+                  <div class="text-2xl font-bold" x-text="party.bill_count || 0"></div>
+                  <div class="text-xs text-gray-500">法案数</div>
+                </div>
+              </div>
+              <div class="text-sm text-gray-600">
+                <div class="flex justify-between mb-1">
+                  <span>成立:</span>
+                  <span x-text="party.passed_count || 0"></span>
+                </div>
+                <div class="flex justify-between">
+                  <span>成功率:</span>
+                  <span x-text="((party.success_rate || 0) * 100).toFixed(1) + '%'"></span>
+                </div>
+              </div>
+              <template x-if="party.official_url">
+                <a :href="party.official_url" target="_blank"
+                   class="mt-4 block text-center text-sm text-blue-600 hover:underline">
+                  公式サイト →
+                </a>
+              </template>
+            </div>
+          </div>
+        </template>
+      </section>
+
+      <!-- 説明 -->
+      <section class="mt-8 bg-white rounded-lg shadow-md p-6">
+        <h2 class="text-lg font-bold mb-2">📊 データについて</h2>
+        <p class="text-gray-600 text-sm">
+          議員データは SmartNews Media Research Institute の
+          <a href="https://github.com/smartnews-smri/house-of-councillors" class="text-blue-600 hover:underline">参議院データ</a>
+          から取得しています（MIT License）。
+          法案の提出状況は e-Gov 法令検索 API および国会議案データベースから集計しています。
+        </p>
+      </section>
+    </main>
+
+    <footer class="bg-gray-800 text-gray-400 py-6 mt-8">
+      <div class="max-w-6xl mx-auto px-4 text-center">
+        <p>© 2025 Japan Law Database Project</p>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    function partyStats() {
+      return {
+        parties: [],
+        legislators: [],
+        stats: {},
+
+        async loadData() {
+          try {
+            const [statsRes, partiesRes, legislatorsRes] = await Promise.all([
+              fetch('../data/index/legislators/activity_stats.json'),
+              fetch('../data/index/legislators/parties.json'),
+              fetch('../data/index/legislators/legislators.json')
+            ]);
+
+            const statsData = await statsRes.json();
+            const partiesData = await partiesRes.json();
+            const legislatorsData = await legislatorsRes.json();
+
+            this.stats = statsData.summary || {};
+            this.legislators = legislatorsData.legislators || [];
+
+            // 政党ごとの統計を計算
+            const partyStats = {};
+            for (const leg of this.legislators) {
+              const pid = leg.party_id;
+              if (!partyStats[pid]) {
+                partyStats[pid] = { member_count: 0, bill_count: 0, passed_count: 0 };
+              }
+              partyStats[pid].member_count++;
+            }
+
+            // 政党データと統計をマージ
+            this.parties = (partiesData.parties || []).map(party => ({
+              ...party,
+              member_count: partyStats[party.id]?.member_count || 0,
+              bill_count: partyStats[party.id]?.bill_count || 0,
+              passed_count: partyStats[party.id]?.passed_count || 0,
+              success_rate: partyStats[party.id]?.bill_count
+                ? partyStats[party.id].passed_count / partyStats[party.id].bill_count
+                : 0
+            }));
+
+          } catch (e) {
+            console.error('Failed to load data:', e);
+          }
+        },
+
+        get sortedParties() {
+          return [...this.parties].sort((a, b) => b.member_count - a.member_count);
+        }
+      };
+    }
+  </script>
+</body>
+</html>
