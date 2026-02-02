@@ -20,6 +20,7 @@ on:
 permissions:
   contents: write
   issues: write
+  pull-requests: write
 
 jobs:
   track:
@@ -59,6 +60,18 @@ jobs:
           ISSUES_NUM_SESSIONS: ${{ inputs.num_sessions || '10' }}
           ISSUES_MAX_CREATE: ${{ inputs.max_create || '50' }}
 
+      - name: Create PRs for enacted bills
+        run: |
+          echo "Creating PRs for enacted bills..."
+          node --loader ts-node/esm create_enactment_prs.ts
+        working-directory: scripts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          NODE_OPTIONS: '--max-old-space-size=4096 --no-warnings'
+          PRS_MAX_CREATE: '10'
+        continue-on-error: true
+
       - name: Commit tracking data
         run: |
           git config user.name "github-actions[bot]"
@@ -73,6 +86,7 @@ jobs:
             - 議員データ更新（国会会議録API）
             - 法案データ更新（SMRI）
             - GitHub Issues同期
+            - 成立法案PR作成
 
             自動更新 by GitHub Actions"
             git push
