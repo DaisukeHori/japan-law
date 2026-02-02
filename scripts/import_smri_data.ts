@@ -6,6 +6,10 @@
 import axios from "axios";
 import * as fs from "fs";
 import * as path from "path";
+import { fileURLToPath } from "url";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const DATA_DIR = path.join(__dirname, "..", "data");
 const LEGISLATORS_DIR = path.join(DATA_DIR, "index", "legislators");
@@ -36,6 +40,7 @@ interface Bill {
   bill_type: string;
   bill_name: string;
   proposer: string;
+  proposer_party?: string;
   proposer_type: string;
   status: string;
   house: string;
@@ -146,24 +151,29 @@ async function fetchBills(): Promise<Bill[]> {
     const data = convertArrayFormat(response.data);
     
     for (const item of data) {
-      const type = item["種類"] || "";
-      if (!type.includes("法律案")) continue;
-      
+      const type = item["議案種類"] || item["種類"] || "";
+      if (!type.includes("法") && !type.includes("案")) continue;
+
+      // 審議状況から状態を判定
       const statusText = item["審議状況"] || "";
       let status = "審議中";
       if (statusText.includes("成立")) status = "成立";
-      else if (statusText.includes("未了") || statusText.includes("否決")) status = "廃案";
+      else if (statusText.includes("否決") || statusText.includes("未了") || statusText.includes("審議未了")) status = "廃案";
       else if (statusText.includes("撤回")) status = "撤回";
       else if (statusText.includes("継続")) status = "継続審議";
-      
-      const proposerType = item["議案種類"]?.includes("閣") ? "閣法" : "衆法";
-      
+
+      // 提出者・提出会派情報
+      const proposer = item["議案提出者"] || "";
+      const proposerParty = item["議案提出会派"] || "";
+      const proposerType = type.includes("閣") ? "閣法" : "衆法";
+
       bills.push({
         id: `house_${item["掲載回次"]}_${bills.length}`,
         diet_session: parseInt(item["掲載回次"]) || 0,
         bill_type: type,
-        bill_name: item["件名"] || "",
-        proposer: item["提出者"] || "",
+        bill_name: item["議案件名"] || item["件名"] || "",
+        proposer,
+        proposer_party: proposerParty,
         proposer_type: proposerType,
         status,
         house: "衆議院",
@@ -184,22 +194,26 @@ async function fetchBills(): Promise<Bill[]> {
     for (const item of data) {
       const type = item["種類"] || "";
       if (!type.includes("法律案")) continue;
-      
-      const statusText = item["審議状況"] || "";
+
+      // 議決結果から状態を判定
+      const voteResult = item["参議院本会議経過情報 - 議決"] || item["衆議院本会議経過情報 - 議決"] || "";
+      const lawNum = item["その他の情報 - 法律番号"] || "";
       let status = "審議中";
-      if (statusText.includes("成立")) status = "成立";
-      else if (statusText.includes("未了") || statusText.includes("否決")) status = "廃案";
-      else if (statusText.includes("撤回")) status = "撤回";
-      else if (statusText.includes("継続")) status = "継続審議";
-      
-      const proposerType = item["議案種類"]?.includes("閣") ? "閣法" : "参法";
-      
+      if (lawNum) status = "成立";
+      else if (voteResult.includes("可決")) status = "成立";
+      else if (voteResult.includes("否決")) status = "廃案";
+      else if (voteResult.includes("撤回")) status = "撤回";
+
+      // 提出者情報
+      const proposer = item["議案審議情報一覧 - 発議者"] || item["議案審議情報一覧 - 提出者"] || "";
+      const proposerType = type.includes("内閣提出") ? "閣法" : "参法";
+
       bills.push({
-        id: `councillors_${item["掲載回次"]}_${bills.length}`,
-        diet_session: parseInt(item["掲載回次"]) || 0,
+        id: `councillors_${item["審議回次"] || item["提出回次"]}_${bills.length}`,
+        diet_session: parseInt(item["審議回次"] || item["提出回次"]) || 0,
         bill_type: type,
         bill_name: item["件名"] || "",
-        proposer: item["提出者"] || "",
+        proposer,
         proposer_type: proposerType,
         status,
         house: "参議院",

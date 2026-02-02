@@ -50,9 +50,25 @@
               <p class="text-sm opacity-80" x-text="party.short_name"></p>
             </div>
             <div class="p-4">
-              <div class="text-center mb-4">
-                <div class="text-3xl font-bold" x-text="party.member_count || 0"></div>
-                <div class="text-sm text-gray-500">所属議員数（参議院）</div>
+              <div class="grid grid-cols-2 gap-4 text-center mb-4">
+                <div>
+                  <div class="text-2xl font-bold" x-text="party.member_count || 0"></div>
+                  <div class="text-xs text-gray-500">議員数</div>
+                </div>
+                <div>
+                  <div class="text-2xl font-bold" x-text="party.bill_count || 0"></div>
+                  <div class="text-xs text-gray-500">関連法案</div>
+                </div>
+              </div>
+              <div class="text-sm text-gray-600 border-t pt-2">
+                <div class="flex justify-between">
+                  <span>成立:</span>
+                  <span x-text="party.passed_count || 0"></span>
+                </div>
+                <div class="flex justify-between">
+                  <span>成功率:</span>
+                  <span x-text="((party.success_rate || 0) * 100).toFixed(1) + '%'"></span>
+                </div>
               </div>
               <template x-if="party.official_url">
                 <a :href="party.official_url" target="_blank"
@@ -125,23 +141,53 @@
               partyStats[pid].member_count++;
             }
 
-            // 法案種別から政党を推測（閣法、衆法、参法）
-            for (const bill of bills) {
-              // 閣法は内閣（政府）なのでスキップ
-              if (bill.proposer_type === '閣法') continue;
+            // 法案から政党ごとの統計を計算
+            const partyNameMap = {
+              '自由民主党': 'ldp', '自民': 'ldp', '自民党': 'ldp',
+              '立憲民主党': 'cdp', '立憲': 'cdp',
+              '公明党': 'komei', '公明': 'komei',
+              '日本維新の会': 'ishin', '維新': 'ishin',
+              '国民民主党': 'dpfp', '国民': 'dpfp',
+              '日本共産党': 'jcp', '共産': 'jcp', '共産党': 'jcp',
+              'れいわ新選組': 'reiwa', 'れいわ': 'reiwa',
+              '民主党': 'other', '社会民主党': 'other', '新進党': 'other'
+            };
 
-              // 衆法・参法は議員提出だが、政党情報がないのでカウントのみ
-              // ここでは全体統計として使用
+            for (const bill of bills) {
+              if (bill.proposer_type === '閣法') continue;
+              const partyStr = bill.proposer_party || '';
+              if (!partyStr) continue;
+
+              // 複数政党の場合、最初の政党をカウント
+              const parties = partyStr.split(/[;；、,]/);
+              for (const p of parties) {
+                const pName = p.trim();
+                for (const [key, pid] of Object.entries(partyNameMap)) {
+                  if (pName.includes(key)) {
+                    if (!partyStats[pid]) {
+                      partyStats[pid] = { member_count: 0, bill_count: 0, passed_count: 0 };
+                    }
+                    partyStats[pid].bill_count++;
+                    if (bill.status === '成立') {
+                      partyStats[pid].passed_count++;
+                    }
+                    break;
+                  }
+                }
+              }
             }
 
             // 政党データと統計をマージ
-            this.parties = (partiesData.parties || []).map(party => ({
-              ...party,
-              member_count: partyStats[party.id]?.member_count || 0,
-              bill_count: 0, // 政党別の法案数は現在のデータでは取得不可
-              passed_count: 0,
-              success_rate: 0
-            }));
+            this.parties = (partiesData.parties || []).map(party => {
+              const stats = partyStats[party.id] || { member_count: 0, bill_count: 0, passed_count: 0 };
+              return {
+                ...party,
+                member_count: stats.member_count,
+                bill_count: stats.bill_count,
+                passed_count: stats.passed_count,
+                success_rate: stats.bill_count > 0 ? stats.passed_count / stats.bill_count : 0
+              };
+            });
 
           } catch (e) {
             console.error('Failed to load data:', e);
