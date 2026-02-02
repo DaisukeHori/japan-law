@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>法令改正履歴 - 日本法令データベース</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/diff2html@3.4.48/bundles/js/diff2html-ui.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/diff2html@3.4.48/bundles/css/diff2html.min.css">
+  <style>
+    .d2h-wrapper { font-size: 13px; }
+    .d2h-file-header { background: #f1f5f9; }
+    .d2h-code-line-ctn { white-space: pre-wrap; word-wrap: break-word; }
+    .commit-card:hover { transform: translateY(-2px); }
+  </style>
+</head>
+<body class="bg-gray-50 min-h-screen">
+  <header class="bg-blue-900 text-white py-4">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="flex items-center justify-between">
+        <div>
+          <h1 class="text-2xl font-bold">📜 法令改正履歴</h1>
+          <p class="text-blue-200 text-sm">Law Amendment History Viewer</p>
+        </div>
+        <a href="./" class="text-blue-200 hover:text-white">← ホームに戻る</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-7xl mx-auto px-4 py-6">
+    <!-- 説明 -->
+    <div class="bg-white rounded-lg shadow-md p-6 mb-6">
+      <h2 class="text-lg font-bold mb-2">💡 法令をコードとして管理</h2>
+      <p class="text-gray-700 mb-4">
+        このプロジェクトでは、法令をソースコードのように Git で管理しています。
+        法令の改正は Git のコミット履歴として記録され、差分（diff）で変更箇所を確認できます。
+      </p>
+      <div class="grid md:grid-cols-4 gap-4 text-center text-sm">
+        <div class="bg-blue-50 rounded-lg p-3">
+          <div class="text-2xl mb-1">📝</div>
+          <div class="font-semibold">Create</div>
+          <div class="text-gray-600">新規法令 = git add</div>
+        </div>
+        <div class="bg-green-50 rounded-lg p-3">
+          <div class="text-2xl mb-1">📖</div>
+          <div class="font-semibold">Read</div>
+          <div class="text-gray-600">法令閲覧 = git show</div>
+        </div>
+        <div class="bg-yellow-50 rounded-lg p-3">
+          <div class="text-2xl mb-1">✏️</div>
+          <div class="font-semibold">Update</div>
+          <div class="text-gray-600">法令改正 = git diff</div>
+        </div>
+        <div class="bg-red-50 rounded-lg p-3">
+          <div class="text-2xl mb-1">🗑️</div>
+          <div class="font-semibold">Delete</div>
+          <div class="text-gray-600">法令廃止 = git rm</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 法令選択 -->
+    <div class="bg-white rounded-lg shadow-md p-6 mb-6">
+      <h3 class="text-lg font-bold mb-4">🔍 法令を選択</h3>
+      <div class="flex flex-col md:flex-row gap-4">
+        <div class="flex-1">
+          <input type="text" id="law-search" placeholder="法令名で検索..."
+                 class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-blue-500 focus:border-blue-500">
+        </div>
+        <button id="load-history-btn" class="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700">
+          履歴を表示
+        </button>
+      </div>
+      <div id="law-suggestions" class="mt-2 max-h-48 overflow-y-auto hidden border rounded-lg"></div>
+    </div>
+
+    <!-- コミット履歴 -->
+    <div id="history-section" class="hidden">
+      <div class="bg-white rounded-lg shadow-md p-6 mb-6">
+        <h3 class="text-lg font-bold mb-4">📋 コミット履歴: <span id="selected-law-name" class="text-blue-600"></span></h3>
+        <div id="commit-list" class="space-y-3"></div>
+        <div id="no-history" class="hidden text-center text-gray-500 py-8">
+          <p>この法令の改正履歴はまだありません。</p>
+          <p class="text-sm mt-2">e-Gov API からのデータ更新時に履歴が追加されます。</p>
+        </div>
+      </div>
+
+      <!-- 差分表示 -->
+      <div id="diff-section" class="hidden bg-white rounded-lg shadow-md p-6">
+        <h3 class="text-lg font-bold mb-4">📊 変更差分</h3>
+        <div id="diff-container"></div>
+      </div>
+    </div>
+
+    <!-- 最近の変更 -->
+    <div class="bg-white rounded-lg shadow-md p-6">
+      <h3 class="text-lg font-bold mb-4">🕐 最近の法令更新</h3>
+      <div id="recent-changes" class="space-y-3">
+        <p class="text-gray-500 text-center py-4">読み込み中...</p>
+      </div>
+    </div>
+  </main>
+
+  <script>
+    let laws = [];
+    let selectedLaw = null;
+
+    // 初期化
+    async function init() {
+      try {
+        const response = await fetch('./data/index/laws.json');
+        const data = await response.json();
+        laws = data.laws || [];
+
+        // 検索サジェスト
+        const searchInput = document.getElementById('law-search');
+        const suggestions = document.getElementById('law-suggestions');
+
+        searchInput.addEventListener('input', (e) => {
+          const query = e.target.value.toLowerCase();
+          if (query.length < 2) {
+            suggestions.classList.add('hidden');
+            return;
+          }
+
+          const matches = laws.filter(l =>
+            l.title.toLowerCase().includes(query)
+          ).slice(0, 10);
+
+          if (matches.length > 0) {
+            suggestions.innerHTML = matches.map(l => `
+              <div class="px-4 py-2 hover:bg-gray-100 cursor-pointer border-b" data-id="${l.id}" data-title="${l.title}" data-category="${l.category}">
+                <span class="font-medium">${l.title}</span>
+                <span class="text-xs text-gray-500 ml-2">${l.lawNum}</span>
+              </div>
+            `).join('');
+            suggestions.classList.remove('hidden');
+
+            // クリックイベント
+            suggestions.querySelectorAll('div').forEach(el => {
+              el.addEventListener('click', () => {
+                selectedLaw = {
+                  id: el.dataset.id,
+                  title: el.dataset.title,
+                  category: el.dataset.category
+                };
+                searchInput.value = el.dataset.title;
+                suggestions.classList.add('hidden');
+              });
+            });
+          } else {
+            suggestions.classList.add('hidden');
+          }
+        });
+
+        // 履歴表示ボタン
+        document.getElementById('load-history-btn').addEventListener('click', loadHistory);
+
+        // 最近の変更を表示
+        loadRecentChanges();
+
+      } catch (error) {
+        console.error('Failed to load laws:', error);
+      }
+    }
+
+    // 履歴読み込み
+    async function loadHistory() {
+      if (!selectedLaw) {
+        alert('法令を選択してください');
+        return;
+      }
+
+      const historySection = document.getElementById('history-section');
+      const commitList = document.getElementById('commit-list');
+      const noHistory = document.getElementById('no-history');
+      const diffSection = document.getElementById('diff-section');
+
+      historySection.classList.remove('hidden');
+      diffSection.classList.add('hidden');
+      document.getElementById('selected-law-name').textContent = selectedLaw.title;
+
+      // GitHub API からコミット履歴を取得
+      try {
+        const filePath = `data/markdown/${selectedLaw.category}/${selectedLaw.id}.md`;
+        const response = await fetch(
+          `https://api.github.com/repos/DaisukeHori/japan-law/commits?path=${filePath}&per_page=20`
+        );
+
+        if (!response.ok) throw new Error('API error');
+
+        const commits = await response.json();
+
+        if (commits.length === 0) {
+          commitList.classList.add('hidden');
+          noHistory.classList.remove('hidden');
+          return;
+        }
+
+        commitList.classList.remove('hidden');
+        noHistory.classList.add('hidden');
+
+        commitList.innerHTML = commits.map((commit, index) => `
+          <div class="commit-card border rounded-lg p-4 cursor-pointer hover:shadow-md transition-all"
+               data-sha="${commit.sha}"
+               data-path="${filePath}"
+               data-index="${index}">
+            <div class="flex items-start justify-between">
+              <div>
+                <p class="font-medium text-gray-800">${escapeHtml(commit.commit.message.split('\n')[0])}</p>
+                <p class="text-sm text-gray-500 mt-1">
+                  <span class="font-mono text-xs bg-gray-100 px-2 py-1 rounded">${commit.sha.slice(0, 7)}</span>
+                  ${new Date(commit.commit.author.date).toLocaleDateString('ja-JP')}
+                </p>
+              </div>
+              <button class="text-blue-600 hover:text-blue-800 text-sm" onclick="event.stopPropagation(); showDiff('${commit.sha}', '${filePath}')">
+                差分を見る
+              </button>
+            </div>
+          </div>
+        `).join('');
+
+        // コミットカードのクリックイベント
+        commitList.querySelectorAll('.commit-card').forEach(card => {
+          card.addEventListener('click', () => {
+            showDiff(card.dataset.sha, card.dataset.path);
+          });
+        });
+
+      } catch (error) {
+        console.error('Failed to load history:', error);
+        commitList.innerHTML = `
+          <div class="text-center text-gray-500 py-8">
+            <p>GitHub API からの履歴取得に失敗しました。</p>
+            <p class="text-sm mt-2">リポジトリの履歴は GitHub で直接確認できます：</p>
+            <a href="https://github.com/DaisukeHori/japan-law/commits/main/data/markdown/${selectedLaw.category}/${selectedLaw.id}.md"
+               target="_blank" class="text-blue-600 hover:underline">GitHub で履歴を見る</a>
+          </div>
+        `;
+      }
+    }
+
+    // 差分表示
+    async function showDiff(sha, filePath) {
+      const diffSection = document.getElementById('diff-section');
+      const diffContainer = document.getElementById('diff-container');
+
+      diffSection.classList.remove('hidden');
+      diffContainer.innerHTML = '<p class="text-center py-4">差分を読み込み中...</p>';
+
+      try {
+        // コミットの差分を取得
+        const response = await fetch(
+          `https://api.github.com/repos/DaisukeHori/japan-law/commits/${sha}`,
+          { headers: { Accept: 'application/vnd.github.v3.diff' } }
+        );
+
+        if (!response.ok) throw new Error('API error');
+
+        const diffText = await response.text();
+
+        // diff2htmlで描画
+        const diff2htmlUi = new Diff2HtmlUI(diffContainer, diffText, {
+          drawFileList: false,
+          matching: 'lines',
+          outputFormat: 'side-by-side',
+          renderNothingWhenEmpty: true,
+        });
+        diff2htmlUi.draw();
+        diff2htmlUi.highlightCode();
+
+        // スクロール
+        diffSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
+      } catch (error) {
+        console.error('Failed to load diff:', error);
+        diffContainer.innerHTML = `
+          <div class="text-center text-gray-500 py-8">
+            <p>差分の取得に失敗しました。</p>
+            <a href="https://github.com/DaisukeHori/japan-law/commit/${sha}"
+               target="_blank" class="text-blue-600 hover:underline">GitHub で差分を見る</a>
+          </div>
+        `;
+      }
+    }
+
+    // 最近の変更
+    async function loadRecentChanges() {
+      const container = document.getElementById('recent-changes');
+
+      try {
+        const response = await fetch(
+          'https://api.github.com/repos/DaisukeHori/japan-law/commits?path=data/markdown&per_page=10'
+        );
+
+        if (!response.ok) throw new Error('API error');
+
+        const commits = await response.json();
+
+        if (commits.length === 0) {
+          container.innerHTML = '<p class="text-gray-500 text-center">最近の更新はありません</p>';
+          return;
+        }
+
+        container.innerHTML = commits.map(commit => `
+          <div class="border rounded-lg p-3 hover:bg-gray-50">
+            <p class="font-medium text-sm">${escapeHtml(commit.commit.message.split('\n')[0])}</p>
+            <p class="text-xs text-gray-500 mt-1">
+              <span class="font-mono bg-gray-100 px-1 rounded">${commit.sha.slice(0, 7)}</span>
+              ${new Date(commit.commit.author.date).toLocaleDateString('ja-JP')}
+            </p>
+          </div>
+        `).join('');
+
+      } catch (error) {
+        container.innerHTML = `
+          <p class="text-gray-500 text-center">
+            GitHub API からの取得に失敗しました。
+            <a href="https://github.com/DaisukeHori/japan-law/commits/main/data/markdown"
+               target="_blank" class="text-blue-600 hover:underline">GitHub で確認</a>
+          </p>
+        `;
+      }
+    }
+
+    function escapeHtml(text) {
+      const div = document.createElement('div');
+      div.textContent = text;
+      return div.innerHTML;
+    }
+
+    init();
+  </script>
+</body>
+</html>

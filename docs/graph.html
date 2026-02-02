@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>法令参照グラフ - 日本法令データベース</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    #graph-container {
+      width: 100%;
+      height: 600px;
+      border: 1px solid #e5e7eb;
+      border-radius: 8px;
+      background: #fafafa;
+    }
+    .node {
+      cursor: pointer;
+    }
+    .node circle {
+      stroke: #fff;
+      stroke-width: 1.5px;
+    }
+    .node text {
+      font-size: 10px;
+      pointer-events: none;
+    }
+    .link {
+      stroke: #999;
+      stroke-opacity: 0.6;
+    }
+    .link.highlighted {
+      stroke: #f59e0b;
+      stroke-opacity: 1;
+      stroke-width: 2px;
+    }
+    .node.highlighted circle {
+      stroke: #f59e0b;
+      stroke-width: 3px;
+    }
+    .node.dimmed {
+      opacity: 0.2;
+    }
+    .link.dimmed {
+      opacity: 0.1;
+    }
+    .tooltip {
+      position: absolute;
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      padding: 8px 12px;
+      font-size: 12px;
+      pointer-events: none;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      max-width: 300px;
+      z-index: 1000;
+    }
+  </style>
+</head>
+<body class="bg-gray-50 min-h-screen">
+  <header class="bg-blue-900 text-white py-4">
+    <div class="max-w-7xl mx-auto px-4">
+      <div class="flex items-center justify-between">
+        <div>
+          <h1 class="text-2xl font-bold">🔗 法令参照グラフ</h1>
+          <p class="text-blue-200 text-sm">Law Reference Network Visualization</p>
+        </div>
+        <a href="./" class="text-blue-200 hover:text-white">← ホームに戻る</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-7xl mx-auto px-4 py-6">
+    <!-- コントロールパネル -->
+    <div class="bg-white rounded-lg shadow-md p-4 mb-4">
+      <div class="flex flex-wrap gap-4 items-center">
+        <div class="flex-1 min-w-[200px]">
+          <label class="block text-sm font-medium text-gray-700 mb-1">法令を検索</label>
+          <input type="text" id="search-input" placeholder="法令名で検索..."
+                 class="w-full px-3 py-2 border border-gray-300 rounded-md focus:ring-blue-500 focus:border-blue-500">
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-gray-700 mb-1">カテゴリ</label>
+          <select id="category-filter" class="px-3 py-2 border border-gray-300 rounded-md">
+            <option value="all">すべて</option>
+            <option value="constitution">憲法</option>
+            <option value="acts">法律</option>
+            <option value="cabinet_orders">政令</option>
+            <option value="misc">その他</option>
+          </select>
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-gray-700 mb-1">表示数</label>
+          <select id="node-limit" class="px-3 py-2 border border-gray-300 rounded-md">
+            <option value="50">50件</option>
+            <option value="100" selected>100件</option>
+            <option value="200">200件</option>
+            <option value="500">500件</option>
+          </select>
+        </div>
+        <div>
+          <label class="block text-sm font-medium text-gray-700 mb-1">ソート</label>
+          <select id="sort-by" class="px-3 py-2 border border-gray-300 rounded-md">
+            <option value="in_degree">被参照数</option>
+            <option value="out_degree">参照数</option>
+            <option value="total">合計</option>
+          </select>
+        </div>
+        <div class="flex items-end">
+          <button id="reset-btn" class="px-4 py-2 bg-gray-600 text-white rounded-md hover:bg-gray-700">
+            リセット
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 統計パネル -->
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-4">
+      <div class="bg-white rounded-lg shadow p-4 text-center">
+        <div class="text-2xl font-bold text-blue-600" id="stat-nodes">-</div>
+        <div class="text-gray-600 text-sm">表示ノード数</div>
+      </div>
+      <div class="bg-white rounded-lg shadow p-4 text-center">
+        <div class="text-2xl font-bold text-green-600" id="stat-edges">-</div>
+        <div class="text-gray-600 text-sm">表示エッジ数</div>
+      </div>
+      <div class="bg-white rounded-lg shadow p-4 text-center">
+        <div class="text-2xl font-bold text-purple-600" id="stat-total-nodes">-</div>
+        <div class="text-gray-600 text-sm">総ノード数</div>
+      </div>
+      <div class="bg-white rounded-lg shadow p-4 text-center">
+        <div class="text-2xl font-bold text-orange-600" id="stat-total-edges">-</div>
+        <div class="text-gray-600 text-sm">総エッジ数</div>
+      </div>
+    </div>
+
+    <!-- グラフ表示エリア -->
+    <div class="bg-white rounded-lg shadow-md p-4">
+      <div id="graph-container"></div>
+      <div class="mt-4 text-sm text-gray-500">
+        <p>💡 ヒント: ノードをクリックすると関連する法令がハイライトされます。ドラッグでノードを移動、スクロールでズームできます。</p>
+      </div>
+    </div>
+
+    <!-- 選択された法令の詳細 -->
+    <div id="detail-panel" class="bg-white rounded-lg shadow-md p-4 mt-4 hidden">
+      <h3 class="text-lg font-bold mb-2" id="detail-title">-</h3>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div>
+          <h4 class="font-semibold text-green-700 mb-1">参照している法令 (<span id="out-count">0</span>件)</h4>
+          <ul id="out-list" class="text-sm space-y-1 max-h-40 overflow-y-auto"></ul>
+        </div>
+        <div>
+          <h4 class="font-semibold text-blue-700 mb-1">参照されている法令 (<span id="in-count">0</span>件)</h4>
+          <ul id="in-list" class="text-sm space-y-1 max-h-40 overflow-y-auto"></ul>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div id="tooltip" class="tooltip" style="display: none;"></div>
+
+  <script>
+    let allNodes = [];
+    let allEdges = [];
+    let simulation;
+    let svg;
+    let g;
+    let nodeElements;
+    let linkElements;
+    let currentNodes = [];
+    let currentEdges = [];
+
+    // カテゴリカラー
+    const categoryColors = {
+      constitution: '#dc2626',
+      acts: '#2563eb',
+      cabinet_orders: '#16a34a',
+      imperial_orders: '#9333ea',
+      misc: '#6b7280'
+    };
+
+    // データ読み込み
+    async function loadData() {
+      try {
+        const [nodesRes, edgesRes] = await Promise.all([
+          fetch('../data/index/graph/nodes.json'),
+          fetch('../data/index/graph/edges.json')
+        ]);
+
+        const nodesData = await nodesRes.json();
+        const edgesData = await edgesRes.json();
+
+        allNodes = nodesData.nodes;
+        allEdges = edgesData.edges;
+
+        document.getElementById('stat-total-nodes').textContent = allNodes.length.toLocaleString();
+        document.getElementById('stat-total-edges').textContent = allEdges.length.toLocaleString();
+
+        initGraph();
+        updateGraph();
+      } catch (e) {
+        console.error('Failed to load graph data:', e);
+        document.getElementById('graph-container').innerHTML =
+          '<p class="text-red-500 p-4">グラフデータの読み込みに失敗しました。</p>';
+      }
+    }
+
+    // グラフ初期化
+    function initGraph() {
+      const container = document.getElementById('graph-container');
+      const width = container.clientWidth;
+      const height = container.clientHeight;
+
+      svg = d3.select('#graph-container')
+        .append('svg')
+        .attr('width', '100%')
+        .attr('height', '100%')
+        .attr('viewBox', [0, 0, width, height]);
+
+      // ズーム設定
+      const zoom = d3.zoom()
+        .scaleExtent([0.1, 4])
+        .on('zoom', (event) => {
+          g.attr('transform', event.transform);
+        });
+
+      svg.call(zoom);
+
+      g = svg.append('g');
+
+      // 矢印マーカー定義
+      svg.append('defs').append('marker')
+        .attr('id', 'arrowhead')
+        .attr('viewBox', '-0 -5 10 10')
+        .attr('refX', 20)
+        .attr('refY', 0)
+        .attr('orient', 'auto')
+        .attr('markerWidth', 6)
+        .attr('markerHeight', 6)
+        .append('path')
+        .attr('d', 'M 0,-5 L 10,0 L 0,5')
+        .attr('fill', '#999');
+
+      // シミュレーション設定
+      simulation = d3.forceSimulation()
+        .force('link', d3.forceLink().id(d => d.id).distance(80))
+        .force('charge', d3.forceManyBody().strength(-200))
+        .force('center', d3.forceCenter(width / 2, height / 2))
+        .force('collision', d3.forceCollide().radius(30));
+    }
+
+    // グラフ更新
+    function updateGraph() {
+      const limit = parseInt(document.getElementById('node-limit').value);
+      const sortBy = document.getElementById('sort-by').value;
+      const category = document.getElementById('category-filter').value;
+      const searchTerm = document.getElementById('search-input').value.toLowerCase();
+
+      // ノードフィルタリング
+      let filteredNodes = allNodes.filter(n => {
+        if (category !== 'all' && n.category !== category) return false;
+        if (searchTerm && !n.title.toLowerCase().includes(searchTerm)) return false;
+        return true;
+      });
+
+      // ソート
+      filteredNodes.sort((a, b) => {
+        if (sortBy === 'in_degree') return b.in_degree - a.in_degree;
+        if (sortBy === 'out_degree') return b.out_degree - a.out_degree;
+        return (b.in_degree + b.out_degree) - (a.in_degree + a.out_degree);
+      });
+
+      // 上位N件を取得
+      currentNodes = filteredNodes.slice(0, limit);
+      const nodeIds = new Set(currentNodes.map(n => n.id));
+
+      // エッジフィルタリング
+      currentEdges = allEdges.filter(e =>
+        nodeIds.has(e.source) && nodeIds.has(e.target)
+      );
+
+      // 統計更新
+      document.getElementById('stat-nodes').textContent = currentNodes.length.toLocaleString();
+      document.getElementById('stat-edges').textContent = currentEdges.length.toLocaleString();
+
+      // グラフ描画
+      drawGraph();
+    }
+
+    // グラフ描画
+    function drawGraph() {
+      const container = document.getElementById('graph-container');
+      const width = container.clientWidth;
+      const height = container.clientHeight;
+
+      // 既存要素クリア
+      g.selectAll('.link').remove();
+      g.selectAll('.node').remove();
+
+      // リンク描画
+      linkElements = g.append('g')
+        .attr('class', 'links')
+        .selectAll('line')
+        .data(currentEdges)
+        .enter()
+        .append('line')
+        .attr('class', 'link')
+        .attr('marker-end', 'url(#arrowhead)');
+
+      // ノード描画
+      nodeElements = g.append('g')
+        .attr('class', 'nodes')
+        .selectAll('g')
+        .data(currentNodes)
+        .enter()
+        .append('g')
+        .attr('class', 'node')
+        .call(d3.drag()
+          .on('start', dragstarted)
+          .on('drag', dragged)
+          .on('end', dragended));
+
+      // ノードの円
+      nodeElements.append('circle')
+        .attr('r', d => Math.max(5, Math.min(20, Math.sqrt(d.in_degree + d.out_degree) * 2)))
+        .attr('fill', d => categoryColors[d.category] || '#6b7280');
+
+      // ノードのラベル
+      nodeElements.append('text')
+        .attr('dx', 12)
+        .attr('dy', 4)
+        .text(d => d.title.length > 15 ? d.title.slice(0, 15) + '...' : d.title);
+
+      // イベント
+      nodeElements
+        .on('mouseover', handleMouseOver)
+        .on('mouseout', handleMouseOut)
+        .on('click', handleClick);
+
+      // シミュレーション更新
+      simulation.nodes(currentNodes);
+      simulation.force('link').links(currentEdges);
+      simulation.alpha(1).restart();
+
+      simulation.on('tick', () => {
+        linkElements
+          .attr('x1', d => d.source.x)
+          .attr('y1', d => d.source.y)
+          .attr('x2', d => d.target.x)
+          .attr('y2', d => d.target.y);
+
+        nodeElements.attr('transform', d => `translate(${d.x},${d.y})`);
+      });
+    }
+
+    // ドラッグ処理
+    function dragstarted(event, d) {
+      if (!event.active) simulation.alphaTarget(0.3).restart();
+      d.fx = d.x;
+      d.fy = d.y;
+    }
+
+    function dragged(event, d) {
+      d.fx = event.x;
+      d.fy = event.y;
+    }
+
+    function dragended(event, d) {
+      if (!event.active) simulation.alphaTarget(0);
+      d.fx = null;
+      d.fy = null;
+    }
+
+    // マウスオーバー
+    function handleMouseOver(event, d) {
+      const tooltip = document.getElementById('tooltip');
+      tooltip.innerHTML = `
+        <strong>${d.title}</strong><br>
+        カテゴリ: ${d.category}<br>
+        参照数: ${d.out_degree} / 被参照数: ${d.in_degree}
+      `;
+      tooltip.style.display = 'block';
+      tooltip.style.left = (event.pageX + 10) + 'px';
+      tooltip.style.top = (event.pageY - 10) + 'px';
+    }
+
+    function handleMouseOut() {
+      document.getElementById('tooltip').style.display = 'none';
+    }
+
+    // クリック処理
+    function handleClick(event, d) {
+      const connectedIds = new Set([d.id]);
+
+      currentEdges.forEach(e => {
+        const sourceId = typeof e.source === 'object' ? e.source.id : e.source;
+        const targetId = typeof e.target === 'object' ? e.target.id : e.target;
+        if (sourceId === d.id) connectedIds.add(targetId);
+        if (targetId === d.id) connectedIds.add(sourceId);
+      });
+
+      nodeElements.classed('highlighted', n => n.id === d.id);
+      nodeElements.classed('dimmed', n => !connectedIds.has(n.id));
+      linkElements.classed('highlighted', e => {
+        const sourceId = typeof e.source === 'object' ? e.source.id : e.source;
+        const targetId = typeof e.target === 'object' ? e.target.id : e.target;
+        return sourceId === d.id || targetId === d.id;
+      });
+      linkElements.classed('dimmed', e => {
+        const sourceId = typeof e.source === 'object' ? e.source.id : e.source;
+        const targetId = typeof e.target === 'object' ? e.target.id : e.target;
+        return sourceId !== d.id && targetId !== d.id;
+      });
+
+      // 詳細パネル更新
+      updateDetailPanel(d);
+    }
+
+    // 詳細パネル更新
+    function updateDetailPanel(node) {
+      const panel = document.getElementById('detail-panel');
+      panel.classList.remove('hidden');
+
+      document.getElementById('detail-title').textContent = node.title;
+
+      const outLinks = currentEdges.filter(e => {
+        const sourceId = typeof e.source === 'object' ? e.source.id : e.source;
+        return sourceId === node.id;
+      });
+
+      const inLinks = currentEdges.filter(e => {
+        const targetId = typeof e.target === 'object' ? e.target.id : e.target;
+        return targetId === node.id;
+      });
+
+      document.getElementById('out-count').textContent = outLinks.length;
+      document.getElementById('in-count').textContent = inLinks.length;
+
+      const outList = document.getElementById('out-list');
+      outList.innerHTML = outLinks.map(e => {
+        const targetId = typeof e.target === 'object' ? e.target.id : e.target;
+        const target = currentNodes.find(n => n.id === targetId);
+        return `<li class="text-green-700">→ ${target?.title || targetId}</li>`;
+      }).join('');
+
+      const inList = document.getElementById('in-list');
+      inList.innerHTML = inLinks.map(e => {
+        const sourceId = typeof e.source === 'object' ? e.source.id : e.source;
+        const source = currentNodes.find(n => n.id === sourceId);
+        return `<li class="text-blue-700">← ${source?.title || sourceId}</li>`;
+      }).join('');
+    }
+
+    // リセット
+    function resetHighlight() {
+      nodeElements.classed('highlighted', false).classed('dimmed', false);
+      linkElements.classed('highlighted', false).classed('dimmed', false);
+      document.getElementById('detail-panel').classList.add('hidden');
+    }
+
+    // イベントリスナー
+    document.getElementById('search-input').addEventListener('input', debounce(updateGraph, 300));
+    document.getElementById('category-filter').addEventListener('change', updateGraph);
+    document.getElementById('node-limit').addEventListener('change', updateGraph);
+    document.getElementById('sort-by').addEventListener('change', updateGraph);
+    document.getElementById('reset-btn').addEventListener('click', () => {
+      document.getElementById('search-input').value = '';
+      document.getElementById('category-filter').value = 'all';
+      resetHighlight();
+      updateGraph();
+    });
+
+    function debounce(func, wait) {
+      let timeout;
+      return function(...args) {
+        clearTimeout(timeout);
+        timeout = setTimeout(() => func.apply(this, args), wait);
+      };
+    }
+
+    // 初期化
+    loadData();
+  </script>
+</body>
+</html>

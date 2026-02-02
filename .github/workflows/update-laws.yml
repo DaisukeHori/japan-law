@@ -1,0 +1,104 @@
+name: Update Law Database
+
+on:
+  schedule:
+    # 毎週日曜日の午前3時（JST）に実行
+    - cron: '0 18 * * 0'
+  workflow_dispatch:
+    inputs:
+      full_update:
+        description: 'Perform full update (not incremental)'
+        required: false
+        default: 'false'
+        type: boolean
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run incremental update
+        run: |
+          echo "Starting law database update..."
+          npx ts-node scripts/incremental_update.ts
+        env:
+          NODE_OPTIONS: '--max-old-space-size=4096'
+
+      - name: Run reference analysis
+        run: |
+          echo "Analyzing law references..."
+          npx ts-node scripts/analyze_references_multi.ts
+        env:
+          NODE_OPTIONS: '--max-old-space-size=4096'
+
+      - name: Generate documentation site
+        run: |
+          echo "Generating documentation..."
+          npx ts-node scripts/generate_docs.ts
+        env:
+          NODE_OPTIONS: '--max-old-space-size=4096'
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git add -A
+          if git diff --staged --quiet; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "No changes detected"
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "Changes detected:"
+            git diff --staged --stat | head -20
+          fi
+
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.has_changes == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Get date for commit message
+          DATE=$(date +%Y-%m-%d)
+
+          # Count changes
+          NEW_LAWS=$(git diff --staged --name-only | grep "^data/xml/" | grep -v "^data/xml/.*/" | wc -l || echo "0")
+          UPDATED_LAWS=$(git diff --staged --name-only --diff-filter=M | grep "^data/xml/" | wc -l || echo "0")
+
+          git commit -m "📚 法令データ更新: ${DATE}
+
+          - 新規法令: ${NEW_LAWS} 件
+          - 更新法令: ${UPDATED_LAWS} 件
+
+          自動更新 by GitHub Actions"
+
+          git push
+
+      - name: Summary
+        run: |
+          echo "## Update Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- **Date**: $(date +%Y-%m-%d)" >> $GITHUB_STEP_SUMMARY
+          echo "- **Changes**: ${{ steps.check_changes.outputs.has_changes }}" >> $GITHUB_STEP_SUMMARY
+
+          if [ -f data/index/laws.json ]; then
+            TOTAL=$(cat data/index/laws.json | grep -c '"id"' || echo "unknown")
+            echo "- **Total laws**: ${TOTAL}" >> $GITHUB_STEP_SUMMARY
+          fi

@@ -6,6 +6,13 @@
   <title>法令検索 - 日本法令データベース</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
+  <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+  <script src="/pagefind/pagefind-ui.js"></script>
+  <style>
+    .pagefind-ui__result-link { color: #1e40af; }
+    .pagefind-ui__result-excerpt { color: #4b5563; }
+    .tab-active { border-bottom: 2px solid #2563eb; color: #2563eb; }
+  </style>
 </head>
 <body class="bg-gray-50 min-h-screen">
   <div id="app">
@@ -21,8 +28,28 @@
     </header>
 
     <main class="max-w-6xl mx-auto px-4 py-8">
-      <!-- 検索ボックス -->
-      <section class="bg-white rounded-lg shadow-md p-6 mb-6">
+      <!-- 検索タブ -->
+      <div class="flex border-b mb-6">
+        <button id="tab-title" class="px-6 py-3 font-semibold tab-active" onclick="switchTab('title')">
+          📋 法令名検索
+        </button>
+        <button id="tab-fulltext" class="px-6 py-3 font-semibold text-gray-500 hover:text-gray-700" onclick="switchTab('fulltext')">
+          📝 全文検索
+        </button>
+      </div>
+
+      <!-- 全文検索（Pagefind） -->
+      <section id="fulltext-search" class="hidden mb-6">
+        <div class="bg-white rounded-lg shadow-md p-6">
+          <div id="pagefind-container"></div>
+          <p class="text-sm text-gray-500 mt-4">
+            💡 法令の条文内をキーワードで検索できます。Pagefind によるインデックス検索を使用しています。
+          </p>
+        </div>
+      </section>
+
+      <!-- 法令名検索ボックス -->
+      <section id="title-search" class="bg-white rounded-lg shadow-md p-6 mb-6">
         <div class="flex flex-col md:flex-row gap-4">
           <div class="flex-1">
             <input 
@@ -261,6 +288,58 @@
 
     // 初期化実行
     init();
+
+    // タブ切り替え
+    function switchTab(tab) {
+      const titleSearch = document.getElementById('title-search');
+      const fulltextSearch = document.getElementById('fulltext-search');
+      const results = document.getElementById('results');
+      const pagination = document.getElementById('pagination');
+      const tabTitle = document.getElementById('tab-title');
+      const tabFulltext = document.getElementById('tab-fulltext');
+
+      if (tab === 'title') {
+        titleSearch.classList.remove('hidden');
+        fulltextSearch.classList.add('hidden');
+        results.classList.remove('hidden');
+        pagination.classList.remove('hidden');
+        tabTitle.classList.add('tab-active');
+        tabTitle.classList.remove('text-gray-500');
+        tabFulltext.classList.remove('tab-active');
+        tabFulltext.classList.add('text-gray-500');
+      } else {
+        titleSearch.classList.add('hidden');
+        fulltextSearch.classList.remove('hidden');
+        results.classList.add('hidden');
+        pagination.classList.add('hidden');
+        tabTitle.classList.remove('tab-active');
+        tabTitle.classList.add('text-gray-500');
+        tabFulltext.classList.add('tab-active');
+        tabFulltext.classList.remove('text-gray-500');
+
+        // Pagefind初期化（初回のみ）
+        if (!window.pagefindInitialized) {
+          try {
+            new PagefindUI({
+              element: "#pagefind-container",
+              showSubResults: true,
+              showImages: false,
+              translations: {
+                placeholder: "法令の条文を検索...",
+                zero_results: "該当する結果がありませんでした",
+                many_results: "${count}件の結果",
+                one_result: "1件の結果",
+                searching: "検索中..."
+              }
+            });
+            window.pagefindInitialized = true;
+          } catch (e) {
+            document.getElementById('pagefind-container').innerHTML =
+              '<p class="text-gray-500">全文検索インデックスがまだ構築されていません。GitHub Pages デプロイ後に利用可能になります。</p>';
+          }
+        }
+      }
+    }
   </script>
 </body>
 </html>
