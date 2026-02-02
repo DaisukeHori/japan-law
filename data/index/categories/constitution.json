@@ -1,0 +1,13 @@
+{
+  "category": "constitution",
+  "category_name": "憲法",
+  "count": 1,
+  "laws": [
+    {
+      "id": "321CONSTITUTION",
+      "lawNum": "昭和二十一年憲法",
+      "title": "日本国憲法",
+      "category": "constitution"
+    }
+  ]
+}

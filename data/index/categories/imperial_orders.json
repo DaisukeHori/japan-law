@@ -1,0 +1,421 @@
+{
+  "category": "imperial_orders",
+  "category_name": "勅令",
+  "count": 69,
+  "laws": [
+    {
+      "id": "320IO0000000730",
+      "lawNum": "昭和二十年勅令第七百三十号",
+      "title": "昭和二十年勅令第七百三十号（政治犯人等ノ資格回復ニ関スル件）",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "321IO0000000118",
+      "lawNum": "昭和二十一年勅令第百十八号",
+      "title": "物価統制令",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "322IO0000000074",
+      "lawNum": "昭和二十二年勅令第七十四号",
+      "title": "閉鎖機関令",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "119IO0000000000",
+      "lawNum": "明治十九年勅令",
+      "title": "メートル条約",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "119IO0000000051",
+      "lawNum": "明治十九年勅令第五十一号",
+      "title": "明治十九年勅令第五十一号（本初子午線経度計算方及標準時ノ件）",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "120IO0000000002",
+      "lawNum": "明治二十年勅令",
+      "title": "海上法ノ要義ヲ確定スル為メ西暦千八百五十六年四月十六日巴里公会ニ於テ決定セシ宣言",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "120IO0000000001",
+      "lawNum": "明治二十年勅令",
+      "title": "海底電信線保護万国連合条約ノ説明書",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "121IO0000000001",
+      "lawNum": "明治二十一年勅令第一号",
+      "title": "明治二十一年勅令第一号（宝冠章及大勲位菊花章頸飾ニ関スル件）",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "121IO0000000076",
+      "lawNum": "明治二十一年勅令第七十六号",
+      "title": "勲章佩用式",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "122IO0000000103",
+      "lawNum": "明治二十二年勅令第百三号",
+      "title": "明治二十二年勅令第百三号（帝国憲法発布記念章制定ノ件）",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "126IO0000000261",
+      "lawNum": "明治二十六年勅令第二百六十一号",
+      "title": "明治二十六年勅令第二百六十一号（政府ノ債務ニ対シ差押命令ヲ受クル場合ニ於ケル会計上ノ規程）",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "127IO0000000023",
+      "lawNum": "明治二十七年勅令第二十三号",
+      "title": "明治二十七年勅令第二十三号（大婚二十五年祝典之章制定ノ件）",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "128IO0000000167",
+      "lawNum": "明治二十八年勅令第百六十七号",
+      "title": "明治二十八年勅令第百六十七号（標準時ニ関スル件）",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "130IO0000000382",
+      "lawNum": "明治三十年勅令第三百八十二号",
+      "title": "砂防法施行規程",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "131IO0000000090",
+      "lawNum": "明治三十一年勅令第九十号",
+      "title": "明治三十一年勅令第九十号（閏年ニ関スル件）",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "132IO0000000277",
+      "lawNum": "明治三十二年勅令第二百七十七号",
+      "title": "明治三十二年勅令第二百七十七号（行旅病人死亡人等ノ引取及費用弁償ニ関スル件）",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "132IO0000000001",
+      "lawNum": "明治三十二年勅令",
+      "title": "日本国及希臘国間修好通商航海条約",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "133IO0000000329",
+      "lawNum": "明治三十三年勅令第三百二十九号",
+      "title": "明治三十三年勅令第三百二十九号（救恤又ハ学芸技術奨励寄附金等ノ保管出納ニ関スル件）",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "133IO0000000002",
+      "lawNum": "明治三十三年勅令",
+      "title": "外包硬固ナル弾丸ニシテ其ノ外包中心ノ全部ヲ蓋包セス若ハ其ノ外包ニ截刻ヲ施シタルモノノ如キ人体内ニ入テ容易ニ開展シ又ハ扁平ト為ルヘキ弾丸ノ使用ヲ各自ニ禁止スル宣言書",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "133IO0000000001",
+      "lawNum": "明治三十三年勅令",
+      "title": "窒息セシムヘキ瓦斯又ハ有毒質ノ瓦斯ヲ散布スルヲ唯一ノ目的トスル投射物ノ使用ヲ各自ニ禁止スル宣言書",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "133IO0000000409",
+      "lawNum": "明治三十三年勅令第四百九号",
+      "title": "明治三十三年勅令第四百九号（相続人曠欠ノ場合ニ於テ国庫ニ帰属シタル財産ノ引渡ニ関スル件）",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "134IO0000000001",
+      "lawNum": "明治三十四年勅令",
+      "title": "日西特別通商条約",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "139IO0000000137",
+      "lawNum": "明治三十九年勅令第百三十七号",
+      "title": "明治三十九年勅令第百三十七号（国債償還ノ為抽籤執行ノ場合ニ於ケル立会者ニ関スル件）",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "141IO0000000191",
+      "lawNum": "明治四十一年勅令第百九十一号",
+      "title": "水害予防組合職員賠償責任及身元保証令",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "141IO0000000217",
+      "lawNum": "明治四十一年勅令第二百十七号",
+      "title": "明治四十一年勅令第二百十七号（刑法施行前ニ公布シタル命令ニ関スル件）",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "141IO0000000287",
+      "lawNum": "明治四十一年勅令第二百八十七号",
+      "title": "明治四十一年勅令第二百八十七号（政府ニ納ムヘキ保証金其ノ他ノ担保ニ充用スル国債ノ価格ニ関スル件）",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "141IO0000000291",
+      "lawNum": "明治四十一年勅令第二百九十一号",
+      "title": "勲章褫奪令",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "142IO0000000120",
+      "lawNum": "明治四十二年勅令第百二十号",
+      "title": "明治四十二年勅令第百二十号（刑法施行後施行ノ命令ニ掲ケタル刑法ノ刑名ニ関スル件）",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "204IO0000000154",
+      "lawNum": "大正四年勅令第百五十四号",
+      "title": "大正四年勅令第百五十四号（大礼記念章制定ノ件）",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "205IO0000000256",
+      "lawNum": "大正五年勅令第二百五十六号",
+      "title": "大正五年勅令第二百五十六号（歳入納付ニ使用スル証券ニ関スル件）",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "210IO0000000272",
+      "lawNum": "大正十年勅令第二百七十二号",
+      "title": "大正十年勅令第二百七十二号（第一回国勢調査記念章制定ノ件）",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "211IO0000000194",
+      "lawNum": "大正十一年勅令第百九十四号",
+      "title": "公有水面埋立法施行令",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "212IO0000000299",
+      "lawNum": "大正十二年勅令第二百九十九号",
+      "title": "大正十二年勅令第二百九十九号（政府ニ於テ物品ノ販売ヲ問屋業者ニ委託スルコトヲ得ル場合ニ関スル件）",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "212IO0000000369",
+      "lawNum": "大正十二年勅令第三百六十九号",
+      "title": "恩給給与規則",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "212IO0000000439",
+      "lawNum": "大正十二年勅令第四百三十九号",
+      "title": "恩給金額分担及国庫納金収入等取扱規則",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "212IO0000000528",
+      "lawNum": "大正十二年勅令第五百二十八号",
+      "title": "大正十二年勅令第五百二十八号（司法警察官吏及司法警察官吏ノ職務ヲ行フヘキ者ノ指定等ニ関スル件）",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "213IO0000000017",
+      "lawNum": "大正十三年勅令第十七号",
+      "title": "大正十三年勅令第十七号（米貨公債及英貨公債ノ発行ニ関スル件）",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "215IO0000000243",
+      "lawNum": "大正十五年勅令第二百四十三号",
+      "title": "健康保険法施行令",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "215IO0000000325",
+      "lawNum": "大正十五年勅令第三百二十五号",
+      "title": "位階令",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "302IO0000000263",
+      "lawNum": "昭和二年勅令第二百六十三号",
+      "title": "北海道国有未開地処分法施行規則",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "303IO0000000188",
+      "lawNum": "昭和三年勅令第百八十八号",
+      "title": "昭和三年勅令第百八十八号（大礼記念章制定ノ件）",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "305IO0000000036",
+      "lawNum": "昭和五年勅令第三十六号",
+      "title": "昭和五年勅令第三十六号（高等師範学校専攻科卒業者ノ称号ニ関スル件）",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "305IO0000000148",
+      "lawNum": "昭和五年勅令第百四十八号",
+      "title": "帝都復興記念章令",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "306IO0000000203",
+      "lawNum": "昭和六年勅令第二百三号",
+      "title": "昭和六年勅令第二百三号（特別会計ノ恩給負担金ヲ一般会計ニ繰入ルルコトニ関スル法律ノ施行ニ関スル件）",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "307IO0000000012",
+      "lawNum": "昭和七年勅令第十二号",
+      "title": "昭和七年勅令第十二号（明治四十二年法律第二十二号第一条第二項ノ規定ニ依リ樹木ノ集団ノ範囲ヲ定ムルノ件）",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "308IO0000000307",
+      "lawNum": "昭和八年勅令第三百七号",
+      "title": "農業動産信用法施行令",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "308IO0000000309",
+      "lawNum": "昭和八年勅令第三百九号",
+      "title": "農業用動産抵当権実行令",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "308IO0000000317",
+      "lawNum": "昭和八年勅令第三百十七号",
+      "title": "昭和八年勅令第三百十七号（小切手ノ呈示期間ノ特例ニ関スル件）",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "308IO0000000316",
+      "lawNum": "昭和八年勅令第三百十六号",
+      "title": "拒絶証書令",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "308IO0000000329",
+      "lawNum": "昭和八年勅令第三百二十九号",
+      "title": "昭和八年勅令第三百二十九号（小切手法ノ適用ニ付銀行ト同視スベキ人又ハ施設ヲ定ムルノ件）",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "309IO0000000013",
+      "lawNum": "昭和九年勅令第十三号",
+      "title": "船舶安全法施行令",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "312IO0000000009",
+      "lawNum": "昭和十二年勅令第九号",
+      "title": "文化勲章令",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "313IO0000000517",
+      "lawNum": "昭和十三年勅令第五百十七号",
+      "title": "陸上交通事業調整法施行令",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "315IO0000000488",
+      "lawNum": "昭和十五年勅令第四百八十八号",
+      "title": "紀元二千六百年祝典記念章令",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "315IO0000000943",
+      "lawNum": "昭和十五年勅令第九百四十三号",
+      "title": "昭和十五年勅令第九百四十三号（農村負債整理組合法第八条ノ規定ニ依リ同法第十一条ノ事業ヲ行フコトヲ得ル法人ヲ定ムルノ件）",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "316IO0000000363",
+      "lawNum": "昭和十六年勅令第三百六十三号",
+      "title": "昭和十六年勅令第三百六十三号（無尽業法第二十一条ノ八ノ規定ニ依ル登記ニ関スル件）",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "318IO0000000622",
+      "lawNum": "昭和十八年勅令第六百二十二号",
+      "title": "昭和十八年勅令第六百二十二号（占領地軍政官憲ノ為シタル行為ノ法律上ノ効力等ニ関スル法律ノ施行ニ関スル件）",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "318IO0000000618",
+      "lawNum": "昭和十八年勅令第六百十八号",
+      "title": "昭和十八年勅令第六百十八号（昭和六年法律第八号ニ依リ各特別会計ヨリ一般会計ニ繰入ルル金額ノ計算ニ関スル特例ニ関スル件）",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "319IO0000000076",
+      "lawNum": "昭和十九年勅令第七十六号",
+      "title": "官吏功労表彰令",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "320IO0000000699",
+      "lawNum": "昭和二十年勅令第六百九十九号",
+      "title": "昭和二十年勅令第六百九十九号（位、勲章等ノ返上ノ請願ニ関スル件）",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "321IO0000000391",
+      "lawNum": "昭和二十一年勅令第三百九十一号",
+      "title": "会社経理応急措置法施行令",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "321IO0000000390",
+      "lawNum": "昭和二十一年勅令第三百九十号",
+      "title": "金融機関経理応急措置法施行令",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "321IO0000000447",
+      "lawNum": "昭和二十一年勅令第四百四十七号",
+      "title": "人口動態調査令",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "321IO0000000478",
+      "lawNum": "昭和二十一年勅令第四百七十八号",
+      "title": "労働関係調整法施行令",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "321IO0000000501",
+      "lawNum": "昭和二十一年勅令第五百一号",
+      "title": "企業再建整備法施行令",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "321IO0000000499",
+      "lawNum": "昭和二十一年勅令第四百九十九号",
+      "title": "金融機関再建整備法施行令",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "321IO0000000558",
+      "lawNum": "昭和二十一年勅令第五百五十八号",
+      "title": "予算決算及び会計令臨時特例",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "322IO0000000165",
+      "lawNum": "昭和二十二年勅令第百六十五号",
+      "title": "予算決算及び会計令",
+      "category": "imperial_orders"
+    },
+    {
+      "id": "322IO0000000190",
+      "lawNum": "昭和二十二年勅令第百九十号",
+      "title": "社寺等に無償で貸し付けてある国有財産の処分に関する法律施行令",
+      "category": "imperial_orders"
+    }
+  ]
+}
