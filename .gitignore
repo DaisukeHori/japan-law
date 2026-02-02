@@ -138,6 +138,5 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 # Large data files - download separately
-data/xml/
 data/lawtext/
 *.DS_Store
