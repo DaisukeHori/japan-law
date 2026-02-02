@@ -229,7 +229,7 @@
         `;
 
         card.addEventListener("click", () => {
-          window.open(`./data/markdown/${law.category}/${law.id}.md`, "_blank");
+          window.location.href = `./law.html?id=${law.id}&category=${law.category}`;
         });
 
         resultList.appendChild(card);
