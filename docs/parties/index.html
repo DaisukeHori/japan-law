@@ -50,25 +50,9 @@
               <p class="text-sm opacity-80" x-text="party.short_name"></p>
             </div>
             <div class="p-4">
-              <div class="grid grid-cols-2 gap-4 text-center mb-4">
-                <div>
-                  <div class="text-2xl font-bold" x-text="party.member_count || 0"></div>
-                  <div class="text-xs text-gray-500">議員数</div>
-                </div>
-                <div>
-                  <div class="text-2xl font-bold" x-text="party.bill_count || 0"></div>
-                  <div class="text-xs text-gray-500">法案数</div>
-                </div>
-              </div>
-              <div class="text-sm text-gray-600">
-                <div class="flex justify-between mb-1">
-                  <span>成立:</span>
-                  <span x-text="party.passed_count || 0"></span>
-                </div>
-                <div class="flex justify-between">
-                  <span>成功率:</span>
-                  <span x-text="((party.success_rate || 0) * 100).toFixed(1) + '%'"></span>
-                </div>
+              <div class="text-center mb-4">
+                <div class="text-3xl font-bold" x-text="party.member_count || 0"></div>
+                <div class="text-sm text-gray-500">所属議員数（参議院）</div>
               </div>
               <template x-if="party.official_url">
                 <a :href="party.official_url" target="_blank"
@@ -109,20 +93,29 @@
 
         async loadData() {
           try {
-            const [statsRes, partiesRes, legislatorsRes] = await Promise.all([
-              fetch('../data/index/legislators/activity_stats.json'),
+            const [partiesRes, legislatorsRes, billsRes] = await Promise.all([
               fetch('../data/index/legislators/parties.json'),
-              fetch('../data/index/legislators/legislators.json')
+              fetch('../data/index/legislators/legislators.json'),
+              fetch('../data/index/legislators/smri_bills.json')
             ]);
 
-            const statsData = await statsRes.json();
             const partiesData = await partiesRes.json();
             const legislatorsData = await legislatorsRes.json();
+            const billsData = await billsRes.json();
 
-            this.stats = statsData.summary || {};
             this.legislators = legislatorsData.legislators || [];
+            const bills = billsData.bills || [];
 
-            // 政党ごとの統計を計算
+            // 全体統計を計算
+            const totalBills = bills.length;
+            const passedBills = bills.filter(b => b.status === '成立').length;
+            this.stats = {
+              total_legislators: this.legislators.length,
+              total_bills: totalBills,
+              passed_bills: passedBills
+            };
+
+            // 政党ごとの統計を計算（議員数）
             const partyStats = {};
             for (const leg of this.legislators) {
               const pid = leg.party_id;
@@ -132,15 +125,22 @@
               partyStats[pid].member_count++;
             }
 
+            // 法案種別から政党を推測（閣法、衆法、参法）
+            for (const bill of bills) {
+              // 閣法は内閣（政府）なのでスキップ
+              if (bill.proposer_type === '閣法') continue;
+
+              // 衆法・参法は議員提出だが、政党情報がないのでカウントのみ
+              // ここでは全体統計として使用
+            }
+
             // 政党データと統計をマージ
             this.parties = (partiesData.parties || []).map(party => ({
               ...party,
               member_count: partyStats[party.id]?.member_count || 0,
-              bill_count: partyStats[party.id]?.bill_count || 0,
-              passed_count: partyStats[party.id]?.passed_count || 0,
-              success_rate: partyStats[party.id]?.bill_count
-                ? partyStats[party.id].passed_count / partyStats[party.id].bill_count
-                : 0
+              bill_count: 0, // 政党別の法案数は現在のデータでは取得不可
+              passed_count: 0,
+              success_rate: 0
             }));
 
           } catch (e) {
