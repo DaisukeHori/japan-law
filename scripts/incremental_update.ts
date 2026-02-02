@@ -7,6 +7,7 @@ import axios from "axios";
 import * as fs from "fs";
 import * as path from "path";
 import { fileURLToPath } from "url";
+import { XMLParser } from "fast-xml-parser";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -16,22 +17,30 @@ const DATA_DIR = path.join(__dirname, "..", "data");
 const XML_DIR = path.join(DATA_DIR, "xml");
 const INDEX_PATH = path.join(DATA_DIR, "index", "laws.json");
 
-// カテゴリマッピング
-const CATEGORY_MAP: Record<string, string> = {
-  Constitution: "constitution",
-  Act: "acts",
-  CabinetOrder: "cabinet_orders",
-  ImperialOrder: "imperial_orders",
-  MinisterialOrdinance: "ministerial_ordinances",
-  Rule: "rules",
-  Misc: "misc",
+// カテゴリマッピング（カテゴリ番号 → フォルダ名）
+const CATEGORY_MAP: Record<number, string> = {
+  1: "acts",           // 全法令
+  2: "cabinet_orders", // 政令
+  3: "ministerial_ordinances", // 府省令
+  4: "rules",          // 規則
 };
+
+// 法令IDからカテゴリを推定
+function getCategoryFromLawId(lawId: string): string {
+  if (lawId.includes("CONSTITUTION")) return "constitution";
+  if (lawId.includes("AC")) return "acts";
+  if (lawId.includes("CO")) return "cabinet_orders";
+  if (lawId.includes("IO")) return "imperial_orders";
+  if (lawId.includes("M")) return "ministerial_ordinances";
+  if (lawId.includes("R")) return "rules";
+  return "misc";
+}
 
 interface LawListItem {
   LawId: string;
   LawNum: string;
   LawTitle: string;
-  LawType?: string;
+  category: string;
 }
 
 interface LawInfo {
@@ -46,6 +55,12 @@ interface LawIndex {
   total_count: number;
   laws: LawInfo[];
 }
+
+// XMLパーサー
+const xmlParser = new XMLParser({
+  ignoreAttributes: false,
+  attributeNamePrefix: "@_",
+});
 
 // APIレート制限対応
 function sleep(ms: number): Promise<void> {
@@ -72,32 +87,54 @@ function loadExistingIndex(): LawIndex | null {
   return null;
 }
 
-// 法令一覧を取得
+// 法令一覧を取得（XML解析）
 async function fetchLawList(): Promise<LawListItem[]> {
   console.log("📋 法令一覧を取得中...");
 
-  const response = await axios.get(`${API_BASE}/lawlists/1`, {
-    headers: { Accept: "application/json" },
-  });
-
   const laws: LawListItem[] = [];
 
-  if (response.data?.lawlists) {
-    for (const category of response.data.lawlists) {
-      if (category.laws) {
-        for (const law of category.laws) {
-          laws.push({
-            LawId: law.law_id,
-            LawNum: law.law_num,
-            LawTitle: law.law_title,
-            LawType: category.category,
-          });
-        }
-      }
+  // カテゴリ1（全法令）のみ取得
+  try {
+    const response = await axios.get(`${API_BASE}/lawlists/1`, {
+      headers: { Accept: "application/xml" },
+      responseType: "text",
+    });
+
+    const parsed = xmlParser.parse(response.data);
+    const dataRoot = parsed.DataRoot;
+
+    if (dataRoot?.Result?.Code !== "0" && dataRoot?.Result?.Code !== 0) {
+      console.error("❌ APIエラー:", dataRoot?.Result?.Message);
+      return laws;
     }
+
+    // LawNameListInfo を配列として処理
+    let lawList = dataRoot?.ApplData?.LawNameListInfo;
+    if (!lawList) {
+      console.warn("⚠️ 法令データが見つかりません");
+      return laws;
+    }
+
+    // 単一要素の場合は配列に変換
+    if (!Array.isArray(lawList)) {
+      lawList = [lawList];
+    }
+
+    for (const law of lawList) {
+      const lawId = law.LawId || "";
+      laws.push({
+        LawId: lawId,
+        LawNum: law.LawNo || "",
+        LawTitle: law.LawName || "",
+        category: getCategoryFromLawId(lawId),
+      });
+    }
+
+    console.log(`  → ${laws.length} 件の法令を発見`);
+  } catch (error: any) {
+    console.error("❌ 法令一覧の取得に失敗:", error.message);
   }
 
-  console.log(`  → ${laws.length} 件の法令を発見`);
   return laws;
 }
 
@@ -119,19 +156,14 @@ async function fetchLawXml(lawId: string): Promise<string | null> {
   }
 }
 
-// カテゴリを判定
-function getCategory(lawType?: string): string {
-  if (!lawType) return "misc";
-  return CATEGORY_MAP[lawType] || "misc";
-}
-
 // メイン処理
 async function main(): Promise<void> {
   console.log("🏛️ 日本法令データベース - インクリメンタル更新");
   console.log("=".repeat(50));
 
   // ディレクトリ準備
-  for (const category of Object.values(CATEGORY_MAP)) {
+  const categories = ["constitution", "acts", "cabinet_orders", "imperial_orders", "ministerial_ordinances", "rules", "misc"];
+  for (const category of categories) {
     ensureDir(path.join(XML_DIR, category));
   }
   ensureDir(path.dirname(INDEX_PATH));
@@ -145,14 +177,18 @@ async function main(): Promise<void> {
   // 最新の法令一覧取得
   const lawList = await fetchLawList();
 
+  if (lawList.length === 0) {
+    console.log("⚠️ 法令一覧を取得できませんでした。既存インデックスを維持します。");
+    return;
+  }
+
   // 新規法令を特定
   const newLaws = lawList.filter(law => !existingLawIds.has(law.LawId));
   console.log(`🆕 新規法令: ${newLaws.length} 件`);
 
   // 更新対象（XMLファイルが存在しない法令）
   const missingLaws = lawList.filter(law => {
-    const category = getCategory(law.LawType);
-    const xmlPath = path.join(XML_DIR, category, `${law.LawId}.xml`);
+    const xmlPath = path.join(XML_DIR, law.category, `${law.LawId}.xml`);
     return !fs.existsSync(xmlPath);
   });
   console.log(`📁 XMLファイルなし: ${missingLaws.length} 件`);
@@ -169,7 +205,7 @@ async function main(): Promise<void> {
       id: law.LawId,
       lawNum: law.LawNum,
       title: law.LawTitle,
-      category: getCategory(law.LawType),
+      category: law.category,
     }));
 
     const indexOutput: LawIndex = {
@@ -193,8 +229,7 @@ async function main(): Promise<void> {
     const law = updateTargets[i];
     const progress = `[${i + 1}/${updateTargets.length}]`;
 
-    const category = getCategory(law.LawType);
-    const xmlPath = path.join(XML_DIR, category, `${law.LawId}.xml`);
+    const xmlPath = path.join(XML_DIR, law.category, `${law.LawId}.xml`);
 
     console.log(`${progress} ⬇️ 取得中: ${law.LawTitle}`);
 
@@ -216,7 +251,7 @@ async function main(): Promise<void> {
     id: law.LawId,
     lawNum: law.LawNum,
     title: law.LawTitle,
-    category: getCategory(law.LawType),
+    category: law.category,
   }));
 
   const indexOutput: LawIndex = {
