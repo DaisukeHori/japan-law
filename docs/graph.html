@@ -193,7 +193,12 @@
         const edgesData = await edgesRes.json();
 
         allNodes = nodesData.nodes;
-        allEdges = edgesData.edges;
+        // Convert from/to to source/target for D3.js compatibility
+        allEdges = edgesData.edges.map(e => ({
+          source: e.from,
+          target: e.to,
+          count: e.count
+        }));
 
         document.getElementById('stat-total-nodes').textContent = allNodes.length.toLocaleString();
         document.getElementById('stat-total-edges').textContent = allEdges.length.toLocaleString();
