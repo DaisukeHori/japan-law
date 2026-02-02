@@ -218,22 +218,26 @@ async function fetchDiscussions(billName: string, session: number): Promise<Disc
       .replace(/に関する法律案$/, "")
       .slice(0, 30);
 
-    const url = `${KOKKAI_API}?any=${encodeURIComponent(searchTerm)}&sessionFrom=${session}&sessionTo=${session}&recordPacking=json&maximumRecords=10`;
+    // 全件取得（最大100件）
+    const url = `${KOKKAI_API}?any=${encodeURIComponent(searchTerm)}&sessionFrom=${session}&sessionTo=${session}&recordPacking=json&maximumRecords=100`;
 
-    const response = await axios.get(url, { timeout: 30000 });
+    const response = await axios.get(url, { timeout: 60000 });
     const records = response.data?.speechRecord || [];
 
-    for (const record of records.slice(0, 5)) {
+    for (const record of records) {
       const speech = record.speech || "";
-      // 発言が短すぎるものは除外
-      if (speech.length < 50) continue;
+      const speaker = record.speaker || "";
+
+      // ノイズを除外（会議録情報、短すぎる発言、発言者名がない）
+      if (!speaker || speaker.includes("会議録情報") || speaker === "（）") continue;
+      if (speech.length < 100) continue;
 
       discussions.push({
         date: record.date || "",
         meeting: record.nameOfMeeting || "",
-        speaker: record.speaker || "",
+        speaker: speaker,
         party: record.speakerGroup || "",
-        speech: speech, // 全文を保持
+        speech: speech,
         summary: generateSummary(speech),
         speechUrl: record.speechURL,
       });
@@ -245,39 +249,26 @@ async function fetchDiscussions(billName: string, session: number): Promise<Disc
   return discussions;
 }
 
-// 議論を個別コメント用に整形
+// 議論を個別コメント用に整形（シンプル版）
 function formatDiscussionAsComment(discussion: Discussion): string {
-  const link = discussion.speechUrl ? `[📄 会議録全文を見る](${discussion.speechUrl})` : "";
+  const link = discussion.speechUrl ? ` [📄](${discussion.speechUrl})` : "";
 
-  // 全文が長い場合は折りたたみ形式で表示
-  const fullText = discussion.speech.length > 500
+  // 全文が長い場合は折りたたみ
+  const fullText = discussion.speech.length > 1000
     ? `<details>
-<summary>📜 発言全文を表示（${discussion.speech.length}文字）</summary>
+<summary>全文を表示（${discussion.speech.length}文字）</summary>
 
 ${discussion.speech}
 
 </details>`
     : discussion.speech;
 
-  return `### 📅 ${discussion.date} - ${discussion.meeting}
+  return `**${discussion.speaker}**（${discussion.party}）${link}
+${discussion.date} ${discussion.meeting}
 
-**発言者:** ${discussion.speaker}（${discussion.party}）
+> ${discussion.summary}
 
----
-
-#### 💡 要約
-> ${discussion.summary || "（要約なし）"}
-
----
-
-#### 📝 発言内容
-
-${fullText}
-
-${link}
-
----
-> 🤖 [国会会議録API](https://kokkai.ndl.go.jp/) から自動取得`;
+${fullText}`;
 }
 
 // 議論を個別コメントとして追加
@@ -436,8 +427,9 @@ ${proposerSearchUrl ? `[${bill.proposer?.split(/[、,　 ]/)[0] || "提出者"}�
         const existingKeys = new Set(
           existingComments.data
             .map(c => {
-              const dateMatch = c.body?.match(/### 📅 (\d{4}-\d{2}-\d{2}) - (.+)\n/);
-              const speakerMatch = c.body?.match(/\*\*発言者:\*\* (.+?)（/);
+              // 新フォーマット: **発言者**（党）\n日付 会議名
+              const speakerMatch = c.body?.match(/^\*\*(.+?)\*\*（/m);
+              const dateMatch = c.body?.match(/(\d{4}-\d{2}-\d{2}) (.+?)\n/);
               if (dateMatch && speakerMatch) {
                 return `${dateMatch[1]}|${dateMatch[2]}|${speakerMatch[1]}`;
               }
