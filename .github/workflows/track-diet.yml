@@ -1,0 +1,108 @@
+name: Track National Diet
+
+on:
+  schedule:
+    # 毎日午前9時（JST）に実行
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+    inputs:
+      num_sessions:
+        description: 'Number of Diet sessions to track'
+        required: false
+        default: '10'
+        type: string
+      max_create:
+        description: 'Max issues to create per run'
+        required: false
+        default: '50'
+        type: string
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  track:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+        working-directory: scripts
+
+      - name: Fetch latest Diet data
+        run: |
+          echo "Fetching latest Diet data from APIs..."
+          node --loader ts-node/esm auto_update.ts
+        working-directory: scripts
+        env:
+          NODE_OPTIONS: '--max-old-space-size=4096 --no-warnings'
+
+      - name: Create/Update GitHub Issues for Diet bills
+        run: |
+          echo "Syncing GitHub Issues with Diet bills..."
+          node --loader ts-node/esm create_bill_issues.ts
+        working-directory: scripts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          NODE_OPTIONS: '--max-old-space-size=4096 --no-warnings'
+          ISSUES_NUM_SESSIONS: ${{ inputs.num_sessions || '10' }}
+          ISSUES_MAX_CREATE: ${{ inputs.max_create || '50' }}
+
+      - name: Commit tracking data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add data/index/legislators/*.json
+
+          if ! git diff --staged --quiet; then
+            DATE=$(date +%Y-%m-%d)
+            git commit -m "🏛️ 国会追跡データ更新: ${DATE}
+
+            - 議員データ更新（国会会議録API）
+            - 法案データ更新（SMRI）
+            - GitHub Issues同期
+
+            自動更新 by GitHub Actions"
+            git push
+          else
+            echo "No changes to commit"
+          fi
+
+      - name: Summary
+        run: |
+          echo "## Diet Tracking Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- **Date**: $(date +%Y-%m-%d)" >> $GITHUB_STEP_SUMMARY
+
+          if [ -f data/index/legislators/legislators.json ]; then
+            LEGISLATORS=$(cat data/index/legislators/legislators.json | grep '"active_count"' | grep -oE '[0-9]+' || echo "unknown")
+            echo "- **Active Legislators**: ${LEGISLATORS}" >> $GITHUB_STEP_SUMMARY
+          fi
+
+          if [ -f data/index/legislators/smri_bills.json ]; then
+            BILLS=$(cat data/index/legislators/smri_bills.json | grep '"total_count"' | grep -oE '[0-9]+' || echo "unknown")
+            PASSED=$(cat data/index/legislators/smri_bills.json | grep '"passed_count"' | grep -oE '[0-9]+' || echo "unknown")
+            echo "- **Total Bills**: ${BILLS} (Passed: ${PASSED})" >> $GITHUB_STEP_SUMMARY
+          fi
+
+          if [ -f data/index/legislators/created_issues.json ]; then
+            ISSUES=$(cat data/index/legislators/created_issues.json | grep -c '"bill_' || echo "0")
+            echo "- **GitHub Issues**: ${ISSUES}" >> $GITHUB_STEP_SUMMARY
+          fi
+
+          if [ -f data/index/legislators/legislator_bills.json ]; then
+            PROPOSERS=$(cat data/index/legislators/legislator_bills.json | grep '"total_proposers"' | grep -oE '[0-9]+' || echo "unknown")
+            echo "- **Tracked Proposers**: ${PROPOSERS}" >> $GITHUB_STEP_SUMMARY
+          fi

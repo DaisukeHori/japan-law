@@ -14,6 +14,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 jobs:
   update:
@@ -30,31 +31,42 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20'
-          cache: 'npm'
 
       - name: Install dependencies
         run: npm ci
+        working-directory: scripts
 
       - name: Run incremental update
         run: |
           echo "Starting law database update..."
-          npx ts-node scripts/incremental_update.ts
+          node --loader ts-node/esm incremental_update.ts
+        working-directory: scripts
         env:
-          NODE_OPTIONS: '--max-old-space-size=4096'
+          NODE_OPTIONS: '--max-old-space-size=4096 --no-warnings'
 
       - name: Run reference analysis
         run: |
           echo "Analyzing law references..."
-          npx ts-node scripts/analyze_references_multi.ts
+          node --loader ts-node/esm analyze_references_multi.ts
+        working-directory: scripts
         env:
-          NODE_OPTIONS: '--max-old-space-size=4096'
+          NODE_OPTIONS: '--max-old-space-size=4096 --no-warnings'
+
+      - name: Update legislators and parties
+        run: |
+          echo "Updating legislators, parties, and bills data..."
+          node --loader ts-node/esm auto_update.ts
+        working-directory: scripts
+        env:
+          NODE_OPTIONS: '--max-old-space-size=4096 --no-warnings'
 
       - name: Generate documentation site
         run: |
           echo "Generating documentation..."
-          npx ts-node scripts/generate_docs.ts
+          node --loader ts-node/esm generate_docs.ts
+        working-directory: scripts
         env:
-          NODE_OPTIONS: '--max-old-space-size=4096'
+          NODE_OPTIONS: '--max-old-space-size=4096 --no-warnings'
 
       - name: Check for changes
         id: check_changes
@@ -91,6 +103,38 @@ jobs:
 
           git push
 
+      - name: Create GitHub Issues for bills (Diet Tracking)
+        run: |
+          echo "Creating/Updating GitHub Issues for Diet bills..."
+          node --loader ts-node/esm create_bill_issues.ts
+        working-directory: scripts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          NODE_OPTIONS: '--max-old-space-size=4096 --no-warnings'
+          ISSUES_NUM_SESSIONS: '10'
+          ISSUES_MAX_CREATE: '50'
+        continue-on-error: true
+
+      - name: Commit issue tracking file
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -f data/index/legislators/created_issues.json ]; then
+            git add data/index/legislators/created_issues.json
+            git add data/index/legislators/legislator_bills.json 2>/dev/null || true
+            if ! git diff --staged --quiet; then
+              git commit -m "📋 国会追跡データ更新
+
+              - 法案Issue自動作成/更新
+              - 議員別法案データ更新
+
+              自動更新 by GitHub Actions"
+              git push
+            fi
+          fi
+        continue-on-error: true
+
       - name: Summary
         run: |
           echo "## Update Summary" >> $GITHUB_STEP_SUMMARY
@@ -101,4 +145,19 @@ jobs:
           if [ -f data/index/laws.json ]; then
             TOTAL=$(cat data/index/laws.json | grep -c '"id"' || echo "unknown")
             echo "- **Total laws**: ${TOTAL}" >> $GITHUB_STEP_SUMMARY
+          fi
+
+          if [ -f data/index/legislators/legislators.json ]; then
+            LEGISLATORS=$(cat data/index/legislators/legislators.json | grep -c '"id"' || echo "unknown")
+            echo "- **Total legislators**: ${LEGISLATORS}" >> $GITHUB_STEP_SUMMARY
+          fi
+
+          if [ -f data/index/legislators/smri_bills.json ]; then
+            BILLS=$(cat data/index/legislators/smri_bills.json | grep '"total_count"' | grep -oE '[0-9]+' || echo "unknown")
+            echo "- **Total bills**: ${BILLS}" >> $GITHUB_STEP_SUMMARY
+          fi
+
+          if [ -f data/index/legislators/created_issues.json ]; then
+            ISSUES=$(cat data/index/legislators/created_issues.json | grep -c '"bill_' || echo "0")
+            echo "- **GitHub Issues**: ${ISSUES}" >> $GITHUB_STEP_SUMMARY
           fi

@@ -4,14 +4,17 @@
   "description": "日本法令データベース管理スクリプト",
   "type": "module",
   "scripts": {
-    "fetch": "npx ts-node fetch_all_laws.ts",
-    "fetch:updates": "npx ts-node fetch_updates.ts",
-    "convert:lawtext": "npx ts-node convert_to_lawtext.ts",
-    "convert:markdown": "npx ts-node convert_to_markdown.ts",
-    "analyze": "npx ts-node analyze_references.ts",
-    "stats": "npx ts-node calculate_stats.ts",
-    "build:index": "npx ts-node generate_index.ts",
-    "build:all": "npm run fetch && npm run convert:lawtext && npm run convert:markdown && npm run analyze && npm run build:index"
+    "fetch": "node --loader ts-node/esm fetch_all_laws.ts",
+    "fetch:updates": "node --loader ts-node/esm fetch_updates.ts",
+    "convert:lawtext": "node --loader ts-node/esm convert_to_lawtext.ts",
+    "convert:markdown": "node --loader ts-node/esm convert_to_markdown.ts",
+    "analyze": "node --loader ts-node/esm analyze_references.ts",
+    "stats": "node --loader ts-node/esm calculate_stats.ts",
+    "build:index": "node --loader ts-node/esm generate_index.ts",
+    "build:all": "npm run fetch && npm run convert:lawtext && npm run convert:markdown && npm run analyze && npm run build:index",
+    "update:smri": "node --loader ts-node/esm import_smri_data.ts",
+    "update:legislators": "node --loader ts-node/esm auto_update.ts",
+    "create:issues": "node --loader ts-node/esm create_bill_issues.ts"
   },
   "dependencies": {
     "axios": "^1.6.7",

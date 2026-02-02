@@ -95,6 +95,49 @@
       </div>
     </section>
 
+    <!-- 国会トラッキング -->
+    <section class="bg-white rounded-lg shadow-md p-6 mb-8">
+      <h2 class="text-2xl font-bold mb-4">🏛️ 国会トラッキング</h2>
+      <p class="text-gray-600 mb-4">
+        GitHub Issues = 法案、PR Merge = 法案成立 として国会活動を追跡しています。
+      </p>
+      <div class="grid md:grid-cols-2 gap-6">
+        <!-- 審議中の法案 -->
+        <div>
+          <h3 class="font-bold text-green-700 mb-2">📋 審議中の法案（Open Issues）</h3>
+          <div id="open-issues" class="text-sm space-y-2 max-h-48 overflow-y-auto">
+            <p class="text-gray-500">読み込み中...</p>
+          </div>
+          <a href="https://github.com/DaisukeHori/japan-law/issues?q=is%3Aissue+is%3Aopen+label%3A%E6%B3%95%E6%A1%88"
+             target="_blank"
+             class="text-blue-600 hover:underline text-sm mt-2 inline-block">
+            すべての法案を見る →
+          </a>
+        </div>
+        <!-- 最近の成立 -->
+        <div>
+          <h3 class="font-bold text-blue-700 mb-2">✅ 最近成立した法案（Closed Issues）</h3>
+          <div id="closed-issues" class="text-sm space-y-2 max-h-48 overflow-y-auto">
+            <p class="text-gray-500">読み込み中...</p>
+          </div>
+          <a href="https://github.com/DaisukeHori/japan-law/issues?q=is%3Aissue+is%3Aclosed+label%3A%E6%88%90%E7%AB%8B"
+             target="_blank"
+             class="text-blue-600 hover:underline text-sm mt-2 inline-block">
+            成立法案一覧 →
+          </a>
+        </div>
+      </div>
+      <div class="mt-4 pt-4 border-t">
+        <h3 class="font-bold text-purple-700 mb-2">📜 最近の法令更新（Recent Commits）</h3>
+        <div id="recent-commits" class="text-sm space-y-2 max-h-32 overflow-y-auto">
+          <p class="text-gray-500">読み込み中...</p>
+        </div>
+        <a href="./diff.html" class="text-blue-600 hover:underline text-sm mt-2 inline-block">
+          改正履歴を詳しく見る →
+        </a>
+      </div>
+    </section>
+
     <!-- 統計サマリー（プレースホルダー） -->
     <section class="bg-white rounded-lg shadow-md p-6">
       <h2 class="text-2xl font-bold mb-4">📊 統計サマリー</h2>
@@ -136,10 +179,10 @@
           fetch('./data/index/laws.json'),
           fetch('./data/index/legislators/activity_stats.json')
         ]);
-        
+
         const lawsData = await lawsRes.json();
         const statsData = await statsRes.json();
-        
+
         document.getElementById('stat-laws').textContent = lawsData.total_count?.toLocaleString() || '0';
         document.getElementById('stat-legislators').textContent = statsData.summary?.total_legislators?.toLocaleString() || '0';
         document.getElementById('stat-bills').textContent = statsData.summary?.total_bills?.toLocaleString() || '0';
@@ -148,8 +191,93 @@
         console.log('Stats not loaded yet');
       }
     }
-    
+
+    // 国会トラッキングデータを読み込み
+    async function loadDietTracking() {
+      const owner = 'DaisukeHori';
+      const repo = 'japan-law';
+
+      // Open Issues (審議中の法案)
+      try {
+        const openRes = await fetch(
+          `https://api.github.com/repos/${owner}/${repo}/issues?state=open&labels=法案&per_page=5`
+        );
+        const openIssues = await openRes.json();
+        const openContainer = document.getElementById('open-issues');
+
+        if (openIssues.length > 0) {
+          openContainer.innerHTML = openIssues.map(issue => `
+            <a href="${issue.html_url}" target="_blank"
+               class="block p-2 border rounded hover:bg-gray-50">
+              <span class="font-medium">${escapeHtml(issue.title)}</span>
+              <span class="text-xs text-gray-500 ml-2">#${issue.number}</span>
+            </a>
+          `).join('');
+        } else {
+          openContainer.innerHTML = '<p class="text-gray-500">審議中の法案はありません</p>';
+        }
+      } catch (e) {
+        document.getElementById('open-issues').innerHTML =
+          '<p class="text-gray-500">データの取得に失敗しました</p>';
+      }
+
+      // Closed Issues (成立した法案)
+      try {
+        const closedRes = await fetch(
+          `https://api.github.com/repos/${owner}/${repo}/issues?state=closed&labels=成立&per_page=5`
+        );
+        const closedIssues = await closedRes.json();
+        const closedContainer = document.getElementById('closed-issues');
+
+        if (closedIssues.length > 0) {
+          closedContainer.innerHTML = closedIssues.map(issue => `
+            <a href="${issue.html_url}" target="_blank"
+               class="block p-2 border rounded hover:bg-gray-50">
+              <span class="font-medium">${escapeHtml(issue.title)}</span>
+              <span class="text-xs text-green-600 ml-2">成立 ✓</span>
+            </a>
+          `).join('');
+        } else {
+          closedContainer.innerHTML = '<p class="text-gray-500">まだ成立した法案はありません</p>';
+        }
+      } catch (e) {
+        document.getElementById('closed-issues').innerHTML =
+          '<p class="text-gray-500">データの取得に失敗しました</p>';
+      }
+
+      // Recent Commits
+      try {
+        const commitsRes = await fetch(
+          `https://api.github.com/repos/${owner}/${repo}/commits?path=data/markdown&per_page=5`
+        );
+        const commits = await commitsRes.json();
+        const commitsContainer = document.getElementById('recent-commits');
+
+        if (commits.length > 0) {
+          commitsContainer.innerHTML = commits.map(commit => `
+            <a href="${commit.html_url}" target="_blank"
+               class="block p-2 border rounded hover:bg-gray-50">
+              <span class="font-medium">${escapeHtml(commit.commit.message.split('\n')[0])}</span>
+              <span class="text-xs text-gray-500 ml-2">${commit.sha.slice(0, 7)}</span>
+            </a>
+          `).join('');
+        } else {
+          commitsContainer.innerHTML = '<p class="text-gray-500">まだコミットはありません</p>';
+        }
+      } catch (e) {
+        document.getElementById('recent-commits').innerHTML =
+          '<p class="text-gray-500">データの取得に失敗しました</p>';
+      }
+    }
+
+    function escapeHtml(text) {
+      const div = document.createElement('div');
+      div.textContent = text;
+      return div.innerHTML;
+    }
+
     loadStats();
+    loadDietTracking();
   </script>
 </body>
 </html>

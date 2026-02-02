@@ -1,12 +1,12 @@
 {
-  "updated_at": "2025-02-01T00:00:00Z",
+  "updated_at": "2026-02-02T09:48:57.091Z",
   "parties": [
     {
       "id": "ldp",
       "name": "自由民主党",
       "short_name": "自民",
       "color": "#e74c3c",
-      "github_label": "政党/自由民主党",
+      "member_count": 346,
       "official_url": "https://www.jimin.jp/"
     },
     {
@@ -14,64 +14,86 @@
       "name": "立憲民主党",
       "short_name": "立憲",
       "color": "#3498db",
-      "github_label": "政党/立憲民主党",
+      "member_count": 137,
       "official_url": "https://cdp-japan.jp/"
-    },
-    {
-      "id": "komei",
-      "name": "公明党",
-      "short_name": "公明",
-      "color": "#f39c12",
-      "github_label": "政党/公明党",
-      "official_url": "https://www.komei.or.jp/"
     },
     {
       "id": "ishin",
       "name": "日本維新の会",
       "short_name": "維新",
       "color": "#27ae60",
-      "github_label": "政党/日本維新の会",
+      "member_count": 64,
       "official_url": "https://o-ishin.jp/"
     },
     {
-      "id": "dpfp",
-      "name": "国民民主党",
-      "short_name": "国民",
-      "color": "#9b59b6",
-      "github_label": "政党/国民民主党",
-      "official_url": "https://new-kokumin.jp/"
-    },
-    {
-      "id": "jcp",
-      "name": "日本共産党",
-      "short_name": "共産",
-      "color": "#c0392b",
-      "github_label": "政党/日本共産党",
-      "official_url": "https://www.jcp.or.jp/"
-    },
-    {
-      "id": "reiwa",
-      "name": "れいわ新選組",
-      "short_name": "れいわ",
-      "color": "#e91e63",
-      "github_label": "政党/れいわ新選組",
-      "official_url": "https://reiwa-shinsengumi.com/"
-    },
-    {
-      "id": "independent",
-      "name": "無所属",
-      "short_name": "無",
-      "color": "#95a5a6",
-      "github_label": "政党/無所属",
-      "official_url": null
+      "id": "komei",
+      "name": "公明党",
+      "short_name": "公明",
+      "color": "#f39c12",
+      "member_count": 57,
+      "official_url": "https://www.komei.or.jp/"
     },
     {
       "id": "other",
       "name": "その他",
       "short_name": "他",
       "color": "#7f8c8d",
-      "github_label": "政党/その他",
-      "official_url": null
+      "member_count": 51
+    },
+    {
+      "id": "jcp",
+      "name": "日本共産党",
+      "short_name": "共産",
+      "color": "#c0392b",
+      "member_count": 16,
+      "official_url": "https://www.jcp.or.jp/"
+    },
+    {
+      "id": "independent",
+      "name": "無所属",
+      "short_name": "無",
+      "color": "#95a5a6",
+      "member_count": 9
+    },
+    {
+      "id": "dpfp",
+      "name": "国民民主党",
+      "short_name": "国民",
+      "color": "#9b59b6",
+      "member_count": 7,
+      "official_url": "https://new-kokumin.jp/"
+    },
+    {
+      "id": "reiwa",
+      "name": "れいわ新選組",
+      "short_name": "れいわ",
+      "color": "#e91e63",
+      "member_count": 3,
+      "official_url": "https://reiwa-shinsengumi.com/"
+    },
+    {
+      "id": "sdp",
+      "name": "社会民主党",
+      "short_name": "社民",
+      "color": "#ff6b6b",
+      "member_count": 2,
+      "official_url": "https://sdp.or.jp/"
+    },
+    {
+      "id": "nhk",
+      "name": "NHK党",
+      "short_name": "NHK",
+      "color": "#4a4a4a",
+      "member_count": 0,
+      "official_url": "https://www.nhk-party.jp/"
+    },
+    {
+      "id": "sansei",
+      "name": "参政党",
+      "short_name": "参政",
+      "color": "#ff9800",
+      "member_count": 0,
+      "official_url": "https://www.sanseito.jp/"
     }
   ]
 }

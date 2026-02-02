@@ -303,13 +303,20 @@
         }
 
         container.innerHTML = commits.map(commit => `
-          <div class="border rounded-lg p-3 hover:bg-gray-50">
-            <p class="font-medium text-sm">${escapeHtml(commit.commit.message.split('\n')[0])}</p>
-            <p class="text-xs text-gray-500 mt-1">
-              <span class="font-mono bg-gray-100 px-1 rounded">${commit.sha.slice(0, 7)}</span>
-              ${new Date(commit.commit.author.date).toLocaleDateString('ja-JP')}
-            </p>
-          </div>
+          <a href="https://github.com/DaisukeHori/japan-law/commit/${commit.sha}"
+             target="_blank"
+             class="block border rounded-lg p-3 hover:bg-gray-50 hover:border-blue-300 transition-colors cursor-pointer">
+            <div class="flex items-start justify-between">
+              <div class="flex-1">
+                <p class="font-medium text-sm text-gray-800">${escapeHtml(commit.commit.message.split('\n')[0])}</p>
+                <p class="text-xs text-gray-500 mt-1">
+                  <span class="font-mono bg-gray-100 px-1 rounded">${commit.sha.slice(0, 7)}</span>
+                  ${new Date(commit.commit.author.date).toLocaleDateString('ja-JP')}
+                </p>
+              </div>
+              <span class="text-blue-600 text-xs">詳細 →</span>
+            </div>
+          </a>
         `).join('');
 
       } catch (error) {

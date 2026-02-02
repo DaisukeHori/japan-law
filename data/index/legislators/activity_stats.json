@@ -1,11 +1,61 @@
 {
-  "updated_at": "2025-02-01T00:00:00Z",
+  "updated_at": "2026-02-02T09:48:57.091Z",
   "summary": {
-    "total_legislators": 0,
-    "total_bills": 0,
-    "passed_bills": 0,
-    "overall_success_rate": 0
+    "total_legislators": 692,
+    "councillors": 246,
+    "representatives": 446,
+    "total_bills": 16303,
+    "passed_bills": 6100,
+    "overall_success_rate": 0.3741642642458443
   },
-  "by_legislator": {},
-  "by_party": {}
+  "by_party": {
+    "ldp": {
+      "name": "自由民主党",
+      "member_count": 346
+    },
+    "cdp": {
+      "name": "立憲民主党",
+      "member_count": 137
+    },
+    "ishin": {
+      "name": "日本維新の会",
+      "member_count": 64
+    },
+    "komei": {
+      "name": "公明党",
+      "member_count": 57
+    },
+    "other": {
+      "name": "その他",
+      "member_count": 51
+    },
+    "jcp": {
+      "name": "日本共産党",
+      "member_count": 16
+    },
+    "independent": {
+      "name": "無所属",
+      "member_count": 9
+    },
+    "dpfp": {
+      "name": "国民民主党",
+      "member_count": 7
+    },
+    "reiwa": {
+      "name": "れいわ新選組",
+      "member_count": 3
+    },
+    "sdp": {
+      "name": "社会民主党",
+      "member_count": 2
+    },
+    "nhk": {
+      "name": "NHK党",
+      "member_count": 0
+    },
+    "sansei": {
+      "name": "参政党",
+      "member_count": 0
+    }
+  }
 }

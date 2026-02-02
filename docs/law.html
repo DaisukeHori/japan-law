@@ -152,6 +152,9 @@
         document.getElementById('content').classList.remove('hidden');
         document.getElementById('loading').classList.add('hidden');
 
+        // マークダウン内のリンクを適切なURLに変換
+        convertMarkdownLinks();
+
         // 参照情報を読み込み
         loadReferences(lawId);
 
@@ -162,6 +165,9 @@
 
     async function loadReferences(lawId) {
       try {
+        // 法令インデックスを先に読み込んでカテゴリを解決
+        const index = await loadLawIndex();
+
         const [refsRes, backlinksRes] = await Promise.all([
           fetch('./data/index/references.json'),
           fetch('./data/index/backlinks.json')
@@ -170,18 +176,27 @@
         const refsData = await refsRes.json();
         const backlinksData = await backlinksRes.json();
 
+        // カテゴリを取得するヘルパー関数
+        const getCategory = (id) => {
+          const law = index.get(id);
+          return law?.category || 'acts';
+        };
+
         // この法令からの参照
         const outgoing = (refsData.references || []).filter(r => r.from_law_id === lawId);
         const outgoingList = document.getElementById('outgoing-refs');
 
         if (outgoing.length > 0) {
-          outgoingList.innerHTML = outgoing.slice(0, 20).map(r => `
+          outgoingList.innerHTML = outgoing.slice(0, 20).map(r => {
+            const category = getCategory(r.to_law_id);
+            return `
             <li>
-              <a href="?id=${r.to_law_id}&category=acts" class="text-green-600 hover:underline">
+              <a href="law.html?id=${r.to_law_id}&category=${category}" class="text-green-600 hover:underline">
                 → ${r.to_law_title}
               </a>
             </li>
-          `).join('');
+          `;
+          }).join('');
           if (outgoing.length > 20) {
             outgoingList.innerHTML += `<li class="text-gray-500">...他 ${outgoing.length - 20} 件</li>`;
           }
@@ -194,14 +209,17 @@
         const incomingList = document.getElementById('incoming-refs');
 
         if (incoming.length > 0) {
-          incomingList.innerHTML = incoming.slice(0, 20).map(r => `
+          incomingList.innerHTML = incoming.slice(0, 20).map(r => {
+            const category = getCategory(r.law_id);
+            return `
             <li>
-              <a href="?id=${r.law_id}&category=acts" class="text-blue-600 hover:underline">
+              <a href="law.html?id=${r.law_id}&category=${category}" class="text-blue-600 hover:underline">
                 ← ${r.title}
               </a>
               <span class="text-gray-400 text-xs">(${r.count}回)</span>
             </li>
-          `).join('');
+          `;
+          }).join('');
           if (incoming.length > 20) {
             incomingList.innerHTML += `<li class="text-gray-500">...他 ${incoming.length - 20} 件</li>`;
           }
@@ -221,6 +239,49 @@
       document.getElementById('error').classList.remove('hidden');
       document.getElementById('error-detail').textContent = message;
       document.getElementById('law-title').textContent = 'エラー';
+    }
+
+    // 法令インデックス（カテゴリ解決用）
+    let lawIndex = null;
+
+    async function loadLawIndex() {
+      if (lawIndex) return lawIndex;
+      try {
+        const res = await fetch('./data/index/laws.json');
+        const data = await res.json();
+        lawIndex = new Map(data.laws.map(l => [l.id, l]));
+        return lawIndex;
+      } catch (e) {
+        console.error('Failed to load law index:', e);
+        return new Map();
+      }
+    }
+
+    // マークダウン内の .md リンクを law.html?id=... 形式に変換
+    function convertMarkdownLinks() {
+      const content = document.getElementById('content');
+      const links = content.querySelectorAll('a');
+
+      links.forEach(link => {
+        const href = link.getAttribute('href');
+        if (!href) return;
+
+        // .md ファイルへのリンクを変換
+        // パターン: ./カテゴリ/法令ID.md または ../カテゴリ/法令ID.md または 法令ID.md
+        const mdMatch = href.match(/(?:\.\.?\/)?(?:([a-z_]+)\/)?([A-Z0-9]+)\.md(#.+)?$/);
+        if (mdMatch) {
+          const category = mdMatch[1] || 'acts';
+          const lawId = mdMatch[2];
+          const anchor = mdMatch[3] || '';
+          link.setAttribute('href', `law.html?id=${lawId}&category=${category}${anchor}`);
+          link.classList.add('text-blue-600', 'hover:underline');
+        }
+
+        // 内部アンカーリンク（同一法令内の条文参照）
+        if (href.startsWith('#')) {
+          link.classList.add('text-green-600', 'hover:underline');
+        }
+      });
     }
 
     loadLaw();
