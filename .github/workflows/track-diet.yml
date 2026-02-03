@@ -77,7 +77,12 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add data/index/legislators/*.json
+          # 明示的にファイルを追加（pending_summaries.jsonも含む）
+          git add data/index/legislators/legislators.json 2>/dev/null || true
+          git add data/index/legislators/smri_bills.json 2>/dev/null || true
+          git add data/index/legislators/created_issues.json 2>/dev/null || true
+          git add data/index/legislators/legislator_bills.json 2>/dev/null || true
+          git add data/index/legislators/pending_summaries.json 2>/dev/null || true
 
           if ! git diff --staged --quiet; then
             DATE=$(date +%Y-%m-%d)
@@ -87,6 +92,7 @@ jobs:
             - 法案データ更新（SMRI）
             - GitHub Issues同期
             - 成立法案PR作成
+            - LLM要約キュー更新
 
             自動更新 by GitHub Actions"
             git push
@@ -119,4 +125,9 @@ jobs:
           if [ -f data/index/legislators/legislator_bills.json ]; then
             PROPOSERS=$(cat data/index/legislators/legislator_bills.json | grep '"total_proposers"' | grep -oE '[0-9]+' || echo "unknown")
             echo "- **Tracked Proposers**: ${PROPOSERS}" >> $GITHUB_STEP_SUMMARY
+          fi
+
+          if [ -f data/index/legislators/pending_summaries.json ]; then
+            PENDING=$(cat data/index/legislators/pending_summaries.json | grep -c '"comment_id"' || echo "0")
+            echo "- **Pending LLM Summaries**: ${PENDING}" >> $GITHUB_STEP_SUMMARY
           fi
