@@ -111,7 +111,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           NODE_OPTIONS: '--max-old-space-size=4096 --no-warnings'
           ISSUES_NUM_SESSIONS: '10'
           ISSUES_MAX_CREATE: '10000'

@@ -12,15 +12,15 @@ import axios from "axios";
 
 const KOKKAI_API = "https://kokkai.ndl.go.jp/api/speech";
 
-// Google Gemini API（無料枠: 1日1500リクエスト）
-const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
-const GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent";
-const USE_LLM_SUMMARY = !!GEMINI_API_KEY;
+// DeepSeek API（新規登録で500万トークン無料、OpenAI互換）
+const DEEPSEEK_API_KEY = process.env.DEEPSEEK_API_KEY;
+const DEEPSEEK_API_URL = "https://api.deepseek.com/v1/chat/completions";
+const USE_LLM_SUMMARY = !!DEEPSEEK_API_KEY;
 
 if (USE_LLM_SUMMARY) {
-  console.log("🤖 LLM要約モード: Gemini API（無料）を使用");
+  console.log("🤖 LLM要約モード: DeepSeek API を使用");
 } else {
-  console.log("📝 キーワード要約モード: GEMINI_API_KEY が未設定");
+  console.log("📝 キーワード要約モード: DEEPSEEK_API_KEY が未設定");
 }
 
 const __filename = fileURLToPath(import.meta.url);
@@ -201,36 +201,41 @@ interface Discussion {
   speechUrl?: string;
 }
 
-// LLMで要約を生成（Gemini API）
+// LLMで要約を生成（DeepSeek API - OpenAI互換）
 async function generateSummaryWithLLM(speech: string): Promise<string | null> {
-  if (!GEMINI_API_KEY) return null;
+  if (!DEEPSEEK_API_KEY) return null;
 
   try {
     // 発言が長すぎる場合は前半部分のみ使用
     const truncatedSpeech = speech.length > 3000 ? speech.slice(0, 3000) + "..." : speech;
 
     const response = await axios.post(
-      `${GEMINI_API_URL}?key=${GEMINI_API_KEY}`,
+      DEEPSEEK_API_URL,
       {
-        contents: [{
-          parts: [{
-            text: `以下の国会での発言を1-2文（100文字以内）で要約してください。発言者の主張・立場・結論を簡潔に示してください。
-
-発言:
-${truncatedSpeech}
-
-要約:`
-          }]
-        }],
-        generationConfig: {
-          temperature: 0.3,
-          maxOutputTokens: 150,
-        }
+        model: "deepseek-chat",
+        messages: [
+          {
+            role: "system",
+            content: "あなたは国会議事録の要約を行うアシスタントです。発言者の主張・立場・結論を1-2文（100文字以内）で簡潔に要約してください。"
+          },
+          {
+            role: "user",
+            content: `以下の国会での発言を要約してください:\n\n${truncatedSpeech}`
+          }
+        ],
+        temperature: 0.3,
+        max_tokens: 150,
       },
-      { timeout: 10000 }
+      {
+        headers: {
+          "Authorization": `Bearer ${DEEPSEEK_API_KEY}`,
+          "Content-Type": "application/json",
+        },
+        timeout: 15000
+      }
     );
 
-    const text = response.data?.candidates?.[0]?.content?.parts?.[0]?.text;
+    const text = response.data?.choices?.[0]?.message?.content;
     if (text) {
       // 改行を除去して返す
       return text.trim().replace(/\n/g, " ").slice(0, 200);
@@ -238,7 +243,7 @@ ${truncatedSpeech}
   } catch (error: any) {
     // API制限やエラー時はnullを返してフォールバック
     if (error.response?.status === 429) {
-      console.log("    ⚠️ Gemini API制限 - キーワード要約にフォールバック");
+      console.log("    ⚠️ DeepSeek API制限 - キーワード要約にフォールバック");
     }
   }
   return null;
