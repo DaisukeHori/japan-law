@@ -132,7 +132,7 @@
     // 初期化
     async function init() {
       try {
-        const response = await fetch("./data/index/laws.json");
+        const response = await fetch("../data/index/laws.json");
         const data = await response.json();
         laws = data.laws || [];
 

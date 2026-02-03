@@ -185,8 +185,8 @@
     async function loadData() {
       try {
         const [nodesRes, edgesRes] = await Promise.all([
-          fetch('./data/index/graph/nodes.json'),
-          fetch('./data/index/graph/edges.json')
+          fetch('../data/index/graph/nodes.json'),
+          fetch('../data/index/graph/edges.json')
         ]);
 
         const nodesData = await nodesRes.json();

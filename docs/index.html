@@ -176,8 +176,8 @@
     async function loadStats() {
       try {
         const [lawsRes, statsRes] = await Promise.all([
-          fetch('./data/index/laws.json'),
-          fetch('./data/index/legislators/activity_stats.json')
+          fetch('../data/index/laws.json'),
+          fetch('../data/index/legislators/activity_stats.json')
         ]);
 
         const lawsData = await lawsRes.json();

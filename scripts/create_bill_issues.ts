@@ -11,6 +11,7 @@ import { Octokit } from "@octokit/rest";
 import axios from "axios";
 
 const KOKKAI_API = "https://kokkai.ndl.go.jp/api/speech";
+const GITHUB_MODELS_URL = "https://models.inference.ai.azure.com/chat/completions";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -19,6 +20,7 @@ const DATA_DIR = path.join(__dirname, "..", "data");
 const LEGISLATORS_DIR = path.join(DATA_DIR, "index", "legislators");
 const TRACKING_FILE = path.join(LEGISLATORS_DIR, "created_issues.json");
 const SUMMARY_QUEUE_FILE = path.join(LEGISLATORS_DIR, "pending_summaries.json");
+const SPEECH_INDEX_FILE = path.join(LEGISLATORS_DIR, "legislator_speeches.json");
 
 // LLM要約待ちキュー
 interface PendingSummary {
@@ -57,6 +59,94 @@ function addToSummaryQueue(queue: SummaryQueue, item: PendingSummary): void {
   if (!queue.pending.some(p => p.comment_id === item.comment_id)) {
     queue.pending.push(item);
   }
+}
+
+// 議員別発言インデックス
+interface LegislatorSpeech {
+  bill_id: string;
+  bill_name: string;
+  issue_number: number;
+  date: string;
+  meeting: string;
+  stance: "賛成" | "反対" | "中立";
+}
+
+interface LegislatorRecord {
+  party: string;
+  speech_count: number;
+  bills: LegislatorSpeech[];
+  stance_summary: { support: number; oppose: number; neutral: number };
+}
+
+interface LegislatorSpeechIndex {
+  updated_at: string;
+  total_legislators: number;
+  total_speeches: number;
+  legislators: Record<string, LegislatorRecord>;
+}
+
+// 議員別発言インデックスを読み込み
+function loadSpeechIndex(): LegislatorSpeechIndex {
+  try {
+    if (fs.existsSync(SPEECH_INDEX_FILE)) {
+      return JSON.parse(fs.readFileSync(SPEECH_INDEX_FILE, "utf-8"));
+    }
+  } catch (e) {
+    console.log("⚠️ 発言インデックスの読み込みに失敗、新規作成");
+  }
+  return {
+    updated_at: new Date().toISOString(),
+    total_legislators: 0,
+    total_speeches: 0,
+    legislators: {},
+  };
+}
+
+// 議員別発言インデックスを保存
+function saveSpeechIndex(index: LegislatorSpeechIndex): void {
+  index.updated_at = new Date().toISOString();
+  index.total_legislators = Object.keys(index.legislators).length;
+  index.total_speeches = Object.values(index.legislators).reduce((sum, l) => sum + l.speech_count, 0);
+  fs.writeFileSync(SPEECH_INDEX_FILE, JSON.stringify(index, null, 2), "utf-8");
+}
+
+// 議員の発言をインデックスに追加
+function addToSpeechIndex(
+  index: LegislatorSpeechIndex,
+  speaker: string,
+  party: string,
+  billId: string,
+  billName: string,
+  issueNumber: number,
+  date: string,
+  meeting: string,
+  stance: "賛成" | "反対" | "中立"
+): void {
+  if (!index.legislators[speaker]) {
+    index.legislators[speaker] = {
+      party,
+      speech_count: 0,
+      bills: [],
+      stance_summary: { support: 0, oppose: 0, neutral: 0 },
+    };
+  }
+
+  const record = index.legislators[speaker];
+
+  // 重複チェック（同じ法案+日付+会議は追加しない）
+  const key = `${billId}|${date}|${meeting}`;
+  if (record.bills.some(b => `${b.bill_id}|${b.date}|${b.meeting}` === key)) {
+    return;
+  }
+
+  record.party = party || record.party; // パーティ情報を更新
+  record.speech_count++;
+  record.bills.push({ bill_id: billId, bill_name: billName, issue_number: issueNumber, date, meeting, stance });
+
+  // スタンス集計を更新
+  if (stance === "賛成") record.stance_summary.support++;
+  else if (stance === "反対") record.stance_summary.oppose++;
+  else record.stance_summary.neutral++;
 }
 
 interface Bill {
@@ -189,14 +279,22 @@ async function ensureLabels(octokit: Octokit, owner: string, repo: string): Prom
   }
 }
 
-// 提出者名をラベル用に整形（複数名の場合は最初の1人）
-function getProposerLabel(proposer: string): string | null {
+// 複数名から最初の提案者名を取得（フルネーム維持、スペースは分割しない）
+function getFirstProposerName(proposer: string): string | null {
   if (!proposer || proposer === "内閣") return null;
-  // 複数名の場合は最初の1人を取得
-  const names = proposer.split(/[、,　 ]/);
+  // カンマ区切りのみで分割（全角・半角カンマ対応）
+  // スペースは「姓 名」の区切りの可能性があるため分割しない
+  const names = proposer.split(/[、,，]/);
   const firstName = names[0]?.trim();
-  if (!firstName || firstName.length > 10) return null;
-  return `提案者/${firstName}`;
+  if (!firstName || firstName.length > 20) return null; // フルネーム対応で長さ制限緩和
+  return firstName;
+}
+
+// 提出者名をラベル用に整形（複数名の場合は最初の1人、フルネームで）
+function getProposerLabel(proposer: string): string | null {
+  const name = getFirstProposerName(proposer);
+  if (!name) return null;
+  return `提案者/${name}`;
 }
 
 // 提出会派をラベル用に整形
@@ -228,6 +326,206 @@ interface Discussion {
   speech: string;
   summary: string;
   speechUrl?: string;
+  stance?: "賛成" | "反対" | "中立";
+  isLlmSummary?: boolean;
+}
+
+// 発言から賛否スタンスを検出
+function detectStance(speech: string): "賛成" | "反対" | "中立" {
+  const supportKeywords = [
+    "賛成", "賛成いたします", "賛成の立場", "支持", "支持いたします",
+    "歓迎", "評価", "前進", "必要な法案", "重要な法案"
+  ];
+  const opposeKeywords = [
+    "反対", "反対いたします", "反対の立場", "批判", "問題がある",
+    "懸念", "不十分", "見直し", "廃案", "撤回"
+  ];
+
+  let supportScore = 0;
+  let opposeScore = 0;
+
+  for (const keyword of supportKeywords) {
+    if (speech.includes(keyword)) supportScore += 1;
+  }
+  for (const keyword of opposeKeywords) {
+    if (speech.includes(keyword)) opposeScore += 1;
+  }
+
+  if (supportScore > opposeScore && supportScore >= 2) return "賛成";
+  if (opposeScore > supportScore && opposeScore >= 2) return "反対";
+  return "中立";
+}
+
+// 賛否バッジを生成
+function getStanceBadge(stance: "賛成" | "反対" | "中立"): string {
+  switch (stance) {
+    case "賛成": return "🟢";
+    case "反対": return "🔴";
+    default: return "⚪";
+  }
+}
+
+// 役職アイコンを取得
+function getRoleIcon(speaker: string): string {
+  if (speaker.includes("内閣総理大臣") || speaker.includes("総理")) return "👔";
+  if (speaker.includes("大臣")) return "🏛️";
+  if (speaker.includes("副大臣") || speaker.includes("政務官")) return "📋";
+  if (speaker.includes("委員長") || speaker.includes("議長")) return "🪑";
+  if (speaker.includes("参考人") || speaker.includes("公述人")) return "👥";
+  return "🎤"; // デフォルト: 議員
+}
+
+// 党派カラーを取得（shields.io用）
+function getPartyColor(party: string): string {
+  const partyColors: Record<string, string> = {
+    "自由民主党": "e74c3c",
+    "自民": "e74c3c",
+    "立憲民主党": "3498db",
+    "立憲": "3498db",
+    "公明党": "f39c12",
+    "公明": "f39c12",
+    "日本維新の会": "27ae60",
+    "維新": "27ae60",
+    "国民民主党": "9b59b6",
+    "国民": "9b59b6",
+    "日本共産党": "c0392b",
+    "共産": "c0392b",
+    "れいわ新選組": "e91e63",
+    "れいわ": "e91e63",
+    "社会民主党": "ff6b6b",
+    "社民": "ff6b6b",
+    "無所属": "808080",
+  };
+
+  for (const [name, color] of Object.entries(partyColors)) {
+    if (party.includes(name)) return color;
+  }
+  return "808080"; // デフォルト: グレー
+}
+
+// shields.io党派バッジを生成
+function getPartyBadge(party: string): string {
+  if (!party) return "";
+  const color = getPartyColor(party);
+  const shortParty = party.replace(/・.*$/, "").slice(0, 10);
+  // shields.io URL（スペースは%20にエンコード）
+  const encodedParty = encodeURIComponent(shortParty);
+  return `![${shortParty}](https://img.shields.io/badge/${encodedParty}-${color})`;
+}
+
+// 議員検索URL（GitHub Issues検索）を生成
+function getSpeakerSearchUrl(owner: string, repo: string, speaker: string): string {
+  // ラベル「発言者/〇〇」で検索
+  const encodedSpeaker = encodeURIComponent(speaker);
+  return `https://github.com/${owner}/${repo}/issues?q=is%3Aissue+label%3A%22発言者%2F${encodedSpeaker}%22`;
+}
+
+// 議員リンク（検索URL付き）を生成
+function getSpeakerLink(owner: string, repo: string, speaker: string): string {
+  const url = getSpeakerSearchUrl(owner, repo, speaker);
+  const icon = getRoleIcon(speaker);
+  return `[${icon} ${speaker}](${url})`;
+}
+
+// 発言者ラベル名を生成
+function getSpeakerLabelName(speaker: string): string {
+  return `発言者/${speaker}`;
+}
+
+// 発言者ラベルを作成（存在しない場合）
+async function ensureSpeakerLabel(
+  octokit: Octokit,
+  owner: string,
+  repo: string,
+  speaker: string
+): Promise<void> {
+  const labelName = getSpeakerLabelName(speaker);
+  try {
+    await octokit.issues.createLabel({
+      owner,
+      repo,
+      name: labelName,
+      color: "84b6eb",
+      description: `${speaker}の発言がある法案`,
+    });
+  } catch (e: any) {
+    // Already exists (422) - ignore
+    if (e.status !== 422) {
+      console.log(`    ⚠️ ラベル作成スキップ: ${labelName}`);
+    }
+  }
+}
+
+// 議論から上位発言者を取得（発言数順）
+function getTopSpeakers(discussions: Discussion[], limit: number = 5): string[] {
+  const speakerCounts: Record<string, number> = {};
+  for (const d of discussions) {
+    speakerCounts[d.speaker] = (speakerCounts[d.speaker] || 0) + 1;
+  }
+
+  return Object.entries(speakerCounts)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, limit)
+    .map(([speaker]) => speaker);
+}
+
+// 法案内容をLLMで要約（GitHub Models API）
+async function generateBillSummary(billName: string, discussions: Discussion[]): Promise<string | null> {
+  const token = process.env.GITHUB_TOKEN;
+  if (!token) return null;
+
+  try {
+    // 議論の中から法案の説明・趣旨説明を探す
+    const explanations = discussions
+      .filter(d => d.speech.includes("趣旨") || d.speech.includes("説明") || d.speech.includes("目的"))
+      .slice(0, 3)
+      .map(d => d.speech.slice(0, 1000))
+      .join("\n\n");
+
+    if (!explanations && discussions.length === 0) {
+      return null;
+    }
+
+    const context = explanations || discussions.slice(0, 2).map(d => d.speech.slice(0, 500)).join("\n\n");
+
+    const response = await axios.post(
+      GITHUB_MODELS_URL,
+      {
+        model: "gpt-4o-mini",
+        messages: [
+          {
+            role: "system",
+            content: "あなたは日本の法案を簡潔に説明するアシスタントです。法案の目的、主な内容、影響を3-5文（200文字以内）で要約してください。専門用語は避け、一般市民にもわかりやすく説明してください。"
+          },
+          {
+            role: "user",
+            content: `以下は「${billName}」に関する国会での議論です。この法案の概要を要約してください。\n\n${context}`
+          }
+        ],
+        temperature: 0.3,
+        max_tokens: 300,
+      },
+      {
+        headers: {
+          "Authorization": `Bearer ${token}`,
+          "Content-Type": "application/json",
+        },
+        timeout: 20000
+      }
+    );
+
+    const text = response.data?.choices?.[0]?.message?.content;
+    if (text) {
+      return text.trim().slice(0, 400);
+    }
+  } catch (error: any) {
+    if (error.response?.status === 429) {
+      console.log("    ⚠️ LLM要約: レート制限");
+    } else {
+      console.log(`    ⚠️ LLM要約生成失敗: ${error.message}`);
+    }
+  }
+  return null;
 }
 
 // 発言から要約を生成（キーワードベースで重要な文を抽出）
@@ -372,9 +670,11 @@ async function fetchDiscussions(billName: string, session: number): Promise<Disc
     if (discussions.length > 0) {
       console.log(`    ✅ 有効な議論: ${discussions.length}件（総${totalRecords}件中）`);
 
-      // キーワードベース要約を生成（高速）
+      // キーワードベース要約を生成（高速）+ スタンス検出
       for (const d of discussions) {
         d.summary = generateSummaryKeyword(d.speech);
+        d.stance = detectStance(d.speech);
+        d.isLlmSummary = false; // 初期状態はキーワード要約
       }
     }
   } catch (error: any) {
@@ -384,9 +684,69 @@ async function fetchDiscussions(billName: string, session: number): Promise<Disc
   return discussions;
 }
 
-// 議論を個別コメント用に整形（シンプル版）
-function formatDiscussionAsComment(discussion: Discussion): string {
-  const link = discussion.speechUrl ? ` [📄](${discussion.speechUrl})` : "";
+// 議論のサマリーテーブルを生成
+function generateDiscussionSummary(discussions: Discussion[], owner: string, repo: string): string {
+  if (discussions.length === 0) {
+    return "*関連する議論はコメント欄に自動追加されます*";
+  }
+
+  // 党派別集計
+  const partyStats: Record<string, { count: number; support: number; oppose: number }> = {};
+  for (const d of discussions) {
+    const party = d.party || "不明";
+    if (!partyStats[party]) {
+      partyStats[party] = { count: 0, support: 0, oppose: 0 };
+    }
+    partyStats[party].count++;
+    if (d.stance === "賛成") partyStats[party].support++;
+    if (d.stance === "反対") partyStats[party].oppose++;
+  }
+
+  // 発言者リスト（リンク付き）
+  const speakers = [...new Set(discussions.map(d => d.speaker))];
+  const speakerLinks = speakers.slice(0, 10).map(s => getSpeakerLink(owner, repo, s)).join("、");
+
+  // 党派別テーブル生成
+  const partyRows = Object.entries(partyStats)
+    .sort((a, b) => b[1].count - a[1].count)
+    .slice(0, 8) // 上位8党派まで
+    .map(([party, stats]) => {
+      const badge = getPartyBadge(party);
+      const stanceInfo = stats.support > 0 || stats.oppose > 0
+        ? ` (🟢${stats.support} / 🔴${stats.oppose})`
+        : "";
+      return `| ${badge} | ${stats.count}件${stanceInfo} |`;
+    })
+    .join("\n");
+
+  return `### 📊 議論サマリー
+
+| 党派 | 発言数 |
+|------|--------|
+${partyRows}
+
+**発言者** (${speakers.length}名): ${speakerLinks}${speakers.length > 10 ? "..." : ""}
+
+*詳細はコメント欄を参照*`;
+}
+
+// 議論を個別コメント用に整形（表示改善版）
+function formatDiscussionAsComment(discussion: Discussion, owner: string, repo: string): string {
+  const speechLink = discussion.speechUrl ? ` [📄](${discussion.speechUrl})` : "";
+
+  // 議員リンク（検索URL付き）
+  const speakerLink = getSpeakerLink(owner, repo, discussion.speaker);
+
+  // 党派バッジ（shields.io）
+  const partyBadge = getPartyBadge(discussion.party);
+
+  // 賛否バッジ
+  const stance = discussion.stance || detectStance(discussion.speech);
+  const stanceBadge = getStanceBadge(stance);
+  const stanceLabel = stance !== "中立" ? ` ${stanceBadge} ${stance}` : "";
+
+  // 要約マーカー（LLM要約 vs キーワード要約）
+  const summaryMarker = discussion.isLlmSummary ? "🤖" : "📝";
 
   // 全文が長い場合は折りたたみ
   const fullText = discussion.speech.length > 1000
@@ -398,22 +758,25 @@ ${discussion.speech}
 </details>`
     : discussion.speech;
 
-  return `**${discussion.speaker}**（${discussion.party}）${link}
-${discussion.date} ${discussion.meeting}
+  return `**${speakerLink}** ${partyBadge}${stanceLabel}${speechLink}
+📅 ${discussion.date} | 🏛️ ${discussion.meeting}
 
-> ${discussion.summary}
+> ${summaryMarker} ${discussion.summary}
 
 ${fullText}`;
 }
 
-// 議論を個別コメントとして追加（キューにも追加）
+// 議論を個別コメントとして追加（キューにも追加、発言インデックスも更新）
 async function addDiscussionComments(
   octokit: Octokit,
   owner: string,
   repo: string,
   issueNumber: number,
   discussions: Discussion[],
-  summaryQueue: SummaryQueue
+  summaryQueue: SummaryQueue,
+  speechIndex: LegislatorSpeechIndex,
+  billId: string,
+  billName: string
 ): Promise<void> {
   if (discussions.length === 0) {
     // 議論がない場合は1つのコメントで通知
@@ -438,7 +801,7 @@ async function addDiscussionComments(
         owner,
         repo,
         issue_number: issueNumber,
-        body: formatDiscussionAsComment(discussion),
+        body: formatDiscussionAsComment(discussion, owner, repo),
       });
 
       // LLM要約キューに追加（後で処理）
@@ -448,6 +811,19 @@ async function addDiscussionComments(
         speech: discussion.speech,
         created_at: new Date().toISOString(),
       });
+
+      // 発言インデックスに追加
+      addToSpeechIndex(
+        speechIndex,
+        discussion.speaker,
+        discussion.party,
+        billId,
+        billName,
+        issueNumber,
+        discussion.date,
+        discussion.meeting,
+        discussion.stance || "中立"
+      );
     } catch (e: any) {
       console.log(`    ⚠️ コメント追加失敗: ${e.message}`);
     }
@@ -460,6 +836,7 @@ async function createOrUpdateIssue(
   repo: string,
   bill: Bill,
   summaryQueue: SummaryQueue,
+  speechIndex: LegislatorSpeechIndex,
   existingIssueNumber?: number,
   fetchDiscussionData: boolean = true
 ): Promise<number | null> {
@@ -479,10 +856,46 @@ async function createOrUpdateIssue(
   const partyLabel = getPartyLabel(bill.proposer_party || "");
   if (partyLabel) labels.push(partyLabel);
 
-  // 提出者の検索リンク
-  const proposerSearchUrl = bill.proposer
-    ? `https://github.com/${owner}/${repo}/issues?q=is%3Aissue+label%3A%22提案者%2F${encodeURIComponent(bill.proposer.split(/[、,　 ]/)[0] || "")}%22`
+  // 提出者の検索リンク（フルネームで検索）
+  const firstProposer = getFirstProposerName(bill.proposer || "");
+  const proposerSearchUrl = firstProposer
+    ? `https://github.com/${owner}/${repo}/issues?q=is%3Aissue+label%3A%22提案者%2F${encodeURIComponent(firstProposer)}%22`
     : null;
+
+  // 議論を先に取得してサマリーを生成（新規Issue作成時のみ）
+  let discussions: Discussion[] = [];
+  let discussionSummary = "*関連する議論はコメント欄に自動追加されます*";
+  let billSummary = "*（議論データから法案概要を生成中...）*";
+
+  if (fetchDiscussionData && !existingIssueNumber) {
+    discussions = await fetchDiscussions(bill.bill_name, bill.diet_session);
+    discussionSummary = generateDiscussionSummary(discussions, owner, repo);
+
+    // LLMで法案内容を要約
+    const llmSummary = await generateBillSummary(bill.bill_name, discussions);
+    if (llmSummary) {
+      billSummary = `> 🤖 ${llmSummary}`;
+    } else if (discussions.length > 0) {
+      // LLM失敗時はキーワード要約
+      const firstExplanation = discussions.find(d =>
+        d.speech.includes("趣旨") || d.speech.includes("説明")
+      );
+      if (firstExplanation) {
+        billSummary = `> 📝 ${generateSummaryKeyword(firstExplanation.speech)}`;
+      } else {
+        billSummary = "*（法案概要は議論コメントを参照）*";
+      }
+    } else {
+      billSummary = "*（関連する議論が見つかりませんでした）*";
+    }
+
+    // 全発言者のラベルを追加
+    const allSpeakers = [...new Set(discussions.map(d => d.speaker))];
+    for (const speaker of allSpeakers) {
+      await ensureSpeakerLabel(octokit, owner, repo, speaker);
+      labels.push(getSpeakerLabelName(speaker));
+    }
+  }
 
   const body = `## 📋 法案情報
 
@@ -499,9 +912,15 @@ async function createOrUpdateIssue(
 
 ---
 
+### 📖 法案概要
+
+${billSummary}
+
+---
+
 ### 👤 提出者による他の法案
 
-${proposerSearchUrl ? `[${bill.proposer?.split(/[、,　 ]/)[0] || "提出者"}の提出法案一覧](${proposerSearchUrl})` : "（閣法のため該当なし）"}
+${proposerSearchUrl ? `[${firstProposer || "提出者"}の提出法案一覧](${proposerSearchUrl})` : "（閣法のため該当なし）"}
 
 ---
 
@@ -509,7 +928,7 @@ ${proposerSearchUrl ? `[${bill.proposer?.split(/[、,　 ]/)[0] || "提出者"}�
 
 [国会会議録で検索](https://kokkai.ndl.go.jp/#/search?any=${encodeURIComponent(bill.bill_name.slice(0, 30))}&sessionFrom=${bill.diet_session}&sessionTo=${bill.diet_session})
 
-*関連する議論はコメント欄に自動追加されます*
+${discussionSummary}
 
 ---
 
@@ -572,11 +991,18 @@ ${proposerSearchUrl ? `[${bill.proposer?.split(/[、,　 ]/)[0] || "提出者"}�
         const existingKeys = new Set(
           existingComments.data
             .map(c => {
-              // 新フォーマット: **発言者**（党）\n日付 会議名
-              const speakerMatch = c.body?.match(/^\*\*(.+?)\*\*（/m);
-              const dateMatch = c.body?.match(/(\d{4}-\d{2}-\d{2}) (.+?)\n/);
-              if (dateMatch && speakerMatch) {
-                return `${dateMatch[1]}|${dateMatch[2]}|${speakerMatch[1]}`;
+              // 新フォーマット: 🎤 **発言者** badge 🟢賛成 link\n📅 日付 | 🏛️ 会議名
+              // 旧フォーマット: **発言者**（党）\n日付 会議名
+              const newSpeakerMatch = c.body?.match(/^.+? \*\*(.+?)\*\*/m);
+              const newDateMatch = c.body?.match(/📅 (\d{4}-\d{2}-\d{2}) \| 🏛️ (.+?)\n/);
+              if (newDateMatch && newSpeakerMatch) {
+                return `${newDateMatch[1]}|${newDateMatch[2]}|${newSpeakerMatch[1]}`;
+              }
+              // 旧フォーマットにもフォールバック
+              const oldSpeakerMatch = c.body?.match(/^\*\*(.+?)\*\*（/m);
+              const oldDateMatch = c.body?.match(/(\d{4}-\d{2}-\d{2}) (.+?)\n/);
+              if (oldDateMatch && oldSpeakerMatch) {
+                return `${oldDateMatch[1]}|${oldDateMatch[2]}|${oldSpeakerMatch[1]}`;
               }
               return null;
             })
@@ -591,7 +1017,7 @@ ${proposerSearchUrl ? `[${bill.proposer?.split(/[、,　 ]/)[0] || "提出者"}�
 
         if (newDiscussions.length > 0) {
           console.log(`    💬 ${newDiscussions.length}件の新しい議論を追記中...`);
-          await addDiscussionComments(octokit, owner, repo, existingIssueNumber, newDiscussions, summaryQueue);
+          await addDiscussionComments(octokit, owner, repo, existingIssueNumber, newDiscussions, summaryQueue, speechIndex, bill.id, bill.bill_name);
         }
       }
 
@@ -607,13 +1033,10 @@ ${proposerSearchUrl ? `[${bill.proposer?.split(/[、,　 ]/)[0] || "提出者"}�
       });
       console.log(`  ✅ Issue #${response.data.number} 作成: ${bill.bill_name.slice(0, 30)}...`);
 
-      // 議論をコメントとして追加（新規作成時のみ）
-      if (fetchDiscussionData) {
-        const discussions = await fetchDiscussions(bill.bill_name, bill.diet_session);
-        if (discussions.length > 0) {
-          console.log(`    💬 ${discussions.length}件の議論をコメントとして追加中...`);
-          await addDiscussionComments(octokit, owner, repo, response.data.number, discussions, summaryQueue);
-        }
+      // 議論をコメントとして追加（新規作成時のみ、すでに取得済みのdiscussionsを使用）
+      if (fetchDiscussionData && discussions.length > 0) {
+        console.log(`    💬 ${discussions.length}件の議論をコメントとして追加中...`);
+        await addDiscussionComments(octokit, owner, repo, response.data.number, discussions, summaryQueue, speechIndex, bill.id, bill.bill_name);
       }
 
       // If already completed, close it
@@ -683,6 +1106,10 @@ async function main(): Promise<void> {
   const summaryQueue = loadSummaryQueue();
   console.log(`  LLM要約待ち: ${summaryQueue.pending.length} 件`);
 
+  // Load speech index
+  const speechIndex = loadSpeechIndex();
+  console.log(`  議員発言インデックス: ${speechIndex.total_legislators}名 / ${speechIndex.total_speeches}件`);
+
   // Ensure labels exist
   console.log("\n🏷️ ラベル確認中...");
   await ensureLabels(octokit, owner, repo);
@@ -719,7 +1146,7 @@ async function main(): Promise<void> {
     // Rate limiting: wait between requests
     await new Promise((resolve) => setTimeout(resolve, 500));
 
-    const issueNum = await createOrUpdateIssue(octokit, owner, repo, bill, summaryQueue, undefined, true);
+    const issueNum = await createOrUpdateIssue(octokit, owner, repo, bill, summaryQueue, speechIndex, undefined, true);
     if (issueNum) {
       tracking.issues[bill.id] = issueNum;
       created++;
@@ -731,6 +1158,7 @@ async function main(): Promise<void> {
     if (created % 10 === 0) {
       saveCreatedIssues(tracking);
       saveSummaryQueue(summaryQueue);
+      saveSpeechIndex(speechIndex);
     }
   }
 
@@ -741,7 +1169,7 @@ async function main(): Promise<void> {
     // Rate limiting
     await new Promise((resolve) => setTimeout(resolve, 300));
 
-    const issueNum = await createOrUpdateIssue(octokit, owner, repo, bill, summaryQueue, existingIssue, false);
+    const issueNum = await createOrUpdateIssue(octokit, owner, repo, bill, summaryQueue, speechIndex, existingIssue, false);
     if (issueNum) {
       updated++;
     }
@@ -750,6 +1178,7 @@ async function main(): Promise<void> {
   // Final save
   saveCreatedIssues(tracking);
   saveSummaryQueue(summaryQueue);
+  saveSpeechIndex(speechIndex);
 
   console.log("\n" + "=".repeat(50));
   console.log("📈 結果:");
@@ -757,6 +1186,7 @@ async function main(): Promise<void> {
   console.log(`  更新: ${updated} 件`);
   console.log(`  スキップ: ${skipped} 件`);
   console.log(`  LLM要約待ち: ${summaryQueue.pending.length} 件`);
+  console.log(`  議員発言インデックス: ${speechIndex.total_legislators}名 / ${speechIndex.total_speeches}件`);
   console.log("\n✅ 完了!");
 }
 

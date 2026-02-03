@@ -67,6 +67,7 @@ jobs:
         working-directory: scripts
         env:
           NODE_OPTIONS: '--max-old-space-size=4096 --no-warnings'
+          GITHUB_REPOSITORY: ${{ github.repository }}
 
       - name: Check for changes
         id: check_changes
@@ -122,16 +123,21 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           if [ -f data/index/legislators/created_issues.json ]; then
             git add data/index/legislators/created_issues.json
+            git add data/index/legislators/created_prs.json 2>/dev/null || true
             git add data/index/legislators/legislator_bills.json 2>/dev/null || true
             git add data/index/legislators/pending_summaries.json 2>/dev/null || true
+            git add data/index/legislators/legislator_speeches.json 2>/dev/null || true
             if ! git diff --staged --quiet; then
               git commit -m "📋 国会追跡データ更新
 
               - 法案Issue自動作成/更新
+              - 成立法案PRデータ更新
               - 議員別法案データ更新
+              - 議員発言インデックス更新
               - LLM要約キュー更新
 
               自動更新 by GitHub Actions"
+              git pull --rebase origin main || true
               git push
             fi
           fi
@@ -167,4 +173,10 @@ jobs:
           if [ -f data/index/legislators/pending_summaries.json ]; then
             PENDING=$(cat data/index/legislators/pending_summaries.json | grep -c '"comment_id"' || echo "0")
             echo "- **Pending LLM Summaries**: ${PENDING}" >> $GITHUB_STEP_SUMMARY
+          fi
+
+          if [ -f data/index/legislators/legislator_speeches.json ]; then
+            SPEAKERS=$(cat data/index/legislators/legislator_speeches.json | grep '"total_legislators"' | grep -oE '[0-9]+' || echo "0")
+            SPEECHES=$(cat data/index/legislators/legislator_speeches.json | grep '"total_speeches"' | grep -oE '[0-9]+' || echo "0")
+            echo "- **Tracked Speakers**: ${SPEAKERS} (${SPEECHES} speeches)" >> $GITHUB_STEP_SUMMARY
           fi

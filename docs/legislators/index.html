@@ -15,7 +15,7 @@
         <nav class="text-blue-200 text-sm mb-2">
           <a href="../" class="hover:underline">ホーム</a> &gt; 議員一覧
         </nav>
-        <h1 class="text-3xl font-bold">👤 議員一覧</h1>
+        <h1 class="text-3xl font-bold">🏛️ 議員活動ダッシュボード</h1>
       </div>
     </header>
 
@@ -27,33 +27,25 @@
             <label class="text-sm text-gray-600">政党</label>
             <select x-model="filterParty" class="ml-2 rounded border-gray-300 text-sm">
               <option value="">全て</option>
-              <template x-for="party in parties" :key="party.id">
-                <option :value="party.id" x-text="party.name"></option>
+              <template x-for="party in uniqueParties" :key="party">
+                <option :value="party" x-text="party"></option>
               </template>
             </select>
           </div>
-          
-          <div>
-            <label class="text-sm text-gray-600">議院</label>
-            <select x-model="filterHouse" class="ml-2 rounded border-gray-300 text-sm">
-              <option value="">全て</option>
-              <option value="衆議院">衆議院</option>
-              <option value="参議院">参議院</option>
-            </select>
-          </div>
-          
+
           <div>
             <label class="text-sm text-gray-600">並び順</label>
             <select x-model="sortBy" class="ml-2 rounded border-gray-300 text-sm">
-              <option value="total_bills">法案数</option>
-              <option value="success_rate">成功率</option>
+              <option value="speech_count">発言数</option>
+              <option value="support">賛成数</option>
+              <option value="oppose">反対数</option>
               <option value="name">名前</option>
             </select>
           </div>
-          
+
           <div class="flex-1">
-            <input 
-              type="text" 
+            <input
+              type="text"
               x-model="searchQuery"
               placeholder="議員名で検索..."
               class="w-full max-w-xs rounded border-gray-300 text-sm px-3 py-2"
@@ -66,71 +58,142 @@
       <section class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
         <div class="bg-white rounded-lg shadow p-4 text-center">
           <div class="text-2xl font-bold text-blue-600" x-text="stats.total_legislators || 0"></div>
-          <div class="text-sm text-gray-500">総議員数</div>
+          <div class="text-sm text-gray-500">追跡議員数</div>
         </div>
         <div class="bg-white rounded-lg shadow p-4 text-center">
-          <div class="text-2xl font-bold text-green-600" x-text="stats.total_bills || 0"></div>
-          <div class="text-sm text-gray-500">総法案数</div>
+          <div class="text-2xl font-bold text-green-600" x-text="stats.total_speeches || 0"></div>
+          <div class="text-sm text-gray-500">総発言記録</div>
         </div>
         <div class="bg-white rounded-lg shadow p-4 text-center">
-          <div class="text-2xl font-bold text-yellow-600" x-text="stats.passed_bills || 0"></div>
-          <div class="text-sm text-gray-500">成立数</div>
+          <div class="text-2xl font-bold text-emerald-600" x-text="stats.total_support || 0"></div>
+          <div class="text-sm text-gray-500">🟢 賛成発言</div>
         </div>
         <div class="bg-white rounded-lg shadow p-4 text-center">
-          <div class="text-2xl font-bold text-purple-600" x-text="((stats.overall_success_rate || 0) * 100).toFixed(1) + '%'"></div>
-          <div class="text-sm text-gray-500">成功率</div>
+          <div class="text-2xl font-bold text-red-600" x-text="stats.total_oppose || 0"></div>
+          <div class="text-sm text-gray-500">🔴 反対発言</div>
+        </div>
+      </section>
+
+      <!-- 党派別統計 -->
+      <section class="bg-white rounded-lg shadow-md p-4 mb-6" x-show="partyStats.length > 0">
+        <h2 class="text-lg font-semibold mb-4">🏢 党派別統計</h2>
+        <div class="overflow-x-auto">
+          <table class="w-full text-sm">
+            <thead class="bg-gray-50 border-b">
+              <tr>
+                <th class="px-4 py-2 text-left">党派</th>
+                <th class="px-4 py-2 text-right">議員数</th>
+                <th class="px-4 py-2 text-right">発言数</th>
+                <th class="px-4 py-2 text-right">🟢 賛成</th>
+                <th class="px-4 py-2 text-right">🔴 反対</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y">
+              <template x-for="p in partyStats" :key="p.party">
+                <tr class="hover:bg-gray-50">
+                  <td class="px-4 py-2">
+                    <span class="inline-block px-2 py-1 text-xs rounded-full"
+                          :style="{ backgroundColor: getPartyColor(p.party) + '20', color: getPartyColor(p.party) }"
+                          x-text="p.party"></span>
+                  </td>
+                  <td class="px-4 py-2 text-right" x-text="p.count + '名'"></td>
+                  <td class="px-4 py-2 text-right font-medium" x-text="p.speeches + '件'"></td>
+                  <td class="px-4 py-2 text-right text-green-600" x-text="p.support"></td>
+                  <td class="px-4 py-2 text-right text-red-600" x-text="p.oppose"></td>
+                </tr>
+              </template>
+            </tbody>
+          </table>
         </div>
       </section>
 
       <!-- 議員テーブル -->
       <section class="bg-white rounded-lg shadow-md overflow-hidden">
+        <h2 class="text-lg font-semibold p-4 border-b">🎤 発言数ランキング</h2>
         <div class="overflow-x-auto">
           <table class="w-full">
             <thead class="bg-gray-50 border-b">
               <tr>
                 <th class="px-4 py-3 text-left text-sm font-semibold text-gray-600">議員名</th>
-                <th class="px-4 py-3 text-left text-sm font-semibold text-gray-600">政党</th>
-                <th class="px-4 py-3 text-left text-sm font-semibold text-gray-600">議院</th>
-                <th class="px-4 py-3 text-right text-sm font-semibold text-gray-600">法案数</th>
-                <th class="px-4 py-3 text-right text-sm font-semibold text-gray-600">成立</th>
-                <th class="px-4 py-3 text-right text-sm font-semibold text-gray-600">成功率</th>
+                <th class="px-4 py-3 text-left text-sm font-semibold text-gray-600">所属</th>
+                <th class="px-4 py-3 text-right text-sm font-semibold text-gray-600">発言数</th>
+                <th class="px-4 py-3 text-center text-sm font-semibold text-gray-600">スタンス</th>
+                <th class="px-4 py-3 text-center text-sm font-semibold text-gray-600">詳細</th>
               </tr>
             </thead>
             <tbody class="divide-y">
-              <template x-for="leg in filteredLegislators" :key="leg.id">
+              <template x-for="(leg, index) in filteredLegislators" :key="leg.name">
                 <tr class="hover:bg-gray-50">
                   <td class="px-4 py-3">
                     <span class="font-medium" x-text="leg.name"></span>
                   </td>
                   <td class="px-4 py-3">
-                    <span 
+                    <span
                       class="inline-block px-2 py-1 text-xs rounded-full"
                       :style="{ backgroundColor: getPartyColor(leg.party) + '20', color: getPartyColor(leg.party) }"
-                      x-text="leg.party"
+                      x-text="leg.party || '-'"
                     ></span>
                   </td>
-                  <td class="px-4 py-3 text-gray-600" x-text="leg.house"></td>
-                  <td class="px-4 py-3 text-right font-medium" x-text="leg.total_bills || 0"></td>
-                  <td class="px-4 py-3 text-right" x-text="leg.passed_bills || 0"></td>
-                  <td class="px-4 py-3 text-right">
-                    <span x-text="((leg.success_rate || 0) * 100).toFixed(1) + '%'"></span>
+                  <td class="px-4 py-3 text-right font-medium" x-text="leg.speech_count || 0"></td>
+                  <td class="px-4 py-3 text-center">
+                    <span class="text-xs" x-show="leg.stance_summary">
+                      <span class="text-green-600" x-text="'🟢' + (leg.stance_summary?.support || 0)"></span>
+                      <span class="mx-1">/</span>
+                      <span class="text-red-600" x-text="'🔴' + (leg.stance_summary?.oppose || 0)"></span>
+                    </span>
+                  </td>
+                  <td class="px-4 py-3 text-center">
+                    <a :href="'./' + encodeURIComponent(leg.name) + '.md'"
+                       class="text-blue-600 hover:underline text-sm">
+                      📄 プロフィール
+                    </a>
                   </td>
                 </tr>
               </template>
-              <tr x-show="filteredLegislators.length === 0">
-                <td colspan="6" class="px-4 py-8 text-center text-gray-500">
+              <tr x-show="filteredLegislators.length === 0 && !loading">
+                <td colspan="5" class="px-4 py-8 text-center text-gray-500">
                   該当する議員がいません
+                </td>
+              </tr>
+              <tr x-show="loading">
+                <td colspan="5" class="px-4 py-8 text-center text-gray-500">
+                  📊 データ読み込み中...
                 </td>
               </tr>
             </tbody>
           </table>
+        </div>
+        <div class="p-4 border-t text-sm text-gray-500" x-show="filteredLegislators.length > 0">
+          <span x-text="filteredLegislators.length"></span> 名の議員を表示中
+        </div>
+      </section>
+
+      <!-- GitHub Issues リンク -->
+      <section class="mt-6 p-4 bg-blue-50 rounded-lg">
+        <h3 class="font-semibold text-blue-900 mb-2">🔍 GitHub Issuesで検索</h3>
+        <div class="flex flex-wrap gap-2">
+          <a href="https://github.com/DaisukeHori/japan-law/issues?q=is%3Aissue+label%3A法案"
+             class="text-blue-600 hover:underline text-sm" target="_blank">
+            全ての法案Issue
+          </a>
+          <span class="text-gray-400">|</span>
+          <a href="https://github.com/DaisukeHori/japan-law/issues?q=is%3Aissue+label%3A成立"
+             class="text-blue-600 hover:underline text-sm" target="_blank">
+            成立した法案
+          </a>
+          <span class="text-gray-400">|</span>
+          <a href="https://github.com/DaisukeHori/japan-law/labels?q=発言者"
+             class="text-blue-600 hover:underline text-sm" target="_blank">
+            発言者ラベル一覧
+          </a>
         </div>
       </section>
     </main>
 
     <footer class="bg-gray-800 text-gray-400 py-6 mt-8">
       <div class="max-w-6xl mx-auto px-4 text-center">
-        <p>© 2025 Japan Law Database Project</p>
+        <p>© 2026 Japan Law Database Project</p>
+        <p class="text-sm mt-2">データソース: 国会会議録検索システムAPI、SMRI法案データベース</p>
       </div>
     </footer>
   </div>
@@ -139,47 +202,98 @@
     function legislatorList() {
       return {
         legislators: [],
-        parties: [],
         stats: {},
+        partyStats: [],
         filterParty: '',
-        filterHouse: '',
-        sortBy: 'total_bills',
+        sortBy: 'speech_count',
         searchQuery: '',
+        loading: true,
 
         async loadData() {
           try {
-            const [statsRes, partiesRes, legislatorsRes] = await Promise.all([
-              fetch('../data/index/legislators/activity_stats.json'),
-              fetch('../data/index/legislators/parties.json'),
-              fetch('../data/index/legislators/legislators.json')
-            ]);
+            // 発言インデックスを読み込み（Markdownページと同じデータソース）
+            const speechRes = await fetch('../../data/index/legislators/legislator_speeches.json');
+            const speechData = await speechRes.json();
 
-            const statsData = await statsRes.json();
-            const partiesData = await partiesRes.json();
-            const legislatorsData = await legislatorsRes.json();
+            // 統計データを設定
+            this.stats = {
+              total_legislators: speechData.total_legislators || 0,
+              total_speeches: speechData.total_speeches || 0,
+              total_support: 0,
+              total_oppose: 0
+            };
 
-            this.stats = statsData.summary || {};
-            this.parties = partiesData.parties || [];
-            
-            // 議員データと統計データをマージ
-            const statsByLeg = statsData.by_legislator || {};
-            this.legislators = (legislatorsData.legislators || []).map(leg => ({
-              ...leg,
-              ...(statsByLeg[leg.id] || {})
-            }));
+            // 議員データを配列に変換
+            const legArray = [];
+            const partyMap = {};
+
+            for (const [name, record] of Object.entries(speechData.legislators || {})) {
+              const leg = {
+                name,
+                party: record.party || '',
+                speech_count: record.speech_count || 0,
+                stance_summary: record.stance_summary || { support: 0, oppose: 0, neutral: 0 },
+                bills: record.bills || []
+              };
+              legArray.push(leg);
+
+              // 統計を集計
+              this.stats.total_support += leg.stance_summary.support;
+              this.stats.total_oppose += leg.stance_summary.oppose;
+
+              // 党派別統計
+              const party = leg.party || '不明';
+              if (!partyMap[party]) {
+                partyMap[party] = { party, count: 0, speeches: 0, support: 0, oppose: 0 };
+              }
+              partyMap[party].count++;
+              partyMap[party].speeches += leg.speech_count;
+              partyMap[party].support += leg.stance_summary.support;
+              partyMap[party].oppose += leg.stance_summary.oppose;
+            }
+
+            this.legislators = legArray;
+            this.partyStats = Object.values(partyMap)
+              .sort((a, b) => b.speeches - a.speeches)
+              .slice(0, 10);
+
           } catch (e) {
             console.error('Failed to load data:', e);
+            // フォールバック: 従来のデータソースを試す
+            try {
+              const [statsRes, partiesRes, legislatorsRes] = await Promise.all([
+                fetch('../../data/index/legislators/activity_stats.json'),
+                fetch('../../data/index/legislators/parties.json'),
+                fetch('../../data/index/legislators/legislators.json')
+              ]);
+
+              const statsData = await statsRes.json();
+              const legislatorsData = await legislatorsRes.json();
+
+              this.stats = statsData.summary || {};
+              const statsByLeg = statsData.by_legislator || {};
+              this.legislators = (legislatorsData.legislators || []).map(leg => ({
+                name: leg.name,
+                party: leg.party,
+                speech_count: statsByLeg[leg.id]?.total_bills || 0,
+                stance_summary: { support: 0, oppose: 0, neutral: 0 }
+              }));
+            } catch (e2) {
+              console.error('Fallback also failed:', e2);
+            }
           }
+          this.loading = false;
+        },
+
+        get uniqueParties() {
+          return [...new Set(this.legislators.map(l => l.party).filter(Boolean))].sort();
         },
 
         get filteredLegislators() {
           let result = this.legislators;
 
           if (this.filterParty) {
-            result = result.filter(l => l.party_id === this.filterParty);
-          }
-          if (this.filterHouse) {
-            result = result.filter(l => l.house === this.filterHouse);
+            result = result.filter(l => l.party === this.filterParty);
           }
           if (this.searchQuery) {
             const q = this.searchQuery.toLowerCase();
@@ -191,15 +305,41 @@
             if (this.sortBy === 'name') {
               return (a.name || '').localeCompare(b.name || '');
             }
-            return (b[this.sortBy] || 0) - (a[this.sortBy] || 0);
+            if (this.sortBy === 'support') {
+              return (b.stance_summary?.support || 0) - (a.stance_summary?.support || 0);
+            }
+            if (this.sortBy === 'oppose') {
+              return (b.stance_summary?.oppose || 0) - (a.stance_summary?.oppose || 0);
+            }
+            return (b.speech_count || 0) - (a.speech_count || 0);
           });
 
           return result;
         },
 
         getPartyColor(partyName) {
-          const party = this.parties.find(p => p.name === partyName);
-          return party?.color || '#666666';
+          const colors = {
+            '自由民主党': '#e74c3c',
+            '自民': '#e74c3c',
+            '立憲民主党': '#3498db',
+            '立憲': '#3498db',
+            '公明党': '#f39c12',
+            '公明': '#f39c12',
+            '日本維新の会': '#27ae60',
+            '維新': '#27ae60',
+            '国民民主党': '#9b59b6',
+            '国民': '#9b59b6',
+            '日本共産党': '#c0392b',
+            '共産': '#c0392b',
+            'れいわ新選組': '#e91e63',
+            'れいわ': '#e91e63',
+            '社会民主党': '#ff6b6b',
+            '社民': '#ff6b6b',
+          };
+          for (const [name, color] of Object.entries(colors)) {
+            if (partyName?.includes(name)) return color;
+          }
+          return '#666666';
         }
       };
     }

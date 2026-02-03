@@ -176,9 +176,9 @@
     async function loadData() {
       try {
         const [nodesRes, edgesRes, reachRes] = await Promise.all([
-          fetch('../data/index/graph/nodes.json'),
-          fetch('../data/index/graph/edges.json'),
-          fetch('../data/index/graph/reachability.json').catch(() => ({ json: () => ({ data: {} }) })),
+          fetch('../../data/index/graph/nodes.json'),
+          fetch('../../data/index/graph/edges.json'),
+          fetch('../../data/index/graph/reachability.json').catch(() => ({ json: () => ({ data: {} }) })),
         ]);
 
         const nodesData = await nodesRes.json();

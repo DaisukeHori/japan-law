@@ -110,9 +110,9 @@
         async loadData() {
           try {
             const [partiesRes, legislatorsRes, billsRes] = await Promise.all([
-              fetch('../data/index/legislators/parties.json'),
-              fetch('../data/index/legislators/legislators.json'),
-              fetch('../data/index/legislators/smri_bills.json')
+              fetch('../../data/index/legislators/parties.json'),
+              fetch('../../data/index/legislators/legislators.json'),
+              fetch('../../data/index/legislators/smri_bills.json')
             ]);
 
             const partiesData = await partiesRes.json();

@@ -169,8 +169,8 @@
         const index = await loadLawIndex();
 
         const [refsRes, backlinksRes] = await Promise.all([
-          fetch('./data/index/references.json'),
-          fetch('./data/index/backlinks.json')
+          fetch('../data/index/references.json'),
+          fetch('../data/index/backlinks.json')
         ]);
 
         const refsData = await refsRes.json();
@@ -247,7 +247,7 @@
     async function loadLawIndex() {
       if (lawIndex) return lawIndex;
       try {
-        const res = await fetch('./data/index/laws.json');
+        const res = await fetch('../data/index/laws.json');
         const data = await res.json();
         lawIndex = new Map(data.laws.map(l => [l.id, l]));
         return lawIndex;

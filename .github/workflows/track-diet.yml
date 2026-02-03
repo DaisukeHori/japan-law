@@ -72,12 +72,14 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # 明示的にファイルを追加（pending_summaries.jsonも含む）
+          # 明示的にファイルを追加（pending_summaries.json, legislator_speeches.jsonも含む）
           git add data/index/legislators/legislators.json 2>/dev/null || true
           git add data/index/legislators/smri_bills.json 2>/dev/null || true
           git add data/index/legislators/created_issues.json 2>/dev/null || true
+          git add data/index/legislators/created_prs.json 2>/dev/null || true
           git add data/index/legislators/legislator_bills.json 2>/dev/null || true
           git add data/index/legislators/pending_summaries.json 2>/dev/null || true
+          git add data/index/legislators/legislator_speeches.json 2>/dev/null || true
 
           if ! git diff --staged --quiet; then
             DATE=$(date +%Y-%m-%d)
@@ -90,6 +92,7 @@ jobs:
             - LLM要約キュー更新
 
             自動更新 by GitHub Actions"
+            git pull --rebase origin main || true
             git push
           else
             echo "No changes to commit"
@@ -125,4 +128,10 @@ jobs:
           if [ -f data/index/legislators/pending_summaries.json ]; then
             PENDING=$(cat data/index/legislators/pending_summaries.json | grep -c '"comment_id"' || echo "0")
             echo "- **Pending LLM Summaries**: ${PENDING}" >> $GITHUB_STEP_SUMMARY
+          fi
+
+          if [ -f data/index/legislators/legislator_speeches.json ]; then
+            SPEAKERS=$(cat data/index/legislators/legislator_speeches.json | grep '"total_legislators"' | grep -oE '[0-9]+' || echo "0")
+            SPEECHES=$(cat data/index/legislators/legislator_speeches.json | grep '"total_speeches"' | grep -oE '[0-9]+' || echo "0")
+            echo "- **Tracked Speakers**: ${SPEAKERS} (${SPEECHES} speeches)" >> $GITHUB_STEP_SUMMARY
           fi

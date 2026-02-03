@@ -103,8 +103,8 @@ async function generateSummaryWithLLM(speech: string): Promise<string | null> {
 
 // コメント本文から要約部分を更新
 function updateCommentBodyWithSummary(originalBody: string, newSummary: string): string {
-  // 現在のフォーマット: > キーワード要約\n\n全文...
-  // 新しいフォーマット: > LLM要約 🤖\n\n全文...
+  // 新フォーマット: > 📝 キーワード要約 → > 🤖 LLM要約
+  // 旧フォーマット: > キーワード要約 → > LLM要約 🤖
 
   // blockquote（> で始まる行）を探して置換
   const lines = originalBody.split("\n");
@@ -127,10 +127,10 @@ function updateCommentBodyWithSummary(originalBody: string, newSummary: string):
   }
 
   if (blockquoteStart >= 0) {
-    // blockquote部分を新しい要約で置換
+    // blockquote部分を新しい要約で置換（🤖マーカーでLLM要約を示す）
     const before = lines.slice(0, blockquoteStart);
     const after = lines.slice(blockquoteEnd + 1);
-    return [...before, `> ${newSummary} 🤖`, ...after].join("\n");
+    return [...before, `> 🤖 ${newSummary}`, ...after].join("\n");
   }
 
   return originalBody;
