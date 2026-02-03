@@ -11,11 +11,6 @@ on:
         required: false
         default: '10'
         type: string
-      max_create:
-        description: 'Max issues to create per run'
-        required: false
-        default: '50'
-        type: string
 
 permissions:
   contents: write
@@ -58,7 +53,7 @@ jobs:
           GITHUB_REPOSITORY: ${{ github.repository }}
           NODE_OPTIONS: '--max-old-space-size=4096 --no-warnings'
           ISSUES_NUM_SESSIONS: ${{ inputs.num_sessions || '10' }}
-          ISSUES_MAX_CREATE: ${{ inputs.max_create || '50' }}
+          # ISSUES_MAX_CREATE: 指定なし = 無制限
 
       - name: Create PRs for enacted bills
         run: |

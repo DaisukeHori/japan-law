@@ -111,10 +111,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
-          # USE_LLM_SUMMARY: 'true'  # LLM要約を有効化（時間がかかるため通常は無効）
           NODE_OPTIONS: '--max-old-space-size=4096 --no-warnings'
           ISSUES_NUM_SESSIONS: '10'
-          ISSUES_MAX_CREATE: '10000'
+          # ISSUES_MAX_CREATE: 指定なし = 無制限
         continue-on-error: true
 
       - name: Commit issue tracking file

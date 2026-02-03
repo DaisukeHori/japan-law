@@ -653,11 +653,12 @@ async function main(): Promise<void> {
 
   // 対象国会数（環境変数で制御可能、デフォルト5）
   const numSessions = parseInt(process.env.ISSUES_NUM_SESSIONS || "5", 10);
-  // 最大作成数（環境変数で制御可能、デフォルト100）
-  const maxCreate = parseInt(process.env.ISSUES_MAX_CREATE || "100", 10);
+  // 最大作成数（環境変数で制御可能、デフォルト無制限）
+  const maxCreateEnv = process.env.ISSUES_MAX_CREATE;
+  const maxCreate = maxCreateEnv ? parseInt(maxCreateEnv, 10) : Infinity;
 
   console.log(`\n📦 リポジトリ: ${owner}/${repo}`);
-  console.log(`📊 設定: 直近${numSessions}国会分、最大${maxCreate}件作成`);
+  console.log(`📊 設定: 直近${numSessions}国会分、最大${maxCreate === Infinity ? "無制限" : maxCreate}件作成`);
 
   const octokit = new Octokit({ auth: token });
 
