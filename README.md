@@ -13,15 +13,16 @@ e-Gov法令検索APIから取得した日本の全法令データを、**相互�
 
 | GitHub | 国会・法令 | 説明 |
 |--------|----------|------|
-| **Issue** | 法案（審議中） | 提出された法案を追跡 |
+| **Issue** | 法案（審議中） | 提出された法案を追跡。国会議論をコメントで記録 |
+| **Comment** | 国会発言 | 各議員の発言を個別コメントとして自動追加 |
 | **PR** | 法案成立 | 可決された法案をマージ |
 | **Merge** | 法令化 | 法令ファイルがリポジトリに追加 |
 | **Commit** | 法令改正 | 法令の条文変更を記録 |
 | **Diff** | 新旧対照 | 改正前後の差分を表示 |
-| **Labels** | メタデータ | 議員、政党、状態などを付与 |
+| **Labels** | メタデータ | 議員、政党、状態、発言者などを付与 |
 
 ```
-法案提出 → Issue作成 → 審議（コメント/議論追加） → 可決 → PR作成 → マージ → 法令化
+法案提出 → Issue作成 → 審議（発言コメント自動追加） → 可決 → PR作成 → マージ → 法令化
 ```
 
 ## ✨ 特徴
@@ -35,34 +36,74 @@ e-Gov法令検索APIから取得した日本の全法令データを、**相互�
 
 ### 🏛️ 国会トラッキング
 - **自動Issue作成**: 国会会議録API + SMRIデータから法案を自動取得
-- **議論の自動追加**: 法案に関する国会発言をIssueに記録
+- **議論の自動追加**: 法案に関する国会発言をIssueコメントに記録
+- **LLM要約**: GitHub Models (GPT-4o-mini) で法案概要・発言要約を自動生成
+- **スタンス検出**: 発言内容から賛成/反対/中立を自動判定（🟢/🔴/⚪）
 - **成立PR自動作成**: 法案成立時に自動でPRを作成
-- **議員追跡**: 提案者別・会派別にラベルで追跡可能
 - **毎日自動更新**: GitHub Actionsで国会データを定期同期
 
 ### 👤 議員活動追跡
-- **法案をIssueで管理**: 提出者・政党・状態をラベルで記録
-- **自動統計**: 議員別・政党別の法案数、成功率を自動計算
-- **ダッシュボード**: GitHub Pagesで議員活動を可視化
-- **ランキング**: 法案提出数、成立率などのランキング
+- **発言者ラベル**: 法案で発言した全議員に`発言者/〇〇`ラベルを自動付与
+- **発言インデックス**: 議員ごとの発言履歴を`legislator_speeches.json`で管理
+- **スタンス集計**: 議員別の賛成/反対/中立発言数を自動集計
+- **党派バッジ**: shields.io でカラフルな党派バッジを表示
+- **議員ダッシュボード**: 発言数ランキング、党派別統計を可視化
+- **クロスリファレンス**: 議員名クリックで関連Issue一覧を検索
+
+### 📊 発言コメントの表示
+
+Issueコメントには以下の情報が自動付与されます：
+
+```markdown
+**[🎤 山田太郎](検索リンク)** ![自民](バッジ) 🟢 賛成
+📅 2025-01-15 | 🏛️ 衆議院本会議
+
+> 📝 この法案は国民生活の向上に資するものであり、賛成いたします...
+
+<details>
+<summary>全文を表示（2500文字）</summary>
+（発言全文）
+</details>
+```
+
+| アイコン | 意味 |
+|---------|------|
+| 🎤 | 一般議員 |
+| 👔 | 内閣総理大臣 |
+| 🏛️ | 大臣 |
+| 📋 | 副大臣・政務官 |
+| 🪑 | 委員長・議長 |
+| 👥 | 参考人・公述人 |
+| 🟢 | 賛成発言 |
+| 🔴 | 反対発言 |
+| ⚪ | 中立発言 |
+| 📝 | キーワード要約 |
+| 🤖 | LLM要約 |
 
 ## 🔄 自動ワークフロー
 
-### 1. 国会追跡 (Track Diet)
-毎日自動で実行されます。
+### 1. 国会追跡 (Track Diet) - 毎日実行
 
 ```
-国会会議録API → 議員データ取得（衆議院446名、参議院246名）
+国会会議録API → 議員データ取得
       ↓
 SMRI API → 法案データ取得（16,000件以上）
       ↓
-GitHub Issues 作成/更新（審議状態を同期）
+GitHub Issues 作成/更新
+  - 法案メタデータ（提出者、会派、状態）
+  - LLM法案概要
+  - 議論サマリー（党派別発言数）
+      ↓
+議論コメント追加
+  - 各発言を個別コメントで追加
+  - スタンス検出（賛成/反対/中立）
+  - 発言者ラベル自動作成
+  - 発言インデックス更新
       ↓
 成立法案 → PR自動作成（法令ファイル追加）
 ```
 
-### 2. 法令更新 (Update Laws)
-毎週自動で実行されます。
+### 2. 法令更新 (Update Laws) - 週次実行
 
 ```
 e-Gov API → 法令XML取得
@@ -72,6 +113,21 @@ Lawtext変換 → 人間可読形式
 Markdown変換 → 相互参照リンク付与
       ↓
 参照分析 → backlinks.json生成
+      ↓
+ドキュメント生成
+  - 法令検索インデックス
+  - 議員ダッシュボード
+  - 議員プロフィールページ
+```
+
+### 3. LLM要約処理 (Process Summaries) - オンデマンド
+
+```
+pending_summaries.json（要約キュー）
+      ↓
+GitHub Models API (gpt-4o-mini)
+      ↓
+コメント更新（📝 → 🤖）
 ```
 
 ## 📁 ディレクトリ構造
@@ -88,18 +144,37 @@ japan-law/
 │       ├── backlinks.json         # 被参照グラフ
 │       └── legislators/           # 議員・法案データ
 │           ├── legislators.json       # 議員一覧
+│           ├── parties.json           # 政党一覧
 │           ├── smri_bills.json        # 法案一覧
 │           ├── legislator_bills.json  # 議員別法案
+│           ├── legislator_speeches.json # 議員別発言インデックス ⭐NEW
 │           ├── created_issues.json    # Issue追跡
-│           └── created_prs.json       # PR追跡
+│           ├── created_prs.json       # PR追跡
+│           └── pending_summaries.json # LLM要約キュー
 │
 ├── scripts/           # データ取得・変換スクリプト
+│   ├── create_bill_issues.ts      # Issue作成（発言追加）
+│   ├── create_enactment_prs.ts    # PR作成（成立法案）
+│   ├── process_summary_queue.ts   # LLM要約処理
+│   ├── generate_docs.ts           # ドキュメント生成
+│   └── ...
+│
 ├── docs/              # GitHub Pages（ダッシュボード）
+│   ├── index.html             # トップページ
+│   ├── legislators.md         # 議員ダッシュボード ⭐NEW
+│   ├── legislators/
+│   │   ├── index.html         # 議員一覧（インタラクティブ）
+│   │   └── [名前].md          # 個別プロフィール ⭐NEW
+│   ├── bills/                 # 法案一覧
+│   ├── parties/               # 政党一覧
+│   └── ...
+│
 └── .github/
     ├── ISSUE_TEMPLATE/    # 法案登録テンプレート
     └── workflows/
         ├── update-laws.yml    # 週次法令更新
-        └── track-diet.yml     # 毎日国会追跡
+        ├── track-diet.yml     # 毎日国会追跡
+        └── process-summaries.yml # LLM要約処理
 ```
 
 ## 🏷️ ラベル体系
@@ -121,22 +196,23 @@ japan-law/
 | `参法` | 参議院議員提出 |
 
 ### 会派
-| ラベル | 説明 |
-|--------|------|
-| `会派/自民` | 自由民主党 |
-| `会派/立憲` | 立憲民主党 |
-| `会派/公明` | 公明党 |
-| `会派/維新` | 日本維新の会 |
-| `会派/国民` | 国民民主党 |
-| `会派/共産` | 日本共産党 |
-| `会派/れいわ` | れいわ新選組 |
-| `会派/社民` | 社会民主党 |
+| ラベル | カラー | 説明 |
+|--------|--------|------|
+| `会派/自民` | 🔴 | 自由民主党 |
+| `会派/立憲` | 🔵 | 立憲民主党 |
+| `会派/公明` | 🟠 | 公明党 |
+| `会派/維新` | 🟢 | 日本維新の会 |
+| `会派/国民` | 🟣 | 国民民主党 |
+| `会派/共産` | 🔴 | 日本共産党 |
+| `会派/れいわ` | 🩷 | れいわ新選組 |
+| `会派/社民` | 🩷 | 社会民主党 |
 
 ### 議員追跡
-| パターン | 例 |
-|----------|-----|
-| `提案者/{議員名}` | `提案者/山田太郎` |
-| `第{N}回国会` | `第215回国会` |
+| パターン | 例 | 説明 |
+|----------|-----|------|
+| `提案者/{議員名}` | `提案者/山田太郎` | 法案提出者 |
+| `発言者/{議員名}` | `発言者/山田太郎` | 国会で発言した議員 ⭐NEW |
+| `第{N}回国会` | `第215回国会` | 国会回次 |
 
 ## 🚀 使い方
 
@@ -150,7 +226,14 @@ japan-law/
 
 - **[Issues](../../issues?q=label%3A法案)**: 審議中の法案一覧
 - **[成立法案](../../issues?q=label%3A成立)**: 成立済みの法案
+- **[発言者ラベル](../../labels?q=発言者)**: 議員別の関連Issue検索
 - **[PR](../../pulls)**: マージ待ちの法令追加
+
+### 議員を検索する
+
+- **[議員ダッシュボード](https://daisukehori.github.io/japan-law/legislators/)**: 発言数ランキング、党派統計
+- **ラベル検索**: `is:issue label:"発言者/山田太郎"` で議員の発言法案を検索
+- **プロフィールページ**: `docs/legislators/[名前].md` で個別活動を確認
 
 ### ローカルで開発する
 
@@ -169,6 +252,12 @@ npm run create:issues
 
 # PR作成（成立法案）
 npm run create:prs
+
+# LLM要約処理
+npm run process:summaries
+
+# ドキュメント生成
+npm run build:docs
 ```
 
 ## 📊 データ形式
@@ -185,6 +274,37 @@ npm run create:prs
       "category": "acts"
     }
   ]
+}
+```
+
+### 議員発言インデックス (`legislator_speeches.json`) ⭐NEW
+
+```json
+{
+  "updated_at": "2025-01-15T12:00:00.000Z",
+  "total_legislators": 500,
+  "total_speeches": 12000,
+  "legislators": {
+    "山田太郎": {
+      "party": "自由民主党",
+      "speech_count": 25,
+      "stance_summary": {
+        "support": 15,
+        "oppose": 5,
+        "neutral": 5
+      },
+      "bills": [
+        {
+          "bill_id": "bill_123",
+          "bill_name": "〇〇法案",
+          "issue_number": 456,
+          "date": "2025-01-15",
+          "meeting": "衆議院本会議",
+          "stance": "賛成"
+        }
+      ]
+    }
+  }
 }
 ```
 
@@ -219,7 +339,7 @@ npm run create:prs
 | [e-Gov法令API](https://laws.e-gov.go.jp/api/1/) | 法令XML | 週次 |
 | [国会会議録API](https://kokkai.ndl.go.jp/) | 議員・発言データ | 毎日 |
 | [SmartNews MRI](https://github.com/smartnews-smri) | 法案データ | 毎日 |
-| [Wikidata](https://www.wikidata.org/) | 議員メタデータ | フォールバック |
+| [GitHub Models](https://github.com/marketplace/models) | LLM要約 (GPT-4o-mini) | オンデマンド |
 
 ## 🔗 関連リンク
 
@@ -229,6 +349,7 @@ npm run create:prs
 - [SmartNews MRI](https://github.com/smartnews-smri) - 国会データ
 - [衆議院 議案情報](https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/menu.htm)
 - [参議院 議案情報](https://www.sangiin.go.jp/japanese/joho1/kousei/gian/gian.htm)
+- [GitHub Models](https://github.com/marketplace/models) - AI要約
 
 ## 📜 ライセンス
 
@@ -243,6 +364,7 @@ Issue・Pull Requestを歓迎します！
 - 機能提案
 - ドキュメント改善
 - 法令データの誤り報告
+- スタンス検出キーワードの改善提案
 
 ## 📞 お問い合わせ
 
