@@ -124,11 +124,13 @@ jobs:
           if [ -f data/index/legislators/created_issues.json ]; then
             git add data/index/legislators/created_issues.json
             git add data/index/legislators/legislator_bills.json 2>/dev/null || true
+            git add data/index/legislators/pending_summaries.json 2>/dev/null || true
             if ! git diff --staged --quiet; then
               git commit -m "📋 国会追跡データ更新
 
               - 法案Issue自動作成/更新
               - 議員別法案データ更新
+              - LLM要約キュー更新
 
               自動更新 by GitHub Actions"
               git push

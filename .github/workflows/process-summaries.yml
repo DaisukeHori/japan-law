@@ -1,0 +1,61 @@
+name: Process LLM Summaries
+
+on:
+  schedule:
+    # 15分ごとに実行（キューが空なら即終了）
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+    inputs:
+      batch_size:
+        description: 'Number of summaries to process per run'
+        required: false
+        default: '30'
+        type: string
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  process:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm ci
+        working-directory: scripts
+
+      - name: Process summary queue
+        run: |
+          echo "Processing LLM summary queue..."
+          node --loader ts-node/esm process_summary_queue.ts
+        working-directory: scripts
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          BATCH_SIZE: ${{ github.event.inputs.batch_size || '30' }}
+          NODE_OPTIONS: '--no-warnings'
+
+      - name: Commit queue updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -f data/index/legislators/pending_summaries.json ]; then
+            git add data/index/legislators/pending_summaries.json
+            if ! git diff --staged --quiet; then
+              git commit -m "🤖 LLM要約キュー更新
+
+自動処理 by GitHub Actions"
+              git push
+            fi
+          fi
+        continue-on-error: true

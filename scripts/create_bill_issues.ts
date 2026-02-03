@@ -12,26 +12,52 @@ import axios from "axios";
 
 const KOKKAI_API = "https://kokkai.ndl.go.jp/api/speech";
 
-// GitHub Models API（GITHUB_TOKENで動作、追加キー不要）
-const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
-const GITHUB_MODELS_URL = "https://models.inference.ai.azure.com/chat/completions";
-
-// LLM要約は明示的に有効化された場合のみ使用（タイムアウト防止）
-// USE_LLM_SUMMARY=true を設定するとLLM要約が有効になる
-const USE_LLM_SUMMARY = process.env.USE_LLM_SUMMARY === "true" && !!GITHUB_TOKEN;
-
-if (USE_LLM_SUMMARY) {
-  console.log("🤖 LLM要約モード: GitHub Models API を使用");
-} else {
-  console.log("📝 キーワード要約モード（高速）");
-}
-
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const DATA_DIR = path.join(__dirname, "..", "data");
 const LEGISLATORS_DIR = path.join(DATA_DIR, "index", "legislators");
 const TRACKING_FILE = path.join(LEGISLATORS_DIR, "created_issues.json");
+const SUMMARY_QUEUE_FILE = path.join(LEGISLATORS_DIR, "pending_summaries.json");
+
+// LLM要約待ちキュー
+interface PendingSummary {
+  issue_number: number;
+  comment_id: number;
+  speech: string;
+  created_at: string;
+}
+
+interface SummaryQueue {
+  updated_at: string;
+  pending: PendingSummary[];
+}
+
+// キューを読み込み
+function loadSummaryQueue(): SummaryQueue {
+  try {
+    if (fs.existsSync(SUMMARY_QUEUE_FILE)) {
+      return JSON.parse(fs.readFileSync(SUMMARY_QUEUE_FILE, "utf-8"));
+    }
+  } catch (e) {
+    console.log("⚠️ 要約キューの読み込みに失敗、新規作成");
+  }
+  return { updated_at: new Date().toISOString(), pending: [] };
+}
+
+// キューを保存
+function saveSummaryQueue(queue: SummaryQueue): void {
+  queue.updated_at = new Date().toISOString();
+  fs.writeFileSync(SUMMARY_QUEUE_FILE, JSON.stringify(queue, null, 2), "utf-8");
+}
+
+// キューに追加
+function addToSummaryQueue(queue: SummaryQueue, item: PendingSummary): void {
+  // 重複チェック（同じコメントIDは追加しない）
+  if (!queue.pending.some(p => p.comment_id === item.comment_id)) {
+    queue.pending.push(item);
+  }
+}
 
 interface Bill {
   id: string;
@@ -204,55 +230,7 @@ interface Discussion {
   speechUrl?: string;
 }
 
-// LLMで要約を生成（GitHub Models API）
-async function generateSummaryWithLLM(speech: string): Promise<string | null> {
-  if (!GITHUB_TOKEN) return null;
-
-  try {
-    // 発言が長すぎる場合は前半部分のみ使用（レート制限対策）
-    const truncatedSpeech = speech.length > 2000 ? speech.slice(0, 2000) + "..." : speech;
-
-    const response = await axios.post(
-      GITHUB_MODELS_URL,
-      {
-        model: "gpt-4o-mini",  // 軽量・高速・無料枠で十分
-        messages: [
-          {
-            role: "system",
-            content: "あなたは国会議事録の要約を行うアシスタントです。発言者の主張・立場・結論を1-2文（100文字以内）で簡潔に要約してください。"
-          },
-          {
-            role: "user",
-            content: `以下の国会での発言を要約してください:\n\n${truncatedSpeech}`
-          }
-        ],
-        temperature: 0.3,
-        max_tokens: 150,
-      },
-      {
-        headers: {
-          "Authorization": `Bearer ${GITHUB_TOKEN}`,
-          "Content-Type": "application/json",
-        },
-        timeout: 15000
-      }
-    );
-
-    const text = response.data?.choices?.[0]?.message?.content;
-    if (text) {
-      // 改行を除去して返す
-      return text.trim().replace(/\n/g, " ").slice(0, 200);
-    }
-  } catch (error: any) {
-    // API制限やエラー時はnullを返してフォールバック
-    if (error.response?.status === 429) {
-      console.log("    ⚠️ GitHub Models API制限 - キーワード要約にフォールバック");
-    }
-  }
-  return null;
-}
-
-// 発言から要約を生成（キーワードベースで重要な文を抽出 - フォールバック用）
+// 発言から要約を生成（キーワードベースで重要な文を抽出）
 function generateSummaryKeyword(speech: string): string {
   // 文に分割（句点または改行で区切る）
   const sentences = speech
@@ -394,24 +372,9 @@ async function fetchDiscussions(billName: string, session: number): Promise<Disc
     if (discussions.length > 0) {
       console.log(`    ✅ 有効な議論: ${discussions.length}件（総${totalRecords}件中）`);
 
-      // 要約を生成
-      if (USE_LLM_SUMMARY) {
-        console.log(`    🤖 LLM要約生成中...`);
-        for (let i = 0; i < discussions.length; i++) {
-          const d = discussions[i];
-          const llmSummary = await generateSummaryWithLLM(d.speech);
-          d.summary = llmSummary || generateSummaryKeyword(d.speech);
-          // GitHub Models レート制限対応（8k入力/分、4k出力/分）
-          // 2秒間隔で約30リクエスト/分 → 安全マージン確保
-          if (i < discussions.length - 1) {
-            await new Promise(resolve => setTimeout(resolve, 2000));
-          }
-        }
-      } else {
-        // キーワードベース要約
-        for (const d of discussions) {
-          d.summary = generateSummaryKeyword(d.speech);
-        }
+      // キーワードベース要約を生成（高速）
+      for (const d of discussions) {
+        d.summary = generateSummaryKeyword(d.speech);
       }
     }
   } catch (error: any) {
@@ -443,13 +406,14 @@ ${discussion.date} ${discussion.meeting}
 ${fullText}`;
 }
 
-// 議論を個別コメントとして追加
+// 議論を個別コメントとして追加（キューにも追加）
 async function addDiscussionComments(
   octokit: Octokit,
   owner: string,
   repo: string,
   issueNumber: number,
-  discussions: Discussion[]
+  discussions: Discussion[],
+  summaryQueue: SummaryQueue
 ): Promise<void> {
   if (discussions.length === 0) {
     // 議論がない場合は1つのコメントで通知
@@ -470,11 +434,19 @@ async function addDiscussionComments(
   for (const discussion of discussions) {
     await new Promise((resolve) => setTimeout(resolve, 300)); // Rate limiting
     try {
-      await octokit.issues.createComment({
+      const response = await octokit.issues.createComment({
         owner,
         repo,
         issue_number: issueNumber,
         body: formatDiscussionAsComment(discussion),
+      });
+
+      // LLM要約キューに追加（後で処理）
+      addToSummaryQueue(summaryQueue, {
+        issue_number: issueNumber,
+        comment_id: response.data.id,
+        speech: discussion.speech,
+        created_at: new Date().toISOString(),
       });
     } catch (e: any) {
       console.log(`    ⚠️ コメント追加失敗: ${e.message}`);
@@ -487,6 +459,7 @@ async function createOrUpdateIssue(
   owner: string,
   repo: string,
   bill: Bill,
+  summaryQueue: SummaryQueue,
   existingIssueNumber?: number,
   fetchDiscussionData: boolean = true
 ): Promise<number | null> {
@@ -618,7 +591,7 @@ ${proposerSearchUrl ? `[${bill.proposer?.split(/[、,　 ]/)[0] || "提出者"}�
 
         if (newDiscussions.length > 0) {
           console.log(`    💬 ${newDiscussions.length}件の新しい議論を追記中...`);
-          await addDiscussionComments(octokit, owner, repo, existingIssueNumber, newDiscussions);
+          await addDiscussionComments(octokit, owner, repo, existingIssueNumber, newDiscussions, summaryQueue);
         }
       }
 
@@ -639,7 +612,7 @@ ${proposerSearchUrl ? `[${bill.proposer?.split(/[、,　 ]/)[0] || "提出者"}�
         const discussions = await fetchDiscussions(bill.bill_name, bill.diet_session);
         if (discussions.length > 0) {
           console.log(`    💬 ${discussions.length}件の議論をコメントとして追加中...`);
-          await addDiscussionComments(octokit, owner, repo, response.data.number, discussions);
+          await addDiscussionComments(octokit, owner, repo, response.data.number, discussions, summaryQueue);
         }
       }
 
@@ -705,6 +678,10 @@ async function main(): Promise<void> {
   const tracking = await loadCreatedIssues();
   console.log(`  既存Issue: ${Object.keys(tracking.issues).length} 件`);
 
+  // Load summary queue
+  const summaryQueue = loadSummaryQueue();
+  console.log(`  LLM要約待ち: ${summaryQueue.pending.length} 件`);
+
   // Ensure labels exist
   console.log("\n🏷️ ラベル確認中...");
   await ensureLabels(octokit, owner, repo);
@@ -741,7 +718,7 @@ async function main(): Promise<void> {
     // Rate limiting: wait between requests
     await new Promise((resolve) => setTimeout(resolve, 500));
 
-    const issueNum = await createOrUpdateIssue(octokit, owner, repo, bill, undefined, true);
+    const issueNum = await createOrUpdateIssue(octokit, owner, repo, bill, summaryQueue, undefined, true);
     if (issueNum) {
       tracking.issues[bill.id] = issueNum;
       created++;
@@ -752,6 +729,7 @@ async function main(): Promise<void> {
     // Save periodically
     if (created % 10 === 0) {
       saveCreatedIssues(tracking);
+      saveSummaryQueue(summaryQueue);
     }
   }
 
@@ -762,7 +740,7 @@ async function main(): Promise<void> {
     // Rate limiting
     await new Promise((resolve) => setTimeout(resolve, 300));
 
-    const issueNum = await createOrUpdateIssue(octokit, owner, repo, bill, existingIssue, false);
+    const issueNum = await createOrUpdateIssue(octokit, owner, repo, bill, summaryQueue, existingIssue, false);
     if (issueNum) {
       updated++;
     }
@@ -770,12 +748,14 @@ async function main(): Promise<void> {
 
   // Final save
   saveCreatedIssues(tracking);
+  saveSummaryQueue(summaryQueue);
 
   console.log("\n" + "=".repeat(50));
   console.log("📈 結果:");
   console.log(`  新規作成: ${created} 件`);
   console.log(`  更新: ${updated} 件`);
   console.log(`  スキップ: ${skipped} 件`);
+  console.log(`  LLM要約待ち: ${summaryQueue.pending.length} 件`);
   console.log("\n✅ 完了!");
 }
 
