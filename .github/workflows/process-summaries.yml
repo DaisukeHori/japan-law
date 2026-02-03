@@ -41,7 +41,7 @@ jobs:
         working-directory: scripts
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_MODELS_TOKEN: ${{ secrets.GITHUB_MODELS_TOKEN }}
+          LLM_SUMMARY_TOKEN: ${{ secrets.LLM_SUMMARY_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           BATCH_SIZE: ${{ github.event.inputs.batch_size || '30' }}
           NODE_OPTIONS: '--no-warnings'
