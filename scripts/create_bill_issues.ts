@@ -487,8 +487,12 @@ function getTopSpeakers(discussions: Discussion[], limit: number = 5): string[] 
 
 // 法案内容をLLMで要約（GitHub Models API）
 async function generateBillSummary(billName: string, discussions: Discussion[]): Promise<string | null> {
-  const token = process.env.GITHUB_TOKEN;
-  if (!token) return null;
+  // GitHub Models API用トークン（専用トークンを優先、なければGITHUB_TOKENにフォールバック）
+  const token = process.env.GITHUB_MODELS_TOKEN || process.env.GITHUB_TOKEN;
+  if (!token) {
+    console.log("    ⚠️ LLM要約: トークン未設定（GITHUB_MODELS_TOKEN または GITHUB_TOKEN）");
+    return null;
+  }
 
   try {
     // 議論の中から法案の説明・趣旨説明を探す

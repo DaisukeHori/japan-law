@@ -17,8 +17,10 @@ const DATA_DIR = path.join(__dirname, "..", "data");
 const LEGISLATORS_DIR = path.join(DATA_DIR, "index", "legislators");
 const SUMMARY_QUEUE_FILE = path.join(LEGISLATORS_DIR, "pending_summaries.json");
 
-// GitHub Models API
+// GitHub API（Issues更新用）
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
+// GitHub Models API（LLM要約用、専用トークンを優先）
+const GITHUB_MODELS_TOKEN = process.env.GITHUB_MODELS_TOKEN || process.env.GITHUB_TOKEN;
 const GITHUB_MODELS_URL = "https://models.inference.ai.azure.com/chat/completions";
 
 // 1回の実行で処理する最大件数（デフォルト30件、約1分で完了）
@@ -56,7 +58,10 @@ function saveSummaryQueue(queue: SummaryQueue): void {
 
 // LLMで要約を生成（GitHub Models API）
 async function generateSummaryWithLLM(speech: string): Promise<string | null> {
-  if (!GITHUB_TOKEN) return null;
+  if (!GITHUB_MODELS_TOKEN) {
+    console.log("    ⚠️ LLM要約: トークン未設定（GITHUB_MODELS_TOKEN または GITHUB_TOKEN）");
+    return null;
+  }
 
   try {
     const truncatedSpeech = speech.length > 2000 ? speech.slice(0, 2000) + "..." : speech;
@@ -80,7 +85,7 @@ async function generateSummaryWithLLM(speech: string): Promise<string | null> {
       },
       {
         headers: {
-          "Authorization": `Bearer ${GITHUB_TOKEN}`,
+          "Authorization": `Bearer ${GITHUB_MODELS_TOKEN}`,
           "Content-Type": "application/json",
         },
         timeout: 15000

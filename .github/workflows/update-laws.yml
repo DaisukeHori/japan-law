@@ -111,6 +111,7 @@ jobs:
         working-directory: scripts
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_MODELS_TOKEN: ${{ secrets.GITHUB_MODELS_TOKEN }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           NODE_OPTIONS: '--max-old-space-size=4096 --no-warnings'
           ISSUES_NUM_SESSIONS: '10'
