@@ -279,13 +279,29 @@ async function ensureLabels(octokit: Octokit, owner: string, repo: string): Prom
   }
 }
 
+// 名前から敬称・付加情報を除去（「君」「外〇名」など）
+function cleanPersonName(name: string): string {
+  return name
+    .replace(/君$/, "")              // 末尾の「君」を除去
+    .replace(/外[一二三四五六七八九十〇\d]+名$/, "") // 「外四名」などを除去
+    .replace(/ほか[一二三四五六七八九十〇\d]+名$/, "") // 「ほか4名」などを除去
+    .replace(/他[一二三四五六七八九十〇\d]+名$/, "")  // 「他3名」などを除去
+    .replace(/\s+$/, "")             // 末尾の空白を除去
+    .trim();
+}
+
 // 複数名から最初の提案者名を取得（フルネーム維持、スペースは分割しない）
 function getFirstProposerName(proposer: string): string | null {
   if (!proposer || proposer === "内閣") return null;
   // カンマ区切りのみで分割（全角・半角カンマ対応）
   // スペースは「姓 名」の区切りの可能性があるため分割しない
   const names = proposer.split(/[、,，]/);
-  const firstName = names[0]?.trim();
+  let firstName = names[0]?.trim();
+  if (!firstName) return null;
+
+  // 敬称・付加情報を除去
+  firstName = cleanPersonName(firstName);
+
   if (!firstName || firstName.length > 20) return null; // フルネーム対応で長さ制限緩和
   return firstName;
 }
@@ -642,11 +658,15 @@ async function fetchDiscussions(billName: string, session: number): Promise<Disc
 
       for (const record of records) {
         const speech = record.speech || "";
-        const speaker = record.speaker || "";
+        const rawSpeaker = record.speaker || "";
 
         // ノイズを除外（会議録情報、短すぎる発言、発言者名がない）
-        if (!speaker || speaker.includes("会議録情報") || speaker === "（）") continue;
+        if (!rawSpeaker || rawSpeaker.includes("会議録情報") || rawSpeaker === "（）") continue;
         if (speech.length < 100) continue;
+
+        // 発言者名をクリーニング（敬称・付加情報を除去）
+        const speaker = cleanPersonName(rawSpeaker);
+        if (!speaker) continue;
 
         discussions.push({
           date: record.date || "",
@@ -889,11 +909,17 @@ async function createOrUpdateIssue(
       billSummary = "*（関連する議論が見つかりませんでした）*";
     }
 
-    // 全発言者のラベルを追加
-    const allSpeakers = [...new Set(discussions.map(d => d.speaker))];
-    for (const speaker of allSpeakers) {
+    // 発言者のラベルを追加（最大50名まで、ラベル総数100制限対策）
+    const allSpeakers = [...new Set(discussions.map(d => cleanPersonName(d.speaker)))]
+      .filter(s => s.length > 0 && s.length <= 20);  // 有効な名前のみ
+    const maxSpeakerLabels = Math.min(allSpeakers.length, 50);  // 最大50名
+    for (let i = 0; i < maxSpeakerLabels; i++) {
+      const speaker = allSpeakers[i];
       await ensureSpeakerLabel(octokit, owner, repo, speaker);
       labels.push(getSpeakerLabelName(speaker));
+    }
+    if (allSpeakers.length > maxSpeakerLabels) {
+      console.log(`    ⚠️ 発言者ラベル: ${maxSpeakerLabels}/${allSpeakers.length}名に制限`);
     }
   }
 
