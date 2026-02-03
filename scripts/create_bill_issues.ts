@@ -218,29 +218,59 @@ async function fetchDiscussions(billName: string, session: number): Promise<Disc
       .replace(/に関する法律案$/, "")
       .slice(0, 30);
 
-    // 全件取得（最大100件）
-    const url = `${KOKKAI_API}?any=${encodeURIComponent(searchTerm)}&sessionFrom=${session}&sessionTo=${session}&recordPacking=json&maximumRecords=100`;
+    // ページネーションで全件取得
+    const PAGE_SIZE = 100;
+    let startRecord = 1;
+    let totalRecords = 0;
+    let fetchedCount = 0;
 
-    const response = await axios.get(url, { timeout: 60000 });
-    const records = response.data?.speechRecord || [];
+    do {
+      const url = `${KOKKAI_API}?any=${encodeURIComponent(searchTerm)}&sessionFrom=${session}&sessionTo=${session}&recordPacking=json&maximumRecords=${PAGE_SIZE}&startRecord=${startRecord}`;
 
-    for (const record of records) {
-      const speech = record.speech || "";
-      const speaker = record.speaker || "";
+      const response = await axios.get(url, { timeout: 60000 });
 
-      // ノイズを除外（会議録情報、短すぎる発言、発言者名がない）
-      if (!speaker || speaker.includes("会議録情報") || speaker === "（）") continue;
-      if (speech.length < 100) continue;
+      // 総件数を取得（初回のみ）
+      if (startRecord === 1) {
+        totalRecords = response.data?.numberOfRecords || 0;
+        if (totalRecords > 0) {
+          console.log(`    📊 検索結果: ${totalRecords}件`);
+        }
+      }
 
-      discussions.push({
-        date: record.date || "",
-        meeting: record.nameOfMeeting || "",
-        speaker: speaker,
-        party: record.speakerGroup || "",
-        speech: speech,
-        summary: generateSummary(speech),
-        speechUrl: record.speechURL,
-      });
+      const records = response.data?.speechRecord || [];
+      if (records.length === 0) break;
+
+      fetchedCount += records.length;
+
+      for (const record of records) {
+        const speech = record.speech || "";
+        const speaker = record.speaker || "";
+
+        // ノイズを除外（会議録情報、短すぎる発言、発言者名がない）
+        if (!speaker || speaker.includes("会議録情報") || speaker === "（）") continue;
+        if (speech.length < 100) continue;
+
+        discussions.push({
+          date: record.date || "",
+          meeting: record.nameOfMeeting || "",
+          speaker: speaker,
+          party: record.speakerGroup || "",
+          speech: speech,
+          summary: generateSummary(speech),
+          speechUrl: record.speechURL,
+        });
+      }
+
+      startRecord += PAGE_SIZE;
+
+      // レート制限対応
+      if (fetchedCount < totalRecords) {
+        await new Promise(resolve => setTimeout(resolve, 300));
+      }
+    } while (fetchedCount < totalRecords);
+
+    if (discussions.length > 0) {
+      console.log(`    ✅ 有効な議論: ${discussions.length}件（総${totalRecords}件中）`);
     }
   } catch (error: any) {
     console.log(`    ⚠️ 議論取得スキップ: ${error.message}`);
