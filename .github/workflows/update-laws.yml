@@ -163,3 +163,8 @@ jobs:
             ISSUES=$(cat data/index/legislators/created_issues.json | grep -c '"bill_' || echo "0")
             echo "- **GitHub Issues**: ${ISSUES}" >> $GITHUB_STEP_SUMMARY
           fi
+
+          if [ -f data/index/legislators/pending_summaries.json ]; then
+            PENDING=$(cat data/index/legislators/pending_summaries.json | grep -c '"comment_id"' || echo "0")
+            echo "- **Pending LLM Summaries**: ${PENDING}" >> $GITHUB_STEP_SUMMARY
+          fi
