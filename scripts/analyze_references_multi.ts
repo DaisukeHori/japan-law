@@ -66,8 +66,8 @@ async function main(): Promise<void> {
 
   console.log(`\n🔍 参照を解析中（${NUM_WORKERS}プロセス並列）...\n`);
 
-  // JavaScript版ワーカーを使用
-  const workerScript = path.join(__dirname, "analyze_worker.js");
+  // JavaScript版ワーカーを使用（CommonJS形式）
+  const workerScript = path.join(__dirname, "analyze_worker.cjs");
 
   const promises = chunks.map((chunk, index) => {
     return runWorker(workerScript, {
