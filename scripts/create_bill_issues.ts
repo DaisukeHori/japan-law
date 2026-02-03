@@ -12,6 +12,17 @@ import axios from "axios";
 
 const KOKKAI_API = "https://kokkai.ndl.go.jp/api/speech";
 
+// Google Gemini API（無料枠: 1日1500リクエスト）
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
+const GEMINI_API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent";
+const USE_LLM_SUMMARY = !!GEMINI_API_KEY;
+
+if (USE_LLM_SUMMARY) {
+  console.log("🤖 LLM要約モード: Gemini API（無料）を使用");
+} else {
+  console.log("📝 キーワード要約モード: GEMINI_API_KEY が未設定");
+}
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
@@ -190,8 +201,51 @@ interface Discussion {
   speechUrl?: string;
 }
 
-// 発言から要約を生成（キーワードベースで重要な文を抽出）
-function generateSummary(speech: string): string {
+// LLMで要約を生成（Gemini API）
+async function generateSummaryWithLLM(speech: string): Promise<string | null> {
+  if (!GEMINI_API_KEY) return null;
+
+  try {
+    // 発言が長すぎる場合は前半部分のみ使用
+    const truncatedSpeech = speech.length > 3000 ? speech.slice(0, 3000) + "..." : speech;
+
+    const response = await axios.post(
+      `${GEMINI_API_URL}?key=${GEMINI_API_KEY}`,
+      {
+        contents: [{
+          parts: [{
+            text: `以下の国会での発言を1-2文（100文字以内）で要約してください。発言者の主張・立場・結論を簡潔に示してください。
+
+発言:
+${truncatedSpeech}
+
+要約:`
+          }]
+        }],
+        generationConfig: {
+          temperature: 0.3,
+          maxOutputTokens: 150,
+        }
+      },
+      { timeout: 10000 }
+    );
+
+    const text = response.data?.candidates?.[0]?.content?.parts?.[0]?.text;
+    if (text) {
+      // 改行を除去して返す
+      return text.trim().replace(/\n/g, " ").slice(0, 200);
+    }
+  } catch (error: any) {
+    // API制限やエラー時はnullを返してフォールバック
+    if (error.response?.status === 429) {
+      console.log("    ⚠️ Gemini API制限 - キーワード要約にフォールバック");
+    }
+  }
+  return null;
+}
+
+// 発言から要約を生成（キーワードベースで重要な文を抽出 - フォールバック用）
+function generateSummaryKeyword(speech: string): string {
   // 文に分割（句点または改行で区切る）
   const sentences = speech
     .split(/[。\n]/)
@@ -316,7 +370,7 @@ async function fetchDiscussions(billName: string, session: number): Promise<Disc
           speaker: speaker,
           party: record.speakerGroup || "",
           speech: speech,
-          summary: generateSummary(speech),
+          summary: "", // 後で生成
           speechUrl: record.speechURL,
         });
       }
@@ -331,6 +385,25 @@ async function fetchDiscussions(billName: string, session: number): Promise<Disc
 
     if (discussions.length > 0) {
       console.log(`    ✅ 有効な議論: ${discussions.length}件（総${totalRecords}件中）`);
+
+      // 要約を生成
+      if (USE_LLM_SUMMARY) {
+        console.log(`    🤖 LLM要約生成中...`);
+        for (let i = 0; i < discussions.length; i++) {
+          const d = discussions[i];
+          const llmSummary = await generateSummaryWithLLM(d.speech);
+          d.summary = llmSummary || generateSummaryKeyword(d.speech);
+          // API制限対応（1秒間隔）
+          if (i < discussions.length - 1) {
+            await new Promise(resolve => setTimeout(resolve, 1000));
+          }
+        }
+      } else {
+        // キーワードベース要約
+        for (const d of discussions) {
+          d.summary = generateSummaryKeyword(d.speech);
+        }
+      }
     }
   } catch (error: any) {
     console.log(`    ⚠️ 議論取得スキップ: ${error.message}`);
