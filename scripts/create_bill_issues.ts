@@ -15,12 +15,15 @@ const KOKKAI_API = "https://kokkai.ndl.go.jp/api/speech";
 // GitHub Models API（GITHUB_TOKENで動作、追加キー不要）
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
 const GITHUB_MODELS_URL = "https://models.inference.ai.azure.com/chat/completions";
-const USE_LLM_SUMMARY = !!GITHUB_TOKEN;
+
+// LLM要約は明示的に有効化された場合のみ使用（タイムアウト防止）
+// USE_LLM_SUMMARY=true を設定するとLLM要約が有効になる
+const USE_LLM_SUMMARY = process.env.USE_LLM_SUMMARY === "true" && !!GITHUB_TOKEN;
 
 if (USE_LLM_SUMMARY) {
   console.log("🤖 LLM要約モード: GitHub Models API を使用");
 } else {
-  console.log("📝 キーワード要約モード: GITHUB_TOKEN が未設定");
+  console.log("📝 キーワード要約モード（高速）");
 }
 
 const __filename = fileURLToPath(import.meta.url);
