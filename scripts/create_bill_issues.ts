@@ -12,15 +12,15 @@ import axios from "axios";
 
 const KOKKAI_API = "https://kokkai.ndl.go.jp/api/speech";
 
-// DeepSeek API（新規登録で500万トークン無料、OpenAI互換）
-const DEEPSEEK_API_KEY = process.env.DEEPSEEK_API_KEY;
-const DEEPSEEK_API_URL = "https://api.deepseek.com/v1/chat/completions";
-const USE_LLM_SUMMARY = !!DEEPSEEK_API_KEY;
+// GitHub Models API（GITHUB_TOKENで動作、追加キー不要）
+const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
+const GITHUB_MODELS_URL = "https://models.inference.ai.azure.com/chat/completions";
+const USE_LLM_SUMMARY = !!GITHUB_TOKEN;
 
 if (USE_LLM_SUMMARY) {
-  console.log("🤖 LLM要約モード: DeepSeek API を使用");
+  console.log("🤖 LLM要約モード: GitHub Models API を使用");
 } else {
-  console.log("📝 キーワード要約モード: DEEPSEEK_API_KEY が未設定");
+  console.log("📝 キーワード要約モード: GITHUB_TOKEN が未設定");
 }
 
 const __filename = fileURLToPath(import.meta.url);
@@ -201,18 +201,18 @@ interface Discussion {
   speechUrl?: string;
 }
 
-// LLMで要約を生成（DeepSeek API - OpenAI互換）
+// LLMで要約を生成（GitHub Models API）
 async function generateSummaryWithLLM(speech: string): Promise<string | null> {
-  if (!DEEPSEEK_API_KEY) return null;
+  if (!GITHUB_TOKEN) return null;
 
   try {
-    // 発言が長すぎる場合は前半部分のみ使用
-    const truncatedSpeech = speech.length > 3000 ? speech.slice(0, 3000) + "..." : speech;
+    // 発言が長すぎる場合は前半部分のみ使用（レート制限対策）
+    const truncatedSpeech = speech.length > 2000 ? speech.slice(0, 2000) + "..." : speech;
 
     const response = await axios.post(
-      DEEPSEEK_API_URL,
+      GITHUB_MODELS_URL,
       {
-        model: "deepseek-chat",
+        model: "gpt-4o-mini",  // 軽量・高速・無料枠で十分
         messages: [
           {
             role: "system",
@@ -228,7 +228,7 @@ async function generateSummaryWithLLM(speech: string): Promise<string | null> {
       },
       {
         headers: {
-          "Authorization": `Bearer ${DEEPSEEK_API_KEY}`,
+          "Authorization": `Bearer ${GITHUB_TOKEN}`,
           "Content-Type": "application/json",
         },
         timeout: 15000
@@ -243,7 +243,7 @@ async function generateSummaryWithLLM(speech: string): Promise<string | null> {
   } catch (error: any) {
     // API制限やエラー時はnullを返してフォールバック
     if (error.response?.status === 429) {
-      console.log("    ⚠️ DeepSeek API制限 - キーワード要約にフォールバック");
+      console.log("    ⚠️ GitHub Models API制限 - キーワード要約にフォールバック");
     }
   }
   return null;
@@ -398,9 +398,10 @@ async function fetchDiscussions(billName: string, session: number): Promise<Disc
           const d = discussions[i];
           const llmSummary = await generateSummaryWithLLM(d.speech);
           d.summary = llmSummary || generateSummaryKeyword(d.speech);
-          // API制限対応（1秒間隔）
+          // GitHub Models レート制限対応（8k入力/分、4k出力/分）
+          // 2秒間隔で約30リクエスト/分 → 安全マージン確保
           if (i < discussions.length - 1) {
-            await new Promise(resolve => setTimeout(resolve, 1000));
+            await new Promise(resolve => setTimeout(resolve, 2000));
           }
         }
       } else {
