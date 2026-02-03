@@ -190,22 +190,82 @@ interface Discussion {
   speechUrl?: string;
 }
 
-// 発言から要約を生成（先頭の要点を抽出）
+// 発言から要約を生成（キーワードベースで重要な文を抽出）
 function generateSummary(speech: string): string {
-  // 改行で分割して最初の実質的な文を取得
-  const lines = speech.split(/[。\n]/).filter(l => l.trim().length > 10);
-  if (lines.length === 0) return "";
+  // 文に分割（句点または改行で区切る）
+  const sentences = speech
+    .split(/[。\n]/)
+    .map(s => s.trim())
+    .filter(s => s.length > 15 && s.length < 300);
 
-  // 最初の2-3文を要約として使用
-  const summaryLines = lines.slice(0, 2);
-  let summary = summaryLines.join("。");
+  if (sentences.length === 0) return "";
+
+  // 重要度スコアリング用のキーワード
+  const highPriorityKeywords = [
+    // 賛否・立場
+    "賛成", "反対", "支持", "批判", "懸念", "問題",
+    // 主張・要求
+    "求め", "主張", "提案", "要求", "訴え", "指摘",
+    // 結論・判断
+    "必要", "重要", "不可欠", "べき", "なければ",
+    // 法案関連
+    "法案", "改正", "施行", "制度", "政策",
+  ];
+
+  const conclusionMarkers = [
+    "したがって", "よって", "以上", "結論", "最後に",
+    "まとめ", "総じて", "つまり", "要するに",
+  ];
+
+  // 各文にスコアを付ける
+  const scoredSentences = sentences.map((sentence, index) => {
+    let score = 0;
+
+    // キーワードマッチでスコア加算
+    for (const keyword of highPriorityKeywords) {
+      if (sentence.includes(keyword)) score += 2;
+    }
+
+    // 結論マーカーがある文は高スコア
+    for (const marker of conclusionMarkers) {
+      if (sentence.includes(marker)) score += 5;
+    }
+
+    // 質問文は除外（スコア減点）
+    if (sentence.includes("？") || sentence.includes("か。")) score -= 3;
+
+    // 挨拶・形式的な文は除外
+    if (sentence.match(/^(ただいま|議長|委員長|大臣|御説明|御質問)/)) score -= 5;
+
+    // 後半の文は結論である可能性が高い
+    if (index > sentences.length * 0.7) score += 1;
+
+    return { sentence, score, index };
+  });
+
+  // スコア順にソートして上位を取得
+  scoredSentences.sort((a, b) => b.score - a.score);
+
+  // 最高スコアの文を取得（スコアが同じなら後ろの文を優先）
+  const bestSentences = scoredSentences
+    .filter(s => s.score > 0)
+    .slice(0, 2)
+    .sort((a, b) => a.index - b.index); // 元の順序に戻す
+
+  let summary: string;
+  if (bestSentences.length > 0) {
+    summary = bestSentences.map(s => s.sentence).join("。");
+  } else {
+    // スコアが低い場合は最初の実質的な文を使用
+    summary = sentences[0] || "";
+  }
 
   // 200文字以内に収める
   if (summary.length > 200) {
     summary = summary.slice(0, 197) + "...";
   }
 
-  return summary;
+  return summary + (summary.endsWith("。") ? "" : "。");
 }
 
 async function fetchDiscussions(billName: string, session: number): Promise<Discussion[]> {
