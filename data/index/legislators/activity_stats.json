@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-02-03T06:58:03.626Z",
+  "updated_at": "2026-02-08T18:06:30.184Z",
   "summary": {
-    "total_legislators": 692,
-    "councillors": 246,
+    "total_legislators": 693,
+    "councillors": 247,
     "representatives": 446,
     "total_bills": 16303,
     "passed_bills": 6100,
@@ -11,7 +11,7 @@
   "by_party": {
     "ldp": {
       "name": "自由民主党",
-      "member_count": 346
+      "member_count": 347
     },
     "cdp": {
       "name": "立憲民主党",

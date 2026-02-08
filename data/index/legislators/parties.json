@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-02-03T06:58:03.626Z",
+  "updated_at": "2026-02-08T18:06:30.184Z",
   "parties": [
     {
       "id": "ldp",
       "name": "自由民主党",
       "short_name": "自民",
       "color": "#e74c3c",
-      "member_count": 346,
+      "member_count": 347,
       "official_url": "https://www.jimin.jp/"
     },
     {
