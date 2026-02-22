@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-02-15T18:06:48.149Z",
+  "updated_at": "2026-02-22T18:06:49.797Z",
   "source": "SmartNews Media Research Institute",
-  "total_count": 16303,
+  "total_count": 16309,
   "passed_count": 6100,
   "bills": [
     {
@@ -188135,6 +188135,72 @@
       "status": "審議中",
       "house": "参議院",
       "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/220/meisai/m220100220001.htm"
+    },
+    {
+      "id": "councillors_221_16303",
+      "diet_session": 221,
+      "bill_type": "法律案（内閣提出）",
+      "bill_name": "財政運営に必要な財源の確保を図るための公債の発行の特例に関する法律の一部を改正する法律案",
+      "proposer": "",
+      "proposer_type": "閣法",
+      "status": "審議中",
+      "house": "参議院",
+      "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/221/meisai/m221080221001.htm"
+    },
+    {
+      "id": "councillors_221_16304",
+      "diet_session": 221,
+      "bill_type": "法律案（内閣提出）",
+      "bill_name": "東日本大震災からの復興のための施策を実施するために必要な財源の確保に関する特別措置法の一部を改正する法律案",
+      "proposer": "",
+      "proposer_type": "閣法",
+      "status": "審議中",
+      "house": "参議院",
+      "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/221/meisai/m221080221002.htm"
+    },
+    {
+      "id": "councillors_221_16305",
+      "diet_session": 221,
+      "bill_type": "法律案（内閣提出）",
+      "bill_name": "所得税法等の一部を改正する法律案",
+      "proposer": "",
+      "proposer_type": "閣法",
+      "status": "審議中",
+      "house": "参議院",
+      "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/221/meisai/m221080221003.htm"
+    },
+    {
+      "id": "councillors_221_16306",
+      "diet_session": 221,
+      "bill_type": "法律案（内閣提出）",
+      "bill_name": "地方税法等の一部を改正する法律案",
+      "proposer": "",
+      "proposer_type": "閣法",
+      "status": "審議中",
+      "house": "参議院",
+      "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/221/meisai/m221080221004.htm"
+    },
+    {
+      "id": "councillors_221_16307",
+      "diet_session": 221,
+      "bill_type": "法律案（内閣提出）",
+      "bill_name": "地方交付税法等の一部を改正する法律案",
+      "proposer": "",
+      "proposer_type": "閣法",
+      "status": "審議中",
+      "house": "参議院",
+      "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/221/meisai/m221080221005.htm"
+    },
+    {
+      "id": "councillors_221_16308",
+      "diet_session": 221,
+      "bill_type": "法律案（内閣提出）",
+      "bill_name": "関税定率法等の一部を改正する法律案",
+      "proposer": "",
+      "proposer_type": "閣法",
+      "status": "審議中",
+      "house": "参議院",
+      "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/221/meisai/m221080221006.htm"
     }
   ]
 }
