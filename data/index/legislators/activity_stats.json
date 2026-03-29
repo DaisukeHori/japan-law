@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-03-22T18:06:42.992Z",
+  "updated_at": "2026-03-29T18:08:46.554Z",
   "summary": {
     "total_legislators": 693,
     "councillors": 247,
     "representatives": 446,
-    "total_bills": 16373,
+    "total_bills": 16394,
     "passed_bills": 6113,
-    "overall_success_rate": 0.3733585781469492
+    "overall_success_rate": 0.37288032206904964
   },
   "by_party": {
     "ldp": {
