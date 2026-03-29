@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-03-22T19:05:11.002Z",
-  "total_legislators": 958,
-  "total_speeches": 9667,
+  "updated_at": "2026-03-29T18:57:04.113Z",
+  "total_legislators": 977,
+  "total_speeches": 9961,
   "legislators": {
     "東徹": {
       "party": "日本維新の会",
@@ -160,7 +160,7 @@
     },
     "小林史武": {
       "party": "",
-      "speech_count": 109,
+      "speech_count": 114,
       "bills": [
         {
           "bill_id": "house_211_7800",
@@ -1033,12 +1033,52 @@
           "date": "2025-05-09",
           "meeting": "議院運営委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_217_8555",
+          "bill_name": "環境影響評価法の一部を改正する法律案",
+          "issue_number": 2175,
+          "date": "2025-06-06",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8697",
+          "bill_name": "高次脳機能障害者支援法案",
+          "issue_number": 2178,
+          "date": "2025-12-16",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8701",
+          "bill_name": "国会議員の歳費、旅費及び手当等に関する法律の一部を改正する法律案",
+          "issue_number": 2179,
+          "date": "2025-12-16",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8702",
+          "bill_name": "国会議員の秘書の給与等に関する法律の一部を改正する法律案",
+          "issue_number": 2180,
+          "date": "2025-12-16",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8714",
+          "bill_name": "医療法等の一部を改正する法律案",
+          "issue_number": 2181,
+          "date": "2025-12-01",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 109
+        "neutral": 114
       }
     },
     "細田博之": {
@@ -1886,7 +1926,7 @@
     },
     "山口俊一": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 126,
+      "speech_count": 146,
       "bills": [
         {
           "bill_id": "house_211_7800",
@@ -2895,12 +2935,172 @@
           "date": "2024-04-11",
           "meeting": "議院運営委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8805",
+          "bill_name": "財政運営に必要な財源の確保を図るための公債の発行の特例に関する法律の一部を改正する法律案",
+          "issue_number": 2195,
+          "date": "2026-03-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8805",
+          "bill_name": "財政運営に必要な財源の確保を図るための公債の発行の特例に関する法律の一部を改正する法律案",
+          "issue_number": 2195,
+          "date": "2026-03-05",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8805",
+          "bill_name": "財政運営に必要な財源の確保を図るための公債の発行の特例に関する法律の一部を改正する法律案",
+          "issue_number": 2195,
+          "date": "2026-03-03",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8806",
+          "bill_name": "東日本大震災からの復興のための施策を実施するために必要な財源の確保に関する特別措置法の一部を改正する法律案",
+          "issue_number": 2196,
+          "date": "2026-03-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8806",
+          "bill_name": "東日本大震災からの復興のための施策を実施するために必要な財源の確保に関する特別措置法の一部を改正する法律案",
+          "issue_number": 2196,
+          "date": "2026-03-05",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8806",
+          "bill_name": "東日本大震災からの復興のための施策を実施するために必要な財源の確保に関する特別措置法の一部を改正する法律案",
+          "issue_number": 2196,
+          "date": "2026-03-03",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8807",
+          "bill_name": "所得税法等の一部を改正する法律案",
+          "issue_number": 2197,
+          "date": "2026-03-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8807",
+          "bill_name": "所得税法等の一部を改正する法律案",
+          "issue_number": 2197,
+          "date": "2026-03-05",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8807",
+          "bill_name": "所得税法等の一部を改正する法律案",
+          "issue_number": 2197,
+          "date": "2026-03-03",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8808",
+          "bill_name": "地方税法等の一部を改正する法律案",
+          "issue_number": 2198,
+          "date": "2026-03-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8808",
+          "bill_name": "地方税法等の一部を改正する法律案",
+          "issue_number": 2198,
+          "date": "2026-03-05",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8808",
+          "bill_name": "地方税法等の一部を改正する法律案",
+          "issue_number": 2198,
+          "date": "2026-03-03",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8809",
+          "bill_name": "地方交付税法等の一部を改正する法律案",
+          "issue_number": 2199,
+          "date": "2026-03-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8809",
+          "bill_name": "地方交付税法等の一部を改正する法律案",
+          "issue_number": 2199,
+          "date": "2026-03-05",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8809",
+          "bill_name": "地方交付税法等の一部を改正する法律案",
+          "issue_number": 2199,
+          "date": "2026-03-03",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8810",
+          "bill_name": "関税定率法等の一部を改正する法律案",
+          "issue_number": 2200,
+          "date": "2026-03-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8810",
+          "bill_name": "関税定率法等の一部を改正する法律案",
+          "issue_number": 2200,
+          "date": "2026-03-05",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8810",
+          "bill_name": "関税定率法等の一部を改正する法律案",
+          "issue_number": 2200,
+          "date": "2026-03-03",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8813",
+          "bill_name": "公立義務教育諸学校の学級編制及び教職員定数の標準に関する法律の一部を改正する法律案",
+          "issue_number": 2203,
+          "date": "2026-03-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8814",
+          "bill_name": "在外公館の名称及び位置並びに在外公館に勤務する外務公務員の給与に関する法律の一部を改正する法律案",
+          "issue_number": 2204,
+          "date": "2026-03-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 126
+        "neutral": 146
       }
     },
     "岡田憲治": {
@@ -7628,8 +7828,8 @@
       }
     },
     "鬼木誠": {
-      "party": "立憲民主・社民・無所属",
-      "speech_count": 29,
+      "party": "自由民主党・無所属の会",
+      "speech_count": 31,
       "bills": [
         {
           "bill_id": "house_211_7811",
@@ -7862,12 +8062,28 @@
           "date": "2025-06-12",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8714",
+          "bill_name": "医療法等の一部を改正する法律案",
+          "issue_number": 2181,
+          "date": "2025-12-02",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8714",
+          "bill_name": "医療法等の一部を改正する法律案",
+          "issue_number": 2181,
+          "date": "2025-11-26",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 3,
-        "neutral": 26
+        "neutral": 28
       }
     },
     "小沢雅仁": {
@@ -9751,7 +9967,7 @@
     },
     "天畠大輔": {
       "party": "れいわ新選組",
-      "speech_count": 13,
+      "speech_count": 15,
       "bills": [
         {
           "bill_id": "house_211_7812",
@@ -9856,12 +10072,28 @@
           "date": "2025-06-03",
           "meeting": "厚生労働委員会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "house_219_8697",
+          "bill_name": "高次脳機能障害者支援法案",
+          "issue_number": 2178,
+          "date": "2025-12-16",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8714",
+          "bill_name": "医療法等の一部を改正する法律案",
+          "issue_number": 2181,
+          "date": "2025-12-04",
+          "meeting": "厚生労働委員会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 1,
-        "oppose": 6,
-        "neutral": 6
+        "oppose": 7,
+        "neutral": 7
       }
     },
     "宮本徹": {
@@ -9944,7 +10176,7 @@
     },
     "福島伸享": {
       "party": "有志の会",
-      "speech_count": 15,
+      "speech_count": 16,
       "bills": [
         {
           "bill_id": "house_211_7813",
@@ -10065,12 +10297,20 @@
           "date": "2024-04-03",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8718",
+          "bill_name": "気象業務法及び水防法の一部を改正する法律案",
+          "issue_number": 2185,
+          "date": "2025-11-26",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 1,
         "oppose": 2,
-        "neutral": 12
+        "neutral": 13
       }
     },
     "三浦信祐": {
@@ -11739,7 +11979,7 @@
     },
     "坂井学": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 64,
+      "speech_count": 65,
       "bills": [
         {
           "bill_id": "house_211_7819",
@@ -12252,12 +12492,20 @@
           "date": "2025-02-05",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_217_8555",
+          "bill_name": "環境影響評価法の一部を改正する法律案",
+          "issue_number": 2175,
+          "date": "2025-05-28",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 64
+        "neutral": 65
       }
     },
     "塚田一郎": {
@@ -13702,7 +13950,7 @@
     },
     "上野賢一郎": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 6,
+      "speech_count": 9,
       "bills": [
         {
           "bill_id": "house_211_7862",
@@ -13751,12 +13999,36 @@
           "date": "2025-05-22",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8714",
+          "bill_name": "医療法等の一部を改正する法律案",
+          "issue_number": 2181,
+          "date": "2025-12-02",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8714",
+          "bill_name": "医療法等の一部を改正する法律案",
+          "issue_number": 2181,
+          "date": "2025-12-01",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8714",
+          "bill_name": "医療法等の一部を改正する法律案",
+          "issue_number": 2181,
+          "date": "2025-11-19",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 6
+        "neutral": 9
       }
     },
     "古屋範子": {
@@ -17322,7 +17594,7 @@
     },
     "前原誠司": {
       "party": "日本維新の会",
-      "speech_count": 8,
+      "speech_count": 10,
       "bills": [
         {
           "bill_id": "house_211_7863",
@@ -17387,12 +17659,28 @@
           "date": "2025-03-18",
           "meeting": "文部科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8724",
+          "bill_name": "防衛省の職員の給与等に関する法律の一部を改正する法律案",
+          "issue_number": 2191,
+          "date": "2025-12-11",
+          "meeting": "安全保障委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8724",
+          "bill_name": "防衛省の職員の給与等に関する法律の一部を改正する法律案",
+          "issue_number": 2191,
+          "date": "2025-12-09",
+          "meeting": "安全保障委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 3,
-        "neutral": 5
+        "neutral": 7
       }
     },
     "櫻井周": {
@@ -17616,7 +17904,7 @@
     },
     "階猛": {
       "party": "立憲民主党・無所属",
-      "speech_count": 18,
+      "speech_count": 26,
       "bills": [
         {
           "bill_id": "house_211_7863",
@@ -17761,12 +18049,76 @@
           "date": "2025-06-03",
           "meeting": "財務金融委員会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "house_219_8717",
+          "bill_name": "更生保護制度の充実を図るための保護司法等の一部を改正する法律案",
+          "issue_number": 2184,
+          "date": "2025-11-21",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8717",
+          "bill_name": "更生保護制度の充実を図るための保護司法等の一部を改正する法律案",
+          "issue_number": 2184,
+          "date": "2025-11-19",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8722",
+          "bill_name": "裁判官の報酬等に関する法律の一部を改正する法律案",
+          "issue_number": 2189,
+          "date": "2025-12-11",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8722",
+          "bill_name": "裁判官の報酬等に関する法律の一部を改正する法律案",
+          "issue_number": 2189,
+          "date": "2025-12-11",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8722",
+          "bill_name": "裁判官の報酬等に関する法律の一部を改正する法律案",
+          "issue_number": 2189,
+          "date": "2025-12-10",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8723",
+          "bill_name": "検察官の俸給等に関する法律の一部を改正する法律案",
+          "issue_number": 2190,
+          "date": "2025-12-11",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8723",
+          "bill_name": "検察官の俸給等に関する法律の一部を改正する法律案",
+          "issue_number": 2190,
+          "date": "2025-12-11",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8723",
+          "bill_name": "検察官の俸給等に関する法律の一部を改正する法律案",
+          "issue_number": 2190,
+          "date": "2025-12-10",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 4,
-        "neutral": 14
+        "neutral": 22
       }
     },
     "住吉寛紀": {
@@ -18205,7 +18557,7 @@
     },
     "田村貴昭": {
       "party": "日本共産党",
-      "speech_count": 41,
+      "speech_count": 43,
       "bills": [
         {
           "bill_id": "house_211_7864",
@@ -18534,17 +18886,33 @@
           "date": "2025-05-16",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8697",
+          "bill_name": "高次脳機能障害者支援法案",
+          "issue_number": 2178,
+          "date": "2025-12-05",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8714",
+          "bill_name": "医療法等の一部を改正する法律案",
+          "issue_number": 2181,
+          "date": "2025-11-26",
+          "meeting": "厚生労働委員会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 2,
-        "oppose": 13,
-        "neutral": 26
+        "oppose": 14,
+        "neutral": 27
       }
     },
     "浅尾慶一郎": {
       "party": "自由民主党",
-      "speech_count": 33,
+      "speech_count": 34,
       "bills": [
         {
           "bill_id": "house_211_7864",
@@ -18809,12 +19177,20 @@
           "date": "2025-06-06",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_217_8555",
+          "bill_name": "環境影響評価法の一部を改正する法律案",
+          "issue_number": 2175,
+          "date": "2025-05-16",
+          "meeting": "環境委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 3,
-        "neutral": 30
+        "neutral": 31
       }
     },
     "若松謙維": {
@@ -19145,7 +19521,7 @@
     },
     "福田昭夫": {
       "party": "立憲民主党・無所属",
-      "speech_count": 5,
+      "speech_count": 6,
       "bills": [
         {
           "bill_id": "house_211_7864",
@@ -19186,12 +19562,20 @@
           "date": "2024-03-21",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8721",
+          "bill_name": "地方交付税法及び特別会計に関する法律の一部を改正する法律案",
+          "issue_number": 2188,
+          "date": "2025-12-11",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 2,
-        "neutral": 3
+        "neutral": 4
       }
     },
     "井林辰憲": {
@@ -20226,7 +20610,7 @@
     },
     "杉尾秀哉": {
       "party": "立憲民主・社民・無所属",
-      "speech_count": 25,
+      "speech_count": 27,
       "bills": [
         {
           "bill_id": "house_211_7868",
@@ -20427,12 +20811,28 @@
           "date": "2025-05-16",
           "meeting": "本会議",
           "stance": "反対"
+        },
+        {
+          "bill_id": "house_219_8715",
+          "bill_name": "ストーカー行為等の規制等に関する法律の一部を改正する法律案",
+          "issue_number": 2182,
+          "date": "2025-12-02",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8716",
+          "bill_name": "配偶者からの暴力の防止及び被害者の保護等に関する法律の一部を改正する法律案",
+          "issue_number": 2183,
+          "date": "2025-12-02",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 1,
         "oppose": 11,
-        "neutral": 13
+        "neutral": 15
       }
     },
     "柴田巧": {
@@ -22012,7 +22412,7 @@
     },
     "伊東信久": {
       "party": "日本維新の会",
-      "speech_count": 15,
+      "speech_count": 16,
       "bills": [
         {
           "bill_id": "house_211_7868",
@@ -22133,12 +22533,20 @@
           "date": "2025-04-25",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8714",
+          "bill_name": "医療法等の一部を改正する法律案",
+          "issue_number": 2181,
+          "date": "2025-11-25",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 1,
-        "neutral": 14
+        "neutral": 15
       }
     },
     "沢田良": {
@@ -28767,7 +29175,7 @@
     },
     "林芳正": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 12,
+      "speech_count": 18,
       "bills": [
         {
           "bill_id": "house_211_7873",
@@ -28864,17 +29272,65 @@
           "date": "2025-03-26",
           "meeting": "予算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8721",
+          "bill_name": "地方交付税法及び特別会計に関する法律の一部を改正する法律案",
+          "issue_number": 2188,
+          "date": "2025-12-16",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8721",
+          "bill_name": "地方交付税法及び特別会計に関する法律の一部を改正する法律案",
+          "issue_number": 2188,
+          "date": "2025-12-11",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8808",
+          "bill_name": "地方税法等の一部を改正する法律案",
+          "issue_number": 2198,
+          "date": "2026-03-05",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8808",
+          "bill_name": "地方税法等の一部を改正する法律案",
+          "issue_number": 2198,
+          "date": "2026-03-03",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8809",
+          "bill_name": "地方交付税法等の一部を改正する法律案",
+          "issue_number": 2199,
+          "date": "2026-03-05",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8809",
+          "bill_name": "地方交付税法等の一部を改正する法律案",
+          "issue_number": 2199,
+          "date": "2026-03-03",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 12
+        "neutral": 18
       }
     },
     "黄川田仁志": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 8,
+      "speech_count": 10,
       "bills": [
         {
           "bill_id": "house_211_7873",
@@ -28939,12 +29395,28 @@
           "date": "2023-06-21",
           "meeting": "外務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8716",
+          "bill_name": "配偶者からの暴力の防止及び被害者の保護等に関する法律の一部を改正する法律案",
+          "issue_number": 2183,
+          "date": "2025-11-27",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8716",
+          "bill_name": "配偶者からの暴力の防止及び被害者の保護等に関する法律の一部を改正する法律案",
+          "issue_number": 2183,
+          "date": "2025-11-19",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 8
+        "neutral": 10
       }
     },
     "村田享子": {
@@ -29080,7 +29552,7 @@
     },
     "吉川沙織": {
       "party": "立憲民主・社民・無所属",
-      "speech_count": 31,
+      "speech_count": 33,
       "bills": [
         {
           "bill_id": "house_211_7874",
@@ -29329,12 +29801,28 @@
           "date": "2025-04-21",
           "meeting": "予算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8721",
+          "bill_name": "地方交付税法及び特別会計に関する法律の一部を改正する法律案",
+          "issue_number": 2188,
+          "date": "2025-12-16",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8721",
+          "bill_name": "地方交付税法及び特別会計に関する法律の一部を改正する法律案",
+          "issue_number": 2188,
+          "date": "2025-12-16",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 1,
         "oppose": 4,
-        "neutral": 26
+        "neutral": 28
       }
     },
     "猪瀬直樹": {
@@ -31563,7 +32051,7 @@
     },
     "打越さく良": {
       "party": "立憲民主・社民・無所属",
-      "speech_count": 20,
+      "speech_count": 21,
       "bills": [
         {
           "bill_id": "house_211_7879",
@@ -31724,12 +32212,20 @@
           "date": "2025-04-23",
           "meeting": "本会議",
           "stance": "反対"
+        },
+        {
+          "bill_id": "house_219_8717",
+          "bill_name": "更生保護制度の充実を図るための保護司法等の一部を改正する法律案",
+          "issue_number": 2184,
+          "date": "2025-12-02",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 4,
-        "neutral": 16
+        "neutral": 17
       }
     },
     "倉林明子": {
@@ -31817,7 +32313,7 @@
     },
     "田村まみ": {
       "party": "国民民主党・新緑風会",
-      "speech_count": 18,
+      "speech_count": 19,
       "bills": [
         {
           "bill_id": "house_211_7879",
@@ -31962,11 +32458,19 @@
           "date": "2025-04-04",
           "meeting": "消費者問題に関する特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8714",
+          "bill_name": "医療法等の一部を改正する法律案",
+          "issue_number": 2181,
+          "date": "2025-12-01",
+          "meeting": "本会議",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 1,
-        "oppose": 2,
+        "oppose": 3,
         "neutral": 15
       }
     },
@@ -32155,7 +32659,7 @@
     },
     "中島克仁": {
       "party": "立憲民主党・無所属",
-      "speech_count": 14,
+      "speech_count": 15,
       "bills": [
         {
           "bill_id": "house_211_7879",
@@ -32268,17 +32772,25 @@
           "date": "2025-05-16",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8714",
+          "bill_name": "医療法等の一部を改正する法律案",
+          "issue_number": 2181,
+          "date": "2025-11-21",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 4,
-        "neutral": 10
+        "neutral": 11
       }
     },
     "田畑裕明": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 5,
+      "speech_count": 7,
       "bills": [
         {
           "bill_id": "house_211_7879",
@@ -32319,12 +32831,28 @@
           "date": "2025-06-06",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8697",
+          "bill_name": "高次脳機能障害者支援法案",
+          "issue_number": 2178,
+          "date": "2025-12-05",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8714",
+          "bill_name": "医療法等の一部を改正する法律案",
+          "issue_number": 2181,
+          "date": "2025-11-25",
+          "meeting": "厚生労働委員会",
+          "stance": "賛成"
         }
       ],
       "stance_summary": {
-        "support": 0,
+        "support": 1,
         "oppose": 0,
-        "neutral": 5
+        "neutral": 6
       }
     },
     "小川淳也": {
@@ -33045,7 +33573,7 @@
     },
     "佐藤英道": {
       "party": "公明党",
-      "speech_count": 1,
+      "speech_count": 2,
       "bills": [
         {
           "bill_id": "house_211_7879",
@@ -33054,12 +33582,20 @@
           "date": "2023-03-16",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8721",
+          "bill_name": "地方交付税法及び特別会計に関する法律の一部を改正する法律案",
+          "issue_number": 2188,
+          "date": "2025-12-11",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 1
+        "neutral": 2
       }
     },
     "森屋隆": {
@@ -34399,7 +34935,7 @@
     },
     "城井崇": {
       "party": "立憲民主党・無所属",
-      "speech_count": 15,
+      "speech_count": 16,
       "bills": [
         {
           "bill_id": "house_211_7881",
@@ -34520,11 +35056,19 @@
           "date": "2025-03-14",
           "meeting": "国土交通委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8714",
+          "bill_name": "医療法等の一部を改正する法律案",
+          "issue_number": 2181,
+          "date": "2025-11-04",
+          "meeting": "本会議",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 3,
+        "oppose": 4,
         "neutral": 12
       }
     },
@@ -34678,7 +35222,7 @@
     },
     "浜田靖一": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 188,
+      "speech_count": 199,
       "bills": [
         {
           "bill_id": "house_211_7882",
@@ -36183,12 +36727,100 @@
           "date": "2025-04-10",
           "meeting": "議院運営委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_218_8626",
+          "bill_name": "医療法等の一部を改正する法律案",
+          "issue_number": 2176,
+          "date": "2025-08-05",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8701",
+          "bill_name": "国会議員の歳費、旅費及び手当等に関する法律の一部を改正する法律案",
+          "issue_number": 2179,
+          "date": "2025-12-11",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8701",
+          "bill_name": "国会議員の歳費、旅費及び手当等に関する法律の一部を改正する法律案",
+          "issue_number": 2179,
+          "date": "2025-12-11",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8702",
+          "bill_name": "国会議員の秘書の給与等に関する法律の一部を改正する法律案",
+          "issue_number": 2180,
+          "date": "2025-12-11",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8702",
+          "bill_name": "国会議員の秘書の給与等に関する法律の一部を改正する法律案",
+          "issue_number": 2180,
+          "date": "2025-12-11",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8719",
+          "bill_name": "一般職の職員の給与に関する法律等の一部を改正する法律案",
+          "issue_number": 2186,
+          "date": "2025-12-11",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8720",
+          "bill_name": "特別職の職員の給与に関する法律等の一部を改正する法律案",
+          "issue_number": 2187,
+          "date": "2025-12-11",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8721",
+          "bill_name": "地方交付税法及び特別会計に関する法律の一部を改正する法律案",
+          "issue_number": 2188,
+          "date": "2025-12-11",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8722",
+          "bill_name": "裁判官の報酬等に関する法律の一部を改正する法律案",
+          "issue_number": 2189,
+          "date": "2025-12-11",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8723",
+          "bill_name": "検察官の俸給等に関する法律の一部を改正する法律案",
+          "issue_number": 2190,
+          "date": "2025-12-11",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8724",
+          "bill_name": "防衛省の職員の給与等に関する法律の一部を改正する法律案",
+          "issue_number": 2191,
+          "date": "2025-12-11",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 188
+        "neutral": 199
       }
     },
     "平木大作": {
@@ -36338,7 +36970,7 @@
     },
     "小西洋之": {
       "party": "立憲民主・社民・無所属",
-      "speech_count": 27,
+      "speech_count": 30,
       "bills": [
         {
           "bill_id": "house_211_7882",
@@ -36555,12 +37187,36 @@
           "date": "2025-05-20",
           "meeting": "国土交通委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8697",
+          "bill_name": "高次脳機能障害者支援法案",
+          "issue_number": 2178,
+          "date": "2025-12-16",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8714",
+          "bill_name": "医療法等の一部を改正する法律案",
+          "issue_number": 2181,
+          "date": "2025-12-04",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8714",
+          "bill_name": "医療法等の一部を改正する法律案",
+          "issue_number": 2181,
+          "date": "2025-12-01",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 27
+        "neutral": 30
       }
     },
     "重徳和彦": {
@@ -36876,7 +37532,7 @@
     },
     "熊谷裕人": {
       "party": "立憲民主・社民・無所属",
-      "speech_count": 24,
+      "speech_count": 26,
       "bills": [
         {
           "bill_id": "house_211_7883",
@@ -37069,12 +37725,28 @@
           "date": "2025-05-15",
           "meeting": "財政金融委員会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "house_219_8692",
+          "bill_name": "愛知・名古屋アジア競技大会及び愛知・名古屋アジアパラ競技大会に関する特別措置法案",
+          "issue_number": 2177,
+          "date": "2025-12-03",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8692",
+          "bill_name": "愛知・名古屋アジア競技大会及び愛知・名古屋アジアパラ競技大会に関する特別措置法案",
+          "issue_number": 2177,
+          "date": "2025-12-02",
+          "meeting": "文教科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 7,
-        "neutral": 17
+        "neutral": 19
       }
     },
     "三木圭恵": {
@@ -38356,7 +39028,7 @@
     },
     "竹内真二": {
       "party": "公明党",
-      "speech_count": 3,
+      "speech_count": 4,
       "bills": [
         {
           "bill_id": "house_211_7884",
@@ -38381,12 +39053,20 @@
           "date": "2023-05-16",
           "meeting": "文教科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8718",
+          "bill_name": "気象業務法及び水防法の一部を改正する法律案",
+          "issue_number": 2185,
+          "date": "2025-12-05",
+          "meeting": "災害対策及び東日本大震災復興特別委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 3
+        "neutral": 4
       }
     },
     "茂里毅": {
@@ -40541,7 +41221,7 @@
     },
     "浅野哲": {
       "party": "国民民主党・無所属クラブ",
-      "speech_count": 22,
+      "speech_count": 23,
       "bills": [
         {
           "bill_id": "house_211_7886",
@@ -40718,12 +41398,20 @@
           "date": "2025-05-16",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8714",
+          "bill_name": "医療法等の一部を改正する法律案",
+          "issue_number": 2181,
+          "date": "2025-11-25",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 3,
         "oppose": 2,
-        "neutral": 17
+        "neutral": 18
       }
     },
     "宮本悦子": {
@@ -43266,7 +43954,7 @@
     },
     "山下貴司": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 5,
+      "speech_count": 17,
       "bills": [
         {
           "bill_id": "house_211_7891",
@@ -43307,12 +43995,108 @@
           "date": "2025-04-03",
           "meeting": "憲法審査会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8715",
+          "bill_name": "ストーカー行為等の規制等に関する法律の一部を改正する法律案",
+          "issue_number": 2182,
+          "date": "2025-11-25",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8715",
+          "bill_name": "ストーカー行為等の規制等に関する法律の一部を改正する法律案",
+          "issue_number": 2182,
+          "date": "2025-11-21",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8715",
+          "bill_name": "ストーカー行為等の規制等に関する法律の一部を改正する法律案",
+          "issue_number": 2182,
+          "date": "2025-11-19",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8716",
+          "bill_name": "配偶者からの暴力の防止及び被害者の保護等に関する法律の一部を改正する法律案",
+          "issue_number": 2183,
+          "date": "2025-11-25",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8716",
+          "bill_name": "配偶者からの暴力の防止及び被害者の保護等に関する法律の一部を改正する法律案",
+          "issue_number": 2183,
+          "date": "2025-11-21",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8716",
+          "bill_name": "配偶者からの暴力の防止及び被害者の保護等に関する法律の一部を改正する法律案",
+          "issue_number": 2183,
+          "date": "2025-11-19",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8719",
+          "bill_name": "一般職の職員の給与に関する法律等の一部を改正する法律案",
+          "issue_number": 2186,
+          "date": "2025-12-11",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8719",
+          "bill_name": "一般職の職員の給与に関する法律等の一部を改正する法律案",
+          "issue_number": 2186,
+          "date": "2025-12-11",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8719",
+          "bill_name": "一般職の職員の給与に関する法律等の一部を改正する法律案",
+          "issue_number": 2186,
+          "date": "2025-12-10",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8720",
+          "bill_name": "特別職の職員の給与に関する法律等の一部を改正する法律案",
+          "issue_number": 2187,
+          "date": "2025-12-11",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8720",
+          "bill_name": "特別職の職員の給与に関する法律等の一部を改正する法律案",
+          "issue_number": 2187,
+          "date": "2025-12-11",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8720",
+          "bill_name": "特別職の職員の給与に関する法律等の一部を改正する法律案",
+          "issue_number": 2187,
+          "date": "2025-12-10",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 5
+        "neutral": 17
       }
     },
     "大口善徳": {
@@ -43773,7 +44557,7 @@
     },
     "森田俊和": {
       "party": "立憲民主党・無所属",
-      "speech_count": 5,
+      "speech_count": 6,
       "bills": [
         {
           "bill_id": "house_211_7895",
@@ -43814,12 +44598,20 @@
           "date": "2025-04-08",
           "meeting": "環境委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_217_8555",
+          "bill_name": "環境影響評価法の一部を改正する法律案",
+          "issue_number": 2175,
+          "date": "2025-05-16",
+          "meeting": "環境委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 5
+        "neutral": 6
       }
     },
     "國重徹": {
@@ -44718,7 +45510,7 @@
     },
     "小寺裕雄": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 7,
+      "speech_count": 13,
       "bills": [
         {
           "bill_id": "house_211_7900",
@@ -44775,12 +45567,60 @@
           "date": "2024-12-12",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8701",
+          "bill_name": "国会議員の歳費、旅費及び手当等に関する法律の一部を改正する法律案",
+          "issue_number": 2179,
+          "date": "2025-12-11",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8702",
+          "bill_name": "国会議員の秘書の給与等に関する法律の一部を改正する法律案",
+          "issue_number": 2180,
+          "date": "2025-12-11",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8719",
+          "bill_name": "一般職の職員の給与に関する法律等の一部を改正する法律案",
+          "issue_number": 2186,
+          "date": "2025-12-11",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8720",
+          "bill_name": "特別職の職員の給与に関する法律等の一部を改正する法律案",
+          "issue_number": 2187,
+          "date": "2025-12-11",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8722",
+          "bill_name": "裁判官の報酬等に関する法律の一部を改正する法律案",
+          "issue_number": 2189,
+          "date": "2025-12-11",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8723",
+          "bill_name": "検察官の俸給等に関する法律の一部を改正する法律案",
+          "issue_number": 2190,
+          "date": "2025-12-11",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 7
+        "neutral": 13
       }
     },
     "中司宏": {
@@ -45067,7 +45907,7 @@
     },
     "平口洋": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 4,
+      "speech_count": 17,
       "bills": [
         {
           "bill_id": "house_211_7902",
@@ -45100,12 +45940,116 @@
           "date": "2023-06-21",
           "meeting": "政治倫理の確立及び公職選挙法改正に関する特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8717",
+          "bill_name": "更生保護制度の充実を図るための保護司法等の一部を改正する法律案",
+          "issue_number": 2184,
+          "date": "2025-11-27",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8717",
+          "bill_name": "更生保護制度の充実を図るための保護司法等の一部を改正する法律案",
+          "issue_number": 2184,
+          "date": "2025-11-21",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8717",
+          "bill_name": "更生保護制度の充実を図るための保護司法等の一部を改正する法律案",
+          "issue_number": 2184,
+          "date": "2025-11-18",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8719",
+          "bill_name": "一般職の職員の給与に関する法律等の一部を改正する法律案",
+          "issue_number": 2186,
+          "date": "2025-12-16",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8719",
+          "bill_name": "一般職の職員の給与に関する法律等の一部を改正する法律案",
+          "issue_number": 2186,
+          "date": "2025-12-10",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8720",
+          "bill_name": "特別職の職員の給与に関する法律等の一部を改正する法律案",
+          "issue_number": 2187,
+          "date": "2025-12-16",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8720",
+          "bill_name": "特別職の職員の給与に関する法律等の一部を改正する法律案",
+          "issue_number": 2187,
+          "date": "2025-12-10",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8722",
+          "bill_name": "裁判官の報酬等に関する法律の一部を改正する法律案",
+          "issue_number": 2189,
+          "date": "2025-12-16",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8722",
+          "bill_name": "裁判官の報酬等に関する法律の一部を改正する法律案",
+          "issue_number": 2189,
+          "date": "2025-12-10",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8722",
+          "bill_name": "裁判官の報酬等に関する法律の一部を改正する法律案",
+          "issue_number": 2189,
+          "date": "2025-11-18",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8723",
+          "bill_name": "検察官の俸給等に関する法律の一部を改正する法律案",
+          "issue_number": 2190,
+          "date": "2025-12-16",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8723",
+          "bill_name": "検察官の俸給等に関する法律の一部を改正する法律案",
+          "issue_number": 2190,
+          "date": "2025-12-10",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8723",
+          "bill_name": "検察官の俸給等に関する法律の一部を改正する法律案",
+          "issue_number": 2190,
+          "date": "2025-11-18",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 4
+        "neutral": 17
       }
     },
     "舞立昇治": {
@@ -46648,7 +47592,7 @@
     },
     "松本尚": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 2,
+      "speech_count": 6,
       "bills": [
         {
           "bill_id": "house_211_7912",
@@ -46665,12 +47609,44 @@
           "date": "2023-05-10",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8719",
+          "bill_name": "一般職の職員の給与に関する法律等の一部を改正する法律案",
+          "issue_number": 2186,
+          "date": "2025-12-16",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8719",
+          "bill_name": "一般職の職員の給与に関する法律等の一部を改正する法律案",
+          "issue_number": 2186,
+          "date": "2025-12-10",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8720",
+          "bill_name": "特別職の職員の給与に関する法律等の一部を改正する法律案",
+          "issue_number": 2187,
+          "date": "2025-12-16",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8720",
+          "bill_name": "特別職の職員の給与に関する法律等の一部を改正する法律案",
+          "issue_number": 2187,
+          "date": "2025-12-10",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 2
+        "neutral": 6
       }
     },
     "鳥井陽一": {
@@ -46890,7 +47866,7 @@
     },
     "中原裕彦": {
       "party": "",
-      "speech_count": 9,
+      "speech_count": 10,
       "bills": [
         {
           "bill_id": "house_211_7914",
@@ -46963,12 +47939,20 @@
           "date": "2025-05-16",
           "meeting": "環境委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_217_8555",
+          "bill_name": "環境影響評価法の一部を改正する法律案",
+          "issue_number": 2175,
+          "date": "2025-05-16",
+          "meeting": "環境委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 9
+        "neutral": 10
       }
     },
     "飯田祐二": {
@@ -51331,8 +52315,8 @@
       }
     },
     "牧野たかお": {
-      "party": "自由民主党",
-      "speech_count": 54,
+      "party": "自由民主党・無所属の会",
+      "speech_count": 56,
       "bills": [
         {
           "bill_id": "councillors_211_15360",
@@ -51765,12 +52749,28 @@
           "date": "2025-05-09",
           "meeting": "議院運営委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_217_8555",
+          "bill_name": "環境影響評価法の一部を改正する法律案",
+          "issue_number": 2175,
+          "date": "2025-06-06",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8817",
+          "bill_name": "防災庁設置法案",
+          "issue_number": 2207,
+          "date": "2026-03-10",
+          "meeting": "災害対策特別委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 54
+        "neutral": 56
       }
     },
     "川崎政司": {
@@ -51852,8 +52852,8 @@
       }
     },
     "片山さつき": {
-      "party": "自由民主党",
-      "speech_count": 2,
+      "party": "自由民主党・無所属の会",
+      "speech_count": 6,
       "bills": [
         {
           "bill_id": "councillors_211_15360",
@@ -51870,12 +52870,44 @@
           "date": "2024-06-12",
           "meeting": "憲法審査会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8805",
+          "bill_name": "財政運営に必要な財源の確保を図るための公債の発行の特例に関する法律の一部を改正する法律案",
+          "issue_number": 2195,
+          "date": "2026-03-03",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8806",
+          "bill_name": "東日本大震災からの復興のための施策を実施するために必要な財源の確保に関する特別措置法の一部を改正する法律案",
+          "issue_number": 2196,
+          "date": "2026-03-03",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8807",
+          "bill_name": "所得税法等の一部を改正する法律案",
+          "issue_number": 2197,
+          "date": "2026-03-03",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8810",
+          "bill_name": "関税定率法等の一部を改正する法律案",
+          "issue_number": 2200,
+          "date": "2026-03-03",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 2
+        "neutral": 6
       }
     },
     "古賀千景": {
@@ -52148,7 +53180,7 @@
     },
     "横山信一": {
       "party": "公明党",
-      "speech_count": 6,
+      "speech_count": 8,
       "bills": [
         {
           "bill_id": "councillors_211_15360",
@@ -52197,12 +53229,28 @@
           "date": "2024-05-09",
           "meeting": "農林水産委員会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "house_219_8722",
+          "bill_name": "裁判官の報酬等に関する法律の一部を改正する法律案",
+          "issue_number": 2189,
+          "date": "2025-12-16",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8723",
+          "bill_name": "検察官の俸給等に関する法律の一部を改正する法律案",
+          "issue_number": 2190,
+          "date": "2025-12-16",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 1,
-        "neutral": 5
+        "neutral": 7
       }
     },
     "舟山康江": {
@@ -52935,7 +53983,7 @@
     },
     "近藤昭一": {
       "party": "立憲民主党・無所属",
-      "speech_count": 14,
+      "speech_count": 16,
       "bills": [
         {
           "bill_id": "councillors_211_15383",
@@ -53048,12 +54096,28 @@
           "date": "2025-03-18",
           "meeting": "環境委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_217_8555",
+          "bill_name": "環境影響評価法の一部を改正する法律案",
+          "issue_number": 2175,
+          "date": "2025-05-20",
+          "meeting": "本会議",
+          "stance": "賛成"
+        },
+        {
+          "bill_id": "house_217_8555",
+          "bill_name": "環境影響評価法の一部を改正する法律案",
+          "issue_number": 2175,
+          "date": "2025-05-16",
+          "meeting": "環境委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
-        "support": 2,
+        "support": 3,
         "oppose": 3,
-        "neutral": 9
+        "neutral": 10
       }
     },
     "菊池雅彦": {
@@ -53286,7 +54350,7 @@
     },
     "秋野公造": {
       "party": "公明党",
-      "speech_count": 3,
+      "speech_count": 4,
       "bills": [
         {
           "bill_id": "councillors_211_15418",
@@ -53311,11 +54375,19 @@
           "date": "2023-05-25",
           "meeting": "財政金融委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8714",
+          "bill_name": "医療法等の一部を改正する法律案",
+          "issue_number": 2181,
+          "date": "2025-12-01",
+          "meeting": "本会議",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 0,
+        "oppose": 1,
         "neutral": 3
       }
     },
@@ -55061,7 +56133,7 @@
     },
     "額賀福志郎": {
       "party": "無所属",
-      "speech_count": 280,
+      "speech_count": 296,
       "bills": [
         {
           "bill_id": "councillors_212_15437",
@@ -57302,12 +58374,140 @@
           "date": "2025-05-20",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_217_8555",
+          "bill_name": "環境影響評価法の一部を改正する法律案",
+          "issue_number": 2175,
+          "date": "2025-05-20",
+          "meeting": "本会議",
+          "stance": "賛成"
+        },
+        {
+          "bill_id": "house_219_8692",
+          "bill_name": "愛知・名古屋アジア競技大会及び愛知・名古屋アジアパラ競技大会に関する特別措置法案",
+          "issue_number": 2177,
+          "date": "2025-11-27",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8697",
+          "bill_name": "高次脳機能障害者支援法案",
+          "issue_number": 2178,
+          "date": "2025-12-08",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8701",
+          "bill_name": "国会議員の歳費、旅費及び手当等に関する法律の一部を改正する法律案",
+          "issue_number": 2179,
+          "date": "2025-12-11",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8702",
+          "bill_name": "国会議員の秘書の給与等に関する法律の一部を改正する法律案",
+          "issue_number": 2180,
+          "date": "2025-12-11",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8714",
+          "bill_name": "医療法等の一部を改正する法律案",
+          "issue_number": 2181,
+          "date": "2025-11-27",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8715",
+          "bill_name": "ストーカー行為等の規制等に関する法律の一部を改正する法律案",
+          "issue_number": 2182,
+          "date": "2025-11-25",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8716",
+          "bill_name": "配偶者からの暴力の防止及び被害者の保護等に関する法律の一部を改正する法律案",
+          "issue_number": 2183,
+          "date": "2025-11-25",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8717",
+          "bill_name": "更生保護制度の充実を図るための保護司法等の一部を改正する法律案",
+          "issue_number": 2184,
+          "date": "2025-11-25",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8718",
+          "bill_name": "気象業務法及び水防法の一部を改正する法律案",
+          "issue_number": 2185,
+          "date": "2025-11-27",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8719",
+          "bill_name": "一般職の職員の給与に関する法律等の一部を改正する法律案",
+          "issue_number": 2186,
+          "date": "2025-12-11",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8720",
+          "bill_name": "特別職の職員の給与に関する法律等の一部を改正する法律案",
+          "issue_number": 2187,
+          "date": "2025-12-11",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8721",
+          "bill_name": "地方交付税法及び特別会計に関する法律の一部を改正する法律案",
+          "issue_number": 2188,
+          "date": "2025-12-11",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8722",
+          "bill_name": "裁判官の報酬等に関する法律の一部を改正する法律案",
+          "issue_number": 2189,
+          "date": "2025-12-11",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8723",
+          "bill_name": "検察官の俸給等に関する法律の一部を改正する法律案",
+          "issue_number": 2190,
+          "date": "2025-12-11",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8724",
+          "bill_name": "防衛省の職員の給与等に関する法律の一部を改正する法律案",
+          "issue_number": 2191,
+          "date": "2025-12-11",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
-        "support": 2,
+        "support": 3,
         "oppose": 0,
-        "neutral": 278
+        "neutral": 293
       }
     },
     "池田貴城": {
@@ -57805,7 +59005,7 @@
     },
     "北村経夫": {
       "party": "自由民主党",
-      "speech_count": 2,
+      "speech_count": 12,
       "bills": [
         {
           "bill_id": "house_212_8041",
@@ -57822,12 +59022,92 @@
           "date": "2023-11-16",
           "meeting": "外交防衛委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8715",
+          "bill_name": "ストーカー行為等の規制等に関する法律の一部を改正する法律案",
+          "issue_number": 2182,
+          "date": "2025-12-03",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8715",
+          "bill_name": "ストーカー行為等の規制等に関する法律の一部を改正する法律案",
+          "issue_number": 2182,
+          "date": "2025-12-02",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8715",
+          "bill_name": "ストーカー行為等の規制等に関する法律の一部を改正する法律案",
+          "issue_number": 2182,
+          "date": "2025-11-27",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8716",
+          "bill_name": "配偶者からの暴力の防止及び被害者の保護等に関する法律の一部を改正する法律案",
+          "issue_number": 2183,
+          "date": "2025-12-03",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8716",
+          "bill_name": "配偶者からの暴力の防止及び被害者の保護等に関する法律の一部を改正する法律案",
+          "issue_number": 2183,
+          "date": "2025-12-02",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8716",
+          "bill_name": "配偶者からの暴力の防止及び被害者の保護等に関する法律の一部を改正する法律案",
+          "issue_number": 2183,
+          "date": "2025-11-27",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8719",
+          "bill_name": "一般職の職員の給与に関する法律等の一部を改正する法律案",
+          "issue_number": 2186,
+          "date": "2025-12-16",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8719",
+          "bill_name": "一般職の職員の給与に関する法律等の一部を改正する法律案",
+          "issue_number": 2186,
+          "date": "2025-12-16",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8720",
+          "bill_name": "特別職の職員の給与に関する法律等の一部を改正する法律案",
+          "issue_number": 2187,
+          "date": "2025-12-16",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8720",
+          "bill_name": "特別職の職員の給与に関する法律等の一部を改正する法律案",
+          "issue_number": 2187,
+          "date": "2025-12-16",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 2
+        "neutral": 12
       }
     },
     "石川香織": {
@@ -58850,8 +60130,8 @@
       }
     },
     "青木愛": {
-      "party": "立憲民主・社民",
-      "speech_count": 12,
+      "party": "立憲民主・社民・無所属",
+      "speech_count": 13,
       "bills": [
         {
           "bill_id": "house_213_8161",
@@ -58948,12 +60228,20 @@
           "date": "2024-04-04",
           "meeting": "国土交通委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8724",
+          "bill_name": "防衛省の職員の給与等に関する法律の一部を改正する法律案",
+          "issue_number": 2191,
+          "date": "2025-12-16",
+          "meeting": "外交防衛委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 12
+        "neutral": 13
       }
     },
     "古川禎久": {
@@ -59550,7 +60838,7 @@
     },
     "馬場雄基": {
       "party": "立憲民主党・無所属",
-      "speech_count": 9,
+      "speech_count": 10,
       "bills": [
         {
           "bill_id": "house_213_8190",
@@ -59623,12 +60911,20 @@
           "date": "2025-05-16",
           "meeting": "環境委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_217_8555",
+          "bill_name": "環境影響評価法の一部を改正する法律案",
+          "issue_number": 2175,
+          "date": "2025-05-16",
+          "meeting": "環境委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 1,
-        "neutral": 8
+        "neutral": 9
       }
     },
     "藤巻健太": {
@@ -60026,7 +61322,7 @@
     },
     "斎藤洋明": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 4,
+      "speech_count": 7,
       "bills": [
         {
           "bill_id": "house_213_8190",
@@ -60059,12 +61355,36 @@
           "date": "2024-12-10",
           "meeting": "予算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8692",
+          "bill_name": "愛知・名古屋アジア競技大会及び愛知・名古屋アジアパラ競技大会に関する特別措置法案",
+          "issue_number": 2177,
+          "date": "2025-12-02",
+          "meeting": "文教科学委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8692",
+          "bill_name": "愛知・名古屋アジア競技大会及び愛知・名古屋アジアパラ競技大会に関する特別措置法案",
+          "issue_number": 2177,
+          "date": "2025-11-27",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8692",
+          "bill_name": "愛知・名古屋アジア競技大会及び愛知・名古屋アジアパラ競技大会に関する特別措置法案",
+          "issue_number": 2177,
+          "date": "2025-11-26",
+          "meeting": "文部科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 4
+        "neutral": 7
       }
     },
     "中嶋秀樹": {
@@ -60935,7 +62255,7 @@
     },
     "小泉進次郎": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 31,
+      "speech_count": 35,
       "bills": [
         {
           "bill_id": "house_213_8202",
@@ -61184,12 +62504,44 @@
           "date": "2025-05-30",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8724",
+          "bill_name": "防衛省の職員の給与等に関する法律の一部を改正する法律案",
+          "issue_number": 2191,
+          "date": "2025-12-16",
+          "meeting": "外交防衛委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8724",
+          "bill_name": "防衛省の職員の給与等に関する法律の一部を改正する法律案",
+          "issue_number": 2191,
+          "date": "2025-12-09",
+          "meeting": "安全保障委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8724",
+          "bill_name": "防衛省の職員の給与等に関する法律の一部を改正する法律案",
+          "issue_number": 2191,
+          "date": "2025-11-18",
+          "meeting": "外交防衛委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8724",
+          "bill_name": "防衛省の職員の給与等に関する法律の一部を改正する法律案",
+          "issue_number": 2191,
+          "date": "2025-11-14",
+          "meeting": "安全保障委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 31
+        "neutral": 35
       }
     },
     "榛葉賀津也": {
@@ -64820,7 +66172,7 @@
     },
     "関口昌一": {
       "party": "各派に属しない議員",
-      "speech_count": 175,
+      "speech_count": 189,
       "bills": [
         {
           "bill_id": "councillors_216_15875",
@@ -66221,12 +67573,124 @@
           "date": "2025-06-06",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8692",
+          "bill_name": "愛知・名古屋アジア競技大会及び愛知・名古屋アジアパラ競技大会に関する特別措置法案",
+          "issue_number": 2177,
+          "date": "2025-12-03",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8701",
+          "bill_name": "国会議員の歳費、旅費及び手当等に関する法律の一部を改正する法律案",
+          "issue_number": 2179,
+          "date": "2025-12-16",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8702",
+          "bill_name": "国会議員の秘書の給与等に関する法律の一部を改正する法律案",
+          "issue_number": 2180,
+          "date": "2025-12-16",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8714",
+          "bill_name": "医療法等の一部を改正する法律案",
+          "issue_number": 2181,
+          "date": "2025-12-05",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8714",
+          "bill_name": "医療法等の一部を改正する法律案",
+          "issue_number": 2181,
+          "date": "2025-12-01",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8715",
+          "bill_name": "ストーカー行為等の規制等に関する法律の一部を改正する法律案",
+          "issue_number": 2182,
+          "date": "2025-12-03",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8716",
+          "bill_name": "配偶者からの暴力の防止及び被害者の保護等に関する法律の一部を改正する法律案",
+          "issue_number": 2183,
+          "date": "2025-12-03",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8717",
+          "bill_name": "更生保護制度の充実を図るための保護司法等の一部を改正する法律案",
+          "issue_number": 2184,
+          "date": "2025-12-03",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8718",
+          "bill_name": "気象業務法及び水防法の一部を改正する法律案",
+          "issue_number": 2185,
+          "date": "2025-12-05",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8719",
+          "bill_name": "一般職の職員の給与に関する法律等の一部を改正する法律案",
+          "issue_number": 2186,
+          "date": "2025-12-16",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8720",
+          "bill_name": "特別職の職員の給与に関する法律等の一部を改正する法律案",
+          "issue_number": 2187,
+          "date": "2025-12-16",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8722",
+          "bill_name": "裁判官の報酬等に関する法律の一部を改正する法律案",
+          "issue_number": 2189,
+          "date": "2025-12-16",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8723",
+          "bill_name": "検察官の俸給等に関する法律の一部を改正する法律案",
+          "issue_number": 2190,
+          "date": "2025-12-16",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8724",
+          "bill_name": "防衛省の職員の給与等に関する法律の一部を改正する法律案",
+          "issue_number": 2191,
+          "date": "2025-12-16",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 175
+        "neutral": 189
       }
     },
     "平将明": {
@@ -68080,7 +69544,7 @@
     },
     "築山信彦": {
       "party": "",
-      "speech_count": 173,
+      "speech_count": 208,
       "bills": [
         {
           "bill_id": "councillors_216_15875",
@@ -69465,12 +70929,292 @@
           "date": "2025-05-20",
           "meeting": "議院運営委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_217_8555",
+          "bill_name": "環境影響評価法の一部を改正する法律案",
+          "issue_number": 2175,
+          "date": "2025-05-20",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8692",
+          "bill_name": "愛知・名古屋アジア競技大会及び愛知・名古屋アジアパラ競技大会に関する特別措置法案",
+          "issue_number": 2177,
+          "date": "2025-11-27",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8697",
+          "bill_name": "高次脳機能障害者支援法案",
+          "issue_number": 2178,
+          "date": "2025-12-08",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8701",
+          "bill_name": "国会議員の歳費、旅費及び手当等に関する法律の一部を改正する法律案",
+          "issue_number": 2179,
+          "date": "2025-12-11",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8702",
+          "bill_name": "国会議員の秘書の給与等に関する法律の一部を改正する法律案",
+          "issue_number": 2180,
+          "date": "2025-12-11",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8714",
+          "bill_name": "医療法等の一部を改正する法律案",
+          "issue_number": 2181,
+          "date": "2025-11-27",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8715",
+          "bill_name": "ストーカー行為等の規制等に関する法律の一部を改正する法律案",
+          "issue_number": 2182,
+          "date": "2025-11-25",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8716",
+          "bill_name": "配偶者からの暴力の防止及び被害者の保護等に関する法律の一部を改正する法律案",
+          "issue_number": 2183,
+          "date": "2025-11-25",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8717",
+          "bill_name": "更生保護制度の充実を図るための保護司法等の一部を改正する法律案",
+          "issue_number": 2184,
+          "date": "2025-11-25",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8718",
+          "bill_name": "気象業務法及び水防法の一部を改正する法律案",
+          "issue_number": 2185,
+          "date": "2025-11-27",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8719",
+          "bill_name": "一般職の職員の給与に関する法律等の一部を改正する法律案",
+          "issue_number": 2186,
+          "date": "2025-12-11",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8720",
+          "bill_name": "特別職の職員の給与に関する法律等の一部を改正する法律案",
+          "issue_number": 2187,
+          "date": "2025-12-11",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8721",
+          "bill_name": "地方交付税法及び特別会計に関する法律の一部を改正する法律案",
+          "issue_number": 2188,
+          "date": "2025-12-11",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8722",
+          "bill_name": "裁判官の報酬等に関する法律の一部を改正する法律案",
+          "issue_number": 2189,
+          "date": "2025-12-11",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8723",
+          "bill_name": "検察官の俸給等に関する法律の一部を改正する法律案",
+          "issue_number": 2190,
+          "date": "2025-12-11",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8724",
+          "bill_name": "防衛省の職員の給与等に関する法律の一部を改正する法律案",
+          "issue_number": 2191,
+          "date": "2025-12-11",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8802",
+          "bill_name": "運輸事業の振興の助成に関する法律の一部を改正する法律案",
+          "issue_number": 2193,
+          "date": "2026-03-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8803",
+          "bill_name": "地震防災対策特別措置法の一部を改正する法律案",
+          "issue_number": 2194,
+          "date": "2026-03-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8805",
+          "bill_name": "財政運営に必要な財源の確保を図るための公債の発行の特例に関する法律の一部を改正する法律案",
+          "issue_number": 2195,
+          "date": "2026-03-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8805",
+          "bill_name": "財政運営に必要な財源の確保を図るための公債の発行の特例に関する法律の一部を改正する法律案",
+          "issue_number": 2195,
+          "date": "2026-03-05",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8806",
+          "bill_name": "東日本大震災からの復興のための施策を実施するために必要な財源の確保に関する特別措置法の一部を改正する法律案",
+          "issue_number": 2196,
+          "date": "2026-03-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8806",
+          "bill_name": "東日本大震災からの復興のための施策を実施するために必要な財源の確保に関する特別措置法の一部を改正する法律案",
+          "issue_number": 2196,
+          "date": "2026-03-05",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8807",
+          "bill_name": "所得税法等の一部を改正する法律案",
+          "issue_number": 2197,
+          "date": "2026-03-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8807",
+          "bill_name": "所得税法等の一部を改正する法律案",
+          "issue_number": 2197,
+          "date": "2026-03-05",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8808",
+          "bill_name": "地方税法等の一部を改正する法律案",
+          "issue_number": 2198,
+          "date": "2026-03-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8808",
+          "bill_name": "地方税法等の一部を改正する法律案",
+          "issue_number": 2198,
+          "date": "2026-03-05",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8809",
+          "bill_name": "地方交付税法等の一部を改正する法律案",
+          "issue_number": 2199,
+          "date": "2026-03-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8809",
+          "bill_name": "地方交付税法等の一部を改正する法律案",
+          "issue_number": 2199,
+          "date": "2026-03-05",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8810",
+          "bill_name": "関税定率法等の一部を改正する法律案",
+          "issue_number": 2200,
+          "date": "2026-03-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8810",
+          "bill_name": "関税定率法等の一部を改正する法律案",
+          "issue_number": 2200,
+          "date": "2026-03-05",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8812",
+          "bill_name": "高等学校等就学支援金の支給に関する法律の一部を改正する法律案",
+          "issue_number": 2202,
+          "date": "2026-03-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8813",
+          "bill_name": "公立義務教育諸学校の学級編制及び教職員定数の標準に関する法律の一部を改正する法律案",
+          "issue_number": 2203,
+          "date": "2026-03-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8814",
+          "bill_name": "在外公館の名称及び位置並びに在外公館に勤務する外務公務員の給与に関する法律の一部を改正する法律案",
+          "issue_number": 2204,
+          "date": "2026-03-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8815",
+          "bill_name": "農業構造転換の推進に必要な施策の集中的な実施の財源に充てるための日本中央競馬会の国庫納付金の納付に関する臨時措置法案",
+          "issue_number": 2205,
+          "date": "2026-03-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8816",
+          "bill_name": "日本中央競馬会法の一部を改正する法律案",
+          "issue_number": 2206,
+          "date": "2026-03-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 173
+        "neutral": 208
       }
     },
     "平沼正二郎": {
@@ -70290,7 +72034,7 @@
     },
     "山川仁": {
       "party": "れいわ新選組",
-      "speech_count": 8,
+      "speech_count": 9,
       "bills": [
         {
           "bill_id": "councillors_216_15879",
@@ -70355,11 +72099,19 @@
           "date": "2025-04-10",
           "meeting": "総務委員会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "house_219_8721",
+          "bill_name": "地方交付税法及び特別会計に関する法律の一部を改正する法律案",
+          "issue_number": 2188,
+          "date": "2025-12-11",
+          "meeting": "総務委員会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 6,
+        "oppose": 7,
         "neutral": 2
       }
     },
@@ -72254,7 +74006,7 @@
     },
     "里見隆治": {
       "party": "公明党",
-      "speech_count": 5,
+      "speech_count": 7,
       "bills": [
         {
           "bill_id": "councillors_216_15885",
@@ -72295,12 +74047,28 @@
           "date": "2025-04-17",
           "meeting": "国土交通委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8724",
+          "bill_name": "防衛省の職員の給与等に関する法律の一部を改正する法律案",
+          "issue_number": 2191,
+          "date": "2025-12-16",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8724",
+          "bill_name": "防衛省の職員の給与等に関する法律の一部を改正する法律案",
+          "issue_number": 2191,
+          "date": "2025-12-16",
+          "meeting": "外交防衛委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 3,
         "oppose": 0,
-        "neutral": 2
+        "neutral": 4
       }
     },
     "井上勉": {
@@ -72340,7 +74108,7 @@
     },
     "村井英樹": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 3,
+      "speech_count": 5,
       "bills": [
         {
           "bill_id": "councillors_216_15885",
@@ -72365,12 +74133,28 @@
           "date": "2024-12-20",
           "meeting": "議院運営委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8815",
+          "bill_name": "農業構造転換の推進に必要な施策の集中的な実施の財源に充てるための日本中央競馬会の国庫納付金の納付に関する臨時措置法案",
+          "issue_number": 2205,
+          "date": "2026-03-10",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8816",
+          "bill_name": "日本中央競馬会法の一部を改正する法律案",
+          "issue_number": 2206,
+          "date": "2026-03-10",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 3
+        "neutral": 5
       }
     },
     "古川元久": {
@@ -73524,7 +75308,7 @@
     },
     "酒井なつみ": {
       "party": "立憲民主党・無所属",
-      "speech_count": 3,
+      "speech_count": 4,
       "bills": [
         {
           "bill_id": "councillors_216_15900",
@@ -73549,12 +75333,20 @@
           "date": "2025-02-21",
           "meeting": "予算委員会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "house_219_8714",
+          "bill_name": "医療法等の一部を改正する法律案",
+          "issue_number": 2181,
+          "date": "2025-11-26",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 1,
         "oppose": 1,
-        "neutral": 1
+        "neutral": 2
       }
     },
     "井上信治": {
@@ -73712,7 +75504,7 @@
     },
     "藤丸敏": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 36,
+      "speech_count": 37,
       "bills": [
         {
           "bill_id": "councillors_216_15902",
@@ -74001,12 +75793,20 @@
           "date": "2025-05-09",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_218_8626",
+          "bill_name": "医療法等の一部を改正する法律案",
+          "issue_number": 2176,
+          "date": "2025-08-05",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 36
+        "neutral": 37
       }
     },
     "浦野靖人": {
@@ -74062,7 +75862,7 @@
     },
     "金子恭之": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 17,
+      "speech_count": 21,
       "bills": [
         {
           "bill_id": "councillors_216_15905",
@@ -74199,12 +75999,44 @@
           "date": "2025-05-09",
           "meeting": "東日本大震災復興・防災・災害対策に関する特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8718",
+          "bill_name": "気象業務法及び水防法の一部を改正する法律案",
+          "issue_number": 2185,
+          "date": "2025-12-02",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8718",
+          "bill_name": "気象業務法及び水防法の一部を改正する法律案",
+          "issue_number": 2185,
+          "date": "2025-11-21",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8718",
+          "bill_name": "気象業務法及び水防法の一部を改正する法律案",
+          "issue_number": 2185,
+          "date": "2025-11-19",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8718",
+          "bill_name": "気象業務法及び水防法の一部を改正する法律案",
+          "issue_number": 2185,
+          "date": "2025-11-18",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 17
+        "neutral": 21
       }
     },
     "堀川あきこ": {
@@ -74605,7 +76437,7 @@
     },
     "辻元清美": {
       "party": "立憲民主・社民・無所属",
-      "speech_count": 3,
+      "speech_count": 4,
       "bills": [
         {
           "bill_id": "councillors_216_15910",
@@ -74630,12 +76462,20 @@
           "date": "2025-03-27",
           "meeting": "予算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8718",
+          "bill_name": "気象業務法及び水防法の一部を改正する法律案",
+          "issue_number": 2185,
+          "date": "2025-12-04",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 1,
-        "neutral": 2
+        "neutral": 3
       }
     },
     "高井崇志": {
@@ -74937,7 +76777,7 @@
     },
     "武藤容治": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 23,
+      "speech_count": 24,
       "bills": [
         {
           "bill_id": "councillors_216_15911",
@@ -75122,12 +76962,20 @@
           "date": "2025-05-21",
           "meeting": "経済産業委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_217_8555",
+          "bill_name": "環境影響評価法の一部を改正する法律案",
+          "issue_number": 2175,
+          "date": "2025-06-06",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 23
+        "neutral": 24
       }
     },
     "松下玲子": {
@@ -76300,7 +78148,7 @@
     },
     "八幡愛": {
       "party": "れいわ新選組",
-      "speech_count": 8,
+      "speech_count": 9,
       "bills": [
         {
           "bill_id": "councillors_217_15930",
@@ -76365,11 +78213,19 @@
           "date": "2025-04-10",
           "meeting": "農林水産委員会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "house_219_8714",
+          "bill_name": "医療法等の一部を改正する法律案",
+          "issue_number": 2181,
+          "date": "2025-11-26",
+          "meeting": "厚生労働委員会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 4,
+        "oppose": 5,
         "neutral": 4
       }
     },
@@ -76829,7 +78685,7 @@
     },
     "森光敬子": {
       "party": "",
-      "speech_count": 2,
+      "speech_count": 3,
       "bills": [
         {
           "bill_id": "councillors_217_15934",
@@ -76846,12 +78702,20 @@
           "date": "2025-03-24",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8714",
+          "bill_name": "医療法等の一部を改正する法律案",
+          "issue_number": 2181,
+          "date": "2025-11-21",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 2
+        "neutral": 3
       }
     },
     "福田徹": {
@@ -78790,7 +80654,7 @@
     },
     "篠田奈保子": {
       "party": "立憲民主党・無所属",
-      "speech_count": 2,
+      "speech_count": 3,
       "bills": [
         {
           "bill_id": "councillors_217_15943",
@@ -78807,12 +80671,20 @@
           "date": "2025-04-18",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8717",
+          "bill_name": "更生保護制度の充実を図るための保護司法等の一部を改正する法律案",
+          "issue_number": 2184,
+          "date": "2025-11-21",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 2
+        "neutral": 3
       }
     },
     "森本宏": {
@@ -79682,7 +81554,7 @@
     },
     "岡本充功": {
       "party": "立憲民主党・無所属",
-      "speech_count": 3,
+      "speech_count": 4,
       "bills": [
         {
           "bill_id": "councillors_217_15945",
@@ -79707,12 +81579,20 @@
           "date": "2025-04-25",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8697",
+          "bill_name": "高次脳機能障害者支援法案",
+          "issue_number": 2178,
+          "date": "2025-12-05",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 3
+        "neutral": 4
       }
     },
     "たがや亮": {
@@ -79923,7 +81803,7 @@
     },
     "村上智信": {
       "party": "日本維新の会",
-      "speech_count": 7,
+      "speech_count": 8,
       "bills": [
         {
           "bill_id": "councillors_217_15946",
@@ -79980,12 +81860,20 @@
           "date": "2025-06-03",
           "meeting": "財務金融委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8718",
+          "bill_name": "気象業務法及び水防法の一部を改正する法律案",
+          "issue_number": 2185,
+          "date": "2025-11-26",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 7
+        "neutral": 8
       }
     },
     "東克哉": {
@@ -80079,7 +81967,7 @@
     },
     "安藤じゅん子": {
       "party": "立憲民主党・無所属",
-      "speech_count": 5,
+      "speech_count": 6,
       "bills": [
         {
           "bill_id": "councillors_217_15948",
@@ -80120,12 +82008,20 @@
           "date": "2025-04-10",
           "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8692",
+          "bill_name": "愛知・名古屋アジア競技大会及び愛知・名古屋アジアパラ競技大会に関する特別措置法案",
+          "issue_number": 2177,
+          "date": "2025-11-26",
+          "meeting": "文部科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 5
+        "neutral": 6
       }
     },
     "嶋一哉": {
@@ -80624,7 +82520,7 @@
     },
     "秦康之": {
       "party": "",
-      "speech_count": 8,
+      "speech_count": 10,
       "bills": [
         {
           "bill_id": "councillors_217_15964",
@@ -80689,12 +82585,28 @@
           "date": "2025-06-12",
           "meeting": "環境委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_217_8555",
+          "bill_name": "環境影響評価法の一部を改正する法律案",
+          "issue_number": 2175,
+          "date": "2025-06-03",
+          "meeting": "環境委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_217_8555",
+          "bill_name": "環境影響評価法の一部を改正する法律案",
+          "issue_number": 2175,
+          "date": "2025-05-16",
+          "meeting": "環境委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 8
+        "neutral": 10
       }
     },
     "阿部聖哉": {
@@ -80957,7 +82869,7 @@
     },
     "小林史明": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 4,
+      "speech_count": 5,
       "bills": [
         {
           "bill_id": "councillors_217_15964",
@@ -80990,12 +82902,20 @@
           "date": "2024-04-09",
           "meeting": "本会議",
           "stance": "賛成"
+        },
+        {
+          "bill_id": "house_217_8555",
+          "bill_name": "環境影響評価法の一部を改正する法律案",
+          "issue_number": 2175,
+          "date": "2025-05-16",
+          "meeting": "環境委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 2,
         "oppose": 0,
-        "neutral": 2
+        "neutral": 3
       }
     },
     "長妻昭": {
@@ -81398,7 +83318,7 @@
     },
     "津村啓介": {
       "party": "立憲民主党・無所属",
-      "speech_count": 6,
+      "speech_count": 7,
       "bills": [
         {
           "bill_id": "councillors_217_15981",
@@ -81447,12 +83367,20 @@
           "date": "2025-04-03",
           "meeting": "憲法審査会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "house_219_8692",
+          "bill_name": "愛知・名古屋アジア競技大会及び愛知・名古屋アジアパラ競技大会に関する特別措置法案",
+          "issue_number": 2177,
+          "date": "2025-11-26",
+          "meeting": "文部科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 2,
-        "neutral": 4
+        "neutral": 5
       }
     },
     "山本健人": {
@@ -81669,7 +83597,7 @@
     },
     "伊藤孝江": {
       "party": "公明党",
-      "speech_count": 6,
+      "speech_count": 9,
       "bills": [
         {
           "bill_id": "councillors_217_15981",
@@ -81718,17 +83646,41 @@
           "date": "2024-04-25",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8717",
+          "bill_name": "更生保護制度の充実を図るための保護司法等の一部を改正する法律案",
+          "issue_number": 2184,
+          "date": "2025-12-02",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8722",
+          "bill_name": "裁判官の報酬等に関する法律の一部を改正する法律案",
+          "issue_number": 2189,
+          "date": "2025-12-16",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8723",
+          "bill_name": "検察官の俸給等に関する法律の一部を改正する法律案",
+          "issue_number": 2190,
+          "date": "2025-12-16",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 6
+        "neutral": 9
       }
     },
     "岡田悟": {
       "party": "立憲民主党・無所属",
-      "speech_count": 11,
+      "speech_count": 12,
       "bills": [
         {
           "bill_id": "councillors_217_15981",
@@ -81817,12 +83769,20 @@
           "date": "2025-05-14",
           "meeting": "財務金融委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8715",
+          "bill_name": "ストーカー行為等の規制等に関する法律の一部を改正する法律案",
+          "issue_number": 2182,
+          "date": "2025-11-21",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 2,
-        "neutral": 9
+        "neutral": 10
       }
     },
     "永田秀一": {
@@ -82558,7 +84518,7 @@
     },
     "古川康": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 2,
+      "speech_count": 4,
       "bills": [
         {
           "bill_id": "house_213_8224",
@@ -82575,12 +84535,28 @@
           "date": "2024-04-03",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8808",
+          "bill_name": "地方税法等の一部を改正する法律案",
+          "issue_number": 2198,
+          "date": "2026-03-05",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8809",
+          "bill_name": "地方交付税法等の一部を改正する法律案",
+          "issue_number": 2199,
+          "date": "2026-03-05",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 2
+        "neutral": 4
       }
     },
     "小国喜弘": {
@@ -84203,7 +86179,7 @@
     },
     "藤原規眞": {
       "party": "立憲民主党・無所属",
-      "speech_count": 5,
+      "speech_count": 6,
       "bills": [
         {
           "bill_id": "councillors_217_15961",
@@ -84244,12 +86220,20 @@
           "date": "2025-04-25",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8717",
+          "bill_name": "更生保護制度の充実を図るための保護司法等の一部を改正する法律案",
+          "issue_number": 2184,
+          "date": "2025-11-21",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 5
+        "neutral": 6
       }
     },
     "岡田大": {
@@ -84359,7 +86343,7 @@
     },
     "岡野純子": {
       "party": "国民民主党・無所属クラブ",
-      "speech_count": 2,
+      "speech_count": 3,
       "bills": [
         {
           "bill_id": "councillors_217_15967",
@@ -84376,10 +86360,18 @@
           "date": "2025-04-11",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8714",
+          "bill_name": "医療法等の一部を改正する法律案",
+          "issue_number": 2181,
+          "date": "2025-11-26",
+          "meeting": "厚生労働委員会",
+          "stance": "賛成"
         }
       ],
       "stance_summary": {
-        "support": 0,
+        "support": 1,
         "oppose": 0,
         "neutral": 2
       }
@@ -85017,7 +87009,7 @@
     },
     "あかま二郎": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 3,
+      "speech_count": 8,
       "bills": [
         {
           "bill_id": "councillors_217_16005",
@@ -85042,12 +87034,52 @@
           "date": "2025-03-04",
           "meeting": "総務委員会",
           "stance": "賛成"
+        },
+        {
+          "bill_id": "house_219_8715",
+          "bill_name": "ストーカー行為等の規制等に関する法律の一部を改正する法律案",
+          "issue_number": 2182,
+          "date": "2025-11-27",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8715",
+          "bill_name": "ストーカー行為等の規制等に関する法律の一部を改正する法律案",
+          "issue_number": 2182,
+          "date": "2025-11-19",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8715",
+          "bill_name": "ストーカー行為等の規制等に関する法律の一部を改正する法律案",
+          "issue_number": 2182,
+          "date": "2025-11-18",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8715",
+          "bill_name": "ストーカー行為等の規制等に関する法律の一部を改正する法律案",
+          "issue_number": 2182,
+          "date": "2025-11-14",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8817",
+          "bill_name": "防災庁設置法案",
+          "issue_number": 2207,
+          "date": "2026-03-10",
+          "meeting": "災害対策特別委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 3,
         "oppose": 0,
-        "neutral": 0
+        "neutral": 5
       }
     },
     "杉村慎治": {
@@ -85914,7 +87946,7 @@
     },
     "冨樫博之": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 2,
+      "speech_count": 4,
       "bills": [
         {
           "bill_id": "house_213_8213",
@@ -85931,12 +87963,28 @@
           "date": "2024-03-19",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8718",
+          "bill_name": "気象業務法及び水防法の一部を改正する法律案",
+          "issue_number": 2185,
+          "date": "2025-11-26",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8718",
+          "bill_name": "気象業務法及び水防法の一部を改正する法律案",
+          "issue_number": 2185,
+          "date": "2025-11-21",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 2
+        "neutral": 4
       }
     },
     "彦谷直克": {
@@ -87027,7 +89075,7 @@
     },
     "野村知司": {
       "party": "",
-      "speech_count": 1,
+      "speech_count": 2,
       "bills": [
         {
           "bill_id": "house_213_8236",
@@ -87036,12 +89084,20 @@
           "date": "2024-03-22",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8697",
+          "bill_name": "高次脳機能障害者支援法案",
+          "issue_number": 2178,
+          "date": "2025-12-05",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 1
+        "neutral": 2
       }
     },
     "中川郁子": {
@@ -87868,6 +89924,511 @@
           "issue_number": 2165,
           "date": "2025-03-12",
           "meeting": "議院運営委員会",
+          "stance": "中立"
+        }
+      ],
+      "stance_summary": {
+        "support": 0,
+        "oppose": 0,
+        "neutral": 1
+      }
+    },
+    "後藤翔太": {
+      "party": "参政党",
+      "speech_count": 1,
+      "bills": [
+        {
+          "bill_id": "house_219_8692",
+          "bill_name": "愛知・名古屋アジア競技大会及び愛知・名古屋アジアパラ競技大会に関する特別措置法案",
+          "issue_number": 2177,
+          "date": "2025-12-02",
+          "meeting": "文教科学委員会",
+          "stance": "中立"
+        }
+      ],
+      "stance_summary": {
+        "support": 0,
+        "oppose": 0,
+        "neutral": 1
+      }
+    },
+    "松本洋平": {
+      "party": "自由民主党・無所属の会",
+      "speech_count": 1,
+      "bills": [
+        {
+          "bill_id": "house_219_8692",
+          "bill_name": "愛知・名古屋アジア競技大会及び愛知・名古屋アジアパラ競技大会に関する特別措置法案",
+          "issue_number": 2177,
+          "date": "2025-11-26",
+          "meeting": "文部科学委員会",
+          "stance": "中立"
+        }
+      ],
+      "stance_summary": {
+        "support": 0,
+        "oppose": 0,
+        "neutral": 1
+      }
+    },
+    "白川容子": {
+      "party": "日本共産党",
+      "speech_count": 3,
+      "bills": [
+        {
+          "bill_id": "house_219_8697",
+          "bill_name": "高次脳機能障害者支援法案",
+          "issue_number": 2178,
+          "date": "2025-12-16",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8714",
+          "bill_name": "医療法等の一部を改正する法律案",
+          "issue_number": 2181,
+          "date": "2025-12-04",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8714",
+          "bill_name": "医療法等の一部を改正する法律案",
+          "issue_number": 2181,
+          "date": "2025-12-02",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        }
+      ],
+      "stance_summary": {
+        "support": 0,
+        "oppose": 0,
+        "neutral": 3
+      }
+    },
+    "大串正樹": {
+      "party": "自由民主党・無所属の会",
+      "speech_count": 8,
+      "bills": [
+        {
+          "bill_id": "house_219_8697",
+          "bill_name": "高次脳機能障害者支援法案",
+          "issue_number": 2178,
+          "date": "2025-12-16",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8697",
+          "bill_name": "高次脳機能障害者支援法案",
+          "issue_number": 2178,
+          "date": "2025-12-08",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8697",
+          "bill_name": "高次脳機能障害者支援法案",
+          "issue_number": 2178,
+          "date": "2025-12-05",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8714",
+          "bill_name": "医療法等の一部を改正する法律案",
+          "issue_number": 2181,
+          "date": "2025-11-27",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8714",
+          "bill_name": "医療法等の一部を改正する法律案",
+          "issue_number": 2181,
+          "date": "2025-11-26",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8714",
+          "bill_name": "医療法等の一部を改正する法律案",
+          "issue_number": 2181,
+          "date": "2025-11-25",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8714",
+          "bill_name": "医療法等の一部を改正する法律案",
+          "issue_number": 2181,
+          "date": "2025-11-21",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8714",
+          "bill_name": "医療法等の一部を改正する法律案",
+          "issue_number": 2181,
+          "date": "2025-11-19",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        }
+      ],
+      "stance_summary": {
+        "support": 0,
+        "oppose": 0,
+        "neutral": 8
+      }
+    },
+    "小川克巳": {
+      "party": "自由民主党",
+      "speech_count": 4,
+      "bills": [
+        {
+          "bill_id": "house_219_8697",
+          "bill_name": "高次脳機能障害者支援法案",
+          "issue_number": 2178,
+          "date": "2025-12-16",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8714",
+          "bill_name": "医療法等の一部を改正する法律案",
+          "issue_number": 2181,
+          "date": "2025-12-04",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8714",
+          "bill_name": "医療法等の一部を改正する法律案",
+          "issue_number": 2181,
+          "date": "2025-12-03",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8714",
+          "bill_name": "医療法等の一部を改正する法律案",
+          "issue_number": 2181,
+          "date": "2025-12-02",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        }
+      ],
+      "stance_summary": {
+        "support": 0,
+        "oppose": 0,
+        "neutral": 4
+      }
+    },
+    "青木一彦": {
+      "party": "自由民主党",
+      "speech_count": 5,
+      "bills": [
+        {
+          "bill_id": "house_219_8701",
+          "bill_name": "国会議員の歳費、旅費及び手当等に関する法律の一部を改正する法律案",
+          "issue_number": 2179,
+          "date": "2025-12-16",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8701",
+          "bill_name": "国会議員の歳費、旅費及び手当等に関する法律の一部を改正する法律案",
+          "issue_number": 2179,
+          "date": "2025-12-16",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8702",
+          "bill_name": "国会議員の秘書の給与等に関する法律の一部を改正する法律案",
+          "issue_number": 2180,
+          "date": "2025-12-16",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8702",
+          "bill_name": "国会議員の秘書の給与等に関する法律の一部を改正する法律案",
+          "issue_number": 2180,
+          "date": "2025-12-16",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8714",
+          "bill_name": "医療法等の一部を改正する法律案",
+          "issue_number": 2181,
+          "date": "2025-12-01",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        }
+      ],
+      "stance_summary": {
+        "support": 0,
+        "oppose": 0,
+        "neutral": 5
+      }
+    },
+    "川村雄大": {
+      "party": "公明党",
+      "speech_count": 1,
+      "bills": [
+        {
+          "bill_id": "house_219_8714",
+          "bill_name": "医療法等の一部を改正する法律案",
+          "issue_number": 2181,
+          "date": "2025-12-04",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        }
+      ],
+      "stance_summary": {
+        "support": 0,
+        "oppose": 0,
+        "neutral": 1
+      }
+    },
+    "城守国斗": {
+      "party": "",
+      "speech_count": 1,
+      "bills": [
+        {
+          "bill_id": "house_219_8714",
+          "bill_name": "医療法等の一部を改正する法律案",
+          "issue_number": 2181,
+          "date": "2025-12-03",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        }
+      ],
+      "stance_summary": {
+        "support": 0,
+        "oppose": 0,
+        "neutral": 1
+      }
+    },
+    "かまやち敏": {
+      "party": "自由民主党",
+      "speech_count": 1,
+      "bills": [
+        {
+          "bill_id": "house_219_8714",
+          "bill_name": "医療法等の一部を改正する法律案",
+          "issue_number": 2181,
+          "date": "2025-12-02",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        }
+      ],
+      "stance_summary": {
+        "support": 0,
+        "oppose": 0,
+        "neutral": 1
+      }
+    },
+    "新実彰平": {
+      "party": "日本維新の会",
+      "speech_count": 1,
+      "bills": [
+        {
+          "bill_id": "house_219_8714",
+          "bill_name": "医療法等の一部を改正する法律案",
+          "issue_number": 2181,
+          "date": "2025-12-01",
+          "meeting": "本会議",
+          "stance": "中立"
+        }
+      ],
+      "stance_summary": {
+        "support": 0,
+        "oppose": 0,
+        "neutral": 1
+      }
+    },
+    "松田学": {
+      "party": "参政党",
+      "speech_count": 1,
+      "bills": [
+        {
+          "bill_id": "house_219_8714",
+          "bill_name": "医療法等の一部を改正する法律案",
+          "issue_number": 2181,
+          "date": "2025-12-01",
+          "meeting": "本会議",
+          "stance": "中立"
+        }
+      ],
+      "stance_summary": {
+        "support": 0,
+        "oppose": 0,
+        "neutral": 1
+      }
+    },
+    "永井幸子": {
+      "party": "",
+      "speech_count": 1,
+      "bills": [
+        {
+          "bill_id": "house_219_8714",
+          "bill_name": "医療法等の一部を改正する法律案",
+          "issue_number": 2181,
+          "date": "2025-11-25",
+          "meeting": "厚生労働委員会",
+          "stance": "反対"
+        }
+      ],
+      "stance_summary": {
+        "support": 0,
+        "oppose": 1,
+        "neutral": 0
+      }
+    },
+    "小山千帆": {
+      "party": "立憲民主党・無所属",
+      "speech_count": 2,
+      "bills": [
+        {
+          "bill_id": "house_219_8715",
+          "bill_name": "ストーカー行為等の規制等に関する法律の一部を改正する法律案",
+          "issue_number": 2182,
+          "date": "2025-11-21",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8716",
+          "bill_name": "配偶者からの暴力の防止及び被害者の保護等に関する法律の一部を改正する法律案",
+          "issue_number": 2183,
+          "date": "2025-11-21",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        }
+      ],
+      "stance_summary": {
+        "support": 0,
+        "oppose": 0,
+        "neutral": 2
+      }
+    },
+    "大津力": {
+      "party": "参政党",
+      "speech_count": 2,
+      "bills": [
+        {
+          "bill_id": "house_219_8716",
+          "bill_name": "配偶者からの暴力の防止及び被害者の保護等に関する法律の一部を改正する法律案",
+          "issue_number": 2183,
+          "date": "2025-12-02",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_219_8720",
+          "bill_name": "特別職の職員の給与に関する法律等の一部を改正する法律案",
+          "issue_number": 2187,
+          "date": "2025-12-16",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        }
+      ],
+      "stance_summary": {
+        "support": 0,
+        "oppose": 0,
+        "neutral": 2
+      }
+    },
+    "岡田恵子": {
+      "party": "",
+      "speech_count": 1,
+      "bills": [
+        {
+          "bill_id": "house_219_8716",
+          "bill_name": "配偶者からの暴力の防止及び被害者の保護等に関する法律の一部を改正する法律案",
+          "issue_number": 2183,
+          "date": "2025-11-21",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        }
+      ],
+      "stance_summary": {
+        "support": 0,
+        "oppose": 0,
+        "neutral": 1
+      }
+    },
+    "伊勢崎賢治": {
+      "party": "れいわ新選組",
+      "speech_count": 1,
+      "bills": [
+        {
+          "bill_id": "house_219_8720",
+          "bill_name": "特別職の職員の給与に関する法律等の一部を改正する法律案",
+          "issue_number": 2187,
+          "date": "2025-12-16",
+          "meeting": "内閣委員会",
+          "stance": "反対"
+        }
+      ],
+      "stance_summary": {
+        "support": 0,
+        "oppose": 1,
+        "neutral": 0
+      }
+    },
+    "出口和宏": {
+      "party": "",
+      "speech_count": 1,
+      "bills": [
+        {
+          "bill_id": "house_219_8721",
+          "bill_name": "地方交付税法及び特別会計に関する法律の一部を改正する法律案",
+          "issue_number": 2188,
+          "date": "2025-12-11",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        }
+      ],
+      "stance_summary": {
+        "support": 0,
+        "oppose": 0,
+        "neutral": 1
+      }
+    },
+    "関芳弘": {
+      "party": "自由民主党・無所属の会",
+      "speech_count": 1,
+      "bills": [
+        {
+          "bill_id": "house_221_8803",
+          "bill_name": "地震防災対策特別措置法の一部を改正する法律案",
+          "issue_number": 2194,
+          "date": "2026-03-12",
+          "meeting": "災害対策特別委員会",
+          "stance": "中立"
+        }
+      ],
+      "stance_summary": {
+        "support": 0,
+        "oppose": 0,
+        "neutral": 1
+      }
+    },
+    "西園勝秀": {
+      "party": "中道改革連合・無所属",
+      "speech_count": 1,
+      "bills": [
+        {
+          "bill_id": "house_221_8817",
+          "bill_name": "防災庁設置法案",
+          "issue_number": 2207,
+          "date": "2026-03-12",
+          "meeting": "災害対策特別委員会",
           "stance": "中立"
         }
       ],
