@@ -1,7 +1,7 @@
 {
   "category": "cabinet_orders",
   "category_name": "政令",
-  "count": 2316,
+  "count": 2317,
   "laws": [
     {
       "id": "322CO0000000052",
@@ -13897,6 +13897,12 @@
       "id": "508CO0000000047",
       "lawNum": "令和八年政令第四十七号",
       "title": "重要電子計算機に対する不正な行為による被害の防止に関する法律施行令",
+      "category": "cabinet_orders"
+    },
+    {
+      "id": "508CO0000000060",
+      "lawNum": "令和八年政令第六十号",
+      "title": "高次脳機能障害者支援法施行令",
       "category": "cabinet_orders"
     }
   ]
