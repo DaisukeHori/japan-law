@@ -1,7 +1,7 @@
 {
   "category": "ministerial_ordinances",
   "category_name": "省令",
-  "count": 34,
+  "count": 36,
   "laws": [
     {
       "id": "508M60001000001",
@@ -190,15 +190,27 @@
       "category": "ministerial_ordinances"
     },
     {
-      "id": "505RPMD08140003",
-      "lawNum": "令和五年八月十四日内閣総理大臣決定",
-      "title": "内閣感染症危機管理統括庁に感染症危機管理統括審議官を置く規則",
+      "id": "508M60000008057",
+      "lawNum": "令和八年総務省令第五十七号",
+      "title": "令和八年度分の地方特例交付金の交付額の特例に関する省令",
+      "category": "ministerial_ordinances"
+    },
+    {
+      "id": "508M60000008056",
+      "lawNum": "令和八年総務省令第五十六号",
+      "title": "令和八年度分の地方交付税の交付額の特例に関する省令",
       "category": "ministerial_ordinances"
     },
     {
       "id": "505RPMD08140002",
       "lawNum": "令和五年八月十四日内閣総理大臣決定",
       "title": "内閣感染症危機管理統括庁組織規則",
+      "category": "ministerial_ordinances"
+    },
+    {
+      "id": "505RPMD08140003",
+      "lawNum": "令和五年八月十四日内閣総理大臣決定",
+      "title": "内閣感染症危機管理統括庁に感染症危機管理統括審議官を置く規則",
       "category": "ministerial_ordinances"
     },
     {

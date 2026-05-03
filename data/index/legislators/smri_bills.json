@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-04-26T18:13:43.840Z",
+  "updated_at": "2026-05-03T18:16:41.698Z",
   "source": "SmartNews Media Research Institute",
   "total_count": 16453,
-  "passed_count": 6142,
+  "passed_count": 6153,
   "bills": [
     {
       "id": "house_142_0",
@@ -105852,7 +105852,7 @@
       "proposer": "内閣",
       "proposer_party": "",
       "proposer_type": "閣法",
-      "status": "審議中",
+      "status": "成立",
       "house": "衆議院",
       "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE1506.htm"
     },
@@ -105996,7 +105996,7 @@
       "proposer": "内閣",
       "proposer_party": "",
       "proposer_type": "閣法",
-      "status": "審議中",
+      "status": "成立",
       "house": "衆議院",
       "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE1F02.htm"
     },
@@ -106020,7 +106020,7 @@
       "proposer": "内閣",
       "proposer_party": "",
       "proposer_type": "閣法",
-      "status": "審議中",
+      "status": "成立",
       "house": "衆議院",
       "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE1F2A.htm"
     },
@@ -106104,7 +106104,7 @@
       "proposer": "内閣",
       "proposer_party": "",
       "proposer_type": "閣法",
-      "status": "審議中",
+      "status": "成立",
       "house": "衆議院",
       "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE209E.htm"
     },
@@ -106116,7 +106116,7 @@
       "proposer": "内閣",
       "proposer_party": "",
       "proposer_type": "閣法",
-      "status": "審議中",
+      "status": "成立",
       "house": "衆議院",
       "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE20B2.htm"
     },
@@ -106152,7 +106152,7 @@
       "proposer": "内閣",
       "proposer_party": "",
       "proposer_type": "閣法",
-      "status": "審議中",
+      "status": "成立",
       "house": "衆議院",
       "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE2176.htm"
     },
@@ -189230,7 +189230,7 @@
       "bill_name": "防衛省設置法等の一部を改正する法律案",
       "proposer": "",
       "proposer_type": "閣法",
-      "status": "審議中",
+      "status": "成立",
       "house": "参議院",
       "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/221/meisai/m221080221018.htm"
     },
@@ -189252,7 +189252,7 @@
       "bill_name": "出入国管理及び難民認定法及び出入国管理及び難民認定法第二条第五号ロの旅券を所持する外国人の上陸申請の特例に関する法律の一部を改正する法律案",
       "proposer": "",
       "proposer_type": "閣法",
-      "status": "審議中",
+      "status": "成立",
       "house": "参議院",
       "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/221/meisai/m221080221020.htm"
     },
@@ -189307,7 +189307,7 @@
       "bill_name": "健康保険法等の一部を改正する法律案",
       "proposer": "",
       "proposer_type": "閣法",
-      "status": "審議中",
+      "status": "成立",
       "house": "参議院",
       "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/221/meisai/m221080221025.htm"
     },
@@ -189439,7 +189439,7 @@
       "bill_name": "地域の自主性及び自立性を高めるための改革の推進を図るための関係法律の整備に関する法律案",
       "proposer": "",
       "proposer_type": "閣法",
-      "status": "審議中",
+      "status": "成立",
       "house": "参議院",
       "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/221/meisai/m221080221037.htm"
     },
@@ -189637,7 +189637,7 @@
       "bill_name": "学校教育法等の一部を改正する法律案",
       "proposer": "",
       "proposer_type": "閣法",
-      "status": "審議中",
+      "status": "成立",
       "house": "参議院",
       "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/221/meisai/m221080221055.htm"
     },
