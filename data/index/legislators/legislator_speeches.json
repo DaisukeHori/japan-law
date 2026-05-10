@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-03T19:06:19.672Z",
-  "total_legislators": 1000,
-  "total_speeches": 11072,
+  "updated_at": "2026-05-10T19:11:30.047Z",
+  "total_legislators": 1008,
+  "total_speeches": 11368,
   "legislators": {
     "東徹": {
       "party": "日本維新の会",
@@ -160,7 +160,7 @@
     },
     "小林史武": {
       "party": "",
-      "speech_count": 119,
+      "speech_count": 120,
       "bills": [
         {
           "bill_id": "house_211_7800",
@@ -1113,12 +1113,20 @@
           "date": "2023-11-17",
           "meeting": "議院運営委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15595",
+          "bill_name": "国会議員の秘書の給与等に関する法律の一部を改正する法律案",
+          "issue_number": 2367,
+          "date": "2023-11-17",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 119
+        "neutral": 120
       }
     },
     "細田博之": {
@@ -1966,7 +1974,7 @@
     },
     "山口俊一": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 201,
+      "speech_count": 239,
       "bills": [
         {
           "bill_id": "house_211_7800",
@@ -3575,17 +3583,321 @@
           "date": "2023-12-13",
           "meeting": "議院運営委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15562",
+          "bill_name": "政治資金規正法の一部を改正する法律案",
+          "issue_number": 2356,
+          "date": "2023-12-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15585",
+          "bill_name": "副首都機能の整備の推進に関する法律案",
+          "issue_number": 2357,
+          "date": "2023-12-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15586",
+          "bill_name": "低所得である子育て世帯に対する緊急の支援に関する法律案",
+          "issue_number": 2358,
+          "date": "2023-12-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15587",
+          "bill_name": "特定教育・保育施設における保育教諭等の配置の充実のための措置に関する法律案",
+          "issue_number": 2359,
+          "date": "2023-12-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15588",
+          "bill_name": "短時間労働者及び有期雇用労働者の雇用管理の改善等に関する法律等の一部を改正する法律案",
+          "issue_number": 2360,
+          "date": "2023-12-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15589",
+          "bill_name": "発電に関する原子力の利用に係る責任を明確化するための改革の推進に関する法律案",
+          "issue_number": 2361,
+          "date": "2023-12-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15590",
+          "bill_name": "電力の取引における公正な競争の促進に関する法律案",
+          "issue_number": 2362,
+          "date": "2023-12-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15591",
+          "bill_name": "学校給食法の一部を改正する法律案",
+          "issue_number": 2363,
+          "date": "2023-12-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15592",
+          "bill_name": "児童虐待の防止等に関する法律の一部を改正する法律案",
+          "issue_number": 2364,
+          "date": "2023-12-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15593",
+          "bill_name": "公立学校働き方改革の推進に関する法律案",
+          "issue_number": 2365,
+          "date": "2023-12-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15594",
+          "bill_name": "インターネット投票の導入の推進に関する法律案",
+          "issue_number": 2366,
+          "date": "2023-12-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15595",
+          "bill_name": "国会議員の秘書の給与等に関する法律の一部を改正する法律案",
+          "issue_number": 2367,
+          "date": "2023-12-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15595",
+          "bill_name": "国会議員の秘書の給与等に関する法律の一部を改正する法律案",
+          "issue_number": 2367,
+          "date": "2023-11-14",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15595",
+          "bill_name": "国会議員の秘書の給与等に関する法律の一部を改正する法律案",
+          "issue_number": 2367,
+          "date": "2023-11-14",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15596",
+          "bill_name": "国家公務員法の一部を改正する法律案",
+          "issue_number": 2368,
+          "date": "2023-12-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15597",
+          "bill_name": "消費税の逆進性を緩和するための給付付き税額控除の導入等に関する法律案",
+          "issue_number": 2369,
+          "date": "2023-12-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15598",
+          "bill_name": "持続可能な開発の目標の達成に向けた諸施策の総合的かつ一体的な推進に関する法律案",
+          "issue_number": 2370,
+          "date": "2023-12-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15599",
+          "bill_name": "公文書等の管理に関する法律の一部を改正する法律案",
+          "issue_number": 2371,
+          "date": "2023-12-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15600",
+          "bill_name": "公文書等の管理の適正化の推進に関する法律案",
+          "issue_number": 2372,
+          "date": "2023-12-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15601",
+          "bill_name": "新型コロナウイルス感染症の罹患後症状に係る対策の推進に関する法律案",
+          "issue_number": 2373,
+          "date": "2023-12-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15602",
+          "bill_name": "新型コロナウイルス感染症に係る予防接種による健康被害の救済等に係る措置に関する法律案",
+          "issue_number": 2374,
+          "date": "2023-12-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-12-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15604",
+          "bill_name": "一般社団法人及び一般財団法人に関する法律の一部を改正する法律案",
+          "issue_number": 2376,
+          "date": "2023-12-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15605",
+          "bill_name": "公益法人等に対する寄附を促進するための税制上の措置等に関する法律案",
+          "issue_number": 2377,
+          "date": "2023-12-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15606",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2378,
+          "date": "2023-12-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15607",
+          "bill_name": "我が国の経済及び財政等に関する将来の推計を信頼性のある統計等の情報に基づき中立公正に実施するための経済財政等将来推計委員会の設置に関する法律案",
+          "issue_number": 2379,
+          "date": "2023-12-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15608",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 2380,
+          "date": "2023-12-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15609",
+          "bill_name": "保護者等による自動車内への子ども等の置き去りの防止に関する法律案",
+          "issue_number": 2381,
+          "date": "2023-12-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15610",
+          "bill_name": "国家公務員法等の一部を改正する法律案",
+          "issue_number": 2382,
+          "date": "2023-12-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15611",
+          "bill_name": "国家公務員の労働関係に関する法律案",
+          "issue_number": 2383,
+          "date": "2023-12-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15612",
+          "bill_name": "公務員庁設置法案",
+          "issue_number": 2384,
+          "date": "2023-12-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15613",
+          "bill_name": "地方公務員法等の一部を改正する法律案",
+          "issue_number": 2385,
+          "date": "2023-12-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15614",
+          "bill_name": "地方公務員の労働関係に関する法律案",
+          "issue_number": 2386,
+          "date": "2023-12-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15615",
+          "bill_name": "我が国の総合的な安全保障の確保を図るための土地等の取得、利用及び管理の規制に関する施策の推進に関する法律案",
+          "issue_number": 2387,
+          "date": "2023-12-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15616",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 2388,
+          "date": "2023-12-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15617",
+          "bill_name": "新型コロナウイルス感染症対策検証委員会法案",
+          "issue_number": 2389,
+          "date": "2023-12-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15618",
+          "bill_name": "国会議員の歳費、旅費及び手当等に関する法律の一部を改正する法律案",
+          "issue_number": 2390,
+          "date": "2023-12-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15621",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2393,
+          "date": "2023-12-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 201
+        "neutral": 239
       }
     },
     "岡田憲治": {
       "party": "",
-      "speech_count": 224,
+      "speech_count": 227,
       "bills": [
         {
           "bill_id": "house_211_7800",
@@ -5378,17 +5690,41 @@
           "date": "2023-12-13",
           "meeting": "議院運営委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15594",
+          "bill_name": "インターネット投票の導入の推進に関する法律案",
+          "issue_number": 2366,
+          "date": "2023-12-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15595",
+          "bill_name": "国会議員の秘書の給与等に関する法律の一部を改正する法律案",
+          "issue_number": 2367,
+          "date": "2023-11-14",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15615",
+          "bill_name": "我が国の総合的な安全保障の確保を図るための土地等の取得、利用及び管理の規制に関する施策の推進に関する法律案",
+          "issue_number": 2387,
+          "date": "2023-12-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 224
+        "neutral": 227
       }
     },
     "尾辻秀久": {
       "party": "各派に属しない議員",
-      "speech_count": 232,
+      "speech_count": 233,
       "bills": [
         {
           "bill_id": "house_211_7806",
@@ -7245,12 +7581,20 @@
           "date": "2023-12-13",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15595",
+          "bill_name": "国会議員の秘書の給与等に関する法律の一部を改正する法律案",
+          "issue_number": 2367,
+          "date": "2023-11-17",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 232
+        "neutral": 233
       }
     },
     "古賀友一郎": {
@@ -7629,7 +7973,7 @@
     },
     "蓮舫": {
       "party": "立憲民主・社民",
-      "speech_count": 20,
+      "speech_count": 21,
       "bills": [
         {
           "bill_id": "house_211_7811",
@@ -7790,17 +8134,25 @@
           "date": "2023-11-29",
           "meeting": "文教科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15599",
+          "bill_name": "公文書等の管理に関する法律の一部を改正する法律案",
+          "issue_number": 2371,
+          "date": "2023-12-12",
+          "meeting": "文教科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 5,
-        "neutral": 15
+        "neutral": 16
       }
     },
     "木原稔": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 45,
+      "speech_count": 46,
       "bills": [
         {
           "bill_id": "house_211_7811",
@@ -8161,12 +8513,20 @@
           "date": "2023-12-07",
           "meeting": "外交防衛委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15562",
+          "bill_name": "政治資金規正法の一部を改正する法律案",
+          "issue_number": 2356,
+          "date": "2023-12-07",
+          "meeting": "外交防衛委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 45
+        "neutral": 46
       }
     },
     "岡野まさ子": {
@@ -8943,7 +9303,7 @@
     },
     "枝野幸男": {
       "party": "立憲民主党・無所属",
-      "speech_count": 6,
+      "speech_count": 7,
       "bills": [
         {
           "bill_id": "house_211_7811",
@@ -8992,12 +9352,20 @@
           "date": "2023-12-08",
           "meeting": "予算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15562",
+          "bill_name": "政治資金規正法の一部を改正する法律案",
+          "issue_number": 2356,
+          "date": "2023-12-08",
+          "meeting": "予算委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 6
+        "neutral": 7
       }
     },
     "伊藤渉": {
@@ -9304,7 +9672,7 @@
     },
     "小沢雅仁": {
       "party": "立憲民主・社民",
-      "speech_count": 21,
+      "speech_count": 22,
       "bills": [
         {
           "bill_id": "house_211_7811",
@@ -9473,12 +9841,20 @@
           "date": "2023-12-07",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15562",
+          "bill_name": "政治資金規正法の一部を改正する法律案",
+          "issue_number": 2356,
+          "date": "2023-12-07",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 3,
         "oppose": 3,
-        "neutral": 15
+        "neutral": 16
       }
     },
     "赤羽一嘉": {
@@ -11386,7 +11762,7 @@
     },
     "宮本徹": {
       "party": "日本共産党",
-      "speech_count": 6,
+      "speech_count": 11,
       "bills": [
         {
           "bill_id": "house_211_7813",
@@ -11435,12 +11811,52 @@
           "date": "2023-11-24",
           "meeting": "予算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15562",
+          "bill_name": "政治資金規正法の一部を改正する法律案",
+          "issue_number": 2356,
+          "date": "2023-11-24",
+          "meeting": "予算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15606",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2378,
+          "date": "2023-11-24",
+          "meeting": "本会議",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_212_15606",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2378,
+          "date": "2023-11-24",
+          "meeting": "予算委員会",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_212_15621",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2393,
+          "date": "2023-11-24",
+          "meeting": "本会議",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_212_15621",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2393,
+          "date": "2023-11-24",
+          "meeting": "予算委員会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 1,
-        "neutral": 5
+        "oppose": 5,
+        "neutral": 6
       }
     },
     "本多則惠": {
@@ -11889,7 +12305,7 @@
     },
     "田中健": {
       "party": "国民民主党・無所属クラブ",
-      "speech_count": 20,
+      "speech_count": 21,
       "bills": [
         {
           "bill_id": "house_211_7814",
@@ -12050,17 +12466,25 @@
           "date": "2023-11-24",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-11-24",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 3,
         "oppose": 4,
-        "neutral": 13
+        "neutral": 14
       }
     },
     "谷公一": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 64,
+      "speech_count": 69,
       "bills": [
         {
           "bill_id": "house_211_7814",
@@ -12573,12 +12997,52 @@
           "date": "2023-12-13",
           "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15585",
+          "bill_name": "副首都機能の整備の推進に関する法律案",
+          "issue_number": 2357,
+          "date": "2023-12-13",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15586",
+          "bill_name": "低所得である子育て世帯に対する緊急の支援に関する法律案",
+          "issue_number": 2358,
+          "date": "2023-12-13",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15587",
+          "bill_name": "特定教育・保育施設における保育教諭等の配置の充実のための措置に関する法律案",
+          "issue_number": 2359,
+          "date": "2023-12-13",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15592",
+          "bill_name": "児童虐待の防止等に関する法律の一部を改正する法律案",
+          "issue_number": 2364,
+          "date": "2023-12-13",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15609",
+          "bill_name": "保護者等による自動車内への子ども等の置き去りの防止に関する法律案",
+          "issue_number": 2381,
+          "date": "2023-12-13",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 64
+        "neutral": 69
       }
     },
     "野田国義": {
@@ -13205,7 +13669,7 @@
     },
     "小山展弘": {
       "party": "立憲民主党・無所属",
-      "speech_count": 7,
+      "speech_count": 8,
       "bills": [
         {
           "bill_id": "house_211_7815",
@@ -13262,11 +13726,19 @@
           "date": "2023-11-24",
           "meeting": "本会議",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_212_15562",
+          "bill_name": "政治資金規正法の一部を改正する法律案",
+          "issue_number": 2356,
+          "date": "2023-11-24",
+          "meeting": "本会議",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 1,
+        "oppose": 2,
         "neutral": 6
       }
     },
@@ -14911,7 +15383,7 @@
     },
     "清水貴之": {
       "party": "日本維新の会",
-      "speech_count": 30,
+      "speech_count": 35,
       "bills": [
         {
           "bill_id": "house_211_7845",
@@ -15152,12 +15624,52 @@
           "date": "2023-11-09",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-12-13",
+          "meeting": "本会議",
+          "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-12-12",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-12-07",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15606",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2378,
+          "date": "2023-11-28",
+          "meeting": "予算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15621",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2393,
+          "date": "2023-11-28",
+          "meeting": "予算委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
-        "support": 12,
+        "support": 13,
         "oppose": 1,
-        "neutral": 17
+        "neutral": 21
       }
     },
     "佐々木紀": {
@@ -15237,7 +15749,7 @@
     },
     "仁比聡平": {
       "party": "日本共産党",
-      "speech_count": 24,
+      "speech_count": 25,
       "bills": [
         {
           "bill_id": "house_211_7846",
@@ -15430,12 +15942,20 @@
           "date": "2023-12-12",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-12-12",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 5,
         "oppose": 4,
-        "neutral": 15
+        "neutral": 16
       }
     },
     "鈴木千明": {
@@ -15753,7 +16273,7 @@
     },
     "古屋範子": {
       "party": "公明党",
-      "speech_count": 44,
+      "speech_count": 46,
       "bills": [
         {
           "bill_id": "house_211_7862",
@@ -16106,12 +16626,28 @@
           "date": "2023-12-13",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15613",
+          "bill_name": "地方公務員法等の一部を改正する法律案",
+          "issue_number": 2385,
+          "date": "2023-12-13",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15614",
+          "bill_name": "地方公務員の労働関係に関する法律案",
+          "issue_number": 2386,
+          "date": "2023-12-13",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 3,
         "oppose": 0,
-        "neutral": 41
+        "neutral": 43
       }
     },
     "柴愼一": {
@@ -17308,7 +17844,7 @@
     },
     "本庄知史": {
       "party": "立憲民主党・無所属",
-      "speech_count": 9,
+      "speech_count": 10,
       "bills": [
         {
           "bill_id": "house_211_7863",
@@ -17381,12 +17917,20 @@
           "date": "2025-03-04",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-11-21",
+          "meeting": "予算委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 1,
         "oppose": 0,
-        "neutral": 8
+        "neutral": 9
       }
     },
     "阿達雅志": {
@@ -17834,7 +18378,7 @@
     },
     "鈴木俊一": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 96,
+      "speech_count": 108,
       "bills": [
         {
           "bill_id": "house_211_7863",
@@ -18603,12 +19147,108 @@
           "date": "2023-11-01",
           "meeting": "財務金融委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15606",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2378,
+          "date": "2023-12-11",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15606",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2378,
+          "date": "2023-12-11",
+          "meeting": "決算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15606",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2378,
+          "date": "2023-12-07",
+          "meeting": "決算行政監視委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15606",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2378,
+          "date": "2023-11-27",
+          "meeting": "予算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15606",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2378,
+          "date": "2023-11-20",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15606",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2378,
+          "date": "2023-11-08",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15606",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2378,
+          "date": "2023-10-30",
+          "meeting": "予算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15621",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2393,
+          "date": "2023-12-11",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15621",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2393,
+          "date": "2023-12-11",
+          "meeting": "決算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15621",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2393,
+          "date": "2023-12-07",
+          "meeting": "決算行政監視委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15621",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2393,
+          "date": "2023-11-27",
+          "meeting": "予算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15621",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2393,
+          "date": "2023-11-20",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 14,
-        "neutral": 82
+        "neutral": 94
       }
     },
     "浅田均": {
@@ -19183,7 +19823,7 @@
     },
     "米山隆一": {
       "party": "立憲民主党・無所属",
-      "speech_count": 47,
+      "speech_count": 49,
       "bills": [
         {
           "bill_id": "house_211_7863",
@@ -19560,12 +20200,28 @@
           "date": "2023-11-17",
           "meeting": "財務金融委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15596",
+          "bill_name": "国家公務員法の一部を改正する法律案",
+          "issue_number": 2368,
+          "date": "2023-11-10",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15596",
+          "bill_name": "国家公務員法の一部を改正する法律案",
+          "issue_number": 2368,
+          "date": "2023-11-08",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 3,
-        "neutral": 44
+        "neutral": 46
       }
     },
     "前原誠司": {
@@ -20099,7 +20755,7 @@
     },
     "住吉寛紀": {
       "party": "日本維新の会",
-      "speech_count": 24,
+      "speech_count": 26,
       "bills": [
         {
           "bill_id": "house_211_7863",
@@ -20292,12 +20948,28 @@
           "date": "2024-04-05",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15585",
+          "bill_name": "副首都機能の整備の推進に関する法律案",
+          "issue_number": 2357,
+          "date": "2023-11-08",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15606",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2378,
+          "date": "2023-11-17",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 2,
         "oppose": 2,
-        "neutral": 20
+        "neutral": 22
       }
     },
     "石井拓": {
@@ -22128,7 +22800,7 @@
     },
     "徳永エリ": {
       "party": "立憲民主・社民",
-      "speech_count": 14,
+      "speech_count": 16,
       "bills": [
         {
           "bill_id": "house_211_7867",
@@ -22241,12 +22913,28 @@
           "date": "2023-10-31",
           "meeting": "予算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15562",
+          "bill_name": "政治資金規正法の一部を改正する法律案",
+          "issue_number": 2356,
+          "date": "2023-12-11",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15606",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2378,
+          "date": "2023-11-09",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 14
+        "neutral": 16
       }
     },
     "野村哲郎": {
@@ -22369,7 +23057,7 @@
     },
     "山田勝彦": {
       "party": "立憲民主党・無所属",
-      "speech_count": 11,
+      "speech_count": 12,
       "bills": [
         {
           "bill_id": "house_211_7867",
@@ -22458,12 +23146,20 @@
           "date": "2023-12-01",
           "meeting": "法務委員会文部科学委員会消費者問題に関する特別委員会連合審査会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-12-01",
+          "meeting": "法務委員会文部科学委員会消費者問題に関する特別委員会連合審査会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 2,
-        "neutral": 9
+        "neutral": 10
       }
     },
     "鈴木英敬": {
@@ -22519,7 +23215,7 @@
     },
     "水野素子": {
       "party": "立憲民主・社民",
-      "speech_count": 17,
+      "speech_count": 21,
       "bills": [
         {
           "bill_id": "house_211_7868",
@@ -22656,11 +23352,43 @@
           "date": "2023-11-29",
           "meeting": "文教科学委員会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_212_15606",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2378,
+          "date": "2023-11-29",
+          "meeting": "本会議",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_212_15606",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2378,
+          "date": "2023-11-29",
+          "meeting": "文教科学委員会",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_212_15621",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2393,
+          "date": "2023-11-29",
+          "meeting": "本会議",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_212_15621",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2393,
+          "date": "2023-11-29",
+          "meeting": "文教科学委員会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 4,
+        "oppose": 8,
         "neutral": 13
       }
     },
@@ -23775,7 +24503,7 @@
     },
     "上田清司": {
       "party": "国民民主党・新緑風会",
-      "speech_count": 27,
+      "speech_count": 29,
       "bills": [
         {
           "bill_id": "house_211_7868",
@@ -23992,11 +24720,27 @@
           "date": "2025-06-10",
           "meeting": "財政金融委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15606",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2378,
+          "date": "2023-12-11",
+          "meeting": "本会議",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_212_15621",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2393,
+          "date": "2023-12-11",
+          "meeting": "本会議",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 9,
-        "oppose": 8,
+        "oppose": 10,
         "neutral": 10
       }
     },
@@ -24275,7 +25019,7 @@
     },
     "太栄志": {
       "party": "立憲民主党・無所属",
-      "speech_count": 11,
+      "speech_count": 14,
       "bills": [
         {
           "bill_id": "house_211_7868",
@@ -24364,17 +25108,41 @@
           "date": "2023-12-12",
           "meeting": "本会議",
           "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_212_15562",
+          "bill_name": "政治資金規正法の一部を改正する法律案",
+          "issue_number": 2356,
+          "date": "2023-12-12",
+          "meeting": "本会議",
+          "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_212_15608",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 2380,
+          "date": "2023-12-04",
+          "meeting": "北朝鮮による拉致問題等に関する特別委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15616",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 2388,
+          "date": "2023-12-04",
+          "meeting": "北朝鮮による拉致問題等に関する特別委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
-        "support": 1,
+        "support": 2,
         "oppose": 2,
-        "neutral": 8
+        "neutral": 10
       }
     },
     "阿部司": {
       "party": "日本維新の会",
-      "speech_count": 29,
+      "speech_count": 30,
       "bills": [
         {
           "bill_id": "house_211_7868",
@@ -24607,12 +25375,20 @@
           "date": "2023-11-17",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15596",
+          "bill_name": "国家公務員法の一部を改正する法律案",
+          "issue_number": 2368,
+          "date": "2023-11-10",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 4,
-        "neutral": 25
+        "neutral": 26
       }
     },
     "土田慎": {
@@ -24826,7 +25602,7 @@
     },
     "田野瀬太道": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 32,
+      "speech_count": 35,
       "bills": [
         {
           "bill_id": "house_211_7868",
@@ -25083,17 +25859,41 @@
           "date": "2023-12-13",
           "meeting": "文部科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15591",
+          "bill_name": "学校給食法の一部を改正する法律案",
+          "issue_number": 2363,
+          "date": "2023-12-13",
+          "meeting": "文部科学委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15593",
+          "bill_name": "公立学校働き方改革の推進に関する法律案",
+          "issue_number": 2365,
+          "date": "2023-12-13",
+          "meeting": "文部科学委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-12-13",
+          "meeting": "文部科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 1,
         "oppose": 0,
-        "neutral": 31
+        "neutral": 34
       }
     },
     "河西宏一": {
       "party": "公明党",
-      "speech_count": 11,
+      "speech_count": 13,
       "bills": [
         {
           "bill_id": "house_211_7868",
@@ -25182,12 +25982,28 @@
           "date": "2025-06-12",
           "meeting": "憲法審査会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_212_15608",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 2380,
+          "date": "2023-11-30",
+          "meeting": "憲法審査会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15616",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 2388,
+          "date": "2023-11-30",
+          "meeting": "憲法審査会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 1,
         "oppose": 4,
-        "neutral": 6
+        "neutral": 8
       }
     },
     "古賀之士": {
@@ -25739,7 +26555,7 @@
     },
     "岡本あき子": {
       "party": "立憲民主党・無所属",
-      "speech_count": 5,
+      "speech_count": 6,
       "bills": [
         {
           "bill_id": "house_211_7869",
@@ -25780,12 +26596,20 @@
           "date": "2023-12-07",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15562",
+          "bill_name": "政治資金規正法の一部を改正する法律案",
+          "issue_number": 2356,
+          "date": "2023-12-07",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 5
+        "neutral": 6
       }
     },
     "鎌田さゆり": {
@@ -26304,7 +27128,7 @@
     },
     "岸田文雄": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 24,
+      "speech_count": 35,
       "bills": [
         {
           "bill_id": "house_211_7869",
@@ -26497,12 +27321,100 @@
           "date": "2023-10-27",
           "meeting": "予算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15562",
+          "bill_name": "政治資金規正法の一部を改正する法律案",
+          "issue_number": 2356,
+          "date": "2023-12-08",
+          "meeting": "予算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15562",
+          "bill_name": "政治資金規正法の一部を改正する法律案",
+          "issue_number": 2356,
+          "date": "2023-11-28",
+          "meeting": "予算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-10-23",
+          "meeting": "本会議",
+          "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_212_15606",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2378,
+          "date": "2023-12-11",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15606",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2378,
+          "date": "2023-11-27",
+          "meeting": "予算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15606",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2378,
+          "date": "2023-11-20",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15608",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 2380,
+          "date": "2023-11-01",
+          "meeting": "予算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15616",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 2388,
+          "date": "2023-11-01",
+          "meeting": "予算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15621",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2393,
+          "date": "2023-12-11",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15621",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2393,
+          "date": "2023-11-27",
+          "meeting": "予算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15621",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2393,
+          "date": "2023-11-20",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
-        "support": 1,
+        "support": 2,
         "oppose": 1,
-        "neutral": 22
+        "neutral": 32
       }
     },
     "河野義博": {
@@ -28454,7 +29366,7 @@
     },
     "守島正": {
       "party": "日本維新の会",
-      "speech_count": 11,
+      "speech_count": 13,
       "bills": [
         {
           "bill_id": "house_211_7870",
@@ -28543,10 +29455,26 @@
           "date": "2023-11-24",
           "meeting": "予算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15606",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2378,
+          "date": "2023-11-24",
+          "meeting": "予算委員会",
+          "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_212_15621",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2393,
+          "date": "2023-11-24",
+          "meeting": "予算委員会",
+          "stance": "賛成"
         }
       ],
       "stance_summary": {
-        "support": 4,
+        "support": 6,
         "oppose": 0,
         "neutral": 7
       }
@@ -28935,7 +29863,7 @@
     },
     "神谷裕": {
       "party": "立憲民主党・無所属",
-      "speech_count": 8,
+      "speech_count": 9,
       "bills": [
         {
           "bill_id": "house_211_7870",
@@ -29000,17 +29928,25 @@
           "date": "2023-12-11",
           "meeting": "沖縄及び北方問題に関する特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15562",
+          "bill_name": "政治資金規正法の一部を改正する法律案",
+          "issue_number": 2356,
+          "date": "2023-12-11",
+          "meeting": "沖縄及び北方問題に関する特別委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 1,
-        "neutral": 7
+        "neutral": 8
       }
     },
     "西岡秀子": {
       "party": "国民民主党・無所属クラブ",
-      "speech_count": 25,
+      "speech_count": 27,
       "bills": [
         {
           "bill_id": "house_211_7870",
@@ -29211,11 +30147,27 @@
           "date": "2023-11-15",
           "meeting": "文部科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15606",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2378,
+          "date": "2023-11-20",
+          "meeting": "本会議",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_212_15621",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2393,
+          "date": "2023-11-20",
+          "meeting": "本会議",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 3,
-        "oppose": 2,
+        "oppose": 4,
         "neutral": 20
       }
     },
@@ -30578,7 +31530,7 @@
     },
     "鈴木宗男": {
       "party": "各派に属しない議員",
-      "speech_count": 10,
+      "speech_count": 11,
       "bills": [
         {
           "bill_id": "house_211_7872",
@@ -30659,12 +31611,20 @@
           "date": "2023-12-12",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15562",
+          "bill_name": "政治資金規正法の一部を改正する法律案",
+          "issue_number": 2356,
+          "date": "2023-12-12",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 10
+        "neutral": 11
       }
     },
     "牧山ひろえ": {
@@ -32552,7 +33512,7 @@
     },
     "吉川沙織": {
       "party": "立憲民主・社民",
-      "speech_count": 38,
+      "speech_count": 42,
       "bills": [
         {
           "bill_id": "house_211_7874",
@@ -32857,12 +33817,44 @@
           "date": "2023-11-09",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15608",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 2380,
+          "date": "2023-12-05",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15608",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 2380,
+          "date": "2023-11-09",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15616",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 2388,
+          "date": "2023-12-05",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15616",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 2388,
+          "date": "2023-11-09",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 1,
         "oppose": 4,
-        "neutral": 33
+        "neutral": 37
       }
     },
     "猪瀬直樹": {
@@ -35481,7 +36473,7 @@
     },
     "田村まみ": {
       "party": "国民民主党・新緑風会",
-      "speech_count": 22,
+      "speech_count": 24,
       "bills": [
         {
           "bill_id": "house_211_7879",
@@ -35658,12 +36650,28 @@
           "date": "2023-11-13",
           "meeting": "行政監視委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15591",
+          "bill_name": "学校給食法の一部を改正する法律案",
+          "issue_number": 2363,
+          "date": "2023-11-13",
+          "meeting": "行政監視委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-12-12",
+          "meeting": "法務委員会、文教科学委員会連合審査会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 1,
         "oppose": 3,
-        "neutral": 18
+        "neutral": 20
       }
     },
     "井上隆": {
@@ -35732,8 +36740,8 @@
       }
     },
     "高木真理": {
-      "party": "立憲民主・社民・無所属",
-      "speech_count": 9,
+      "party": "立憲民主・社民",
+      "speech_count": 11,
       "bills": [
         {
           "bill_id": "house_211_7879",
@@ -35806,11 +36814,27 @@
           "date": "2025-06-13",
           "meeting": "本会議",
           "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_212_15606",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2378,
+          "date": "2023-11-29",
+          "meeting": "予算委員会",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_212_15621",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2393,
+          "date": "2023-11-29",
+          "meeting": "予算委員会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 2,
-        "oppose": 0,
+        "oppose": 2,
         "neutral": 7
       }
     },
@@ -35859,7 +36883,7 @@
     },
     "中島克仁": {
       "party": "立憲民主党・無所属",
-      "speech_count": 16,
+      "speech_count": 17,
       "bills": [
         {
           "bill_id": "house_211_7879",
@@ -35988,17 +37012,25 @@
           "date": "2023-12-06",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15562",
+          "bill_name": "政治資金規正法の一部を改正する法律案",
+          "issue_number": 2356,
+          "date": "2023-12-06",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 4,
-        "neutral": 12
+        "neutral": 13
       }
     },
     "田畑裕明": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 13,
+      "speech_count": 16,
       "bills": [
         {
           "bill_id": "house_211_7879",
@@ -36103,12 +37135,36 @@
           "date": "2023-12-13",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15588",
+          "bill_name": "短時間労働者及び有期雇用労働者の雇用管理の改善等に関する法律等の一部を改正する法律案",
+          "issue_number": 2360,
+          "date": "2023-12-13",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15601",
+          "bill_name": "新型コロナウイルス感染症の罹患後症状に係る対策の推進に関する法律案",
+          "issue_number": 2373,
+          "date": "2023-12-13",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15602",
+          "bill_name": "新型コロナウイルス感染症に係る予防接種による健康被害の救済等に係る措置に関する法律案",
+          "issue_number": 2374,
+          "date": "2023-12-13",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 1,
         "oppose": 0,
-        "neutral": 12
+        "neutral": 15
       }
     },
     "小川淳也": {
@@ -36562,7 +37618,7 @@
     },
     "池下卓": {
       "party": "日本維新の会",
-      "speech_count": 45,
+      "speech_count": 46,
       "bills": [
         {
           "bill_id": "house_211_7879",
@@ -36923,10 +37979,18 @@
           "date": "2023-12-05",
           "meeting": "法務委員会",
           "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-12-05",
+          "meeting": "法務委員会",
+          "stance": "賛成"
         }
       ],
       "stance_summary": {
-        "support": 6,
+        "support": 7,
         "oppose": 7,
         "neutral": 32
       }
@@ -37115,7 +38179,7 @@
     },
     "田村智子": {
       "party": "日本共産党",
-      "speech_count": 15,
+      "speech_count": 16,
       "bills": [
         {
           "bill_id": "house_211_7880",
@@ -37236,12 +38300,20 @@
           "date": "2023-11-28",
           "meeting": "予算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15562",
+          "bill_name": "政治資金規正法の一部を改正する法律案",
+          "issue_number": 2356,
+          "date": "2023-11-28",
+          "meeting": "予算委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 2,
-        "neutral": 13
+        "neutral": 14
       }
     },
     "三上えり": {
@@ -37591,7 +38663,7 @@
     },
     "神津たけし": {
       "party": "立憲民主党・無所属",
-      "speech_count": 9,
+      "speech_count": 10,
       "bills": [
         {
           "bill_id": "house_211_7880",
@@ -37664,10 +38736,18 @@
           "date": "2023-12-13",
           "meeting": "本会議",
           "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_212_15562",
+          "bill_name": "政治資金規正法の一部を改正する法律案",
+          "issue_number": 2356,
+          "date": "2023-12-13",
+          "meeting": "本会議",
+          "stance": "賛成"
         }
       ],
       "stance_summary": {
-        "support": 1,
+        "support": 2,
         "oppose": 3,
         "neutral": 5
       }
@@ -37725,7 +38805,7 @@
     },
     "一谷勇一郎": {
       "party": "日本維新の会",
-      "speech_count": 6,
+      "speech_count": 7,
       "bills": [
         {
           "bill_id": "house_211_7880",
@@ -37774,12 +38854,20 @@
           "date": "2023-10-30",
           "meeting": "予算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-10-30",
+          "meeting": "予算委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 1,
         "oppose": 1,
-        "neutral": 4
+        "neutral": 5
       }
     },
     "足立敏之": {
@@ -40466,7 +41554,7 @@
     },
     "小西洋之": {
       "party": "立憲民主・社民",
-      "speech_count": 36,
+      "speech_count": 41,
       "bills": [
         {
           "bill_id": "house_211_7882",
@@ -40755,12 +41843,52 @@
           "date": "2023-12-07",
           "meeting": "外交防衛委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15562",
+          "bill_name": "政治資金規正法の一部を改正する法律案",
+          "issue_number": 2356,
+          "date": "2023-12-07",
+          "meeting": "外交防衛委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15606",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2378,
+          "date": "2023-11-30",
+          "meeting": "外交防衛委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15608",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 2380,
+          "date": "2023-12-06",
+          "meeting": "憲法審査会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15616",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 2388,
+          "date": "2023-12-06",
+          "meeting": "憲法審査会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15621",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2393,
+          "date": "2023-11-30",
+          "meeting": "外交防衛委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 36
+        "neutral": 41
       }
     },
     "重徳和彦": {
@@ -40891,7 +42019,7 @@
     },
     "源馬謙太郎": {
       "party": "立憲民主党・無所属",
-      "speech_count": 2,
+      "speech_count": 4,
       "bills": [
         {
           "bill_id": "house_211_7882",
@@ -40908,12 +42036,28 @@
           "date": "2023-05-10",
           "meeting": "外務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15606",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2378,
+          "date": "2023-11-24",
+          "meeting": "予算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15621",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2393,
+          "date": "2023-11-24",
+          "meeting": "予算委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 2
+        "neutral": 4
       }
     },
     "赤嶺政賢": {
@@ -41100,7 +42244,7 @@
     },
     "熊谷裕人": {
       "party": "立憲民主・社民",
-      "speech_count": 27,
+      "speech_count": 31,
       "bills": [
         {
           "bill_id": "house_211_7883",
@@ -41317,12 +42461,44 @@
           "date": "2023-11-16",
           "meeting": "財政金融委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15606",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2378,
+          "date": "2023-11-20",
+          "meeting": "本会議",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_212_15608",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 2380,
+          "date": "2023-12-06",
+          "meeting": "憲法審査会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15616",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 2388,
+          "date": "2023-12-06",
+          "meeting": "憲法審査会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15621",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2393,
+          "date": "2023-11-20",
+          "meeting": "本会議",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 7,
-        "neutral": 20
+        "oppose": 9,
+        "neutral": 22
       }
     },
     "三木圭恵": {
@@ -42061,7 +43237,7 @@
     },
     "井野俊郎": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 22,
+      "speech_count": 23,
       "bills": [
         {
           "bill_id": "house_211_7883",
@@ -42238,12 +43414,20 @@
           "date": "2023-11-24",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15595",
+          "bill_name": "国会議員の秘書の給与等に関する法律の一部を改正する法律案",
+          "issue_number": 2367,
+          "date": "2023-11-14",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 6,
         "oppose": 0,
-        "neutral": 16
+        "neutral": 17
       }
     },
     "高橋克法": {
@@ -42582,7 +43766,7 @@
     },
     "宮口治子": {
       "party": "立憲民主・社民",
-      "speech_count": 12,
+      "speech_count": 13,
       "bills": [
         {
           "bill_id": "house_211_7884",
@@ -42679,11 +43863,19 @@
           "date": "2023-12-01",
           "meeting": "本会議",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_212_15562",
+          "bill_name": "政治資金規正法の一部を改正する法律案",
+          "issue_number": 2356,
+          "date": "2023-12-01",
+          "meeting": "本会議",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 5,
+        "oppose": 6,
         "neutral": 7
       }
     },
@@ -43870,7 +45062,7 @@
     },
     "森山浩行": {
       "party": "立憲民主党・無所属",
-      "speech_count": 17,
+      "speech_count": 19,
       "bills": [
         {
           "bill_id": "house_211_7884",
@@ -44007,12 +45199,28 @@
           "date": "2023-11-24",
           "meeting": "文部科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15606",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2378,
+          "date": "2023-11-24",
+          "meeting": "予算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15621",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2393,
+          "date": "2023-11-24",
+          "meeting": "予算委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 17
+        "neutral": 19
       }
     },
     "鰐淵洋子": {
@@ -44194,7 +45402,7 @@
     },
     "伊藤孝恵": {
       "party": "国民民主党・新緑風会",
-      "speech_count": 5,
+      "speech_count": 10,
       "bills": [
         {
           "bill_id": "house_211_7884",
@@ -44235,11 +45443,51 @@
           "date": "2024-03-22",
           "meeting": "文教科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15606",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2378,
+          "date": "2023-11-29",
+          "meeting": "本会議",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_212_15606",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2378,
+          "date": "2023-11-29",
+          "meeting": "予算委員会",
+          "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_212_15606",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2378,
+          "date": "2023-11-20",
+          "meeting": "本会議",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_212_15621",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2393,
+          "date": "2023-11-29",
+          "meeting": "本会議",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_212_15621",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2393,
+          "date": "2023-11-29",
+          "meeting": "予算委員会",
+          "stance": "賛成"
         }
       ],
       "stance_summary": {
-        "support": 0,
-        "oppose": 0,
+        "support": 2,
+        "oppose": 3,
         "neutral": 5
       }
     },
@@ -44541,8 +45789,8 @@
       }
     },
     "小沼巧": {
-      "party": "立憲民主・社民・無所属",
-      "speech_count": 21,
+      "party": "立憲民主・社民",
+      "speech_count": 23,
       "bills": [
         {
           "bill_id": "house_211_7886",
@@ -44711,12 +45959,28 @@
           "date": "2025-06-03",
           "meeting": "国土交通委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15606",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2378,
+          "date": "2023-11-27",
+          "meeting": "予算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15621",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2393,
+          "date": "2023-11-27",
+          "meeting": "予算委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 21
+        "neutral": 23
       }
     },
     "塩村あやか": {
@@ -44986,7 +46250,7 @@
     },
     "井上哲士": {
       "party": "日本共産党",
-      "speech_count": 38,
+      "speech_count": 39,
       "bills": [
         {
           "bill_id": "house_211_7886",
@@ -45291,17 +46555,25 @@
           "date": "2023-11-09",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15562",
+          "bill_name": "政治資金規正法の一部を改正する法律案",
+          "issue_number": 2356,
+          "date": "2023-12-05",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 14,
-        "neutral": 24
+        "neutral": 25
       }
     },
     "浅野哲": {
       "party": "国民民主党・無所属クラブ",
-      "speech_count": 25,
+      "speech_count": 26,
       "bills": [
         {
           "bill_id": "house_211_7886",
@@ -45502,10 +46774,18 @@
           "date": "2023-12-13",
           "meeting": "本会議",
           "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_212_15562",
+          "bill_name": "政治資金規正法の一部を改正する法律案",
+          "issue_number": 2356,
+          "date": "2023-12-13",
+          "meeting": "本会議",
+          "stance": "賛成"
         }
       ],
       "stance_summary": {
-        "support": 4,
+        "support": 5,
         "oppose": 2,
         "neutral": 19
       }
@@ -45531,7 +46811,7 @@
     },
     "小倉將信": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 11,
+      "speech_count": 14,
       "bills": [
         {
           "bill_id": "house_211_7887",
@@ -45620,12 +46900,36 @@
           "date": "2023-12-01",
           "meeting": "法務委員会文部科学委員会消費者問題に関する特別委員会連合審査会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-12-07",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-12-01",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-12-01",
+          "meeting": "法務委員会文部科学委員会消費者問題に関する特別委員会連合審査会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 11
+        "neutral": 14
       }
     },
     "金子修": {
@@ -46296,7 +47600,7 @@
     },
     "鈴木淳司": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 28,
+      "speech_count": 29,
       "bills": [
         {
           "bill_id": "house_211_7889",
@@ -46521,17 +47825,25 @@
           "date": "2023-10-30",
           "meeting": "予算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15562",
+          "bill_name": "政治資金規正法の一部を改正する法律案",
+          "issue_number": 2356,
+          "date": "2023-12-07",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 28
+        "neutral": 29
       }
     },
     "星野剛士": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 76,
+      "speech_count": 77,
       "bills": [
         {
           "bill_id": "house_211_7889",
@@ -47140,12 +48452,20 @@
           "date": "2023-12-13",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15615",
+          "bill_name": "我が国の総合的な安全保障の確保を図るための土地等の取得、利用及び管理の規制に関する施策の推進に関する法律案",
+          "issue_number": 2387,
+          "date": "2023-12-13",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 2,
         "oppose": 0,
-        "neutral": 74
+        "neutral": 75
       }
     },
     "古賀篤": {
@@ -47209,7 +48529,7 @@
     },
     "高市早苗": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 16,
+      "speech_count": 18,
       "bills": [
         {
           "bill_id": "house_211_7889",
@@ -47338,12 +48658,28 @@
           "date": "2025-06-05",
           "meeting": "憲法審査会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15608",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 2380,
+          "date": "2023-11-16",
+          "meeting": "情報監視審査会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15616",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 2388,
+          "date": "2023-11-16",
+          "meeting": "情報監視審査会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 16
+        "neutral": 18
       }
     },
     "岩田和親": {
@@ -48165,7 +49501,7 @@
     },
     "川合孝典": {
       "party": "国民民主党・新緑風会",
-      "speech_count": 12,
+      "speech_count": 13,
       "bills": [
         {
           "bill_id": "house_211_7891",
@@ -48262,12 +49598,20 @@
           "date": "2023-12-12",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-12-12",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 1,
-        "neutral": 11
+        "neutral": 12
       }
     },
     "田中昌史": {
@@ -48607,7 +49951,7 @@
     },
     "鈴木義弘": {
       "party": "国民民主党・無所属クラブ",
-      "speech_count": 3,
+      "speech_count": 5,
       "bills": [
         {
           "bill_id": "house_211_7891",
@@ -48632,17 +49976,33 @@
           "date": "2023-12-01",
           "meeting": "法務委員会文部科学委員会消費者問題に関する特別委員会連合審査会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-12-01",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-12-01",
+          "meeting": "法務委員会文部科学委員会消費者問題に関する特別委員会連合審査会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 3
+        "neutral": 5
       }
     },
     "山下貴司": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 23,
+      "speech_count": 29,
       "bills": [
         {
           "bill_id": "house_211_7891",
@@ -48827,17 +50187,65 @@
           "date": "2023-11-24",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-12-12",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-12-12",
+          "meeting": "法務委員会、文教科学委員会連合審査会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-12-07",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-12-01",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-12-01",
+          "meeting": "法務委員会文部科学委員会消費者問題に関する特別委員会連合審査会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-11-24",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 23
+        "neutral": 29
       }
     },
     "大口善徳": {
       "party": "公明党",
-      "speech_count": 4,
+      "speech_count": 6,
       "bills": [
         {
           "bill_id": "house_211_7891",
@@ -48870,12 +50278,28 @@
           "date": "2023-11-24",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-12-01",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-11-24",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 4
+        "neutral": 6
       }
     },
     "吉田宣弘": {
@@ -49400,7 +50824,7 @@
     },
     "國重徹": {
       "party": "公明党",
-      "speech_count": 6,
+      "speech_count": 9,
       "bills": [
         {
           "bill_id": "house_211_7899",
@@ -49449,17 +50873,41 @@
           "date": "2023-11-24",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-12-01",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-12-01",
+          "meeting": "法務委員会文部科学委員会消費者問題に関する特別委員会連合審査会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-11-24",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 6
+        "neutral": 9
       }
     },
     "塩川鉄也": {
       "party": "日本共産党",
-      "speech_count": 46,
+      "speech_count": 47,
       "bills": [
         {
           "bill_id": "house_211_7899",
@@ -49828,11 +51276,19 @@
           "date": "2023-11-17",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15596",
+          "bill_name": "国家公務員法の一部を改正する法律案",
+          "issue_number": 2368,
+          "date": "2023-11-10",
+          "meeting": "内閣委員会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 10,
+        "oppose": 11,
         "neutral": 36
       }
     },
@@ -49999,7 +51455,7 @@
     },
     "堀場幸子": {
       "party": "日本維新の会",
-      "speech_count": 8,
+      "speech_count": 10,
       "bills": [
         {
           "bill_id": "house_211_7899",
@@ -50064,12 +51520,28 @@
           "date": "2023-11-24",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-11-24",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-11-08",
+          "meeting": "文部科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 2,
-        "neutral": 6
+        "neutral": 8
       }
     },
     "福重隆浩": {
@@ -50730,7 +52202,7 @@
     },
     "稲富修二": {
       "party": "立憲民主党・無所属",
-      "speech_count": 2,
+      "speech_count": 4,
       "bills": [
         {
           "bill_id": "house_211_7901",
@@ -50747,12 +52219,28 @@
           "date": "2023-12-12",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15562",
+          "bill_name": "政治資金規正法の一部を改正する法律案",
+          "issue_number": 2356,
+          "date": "2023-12-12",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15596",
+          "bill_name": "国家公務員法の一部を改正する法律案",
+          "issue_number": 2368,
+          "date": "2023-11-10",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 2
+        "neutral": 4
       }
     },
     "下条みつ": {
@@ -52209,7 +53697,7 @@
     },
     "今枝宗一郎": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 5,
+      "speech_count": 7,
       "bills": [
         {
           "bill_id": "house_211_7910",
@@ -52250,17 +53738,33 @@
           "date": "2023-12-07",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-12-12",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-12-07",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 2,
-        "neutral": 3
+        "neutral": 5
       }
     },
     "石川大我": {
-      "party": "立憲民主・社民・無所属",
-      "speech_count": 19,
+      "party": "立憲民主・社民",
+      "speech_count": 21,
       "bills": [
         {
           "bill_id": "house_211_7911",
@@ -52413,17 +53917,33 @@
           "date": "2025-05-28",
           "meeting": "本会議",
           "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_212_15608",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 2380,
+          "date": "2023-11-15",
+          "meeting": "憲法審査会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15616",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 2388,
+          "date": "2023-11-15",
+          "meeting": "憲法審査会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 3,
         "oppose": 2,
-        "neutral": 14
+        "neutral": 16
       }
     },
     "石橋通宏": {
       "party": "立憲民主・社民",
-      "speech_count": 7,
+      "speech_count": 10,
       "bills": [
         {
           "bill_id": "house_211_7911",
@@ -52480,12 +54000,36 @@
           "date": "2023-11-27",
           "meeting": "予算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15562",
+          "bill_name": "政治資金規正法の一部を改正する法律案",
+          "issue_number": 2356,
+          "date": "2023-12-08",
+          "meeting": "予算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15562",
+          "bill_name": "政治資金規正法の一部を改正する法律案",
+          "issue_number": 2356,
+          "date": "2023-11-27",
+          "meeting": "予算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-12-12",
+          "meeting": "法務委員会、文教科学委員会連合審査会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 7
+        "neutral": 10
       }
     },
     "日下正喜": {
@@ -53129,7 +54673,7 @@
     },
     "斎藤嘉隆": {
       "party": "立憲民主・社民",
-      "speech_count": 1,
+      "speech_count": 2,
       "bills": [
         {
           "bill_id": "councillors_211_15302",
@@ -53138,12 +54682,20 @@
           "date": "2023-05-16",
           "meeting": "文教科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-11-16",
+          "meeting": "文教科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 1
+        "neutral": 2
       }
     },
     "青山大人": {
@@ -54831,7 +56383,7 @@
     },
     "自見はなこ": {
       "party": "自由民主党",
-      "speech_count": 35,
+      "speech_count": 37,
       "bills": [
         {
           "bill_id": "councillors_211_15315",
@@ -55112,12 +56664,28 @@
           "date": "2023-12-08",
           "meeting": "予算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15562",
+          "bill_name": "政治資金規正法の一部を改正する法律案",
+          "issue_number": 2356,
+          "date": "2023-12-08",
+          "meeting": "予算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15613",
+          "bill_name": "地方公務員法等の一部を改正する法律案",
+          "issue_number": 2385,
+          "date": "2023-10-30",
+          "meeting": "予算委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 35
+        "neutral": 37
       }
     },
     "串田誠一": {
@@ -55627,7 +57195,7 @@
     },
     "西村智奈美": {
       "party": "立憲民主党・無所属",
-      "speech_count": 67,
+      "speech_count": 70,
       "bills": [
         {
           "bill_id": "councillors_211_15315",
@@ -56164,12 +57732,36 @@
           "date": "2023-11-24",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-12-05",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-12-01",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-12-01",
+          "meeting": "法務委員会文部科学委員会消費者問題に関する特別委員会連合審査会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 67
+        "neutral": 70
       }
     },
     "篠原孝": {
@@ -56733,7 +58325,7 @@
     },
     "柚木道義": {
       "party": "立憲民主党・無所属",
-      "speech_count": 11,
+      "speech_count": 14,
       "bills": [
         {
           "bill_id": "councillors_211_15340",
@@ -56822,12 +58414,36 @@
           "date": "2023-11-24",
           "meeting": "文部科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15562",
+          "bill_name": "政治資金規正法の一部を改正する法律案",
+          "issue_number": 2356,
+          "date": "2023-11-24",
+          "meeting": "文部科学委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15606",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2378,
+          "date": "2023-11-24",
+          "meeting": "文部科学委員会",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_212_15621",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2393,
+          "date": "2023-11-24",
+          "meeting": "文部科学委員会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 2,
-        "neutral": 9
+        "oppose": 4,
+        "neutral": 10
       }
     },
     "佐藤正久": {
@@ -57047,7 +58663,7 @@
     },
     "佐藤信秋": {
       "party": "自由民主党",
-      "speech_count": 5,
+      "speech_count": 7,
       "bills": [
         {
           "bill_id": "councillors_211_15360",
@@ -57088,12 +58704,28 @@
           "date": "2024-06-12",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15608",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 2380,
+          "date": "2023-12-11",
+          "meeting": "決算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15616",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 2388,
+          "date": "2023-12-11",
+          "meeting": "決算委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 5
+        "neutral": 7
       }
     },
     "小野寺五典": {
@@ -57514,7 +59146,7 @@
     },
     "新藤義孝": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 2,
+      "speech_count": 3,
       "bills": [
         {
           "bill_id": "councillors_211_15360",
@@ -57531,12 +59163,20 @@
           "date": "2023-12-08",
           "meeting": "予算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15562",
+          "bill_name": "政治資金規正法の一部を改正する法律案",
+          "issue_number": 2356,
+          "date": "2023-12-08",
+          "meeting": "予算委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 2
+        "neutral": 3
       }
     },
     "岩谷良平": {
@@ -58183,7 +59823,7 @@
     },
     "川崎政司": {
       "party": "",
-      "speech_count": 5,
+      "speech_count": 7,
       "bills": [
         {
           "bill_id": "councillors_211_15360",
@@ -58224,12 +59864,28 @@
           "date": "2024-05-15",
           "meeting": "憲法審査会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15608",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 2380,
+          "date": "2023-11-15",
+          "meeting": "憲法審査会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15616",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 2388,
+          "date": "2023-11-15",
+          "meeting": "憲法審査会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 1,
-        "neutral": 4
+        "neutral": 6
       }
     },
     "安江伸夫": {
@@ -58644,7 +60300,7 @@
     },
     "横山信一": {
       "party": "公明党",
-      "speech_count": 9,
+      "speech_count": 10,
       "bills": [
         {
           "bill_id": "councillors_211_15360",
@@ -58717,11 +60373,19 @@
           "date": "2023-12-11",
           "meeting": "本会議",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_212_15562",
+          "bill_name": "政治資金規正法の一部を改正する法律案",
+          "issue_number": 2356,
+          "date": "2023-12-11",
+          "meeting": "本会議",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 2,
+        "oppose": 3,
         "neutral": 7
       }
     },
@@ -59297,7 +60961,7 @@
     },
     "盛山正仁": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 45,
+      "speech_count": 51,
       "bills": [
         {
           "bill_id": "councillors_211_15373",
@@ -59658,12 +61322,60 @@
           "date": "2023-11-21",
           "meeting": "予算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15599",
+          "bill_name": "公文書等の管理に関する法律の一部を改正する法律案",
+          "issue_number": 2371,
+          "date": "2023-12-12",
+          "meeting": "文教科学委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-12-12",
+          "meeting": "法務委員会、文教科学委員会連合審査会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-11-21",
+          "meeting": "予算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-11-08",
+          "meeting": "文部科学委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-10-30",
+          "meeting": "予算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-10-27",
+          "meeting": "予算委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 45
+        "neutral": 51
       }
     },
     "杉本和巳": {
@@ -59845,7 +61557,7 @@
     },
     "緒方林太郎": {
       "party": "有志の会",
-      "speech_count": 8,
+      "speech_count": 10,
       "bills": [
         {
           "bill_id": "councillors_211_15391",
@@ -59910,12 +61622,28 @@
           "date": "2023-11-22",
           "meeting": "予算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15596",
+          "bill_name": "国家公務員法の一部を改正する法律案",
+          "issue_number": 2368,
+          "date": "2023-11-10",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15596",
+          "bill_name": "国家公務員法の一部を改正する法律案",
+          "issue_number": 2368,
+          "date": "2023-11-08",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 8
+        "neutral": 10
       }
     },
     "中川貴元": {
@@ -60124,7 +61852,7 @@
     },
     "前田努": {
       "party": "",
-      "speech_count": 6,
+      "speech_count": 7,
       "bills": [
         {
           "bill_id": "councillors_211_15418",
@@ -60173,12 +61901,20 @@
           "date": "2023-03-22",
           "meeting": "経済産業委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15606",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2378,
+          "date": "2023-11-17",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 6
+        "neutral": 7
       }
     },
     "小池晃": {
@@ -61231,7 +62967,7 @@
     },
     "津島淳": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 39,
+      "speech_count": 43,
       "bills": [
         {
           "bill_id": "councillors_211_15418",
@@ -61544,12 +63280,44 @@
           "date": "2023-12-13",
           "meeting": "財務金融委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15597",
+          "bill_name": "消費税の逆進性を緩和するための給付付き税額控除の導入等に関する法律案",
+          "issue_number": 2369,
+          "date": "2023-12-13",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15605",
+          "bill_name": "公益法人等に対する寄附を促進するための税制上の措置等に関する法律案",
+          "issue_number": 2377,
+          "date": "2023-12-13",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15606",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2378,
+          "date": "2023-12-13",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15621",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2393,
+          "date": "2023-12-13",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 39
+        "neutral": 43
       }
     },
     "柳澤協二": {
@@ -62245,7 +64013,7 @@
     },
     "額賀福志郎": {
       "party": "無所属",
-      "speech_count": 345,
+      "speech_count": 348,
       "bills": [
         {
           "bill_id": "councillors_212_15437",
@@ -65006,12 +66774,36 @@
           "date": "2023-12-13",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15594",
+          "bill_name": "インターネット投票の導入の推進に関する法律案",
+          "issue_number": 2366,
+          "date": "2023-12-13",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15595",
+          "bill_name": "国会議員の秘書の給与等に関する法律の一部を改正する法律案",
+          "issue_number": 2367,
+          "date": "2023-11-14",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15615",
+          "bill_name": "我が国の総合的な安全保障の確保を図るための土地等の取得、利用及び管理の規制に関する施策の推進に関する法律案",
+          "issue_number": 2387,
+          "date": "2023-12-13",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 3,
         "oppose": 0,
-        "neutral": 342
+        "neutral": 345
       }
     },
     "池田貴城": {
@@ -65260,7 +67052,7 @@
     },
     "徳岡治": {
       "party": "",
-      "speech_count": 3,
+      "speech_count": 4,
       "bills": [
         {
           "bill_id": "house_212_8039",
@@ -65285,17 +67077,25 @@
           "date": "2023-11-16",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15596",
+          "bill_name": "国家公務員法の一部を改正する法律案",
+          "issue_number": 2368,
+          "date": "2023-11-10",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 3
+        "neutral": 4
       }
     },
     "武部新": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 66,
+      "speech_count": 67,
       "bills": [
         {
           "bill_id": "house_212_8039",
@@ -65824,12 +67624,20 @@
           "date": "2023-12-13",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15604",
+          "bill_name": "一般社団法人及び一般財団法人に関する法律の一部を改正する法律案",
+          "issue_number": 2376,
+          "date": "2023-12-13",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 66
+        "neutral": 67
       }
     },
     "簗和生": {
@@ -66366,7 +68174,7 @@
     },
     "武見敬三": {
       "party": "自由民主党",
-      "speech_count": 19,
+      "speech_count": 23,
       "bills": [
         {
           "bill_id": "house_212_8043",
@@ -66519,12 +68327,44 @@
           "date": "2023-11-08",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15596",
+          "bill_name": "国家公務員法の一部を改正する法律案",
+          "issue_number": 2368,
+          "date": "2023-12-07",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15596",
+          "bill_name": "国家公務員法の一部を改正する法律案",
+          "issue_number": 2368,
+          "date": "2023-11-16",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15610",
+          "bill_name": "国家公務員法等の一部を改正する法律案",
+          "issue_number": 2382,
+          "date": "2023-12-07",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15610",
+          "bill_name": "国家公務員法等の一部を改正する法律案",
+          "issue_number": 2382,
+          "date": "2023-11-16",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 19
+        "neutral": 23
       }
     },
     "上田英俊": {
@@ -66822,7 +68662,7 @@
     },
     "金子道仁": {
       "party": "日本維新の会",
-      "speech_count": 16,
+      "speech_count": 20,
       "bills": [
         {
           "bill_id": "house_212_8046",
@@ -66951,12 +68791,44 @@
           "date": "2023-12-12",
           "meeting": "法務委員会、文教科学委員会連合審査会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-12-12",
+          "meeting": "法務委員会、文教科学委員会連合審査会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15606",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2378,
+          "date": "2023-11-29",
+          "meeting": "本会議",
+          "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_212_15606",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2378,
+          "date": "2023-11-20",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15621",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2393,
+          "date": "2023-11-29",
+          "meeting": "本会議",
+          "stance": "賛成"
         }
       ],
       "stance_summary": {
-        "support": 0,
+        "support": 2,
         "oppose": 6,
-        "neutral": 10
+        "neutral": 12
       }
     },
     "下野六太": {
@@ -67248,7 +69120,7 @@
     },
     "加藤鮎子": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 23,
+      "speech_count": 24,
       "bills": [
         {
           "bill_id": "house_213_8148",
@@ -67433,12 +69305,20 @@
           "date": "2023-11-09",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15596",
+          "bill_name": "国家公務員法の一部を改正する法律案",
+          "issue_number": 2368,
+          "date": "2023-11-08",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 23
+        "neutral": 24
       }
     },
     "青木愛": {
@@ -68709,7 +70589,7 @@
     },
     "中嶋秀樹": {
       "party": "日本維新の会",
-      "speech_count": 11,
+      "speech_count": 12,
       "bills": [
         {
           "bill_id": "house_213_8191",
@@ -68798,10 +70678,18 @@
           "date": "2023-12-05",
           "meeting": "本会議",
           "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-12-05",
+          "meeting": "本会議",
+          "stance": "賛成"
         }
       ],
       "stance_summary": {
-        "support": 6,
+        "support": 7,
         "oppose": 0,
         "neutral": 5
       }
@@ -70510,7 +72398,7 @@
     },
     "岡本三成": {
       "party": "公明党",
-      "speech_count": 35,
+      "speech_count": 37,
       "bills": [
         {
           "bill_id": "house_213_8205",
@@ -70791,12 +72679,28 @@
           "date": "2023-12-13",
           "meeting": "経済産業委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15589",
+          "bill_name": "発電に関する原子力の利用に係る責任を明確化するための改革の推進に関する法律案",
+          "issue_number": 2361,
+          "date": "2023-12-13",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15590",
+          "bill_name": "電力の取引における公正な競争の促進に関する法律案",
+          "issue_number": 2362,
+          "date": "2023-12-13",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 35
+        "neutral": 37
       }
     },
     "堀井学": {
@@ -71504,7 +73408,7 @@
     },
     "船橋利実": {
       "party": "自由民主党",
-      "speech_count": 16,
+      "speech_count": 17,
       "bills": [
         {
           "bill_id": "house_213_8210",
@@ -71633,12 +73537,20 @@
           "date": "2023-12-07",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15562",
+          "bill_name": "政治資金規正法の一部を改正する法律案",
+          "issue_number": 2356,
+          "date": "2023-12-07",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 16
+        "neutral": 17
       }
     },
     "西野太亮": {
@@ -72538,7 +74450,7 @@
     },
     "泉健太": {
       "party": "立憲民主党・無所属",
-      "speech_count": 4,
+      "speech_count": 7,
       "bills": [
         {
           "bill_id": "house_213_8220",
@@ -72571,12 +74483,36 @@
           "date": "2023-12-13",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15562",
+          "bill_name": "政治資金規正法の一部を改正する法律案",
+          "issue_number": 2356,
+          "date": "2023-12-13",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15606",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2378,
+          "date": "2023-12-13",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15621",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2393,
+          "date": "2023-12-13",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 3,
-        "neutral": 1
+        "neutral": 4
       }
     },
     "高橋宏治": {
@@ -72864,7 +74800,7 @@
     },
     "馬場成志": {
       "party": "自由民主党",
-      "speech_count": 6,
+      "speech_count": 7,
       "bills": [
         {
           "bill_id": "house_213_8220",
@@ -72913,12 +74849,20 @@
           "date": "2023-12-07",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15562",
+          "bill_name": "政治資金規正法の一部を改正する法律案",
+          "issue_number": 2356,
+          "date": "2023-12-07",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 6
+        "neutral": 7
       }
     },
     "三橋一彦": {
@@ -73790,7 +75734,7 @@
     },
     "馬場伸幸": {
       "party": "日本維新の会",
-      "speech_count": 4,
+      "speech_count": 7,
       "bills": [
         {
           "bill_id": "councillors_214_15844",
@@ -73823,12 +75767,36 @@
           "date": "2025-04-03",
           "meeting": "憲法審査会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15606",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2378,
+          "date": "2023-10-25",
+          "meeting": "本会議",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_212_15608",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 2380,
+          "date": "2023-12-08",
+          "meeting": "予算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15616",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 2388,
+          "date": "2023-12-08",
+          "meeting": "予算委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 2,
-        "neutral": 2
+        "oppose": 3,
+        "neutral": 4
       }
     },
     "石井啓一": {
@@ -79166,7 +81134,7 @@
     },
     "川本裕子": {
       "party": "",
-      "speech_count": 4,
+      "speech_count": 5,
       "bills": [
         {
           "bill_id": "councillors_216_15877",
@@ -79199,12 +81167,20 @@
           "date": "2024-12-10",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15596",
+          "bill_name": "国家公務員法の一部を改正する法律案",
+          "issue_number": 2368,
+          "date": "2023-11-08",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 4
+        "neutral": 5
       }
     },
     "阪口直人": {
@@ -80818,7 +82794,7 @@
     },
     "笠置隆範": {
       "party": "",
-      "speech_count": 92,
+      "speech_count": 96,
       "bills": [
         {
           "bill_id": "councillors_216_15885",
@@ -81555,12 +83531,44 @@
           "date": "2023-11-22",
           "meeting": "予算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15562",
+          "bill_name": "政治資金規正法の一部を改正する法律案",
+          "issue_number": 2356,
+          "date": "2023-12-07",
+          "meeting": "外交防衛委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15562",
+          "bill_name": "政治資金規正法の一部を改正する法律案",
+          "issue_number": 2356,
+          "date": "2023-12-05",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15562",
+          "bill_name": "政治資金規正法の一部を改正する法律案",
+          "issue_number": 2356,
+          "date": "2023-11-28",
+          "meeting": "予算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15562",
+          "bill_name": "政治資金規正法の一部を改正する法律案",
+          "issue_number": 2356,
+          "date": "2023-11-27",
+          "meeting": "予算委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 92
+        "neutral": 96
       }
     },
     "長谷川淳二": {
@@ -86522,7 +88530,7 @@
     },
     "林佑美": {
       "party": "日本維新の会",
-      "speech_count": 5,
+      "speech_count": 7,
       "bills": [
         {
           "bill_id": "councillors_217_15930",
@@ -86563,10 +88571,26 @@
           "date": "2025-03-18",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15606",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2378,
+          "date": "2023-11-24",
+          "meeting": "本会議",
+          "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_212_15621",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2393,
+          "date": "2023-11-24",
+          "meeting": "本会議",
+          "stance": "賛成"
         }
       ],
       "stance_summary": {
-        "support": 0,
+        "support": 2,
         "oppose": 0,
         "neutral": 5
       }
@@ -87262,7 +89286,7 @@
     },
     "渡辺創": {
       "party": "立憲民主党・無所属",
-      "speech_count": 9,
+      "speech_count": 10,
       "bills": [
         {
           "bill_id": "councillors_217_15935",
@@ -87335,12 +89359,20 @@
           "date": "2023-11-22",
           "meeting": "予算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15562",
+          "bill_name": "政治資金規正法の一部を改正する法律案",
+          "issue_number": 2356,
+          "date": "2023-12-05",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 2,
         "oppose": 0,
-        "neutral": 7
+        "neutral": 8
       }
     },
     "堀内詔子": {
@@ -87722,7 +89754,7 @@
     },
     "原田祐平": {
       "party": "",
-      "speech_count": 2,
+      "speech_count": 5,
       "bills": [
         {
           "bill_id": "councillors_217_15938",
@@ -87739,12 +89771,36 @@
           "date": "2025-05-12",
           "meeting": "決算行政監視委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15606",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2378,
+          "date": "2023-10-27",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15608",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 2380,
+          "date": "2023-10-27",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15616",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 2388,
+          "date": "2023-10-27",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 2
+        "neutral": 5
       }
     },
     "水沼秀幸": {
@@ -88278,7 +90334,7 @@
     },
     "青山繁晴": {
       "party": "自由民主党",
-      "speech_count": 13,
+      "speech_count": 15,
       "bills": [
         {
           "bill_id": "councillors_217_15940",
@@ -88383,10 +90439,26 @@
           "date": "2025-06-10",
           "meeting": "環境委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15608",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 2380,
+          "date": "2023-11-15",
+          "meeting": "憲法審査会",
+          "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_212_15616",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 2388,
+          "date": "2023-11-15",
+          "meeting": "憲法審査会",
+          "stance": "賛成"
         }
       ],
       "stance_summary": {
-        "support": 0,
+        "support": 2,
         "oppose": 0,
         "neutral": 13
       }
@@ -90542,7 +92614,7 @@
     },
     "福山哲郎": {
       "party": "立憲民主・社民",
-      "speech_count": 6,
+      "speech_count": 7,
       "bills": [
         {
           "bill_id": "councillors_217_15949",
@@ -90591,12 +92663,20 @@
           "date": "2023-12-07",
           "meeting": "外交防衛委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15562",
+          "bill_name": "政治資金規正法の一部を改正する法律案",
+          "issue_number": 2356,
+          "date": "2023-12-07",
+          "meeting": "外交防衛委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 6
+        "neutral": 7
       }
     },
     "鳩山二郎": {
@@ -92556,7 +94636,7 @@
     },
     "渡辺孝一": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 5,
+      "speech_count": 6,
       "bills": [
         {
           "bill_id": "house_213_8221",
@@ -92597,12 +94677,20 @@
           "date": "2023-12-07",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15562",
+          "bill_name": "政治資金規正法の一部を改正する法律案",
+          "issue_number": 2356,
+          "date": "2023-12-07",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 5
+        "neutral": 6
       }
     },
     "金子真実": {
@@ -93463,7 +95551,7 @@
     },
     "宮下一郎": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 3,
+      "speech_count": 7,
       "bills": [
         {
           "bill_id": "house_213_8245",
@@ -93488,12 +95576,44 @@
           "date": "2023-12-05",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15562",
+          "bill_name": "政治資金規正法の一部を改正する法律案",
+          "issue_number": 2356,
+          "date": "2023-12-08",
+          "meeting": "予算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15562",
+          "bill_name": "政治資金規正法の一部を改正する法律案",
+          "issue_number": 2356,
+          "date": "2023-12-05",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15606",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2378,
+          "date": "2023-12-05",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15621",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2393,
+          "date": "2023-12-05",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 3
+        "neutral": 7
       }
     },
     "伊藤豊": {
@@ -93847,7 +95967,7 @@
     },
     "橘幸信": {
       "party": "",
-      "speech_count": 4,
+      "speech_count": 6,
       "bills": [
         {
           "bill_id": "councillors_213_15747",
@@ -93880,12 +96000,28 @@
           "date": "2025-04-03",
           "meeting": "憲法審査会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15608",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 2380,
+          "date": "2023-11-30",
+          "meeting": "憲法審査会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15616",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 2388,
+          "date": "2023-11-30",
+          "meeting": "憲法審査会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 1,
-        "neutral": 3
+        "neutral": 5
       }
     },
     "吉井章": {
@@ -95710,7 +97846,7 @@
     },
     "藤田文武": {
       "party": "日本維新の会",
-      "speech_count": 5,
+      "speech_count": 6,
       "bills": [
         {
           "bill_id": "councillors_217_16007",
@@ -95751,12 +97887,20 @@
           "date": "2025-06-11",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15606",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2378,
+          "date": "2023-10-30",
+          "meeting": "予算委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 5
+        "neutral": 6
       }
     },
     "円より子": {
@@ -96099,7 +98243,7 @@
     },
     "上原龍": {
       "party": "",
-      "speech_count": 2,
+      "speech_count": 3,
       "bills": [
         {
           "bill_id": "councillors_217_16007",
@@ -96116,12 +98260,20 @@
           "date": "2025-05-16",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15596",
+          "bill_name": "国家公務員法の一部を改正する法律案",
+          "issue_number": 2368,
+          "date": "2023-11-10",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 1,
-        "neutral": 1
+        "neutral": 2
       }
     },
     "沖野眞已": {
@@ -97890,7 +100042,7 @@
     },
     "山井和則": {
       "party": "立憲民主党・無所属",
-      "speech_count": 3,
+      "speech_count": 5,
       "bills": [
         {
           "bill_id": "house_217_8476",
@@ -97915,12 +100067,28 @@
           "date": "2023-11-24",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-12-01",
+          "meeting": "法務委員会文部科学委員会消費者問題に関する特別委員会連合審査会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-11-24",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 3
+        "neutral": 5
       }
     },
     "日原知己": {
@@ -99282,7 +101450,7 @@
     },
     "柴山昌彦": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 8,
+      "speech_count": 12,
       "bills": [
         {
           "bill_id": "councillors_212_15525",
@@ -99347,17 +101515,49 @@
           "date": "2023-11-24",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-12-12",
+          "meeting": "法務委員会、文教科学委員会連合審査会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-12-07",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-12-01",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-11-24",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 8
+        "neutral": 12
       }
     },
     "合田哲雄": {
       "party": "",
-      "speech_count": 2,
+      "speech_count": 5,
       "bills": [
         {
           "bill_id": "councillors_212_15518",
@@ -99374,17 +101574,41 @@
           "date": "2023-12-01",
           "meeting": "法務委員会文部科学委員会消費者問題に関する特別委員会連合審査会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-12-12",
+          "meeting": "法務委員会、文教科学委員会連合審査会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-12-01",
+          "meeting": "法務委員会文部科学委員会消費者問題に関する特別委員会連合審査会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-11-08",
+          "meeting": "文部科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 2
+        "neutral": 5
       }
     },
     "小林万里子": {
       "party": "",
-      "speech_count": 2,
+      "speech_count": 4,
       "bills": [
         {
           "bill_id": "councillors_212_15518",
@@ -99401,17 +101625,33 @@
           "date": "2023-12-01",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-12-07",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-12-01",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 2
+        "neutral": 4
       }
     },
     "小林茂樹": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 1,
+      "speech_count": 2,
       "bills": [
         {
           "bill_id": "councillors_212_15518",
@@ -99420,17 +101660,25 @@
           "date": "2023-12-01",
           "meeting": "法務委員会文部科学委員会消費者問題に関する特別委員会連合審査会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-12-01",
+          "meeting": "法務委員会文部科学委員会消費者問題に関する特別委員会連合審査会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 1
+        "neutral": 2
       }
     },
     "若宮健嗣": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 1,
+      "speech_count": 2,
       "bills": [
         {
           "bill_id": "councillors_212_15518",
@@ -99439,17 +101687,25 @@
           "date": "2023-11-21",
           "meeting": "予算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15603",
+          "bill_name": "宗教法人法の一部を改正する法律案",
+          "issue_number": 2375,
+          "date": "2023-11-21",
+          "meeting": "予算委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 1
+        "neutral": 2
       }
     },
     "亀岡偉民": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 5,
+      "speech_count": 7,
       "bills": [
         {
           "bill_id": "councillors_212_15520",
@@ -99490,12 +101746,28 @@
           "date": "2023-12-13",
           "meeting": "政治倫理の確立及び公職選挙法改正に関する特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15562",
+          "bill_name": "政治資金規正法の一部を改正する法律案",
+          "issue_number": 2356,
+          "date": "2023-12-13",
+          "meeting": "政治倫理の確立及び公職選挙法改正に関する特別委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15594",
+          "bill_name": "インターネット投票の導入の推進に関する法律案",
+          "issue_number": 2366,
+          "date": "2023-12-13",
+          "meeting": "政治倫理の確立及び公職選挙法改正に関する特別委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 5
+        "neutral": 7
       }
     },
     "三浦靖": {
@@ -99577,6 +101849,190 @@
         "support": 0,
         "oppose": 0,
         "neutral": 2
+      }
+    },
+    "窪田修": {
+      "party": "",
+      "speech_count": 1,
+      "bills": [
+        {
+          "bill_id": "councillors_212_15596",
+          "bill_name": "国家公務員法の一部を改正する法律案",
+          "issue_number": 2368,
+          "date": "2023-11-16",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        }
+      ],
+      "stance_summary": {
+        "support": 0,
+        "oppose": 0,
+        "neutral": 1
+      }
+    },
+    "幸清聡": {
+      "party": "",
+      "speech_count": 1,
+      "bills": [
+        {
+          "bill_id": "councillors_212_15596",
+          "bill_name": "国家公務員法の一部を改正する法律案",
+          "issue_number": 2368,
+          "date": "2023-11-10",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        }
+      ],
+      "stance_summary": {
+        "support": 0,
+        "oppose": 0,
+        "neutral": 1
+      }
+    },
+    "楠芳伸": {
+      "party": "",
+      "speech_count": 1,
+      "bills": [
+        {
+          "bill_id": "councillors_212_15596",
+          "bill_name": "国家公務員法の一部を改正する法律案",
+          "issue_number": 2368,
+          "date": "2023-11-08",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        }
+      ],
+      "stance_summary": {
+        "support": 0,
+        "oppose": 0,
+        "neutral": 1
+      }
+    },
+    "寺岡光博": {
+      "party": "",
+      "speech_count": 2,
+      "bills": [
+        {
+          "bill_id": "councillors_212_15606",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2378,
+          "date": "2023-11-30",
+          "meeting": "外交防衛委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15621",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2393,
+          "date": "2023-11-30",
+          "meeting": "外交防衛委員会",
+          "stance": "中立"
+        }
+      ],
+      "stance_summary": {
+        "support": 0,
+        "oppose": 0,
+        "neutral": 2
+      }
+    },
+    "染谷武宣": {
+      "party": "",
+      "speech_count": 1,
+      "bills": [
+        {
+          "bill_id": "councillors_212_15606",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 2378,
+          "date": "2023-11-10",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        }
+      ],
+      "stance_summary": {
+        "support": 0,
+        "oppose": 0,
+        "neutral": 1
+      }
+    },
+    "岡村肇": {
+      "party": "",
+      "speech_count": 2,
+      "bills": [
+        {
+          "bill_id": "councillors_212_15608",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 2380,
+          "date": "2023-12-11",
+          "meeting": "決算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15616",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 2388,
+          "date": "2023-12-11",
+          "meeting": "決算委員会",
+          "stance": "中立"
+        }
+      ],
+      "stance_summary": {
+        "support": 0,
+        "oppose": 0,
+        "neutral": 2
+      }
+    },
+    "船田元": {
+      "party": "自由民主党・無所属の会",
+      "speech_count": 2,
+      "bills": [
+        {
+          "bill_id": "councillors_212_15608",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 2380,
+          "date": "2023-11-30",
+          "meeting": "憲法審査会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15616",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 2388,
+          "date": "2023-11-30",
+          "meeting": "憲法審査会",
+          "stance": "中立"
+        }
+      ],
+      "stance_summary": {
+        "support": 0,
+        "oppose": 0,
+        "neutral": 2
+      }
+    },
+    "末松信介": {
+      "party": "自由民主党",
+      "speech_count": 2,
+      "bills": [
+        {
+          "bill_id": "councillors_212_15608",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 2380,
+          "date": "2023-11-29",
+          "meeting": "本会議",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_212_15616",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 2388,
+          "date": "2023-11-29",
+          "meeting": "本会議",
+          "stance": "反対"
+        }
+      ],
+      "stance_summary": {
+        "support": 0,
+        "oppose": 2,
+        "neutral": 0
       }
     }
   }
