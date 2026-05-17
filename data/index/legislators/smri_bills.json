@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-10T18:18:35.028Z",
+  "updated_at": "2026-05-17T18:21:26.176Z",
   "source": "SmartNews Media Research Institute",
-  "total_count": 16453,
-  "passed_count": 6153,
+  "total_count": 16455,
+  "passed_count": 6159,
   "bills": [
     {
       "id": "house_142_0",
@@ -105960,7 +105960,7 @@
       "proposer": "内閣",
       "proposer_party": "",
       "proposer_type": "閣法",
-      "status": "審議中",
+      "status": "成立",
       "house": "衆議院",
       "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE164E.htm"
     },
@@ -189197,7 +189197,7 @@
       "bill_name": "経済社会情勢の変化を踏まえた企業の事業活動の持続的な発展を図るための産業競争力強化法等の一部を改正する法律案",
       "proposer": "",
       "proposer_type": "閣法",
-      "status": "審議中",
+      "status": "成立",
       "house": "参議院",
       "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/221/meisai/m221080221015.htm"
     },
@@ -189285,7 +189285,7 @@
       "bill_name": "地域公共交通の活性化及び再生に関する法律の一部を改正する法律案",
       "proposer": "",
       "proposer_type": "閣法",
-      "status": "審議中",
+      "status": "成立",
       "house": "参議院",
       "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/221/meisai/m221080221023.htm"
     },
@@ -189329,7 +189329,7 @@
       "bill_name": "外国為替及び外国貿易法の一部を改正する法律案",
       "proposer": "",
       "proposer_type": "閣法",
-      "status": "審議中",
+      "status": "成立",
       "house": "参議院",
       "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/221/meisai/m221080221027.htm"
     },
@@ -189395,7 +189395,7 @@
       "bill_name": "携帯音声通信事業者による契約者等の本人確認等及び携帯音声通信役務の不正な利用の防止に関する法律の一部を改正する法律案",
       "proposer": "",
       "proposer_type": "閣法",
-      "status": "審議中",
+      "status": "成立",
       "house": "参議院",
       "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/221/meisai/m221080221033.htm"
     },
@@ -189571,7 +189571,7 @@
       "bill_name": "太陽電池廃棄物の再資源化等の推進に関する法律案",
       "proposer": "",
       "proposer_type": "閣法",
-      "status": "審議中",
+      "status": "成立",
       "house": "参議院",
       "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/221/meisai/m221080221049.htm"
     },
@@ -189699,6 +189699,28 @@
     {
       "id": "councillors_221_16438",
       "diet_session": 221,
+      "bill_type": "法律案（内閣提出）",
+      "bill_name": "刑事訴訟法の一部を改正する法律案",
+      "proposer": "",
+      "proposer_type": "閣法",
+      "status": "審議中",
+      "house": "参議院",
+      "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/221/meisai/m221080221061.htm"
+    },
+    {
+      "id": "councillors_221_16439",
+      "diet_session": 221,
+      "bill_type": "法律案（内閣提出）",
+      "bill_name": "著作権法の一部を改正する法律案",
+      "proposer": "",
+      "proposer_type": "閣法",
+      "status": "審議中",
+      "house": "参議院",
+      "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/221/meisai/m221080221062.htm"
+    },
+    {
+      "id": "councillors_221_16440",
+      "diet_session": 221,
       "bill_type": "法律案（衆法）",
       "bill_name": "政治資金規正法の一部を改正する法律案",
       "proposer": "落合貴之君   外4名",
@@ -189708,7 +189730,7 @@
       "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/221/meisai/m221090221001.htm"
     },
     {
-      "id": "councillors_221_16439",
+      "id": "councillors_221_16441",
       "diet_session": 221,
       "bill_type": "法律案（衆法）",
       "bill_name": "令和八年度における公債の発行の特例に関する法律案",
@@ -189719,7 +189741,7 @@
       "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/221/meisai/m221090221002.htm"
     },
     {
-      "id": "councillors_221_16440",
+      "id": "councillors_221_16442",
       "diet_session": 221,
       "bill_type": "法律案（衆法）",
       "bill_name": "インテリジェンスに係る態勢の整備の推進に関する法律案",
@@ -189730,7 +189752,7 @@
       "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/221/meisai/m221090221003.htm"
     },
     {
-      "id": "councillors_221_16441",
+      "id": "councillors_221_16443",
       "diet_session": 221,
       "bill_type": "法律案（衆法）",
       "bill_name": "運輸事業の振興の助成に関する法律の一部を改正する法律案",
@@ -189741,7 +189763,7 @@
       "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/221/meisai/m221090221004.htm"
     },
     {
-      "id": "councillors_221_16442",
+      "id": "councillors_221_16444",
       "diet_session": 221,
       "bill_type": "法律案（衆法）",
       "bill_name": "地震防災対策特別措置法の一部を改正する法律案",
@@ -189752,7 +189774,7 @@
       "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/221/meisai/m221090221005.htm"
     },
     {
-      "id": "councillors_221_16443",
+      "id": "councillors_221_16445",
       "diet_session": 221,
       "bill_type": "法律案（衆法）",
       "bill_name": "障害者及びその家族に対する福祉、教育等に係る支援に関する施策の総合的な推進に関する法律案",
@@ -189763,7 +189785,7 @@
       "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/221/meisai/m221090221006.htm"
     },
     {
-      "id": "councillors_221_16444",
+      "id": "councillors_221_16446",
       "diet_session": 221,
       "bill_type": "法律案（衆法）",
       "bill_name": "全ての国民が安心して医療を受けられる環境の整備を図るための高額療養費等の制度の在り方に係る措置に関する法律案",
@@ -189774,7 +189796,7 @@
       "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/221/meisai/m221090221007.htm"
     },
     {
-      "id": "councillors_221_16445",
+      "id": "councillors_221_16447",
       "diet_session": 221,
       "bill_type": "法律案（衆法）",
       "bill_name": "食育基本法の一部を改正する法律案",
@@ -189785,7 +189807,7 @@
       "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/221/meisai/m221090221008.htm"
     },
     {
-      "id": "councillors_221_16446",
+      "id": "councillors_221_16448",
       "diet_session": 221,
       "bill_type": "法律案（参法）",
       "bill_name": "政党交付金の交付を受ける政党の組織及び管理運営の透明性及び公正性の向上を図るための制度の導入に関する法律案",
@@ -189796,7 +189818,7 @@
       "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/221/meisai/m221100221001.htm"
     },
     {
-      "id": "councillors_221_16447",
+      "id": "councillors_221_16449",
       "diet_session": 221,
       "bill_type": "法律案（参法）",
       "bill_name": "特別児童扶養手当等の支給に関する法律の一部を改正する法律案",
@@ -189807,7 +189829,7 @@
       "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/221/meisai/m221100221002.htm"
     },
     {
-      "id": "councillors_221_16448",
+      "id": "councillors_221_16450",
       "diet_session": 221,
       "bill_type": "法律案（参法）",
       "bill_name": "所得税法の一部を改正する法律案",
@@ -189818,7 +189840,7 @@
       "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/221/meisai/m221100221003.htm"
     },
     {
-      "id": "councillors_221_16449",
+      "id": "councillors_221_16451",
       "diet_session": 221,
       "bill_type": "法律案（参法）",
       "bill_name": "地方税法の一部を改正する法律案",
@@ -189829,7 +189851,7 @@
       "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/221/meisai/m221100221004.htm"
     },
     {
-      "id": "councillors_221_16450",
+      "id": "councillors_221_16452",
       "diet_session": 221,
       "bill_type": "法律案（参法）",
       "bill_name": "防諜に関する施策の推進に関する法律案",
@@ -189840,7 +189862,7 @@
       "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/221/meisai/m221100221005.htm"
     },
     {
-      "id": "councillors_221_16451",
+      "id": "councillors_221_16453",
       "diet_session": 221,
       "bill_type": "法律案（参法）",
       "bill_name": "特定秘密の保護に関する法律及び重要経済安保情報の保護及び活用に関する法律の一部を改正する法律案",
@@ -189851,7 +189873,7 @@
       "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/221/meisai/m221100221006.htm"
     },
     {
-      "id": "councillors_221_16452",
+      "id": "councillors_221_16454",
       "diet_session": 221,
       "bill_type": "法律案（参法）",
       "bill_name": "刑法の一部を改正する法律案",

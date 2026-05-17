@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-10T18:18:35.109Z",
+  "updated_at": "2026-05-17T18:21:26.253Z",
   "total_proposers": 2136,
   "by_legislator": {
     "熊代": {
@@ -3028,7 +3028,7 @@
           "house": "衆議院"
         },
         {
-          "id": "councillors_221_16445",
+          "id": "councillors_221_16447",
           "name": "食育基本法の一部を改正する法律案",
           "session": 221,
           "status": "成立",
@@ -15970,7 +15970,7 @@
           "house": "衆議院"
         },
         {
-          "id": "councillors_221_16442",
+          "id": "councillors_221_16444",
           "name": "地震防災対策特別措置法の一部を改正する法律案",
           "session": 221,
           "status": "成立",
@@ -28502,7 +28502,7 @@
           "house": "衆議院"
         },
         {
-          "id": "councillors_221_16441",
+          "id": "councillors_221_16443",
           "name": "運輸事業の振興の助成に関する法律の一部を改正する法律案",
           "session": 221,
           "status": "成立",
@@ -89108,28 +89108,28 @@
       "success_rate": 0,
       "bills": [
         {
-          "id": "councillors_221_16446",
+          "id": "councillors_221_16448",
           "name": "政党交付金の交付を受ける政党の組織及び管理運営の透明性及び公正性の向上を図るための制度の導入に関する法律案",
           "session": 221,
           "status": "審議中",
           "house": "参議院"
         },
         {
-          "id": "councillors_221_16447",
+          "id": "councillors_221_16449",
           "name": "特別児童扶養手当等の支給に関する法律の一部を改正する法律案",
           "session": 221,
           "status": "審議中",
           "house": "参議院"
         },
         {
-          "id": "councillors_221_16448",
+          "id": "councillors_221_16450",
           "name": "所得税法の一部を改正する法律案",
           "session": 221,
           "status": "審議中",
           "house": "参議院"
         },
         {
-          "id": "councillors_221_16449",
+          "id": "councillors_221_16451",
           "name": "地方税法の一部を改正する法律案",
           "session": 221,
           "status": "審議中",
@@ -94943,21 +94943,21 @@
       "success_rate": 0.01,
       "bills": [
         {
-          "id": "councillors_221_16439",
+          "id": "councillors_221_16441",
           "name": "令和八年度における公債の発行の特例に関する法律案",
           "session": 221,
           "status": "審議中",
           "house": "参議院"
         },
         {
-          "id": "councillors_221_16440",
+          "id": "councillors_221_16442",
           "name": "インテリジェンスに係る態勢の整備の推進に関する法律案",
           "session": 221,
           "status": "廃案",
           "house": "参議院"
         },
         {
-          "id": "councillors_221_16443",
+          "id": "councillors_221_16445",
           "name": "障害者及びその家族に対する福祉、教育等に係る支援に関する施策の総合的な推進に関する法律案",
           "session": 221,
           "status": "審議中",
@@ -103434,21 +103434,21 @@
       "success_rate": 0.04,
       "bills": [
         {
-          "id": "councillors_221_16438",
+          "id": "councillors_221_16440",
           "name": "政治資金規正法の一部を改正する法律案",
           "session": 221,
           "status": "審議中",
           "house": "参議院"
         },
         {
-          "id": "councillors_221_16450",
+          "id": "councillors_221_16452",
           "name": "防諜に関する施策の推進に関する法律案",
           "session": 221,
           "status": "審議中",
           "house": "参議院"
         },
         {
-          "id": "councillors_221_16451",
+          "id": "councillors_221_16453",
           "name": "特定秘密の保護に関する法律及び重要経済安保情報の保護及び活用に関する法律の一部を改正する法律案",
           "session": 221,
           "status": "審議中",
@@ -111794,14 +111794,14 @@
       "success_rate": 0.03,
       "bills": [
         {
-          "id": "councillors_221_16444",
+          "id": "councillors_221_16446",
           "name": "全ての国民が安心して医療を受けられる環境の整備を図るための高額療養費等の制度の在り方に係る措置に関する法律案",
           "session": 221,
           "status": "審議中",
           "house": "参議院"
         },
         {
-          "id": "councillors_221_16452",
+          "id": "councillors_221_16454",
           "name": "刑法の一部を改正する法律案",
           "session": 221,
           "status": "審議中",
@@ -148536,7 +148536,7 @@
       "success_rate": 0,
       "bills": [
         {
-          "id": "councillors_221_16438",
+          "id": "councillors_221_16440",
           "name": "政治資金規正法の一部を改正する法律案",
           "session": 221,
           "status": "審議中",
@@ -150711,21 +150711,21 @@
       "success_rate": 0,
       "bills": [
         {
-          "id": "councillors_221_16447",
+          "id": "councillors_221_16449",
           "name": "特別児童扶養手当等の支給に関する法律の一部を改正する法律案",
           "session": 221,
           "status": "審議中",
           "house": "参議院"
         },
         {
-          "id": "councillors_221_16448",
+          "id": "councillors_221_16450",
           "name": "所得税法の一部を改正する法律案",
           "session": 221,
           "status": "審議中",
           "house": "参議院"
         },
         {
-          "id": "councillors_221_16449",
+          "id": "councillors_221_16451",
           "name": "地方税法の一部を改正する法律案",
           "session": 221,
           "status": "審議中",
@@ -151863,7 +151863,7 @@
       "success_rate": 0,
       "bills": [
         {
-          "id": "councillors_221_16446",
+          "id": "councillors_221_16448",
           "name": "政党交付金の交付を受ける政党の組織及び管理運営の透明性及び公正性の向上を図るための制度の導入に関する法律案",
           "session": 221,
           "status": "審議中",
@@ -152734,7 +152734,7 @@
       "success_rate": 0,
       "bills": [
         {
-          "id": "councillors_221_16440",
+          "id": "councillors_221_16442",
           "name": "インテリジェンスに係る態勢の整備の推進に関する法律案",
           "session": 221,
           "status": "廃案",
@@ -152829,7 +152829,7 @@
       "success_rate": 0,
       "bills": [
         {
-          "id": "councillors_221_16443",
+          "id": "councillors_221_16445",
           "name": "障害者及びその家族に対する福祉、教育等に係る支援に関する施策の総合的な推進に関する法律案",
           "session": 221,
           "status": "審議中",
@@ -152880,21 +152880,21 @@
       "success_rate": 0,
       "bills": [
         {
-          "id": "councillors_221_16450",
+          "id": "councillors_221_16452",
           "name": "防諜に関する施策の推進に関する法律案",
           "session": 221,
           "status": "審議中",
           "house": "参議院"
         },
         {
-          "id": "councillors_221_16451",
+          "id": "councillors_221_16453",
           "name": "特定秘密の保護に関する法律及び重要経済安保情報の保護及び活用に関する法律の一部を改正する法律案",
           "session": 221,
           "status": "審議中",
           "house": "参議院"
         },
         {
-          "id": "councillors_221_16452",
+          "id": "councillors_221_16454",
           "name": "刑法の一部を改正する法律案",
           "session": 221,
           "status": "審議中",
@@ -152952,7 +152952,7 @@
       "success_rate": 0,
       "bills": [
         {
-          "id": "councillors_221_16439",
+          "id": "councillors_221_16441",
           "name": "令和八年度における公債の発行の特例に関する法律案",
           "session": 221,
           "status": "審議中",
@@ -152967,7 +152967,7 @@
       "success_rate": 0,
       "bills": [
         {
-          "id": "councillors_221_16444",
+          "id": "councillors_221_16446",
           "name": "全ての国民が安心して医療を受けられる環境の整備を図るための高額療養費等の制度の在り方に係る措置に関する法律案",
           "session": 221,
           "status": "審議中",

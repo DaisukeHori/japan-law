@@ -1,7 +1,7 @@
 {
   "category": "cabinet_orders",
   "category_name": "政令",
-  "count": 2321,
+  "count": 2322,
   "laws": [
     {
       "id": "322CO0000000052",
@@ -13927,6 +13927,12 @@
       "id": "508CO0000000106",
       "lawNum": "令和八年政令第百六号",
       "title": "防衛特別所得税に関する政令",
+      "category": "cabinet_orders"
+    },
+    {
+      "id": "508CO0000000143",
+      "lawNum": "令和八年政令第百四十三号",
+      "title": "船員手帳に関する政令",
       "category": "cabinet_orders"
     }
   ]
