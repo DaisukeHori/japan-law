@@ -1,7 +1,7 @@
 {
   "category": "ministerial_ordinances",
   "category_name": "省令",
-  "count": 56,
+  "count": 58,
   "laws": [
     {
       "id": "508M60001000001",
@@ -334,9 +334,21 @@
       "category": "ministerial_ordinances"
     },
     {
+      "id": "507RPMD06300000",
+      "lawNum": "令和七年六月三十日内閣総理大臣決定",
+      "title": "国家サイバー統括室に企画官等を置く規則",
+      "category": "ministerial_ordinances"
+    },
+    {
       "id": "508M62000000001",
       "lawNum": "令和八年カジノ管理委員会規則第一号",
       "title": "カジノ管理委員会の所管する法律の規定に基づく立入検査等の際に携帯する職員の身分を示す証明書の様式を定める規則",
+      "category": "ministerial_ordinances"
+    },
+    {
+      "id": "508M60400000008",
+      "lawNum": "令和八年国家公安委員会規則第八号",
+      "title": "盗難特定金属製物品の処分の防止等に関する法律施行規則",
       "category": "ministerial_ordinances"
     }
   ]
