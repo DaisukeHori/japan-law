@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-31T18:23:01.334Z",
+  "updated_at": "2026-06-07T18:25:21.071Z",
   "source": "SmartNews Media Research Institute",
   "total_count": 16463,
-  "passed_count": 6179,
+  "passed_count": 6194,
   "bills": [
     {
       "id": "house_142_0",
@@ -105708,7 +105708,7 @@
       "proposer": "議院運営委員長",
       "proposer_party": "",
       "proposer_type": "衆法",
-      "status": "審議中",
+      "status": "成立",
       "house": "衆議院",
       "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE28CA.htm"
     },
@@ -105984,7 +105984,7 @@
       "proposer": "内閣",
       "proposer_party": "",
       "proposer_type": "閣法",
-      "status": "審議中",
+      "status": "成立",
       "house": "衆議院",
       "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE163A.htm"
     },
@@ -106044,7 +106044,7 @@
       "proposer": "内閣",
       "proposer_party": "",
       "proposer_type": "閣法",
-      "status": "審議中",
+      "status": "成立",
       "house": "衆議院",
       "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE1F16.htm"
     },
@@ -106080,7 +106080,7 @@
       "proposer": "内閣",
       "proposer_party": "",
       "proposer_type": "閣法",
-      "status": "審議中",
+      "status": "成立",
       "house": "衆議院",
       "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE1F52.htm"
     },
@@ -106104,7 +106104,7 @@
       "proposer": "内閣",
       "proposer_party": "",
       "proposer_type": "閣法",
-      "status": "審議中",
+      "status": "成立",
       "house": "衆議院",
       "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE1FDE.htm"
     },
@@ -106128,7 +106128,7 @@
       "proposer": "内閣",
       "proposer_party": "",
       "proposer_type": "閣法",
-      "status": "審議中",
+      "status": "成立",
       "house": "衆議院",
       "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE2076.htm"
     },
@@ -106392,7 +106392,7 @@
       "proposer": "内閣",
       "proposer_party": "",
       "proposer_type": "閣法",
-      "status": "審議中",
+      "status": "成立",
       "house": "衆議院",
       "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE25EE.htm"
     },
@@ -106416,7 +106416,7 @@
       "proposer": "内閣",
       "proposer_party": "",
       "proposer_type": "閣法",
-      "status": "審議中",
+      "status": "成立",
       "house": "衆議院",
       "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE2616.htm"
     },
@@ -106428,7 +106428,7 @@
       "proposer": "内閣",
       "proposer_party": "",
       "proposer_type": "閣法",
-      "status": "審議中",
+      "status": "成立",
       "house": "衆議院",
       "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE262A.htm"
     },
@@ -189378,7 +189378,7 @@
       "bill_name": "産業技術力強化法の一部を改正する法律案",
       "proposer": "",
       "proposer_type": "閣法",
-      "status": "審議中",
+      "status": "成立",
       "house": "参議院",
       "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/221/meisai/m221080221026.htm"
     },
@@ -189466,7 +189466,7 @@
       "bill_name": "郵便法及び民間事業者による信書の送達に関する法律の一部を改正する法律案",
       "proposer": "",
       "proposer_type": "閣法",
-      "status": "審議中",
+      "status": "成立",
       "house": "参議院",
       "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/221/meisai/m221080221034.htm"
     },
@@ -189521,7 +189521,7 @@
       "bill_name": "建築物のエネルギー消費性能の向上等に関する法律の一部を改正する法律案",
       "proposer": "",
       "proposer_type": "閣法",
-      "status": "審議中",
+      "status": "成立",
       "house": "参議院",
       "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/221/meisai/m221080221039.htm"
     },
@@ -189620,7 +189620,7 @@
       "bill_name": "主要食糧の需給及び価格の安定に関する法律の一部を改正する法律案",
       "proposer": "",
       "proposer_type": "閣法",
-      "status": "審議中",
+      "status": "成立",
       "house": "参議院",
       "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/221/meisai/m221080221048.htm"
     },
@@ -189708,7 +189708,7 @@
       "bill_name": "労働者災害補償保険法等の一部を改正する法律案",
       "proposer": "",
       "proposer_type": "閣法",
-      "status": "審議中",
+      "status": "成立",
       "house": "参議院",
       "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/221/meisai/m221080221056.htm"
     },
@@ -189774,7 +189774,7 @@
       "bill_name": "著作権法の一部を改正する法律案",
       "proposer": "",
       "proposer_type": "閣法",
-      "status": "審議中",
+      "status": "成立",
       "house": "参議院",
       "url": "https://www.sangiin.go.jp/japanese/joho1/kousei/gian/221/meisai/m221080221062.htm"
     },

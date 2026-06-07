@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-05-31T18:23:01.421Z",
+  "updated_at": "2026-06-07T18:25:21.144Z",
   "total_proposers": 2137,
   "by_legislator": {
     "熊代": {
@@ -389,14 +389,14 @@
       "name": "議院運営委員長",
       "party": "",
       "total_bills": 161,
-      "passed_bills": 159,
+      "passed_bills": 160,
       "success_rate": 0.99,
       "bills": [
         {
           "id": "house_221_8808",
           "name": "国会議員の歳費、旅費及び手当等に関する法律の一部を改正する法律案",
           "session": 221,
-          "status": "審議中",
+          "status": "成立",
           "house": "衆議院"
         },
         {
