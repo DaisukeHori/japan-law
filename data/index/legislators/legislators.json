@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-28T18:23:15.761Z",
+  "updated_at": "2026-07-05T18:22:02.682Z",
   "source": "SmartNews MRI (参議院) + 国会会議録API/Wikidata/EveryPolitician (衆議院)",
   "total_count": 693,
   "councillors_count": 247,
@@ -16,7 +16,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.610Z"
+      "updated_at": "2026-07-05T18:18:55.240Z"
     },
     {
       "id": "leg_217460",
@@ -28,7 +28,7 @@
       "prefecture": "鳥取・島根",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.610Z"
+      "updated_at": "2026-07-05T18:18:55.240Z"
     },
     {
       "id": "leg_213867",
@@ -40,7 +40,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.610Z"
+      "updated_at": "2026-07-05T18:18:55.240Z"
     },
     {
       "id": "leg_191195",
@@ -52,7 +52,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.610Z"
+      "updated_at": "2026-07-05T18:18:55.240Z"
     },
     {
       "id": "leg_234169",
@@ -64,7 +64,7 @@
       "prefecture": "福岡",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.610Z"
+      "updated_at": "2026-07-05T18:18:55.240Z"
     },
     {
       "id": "leg_241499",
@@ -76,7 +76,7 @@
       "prefecture": "神奈川",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.610Z"
+      "updated_at": "2026-07-05T18:18:55.240Z"
     },
     {
       "id": "leg_188240",
@@ -88,7 +88,7 @@
       "prefecture": "大阪",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.610Z"
+      "updated_at": "2026-07-05T18:18:55.240Z"
     },
     {
       "id": "leg_240883",
@@ -100,7 +100,7 @@
       "prefecture": "東京",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.610Z"
+      "updated_at": "2026-07-05T18:18:55.240Z"
     },
     {
       "id": "leg_246467",
@@ -112,7 +112,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.610Z"
+      "updated_at": "2026-07-05T18:18:55.240Z"
     },
     {
       "id": "leg_221371",
@@ -124,7 +124,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.610Z"
+      "updated_at": "2026-07-05T18:18:55.240Z"
     },
     {
       "id": "leg_214537",
@@ -136,7 +136,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.240Z"
     },
     {
       "id": "leg_211961",
@@ -148,7 +148,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.240Z"
     },
     {
       "id": "leg_200662",
@@ -160,7 +160,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.240Z"
     },
     {
       "id": "leg_226041",
@@ -172,7 +172,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.240Z"
     },
     {
       "id": "leg_218744",
@@ -184,7 +184,7 @@
       "prefecture": "東京",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.240Z"
     },
     {
       "id": "leg_207026",
@@ -196,7 +196,7 @@
       "prefecture": "千葉",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.240Z"
     },
     {
       "id": "leg_223827",
@@ -208,7 +208,7 @@
       "prefecture": "秋田",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.240Z"
     },
     {
       "id": "leg_215619",
@@ -220,7 +220,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.240Z"
     },
     {
       "id": "leg_195948",
@@ -232,7 +232,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.240Z"
     },
     {
       "id": "leg_198261",
@@ -244,7 +244,7 @@
       "prefecture": "宮城",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.240Z"
     },
     {
       "id": "leg_207813",
@@ -256,7 +256,7 @@
       "prefecture": "大阪",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.240Z"
     },
     {
       "id": "leg_218194",
@@ -268,7 +268,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.240Z"
     },
     {
       "id": "leg_226171",
@@ -280,7 +280,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.240Z"
     },
     {
       "id": "leg_192222",
@@ -292,7 +292,7 @@
       "prefecture": "兵庫",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.240Z"
     },
     {
       "id": "leg_237099",
@@ -304,7 +304,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.240Z"
     },
     {
       "id": "leg_205976",
@@ -316,7 +316,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.240Z"
     },
     {
       "id": "leg_207288",
@@ -328,7 +328,7 @@
       "prefecture": "香川",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.240Z"
     },
     {
       "id": "leg_213566",
@@ -340,7 +340,7 @@
       "prefecture": "兵庫",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.240Z"
     },
     {
       "id": "leg_210516",
@@ -352,7 +352,7 @@
       "prefecture": "愛知",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.240Z"
     },
     {
       "id": "leg_222045",
@@ -364,7 +364,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.240Z"
     },
     {
       "id": "leg_215592",
@@ -376,7 +376,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.240Z"
     },
     {
       "id": "leg_219287",
@@ -388,7 +388,7 @@
       "prefecture": "千葉",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.240Z"
     },
     {
       "id": "leg_223767",
@@ -400,7 +400,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.240Z"
     },
     {
       "id": "leg_203915",
@@ -412,7 +412,7 @@
       "prefecture": "沖縄",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.240Z"
     },
     {
       "id": "leg_233406",
@@ -424,7 +424,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.240Z"
     },
     {
       "id": "leg_181277",
@@ -436,7 +436,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.240Z"
     },
     {
       "id": "leg_199294",
@@ -448,7 +448,7 @@
       "prefecture": "北海道",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.240Z"
     },
     {
       "id": "leg_221548",
@@ -460,7 +460,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.240Z"
     },
     {
       "id": "leg_199390",
@@ -472,7 +472,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_179093",
@@ -484,7 +484,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_207563",
@@ -496,7 +496,7 @@
       "prefecture": "埼玉",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_202449",
@@ -508,7 +508,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_225494",
@@ -520,7 +520,7 @@
       "prefecture": "栃木",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_222195",
@@ -532,7 +532,7 @@
       "prefecture": "東京",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_208776",
@@ -544,7 +544,7 @@
       "prefecture": "千葉",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_227460",
@@ -556,7 +556,7 @@
       "prefecture": "新潟",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_198334",
@@ -568,7 +568,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_187965",
@@ -580,7 +580,7 @@
       "prefecture": "山口",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_205232",
@@ -592,7 +592,7 @@
       "prefecture": "埼玉",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_204695",
@@ -604,7 +604,7 @@
       "prefecture": "福岡",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_228643",
@@ -616,7 +616,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_179835",
@@ -628,7 +628,7 @@
       "prefecture": "埼玉",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_178285",
@@ -640,7 +640,7 @@
       "prefecture": "大阪",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_219282",
@@ -652,7 +652,7 @@
       "prefecture": "石川",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_200382",
@@ -664,7 +664,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_198053",
@@ -676,7 +676,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_211158",
@@ -688,7 +688,7 @@
       "prefecture": "東京",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_218059",
@@ -700,7 +700,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_210861",
@@ -712,7 +712,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_218167",
@@ -724,7 +724,7 @@
       "prefecture": "鹿児島",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_209560",
@@ -736,7 +736,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_263471",
@@ -748,7 +748,7 @@
       "prefecture": "岡山",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_205319",
@@ -760,7 +760,7 @@
       "prefecture": "神奈川",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_199131",
@@ -772,7 +772,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_214148",
@@ -784,7 +784,7 @@
       "prefecture": "兵庫",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_245326",
@@ -796,7 +796,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_197970",
@@ -808,7 +808,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_203838",
@@ -820,7 +820,7 @@
       "prefecture": "兵庫",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_226834",
@@ -832,7 +832,7 @@
       "prefecture": "北海道",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_222869",
@@ -844,7 +844,7 @@
       "prefecture": "茨城",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_225737",
@@ -856,7 +856,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_183441",
@@ -868,7 +868,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_222499",
@@ -880,7 +880,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_224992",
@@ -892,7 +892,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_197710",
@@ -904,7 +904,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_219821",
@@ -916,7 +916,7 @@
       "prefecture": "東京",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_217531",
@@ -928,7 +928,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_210547",
@@ -940,7 +940,7 @@
       "prefecture": "山口",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_211879",
@@ -952,7 +952,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_235968",
@@ -964,7 +964,7 @@
       "prefecture": "岩手",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_217678",
@@ -976,7 +976,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_232058",
@@ -988,7 +988,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_211003",
@@ -1000,7 +1000,7 @@
       "prefecture": "東京",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_213398",
@@ -1012,7 +1012,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_211135",
@@ -1024,7 +1024,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_228068",
@@ -1036,7 +1036,7 @@
       "prefecture": "埼玉",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_230695",
@@ -1048,7 +1048,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_185414",
@@ -1060,7 +1060,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_218725",
@@ -1072,7 +1072,7 @@
       "prefecture": "茨城",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_205885",
@@ -1084,7 +1084,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_212970",
@@ -1096,7 +1096,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_243921",
@@ -1108,7 +1108,7 @@
       "prefecture": "長崎",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_208238",
@@ -1120,7 +1120,7 @@
       "prefecture": "福岡",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_203475",
@@ -1132,7 +1132,7 @@
       "prefecture": "三重",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_213861",
@@ -1144,7 +1144,7 @@
       "prefecture": "大分",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_222210",
@@ -1156,7 +1156,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_192658",
@@ -1168,7 +1168,7 @@
       "prefecture": "山梨",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_214648",
@@ -1180,7 +1180,7 @@
       "prefecture": "千葉",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_200801",
@@ -1192,7 +1192,7 @@
       "prefecture": "新潟",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_238437",
@@ -1204,7 +1204,7 @@
       "prefecture": "岡山",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_195166",
@@ -1216,7 +1216,7 @@
       "prefecture": "千葉",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_205165",
@@ -1228,7 +1228,7 @@
       "prefecture": "滋賀",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_260597",
@@ -1240,7 +1240,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_228757",
@@ -1252,7 +1252,7 @@
       "prefecture": "愛知",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_224383",
@@ -1264,7 +1264,7 @@
       "prefecture": "愛知",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_209881",
@@ -1276,7 +1276,7 @@
       "prefecture": "茨城",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_176233",
@@ -1288,7 +1288,7 @@
       "prefecture": "宮城",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_231517",
@@ -1300,7 +1300,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_191715",
@@ -1312,7 +1312,7 @@
       "prefecture": "大阪",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_184347",
@@ -1324,7 +1324,7 @@
       "prefecture": "奈良",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_246828",
@@ -1336,7 +1336,7 @@
       "prefecture": "愛知",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_218880",
@@ -1348,7 +1348,7 @@
       "prefecture": "東京",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_194143",
@@ -1360,7 +1360,7 @@
       "prefecture": "東京",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_179396",
@@ -1372,7 +1372,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_188575",
@@ -1384,7 +1384,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_213557",
@@ -1396,7 +1396,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_214438",
@@ -1408,7 +1408,7 @@
       "prefecture": "群馬",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_208900",
@@ -1420,7 +1420,7 @@
       "prefecture": "福岡",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_209143",
@@ -1432,7 +1432,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_265904",
@@ -1444,7 +1444,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_252860",
@@ -1456,7 +1456,7 @@
       "prefecture": "静岡",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_201449",
@@ -1468,7 +1468,7 @@
       "prefecture": "兵庫",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_181896",
@@ -1480,7 +1480,7 @@
       "prefecture": "大阪",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_210852",
@@ -1492,7 +1492,7 @@
       "prefecture": "長野",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_216173",
@@ -1504,7 +1504,7 @@
       "prefecture": "愛知",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_216903",
@@ -1516,7 +1516,7 @@
       "prefecture": "東京",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_225214",
@@ -1528,7 +1528,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_162810",
@@ -1540,7 +1540,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_213797",
@@ -1552,7 +1552,7 @@
       "prefecture": "埼玉",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_245964",
@@ -1564,7 +1564,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_211123",
@@ -1576,7 +1576,7 @@
       "prefecture": "大阪",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_234169",
@@ -1588,7 +1588,7 @@
       "prefecture": "埼玉",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_223447",
@@ -1600,7 +1600,7 @@
       "prefecture": "栃木",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_212016",
@@ -1612,7 +1612,7 @@
       "prefecture": "北海道",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_225591",
@@ -1624,7 +1624,7 @@
       "prefecture": "兵庫",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_230461",
@@ -1636,7 +1636,7 @@
       "prefecture": "沖縄",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_213609",
@@ -1648,7 +1648,7 @@
       "prefecture": "福井",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_210877",
@@ -1660,7 +1660,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_195006",
@@ -1672,7 +1672,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_223443",
@@ -1684,7 +1684,7 @@
       "prefecture": "東京",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_260648",
@@ -1696,7 +1696,7 @@
       "prefecture": "愛知",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_238013",
@@ -1708,7 +1708,7 @@
       "prefecture": "青森",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_218948",
@@ -1720,7 +1720,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_189202",
@@ -1732,7 +1732,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_189444",
@@ -1744,7 +1744,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_226341",
@@ -1756,7 +1756,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_213160",
@@ -1768,7 +1768,7 @@
       "prefecture": "和歌山",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_203006",
@@ -1780,7 +1780,7 @@
       "prefecture": "鳥取・島根",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_200215",
@@ -1792,7 +1792,7 @@
       "prefecture": "秋田",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_220248",
@@ -1804,7 +1804,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_263261",
@@ -1816,7 +1816,7 @@
       "prefecture": "茨城",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_185105",
@@ -1828,7 +1828,7 @@
       "prefecture": "北海道",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_223300",
@@ -1840,7 +1840,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_179143",
@@ -1852,7 +1852,7 @@
       "prefecture": "山梨",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_191807",
@@ -1864,7 +1864,7 @@
       "prefecture": "愛媛",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_191566",
@@ -1876,7 +1876,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_231318",
@@ -1888,7 +1888,7 @@
       "prefecture": "群馬",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_202091",
@@ -1900,7 +1900,7 @@
       "prefecture": "福岡",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_214363",
@@ -1912,7 +1912,7 @@
       "prefecture": "徳島・高知",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_230413",
@@ -1924,7 +1924,7 @@
       "prefecture": "千葉",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_206022",
@@ -1936,7 +1936,7 @@
       "prefecture": "京都",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_220743",
@@ -1948,7 +1948,7 @@
       "prefecture": "京都",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_238328",
@@ -1960,7 +1960,7 @@
       "prefecture": "広島",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_216739",
@@ -1972,7 +1972,7 @@
       "prefecture": "埼玉",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_212733",
@@ -1984,7 +1984,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_211038",
@@ -1996,7 +1996,7 @@
       "prefecture": "富山",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_253133",
@@ -2008,7 +2008,7 @@
       "prefecture": "富山",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_230515",
@@ -2020,7 +2020,7 @@
       "prefecture": "鹿児島",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_234425",
@@ -2032,7 +2032,7 @@
       "prefecture": "山形",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_269068",
@@ -2044,7 +2044,7 @@
       "prefecture": "神奈川",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_217777",
@@ -2056,7 +2056,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_229842",
@@ -2068,7 +2068,7 @@
       "prefecture": "北海道",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_265860",
@@ -2080,7 +2080,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_235120",
@@ -2092,7 +2092,7 @@
       "prefecture": "長野",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_219483",
@@ -2104,7 +2104,7 @@
       "prefecture": "熊本",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_192883",
@@ -2116,7 +2116,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_216652",
@@ -2128,7 +2128,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.611Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_239332",
@@ -2140,7 +2140,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.241Z"
     },
     {
       "id": "leg_210467",
@@ -2152,7 +2152,7 @@
       "prefecture": "香川",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_230092",
@@ -2164,7 +2164,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_219029",
@@ -2176,7 +2176,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_201650",
@@ -2188,7 +2188,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_213395",
@@ -2200,7 +2200,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_230141",
@@ -2212,7 +2212,7 @@
       "prefecture": "静岡",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_182087",
@@ -2224,7 +2224,7 @@
       "prefecture": "徳島・高知",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_239434",
@@ -2236,7 +2236,7 @@
       "prefecture": "佐賀",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_224124",
@@ -2248,7 +2248,7 @@
       "prefecture": "青森",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_200045",
@@ -2260,7 +2260,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_221524",
@@ -2272,7 +2272,7 @@
       "prefecture": "京都",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_186140",
@@ -2284,7 +2284,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_203623",
@@ -2296,7 +2296,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_212302",
@@ -2308,7 +2308,7 @@
       "prefecture": "愛知",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_219165",
@@ -2320,7 +2320,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_212960",
@@ -2332,7 +2332,7 @@
       "prefecture": "北海道",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_216890",
@@ -2344,7 +2344,7 @@
       "prefecture": "山形",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_201690",
@@ -2356,7 +2356,7 @@
       "prefecture": "埼玉",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_181345",
@@ -2368,7 +2368,7 @@
       "prefecture": "福島",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_174581",
@@ -2380,7 +2380,7 @@
       "prefecture": "奈良",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_226709",
@@ -2392,7 +2392,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_226623",
@@ -2404,7 +2404,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_211645",
@@ -2416,7 +2416,7 @@
       "prefecture": "静岡",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_198067",
@@ -2428,7 +2428,7 @@
       "prefecture": "神奈川",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_183230",
@@ -2440,7 +2440,7 @@
       "prefecture": "大阪",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_213323",
@@ -2452,7 +2452,7 @@
       "prefecture": "神奈川",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_204608",
@@ -2464,7 +2464,7 @@
       "prefecture": "宮崎",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_187816",
@@ -2476,7 +2476,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_230524",
@@ -2488,7 +2488,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_213434",
@@ -2500,7 +2500,7 @@
       "prefecture": "熊本",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_205498",
@@ -2512,7 +2512,7 @@
       "prefecture": "福岡",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_207412",
@@ -2524,7 +2524,7 @@
       "prefecture": "神奈川",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_172665",
@@ -2536,7 +2536,7 @@
       "prefecture": "広島",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_199731",
@@ -2548,7 +2548,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_216307",
@@ -2560,7 +2560,7 @@
       "prefecture": "愛知",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_209916",
@@ -2572,7 +2572,7 @@
       "prefecture": "神奈川",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_176429",
@@ -2584,7 +2584,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_207087",
@@ -2596,7 +2596,7 @@
       "prefecture": "広島",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_198630",
@@ -2608,7 +2608,7 @@
       "prefecture": "大阪",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_202889",
@@ -2620,7 +2620,7 @@
       "prefecture": "滋賀",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_200910",
@@ -2632,7 +2632,7 @@
       "prefecture": "石川",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_207888",
@@ -2644,7 +2644,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_224093",
@@ -2656,7 +2656,7 @@
       "prefecture": "和歌山",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_171944",
@@ -2668,7 +2668,7 @@
       "prefecture": "福島",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_171937",
@@ -2680,7 +2680,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_219528",
@@ -2692,7 +2692,7 @@
       "prefecture": "広島",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_229929",
@@ -2704,7 +2704,7 @@
       "prefecture": "宮崎",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_209059",
@@ -2716,7 +2716,7 @@
       "prefecture": "福井",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_214343",
@@ -2728,7 +2728,7 @@
       "prefecture": "佐賀",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_185043",
@@ -2740,7 +2740,7 @@
       "prefecture": "東京",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_221485",
@@ -2752,7 +2752,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_185028",
@@ -2764,7 +2764,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_207524",
@@ -2776,7 +2776,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_215646",
@@ -2788,7 +2788,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_179451",
@@ -2800,7 +2800,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_200015",
@@ -2812,7 +2812,7 @@
       "prefecture": "長崎",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_232374",
@@ -2824,7 +2824,7 @@
       "prefecture": "三重",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_216896",
@@ -2836,7 +2836,7 @@
       "prefecture": "愛媛",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_227051",
@@ -2848,7 +2848,7 @@
       "prefecture": "岩手",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_199184",
@@ -2860,7 +2860,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_181010",
@@ -2872,7 +2872,7 @@
       "prefecture": "京都",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_213607",
@@ -2884,7 +2884,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_210215",
@@ -2896,7 +2896,7 @@
       "prefecture": "大分",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_196513",
@@ -2908,7 +2908,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_162989",
@@ -2920,7 +2920,7 @@
       "prefecture": "比例",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_210884",
@@ -2932,7 +2932,7 @@
       "prefecture": "岐阜",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_220046",
@@ -2944,7 +2944,7 @@
       "prefecture": "静岡",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_205709",
@@ -2956,7 +2956,7 @@
       "prefecture": "神奈川",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_222421",
@@ -2968,7 +2968,7 @@
       "prefecture": "岐阜",
       "is_active": true,
       "source": "smartnews-smri/house-of-councillors",
-      "updated_at": "2026-06-28T18:20:00.612Z"
+      "updated_at": "2026-07-05T18:18:55.242Z"
     },
     {
       "id": "leg_220167",
@@ -2979,7 +2979,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:01.581Z"
+      "updated_at": "2026-07-05T18:18:56.181Z"
     },
     {
       "id": "leg_218840",
@@ -2990,7 +2990,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:01.581Z"
+      "updated_at": "2026-07-05T18:18:56.182Z"
     },
     {
       "id": "leg_188966",
@@ -3001,7 +3001,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:01.581Z"
+      "updated_at": "2026-07-05T18:18:56.182Z"
     },
     {
       "id": "leg_199834",
@@ -3012,7 +3012,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:01.581Z"
+      "updated_at": "2026-07-05T18:18:56.182Z"
     },
     {
       "id": "leg_218634",
@@ -3023,7 +3023,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:01.581Z"
+      "updated_at": "2026-07-05T18:18:56.182Z"
     },
     {
       "id": "leg_202685",
@@ -3034,7 +3034,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:01.581Z"
+      "updated_at": "2026-07-05T18:18:56.182Z"
     },
     {
       "id": "leg_213310",
@@ -3045,7 +3045,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:01.581Z"
+      "updated_at": "2026-07-05T18:18:56.182Z"
     },
     {
       "id": "leg_178192",
@@ -3056,7 +3056,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:01.581Z"
+      "updated_at": "2026-07-05T18:18:56.182Z"
     },
     {
       "id": "leg_177089",
@@ -3067,7 +3067,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:01.581Z"
+      "updated_at": "2026-07-05T18:18:56.182Z"
     },
     {
       "id": "leg_196281",
@@ -3078,7 +3078,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:02.575Z"
+      "updated_at": "2026-07-05T18:18:57.117Z"
     },
     {
       "id": "leg_201508",
@@ -3089,7 +3089,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:02.575Z"
+      "updated_at": "2026-07-05T18:18:57.117Z"
     },
     {
       "id": "leg_227706",
@@ -3100,7 +3100,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:02.575Z"
+      "updated_at": "2026-07-05T18:18:57.117Z"
     },
     {
       "id": "leg_220181",
@@ -3111,7 +3111,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:02.575Z"
+      "updated_at": "2026-07-05T18:18:57.117Z"
     },
     {
       "id": "leg_261905",
@@ -3122,7 +3122,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:02.575Z"
+      "updated_at": "2026-07-05T18:18:57.117Z"
     },
     {
       "id": "leg_248449",
@@ -3133,7 +3133,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:02.575Z"
+      "updated_at": "2026-07-05T18:18:57.117Z"
     },
     {
       "id": "leg_188147",
@@ -3144,7 +3144,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:02.575Z"
+      "updated_at": "2026-07-05T18:18:57.117Z"
     },
     {
       "id": "leg_195675",
@@ -3155,7 +3155,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:02.575Z"
+      "updated_at": "2026-07-05T18:18:57.117Z"
     },
     {
       "id": "leg_216970",
@@ -3166,7 +3166,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:03.136Z"
+      "updated_at": "2026-07-05T18:18:57.653Z"
     },
     {
       "id": "leg_213833",
@@ -3177,7 +3177,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:03.137Z"
+      "updated_at": "2026-07-05T18:18:57.653Z"
     },
     {
       "id": "leg_214988",
@@ -3188,7 +3188,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:03.137Z"
+      "updated_at": "2026-07-05T18:18:57.653Z"
     },
     {
       "id": "leg_231255",
@@ -3199,7 +3199,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:03.137Z"
+      "updated_at": "2026-07-05T18:18:57.653Z"
     },
     {
       "id": "leg_206411",
@@ -3210,7 +3210,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:03.137Z"
+      "updated_at": "2026-07-05T18:18:57.653Z"
     },
     {
       "id": "leg_221598",
@@ -3221,7 +3221,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:03.712Z"
+      "updated_at": "2026-07-05T18:18:58.131Z"
     },
     {
       "id": "leg_276825",
@@ -3232,7 +3232,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:03.712Z"
+      "updated_at": "2026-07-05T18:18:58.131Z"
     },
     {
       "id": "leg_224019",
@@ -3243,7 +3243,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:03.712Z"
+      "updated_at": "2026-07-05T18:18:58.131Z"
     },
     {
       "id": "leg_194614",
@@ -3254,7 +3254,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:03.712Z"
+      "updated_at": "2026-07-05T18:18:58.131Z"
     },
     {
       "id": "leg_234491",
@@ -3265,7 +3265,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:03.712Z"
+      "updated_at": "2026-07-05T18:18:58.131Z"
     },
     {
       "id": "leg_212339",
@@ -3276,7 +3276,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:03.712Z"
+      "updated_at": "2026-07-05T18:18:58.131Z"
     },
     {
       "id": "leg_192374",
@@ -3287,7 +3287,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:03.712Z"
+      "updated_at": "2026-07-05T18:18:58.131Z"
     },
     {
       "id": "leg_200259",
@@ -3298,7 +3298,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:03.712Z"
+      "updated_at": "2026-07-05T18:18:58.131Z"
     },
     {
       "id": "leg_208119",
@@ -3309,7 +3309,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:03.712Z"
+      "updated_at": "2026-07-05T18:18:58.131Z"
     },
     {
       "id": "leg_213249",
@@ -3320,7 +3320,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:03.712Z"
+      "updated_at": "2026-07-05T18:18:58.131Z"
     },
     {
       "id": "leg_204286",
@@ -3331,7 +3331,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:04.295Z"
+      "updated_at": "2026-07-05T18:18:58.598Z"
     },
     {
       "id": "leg_204886",
@@ -3342,7 +3342,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:04.295Z"
+      "updated_at": "2026-07-05T18:18:58.598Z"
     },
     {
       "id": "leg_189634",
@@ -3353,7 +3353,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:04.295Z"
+      "updated_at": "2026-07-05T18:18:58.598Z"
     },
     {
       "id": "leg_182943",
@@ -3364,7 +3364,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:04.295Z"
+      "updated_at": "2026-07-05T18:18:58.598Z"
     },
     {
       "id": "leg_231179",
@@ -3375,7 +3375,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:04.295Z"
+      "updated_at": "2026-07-05T18:18:58.598Z"
     },
     {
       "id": "leg_221419",
@@ -3386,7 +3386,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:04.295Z"
+      "updated_at": "2026-07-05T18:18:58.598Z"
     },
     {
       "id": "leg_221397",
@@ -3397,7 +3397,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:04.295Z"
+      "updated_at": "2026-07-05T18:18:58.598Z"
     },
     {
       "id": "leg_230253",
@@ -3408,7 +3408,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:04.295Z"
+      "updated_at": "2026-07-05T18:18:58.598Z"
     },
     {
       "id": "leg_226217",
@@ -3419,7 +3419,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:04.295Z"
+      "updated_at": "2026-07-05T18:18:58.598Z"
     },
     {
       "id": "leg_209243",
@@ -3430,7 +3430,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:04.295Z"
+      "updated_at": "2026-07-05T18:18:58.598Z"
     },
     {
       "id": "leg_185787",
@@ -3441,7 +3441,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:04.295Z"
+      "updated_at": "2026-07-05T18:18:58.598Z"
     },
     {
       "id": "leg_216395",
@@ -3452,7 +3452,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:04.295Z"
+      "updated_at": "2026-07-05T18:18:58.598Z"
     },
     {
       "id": "leg_187821",
@@ -3463,7 +3463,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:04.768Z"
+      "updated_at": "2026-07-05T18:18:59.152Z"
     },
     {
       "id": "leg_267985",
@@ -3474,7 +3474,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:04.768Z"
+      "updated_at": "2026-07-05T18:18:59.152Z"
     },
     {
       "id": "leg_199702",
@@ -3485,7 +3485,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:04.768Z"
+      "updated_at": "2026-07-05T18:18:59.152Z"
     },
     {
       "id": "leg_264895",
@@ -3496,7 +3496,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:04.768Z"
+      "updated_at": "2026-07-05T18:18:59.152Z"
     },
     {
       "id": "leg_180336",
@@ -3507,7 +3507,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:04.768Z"
+      "updated_at": "2026-07-05T18:18:59.152Z"
     },
     {
       "id": "leg_263512",
@@ -3518,7 +3518,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:04.768Z"
+      "updated_at": "2026-07-05T18:18:59.152Z"
     },
     {
       "id": "leg_196471",
@@ -3529,7 +3529,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:04.768Z"
+      "updated_at": "2026-07-05T18:18:59.152Z"
     },
     {
       "id": "leg_218112",
@@ -3540,7 +3540,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:04.768Z"
+      "updated_at": "2026-07-05T18:18:59.152Z"
     },
     {
       "id": "leg_231747",
@@ -3551,7 +3551,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:04.768Z"
+      "updated_at": "2026-07-05T18:18:59.152Z"
     },
     {
       "id": "leg_183467",
@@ -3562,7 +3562,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:04.768Z"
+      "updated_at": "2026-07-05T18:18:59.152Z"
     },
     {
       "id": "leg_221539",
@@ -3573,7 +3573,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:04.768Z"
+      "updated_at": "2026-07-05T18:18:59.152Z"
     },
     {
       "id": "leg_221880",
@@ -3584,7 +3584,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:04.768Z"
+      "updated_at": "2026-07-05T18:18:59.152Z"
     },
     {
       "id": "leg_214459",
@@ -3595,7 +3595,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:04.768Z"
+      "updated_at": "2026-07-05T18:18:59.152Z"
     },
     {
       "id": "leg_204716",
@@ -3606,7 +3606,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:04.768Z"
+      "updated_at": "2026-07-05T18:18:59.152Z"
     },
     {
       "id": "leg_208396",
@@ -3617,7 +3617,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:04.768Z"
+      "updated_at": "2026-07-05T18:18:59.152Z"
     },
     {
       "id": "leg_231658",
@@ -3628,7 +3628,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:05.236Z"
+      "updated_at": "2026-07-05T18:18:59.602Z"
     },
     {
       "id": "leg_220458",
@@ -3639,7 +3639,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:05.236Z"
+      "updated_at": "2026-07-05T18:18:59.602Z"
     },
     {
       "id": "leg_183593",
@@ -3650,7 +3650,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:05.236Z"
+      "updated_at": "2026-07-05T18:18:59.602Z"
     },
     {
       "id": "leg_200004",
@@ -3661,7 +3661,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:05.236Z"
+      "updated_at": "2026-07-05T18:18:59.602Z"
     },
     {
       "id": "leg_245764",
@@ -3672,7 +3672,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:05.236Z"
+      "updated_at": "2026-07-05T18:18:59.602Z"
     },
     {
       "id": "leg_213430",
@@ -3683,7 +3683,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:05.236Z"
+      "updated_at": "2026-07-05T18:18:59.602Z"
     },
     {
       "id": "leg_242039",
@@ -3694,7 +3694,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:05.236Z"
+      "updated_at": "2026-07-05T18:18:59.602Z"
     },
     {
       "id": "leg_183801",
@@ -3705,7 +3705,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:05.236Z"
+      "updated_at": "2026-07-05T18:18:59.602Z"
     },
     {
       "id": "leg_244642",
@@ -3716,7 +3716,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:05.236Z"
+      "updated_at": "2026-07-05T18:18:59.602Z"
     },
     {
       "id": "leg_180859",
@@ -3727,7 +3727,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:05.693Z"
+      "updated_at": "2026-07-05T18:19:00.052Z"
     },
     {
       "id": "leg_202328",
@@ -3738,7 +3738,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:05.693Z"
+      "updated_at": "2026-07-05T18:19:00.052Z"
     },
     {
       "id": "leg_229941",
@@ -3749,7 +3749,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:05.693Z"
+      "updated_at": "2026-07-05T18:19:00.052Z"
     },
     {
       "id": "leg_185203",
@@ -3760,7 +3760,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:05.693Z"
+      "updated_at": "2026-07-05T18:19:00.052Z"
     },
     {
       "id": "leg_225534",
@@ -3771,7 +3771,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:05.693Z"
+      "updated_at": "2026-07-05T18:19:00.052Z"
     },
     {
       "id": "leg_229620",
@@ -3782,7 +3782,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:05.693Z"
+      "updated_at": "2026-07-05T18:19:00.052Z"
     },
     {
       "id": "leg_206782",
@@ -3793,7 +3793,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:05.693Z"
+      "updated_at": "2026-07-05T18:19:00.052Z"
     },
     {
       "id": "leg_227944",
@@ -3804,7 +3804,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:05.693Z"
+      "updated_at": "2026-07-05T18:19:00.052Z"
     },
     {
       "id": "leg_218003",
@@ -3815,7 +3815,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:05.693Z"
+      "updated_at": "2026-07-05T18:19:00.052Z"
     },
     {
       "id": "leg_207731",
@@ -3826,7 +3826,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:06.153Z"
+      "updated_at": "2026-07-05T18:19:00.503Z"
     },
     {
       "id": "leg_217424",
@@ -3837,7 +3837,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:06.153Z"
+      "updated_at": "2026-07-05T18:19:00.503Z"
     },
     {
       "id": "leg_232987",
@@ -3848,7 +3848,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:06.153Z"
+      "updated_at": "2026-07-05T18:19:00.503Z"
     },
     {
       "id": "leg_260994",
@@ -3859,7 +3859,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:06.153Z"
+      "updated_at": "2026-07-05T18:19:00.503Z"
     },
     {
       "id": "leg_222536",
@@ -3870,7 +3870,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:06.153Z"
+      "updated_at": "2026-07-05T18:19:00.503Z"
     },
     {
       "id": "leg_204414",
@@ -3881,7 +3881,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:06.613Z"
+      "updated_at": "2026-07-05T18:19:00.955Z"
     },
     {
       "id": "leg_222837",
@@ -3892,7 +3892,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:06.613Z"
+      "updated_at": "2026-07-05T18:19:00.955Z"
     },
     {
       "id": "leg_204551",
@@ -3903,7 +3903,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:06.613Z"
+      "updated_at": "2026-07-05T18:19:00.955Z"
     },
     {
       "id": "leg_224427",
@@ -3914,7 +3914,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:06.613Z"
+      "updated_at": "2026-07-05T18:19:00.955Z"
     },
     {
       "id": "leg_186024",
@@ -3925,7 +3925,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:06.613Z"
+      "updated_at": "2026-07-05T18:19:00.955Z"
     },
     {
       "id": "leg_217335",
@@ -3936,7 +3936,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:06.613Z"
+      "updated_at": "2026-07-05T18:19:00.955Z"
     },
     {
       "id": "leg_216022",
@@ -3947,7 +3947,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:07.073Z"
+      "updated_at": "2026-07-05T18:19:01.410Z"
     },
     {
       "id": "leg_224124",
@@ -3958,7 +3958,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:07.073Z"
+      "updated_at": "2026-07-05T18:19:01.410Z"
     },
     {
       "id": "leg_236176",
@@ -3969,7 +3969,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:07.073Z"
+      "updated_at": "2026-07-05T18:19:01.410Z"
     },
     {
       "id": "leg_205597",
@@ -3980,7 +3980,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:07.073Z"
+      "updated_at": "2026-07-05T18:19:01.410Z"
     },
     {
       "id": "leg_211802",
@@ -3991,7 +3991,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:07.073Z"
+      "updated_at": "2026-07-05T18:19:01.410Z"
     },
     {
       "id": "leg_219331",
@@ -4002,7 +4002,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:07.073Z"
+      "updated_at": "2026-07-05T18:19:01.410Z"
     },
     {
       "id": "leg_184017",
@@ -4013,7 +4013,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:07.073Z"
+      "updated_at": "2026-07-05T18:19:01.410Z"
     },
     {
       "id": "leg_227403",
@@ -4024,7 +4024,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:07.540Z"
+      "updated_at": "2026-07-05T18:19:01.867Z"
     },
     {
       "id": "leg_212657",
@@ -4035,7 +4035,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:07.540Z"
+      "updated_at": "2026-07-05T18:19:01.867Z"
     },
     {
       "id": "leg_244067",
@@ -4046,7 +4046,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:07.540Z"
+      "updated_at": "2026-07-05T18:19:01.867Z"
     },
     {
       "id": "leg_203363",
@@ -4057,7 +4057,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:07.540Z"
+      "updated_at": "2026-07-05T18:19:01.867Z"
     },
     {
       "id": "leg_221167",
@@ -4068,7 +4068,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:07.540Z"
+      "updated_at": "2026-07-05T18:19:01.867Z"
     },
     {
       "id": "leg_269992",
@@ -4079,7 +4079,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:07.540Z"
+      "updated_at": "2026-07-05T18:19:01.867Z"
     },
     {
       "id": "leg_196406",
@@ -4090,7 +4090,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:07.540Z"
+      "updated_at": "2026-07-05T18:19:01.867Z"
     },
     {
       "id": "leg_219807",
@@ -4101,7 +4101,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:08.005Z"
+      "updated_at": "2026-07-05T18:19:02.328Z"
     },
     {
       "id": "leg_231046",
@@ -4112,7 +4112,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:08.005Z"
+      "updated_at": "2026-07-05T18:19:02.328Z"
     },
     {
       "id": "leg_210824",
@@ -4123,7 +4123,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:08.005Z"
+      "updated_at": "2026-07-05T18:19:02.328Z"
     },
     {
       "id": "leg_226841",
@@ -4134,7 +4134,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:08.005Z"
+      "updated_at": "2026-07-05T18:19:02.328Z"
     },
     {
       "id": "leg_207628",
@@ -4145,7 +4145,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:08.005Z"
+      "updated_at": "2026-07-05T18:19:02.328Z"
     },
     {
       "id": "leg_221915",
@@ -4156,7 +4156,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:08.005Z"
+      "updated_at": "2026-07-05T18:19:02.328Z"
     },
     {
       "id": "leg_224296",
@@ -4167,7 +4167,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:08.005Z"
+      "updated_at": "2026-07-05T18:19:02.328Z"
     },
     {
       "id": "leg_236533",
@@ -4178,7 +4178,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:08.005Z"
+      "updated_at": "2026-07-05T18:19:02.328Z"
     },
     {
       "id": "leg_209195",
@@ -4189,7 +4189,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:08.005Z"
+      "updated_at": "2026-07-05T18:19:02.328Z"
     },
     {
       "id": "leg_217726",
@@ -4200,7 +4200,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:08.005Z"
+      "updated_at": "2026-07-05T18:19:02.328Z"
     },
     {
       "id": "leg_204111",
@@ -4211,7 +4211,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:08.005Z"
+      "updated_at": "2026-07-05T18:19:02.328Z"
     },
     {
       "id": "leg_243935",
@@ -4222,7 +4222,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:08.468Z"
+      "updated_at": "2026-07-05T18:19:02.792Z"
     },
     {
       "id": "leg_196549",
@@ -4233,7 +4233,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:08.468Z"
+      "updated_at": "2026-07-05T18:19:02.792Z"
     },
     {
       "id": "leg_214590",
@@ -4244,7 +4244,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:08.468Z"
+      "updated_at": "2026-07-05T18:19:02.792Z"
     },
     {
       "id": "leg_227706",
@@ -4255,7 +4255,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:08.468Z"
+      "updated_at": "2026-07-05T18:19:02.792Z"
     },
     {
       "id": "leg_190099",
@@ -4266,7 +4266,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:08.468Z"
+      "updated_at": "2026-07-05T18:19:02.792Z"
     },
     {
       "id": "leg_201748",
@@ -4277,7 +4277,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:08.468Z"
+      "updated_at": "2026-07-05T18:19:02.792Z"
     },
     {
       "id": "leg_207228",
@@ -4288,7 +4288,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:08.468Z"
+      "updated_at": "2026-07-05T18:19:02.792Z"
     },
     {
       "id": "leg_208627",
@@ -4299,7 +4299,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:08.939Z"
+      "updated_at": "2026-07-05T18:19:03.250Z"
     },
     {
       "id": "leg_203596",
@@ -4310,7 +4310,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:08.939Z"
+      "updated_at": "2026-07-05T18:19:03.250Z"
     },
     {
       "id": "leg_224584",
@@ -4321,7 +4321,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:08.939Z"
+      "updated_at": "2026-07-05T18:19:03.250Z"
     },
     {
       "id": "leg_185791",
@@ -4332,7 +4332,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:09.408Z"
+      "updated_at": "2026-07-05T18:19:03.713Z"
     },
     {
       "id": "leg_223912",
@@ -4343,7 +4343,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:09.408Z"
+      "updated_at": "2026-07-05T18:19:03.713Z"
     },
     {
       "id": "leg_185588",
@@ -4354,7 +4354,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:09.408Z"
+      "updated_at": "2026-07-05T18:19:03.713Z"
     },
     {
       "id": "leg_226266",
@@ -4365,7 +4365,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:09.408Z"
+      "updated_at": "2026-07-05T18:19:03.713Z"
     },
     {
       "id": "leg_209511",
@@ -4376,7 +4376,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:09.408Z"
+      "updated_at": "2026-07-05T18:19:03.713Z"
     },
     {
       "id": "leg_260699",
@@ -4387,7 +4387,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:09.408Z"
+      "updated_at": "2026-07-05T18:19:03.713Z"
     },
     {
       "id": "leg_193220",
@@ -4398,7 +4398,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:09.408Z"
+      "updated_at": "2026-07-05T18:19:03.713Z"
     },
     {
       "id": "leg_175490",
@@ -4409,7 +4409,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:09.408Z"
+      "updated_at": "2026-07-05T18:19:03.713Z"
     },
     {
       "id": "leg_217353",
@@ -4420,7 +4420,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:09.408Z"
+      "updated_at": "2026-07-05T18:19:03.713Z"
     },
     {
       "id": "leg_193193",
@@ -4431,7 +4431,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:09.408Z"
+      "updated_at": "2026-07-05T18:19:03.713Z"
     },
     {
       "id": "leg_206170",
@@ -4442,7 +4442,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:09.877Z"
+      "updated_at": "2026-07-05T18:19:04.167Z"
     },
     {
       "id": "leg_183453",
@@ -4453,7 +4453,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:09.877Z"
+      "updated_at": "2026-07-05T18:19:04.167Z"
     },
     {
       "id": "leg_233460",
@@ -4464,7 +4464,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:09.877Z"
+      "updated_at": "2026-07-05T18:19:04.167Z"
     },
     {
       "id": "leg_205218",
@@ -4475,7 +4475,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:09.877Z"
+      "updated_at": "2026-07-05T18:19:04.167Z"
     },
     {
       "id": "leg_177142",
@@ -4486,7 +4486,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:10.353Z"
+      "updated_at": "2026-07-05T18:19:04.627Z"
     },
     {
       "id": "leg_215177",
@@ -4497,7 +4497,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:10.353Z"
+      "updated_at": "2026-07-05T18:19:04.627Z"
     },
     {
       "id": "leg_210716",
@@ -4508,7 +4508,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:10.353Z"
+      "updated_at": "2026-07-05T18:19:04.627Z"
     },
     {
       "id": "leg_207300",
@@ -4519,7 +4519,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:10.353Z"
+      "updated_at": "2026-07-05T18:19:04.627Z"
     },
     {
       "id": "leg_226298",
@@ -4530,7 +4530,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:10.354Z"
+      "updated_at": "2026-07-05T18:19:04.627Z"
     },
     {
       "id": "leg_252472",
@@ -4541,7 +4541,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:10.816Z"
+      "updated_at": "2026-07-05T18:19:05.080Z"
     },
     {
       "id": "leg_195176",
@@ -4552,7 +4552,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:10.816Z"
+      "updated_at": "2026-07-05T18:19:05.080Z"
     },
     {
       "id": "leg_205278",
@@ -4563,7 +4563,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:10.816Z"
+      "updated_at": "2026-07-05T18:19:05.080Z"
     },
     {
       "id": "leg_196806",
@@ -4574,7 +4574,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:11.285Z"
+      "updated_at": "2026-07-05T18:19:05.533Z"
     },
     {
       "id": "leg_219687",
@@ -4585,7 +4585,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:11.285Z"
+      "updated_at": "2026-07-05T18:19:05.533Z"
     },
     {
       "id": "leg_193836",
@@ -4596,7 +4596,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:11.285Z"
+      "updated_at": "2026-07-05T18:19:05.533Z"
     },
     {
       "id": "leg_234489",
@@ -4607,7 +4607,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:11.285Z"
+      "updated_at": "2026-07-05T18:19:05.533Z"
     },
     {
       "id": "leg_210240",
@@ -4618,7 +4618,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:11.763Z"
+      "updated_at": "2026-07-05T18:19:06.011Z"
     },
     {
       "id": "leg_233308",
@@ -4629,7 +4629,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:11.763Z"
+      "updated_at": "2026-07-05T18:19:06.011Z"
     },
     {
       "id": "leg_179674",
@@ -4640,7 +4640,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:11.763Z"
+      "updated_at": "2026-07-05T18:19:06.011Z"
     },
     {
       "id": "leg_205284",
@@ -4651,7 +4651,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:11.763Z"
+      "updated_at": "2026-07-05T18:19:06.011Z"
     },
     {
       "id": "leg_211871",
@@ -4662,7 +4662,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:11.763Z"
+      "updated_at": "2026-07-05T18:19:06.011Z"
     },
     {
       "id": "leg_202475",
@@ -4673,7 +4673,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:11.763Z"
+      "updated_at": "2026-07-05T18:19:06.011Z"
     },
     {
       "id": "leg_199769",
@@ -4684,7 +4684,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:11.763Z"
+      "updated_at": "2026-07-05T18:19:06.011Z"
     },
     {
       "id": "leg_258536",
@@ -4695,7 +4695,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:11.763Z"
+      "updated_at": "2026-07-05T18:19:06.011Z"
     },
     {
       "id": "leg_220307",
@@ -4706,7 +4706,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:11.763Z"
+      "updated_at": "2026-07-05T18:19:06.011Z"
     },
     {
       "id": "leg_236660",
@@ -4717,7 +4717,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:11.763Z"
+      "updated_at": "2026-07-05T18:19:06.011Z"
     },
     {
       "id": "leg_217961",
@@ -4728,7 +4728,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:11.763Z"
+      "updated_at": "2026-07-05T18:19:06.011Z"
     },
     {
       "id": "leg_195569",
@@ -4739,7 +4739,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:11.763Z"
+      "updated_at": "2026-07-05T18:19:06.011Z"
     },
     {
       "id": "leg_221238",
@@ -4750,7 +4750,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:12.241Z"
+      "updated_at": "2026-07-05T18:19:06.466Z"
     },
     {
       "id": "leg_231702",
@@ -4761,7 +4761,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:12.241Z"
+      "updated_at": "2026-07-05T18:19:06.466Z"
     },
     {
       "id": "leg_238708",
@@ -4772,7 +4772,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:12.241Z"
+      "updated_at": "2026-07-05T18:19:06.466Z"
     },
     {
       "id": "leg_193863",
@@ -4783,7 +4783,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:12.241Z"
+      "updated_at": "2026-07-05T18:19:06.466Z"
     },
     {
       "id": "leg_205439",
@@ -4794,7 +4794,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:12.703Z"
+      "updated_at": "2026-07-05T18:19:06.917Z"
     },
     {
       "id": "leg_186293",
@@ -4805,7 +4805,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:12.703Z"
+      "updated_at": "2026-07-05T18:19:06.917Z"
     },
     {
       "id": "leg_227865",
@@ -4816,7 +4816,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:12.703Z"
+      "updated_at": "2026-07-05T18:19:06.917Z"
     },
     {
       "id": "leg_186434",
@@ -4827,7 +4827,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:12.703Z"
+      "updated_at": "2026-07-05T18:19:06.917Z"
     },
     {
       "id": "leg_182015",
@@ -4838,7 +4838,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:13.187Z"
+      "updated_at": "2026-07-05T18:19:07.377Z"
     },
     {
       "id": "leg_213243",
@@ -4849,7 +4849,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:13.187Z"
+      "updated_at": "2026-07-05T18:19:07.377Z"
     },
     {
       "id": "leg_208743",
@@ -4860,7 +4860,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:13.187Z"
+      "updated_at": "2026-07-05T18:19:07.377Z"
     },
     {
       "id": "leg_192985",
@@ -4871,7 +4871,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:13.187Z"
+      "updated_at": "2026-07-05T18:19:07.377Z"
     },
     {
       "id": "leg_220639",
@@ -4882,7 +4882,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:13.187Z"
+      "updated_at": "2026-07-05T18:19:07.377Z"
     },
     {
       "id": "leg_223106",
@@ -4893,7 +4893,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:13.187Z"
+      "updated_at": "2026-07-05T18:19:07.377Z"
     },
     {
       "id": "leg_195805",
@@ -4904,7 +4904,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:13.187Z"
+      "updated_at": "2026-07-05T18:19:07.377Z"
     },
     {
       "id": "leg_195425",
@@ -4915,7 +4915,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:13.867Z"
+      "updated_at": "2026-07-05T18:19:07.832Z"
     },
     {
       "id": "leg_243308",
@@ -4926,7 +4926,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:13.867Z"
+      "updated_at": "2026-07-05T18:19:07.832Z"
     },
     {
       "id": "leg_197144",
@@ -4937,7 +4937,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:13.867Z"
+      "updated_at": "2026-07-05T18:19:07.832Z"
     },
     {
       "id": "leg_225388",
@@ -4948,7 +4948,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:13.867Z"
+      "updated_at": "2026-07-05T18:19:07.832Z"
     },
     {
       "id": "leg_183069",
@@ -4959,7 +4959,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:13.867Z"
+      "updated_at": "2026-07-05T18:19:07.832Z"
     },
     {
       "id": "leg_237209",
@@ -4970,7 +4970,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:13.867Z"
+      "updated_at": "2026-07-05T18:19:07.832Z"
     },
     {
       "id": "leg_250730",
@@ -4981,7 +4981,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:13.867Z"
+      "updated_at": "2026-07-05T18:19:07.832Z"
     },
     {
       "id": "leg_184986",
@@ -4992,7 +4992,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:14.340Z"
+      "updated_at": "2026-07-05T18:19:08.282Z"
     },
     {
       "id": "leg_203667",
@@ -5003,7 +5003,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:14.340Z"
+      "updated_at": "2026-07-05T18:19:08.282Z"
     },
     {
       "id": "leg_214649",
@@ -5014,7 +5014,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:14.811Z"
+      "updated_at": "2026-07-05T18:19:08.742Z"
     },
     {
       "id": "leg_197834",
@@ -5025,7 +5025,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:14.811Z"
+      "updated_at": "2026-07-05T18:19:08.742Z"
     },
     {
       "id": "leg_182649",
@@ -5036,7 +5036,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:14.811Z"
+      "updated_at": "2026-07-05T18:19:08.742Z"
     },
     {
       "id": "leg_204171",
@@ -5047,7 +5047,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:14.811Z"
+      "updated_at": "2026-07-05T18:19:08.742Z"
     },
     {
       "id": "leg_211074",
@@ -5058,7 +5058,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:15.274Z"
+      "updated_at": "2026-07-05T18:19:09.201Z"
     },
     {
       "id": "leg_208380",
@@ -5069,7 +5069,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:15.274Z"
+      "updated_at": "2026-07-05T18:19:09.201Z"
     },
     {
       "id": "leg_227779",
@@ -5080,7 +5080,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:15.274Z"
+      "updated_at": "2026-07-05T18:19:09.201Z"
     },
     {
       "id": "leg_243172",
@@ -5091,7 +5091,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:15.743Z"
+      "updated_at": "2026-07-05T18:19:09.656Z"
     },
     {
       "id": "leg_244083",
@@ -5102,7 +5102,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:16.214Z"
+      "updated_at": "2026-07-05T18:19:10.113Z"
     },
     {
       "id": "leg_224793",
@@ -5113,7 +5113,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:16.214Z"
+      "updated_at": "2026-07-05T18:19:10.113Z"
     },
     {
       "id": "leg_221442",
@@ -5124,7 +5124,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:16.214Z"
+      "updated_at": "2026-07-05T18:19:10.113Z"
     },
     {
       "id": "leg_229395",
@@ -5135,7 +5135,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:16.215Z"
+      "updated_at": "2026-07-05T18:19:10.113Z"
     },
     {
       "id": "leg_196144",
@@ -5146,7 +5146,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:16.215Z"
+      "updated_at": "2026-07-05T18:19:10.113Z"
     },
     {
       "id": "leg_211515",
@@ -5157,7 +5157,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:16.215Z"
+      "updated_at": "2026-07-05T18:19:10.113Z"
     },
     {
       "id": "leg_228472",
@@ -5168,7 +5168,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:16.686Z"
+      "updated_at": "2026-07-05T18:19:10.574Z"
     },
     {
       "id": "leg_214713",
@@ -5179,7 +5179,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:16.686Z"
+      "updated_at": "2026-07-05T18:19:10.574Z"
     },
     {
       "id": "leg_213745",
@@ -5190,7 +5190,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:17.151Z"
+      "updated_at": "2026-07-05T18:19:11.030Z"
     },
     {
       "id": "leg_207854",
@@ -5201,7 +5201,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:17.152Z"
+      "updated_at": "2026-07-05T18:19:11.030Z"
     },
     {
       "id": "leg_224573",
@@ -5212,7 +5212,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:17.621Z"
+      "updated_at": "2026-07-05T18:19:11.486Z"
     },
     {
       "id": "leg_212686",
@@ -5223,7 +5223,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:17.621Z"
+      "updated_at": "2026-07-05T18:19:11.486Z"
     },
     {
       "id": "leg_218295",
@@ -5234,7 +5234,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:17.621Z"
+      "updated_at": "2026-07-05T18:19:11.486Z"
     },
     {
       "id": "leg_234129",
@@ -5245,7 +5245,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:18.093Z"
+      "updated_at": "2026-07-05T18:19:11.944Z"
     },
     {
       "id": "leg_224250",
@@ -5256,7 +5256,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:18.093Z"
+      "updated_at": "2026-07-05T18:19:11.944Z"
     },
     {
       "id": "leg_221489",
@@ -5267,7 +5267,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:18.093Z"
+      "updated_at": "2026-07-05T18:19:11.944Z"
     },
     {
       "id": "leg_225458",
@@ -5278,7 +5278,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:18.093Z"
+      "updated_at": "2026-07-05T18:19:11.944Z"
     },
     {
       "id": "leg_166389",
@@ -5289,7 +5289,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:18.093Z"
+      "updated_at": "2026-07-05T18:19:11.944Z"
     },
     {
       "id": "leg_218135",
@@ -5300,7 +5300,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:18.566Z"
+      "updated_at": "2026-07-05T18:19:12.408Z"
     },
     {
       "id": "leg_206432",
@@ -5311,7 +5311,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:18.566Z"
+      "updated_at": "2026-07-05T18:19:12.408Z"
     },
     {
       "id": "leg_174028",
@@ -5322,7 +5322,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:18.566Z"
+      "updated_at": "2026-07-05T18:19:12.408Z"
     },
     {
       "id": "leg_199700",
@@ -5333,7 +5333,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:19.038Z"
+      "updated_at": "2026-07-05T18:19:12.872Z"
     },
     {
       "id": "leg_223532",
@@ -5344,7 +5344,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:19.038Z"
+      "updated_at": "2026-07-05T18:19:12.872Z"
     },
     {
       "id": "leg_233805",
@@ -5355,7 +5355,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:19.038Z"
+      "updated_at": "2026-07-05T18:19:12.872Z"
     },
     {
       "id": "leg_205855",
@@ -5366,7 +5366,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:19.984Z"
+      "updated_at": "2026-07-05T18:19:13.785Z"
     },
     {
       "id": "leg_198874",
@@ -5377,7 +5377,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:19.984Z"
+      "updated_at": "2026-07-05T18:19:13.785Z"
     },
     {
       "id": "leg_211677",
@@ -5388,7 +5388,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:20.463Z"
+      "updated_at": "2026-07-05T18:19:14.255Z"
     },
     {
       "id": "leg_198228",
@@ -5399,7 +5399,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:20.463Z"
+      "updated_at": "2026-07-05T18:19:14.255Z"
     },
     {
       "id": "leg_185957",
@@ -5410,7 +5410,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:20.463Z"
+      "updated_at": "2026-07-05T18:19:14.255Z"
     },
     {
       "id": "leg_196125",
@@ -5421,7 +5421,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:20.950Z"
+      "updated_at": "2026-07-05T18:19:14.732Z"
     },
     {
       "id": "leg_175425",
@@ -5432,7 +5432,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:20.950Z"
+      "updated_at": "2026-07-05T18:19:14.732Z"
     },
     {
       "id": "leg_211401",
@@ -5443,7 +5443,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:20.950Z"
+      "updated_at": "2026-07-05T18:19:14.732Z"
     },
     {
       "id": "leg_215513",
@@ -5454,7 +5454,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:20.950Z"
+      "updated_at": "2026-07-05T18:19:14.732Z"
     },
     {
       "id": "leg_206533",
@@ -5465,7 +5465,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:20.950Z"
+      "updated_at": "2026-07-05T18:19:14.732Z"
     },
     {
       "id": "leg_218292",
@@ -5476,7 +5476,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:20.950Z"
+      "updated_at": "2026-07-05T18:19:14.732Z"
     },
     {
       "id": "leg_215892",
@@ -5487,7 +5487,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:21.434Z"
+      "updated_at": "2026-07-05T18:19:15.194Z"
     },
     {
       "id": "leg_206500",
@@ -5498,7 +5498,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:21.434Z"
+      "updated_at": "2026-07-05T18:19:15.194Z"
     },
     {
       "id": "leg_245557",
@@ -5509,7 +5509,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:21.434Z"
+      "updated_at": "2026-07-05T18:19:15.194Z"
     },
     {
       "id": "leg_244199",
@@ -5520,7 +5520,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:21.434Z"
+      "updated_at": "2026-07-05T18:19:15.194Z"
     },
     {
       "id": "leg_217510",
@@ -5531,7 +5531,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:21.434Z"
+      "updated_at": "2026-07-05T18:19:15.194Z"
     },
     {
       "id": "leg_223359",
@@ -5542,7 +5542,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:21.434Z"
+      "updated_at": "2026-07-05T18:19:15.194Z"
     },
     {
       "id": "leg_253413",
@@ -5553,7 +5553,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:21.919Z"
+      "updated_at": "2026-07-05T18:19:15.668Z"
     },
     {
       "id": "leg_218513",
@@ -5564,7 +5564,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:21.919Z"
+      "updated_at": "2026-07-05T18:19:15.668Z"
     },
     {
       "id": "leg_192055",
@@ -5575,7 +5575,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:22.398Z"
+      "updated_at": "2026-07-05T18:19:16.130Z"
     },
     {
       "id": "leg_204293",
@@ -5586,7 +5586,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:22.398Z"
+      "updated_at": "2026-07-05T18:19:16.130Z"
     },
     {
       "id": "leg_213005",
@@ -5597,7 +5597,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:22.877Z"
+      "updated_at": "2026-07-05T18:19:16.598Z"
     },
     {
       "id": "leg_203897",
@@ -5608,7 +5608,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:22.877Z"
+      "updated_at": "2026-07-05T18:19:16.598Z"
     },
     {
       "id": "leg_206321",
@@ -5619,7 +5619,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:22.877Z"
+      "updated_at": "2026-07-05T18:19:16.598Z"
     },
     {
       "id": "leg_217128",
@@ -5630,7 +5630,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:22.877Z"
+      "updated_at": "2026-07-05T18:19:16.598Z"
     },
     {
       "id": "leg_222527",
@@ -5641,7 +5641,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:23.354Z"
+      "updated_at": "2026-07-05T18:19:17.069Z"
     },
     {
       "id": "leg_219897",
@@ -5652,7 +5652,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:23.825Z"
+      "updated_at": "2026-07-05T18:19:17.533Z"
     },
     {
       "id": "leg_227122",
@@ -5663,7 +5663,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:24.305Z"
+      "updated_at": "2026-07-05T18:19:17.997Z"
     },
     {
       "id": "leg_227132",
@@ -5674,7 +5674,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:24.789Z"
+      "updated_at": "2026-07-05T18:19:18.466Z"
     },
     {
       "id": "leg_224101",
@@ -5685,7 +5685,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:25.271Z"
+      "updated_at": "2026-07-05T18:19:18.930Z"
     },
     {
       "id": "leg_188340",
@@ -5696,7 +5696,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:25.271Z"
+      "updated_at": "2026-07-05T18:19:18.930Z"
     },
     {
       "id": "leg_245077",
@@ -5707,7 +5707,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:25.751Z"
+      "updated_at": "2026-07-05T18:19:19.399Z"
     },
     {
       "id": "leg_202978",
@@ -5718,7 +5718,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:26.232Z"
+      "updated_at": "2026-07-05T18:19:19.868Z"
     },
     {
       "id": "leg_214073",
@@ -5729,7 +5729,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:26.232Z"
+      "updated_at": "2026-07-05T18:19:19.868Z"
     },
     {
       "id": "leg_178134",
@@ -5740,7 +5740,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:26.716Z"
+      "updated_at": "2026-07-05T18:19:20.333Z"
     },
     {
       "id": "leg_215015",
@@ -5751,7 +5751,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:26.716Z"
+      "updated_at": "2026-07-05T18:19:20.333Z"
     },
     {
       "id": "leg_194194",
@@ -5762,7 +5762,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:26.716Z"
+      "updated_at": "2026-07-05T18:19:20.334Z"
     },
     {
       "id": "leg_232312",
@@ -5773,7 +5773,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:27.202Z"
+      "updated_at": "2026-07-05T18:19:20.805Z"
     },
     {
       "id": "leg_193875",
@@ -5784,7 +5784,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:27.202Z"
+      "updated_at": "2026-07-05T18:19:20.805Z"
     },
     {
       "id": "leg_180327",
@@ -5795,7 +5795,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:27.202Z"
+      "updated_at": "2026-07-05T18:19:20.805Z"
     },
     {
       "id": "leg_183465",
@@ -5806,7 +5806,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:27.202Z"
+      "updated_at": "2026-07-05T18:19:20.805Z"
     },
     {
       "id": "leg_220012",
@@ -5817,7 +5817,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:27.701Z"
+      "updated_at": "2026-07-05T18:19:21.281Z"
     },
     {
       "id": "leg_206135",
@@ -5828,7 +5828,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:28.185Z"
+      "updated_at": "2026-07-05T18:19:21.752Z"
     },
     {
       "id": "leg_205598",
@@ -5839,7 +5839,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:28.674Z"
+      "updated_at": "2026-07-05T18:19:22.222Z"
     },
     {
       "id": "leg_232118",
@@ -5850,7 +5850,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:29.162Z"
+      "updated_at": "2026-07-05T18:19:22.692Z"
     },
     {
       "id": "leg_222559",
@@ -5861,7 +5861,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:29.162Z"
+      "updated_at": "2026-07-05T18:19:22.692Z"
     },
     {
       "id": "leg_181659",
@@ -5872,7 +5872,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:29.162Z"
+      "updated_at": "2026-07-05T18:19:22.692Z"
     },
     {
       "id": "leg_177645",
@@ -5883,7 +5883,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:29.651Z"
+      "updated_at": "2026-07-05T18:19:23.161Z"
     },
     {
       "id": "leg_214080",
@@ -5894,7 +5894,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:29.651Z"
+      "updated_at": "2026-07-05T18:19:23.162Z"
     },
     {
       "id": "leg_235578",
@@ -5905,7 +5905,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:30.618Z"
+      "updated_at": "2026-07-05T18:19:24.102Z"
     },
     {
       "id": "leg_223329",
@@ -5916,7 +5916,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:30.618Z"
+      "updated_at": "2026-07-05T18:19:24.102Z"
     },
     {
       "id": "leg_222537",
@@ -5927,7 +5927,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:30.618Z"
+      "updated_at": "2026-07-05T18:19:24.102Z"
     },
     {
       "id": "leg_220508",
@@ -5938,7 +5938,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:31.104Z"
+      "updated_at": "2026-07-05T18:19:24.574Z"
     },
     {
       "id": "leg_201100",
@@ -5949,7 +5949,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:32.073Z"
+      "updated_at": "2026-07-05T18:19:25.513Z"
     },
     {
       "id": "leg_219183",
@@ -5960,7 +5960,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:32.073Z"
+      "updated_at": "2026-07-05T18:19:25.513Z"
     },
     {
       "id": "leg_214460",
@@ -5971,7 +5971,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:32.559Z"
+      "updated_at": "2026-07-05T18:19:25.984Z"
     },
     {
       "id": "leg_198544",
@@ -5982,7 +5982,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:32.559Z"
+      "updated_at": "2026-07-05T18:19:25.984Z"
     },
     {
       "id": "leg_219650",
@@ -5993,7 +5993,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:34.073Z"
+      "updated_at": "2026-07-05T18:19:27.408Z"
     },
     {
       "id": "leg_238935",
@@ -6004,7 +6004,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:34.073Z"
+      "updated_at": "2026-07-05T18:19:27.408Z"
     },
     {
       "id": "leg_205642",
@@ -6015,7 +6015,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:34.073Z"
+      "updated_at": "2026-07-05T18:19:27.408Z"
     },
     {
       "id": "leg_212491",
@@ -6026,7 +6026,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:34.073Z"
+      "updated_at": "2026-07-05T18:19:27.408Z"
     },
     {
       "id": "leg_174643",
@@ -6037,7 +6037,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:35.540Z"
+      "updated_at": "2026-07-05T18:19:28.830Z"
     },
     {
       "id": "leg_202596",
@@ -6048,7 +6048,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:37.012Z"
+      "updated_at": "2026-07-05T18:19:30.248Z"
     },
     {
       "id": "leg_205740",
@@ -6059,7 +6059,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:37.502Z"
+      "updated_at": "2026-07-05T18:19:30.720Z"
     },
     {
       "id": "leg_196971",
@@ -6070,7 +6070,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:39.468Z"
+      "updated_at": "2026-07-05T18:19:32.640Z"
     },
     {
       "id": "leg_194116",
@@ -6081,7 +6081,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:39.957Z"
+      "updated_at": "2026-07-05T18:19:33.121Z"
     },
     {
       "id": "leg_222585",
@@ -6092,7 +6092,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:40.451Z"
+      "updated_at": "2026-07-05T18:19:33.596Z"
     },
     {
       "id": "leg_174933",
@@ -6103,7 +6103,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:41.907Z"
+      "updated_at": "2026-07-05T18:19:35.029Z"
     },
     {
       "id": "leg_212708",
@@ -6114,7 +6114,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:42.893Z"
+      "updated_at": "2026-07-05T18:19:35.980Z"
     },
     {
       "id": "leg_217012",
@@ -6125,7 +6125,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:42.893Z"
+      "updated_at": "2026-07-05T18:19:35.980Z"
     },
     {
       "id": "leg_219531",
@@ -6136,7 +6136,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:44.367Z"
+      "updated_at": "2026-07-05T18:19:37.414Z"
     },
     {
       "id": "leg_190604",
@@ -6147,7 +6147,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:45.853Z"
+      "updated_at": "2026-07-05T18:19:38.853Z"
     },
     {
       "id": "leg_168818",
@@ -6158,7 +6158,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:45.853Z"
+      "updated_at": "2026-07-05T18:19:38.853Z"
     },
     {
       "id": "leg_210614",
@@ -6169,7 +6169,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:46.351Z"
+      "updated_at": "2026-07-05T18:19:39.331Z"
     },
     {
       "id": "leg_212554",
@@ -6180,7 +6180,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:46.351Z"
+      "updated_at": "2026-07-05T18:19:39.331Z"
     },
     {
       "id": "leg_200281",
@@ -6191,7 +6191,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:46.840Z"
+      "updated_at": "2026-07-05T18:19:39.805Z"
     },
     {
       "id": "leg_226075",
@@ -6202,7 +6202,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:48.306Z"
+      "updated_at": "2026-07-05T18:19:41.235Z"
     },
     {
       "id": "leg_244920",
@@ -6213,7 +6213,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:48.306Z"
+      "updated_at": "2026-07-05T18:19:41.235Z"
     },
     {
       "id": "leg_250364",
@@ -6224,7 +6224,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:48.306Z"
+      "updated_at": "2026-07-05T18:19:41.235Z"
     },
     {
       "id": "leg_198145",
@@ -6235,7 +6235,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:48.306Z"
+      "updated_at": "2026-07-05T18:19:41.235Z"
     },
     {
       "id": "leg_217335",
@@ -6246,7 +6246,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:49.312Z"
+      "updated_at": "2026-07-05T18:19:42.203Z"
     },
     {
       "id": "leg_210502",
@@ -6257,7 +6257,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-213",
-      "updated_at": "2026-06-28T18:20:49.312Z"
+      "updated_at": "2026-07-05T18:19:42.203Z"
     },
     {
       "id": "leg_220544",
@@ -6268,7 +6268,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:20:51.295Z"
+      "updated_at": "2026-07-05T18:19:44.103Z"
     },
     {
       "id": "leg_208540",
@@ -6279,7 +6279,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:20:51.295Z"
+      "updated_at": "2026-07-05T18:19:44.103Z"
     },
     {
       "id": "leg_192474",
@@ -6290,7 +6290,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:20:51.784Z"
+      "updated_at": "2026-07-05T18:19:44.608Z"
     },
     {
       "id": "leg_213329",
@@ -6301,7 +6301,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:20:52.266Z"
+      "updated_at": "2026-07-05T18:19:45.054Z"
     },
     {
       "id": "leg_199926",
@@ -6312,7 +6312,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:20:52.266Z"
+      "updated_at": "2026-07-05T18:19:45.054Z"
     },
     {
       "id": "leg_230268",
@@ -6323,7 +6323,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:20:52.266Z"
+      "updated_at": "2026-07-05T18:19:45.054Z"
     },
     {
       "id": "leg_239421",
@@ -6334,7 +6334,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:20:52.266Z"
+      "updated_at": "2026-07-05T18:19:45.054Z"
     },
     {
       "id": "leg_201107",
@@ -6345,7 +6345,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:20:52.266Z"
+      "updated_at": "2026-07-05T18:19:45.054Z"
     },
     {
       "id": "leg_204432",
@@ -6356,7 +6356,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:20:52.736Z"
+      "updated_at": "2026-07-05T18:19:45.502Z"
     },
     {
       "id": "leg_197459",
@@ -6367,7 +6367,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:20:52.736Z"
+      "updated_at": "2026-07-05T18:19:45.502Z"
     },
     {
       "id": "leg_175737",
@@ -6378,7 +6378,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:20:52.736Z"
+      "updated_at": "2026-07-05T18:19:45.502Z"
     },
     {
       "id": "leg_224298",
@@ -6389,7 +6389,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:20:52.736Z"
+      "updated_at": "2026-07-05T18:19:45.502Z"
     },
     {
       "id": "leg_210822",
@@ -6400,7 +6400,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:20:53.190Z"
+      "updated_at": "2026-07-05T18:19:45.953Z"
     },
     {
       "id": "leg_225483",
@@ -6411,7 +6411,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:20:53.190Z"
+      "updated_at": "2026-07-05T18:19:45.953Z"
     },
     {
       "id": "leg_188578",
@@ -6422,7 +6422,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:20:53.641Z"
+      "updated_at": "2026-07-05T18:19:46.389Z"
     },
     {
       "id": "leg_200083",
@@ -6433,7 +6433,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:20:53.641Z"
+      "updated_at": "2026-07-05T18:19:46.389Z"
     },
     {
       "id": "leg_202806",
@@ -6444,7 +6444,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:20:53.641Z"
+      "updated_at": "2026-07-05T18:19:46.389Z"
     },
     {
       "id": "leg_191073",
@@ -6455,7 +6455,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:20:53.641Z"
+      "updated_at": "2026-07-05T18:19:46.389Z"
     },
     {
       "id": "leg_234128",
@@ -6466,7 +6466,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:20:54.096Z"
+      "updated_at": "2026-07-05T18:19:46.831Z"
     },
     {
       "id": "leg_209567",
@@ -6477,7 +6477,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:20:54.096Z"
+      "updated_at": "2026-07-05T18:19:46.831Z"
     },
     {
       "id": "leg_214206",
@@ -6488,7 +6488,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:20:54.547Z"
+      "updated_at": "2026-07-05T18:19:47.272Z"
     },
     {
       "id": "leg_226227",
@@ -6499,7 +6499,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:20:54.547Z"
+      "updated_at": "2026-07-05T18:19:47.272Z"
     },
     {
       "id": "leg_215464",
@@ -6510,7 +6510,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:20:55.012Z"
+      "updated_at": "2026-07-05T18:19:47.716Z"
     },
     {
       "id": "leg_202837",
@@ -6521,7 +6521,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:20:56.385Z"
+      "updated_at": "2026-07-05T18:19:49.043Z"
     },
     {
       "id": "leg_206762",
@@ -6532,7 +6532,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:20:56.385Z"
+      "updated_at": "2026-07-05T18:19:49.043Z"
     },
     {
       "id": "leg_214116",
@@ -6543,7 +6543,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:20:56.385Z"
+      "updated_at": "2026-07-05T18:19:49.043Z"
     },
     {
       "id": "leg_255522",
@@ -6554,7 +6554,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:20:56.385Z"
+      "updated_at": "2026-07-05T18:19:49.043Z"
     },
     {
       "id": "leg_217910",
@@ -6565,7 +6565,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:20:56.385Z"
+      "updated_at": "2026-07-05T18:19:49.043Z"
     },
     {
       "id": "leg_272229",
@@ -6576,7 +6576,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:20:57.292Z"
+      "updated_at": "2026-07-05T18:19:49.917Z"
     },
     {
       "id": "leg_217360",
@@ -6587,7 +6587,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:20:57.746Z"
+      "updated_at": "2026-07-05T18:19:50.368Z"
     },
     {
       "id": "leg_210756",
@@ -6598,7 +6598,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:20:58.205Z"
+      "updated_at": "2026-07-05T18:19:50.814Z"
     },
     {
       "id": "leg_205061",
@@ -6609,7 +6609,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:20:58.205Z"
+      "updated_at": "2026-07-05T18:19:50.814Z"
     },
     {
       "id": "leg_227139",
@@ -6620,7 +6620,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:20:59.574Z"
+      "updated_at": "2026-07-05T18:19:52.145Z"
     },
     {
       "id": "leg_216202",
@@ -6631,7 +6631,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:21:00.030Z"
+      "updated_at": "2026-07-05T18:19:52.581Z"
     },
     {
       "id": "leg_236828",
@@ -6642,7 +6642,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:21:00.489Z"
+      "updated_at": "2026-07-05T18:19:53.018Z"
     },
     {
       "id": "leg_209903",
@@ -6653,7 +6653,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:21:00.996Z"
+      "updated_at": "2026-07-05T18:19:53.461Z"
     },
     {
       "id": "leg_223395",
@@ -6664,7 +6664,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:21:01.458Z"
+      "updated_at": "2026-07-05T18:19:53.903Z"
     },
     {
       "id": "leg_217270",
@@ -6675,7 +6675,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:21:01.458Z"
+      "updated_at": "2026-07-05T18:19:53.903Z"
     },
     {
       "id": "leg_233524",
@@ -6686,7 +6686,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:21:01.928Z"
+      "updated_at": "2026-07-05T18:19:54.345Z"
     },
     {
       "id": "leg_204097",
@@ -6697,7 +6697,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:21:03.923Z"
+      "updated_at": "2026-07-05T18:19:55.682Z"
     },
     {
       "id": "leg_255089",
@@ -6708,7 +6708,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:21:03.923Z"
+      "updated_at": "2026-07-05T18:19:55.682Z"
     },
     {
       "id": "leg_188558",
@@ -6719,7 +6719,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:21:03.923Z"
+      "updated_at": "2026-07-05T18:19:55.682Z"
     },
     {
       "id": "leg_259488",
@@ -6730,7 +6730,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:21:04.385Z"
+      "updated_at": "2026-07-05T18:19:56.116Z"
     },
     {
       "id": "leg_222508",
@@ -6741,7 +6741,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:21:04.385Z"
+      "updated_at": "2026-07-05T18:19:56.116Z"
     },
     {
       "id": "leg_235477",
@@ -6752,7 +6752,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:21:05.305Z"
+      "updated_at": "2026-07-05T18:19:57.012Z"
     },
     {
       "id": "leg_199292",
@@ -6763,7 +6763,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:21:05.764Z"
+      "updated_at": "2026-07-05T18:19:57.459Z"
     },
     {
       "id": "leg_195164",
@@ -6774,7 +6774,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:21:07.590Z"
+      "updated_at": "2026-07-05T18:19:59.223Z"
     },
     {
       "id": "leg_232370",
@@ -6785,7 +6785,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:21:08.969Z"
+      "updated_at": "2026-07-05T18:20:00.691Z"
     },
     {
       "id": "leg_222592",
@@ -6796,7 +6796,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:21:08.969Z"
+      "updated_at": "2026-07-05T18:20:00.691Z"
     },
     {
       "id": "leg_252145",
@@ -6807,7 +6807,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:21:10.344Z"
+      "updated_at": "2026-07-05T18:20:02.060Z"
     },
     {
       "id": "leg_219970",
@@ -6818,7 +6818,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:21:10.344Z"
+      "updated_at": "2026-07-05T18:20:02.060Z"
     },
     {
       "id": "leg_251004",
@@ -6829,7 +6829,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:21:10.804Z"
+      "updated_at": "2026-07-05T18:20:02.521Z"
     },
     {
       "id": "leg_227037",
@@ -6840,7 +6840,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:21:10.804Z"
+      "updated_at": "2026-07-05T18:20:02.521Z"
     },
     {
       "id": "leg_225539",
@@ -6851,7 +6851,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:21:11.729Z"
+      "updated_at": "2026-07-05T18:20:03.426Z"
     },
     {
       "id": "leg_191759",
@@ -6862,7 +6862,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:21:11.729Z"
+      "updated_at": "2026-07-05T18:20:03.426Z"
     },
     {
       "id": "leg_214390",
@@ -6873,7 +6873,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:21:12.197Z"
+      "updated_at": "2026-07-05T18:20:03.878Z"
     },
     {
       "id": "leg_232401",
@@ -6884,7 +6884,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:21:12.662Z"
+      "updated_at": "2026-07-05T18:20:04.322Z"
     },
     {
       "id": "leg_175123",
@@ -6895,7 +6895,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:21:15.047Z"
+      "updated_at": "2026-07-05T18:20:06.550Z"
     },
     {
       "id": "leg_206605",
@@ -6906,7 +6906,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:21:15.047Z"
+      "updated_at": "2026-07-05T18:20:06.550Z"
     },
     {
       "id": "leg_225786",
@@ -6917,7 +6917,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:21:16.882Z"
+      "updated_at": "2026-07-05T18:20:08.336Z"
     },
     {
       "id": "leg_226380",
@@ -6928,7 +6928,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:21:17.339Z"
+      "updated_at": "2026-07-05T18:20:08.791Z"
     },
     {
       "id": "leg_236260",
@@ -6939,7 +6939,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:21:17.794Z"
+      "updated_at": "2026-07-05T18:20:09.239Z"
     },
     {
       "id": "leg_225697",
@@ -6950,7 +6950,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:21:18.705Z"
+      "updated_at": "2026-07-05T18:20:10.128Z"
     },
     {
       "id": "leg_226432",
@@ -6961,7 +6961,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:21:20.090Z"
+      "updated_at": "2026-07-05T18:20:11.473Z"
     },
     {
       "id": "leg_221348",
@@ -6972,7 +6972,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:21:21.466Z"
+      "updated_at": "2026-07-05T18:20:12.798Z"
     },
     {
       "id": "leg_258689",
@@ -6983,7 +6983,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:21:21.931Z"
+      "updated_at": "2026-07-05T18:20:13.247Z"
     },
     {
       "id": "leg_220644",
@@ -6994,7 +6994,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:21:21.931Z"
+      "updated_at": "2026-07-05T18:20:13.247Z"
     },
     {
       "id": "leg_216360",
@@ -7005,7 +7005,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:21:22.849Z"
+      "updated_at": "2026-07-05T18:20:14.145Z"
     },
     {
       "id": "leg_211265",
@@ -7016,7 +7016,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:21:22.849Z"
+      "updated_at": "2026-07-05T18:20:14.145Z"
     },
     {
       "id": "leg_198140",
@@ -7027,7 +7027,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:21:22.849Z"
+      "updated_at": "2026-07-05T18:20:14.145Z"
     },
     {
       "id": "leg_204940",
@@ -7038,7 +7038,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:21:26.071Z"
+      "updated_at": "2026-07-05T18:20:17.272Z"
     },
     {
       "id": "leg_200085",
@@ -7049,7 +7049,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:21:26.533Z"
+      "updated_at": "2026-07-05T18:20:17.715Z"
     },
     {
       "id": "leg_243207",
@@ -7060,7 +7060,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:21:28.824Z"
+      "updated_at": "2026-07-05T18:20:19.940Z"
     },
     {
       "id": "leg_205189",
@@ -7071,7 +7071,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:21:31.571Z"
+      "updated_at": "2026-07-05T18:20:22.640Z"
     },
     {
       "id": "leg_185503",
@@ -7082,7 +7082,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:21:33.415Z"
+      "updated_at": "2026-07-05T18:20:24.426Z"
     },
     {
       "id": "leg_211003",
@@ -7093,7 +7093,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:21:33.876Z"
+      "updated_at": "2026-07-05T18:20:24.874Z"
     },
     {
       "id": "leg_229881",
@@ -7104,7 +7104,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:21:34.336Z"
+      "updated_at": "2026-07-05T18:20:25.320Z"
     },
     {
       "id": "leg_230092",
@@ -7115,7 +7115,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:21:36.325Z"
+      "updated_at": "2026-07-05T18:20:26.659Z"
     },
     {
       "id": "leg_229818",
@@ -7126,7 +7126,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-212",
-      "updated_at": "2026-06-28T18:21:37.698Z"
+      "updated_at": "2026-07-05T18:20:28.006Z"
     },
     {
       "id": "leg_197128",
@@ -7137,7 +7137,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-211",
-      "updated_at": "2026-06-28T18:21:39.113Z"
+      "updated_at": "2026-07-05T18:20:29.401Z"
     },
     {
       "id": "leg_231671",
@@ -7148,7 +7148,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-211",
-      "updated_at": "2026-06-28T18:21:39.113Z"
+      "updated_at": "2026-07-05T18:20:29.401Z"
     },
     {
       "id": "leg_208444",
@@ -7159,7 +7159,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-211",
-      "updated_at": "2026-06-28T18:21:39.113Z"
+      "updated_at": "2026-07-05T18:20:29.401Z"
     },
     {
       "id": "leg_222007",
@@ -7170,7 +7170,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-211",
-      "updated_at": "2026-06-28T18:21:39.113Z"
+      "updated_at": "2026-07-05T18:20:29.401Z"
     },
     {
       "id": "leg_218673",
@@ -7181,7 +7181,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-211",
-      "updated_at": "2026-06-28T18:21:39.583Z"
+      "updated_at": "2026-07-05T18:20:29.855Z"
     },
     {
       "id": "leg_196398",
@@ -7192,7 +7192,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-211",
-      "updated_at": "2026-06-28T18:21:39.583Z"
+      "updated_at": "2026-07-05T18:20:29.855Z"
     },
     {
       "id": "leg_178832",
@@ -7203,7 +7203,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-211",
-      "updated_at": "2026-06-28T18:21:40.048Z"
+      "updated_at": "2026-07-05T18:20:30.300Z"
     },
     {
       "id": "leg_193268",
@@ -7214,7 +7214,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-211",
-      "updated_at": "2026-06-28T18:21:40.048Z"
+      "updated_at": "2026-07-05T18:20:30.301Z"
     },
     {
       "id": "leg_232490",
@@ -7225,7 +7225,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-211",
-      "updated_at": "2026-06-28T18:21:40.507Z"
+      "updated_at": "2026-07-05T18:20:30.747Z"
     },
     {
       "id": "leg_199391",
@@ -7236,7 +7236,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-211",
-      "updated_at": "2026-06-28T18:21:40.507Z"
+      "updated_at": "2026-07-05T18:20:30.747Z"
     },
     {
       "id": "leg_212509",
@@ -7247,7 +7247,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-211",
-      "updated_at": "2026-06-28T18:21:41.430Z"
+      "updated_at": "2026-07-05T18:20:31.649Z"
     },
     {
       "id": "leg_198304",
@@ -7258,7 +7258,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-211",
-      "updated_at": "2026-06-28T18:21:41.430Z"
+      "updated_at": "2026-07-05T18:20:31.649Z"
     },
     {
       "id": "leg_218736",
@@ -7269,7 +7269,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-211",
-      "updated_at": "2026-06-28T18:21:41.918Z"
+      "updated_at": "2026-07-05T18:20:32.122Z"
     },
     {
       "id": "leg_230630",
@@ -7280,7 +7280,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-211",
-      "updated_at": "2026-06-28T18:21:42.394Z"
+      "updated_at": "2026-07-05T18:20:32.585Z"
     },
     {
       "id": "leg_212556",
@@ -7291,7 +7291,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-211",
-      "updated_at": "2026-06-28T18:21:42.394Z"
+      "updated_at": "2026-07-05T18:20:32.585Z"
     },
     {
       "id": "leg_211780",
@@ -7302,7 +7302,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-211",
-      "updated_at": "2026-06-28T18:21:42.892Z"
+      "updated_at": "2026-07-05T18:20:33.055Z"
     },
     {
       "id": "leg_220601",
@@ -7313,7 +7313,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-211",
-      "updated_at": "2026-06-28T18:21:42.892Z"
+      "updated_at": "2026-07-05T18:20:33.055Z"
     },
     {
       "id": "leg_224983",
@@ -7324,7 +7324,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-211",
-      "updated_at": "2026-06-28T18:21:45.232Z"
+      "updated_at": "2026-07-05T18:20:35.322Z"
     },
     {
       "id": "leg_210563",
@@ -7335,7 +7335,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-211",
-      "updated_at": "2026-06-28T18:21:45.690Z"
+      "updated_at": "2026-07-05T18:20:35.770Z"
     },
     {
       "id": "leg_220293",
@@ -7346,7 +7346,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-211",
-      "updated_at": "2026-06-28T18:21:45.690Z"
+      "updated_at": "2026-07-05T18:20:35.770Z"
     },
     {
       "id": "leg_218199",
@@ -7357,7 +7357,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-211",
-      "updated_at": "2026-06-28T18:21:46.620Z"
+      "updated_at": "2026-07-05T18:20:36.672Z"
     },
     {
       "id": "leg_222190",
@@ -7368,7 +7368,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-211",
-      "updated_at": "2026-06-28T18:21:47.547Z"
+      "updated_at": "2026-07-05T18:20:37.571Z"
     },
     {
       "id": "leg_220438",
@@ -7379,7 +7379,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-211",
-      "updated_at": "2026-06-28T18:21:49.868Z"
+      "updated_at": "2026-07-05T18:20:39.837Z"
     },
     {
       "id": "leg_206622",
@@ -7390,7 +7390,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-211",
-      "updated_at": "2026-06-28T18:21:50.814Z"
+      "updated_at": "2026-07-05T18:20:40.740Z"
     },
     {
       "id": "leg_214800",
@@ -7401,7 +7401,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-211",
-      "updated_at": "2026-06-28T18:21:51.277Z"
+      "updated_at": "2026-07-05T18:20:41.193Z"
     },
     {
       "id": "leg_209945",
@@ -7412,7 +7412,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-211",
-      "updated_at": "2026-06-28T18:21:51.277Z"
+      "updated_at": "2026-07-05T18:20:41.193Z"
     },
     {
       "id": "leg_207447",
@@ -7423,7 +7423,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-211",
-      "updated_at": "2026-06-28T18:21:51.277Z"
+      "updated_at": "2026-07-05T18:20:41.193Z"
     },
     {
       "id": "leg_189315",
@@ -7434,7 +7434,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-211",
-      "updated_at": "2026-06-28T18:21:52.217Z"
+      "updated_at": "2026-07-05T18:20:42.100Z"
     },
     {
       "id": "leg_208798",
@@ -7445,7 +7445,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-211",
-      "updated_at": "2026-06-28T18:21:53.609Z"
+      "updated_at": "2026-07-05T18:20:43.458Z"
     },
     {
       "id": "leg_194570",
@@ -7456,7 +7456,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-211",
-      "updated_at": "2026-06-28T18:21:54.081Z"
+      "updated_at": "2026-07-05T18:20:43.927Z"
     },
     {
       "id": "leg_202562",
@@ -7467,7 +7467,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-211",
-      "updated_at": "2026-06-28T18:21:55.483Z"
+      "updated_at": "2026-07-05T18:20:45.291Z"
     },
     {
       "id": "leg_197794",
@@ -7478,7 +7478,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-211",
-      "updated_at": "2026-06-28T18:21:56.417Z"
+      "updated_at": "2026-07-05T18:20:46.201Z"
     },
     {
       "id": "leg_206085",
@@ -7489,7 +7489,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-211",
-      "updated_at": "2026-06-28T18:22:01.179Z"
+      "updated_at": "2026-07-05T18:20:50.765Z"
     },
     {
       "id": "leg_264627",
@@ -7500,7 +7500,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-211",
-      "updated_at": "2026-06-28T18:22:02.596Z"
+      "updated_at": "2026-07-05T18:20:52.129Z"
     },
     {
       "id": "leg_212515",
@@ -7511,7 +7511,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-211",
-      "updated_at": "2026-06-28T18:22:04.017Z"
+      "updated_at": "2026-07-05T18:20:53.515Z"
     },
     {
       "id": "leg_229974",
@@ -7522,7 +7522,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-211",
-      "updated_at": "2026-06-28T18:22:06.371Z"
+      "updated_at": "2026-07-05T18:20:55.824Z"
     },
     {
       "id": "leg_247984",
@@ -7533,7 +7533,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-211",
-      "updated_at": "2026-06-28T18:22:06.845Z"
+      "updated_at": "2026-07-05T18:20:56.283Z"
     },
     {
       "id": "leg_214818",
@@ -7544,7 +7544,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-211",
-      "updated_at": "2026-06-28T18:22:07.322Z"
+      "updated_at": "2026-07-05T18:20:56.742Z"
     },
     {
       "id": "leg_248678",
@@ -7555,7 +7555,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-211",
-      "updated_at": "2026-06-28T18:22:08.752Z"
+      "updated_at": "2026-07-05T18:20:58.129Z"
     },
     {
       "id": "leg_193812",
@@ -7566,7 +7566,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-211",
-      "updated_at": "2026-06-28T18:22:13.503Z"
+      "updated_at": "2026-07-05T18:21:02.769Z"
     },
     {
       "id": "leg_208012",
@@ -7577,7 +7577,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-211",
-      "updated_at": "2026-06-28T18:22:13.979Z"
+      "updated_at": "2026-07-05T18:21:03.236Z"
     },
     {
       "id": "leg_214722",
@@ -7588,7 +7588,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-211",
-      "updated_at": "2026-06-28T18:22:15.417Z"
+      "updated_at": "2026-07-05T18:21:04.628Z"
     },
     {
       "id": "leg_189330",
@@ -7599,7 +7599,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-211",
-      "updated_at": "2026-06-28T18:22:18.763Z"
+      "updated_at": "2026-07-05T18:21:07.877Z"
     },
     {
       "id": "leg_222467",
@@ -7610,7 +7610,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-211",
-      "updated_at": "2026-06-28T18:22:19.727Z"
+      "updated_at": "2026-07-05T18:21:08.814Z"
     },
     {
       "id": "leg_226807",
@@ -7621,7 +7621,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-211",
-      "updated_at": "2026-06-28T18:22:20.196Z"
+      "updated_at": "2026-07-05T18:21:09.278Z"
     },
     {
       "id": "leg_215451",
@@ -7632,7 +7632,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-211",
-      "updated_at": "2026-06-28T18:22:21.168Z"
+      "updated_at": "2026-07-05T18:21:10.225Z"
     },
     {
       "id": "leg_171636",
@@ -7643,7 +7643,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-211",
-      "updated_at": "2026-06-28T18:22:22.602Z"
+      "updated_at": "2026-07-05T18:21:11.618Z"
     },
     {
       "id": "leg_213555",
@@ -7654,7 +7654,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-211",
-      "updated_at": "2026-06-28T18:22:24.528Z"
+      "updated_at": "2026-07-05T18:21:13.491Z"
     },
     {
       "id": "leg_222817",
@@ -7665,7 +7665,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-211",
-      "updated_at": "2026-06-28T18:22:25.493Z"
+      "updated_at": "2026-07-05T18:21:14.426Z"
     },
     {
       "id": "leg_199043",
@@ -7676,7 +7676,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-210",
-      "updated_at": "2026-06-28T18:22:28.809Z"
+      "updated_at": "2026-07-05T18:21:17.669Z"
     },
     {
       "id": "leg_180407",
@@ -7687,7 +7687,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-210",
-      "updated_at": "2026-06-28T18:22:32.011Z"
+      "updated_at": "2026-07-05T18:21:20.799Z"
     },
     {
       "id": "leg_230826",
@@ -7698,7 +7698,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-210",
-      "updated_at": "2026-06-28T18:22:36.108Z"
+      "updated_at": "2026-07-05T18:21:24.811Z"
     },
     {
       "id": "leg_215618",
@@ -7709,7 +7709,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-210",
-      "updated_at": "2026-06-28T18:22:36.108Z"
+      "updated_at": "2026-07-05T18:21:24.811Z"
     },
     {
       "id": "leg_179820",
@@ -7720,7 +7720,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-210",
-      "updated_at": "2026-06-28T18:22:36.588Z"
+      "updated_at": "2026-07-05T18:21:25.269Z"
     },
     {
       "id": "leg_219570",
@@ -7731,7 +7731,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-210",
-      "updated_at": "2026-06-28T18:22:36.588Z"
+      "updated_at": "2026-07-05T18:21:25.269Z"
     },
     {
       "id": "leg_226253",
@@ -7742,7 +7742,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-210",
-      "updated_at": "2026-06-28T18:22:37.959Z"
+      "updated_at": "2026-07-05T18:21:26.607Z"
     },
     {
       "id": "leg_203389",
@@ -7753,7 +7753,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-210",
-      "updated_at": "2026-06-28T18:22:37.959Z"
+      "updated_at": "2026-07-05T18:21:26.607Z"
     },
     {
       "id": "leg_193878",
@@ -7764,7 +7764,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-210",
-      "updated_at": "2026-06-28T18:22:49.814Z"
+      "updated_at": "2026-07-05T18:21:37.486Z"
     },
     {
       "id": "leg_191817",
@@ -7775,7 +7775,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-210",
-      "updated_at": "2026-06-28T18:22:55.391Z"
+      "updated_at": "2026-07-05T18:21:42.894Z"
     },
     {
       "id": "leg_218990",
@@ -7786,7 +7786,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-210",
-      "updated_at": "2026-06-28T18:22:57.728Z"
+      "updated_at": "2026-07-05T18:21:45.200Z"
     },
     {
       "id": "leg_208371",
@@ -7797,7 +7797,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-210",
-      "updated_at": "2026-06-28T18:22:58.188Z"
+      "updated_at": "2026-07-05T18:21:45.646Z"
     },
     {
       "id": "leg_218328",
@@ -7808,7 +7808,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-210",
-      "updated_at": "2026-06-28T18:23:01.055Z"
+      "updated_at": "2026-07-05T18:21:48.369Z"
     },
     {
       "id": "leg_193419",
@@ -7819,7 +7819,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-210",
-      "updated_at": "2026-06-28T18:23:02.463Z"
+      "updated_at": "2026-07-05T18:21:49.758Z"
     },
     {
       "id": "leg_224599",
@@ -7830,7 +7830,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-210",
-      "updated_at": "2026-06-28T18:23:02.935Z"
+      "updated_at": "2026-07-05T18:21:50.213Z"
     },
     {
       "id": "leg_235325",
@@ -7841,7 +7841,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-210",
-      "updated_at": "2026-06-28T18:23:04.343Z"
+      "updated_at": "2026-07-05T18:21:51.618Z"
     },
     {
       "id": "leg_222203",
@@ -7852,7 +7852,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-210",
-      "updated_at": "2026-06-28T18:23:05.278Z"
+      "updated_at": "2026-07-05T18:21:52.530Z"
     },
     {
       "id": "leg_224273",
@@ -7863,7 +7863,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-210",
-      "updated_at": "2026-06-28T18:23:06.220Z"
+      "updated_at": "2026-07-05T18:21:53.446Z"
     },
     {
       "id": "leg_185564",
@@ -7874,7 +7874,7 @@
       "house": "衆議院",
       "is_active": true,
       "source": "kokkai-api:session-210",
-      "updated_at": "2026-06-28T18:23:13.684Z"
+      "updated_at": "2026-07-05T18:22:00.769Z"
     }
   ]
 }

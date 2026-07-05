@@ -1,7 +1,7 @@
 {
   "category": "ministerial_ordinances",
   "category_name": "省令",
-  "count": 67,
+  "count": 68,
   "laws": [
     {
       "id": "508M60001000001",
@@ -376,15 +376,21 @@
       "category": "ministerial_ordinances"
     },
     {
-      "id": "505RPMD08140002",
-      "lawNum": "令和五年八月十四日内閣総理大臣決定",
-      "title": "内閣感染症危機管理統括庁組織規則",
+      "id": "508M60000002056",
+      "lawNum": "令和八年内閣府令第五十六号",
+      "title": "公益通報者保護法第十六条第一項の規定による立入検査をする職員の携帯する身分を示す証明書の様式を定める内閣府令",
       "category": "ministerial_ordinances"
     },
     {
       "id": "505RPMD08140003",
       "lawNum": "令和五年八月十四日内閣総理大臣決定",
       "title": "内閣感染症危機管理統括庁に感染症危機管理統括審議官を置く規則",
+      "category": "ministerial_ordinances"
+    },
+    {
+      "id": "505RPMD08140002",
+      "lawNum": "令和五年八月十四日内閣総理大臣決定",
+      "title": "内閣感染症危機管理統括庁組織規則",
       "category": "ministerial_ordinances"
     },
     {
