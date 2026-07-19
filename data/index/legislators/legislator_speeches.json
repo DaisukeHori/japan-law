@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-12T20:28:48.045Z",
-  "total_legislators": 1177,
-  "total_speeches": 17173,
+  "updated_at": "2026-07-19T19:41:43.095Z",
+  "total_legislators": 1181,
+  "total_speeches": 17457,
   "legislators": {
     "東徹": {
       "party": "日本維新の会",
@@ -2198,7 +2198,7 @@
     },
     "山口俊一": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 361,
+      "speech_count": 373,
       "bills": [
         {
           "bill_id": "house_211_7800",
@@ -5087,17 +5087,113 @@
           "date": "2026-04-23",
           "meeting": "議院運営委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8909",
+          "bill_name": "情報通信技術を活用した行政の推進等に関する法律及び情報処理の促進に関する法律の一部を改正する法律案",
+          "issue_number": 6024,
+          "date": "2026-04-21",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8909",
+          "bill_name": "情報通信技術を活用した行政の推進等に関する法律及び情報処理の促進に関する法律の一部を改正する法律案",
+          "issue_number": 6024,
+          "date": "2026-04-16",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8910",
+          "bill_name": "個人情報の保護に関する法律等の一部を改正する法律案",
+          "issue_number": 6025,
+          "date": "2026-04-21",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8910",
+          "bill_name": "個人情報の保護に関する法律等の一部を改正する法律案",
+          "issue_number": 6025,
+          "date": "2026-04-16",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8917",
+          "bill_name": "刑事訴訟法の一部を改正する法律案",
+          "issue_number": 6032,
+          "date": "2026-05-26",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15660",
+          "bill_name": "地方公務員法等の一部を改正する法律案",
+          "issue_number": 6036,
+          "date": "2023-12-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15661",
+          "bill_name": "地方公務員の労働関係に関する法律案",
+          "issue_number": 6037,
+          "date": "2023-12-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15662",
+          "bill_name": "我が国の総合的な安全保障の確保を図るための土地等の取得、利用及び管理の規制に関する施策の推進に関する法律案",
+          "issue_number": 6038,
+          "date": "2023-12-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15663",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 6039,
+          "date": "2023-12-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15664",
+          "bill_name": "新型コロナウイルス感染症対策検証委員会法案",
+          "issue_number": 6040,
+          "date": "2023-12-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15665",
+          "bill_name": "国会議員の歳費、旅費及び手当等に関する法律の一部を改正する法律案",
+          "issue_number": 6041,
+          "date": "2023-12-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15668",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 6044,
+          "date": "2023-12-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 361
+        "neutral": 373
       }
     },
     "岡田憲治": {
       "party": "",
-      "speech_count": 280,
+      "speech_count": 281,
       "bills": [
         {
           "bill_id": "house_211_7800",
@@ -7338,12 +7434,20 @@
           "date": "2024-03-19",
           "meeting": "議院運営委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15662",
+          "bill_name": "我が国の総合的な安全保障の確保を図るための土地等の取得、利用及び管理の規制に関する施策の推進に関する法律案",
+          "issue_number": 6038,
+          "date": "2023-12-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 280
+        "neutral": 281
       }
     },
     "尾辻秀久": {
@@ -14802,7 +14906,7 @@
     },
     "宮本徹": {
       "party": "日本共産党",
-      "speech_count": 20,
+      "speech_count": 22,
       "bills": [
         {
           "bill_id": "house_211_7813",
@@ -14963,11 +15067,27 @@
           "date": "2024-04-10",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15668",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 6044,
+          "date": "2023-11-24",
+          "meeting": "本会議",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_212_15668",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 6044,
+          "date": "2023-11-24",
+          "meeting": "予算委員会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 7,
+        "oppose": 9,
         "neutral": 13
       }
     },
@@ -15569,7 +15689,7 @@
     },
     "田中健": {
       "party": "国民民主党・無所属クラブ",
-      "speech_count": 48,
+      "speech_count": 49,
       "bills": [
         {
           "bill_id": "house_211_7814",
@@ -15954,12 +16074,20 @@
           "date": "2026-04-23",
           "meeting": "災害対策特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8917",
+          "bill_name": "刑事訴訟法の一部を改正する法律案",
+          "issue_number": 6032,
+          "date": "2026-03-09",
+          "meeting": "予算委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 10,
         "oppose": 9,
-        "neutral": 29
+        "neutral": 30
       }
     },
     "谷公一": {
@@ -19183,7 +19311,7 @@
     },
     "清水貴之": {
       "party": "日本維新の会",
-      "speech_count": 36,
+      "speech_count": 37,
       "bills": [
         {
           "bill_id": "house_211_7845",
@@ -19472,12 +19600,20 @@
           "date": "2023-11-28",
           "meeting": "予算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15668",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 6044,
+          "date": "2023-11-28",
+          "meeting": "予算委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 13,
         "oppose": 1,
-        "neutral": 22
+        "neutral": 23
       }
     },
     "佐々木紀": {
@@ -19557,7 +19693,7 @@
     },
     "仁比聡平": {
       "party": "日本共産党",
-      "speech_count": 57,
+      "speech_count": 58,
       "bills": [
         {
           "bill_id": "house_211_7846",
@@ -20014,12 +20150,20 @@
           "date": "2026-04-23",
           "meeting": "法務委員会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "house_221_8917",
+          "bill_name": "刑事訴訟法の一部を改正する法律案",
+          "issue_number": 6032,
+          "date": "2026-06-02",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 5,
         "oppose": 7,
-        "neutral": 45
+        "neutral": 46
       }
     },
     "鈴木千明": {
@@ -20425,7 +20569,7 @@
     },
     "古屋範子": {
       "party": "公明党",
-      "speech_count": 69,
+      "speech_count": 71,
       "bills": [
         {
           "bill_id": "house_211_7862",
@@ -20978,12 +21122,28 @@
           "date": "2024-02-22",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15660",
+          "bill_name": "地方公務員法等の一部を改正する法律案",
+          "issue_number": 6036,
+          "date": "2023-12-13",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15661",
+          "bill_name": "地方公務員の労働関係に関する法律案",
+          "issue_number": 6037,
+          "date": "2023-12-13",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 7,
         "oppose": 0,
-        "neutral": 62
+        "neutral": 64
       }
     },
     "柴愼一": {
@@ -21947,7 +22107,7 @@
     },
     "横沢高徳": {
       "party": "立憲民主・無所属",
-      "speech_count": 27,
+      "speech_count": 28,
       "bills": [
         {
           "bill_id": "house_211_7863",
@@ -22164,12 +22324,20 @@
           "date": "2026-04-23",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8918",
+          "bill_name": "著作権法の一部を改正する法律案",
+          "issue_number": 6033,
+          "date": "2026-02-19",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 1,
         "oppose": 4,
-        "neutral": 22
+        "neutral": 23
       }
     },
     "河村小百合": {
@@ -23178,7 +23346,7 @@
     },
     "鈴木俊一": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 147,
+      "speech_count": 154,
       "bills": [
         {
           "bill_id": "house_211_7863",
@@ -24355,12 +24523,68 @@
           "date": "2024-02-13",
           "meeting": "財務金融委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15668",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 6044,
+          "date": "2023-12-11",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15668",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 6044,
+          "date": "2023-12-11",
+          "meeting": "決算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15668",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 6044,
+          "date": "2023-12-07",
+          "meeting": "決算行政監視委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15668",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 6044,
+          "date": "2023-11-27",
+          "meeting": "予算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15668",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 6044,
+          "date": "2023-11-20",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15668",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 6044,
+          "date": "2023-11-08",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15668",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 6044,
+          "date": "2023-10-30",
+          "meeting": "予算委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 14,
-        "neutral": 133
+        "neutral": 140
       }
     },
     "浅田均": {
@@ -24809,7 +25033,7 @@
     },
     "山崎正恭": {
       "party": "中道改革連合・無所属",
-      "speech_count": 11,
+      "speech_count": 15,
       "bills": [
         {
           "bill_id": "house_211_7863",
@@ -24898,12 +25122,44 @@
           "date": "2026-03-13",
           "meeting": "文部科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8909",
+          "bill_name": "情報通信技術を活用した行政の推進等に関する法律及び情報処理の促進に関する法律の一部を改正する法律案",
+          "issue_number": 6024,
+          "date": "2026-04-21",
+          "meeting": "本会議",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "house_221_8910",
+          "bill_name": "個人情報の保護に関する法律等の一部を改正する法律案",
+          "issue_number": 6025,
+          "date": "2026-04-21",
+          "meeting": "本会議",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "house_221_8911",
+          "bill_name": "学校教育法等の一部を改正する法律案",
+          "issue_number": 6026,
+          "date": "2026-04-24",
+          "meeting": "文部科学委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8918",
+          "bill_name": "著作権法の一部を改正する法律案",
+          "issue_number": 6033,
+          "date": "2026-06-03",
+          "meeting": "文部科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 1,
-        "oppose": 2,
-        "neutral": 8
+        "oppose": 4,
+        "neutral": 10
       }
     },
     "斎藤アレックス": {
@@ -26579,7 +26835,7 @@
     },
     "住吉寛紀": {
       "party": "日本維新の会",
-      "speech_count": 27,
+      "speech_count": 28,
       "bills": [
         {
           "bill_id": "house_211_7863",
@@ -26796,12 +27052,20 @@
           "date": "2023-11-17",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15668",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 6044,
+          "date": "2023-11-17",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 2,
         "oppose": 2,
-        "neutral": 23
+        "neutral": 24
       }
     },
     "石井拓": {
@@ -28398,7 +28662,7 @@
     },
     "石原正敬": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 3,
+      "speech_count": 4,
       "bills": [
         {
           "bill_id": "house_211_7864",
@@ -28423,12 +28687,20 @@
           "date": "2024-04-09",
           "meeting": "環境委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8905",
+          "bill_name": "太陽電池廃棄物の再資源化等の推進に関する法律案",
+          "issue_number": 6020,
+          "date": "2026-04-24",
+          "meeting": "環境委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 3
+        "neutral": 4
       }
     },
     "福田昭夫": {
@@ -29144,7 +29416,7 @@
     },
     "徳永エリ": {
       "party": "立憲民主・社民",
-      "speech_count": 24,
+      "speech_count": 25,
       "bills": [
         {
           "bill_id": "house_211_7867",
@@ -29337,12 +29609,20 @@
           "date": "2023-12-11",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15668",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 6044,
+          "date": "2023-11-09",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 24
+        "neutral": 25
       }
     },
     "野村哲郎": {
@@ -29631,7 +29911,7 @@
     },
     "水野素子": {
       "party": "立憲民主・社民",
-      "speech_count": 25,
+      "speech_count": 27,
       "bills": [
         {
           "bill_id": "house_211_7868",
@@ -29832,11 +30112,27 @@
           "date": "2023-11-29",
           "meeting": "文教科学委員会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_212_15668",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 6044,
+          "date": "2023-11-29",
+          "meeting": "本会議",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_212_15668",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 6044,
+          "date": "2023-11-29",
+          "meeting": "文教科学委員会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 11,
+        "oppose": 13,
         "neutral": 14
       }
     },
@@ -31230,8 +31526,8 @@
       }
     },
     "上田清司": {
-      "party": "各派に属しない議員",
-      "speech_count": 35,
+      "party": "国民民主党・新緑風会",
+      "speech_count": 36,
       "bills": [
         {
           "bill_id": "house_211_7868",
@@ -31512,11 +31808,19 @@
           "date": "2024-04-11",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15668",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 6044,
+          "date": "2023-12-11",
+          "meeting": "本会議",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 9,
-        "oppose": 11,
+        "oppose": 12,
         "neutral": 15
       }
     },
@@ -31811,7 +32115,7 @@
     },
     "太栄志": {
       "party": "立憲民主党・無所属",
-      "speech_count": 22,
+      "speech_count": 23,
       "bills": [
         {
           "bill_id": "house_211_7868",
@@ -31988,12 +32292,20 @@
           "date": "2023-12-12",
           "meeting": "本会議",
           "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_212_15663",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 6039,
+          "date": "2023-12-04",
+          "meeting": "北朝鮮による拉致問題等に関する特別委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 9,
         "oppose": 2,
-        "neutral": 11
+        "neutral": 12
       }
     },
     "阿部司": {
@@ -32844,8 +33156,8 @@
       }
     },
     "河西宏一": {
-      "party": "中道改革連合・無所属",
-      "speech_count": 17,
+      "party": "公明党",
+      "speech_count": 18,
       "bills": [
         {
           "bill_id": "house_211_7868",
@@ -32982,12 +33294,20 @@
           "date": "2026-04-21",
           "meeting": "安全保障委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15663",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 6039,
+          "date": "2023-11-30",
+          "meeting": "憲法審査会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 1,
         "oppose": 4,
-        "neutral": 12
+        "neutral": 13
       }
     },
     "古賀之士": {
@@ -34448,7 +34768,7 @@
     },
     "岸田文雄": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 68,
+      "speech_count": 72,
       "bills": [
         {
           "bill_id": "house_211_7869",
@@ -34993,12 +35313,44 @@
           "date": "2024-03-15",
           "meeting": "予算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15663",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 6039,
+          "date": "2023-11-01",
+          "meeting": "予算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15668",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 6044,
+          "date": "2023-12-11",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15668",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 6044,
+          "date": "2023-11-27",
+          "meeting": "予算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15668",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 6044,
+          "date": "2023-11-20",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 2,
         "oppose": 1,
-        "neutral": 65
+        "neutral": 69
       }
     },
     "河野義博": {
@@ -36754,7 +37106,7 @@
     },
     "佐藤啓": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 8,
+      "speech_count": 9,
       "bills": [
         {
           "bill_id": "house_211_7870",
@@ -36819,12 +37171,20 @@
           "date": "2026-05-18",
           "meeting": "行政監視委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8918",
+          "bill_name": "著作権法の一部を改正する法律案",
+          "issue_number": 6033,
+          "date": "2026-05-18",
+          "meeting": "行政監視委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 2,
-        "neutral": 6
+        "neutral": 7
       }
     },
     "片山大介": {
@@ -37071,8 +37431,8 @@
       }
     },
     "浮島智子": {
-      "party": "公明党",
-      "speech_count": 28,
+      "party": "中道改革連合・無所属",
+      "speech_count": 29,
       "bills": [
         {
           "bill_id": "house_211_7870",
@@ -37297,11 +37657,19 @@
           "date": "2025-05-09",
           "meeting": "文部科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8918",
+          "bill_name": "著作権法の一部を改正する法律案",
+          "issue_number": 6033,
+          "date": "2026-06-03",
+          "meeting": "文部科学委員会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 1,
+        "oppose": 2,
         "neutral": 27
       }
     },
@@ -37510,7 +37878,7 @@
     },
     "守島正": {
       "party": "日本維新の会",
-      "speech_count": 14,
+      "speech_count": 15,
       "bills": [
         {
           "bill_id": "house_211_7870",
@@ -37623,10 +37991,18 @@
           "date": "2023-11-24",
           "meeting": "予算委員会",
           "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_212_15668",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 6044,
+          "date": "2023-11-24",
+          "meeting": "予算委員会",
+          "stance": "賛成"
         }
       ],
       "stance_summary": {
-        "support": 7,
+        "support": 8,
         "oppose": 0,
         "neutral": 7
       }
@@ -38234,7 +38610,7 @@
     },
     "西岡秀子": {
       "party": "国民民主党・無所属クラブ",
-      "speech_count": 37,
+      "speech_count": 38,
       "bills": [
         {
           "bill_id": "house_211_7870",
@@ -38531,11 +38907,19 @@
           "date": "2025-01-28",
           "meeting": "本会議",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_212_15668",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 6044,
+          "date": "2023-11-20",
+          "meeting": "本会議",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 7,
-        "oppose": 7,
+        "oppose": 8,
         "neutral": 23
       }
     },
@@ -40055,7 +40439,7 @@
     },
     "福島みずほ": {
       "party": "社会民主党",
-      "speech_count": 26,
+      "speech_count": 27,
       "bills": [
         {
           "bill_id": "house_211_7872",
@@ -40264,17 +40648,25 @@
           "date": "2026-04-21",
           "meeting": "外交防衛委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8917",
+          "bill_name": "刑事訴訟法の一部を改正する法律案",
+          "issue_number": 6032,
+          "date": "2026-05-12",
+          "meeting": "外交防衛委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 2,
         "oppose": 2,
-        "neutral": 22
+        "neutral": 23
       }
     },
     "鈴木宗男": {
-      "party": "各派に属しない議員",
-      "speech_count": 27,
+      "party": "自由民主党・無所属の会",
+      "speech_count": 30,
       "bills": [
         {
           "bill_id": "house_211_7872",
@@ -40491,12 +40883,36 @@
           "date": "2023-12-12",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8917",
+          "bill_name": "刑事訴訟法の一部を改正する法律案",
+          "issue_number": 6032,
+          "date": "2026-04-21",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8917",
+          "bill_name": "刑事訴訟法の一部を改正する法律案",
+          "issue_number": 6032,
+          "date": "2026-04-02",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8920",
+          "bill_name": "皇室典範等の一部を改正する法律案",
+          "issue_number": 6035,
+          "date": "2026-07-10",
+          "meeting": "皇室典範等の一部を改正する法律案特別委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 27
+        "neutral": 30
       }
     },
     "牧山ひろえ": {
@@ -43311,8 +43727,8 @@
       }
     },
     "吉川沙織": {
-      "party": "立憲民主・無所属",
-      "speech_count": 66,
+      "party": "立憲民主・社民",
+      "speech_count": 68,
       "bills": [
         {
           "bill_id": "house_211_7874",
@@ -43841,12 +44257,28 @@
           "date": "2026-04-23",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15663",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 6039,
+          "date": "2023-12-05",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15663",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 6039,
+          "date": "2023-11-09",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 1,
         "oppose": 9,
-        "neutral": 56
+        "neutral": 58
       }
     },
     "猪瀬直樹": {
@@ -44128,8 +44560,8 @@
       }
     },
     "田島麻衣子": {
-      "party": "立憲民主・社民・無所属",
-      "speech_count": 33,
+      "party": "立憲民主・無所属",
+      "speech_count": 34,
       "bills": [
         {
           "bill_id": "house_211_7874",
@@ -44394,12 +44826,20 @@
           "date": "2025-03-19",
           "meeting": "予算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8918",
+          "bill_name": "著作権法の一部を改正する法律案",
+          "issue_number": 6033,
+          "date": "2026-05-18",
+          "meeting": "行政監視委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 3,
-        "neutral": 30
+        "neutral": 31
       }
     },
     "大島敦": {
@@ -47548,8 +47988,8 @@
       }
     },
     "高木真理": {
-      "party": "立憲民主・無所属",
-      "speech_count": 23,
+      "party": "立憲民主・社民",
+      "speech_count": 24,
       "bills": [
         {
           "bill_id": "house_211_7879",
@@ -47734,11 +48174,19 @@
           "date": "2026-03-31",
           "meeting": "本会議",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_212_15668",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 6044,
+          "date": "2023-11-29",
+          "meeting": "予算委員会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 2,
-        "oppose": 12,
+        "oppose": 13,
         "neutral": 9
       }
     },
@@ -49018,7 +49466,7 @@
     },
     "池下卓": {
       "party": "日本維新の会",
-      "speech_count": 67,
+      "speech_count": 68,
       "bills": [
         {
           "bill_id": "house_211_7879",
@@ -49555,12 +50003,20 @@
           "date": "2025-11-19",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8908",
+          "bill_name": "南極地域の環境の保護に関する法律の一部を改正する法律案",
+          "issue_number": 6023,
+          "date": "2026-05-29",
+          "meeting": "環境委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 7,
         "oppose": 7,
-        "neutral": 53
+        "neutral": 54
       }
     },
     "佐藤英道": {
@@ -50141,8 +50597,8 @@
       }
     },
     "三上えり": {
-      "party": "立憲民主・社民",
-      "speech_count": 19,
+      "party": "立憲民主・無所属",
+      "speech_count": 20,
       "bills": [
         {
           "bill_id": "house_211_7880",
@@ -50295,12 +50751,20 @@
           "date": "2024-03-29",
           "meeting": "国土交通委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8908",
+          "bill_name": "南極地域の環境の保護に関する法律の一部を改正する法律案",
+          "issue_number": 6023,
+          "date": "2026-04-16",
+          "meeting": "環境委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 19
+        "neutral": 20
       }
     },
     "石井苗子": {
@@ -56377,8 +56841,8 @@
       }
     },
     "小西洋之": {
-      "party": "立憲民主・無所属",
-      "speech_count": 61,
+      "party": "立憲民主・社民",
+      "speech_count": 63,
       "bills": [
         {
           "bill_id": "house_211_7882",
@@ -56867,12 +57331,28 @@
           "date": "2026-03-24",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15663",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 6039,
+          "date": "2023-12-06",
+          "meeting": "憲法審査会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15668",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 6044,
+          "date": "2023-11-30",
+          "meeting": "外交防衛委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 61
+        "neutral": 63
       }
     },
     "重徳和彦": {
@@ -57051,7 +57531,7 @@
     },
     "源馬謙太郎": {
       "party": "立憲民主党・無所属",
-      "speech_count": 5,
+      "speech_count": 6,
       "bills": [
         {
           "bill_id": "house_211_7882",
@@ -57092,12 +57572,20 @@
           "date": "2023-11-24",
           "meeting": "予算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15668",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 6044,
+          "date": "2023-11-24",
+          "meeting": "予算委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 5
+        "neutral": 6
       }
     },
     "赤嶺政賢": {
@@ -57315,8 +57803,8 @@
       }
     },
     "熊谷裕人": {
-      "party": "立憲民主・無所属",
-      "speech_count": 53,
+      "party": "立憲民主・社民",
+      "speech_count": 58,
       "bills": [
         {
           "bill_id": "house_211_7883",
@@ -57741,12 +58229,52 @@
           "date": "2026-03-31",
           "meeting": "文教科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8911",
+          "bill_name": "学校教育法等の一部を改正する法律案",
+          "issue_number": 6026,
+          "date": "2026-06-09",
+          "meeting": "文教科学委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8911",
+          "bill_name": "学校教育法等の一部を改正する法律案",
+          "issue_number": 6026,
+          "date": "2026-06-02",
+          "meeting": "文教科学委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8918",
+          "bill_name": "著作権法の一部を改正する法律案",
+          "issue_number": 6033,
+          "date": "2026-06-16",
+          "meeting": "文教科学委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15663",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 6039,
+          "date": "2023-12-06",
+          "meeting": "憲法審査会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15668",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 6044,
+          "date": "2023-11-20",
+          "meeting": "本会議",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 16,
-        "neutral": 37
+        "oppose": 17,
+        "neutral": 41
       }
     },
     "三木圭恵": {
@@ -60942,7 +61470,7 @@
     },
     "森山浩行": {
       "party": "立憲民主党・無所属",
-      "speech_count": 20,
+      "speech_count": 21,
       "bills": [
         {
           "bill_id": "house_211_7884",
@@ -61103,12 +61631,20 @@
           "date": "2023-11-24",
           "meeting": "予算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15668",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 6044,
+          "date": "2023-11-24",
+          "meeting": "予算委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 20
+        "neutral": 21
       }
     },
     "鰐淵洋子": {
@@ -61362,7 +61898,7 @@
     },
     "伊藤孝恵": {
       "party": "国民民主党・新緑風会",
-      "speech_count": 18,
+      "speech_count": 21,
       "bills": [
         {
           "bill_id": "house_211_7884",
@@ -61507,17 +62043,41 @@
           "date": "2025-05-15",
           "meeting": "文教科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15668",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 6044,
+          "date": "2023-11-29",
+          "meeting": "本会議",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_212_15668",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 6044,
+          "date": "2023-11-29",
+          "meeting": "予算委員会",
+          "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_212_15668",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 6044,
+          "date": "2023-11-20",
+          "meeting": "本会議",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
-        "support": 3,
-        "oppose": 5,
+        "support": 4,
+        "oppose": 7,
         "neutral": 10
       }
     },
     "吉良よし子": {
       "party": "日本共産党",
-      "speech_count": 32,
+      "speech_count": 33,
       "bills": [
         {
           "bill_id": "house_211_7885",
@@ -61774,17 +62334,25 @@
           "date": "2026-03-31",
           "meeting": "文教科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8918",
+          "bill_name": "著作権法の一部を改正する法律案",
+          "issue_number": 6033,
+          "date": "2026-06-16",
+          "meeting": "文教科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 10,
-        "neutral": 22
+        "neutral": 23
       }
     },
     "中条きよし": {
       "party": "日本維新の会",
-      "speech_count": 12,
+      "speech_count": 14,
       "bills": [
         {
           "bill_id": "house_211_7885",
@@ -61881,12 +62449,28 @@
           "date": "2026-04-16",
           "meeting": "文教科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8918",
+          "bill_name": "著作権法の一部を改正する法律案",
+          "issue_number": 6033,
+          "date": "2026-06-16",
+          "meeting": "文教科学委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8918",
+          "bill_name": "著作権法の一部を改正する法律案",
+          "issue_number": 6033,
+          "date": "2026-04-16",
+          "meeting": "文教科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 4,
         "oppose": 1,
-        "neutral": 7
+        "neutral": 9
       }
     },
     "原口剛": {
@@ -61909,8 +62493,8 @@
       }
     },
     "小沼巧": {
-      "party": "立憲民主・社民・無所属",
-      "speech_count": 27,
+      "party": "立憲民主・社民",
+      "speech_count": 28,
       "bills": [
         {
           "bill_id": "house_211_7886",
@@ -62127,12 +62711,20 @@
           "date": "2025-06-03",
           "meeting": "国土交通委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15668",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 6044,
+          "date": "2023-11-27",
+          "meeting": "予算委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 27
+        "neutral": 28
       }
     },
     "塩村あやか": {
@@ -64555,7 +65147,7 @@
     },
     "星野剛士": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 78,
+      "speech_count": 79,
       "bills": [
         {
           "bill_id": "house_211_7889",
@@ -65180,12 +65772,20 @@
           "date": "2023-12-13",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15662",
+          "bill_name": "我が国の総合的な安全保障の確保を図るための土地等の取得、利用及び管理の規制に関する施策の推進に関する法律案",
+          "issue_number": 6038,
+          "date": "2023-12-13",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 2,
         "oppose": 0,
-        "neutral": 76
+        "neutral": 77
       }
     },
     "古賀篤": {
@@ -65249,7 +65849,7 @@
     },
     "高市早苗": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 67,
+      "speech_count": 69,
       "bills": [
         {
           "bill_id": "house_211_7889",
@@ -65786,12 +66386,28 @@
           "date": "2026-04-02",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8917",
+          "bill_name": "刑事訴訟法の一部を改正する法律案",
+          "issue_number": 6032,
+          "date": "2026-04-27",
+          "meeting": "予算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15663",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 6039,
+          "date": "2023-11-16",
+          "meeting": "情報監視審査会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 5,
         "oppose": 4,
-        "neutral": 58
+        "neutral": 60
       }
     },
     "岩田和親": {
@@ -66594,7 +67210,7 @@
     },
     "梅村みずほ": {
       "party": "参政党",
-      "speech_count": 15,
+      "speech_count": 16,
       "bills": [
         {
           "bill_id": "house_211_7891",
@@ -66715,12 +67331,20 @@
           "date": "2026-05-22",
           "meeting": "沖縄・北方問題及び地方に関する特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8908",
+          "bill_name": "南極地域の環境の保護に関する法律の一部を改正する法律案",
+          "issue_number": 6023,
+          "date": "2026-04-16",
+          "meeting": "環境委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 2,
-        "neutral": 13
+        "neutral": 14
       }
     },
     "川合孝典": {
@@ -66923,7 +67547,7 @@
     },
     "谷合正明": {
       "party": "公明党",
-      "speech_count": 26,
+      "speech_count": 27,
       "bills": [
         {
           "bill_id": "house_211_7891",
@@ -67132,12 +67756,20 @@
           "date": "2025-04-10",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8918",
+          "bill_name": "著作権法の一部を改正する法律案",
+          "issue_number": 6033,
+          "date": "2026-06-16",
+          "meeting": "文教科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 26
+        "neutral": 27
       }
     },
     "漆間譲司": {
@@ -67176,8 +67808,8 @@
       }
     },
     "平林晃": {
-      "party": "公明党",
-      "speech_count": 31,
+      "party": "中道改革連合・無所属",
+      "speech_count": 33,
       "bills": [
         {
           "bill_id": "house_211_7891",
@@ -67426,12 +68058,28 @@
           "date": "2025-11-21",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8917",
+          "bill_name": "刑事訴訟法の一部を改正する法律案",
+          "issue_number": 6032,
+          "date": "2026-05-26",
+          "meeting": "本会議",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "house_221_8918",
+          "bill_name": "著作権法の一部を改正する法律案",
+          "issue_number": 6033,
+          "date": "2026-03-12",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 5,
-        "neutral": 26
+        "oppose": 6,
+        "neutral": 27
       }
     },
     "鈴木庸介": {
@@ -68569,7 +69217,7 @@
     },
     "金子恵美": {
       "party": "中道改革連合・無所属",
-      "speech_count": 10,
+      "speech_count": 11,
       "bills": [
         {
           "bill_id": "house_211_7894",
@@ -68650,12 +69298,20 @@
           "date": "2026-04-14",
           "meeting": "環境委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8915",
+          "bill_name": "廃棄物の処理及び清掃に関する法律等の一部を改正する法律案",
+          "issue_number": 6030,
+          "date": "2026-05-22",
+          "meeting": "環境委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 1,
         "oppose": 0,
-        "neutral": 9
+        "neutral": 10
       }
     },
     "緑川貴士": {
@@ -68714,7 +69370,7 @@
     },
     "西村明宏": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 7,
+      "speech_count": 9,
       "bills": [
         {
           "bill_id": "house_211_7895",
@@ -68771,12 +69427,28 @@
           "date": "2026-04-16",
           "meeting": "安全保障委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8906",
+          "bill_name": "予備自衛官等の職務の円滑な遂行を図るための国家公務員及び地方公務員の兼業の特例に関する法律案",
+          "issue_number": 6021,
+          "date": "2026-05-15",
+          "meeting": "安全保障委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8906",
+          "bill_name": "予備自衛官等の職務の円滑な遂行を図るための国家公務員及び地方公務員の兼業の特例に関する法律案",
+          "issue_number": 6021,
+          "date": "2026-05-12",
+          "meeting": "安全保障委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 7
+        "neutral": 9
       }
     },
     "森田俊和": {
@@ -71080,7 +71752,7 @@
     },
     "森英介": {
       "party": "無所属",
-      "speech_count": 68,
+      "speech_count": 78,
       "bills": [
         {
           "bill_id": "house_211_7902",
@@ -71625,17 +72297,97 @@
           "date": "2026-05-26",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8905",
+          "bill_name": "太陽電池廃棄物の再資源化等の推進に関する法律案",
+          "issue_number": 6020,
+          "date": "2026-05-12",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8906",
+          "bill_name": "予備自衛官等の職務の円滑な遂行を図るための国家公務員及び地方公務員の兼業の特例に関する法律案",
+          "issue_number": 6021,
+          "date": "2026-05-19",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8909",
+          "bill_name": "情報通信技術を活用した行政の推進等に関する法律及び情報処理の促進に関する法律の一部を改正する法律案",
+          "issue_number": 6024,
+          "date": "2026-05-26",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8909",
+          "bill_name": "情報通信技術を活用した行政の推進等に関する法律及び情報処理の促進に関する法律の一部を改正する法律案",
+          "issue_number": 6024,
+          "date": "2026-04-21",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8910",
+          "bill_name": "個人情報の保護に関する法律等の一部を改正する法律案",
+          "issue_number": 6025,
+          "date": "2026-05-26",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8910",
+          "bill_name": "個人情報の保護に関する法律等の一部を改正する法律案",
+          "issue_number": 6025,
+          "date": "2026-04-21",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8911",
+          "bill_name": "学校教育法等の一部を改正する法律案",
+          "issue_number": 6026,
+          "date": "2026-04-28",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8915",
+          "bill_name": "廃棄物の処理及び清掃に関する法律等の一部を改正する法律案",
+          "issue_number": 6030,
+          "date": "2026-05-26",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8916",
+          "bill_name": "ポリ塩化ビフェニル廃棄物の適正な処理の推進に関する特別措置法及び中間貯蔵・環境安全事業株式会社法の一部を改正する法律案",
+          "issue_number": 6031,
+          "date": "2026-05-26",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8917",
+          "bill_name": "刑事訴訟法の一部を改正する法律案",
+          "issue_number": 6032,
+          "date": "2026-05-26",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 68
+        "neutral": 78
       }
     },
     "平口洋": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 107,
+      "speech_count": 116,
       "bills": [
         {
           "bill_id": "house_211_7902",
@@ -72492,12 +73244,84 @@
           "date": "2026-04-15",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8917",
+          "bill_name": "刑事訴訟法の一部を改正する法律案",
+          "issue_number": 6032,
+          "date": "2026-06-02",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8917",
+          "bill_name": "刑事訴訟法の一部を改正する法律案",
+          "issue_number": 6032,
+          "date": "2026-05-26",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8917",
+          "bill_name": "刑事訴訟法の一部を改正する法律案",
+          "issue_number": 6032,
+          "date": "2026-04-21",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8917",
+          "bill_name": "刑事訴訟法の一部を改正する法律案",
+          "issue_number": 6032,
+          "date": "2026-04-15",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8917",
+          "bill_name": "刑事訴訟法の一部を改正する法律案",
+          "issue_number": 6032,
+          "date": "2026-04-10",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8917",
+          "bill_name": "刑事訴訟法の一部を改正する法律案",
+          "issue_number": 6032,
+          "date": "2026-04-03",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8917",
+          "bill_name": "刑事訴訟法の一部を改正する法律案",
+          "issue_number": 6032,
+          "date": "2026-04-02",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8917",
+          "bill_name": "刑事訴訟法の一部を改正する法律案",
+          "issue_number": 6032,
+          "date": "2026-03-24",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8917",
+          "bill_name": "刑事訴訟法の一部を改正する法律案",
+          "issue_number": 6032,
+          "date": "2026-03-19",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 107
+        "neutral": 116
       }
     },
     "舞立昇治": {
@@ -73583,7 +74407,7 @@
     },
     "近藤和也": {
       "party": "中道改革連合・無所属",
-      "speech_count": 19,
+      "speech_count": 20,
       "bills": [
         {
           "bill_id": "house_211_7906",
@@ -73736,12 +74560,20 @@
           "date": "2026-04-10",
           "meeting": "外務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8918",
+          "bill_name": "著作権法の一部を改正する法律案",
+          "issue_number": 6033,
+          "date": "2026-04-17",
+          "meeting": "外務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 19
+        "neutral": 20
       }
     },
     "坂本祐之輔": {
@@ -74091,8 +74923,8 @@
       }
     },
     "石川大我": {
-      "party": "立憲民主・社民・無所属",
-      "speech_count": 23,
+      "party": "立憲民主・社民",
+      "speech_count": 24,
       "bills": [
         {
           "bill_id": "house_211_7911",
@@ -74277,17 +75109,25 @@
           "date": "2025-05-20",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15663",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 6039,
+          "date": "2023-11-15",
+          "meeting": "憲法審査会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 3,
         "oppose": 2,
-        "neutral": 18
+        "neutral": 19
       }
     },
     "石橋通宏": {
-      "party": "立憲民主・社民・無所属",
-      "speech_count": 29,
+      "party": "立憲民主・無所属",
+      "speech_count": 30,
       "bills": [
         {
           "bill_id": "house_211_7911",
@@ -74520,12 +75360,20 @@
           "date": "2025-05-27",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8918",
+          "bill_name": "著作権法の一部を改正する法律案",
+          "issue_number": 6033,
+          "date": "2026-06-02",
+          "meeting": "文教科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 29
+        "neutral": 30
       }
     },
     "日下正喜": {
@@ -74712,7 +75560,7 @@
     },
     "松本尚": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 14,
+      "speech_count": 18,
       "bills": [
         {
           "bill_id": "house_211_7912",
@@ -74825,12 +75673,44 @@
           "date": "2026-04-21",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8909",
+          "bill_name": "情報通信技術を活用した行政の推進等に関する法律及び情報処理の促進に関する法律の一部を改正する法律案",
+          "issue_number": 6024,
+          "date": "2026-05-08",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8909",
+          "bill_name": "情報通信技術を活用した行政の推進等に関する法律及び情報処理の促進に関する法律の一部を改正する法律案",
+          "issue_number": 6024,
+          "date": "2026-04-21",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8910",
+          "bill_name": "個人情報の保護に関する法律等の一部を改正する法律案",
+          "issue_number": 6025,
+          "date": "2026-05-08",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8910",
+          "bill_name": "個人情報の保護に関する法律等の一部を改正する法律案",
+          "issue_number": 6025,
+          "date": "2026-04-21",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 14
+        "neutral": 18
       }
     },
     "鳥井陽一": {
@@ -75218,8 +76098,8 @@
       }
     },
     "赤松健": {
-      "party": "自由民主党",
-      "speech_count": 1,
+      "party": "自由民主党・無所属の会",
+      "speech_count": 2,
       "bills": [
         {
           "bill_id": "councillors_211_15302",
@@ -75228,12 +76108,20 @@
           "date": "2023-05-16",
           "meeting": "文教科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8918",
+          "bill_name": "著作権法の一部を改正する法律案",
+          "issue_number": 6033,
+          "date": "2026-06-16",
+          "meeting": "文教科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 1
+        "neutral": 2
       }
     },
     "杉浦久弘": {
@@ -75351,7 +76239,7 @@
     },
     "金村龍那": {
       "party": "日本維新の会",
-      "speech_count": 12,
+      "speech_count": 13,
       "bills": [
         {
           "bill_id": "councillors_211_15302",
@@ -75448,12 +76336,20 @@
           "date": "2025-03-26",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8917",
+          "bill_name": "刑事訴訟法の一部を改正する法律案",
+          "issue_number": 6032,
+          "date": "2026-05-26",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 1,
         "oppose": 2,
-        "neutral": 9
+        "neutral": 10
       }
     },
     "新妻秀規": {
@@ -76618,7 +77514,7 @@
     },
     "早稲田ゆき": {
       "party": "中道改革連合・無所属",
-      "speech_count": 11,
+      "speech_count": 12,
       "bills": [
         {
           "bill_id": "councillors_211_15315",
@@ -76707,12 +77603,20 @@
           "date": "2026-04-15",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8910",
+          "bill_name": "個人情報の保護に関する法律等の一部を改正する法律案",
+          "issue_number": 6025,
+          "date": "2026-05-21",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 1,
-        "neutral": 10
+        "neutral": 11
       }
     },
     "松井信憲": {
@@ -77759,7 +78663,7 @@
     },
     "自見はなこ": {
       "party": "自由民主党",
-      "speech_count": 44,
+      "speech_count": 45,
       "bills": [
         {
           "bill_id": "councillors_211_15315",
@@ -78112,12 +79016,20 @@
           "date": "2023-12-08",
           "meeting": "予算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15660",
+          "bill_name": "地方公務員法等の一部を改正する法律案",
+          "issue_number": 6036,
+          "date": "2023-10-30",
+          "meeting": "予算委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 44
+        "neutral": 45
       }
     },
     "串田誠一": {
@@ -78707,7 +79619,7 @@
     },
     "西村智奈美": {
       "party": "中道改革連合・無所属",
-      "speech_count": 115,
+      "speech_count": 118,
       "bills": [
         {
           "bill_id": "councillors_211_15315",
@@ -79628,12 +80540,36 @@
           "date": "2026-04-17",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8917",
+          "bill_name": "刑事訴訟法の一部を改正する法律案",
+          "issue_number": 6032,
+          "date": "2026-05-26",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8917",
+          "bill_name": "刑事訴訟法の一部を改正する法律案",
+          "issue_number": 6032,
+          "date": "2026-04-15",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8917",
+          "bill_name": "刑事訴訟法の一部を改正する法律案",
+          "issue_number": 6032,
+          "date": "2026-04-10",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 115
+        "neutral": 118
       }
     },
     "篠原孝": {
@@ -79731,8 +80667,8 @@
       }
     },
     "山田太郎": {
-      "party": "自由民主党",
-      "speech_count": 12,
+      "party": "自由民主党・無所属の会",
+      "speech_count": 13,
       "bills": [
         {
           "bill_id": "councillors_211_15315",
@@ -79829,12 +80765,20 @@
           "date": "2024-03-21",
           "meeting": "財政金融委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8918",
+          "bill_name": "著作権法の一部を改正する法律案",
+          "issue_number": 6033,
+          "date": "2026-06-16",
+          "meeting": "外交防衛委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 12
+        "neutral": 13
       }
     },
     "寺門成真": {
@@ -80261,7 +81205,7 @@
     },
     "柚木道義": {
       "party": "立憲民主党・無所属",
-      "speech_count": 22,
+      "speech_count": 23,
       "bills": [
         {
           "bill_id": "councillors_211_15340",
@@ -80438,11 +81382,19 @@
           "date": "2023-11-24",
           "meeting": "文部科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15668",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 6044,
+          "date": "2023-11-24",
+          "meeting": "文部科学委員会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 5,
+        "oppose": 6,
         "neutral": 17
       }
     },
@@ -80663,7 +81615,7 @@
     },
     "佐藤信秋": {
       "party": "自由民主党",
-      "speech_count": 8,
+      "speech_count": 9,
       "bills": [
         {
           "bill_id": "councillors_211_15360",
@@ -80728,12 +81680,20 @@
           "date": "2023-12-11",
           "meeting": "決算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15663",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 6039,
+          "date": "2023-12-11",
+          "meeting": "決算委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 8
+        "neutral": 9
       }
     },
     "小野寺五典": {
@@ -82183,7 +83143,7 @@
     },
     "川崎政司": {
       "party": "",
-      "speech_count": 8,
+      "speech_count": 9,
       "bills": [
         {
           "bill_id": "councillors_211_15360",
@@ -82248,12 +83208,20 @@
           "date": "2023-11-15",
           "meeting": "憲法審査会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15663",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 6039,
+          "date": "2023-11-15",
+          "meeting": "憲法審査会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 1,
-        "neutral": 7
+        "neutral": 8
       }
     },
     "安江伸夫": {
@@ -82285,7 +83253,7 @@
     },
     "片山さつき": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 81,
+      "speech_count": 84,
       "bills": [
         {
           "bill_id": "councillors_211_15360",
@@ -82934,17 +83902,41 @@
           "date": "2026-03-03",
           "meeting": "財務金融委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8913",
+          "bill_name": "金融商品取引法及び資金決済に関する法律の一部を改正する法律案",
+          "issue_number": 6028,
+          "date": "2026-06-16",
+          "meeting": "財政金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8913",
+          "bill_name": "金融商品取引法及び資金決済に関する法律の一部を改正する法律案",
+          "issue_number": 6028,
+          "date": "2026-03-19",
+          "meeting": "財政金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8913",
+          "bill_name": "金融商品取引法及び資金決済に関する法律の一部を改正する法律案",
+          "issue_number": 6028,
+          "date": "2026-03-03",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 81
+        "neutral": 84
       }
     },
     "古賀千景": {
       "party": "立憲民主・無所属",
-      "speech_count": 24,
+      "speech_count": 26,
       "bills": [
         {
           "bill_id": "councillors_211_15360",
@@ -83137,12 +84129,28 @@
           "date": "2026-03-31",
           "meeting": "文教科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8911",
+          "bill_name": "学校教育法等の一部を改正する法律案",
+          "issue_number": 6026,
+          "date": "2026-06-09",
+          "meeting": "文教科学委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8918",
+          "bill_name": "著作権法の一部を改正する法律案",
+          "issue_number": 6033,
+          "date": "2026-06-16",
+          "meeting": "文教科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 1,
         "oppose": 12,
-        "neutral": 11
+        "neutral": 13
       }
     },
     "中川正春": {
@@ -85244,7 +86252,7 @@
     },
     "前田努": {
       "party": "",
-      "speech_count": 8,
+      "speech_count": 9,
       "bills": [
         {
           "bill_id": "councillors_211_15418",
@@ -85309,12 +86317,20 @@
           "date": "2023-11-17",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15668",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 6044,
+          "date": "2023-11-17",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 8
+        "neutral": 9
       }
     },
     "小池晃": {
@@ -85634,7 +86650,7 @@
     },
     "和田政宗": {
       "party": "参政党",
-      "speech_count": 81,
+      "speech_count": 82,
       "bills": [
         {
           "bill_id": "councillors_211_15418",
@@ -86283,12 +87299,20 @@
           "date": "2026-03-04",
           "meeting": "予算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8917",
+          "bill_name": "刑事訴訟法の一部を改正する法律案",
+          "issue_number": 6032,
+          "date": "2026-05-26",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 7,
-        "neutral": 74
+        "neutral": 75
       }
     },
     "藤岡隆雄": {
@@ -86935,7 +87959,7 @@
     },
     "津島淳": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 78,
+      "speech_count": 79,
       "bills": [
         {
           "bill_id": "councillors_211_15418",
@@ -87560,12 +88584,20 @@
           "date": "2026-05-12",
           "meeting": "災害対策特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15668",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 6044,
+          "date": "2023-12-13",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 78
+        "neutral": 79
       }
     },
     "柳澤協二": {
@@ -88317,7 +89349,7 @@
     },
     "額賀福志郎": {
       "party": "無所属",
-      "speech_count": 469,
+      "speech_count": 470,
       "bills": [
         {
           "bill_id": "councillors_212_15437",
@@ -92070,12 +93102,20 @@
           "date": "2025-11-25",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15662",
+          "bill_name": "我が国の総合的な安全保障の確保を図るための土地等の取得、利用及び管理の規制に関する施策の推進に関する法律案",
+          "issue_number": 6038,
+          "date": "2023-12-13",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 3,
         "oppose": 0,
-        "neutral": 466
+        "neutral": 467
       }
     },
     "池田貴城": {
@@ -93141,7 +94181,7 @@
     },
     "北村経夫": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 40,
+      "speech_count": 41,
       "bills": [
         {
           "bill_id": "house_212_8041",
@@ -93462,12 +94502,20 @@
           "date": "2026-05-28",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8907",
+          "bill_name": "犯罪による収益の移転防止に関する法律の一部を改正する法律案",
+          "issue_number": 6022,
+          "date": "2026-04-16",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 40
+        "neutral": 41
       }
     },
     "石川香織": {
@@ -94710,7 +95758,7 @@
     },
     "金子道仁": {
       "party": "日本維新の会",
-      "speech_count": 28,
+      "speech_count": 30,
       "bills": [
         {
           "bill_id": "house_212_8046",
@@ -94935,12 +95983,28 @@
           "date": "2025-03-31",
           "meeting": "予算委員会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_212_15668",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 6044,
+          "date": "2023-11-29",
+          "meeting": "本会議",
+          "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_212_15668",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 6044,
+          "date": "2023-11-20",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
-        "support": 3,
+        "support": 4,
         "oppose": 10,
-        "neutral": 15
+        "neutral": 16
       }
     },
     "下野六太": {
@@ -96647,8 +97711,8 @@
       }
     },
     "勝部賢志": {
-      "party": "立憲民主・社民・無所属",
-      "speech_count": 13,
+      "party": "立憲民主・無所属",
+      "speech_count": 14,
       "bills": [
         {
           "bill_id": "house_213_8190",
@@ -96753,11 +97817,19 @@
           "date": "2025-03-24",
           "meeting": "財政金融委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8918",
+          "bill_name": "著作権法の一部を改正する法律案",
+          "issue_number": 6033,
+          "date": "2026-06-16",
+          "meeting": "文教科学委員会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 3,
+        "oppose": 4,
         "neutral": 10
       }
     },
@@ -97514,7 +98586,7 @@
     },
     "斎藤洋明": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 32,
+      "speech_count": 36,
       "bills": [
         {
           "bill_id": "house_213_8190",
@@ -97771,12 +98843,44 @@
           "date": "2026-03-10",
           "meeting": "文部科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8911",
+          "bill_name": "学校教育法等の一部を改正する法律案",
+          "issue_number": 6026,
+          "date": "2026-04-24",
+          "meeting": "文部科学委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8911",
+          "bill_name": "学校教育法等の一部を改正する法律案",
+          "issue_number": 6026,
+          "date": "2026-04-22",
+          "meeting": "文部科学委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8918",
+          "bill_name": "著作権法の一部を改正する法律案",
+          "issue_number": 6033,
+          "date": "2026-06-03",
+          "meeting": "文部科学委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8918",
+          "bill_name": "著作権法の一部を改正する法律案",
+          "issue_number": 6033,
+          "date": "2026-05-29",
+          "meeting": "文部科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 32
+        "neutral": 36
       }
     },
     "中嶋秀樹": {
@@ -99479,7 +100583,7 @@
     },
     "小泉進次郎": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 59,
+      "speech_count": 63,
       "bills": [
         {
           "bill_id": "house_213_8202",
@@ -99952,12 +101056,44 @@
           "date": "2026-03-24",
           "meeting": "外交防衛委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8906",
+          "bill_name": "予備自衛官等の職務の円滑な遂行を図るための国家公務員及び地方公務員の兼業の特例に関する法律案",
+          "issue_number": 6021,
+          "date": "2026-06-02",
+          "meeting": "外交防衛委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8906",
+          "bill_name": "予備自衛官等の職務の円滑な遂行を図るための国家公務員及び地方公務員の兼業の特例に関する法律案",
+          "issue_number": 6021,
+          "date": "2026-05-12",
+          "meeting": "安全保障委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8906",
+          "bill_name": "予備自衛官等の職務の円滑な遂行を図るための国家公務員及び地方公務員の兼業の特例に関する法律案",
+          "issue_number": 6021,
+          "date": "2026-04-03",
+          "meeting": "安全保障委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8906",
+          "bill_name": "予備自衛官等の職務の円滑な遂行を図るための国家公務員及び地方公務員の兼業の特例に関する法律案",
+          "issue_number": 6021,
+          "date": "2026-03-24",
+          "meeting": "外交防衛委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 59
+        "neutral": 63
       }
     },
     "榛葉賀津也": {
@@ -103705,8 +104841,8 @@
       }
     },
     "泉健太": {
-      "party": "中道改革連合・無所属",
-      "speech_count": 21,
+      "party": "立憲民主党・無所属",
+      "speech_count": 22,
       "bills": [
         {
           "bill_id": "house_213_8220",
@@ -103875,12 +105011,20 @@
           "date": "2026-03-13",
           "meeting": "文部科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15668",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 6044,
+          "date": "2023-12-13",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 5,
-        "neutral": 16
+        "neutral": 17
       }
     },
     "高橋宏治": {
@@ -105638,7 +106782,7 @@
     },
     "馬場伸幸": {
       "party": "日本維新の会",
-      "speech_count": 9,
+      "speech_count": 11,
       "bills": [
         {
           "bill_id": "councillors_214_15844",
@@ -105711,12 +106855,28 @@
           "date": "2023-10-25",
           "meeting": "本会議",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_212_15663",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 6039,
+          "date": "2023-12-08",
+          "meeting": "予算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15668",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 6044,
+          "date": "2023-10-25",
+          "meeting": "本会議",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 4,
-        "neutral": 5
+        "oppose": 5,
+        "neutral": 6
       }
     },
     "石井啓一": {
@@ -105780,7 +106940,7 @@
     },
     "関口昌一": {
       "party": "各派に属しない議員",
-      "speech_count": 255,
+      "speech_count": 257,
       "bills": [
         {
           "bill_id": "councillors_216_15875",
@@ -107821,12 +108981,28 @@
           "date": "2026-04-24",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8907",
+          "bill_name": "犯罪による収益の移転防止に関する法律の一部を改正する法律案",
+          "issue_number": 6022,
+          "date": "2026-04-17",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8908",
+          "bill_name": "南極地域の環境の保護に関する法律の一部を改正する法律案",
+          "issue_number": 6023,
+          "date": "2026-04-17",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 255
+        "neutral": 257
       }
     },
     "平将明": {
@@ -110296,7 +111472,7 @@
     },
     "築山信彦": {
       "party": "",
-      "speech_count": 386,
+      "speech_count": 404,
       "bills": [
         {
           "bill_id": "councillors_216_15875",
@@ -113385,12 +114561,156 @@
           "date": "2026-05-26",
           "meeting": "議院運営委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8905",
+          "bill_name": "太陽電池廃棄物の再資源化等の推進に関する法律案",
+          "issue_number": 6020,
+          "date": "2026-05-12",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8906",
+          "bill_name": "予備自衛官等の職務の円滑な遂行を図るための国家公務員及び地方公務員の兼業の特例に関する法律案",
+          "issue_number": 6021,
+          "date": "2026-05-19",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8907",
+          "bill_name": "犯罪による収益の移転防止に関する法律の一部を改正する法律案",
+          "issue_number": 6022,
+          "date": "2026-06-02",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8908",
+          "bill_name": "南極地域の環境の保護に関する法律の一部を改正する法律案",
+          "issue_number": 6023,
+          "date": "2026-06-02",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8909",
+          "bill_name": "情報通信技術を活用した行政の推進等に関する法律及び情報処理の促進に関する法律の一部を改正する法律案",
+          "issue_number": 6024,
+          "date": "2026-05-26",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8909",
+          "bill_name": "情報通信技術を活用した行政の推進等に関する法律及び情報処理の促進に関する法律の一部を改正する法律案",
+          "issue_number": 6024,
+          "date": "2026-04-21",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8910",
+          "bill_name": "個人情報の保護に関する法律等の一部を改正する法律案",
+          "issue_number": 6025,
+          "date": "2026-05-26",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8910",
+          "bill_name": "個人情報の保護に関する法律等の一部を改正する法律案",
+          "issue_number": 6025,
+          "date": "2026-04-21",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8911",
+          "bill_name": "学校教育法等の一部を改正する法律案",
+          "issue_number": 6026,
+          "date": "2026-04-28",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8912",
+          "bill_name": "労働者災害補償保険法等の一部を改正する法律案",
+          "issue_number": 6027,
+          "date": "2026-06-02",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8913",
+          "bill_name": "金融商品取引法及び資金決済に関する法律の一部を改正する法律案",
+          "issue_number": 6028,
+          "date": "2026-06-11",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8914",
+          "bill_name": "ヒトゲノム編集胚等の取扱いの規制に関する法律案",
+          "issue_number": 6029,
+          "date": "2026-06-16",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8915",
+          "bill_name": "廃棄物の処理及び清掃に関する法律等の一部を改正する法律案",
+          "issue_number": 6030,
+          "date": "2026-05-26",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8916",
+          "bill_name": "ポリ塩化ビフェニル廃棄物の適正な処理の推進に関する特別措置法及び中間貯蔵・環境安全事業株式会社法の一部を改正する法律案",
+          "issue_number": 6031,
+          "date": "2026-05-26",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8917",
+          "bill_name": "刑事訴訟法の一部を改正する法律案",
+          "issue_number": 6032,
+          "date": "2026-06-16",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8917",
+          "bill_name": "刑事訴訟法の一部を改正する法律案",
+          "issue_number": 6032,
+          "date": "2026-05-26",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8918",
+          "bill_name": "著作権法の一部を改正する法律案",
+          "issue_number": 6033,
+          "date": "2026-06-04",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8919",
+          "bill_name": "予防接種法の一部を改正する法律案",
+          "issue_number": 6034,
+          "date": "2026-06-30",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 386
+        "neutral": 404
       }
     },
     "平沼正二郎": {
@@ -117230,7 +118550,7 @@
     },
     "里見隆治": {
       "party": "公明党",
-      "speech_count": 14,
+      "speech_count": 15,
       "bills": [
         {
           "bill_id": "councillors_216_15885",
@@ -117343,12 +118663,20 @@
           "date": "2026-05-14",
           "meeting": "外交防衛委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8906",
+          "bill_name": "予備自衛官等の職務の円滑な遂行を図るための国家公務員及び地方公務員の兼業の特例に関する法律案",
+          "issue_number": 6021,
+          "date": "2026-06-09",
+          "meeting": "外交防衛委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 3,
         "oppose": 0,
-        "neutral": 11
+        "neutral": 12
       }
     },
     "井上勉": {
@@ -118742,7 +120070,7 @@
     },
     "大門実紀史": {
       "party": "日本共産党",
-      "speech_count": 30,
+      "speech_count": 31,
       "bills": [
         {
           "bill_id": "councillors_216_15900",
@@ -118983,12 +120311,20 @@
           "date": "2026-05-12",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8917",
+          "bill_name": "刑事訴訟法の一部を改正する法律案",
+          "issue_number": 6032,
+          "date": "2026-04-16",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 2,
         "oppose": 7,
-        "neutral": 21
+        "neutral": 22
       }
     },
     "川内博史": {
@@ -120260,7 +121596,7 @@
     },
     "中村裕之": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 23,
+      "speech_count": 24,
       "bills": [
         {
           "bill_id": "councillors_216_15908",
@@ -120445,17 +121781,25 @@
           "date": "2025-06-20",
           "meeting": "文部科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8911",
+          "bill_name": "学校教育法等の一部を改正する法律案",
+          "issue_number": 6026,
+          "date": "2026-05-18",
+          "meeting": "行政監視委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 23
+        "neutral": 24
       }
     },
     "望月禎": {
       "party": "",
-      "speech_count": 32,
+      "speech_count": 33,
       "bills": [
         {
           "bill_id": "councillors_216_15908",
@@ -120712,12 +122056,20 @@
           "date": "2026-03-26",
           "meeting": "文教科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8911",
+          "bill_name": "学校教育法等の一部を改正する法律案",
+          "issue_number": 6026,
+          "date": "2026-04-24",
+          "meeting": "文部科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 32
+        "neutral": 33
       }
     },
     "あべ俊子": {
@@ -123698,7 +125050,7 @@
     },
     "林佑美": {
       "party": "日本維新の会",
-      "speech_count": 8,
+      "speech_count": 9,
       "bills": [
         {
           "bill_id": "councillors_217_15930",
@@ -123763,10 +125115,18 @@
           "date": "2023-11-24",
           "meeting": "本会議",
           "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_212_15668",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 6044,
+          "date": "2023-11-24",
+          "meeting": "本会議",
+          "stance": "賛成"
         }
       ],
       "stance_summary": {
-        "support": 3,
+        "support": 4,
         "oppose": 0,
         "neutral": 5
       }
@@ -125314,7 +126674,7 @@
     },
     "原田祐平": {
       "party": "",
-      "speech_count": 7,
+      "speech_count": 9,
       "bills": [
         {
           "bill_id": "councillors_217_15938",
@@ -125371,12 +126731,28 @@
           "date": "2023-10-27",
           "meeting": "議院運営委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15663",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 6039,
+          "date": "2023-10-27",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15668",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 6044,
+          "date": "2023-10-27",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 7
+        "neutral": 9
       }
     },
     "水沼秀幸": {
@@ -126022,7 +127398,7 @@
     },
     "青山繁晴": {
       "party": "自由民主党",
-      "speech_count": 16,
+      "speech_count": 17,
       "bills": [
         {
           "bill_id": "councillors_217_15940",
@@ -126151,10 +127527,18 @@
           "date": "2023-11-15",
           "meeting": "憲法審査会",
           "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_212_15663",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 6039,
+          "date": "2023-11-15",
+          "meeting": "憲法審査会",
+          "stance": "賛成"
         }
       ],
       "stance_summary": {
-        "support": 3,
+        "support": 4,
         "oppose": 0,
         "neutral": 13
       }
@@ -128419,7 +129803,7 @@
     },
     "村上智信": {
       "party": "日本維新の会",
-      "speech_count": 12,
+      "speech_count": 13,
       "bills": [
         {
           "bill_id": "councillors_217_15946",
@@ -128516,12 +129900,20 @@
           "date": "2026-03-10",
           "meeting": "文部科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8911",
+          "bill_name": "学校教育法等の一部を改正する法律案",
+          "issue_number": 6026,
+          "date": "2026-04-24",
+          "meeting": "文部科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 12
+        "neutral": 13
       }
     },
     "東克哉": {
@@ -131441,8 +132833,8 @@
       }
     },
     "輿水恵一": {
-      "party": "公明党",
-      "speech_count": 2,
+      "party": "中道改革連合・無所属",
+      "speech_count": 5,
       "bills": [
         {
           "bill_id": "house_213_8211",
@@ -131459,12 +132851,36 @@
           "date": "2024-06-20",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8905",
+          "bill_name": "太陽電池廃棄物の再資源化等の推進に関する法律案",
+          "issue_number": 6020,
+          "date": "2026-04-28",
+          "meeting": "環境委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8905",
+          "bill_name": "太陽電池廃棄物の再資源化等の推進に関する法律案",
+          "issue_number": 6020,
+          "date": "2026-04-21",
+          "meeting": "環境委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8908",
+          "bill_name": "南極地域の環境の保護に関する法律の一部を改正する法律案",
+          "issue_number": 6023,
+          "date": "2026-05-29",
+          "meeting": "環境委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 2
+        "neutral": 5
       }
     },
     "黒瀬敏文": {
@@ -133135,7 +134551,7 @@
     },
     "宮下一郎": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 21,
+      "speech_count": 22,
       "bills": [
         {
           "bill_id": "house_213_8245",
@@ -133304,12 +134720,20 @@
           "date": "2023-12-05",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15668",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 6044,
+          "date": "2023-12-05",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 21
+        "neutral": 22
       }
     },
     "伊藤豊": {
@@ -133663,7 +135087,7 @@
     },
     "橘幸信": {
       "party": "",
-      "speech_count": 7,
+      "speech_count": 8,
       "bills": [
         {
           "bill_id": "councillors_213_15747",
@@ -133720,12 +135144,20 @@
           "date": "2023-11-30",
           "meeting": "憲法審査会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15663",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 6039,
+          "date": "2023-11-30",
+          "meeting": "憲法審査会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 1,
-        "neutral": 6
+        "neutral": 7
       }
     },
     "吉井章": {
@@ -134508,8 +135940,8 @@
       }
     },
     "古庄玄知": {
-      "party": "自由民主党",
-      "speech_count": 16,
+      "party": "自由民主党・無所属の会",
+      "speech_count": 17,
       "bills": [
         {
           "bill_id": "councillors_217_15961",
@@ -134638,12 +136070,20 @@
           "date": "2025-03-13",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8917",
+          "bill_name": "刑事訴訟法の一部を改正する法律案",
+          "issue_number": 6032,
+          "date": "2026-03-24",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 16
+        "neutral": 17
       }
     },
     "若山慎司": {
@@ -134857,7 +136297,7 @@
     },
     "小竹凱": {
       "party": "国民民主党・無所属クラブ",
-      "speech_count": 33,
+      "speech_count": 34,
       "bills": [
         {
           "bill_id": "councillors_217_15962",
@@ -135122,12 +136562,20 @@
           "date": "2026-04-14",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8917",
+          "bill_name": "刑事訴訟法の一部を改正する法律案",
+          "issue_number": 6032,
+          "date": "2026-04-15",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 6,
-        "neutral": 27
+        "neutral": 28
       }
     },
     "福原申子": {
@@ -136401,7 +137849,7 @@
     },
     "あかま二郎": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 25,
+      "speech_count": 28,
       "bills": [
         {
           "bill_id": "councillors_217_16005",
@@ -136602,12 +138050,36 @@
           "date": "2026-03-24",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8907",
+          "bill_name": "犯罪による収益の移転防止に関する法律の一部を改正する法律案",
+          "issue_number": 6022,
+          "date": "2026-04-14",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8907",
+          "bill_name": "犯罪による収益の移転防止に関する法律の一部を改正する法律案",
+          "issue_number": 6022,
+          "date": "2026-04-03",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8907",
+          "bill_name": "犯罪による収益の移転防止に関する法律の一部を改正する法律案",
+          "issue_number": 6022,
+          "date": "2026-03-24",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 3,
         "oppose": 0,
-        "neutral": 22
+        "neutral": 25
       }
     },
     "杉村慎治": {
@@ -136926,7 +138398,7 @@
     },
     "藤田文武": {
       "party": "日本維新の会",
-      "speech_count": 19,
+      "speech_count": 20,
       "bills": [
         {
           "bill_id": "councillors_217_16007",
@@ -137079,12 +138551,20 @@
           "date": "2025-02-21",
           "meeting": "予算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15668",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 6044,
+          "date": "2023-10-30",
+          "meeting": "予算委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 19
+        "neutral": 20
       }
     },
     "円より子": {
@@ -137992,7 +139472,7 @@
     },
     "日向信和": {
       "party": "",
-      "speech_count": 20,
+      "speech_count": 23,
       "bills": [
         {
           "bill_id": "councillors_217_16007",
@@ -138153,12 +139633,36 @@
           "date": "2025-03-24",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8918",
+          "bill_name": "著作権法の一部を改正する法律案",
+          "issue_number": 6033,
+          "date": "2026-06-16",
+          "meeting": "文教科学委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8918",
+          "bill_name": "著作権法の一部を改正する法律案",
+          "issue_number": 6033,
+          "date": "2026-06-03",
+          "meeting": "文部科学委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8918",
+          "bill_name": "著作権法の一部を改正する法律案",
+          "issue_number": 6033,
+          "date": "2026-04-16",
+          "meeting": "文教科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 20
+        "neutral": 23
       }
     },
     "上原龍": {
@@ -140373,7 +141877,7 @@
     },
     "谷川とむ": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 1,
+      "speech_count": 2,
       "bills": [
         {
           "bill_id": "house_213_8236",
@@ -140382,12 +141886,20 @@
           "date": "2024-04-05",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8917",
+          "bill_name": "刑事訴訟法の一部を改正する法律案",
+          "issue_number": 6032,
+          "date": "2026-05-26",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 1
+        "neutral": 2
       }
     },
     "大村敦志": {
@@ -141441,7 +142953,7 @@
     },
     "西岡義高": {
       "party": "国民民主党・無所属クラブ",
-      "speech_count": 8,
+      "speech_count": 12,
       "bills": [
         {
           "bill_id": "house_217_8513",
@@ -141506,12 +143018,44 @@
           "date": "2026-03-11",
           "meeting": "文部科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8909",
+          "bill_name": "情報通信技術を活用した行政の推進等に関する法律及び情報処理の促進に関する法律の一部を改正する法律案",
+          "issue_number": 6024,
+          "date": "2026-05-12",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8910",
+          "bill_name": "個人情報の保護に関する法律等の一部を改正する法律案",
+          "issue_number": 6025,
+          "date": "2026-05-12",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8911",
+          "bill_name": "学校教育法等の一部を改正する法律案",
+          "issue_number": 6026,
+          "date": "2026-04-24",
+          "meeting": "文部科学委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8918",
+          "bill_name": "著作権法の一部を改正する法律案",
+          "issue_number": 6033,
+          "date": "2026-06-03",
+          "meeting": "文部科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 1,
         "oppose": 0,
-        "neutral": 7
+        "neutral": 11
       }
     },
     "石橋林太郎": {
@@ -141711,7 +143255,7 @@
     },
     "後藤翔太": {
       "party": "参政党",
-      "speech_count": 2,
+      "speech_count": 3,
       "bills": [
         {
           "bill_id": "house_219_8692",
@@ -141728,17 +143272,25 @@
           "date": "2025-12-02",
           "meeting": "文教科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8918",
+          "bill_name": "著作権法の一部を改正する法律案",
+          "issue_number": 6033,
+          "date": "2026-06-16",
+          "meeting": "文教科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 2
+        "neutral": 3
       }
     },
     "松本洋平": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 19,
+      "speech_count": 26,
       "bills": [
         {
           "bill_id": "house_219_8692",
@@ -141891,12 +143443,68 @@
           "date": "2026-03-10",
           "meeting": "文部科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8911",
+          "bill_name": "学校教育法等の一部を改正する法律案",
+          "issue_number": 6026,
+          "date": "2026-06-02",
+          "meeting": "文教科学委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8911",
+          "bill_name": "学校教育法等の一部を改正する法律案",
+          "issue_number": 6026,
+          "date": "2026-05-22",
+          "meeting": "文部科学委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8911",
+          "bill_name": "学校教育法等の一部を改正する法律案",
+          "issue_number": 6026,
+          "date": "2026-04-22",
+          "meeting": "文部科学委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8918",
+          "bill_name": "著作権法の一部を改正する法律案",
+          "issue_number": 6033,
+          "date": "2026-06-16",
+          "meeting": "文教科学委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8918",
+          "bill_name": "著作権法の一部を改正する法律案",
+          "issue_number": 6033,
+          "date": "2026-06-11",
+          "meeting": "文教科学委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8918",
+          "bill_name": "著作権法の一部を改正する法律案",
+          "issue_number": 6033,
+          "date": "2026-06-03",
+          "meeting": "文部科学委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8918",
+          "bill_name": "著作権法の一部を改正する法律案",
+          "issue_number": 6033,
+          "date": "2026-05-29",
+          "meeting": "文部科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 19
+        "neutral": 26
       }
     },
     "白川容子": {
@@ -142326,7 +143934,7 @@
     },
     "青木一彦": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 29,
+      "speech_count": 30,
       "bills": [
         {
           "bill_id": "house_219_8701",
@@ -142559,12 +144167,20 @@
           "date": "2026-05-27",
           "meeting": "議院運営委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8911",
+          "bill_name": "学校教育法等の一部を改正する法律案",
+          "issue_number": 6026,
+          "date": "2026-05-29",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 29
+        "neutral": 30
       }
     },
     "川村雄大": {
@@ -143189,7 +144805,7 @@
     },
     "西園勝秀": {
       "party": "中道改革連合・無所属",
-      "speech_count": 8,
+      "speech_count": 11,
       "bills": [
         {
           "bill_id": "house_221_8817",
@@ -143254,12 +144870,36 @@
           "date": "2026-04-14",
           "meeting": "環境委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8905",
+          "bill_name": "太陽電池廃棄物の再資源化等の推進に関する法律案",
+          "issue_number": 6020,
+          "date": "2026-04-28",
+          "meeting": "環境委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8905",
+          "bill_name": "太陽電池廃棄物の再資源化等の推進に関する法律案",
+          "issue_number": 6020,
+          "date": "2026-04-24",
+          "meeting": "環境委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8916",
+          "bill_name": "ポリ塩化ビフェニル廃棄物の適正な処理の推進に関する特別措置法及び中間貯蔵・環境安全事業株式会社法の一部を改正する法律案",
+          "issue_number": 6031,
+          "date": "2026-05-22",
+          "meeting": "環境委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 8
+        "neutral": 11
       }
     },
     "田中良生": {
@@ -143759,7 +145399,7 @@
     },
     "近藤雅彦": {
       "party": "国民民主党・無所属クラブ",
-      "speech_count": 13,
+      "speech_count": 14,
       "bills": [
         {
           "bill_id": "house_221_8868",
@@ -143864,12 +145504,20 @@
           "date": "2026-03-13",
           "meeting": "財務金融委員会",
           "stance": "賛成"
+        },
+        {
+          "bill_id": "house_221_8913",
+          "bill_name": "金融商品取引法及び資金決済に関する法律の一部を改正する法律案",
+          "issue_number": 6028,
+          "date": "2026-03-04",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 5,
         "oppose": 0,
-        "neutral": 8
+        "neutral": 9
       }
     },
     "柴山昌彦": {
@@ -144061,7 +145709,7 @@
     },
     "合田哲雄": {
       "party": "",
-      "speech_count": 6,
+      "speech_count": 7,
       "bills": [
         {
           "bill_id": "councillors_212_15518",
@@ -144110,12 +145758,20 @@
           "date": "2026-05-22",
           "meeting": "文部科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8911",
+          "bill_name": "学校教育法等の一部を改正する法律案",
+          "issue_number": 6026,
+          "date": "2026-05-22",
+          "meeting": "文部科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 6
+        "neutral": 7
       }
     },
     "小林万里子": {
@@ -144502,7 +146158,7 @@
     },
     "寺岡光博": {
       "party": "",
-      "speech_count": 8,
+      "speech_count": 10,
       "bills": [
         {
           "bill_id": "councillors_212_15606",
@@ -144567,17 +146223,33 @@
           "date": "2026-03-31",
           "meeting": "財政金融委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8917",
+          "bill_name": "刑事訴訟法の一部を改正する法律案",
+          "issue_number": 6032,
+          "date": "2026-03-31",
+          "meeting": "財政金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15668",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 6044,
+          "date": "2023-11-30",
+          "meeting": "外交防衛委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 8
+        "neutral": 10
       }
     },
     "染谷武宣": {
       "party": "",
-      "speech_count": 2,
+      "speech_count": 3,
       "bills": [
         {
           "bill_id": "councillors_212_15606",
@@ -144594,17 +146266,25 @@
           "date": "2023-11-10",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15668",
+          "bill_name": "財政法の一部を改正する法律案",
+          "issue_number": 6044,
+          "date": "2023-11-10",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 2
+        "neutral": 3
       }
     },
     "岡村肇": {
       "party": "",
-      "speech_count": 3,
+      "speech_count": 4,
       "bills": [
         {
           "bill_id": "councillors_212_15608",
@@ -144629,17 +146309,25 @@
           "date": "2023-12-11",
           "meeting": "決算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15663",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 6039,
+          "date": "2023-12-11",
+          "meeting": "決算委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 3
+        "neutral": 4
       }
     },
     "船田元": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 3,
+      "speech_count": 4,
       "bills": [
         {
           "bill_id": "councillors_212_15608",
@@ -144661,6 +146349,14 @@
           "bill_id": "councillors_212_15572",
           "bill_name": "国会法の一部を改正する法律案",
           "issue_number": 2403,
+          "date": "2023-11-30",
+          "meeting": "憲法審査会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_212_15663",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 6039,
           "date": "2023-11-30",
           "meeting": "憲法審査会",
           "stance": "中立"
@@ -144669,12 +146365,12 @@
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 3
+        "neutral": 4
       }
     },
     "末松信介": {
       "party": "自由民主党",
-      "speech_count": 3,
+      "speech_count": 4,
       "bills": [
         {
           "bill_id": "councillors_212_15608",
@@ -144699,11 +146395,19 @@
           "date": "2023-11-29",
           "meeting": "本会議",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_212_15663",
+          "bill_name": "国会法の一部を改正する法律案",
+          "issue_number": 6039,
+          "date": "2023-11-29",
+          "meeting": "本会議",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 3,
+        "oppose": 4,
         "neutral": 0
       }
     },
@@ -144736,7 +146440,7 @@
     },
     "佐藤淳": {
       "party": "",
-      "speech_count": 28,
+      "speech_count": 34,
       "bills": [
         {
           "bill_id": "house_221_8876",
@@ -144961,17 +146665,65 @@
           "date": "2025-11-19",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8917",
+          "bill_name": "刑事訴訟法の一部を改正する法律案",
+          "issue_number": 6032,
+          "date": "2026-06-02",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8917",
+          "bill_name": "刑事訴訟法の一部を改正する法律案",
+          "issue_number": 6032,
+          "date": "2026-05-25",
+          "meeting": "行政監視委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8917",
+          "bill_name": "刑事訴訟法の一部を改正する法律案",
+          "issue_number": 6032,
+          "date": "2026-05-08",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8917",
+          "bill_name": "刑事訴訟法の一部を改正する法律案",
+          "issue_number": 6032,
+          "date": "2026-04-15",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8917",
+          "bill_name": "刑事訴訟法の一部を改正する法律案",
+          "issue_number": 6032,
+          "date": "2026-04-14",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8917",
+          "bill_name": "刑事訴訟法の一部を改正する法律案",
+          "issue_number": 6032,
+          "date": "2026-04-10",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 28
+        "neutral": 34
       }
     },
     "廣瀬律子": {
       "party": "",
-      "speech_count": 5,
+      "speech_count": 6,
       "bills": [
         {
           "bill_id": "house_221_8876",
@@ -145012,17 +146764,25 @@
           "date": "2026-04-02",
           "meeting": "外交防衛委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8917",
+          "bill_name": "刑事訴訟法の一部を改正する法律案",
+          "issue_number": 6032,
+          "date": "2026-04-02",
+          "meeting": "外交防衛委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 5
+        "neutral": 6
       }
     },
     "北村晴男": {
       "party": "日本保守党",
-      "speech_count": 12,
+      "speech_count": 13,
       "bills": [
         {
           "bill_id": "house_221_8876",
@@ -145119,17 +146879,25 @@
           "date": "2025-11-20",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8917",
+          "bill_name": "刑事訴訟法の一部を改正する法律案",
+          "issue_number": 6032,
+          "date": "2026-03-24",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 12
+        "neutral": 13
       }
     },
     "豊嶋基暢": {
       "party": "",
-      "speech_count": 6,
+      "speech_count": 7,
       "bills": [
         {
           "bill_id": "house_221_8877",
@@ -145178,17 +146946,25 @@
           "date": "2026-03-12",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8918",
+          "bill_name": "著作権法の一部を改正する法律案",
+          "issue_number": 6033,
+          "date": "2026-03-12",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 6
+        "neutral": 7
       }
     },
     "倉田敬子": {
       "party": "",
-      "speech_count": 6,
+      "speech_count": 7,
       "bills": [
         {
           "bill_id": "house_221_8877",
@@ -145237,12 +147013,20 @@
           "date": "2026-02-19",
           "meeting": "議院運営委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8918",
+          "bill_name": "著作権法の一部を改正する法律案",
+          "issue_number": 6033,
+          "date": "2026-02-19",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 6
+        "neutral": 7
       }
     },
     "有田芳生": {
@@ -145581,7 +147365,7 @@
     },
     "丹羽秀樹": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 13,
+      "speech_count": 23,
       "bills": [
         {
           "bill_id": "councillors_219_16265",
@@ -145686,12 +147470,92 @@
           "date": "2025-12-17",
           "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8909",
+          "bill_name": "情報通信技術を活用した行政の推進等に関する法律及び情報処理の促進に関する法律の一部を改正する法律案",
+          "issue_number": 6024,
+          "date": "2026-05-26",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8909",
+          "bill_name": "情報通信技術を活用した行政の推進等に関する法律及び情報処理の促進に関する法律の一部を改正する法律案",
+          "issue_number": 6024,
+          "date": "2026-05-21",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8909",
+          "bill_name": "情報通信技術を活用した行政の推進等に関する法律及び情報処理の促進に関する法律の一部を改正する法律案",
+          "issue_number": 6024,
+          "date": "2026-05-14",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8909",
+          "bill_name": "情報通信技術を活用した行政の推進等に関する法律及び情報処理の促進に関する法律の一部を改正する法律案",
+          "issue_number": 6024,
+          "date": "2026-05-12",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8909",
+          "bill_name": "情報通信技術を活用した行政の推進等に関する法律及び情報処理の促進に関する法律の一部を改正する法律案",
+          "issue_number": 6024,
+          "date": "2026-05-08",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8910",
+          "bill_name": "個人情報の保護に関する法律等の一部を改正する法律案",
+          "issue_number": 6025,
+          "date": "2026-05-26",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8910",
+          "bill_name": "個人情報の保護に関する法律等の一部を改正する法律案",
+          "issue_number": 6025,
+          "date": "2026-05-21",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8910",
+          "bill_name": "個人情報の保護に関する法律等の一部を改正する法律案",
+          "issue_number": 6025,
+          "date": "2026-05-14",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8910",
+          "bill_name": "個人情報の保護に関する法律等の一部を改正する法律案",
+          "issue_number": 6025,
+          "date": "2026-05-12",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8910",
+          "bill_name": "個人情報の保護に関する法律等の一部を改正する法律案",
+          "issue_number": 6025,
+          "date": "2026-05-08",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 13
+        "neutral": 23
       }
     },
     "石田晋也": {
@@ -145798,7 +147662,7 @@
     },
     "小島とも子": {
       "party": "立憲民主・無所属",
-      "speech_count": 6,
+      "speech_count": 7,
       "bills": [
         {
           "bill_id": "councillors_219_16270",
@@ -145847,12 +147711,20 @@
           "date": "2026-05-26",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8907",
+          "bill_name": "犯罪による収益の移転防止に関する法律の一部を改正する法律案",
+          "issue_number": 6022,
+          "date": "2026-04-16",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 6
+        "neutral": 7
       }
     },
     "いんどう周作": {
@@ -146381,7 +148253,7 @@
     },
     "牛田茉友": {
       "party": "国民民主党・新緑風会",
-      "speech_count": 5,
+      "speech_count": 6,
       "bills": [
         {
           "bill_id": "councillors_219_16304",
@@ -146422,12 +148294,20 @@
           "date": "2026-05-21",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8917",
+          "bill_name": "刑事訴訟法の一部を改正する法律案",
+          "issue_number": 6032,
+          "date": "2026-05-21",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 5
+        "neutral": 6
       }
     },
     "恒藤晃": {
@@ -146634,7 +148514,7 @@
     },
     "伊藤文靖": {
       "party": "",
-      "speech_count": 27,
+      "speech_count": 28,
       "bills": [
         {
           "bill_id": "councillors_221_16383",
@@ -146851,12 +148731,20 @@
           "date": "2026-05-27",
           "meeting": "議院運営委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8911",
+          "bill_name": "学校教育法等の一部を改正する法律案",
+          "issue_number": 6026,
+          "date": "2026-05-29",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 27
+        "neutral": 28
       }
     },
     "伊佐進一": {
@@ -147349,7 +149237,7 @@
     },
     "河井昭成": {
       "party": "国民民主党・無所属クラブ",
-      "speech_count": 4,
+      "speech_count": 5,
       "bills": [
         {
           "bill_id": "councillors_221_16390",
@@ -147382,17 +149270,25 @@
           "date": "2026-03-11",
           "meeting": "文部科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8911",
+          "bill_name": "学校教育法等の一部を改正する法律案",
+          "issue_number": 6026,
+          "date": "2026-04-24",
+          "meeting": "文部科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 4
+        "neutral": 5
       }
     },
     "河合道雄": {
       "party": "チームみらい",
-      "speech_count": 9,
+      "speech_count": 11,
       "bills": [
         {
           "bill_id": "councillors_221_16390",
@@ -147465,17 +149361,33 @@
           "date": "2026-04-28",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8911",
+          "bill_name": "学校教育法等の一部を改正する法律案",
+          "issue_number": 6026,
+          "date": "2026-04-24",
+          "meeting": "文部科学委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8918",
+          "bill_name": "著作権法の一部を改正する法律案",
+          "issue_number": 6033,
+          "date": "2026-06-03",
+          "meeting": "文部科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 1,
-        "neutral": 8
+        "neutral": 10
       }
     },
     "坂越健一": {
       "party": "",
-      "speech_count": 5,
+      "speech_count": 6,
       "bills": [
         {
           "bill_id": "house_221_8880",
@@ -147516,17 +149428,25 @@
           "date": "2026-03-24",
           "meeting": "財政金融委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8917",
+          "bill_name": "刑事訴訟法の一部を改正する法律案",
+          "issue_number": 6032,
+          "date": "2026-05-12",
+          "meeting": "外交防衛委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 5
+        "neutral": 6
       }
     },
     "川上敏寛": {
       "party": "",
-      "speech_count": 4,
+      "speech_count": 5,
       "bills": [
         {
           "bill_id": "house_221_8881",
@@ -147559,17 +149479,25 @@
           "date": "2026-04-17",
           "meeting": "外務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8918",
+          "bill_name": "著作権法の一部を改正する法律案",
+          "issue_number": 6033,
+          "date": "2026-04-17",
+          "meeting": "外務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 4
+        "neutral": 5
       }
     },
     "鷲見学": {
       "party": "",
-      "speech_count": 5,
+      "speech_count": 6,
       "bills": [
         {
           "bill_id": "house_221_8882",
@@ -147610,17 +149538,25 @@
           "date": "2026-03-24",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8919",
+          "bill_name": "予防接種法の一部を改正する法律案",
+          "issue_number": 6034,
+          "date": "2026-03-24",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 5
+        "neutral": 6
       }
     },
     "猪口邦子": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 1,
+      "speech_count": 2,
       "bills": [
         {
           "bill_id": "house_221_8888",
@@ -147629,17 +149565,25 @@
           "date": "2026-04-16",
           "meeting": "環境委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8908",
+          "bill_name": "南極地域の環境の保護に関する法律の一部を改正する法律案",
+          "issue_number": 6023,
+          "date": "2026-04-16",
+          "meeting": "環境委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 1
+        "neutral": 2
       }
     },
     "高良沙哉": {
       "party": "沖縄の風",
-      "speech_count": 1,
+      "speech_count": 2,
       "bills": [
         {
           "bill_id": "house_221_8888",
@@ -147648,17 +149592,25 @@
           "date": "2026-04-16",
           "meeting": "環境委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8908",
+          "bill_name": "南極地域の環境の保護に関する法律の一部を改正する法律案",
+          "issue_number": 6023,
+          "date": "2026-04-16",
+          "meeting": "環境委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 1
+        "neutral": 2
       }
     },
     "堀上勝": {
       "party": "",
-      "speech_count": 2,
+      "speech_count": 3,
       "bills": [
         {
           "bill_id": "house_221_8888",
@@ -147675,22 +149627,11 @@
           "date": "2026-04-17",
           "meeting": "環境委員会",
           "stance": "中立"
-        }
-      ],
-      "stance_summary": {
-        "support": 0,
-        "oppose": 0,
-        "neutral": 2
-      }
-    },
-    "望月良男": {
-      "party": "各派に属しない議員",
-      "speech_count": 1,
-      "bills": [
+        },
         {
-          "bill_id": "house_221_8888",
+          "bill_id": "house_221_8908",
           "bill_name": "南極地域の環境の保護に関する法律の一部を改正する法律案",
-          "issue_number": 5771,
+          "issue_number": 6023,
           "date": "2026-04-16",
           "meeting": "環境委員会",
           "stance": "中立"
@@ -147699,12 +149640,39 @@
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 1
+        "neutral": 3
+      }
+    },
+    "望月良男": {
+      "party": "各派に属しない議員",
+      "speech_count": 2,
+      "bills": [
+        {
+          "bill_id": "house_221_8888",
+          "bill_name": "南極地域の環境の保護に関する法律の一部を改正する法律案",
+          "issue_number": 5771,
+          "date": "2026-04-16",
+          "meeting": "環境委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8908",
+          "bill_name": "南極地域の環境の保護に関する法律の一部を改正する法律案",
+          "issue_number": 6023,
+          "date": "2026-04-16",
+          "meeting": "環境委員会",
+          "stance": "中立"
+        }
+      ],
+      "stance_summary": {
+        "support": 0,
+        "oppose": 0,
+        "neutral": 2
       }
     },
     "石原宏高": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 6,
+      "speech_count": 12,
       "bills": [
         {
           "bill_id": "house_221_8888",
@@ -147753,17 +149721,65 @@
           "date": "2026-03-11",
           "meeting": "予算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8905",
+          "bill_name": "太陽電池廃棄物の再資源化等の推進に関する法律案",
+          "issue_number": 6020,
+          "date": "2026-05-13",
+          "meeting": "決算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8905",
+          "bill_name": "太陽電池廃棄物の再資源化等の推進に関する法律案",
+          "issue_number": 6020,
+          "date": "2026-04-17",
+          "meeting": "環境委員会",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "house_221_8908",
+          "bill_name": "南極地域の環境の保護に関する法律の一部を改正する法律案",
+          "issue_number": 6023,
+          "date": "2026-05-26",
+          "meeting": "環境委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8908",
+          "bill_name": "南極地域の環境の保護に関する法律の一部を改正する法律案",
+          "issue_number": 6023,
+          "date": "2026-04-14",
+          "meeting": "環境委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8915",
+          "bill_name": "廃棄物の処理及び清掃に関する法律等の一部を改正する法律案",
+          "issue_number": 6030,
+          "date": "2026-05-15",
+          "meeting": "環境委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8916",
+          "bill_name": "ポリ塩化ビフェニル廃棄物の適正な処理の推進に関する特別措置法及び中間貯蔵・環境安全事業株式会社法の一部を改正する法律案",
+          "issue_number": 6031,
+          "date": "2026-05-15",
+          "meeting": "環境委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 0,
-        "neutral": 6
+        "oppose": 1,
+        "neutral": 11
       }
     },
     "原山大亮": {
       "party": "日本維新の会",
-      "speech_count": 3,
+      "speech_count": 5,
       "bills": [
         {
           "bill_id": "house_221_8889",
@@ -147788,17 +149804,33 @@
           "date": "2026-06-02",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8909",
+          "bill_name": "情報通信技術を活用した行政の推進等に関する法律及び情報処理の促進に関する法律の一部を改正する法律案",
+          "issue_number": 6024,
+          "date": "2026-05-14",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8910",
+          "bill_name": "個人情報の保護に関する法律等の一部を改正する法律案",
+          "issue_number": 6025,
+          "date": "2026-05-14",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 3
+        "neutral": 5
       }
     },
     "千代延晃平": {
       "party": "",
-      "speech_count": 1,
+      "speech_count": 2,
       "bills": [
         {
           "bill_id": "house_221_8890",
@@ -147807,17 +149839,25 @@
           "date": "2026-05-21",
           "meeting": "内閣委員会、法務委員会、外交防衛委員会連合審査会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8910",
+          "bill_name": "個人情報の保護に関する法律等の一部を改正する法律案",
+          "issue_number": 6025,
+          "date": "2026-05-21",
+          "meeting": "内閣委員会、法務委員会、外交防衛委員会連合審査会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 1
+        "neutral": 2
       }
     },
     "青山周平": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 1,
+      "speech_count": 2,
       "bills": [
         {
           "bill_id": "house_221_8891",
@@ -147826,17 +149866,25 @@
           "date": "2026-04-24",
           "meeting": "文部科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8911",
+          "bill_name": "学校教育法等の一部を改正する法律案",
+          "issue_number": 6026,
+          "date": "2026-04-24",
+          "meeting": "文部科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 1
+        "neutral": 2
       }
     },
     "渡辺藍理": {
       "party": "参政党",
-      "speech_count": 2,
+      "speech_count": 4,
       "bills": [
         {
           "bill_id": "house_221_8891",
@@ -147853,17 +149901,33 @@
           "date": "2026-06-03",
           "meeting": "文部科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8911",
+          "bill_name": "学校教育法等の一部を改正する法律案",
+          "issue_number": 6026,
+          "date": "2026-04-24",
+          "meeting": "文部科学委員会",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "house_221_8918",
+          "bill_name": "著作権法の一部を改正する法律案",
+          "issue_number": 6033,
+          "date": "2026-06-03",
+          "meeting": "文部科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 1,
-        "neutral": 1
+        "oppose": 2,
+        "neutral": 2
       }
     },
     "水野孝一": {
       "party": "国民民主党・新緑風会",
-      "speech_count": 1,
+      "speech_count": 3,
       "bills": [
         {
           "bill_id": "house_221_8891",
@@ -147872,12 +149936,28 @@
           "date": "2026-04-03",
           "meeting": "予算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8911",
+          "bill_name": "学校教育法等の一部を改正する法律案",
+          "issue_number": 6026,
+          "date": "2026-04-03",
+          "meeting": "予算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8918",
+          "bill_name": "著作権法の一部を改正する法律案",
+          "issue_number": 6033,
+          "date": "2026-06-16",
+          "meeting": "文教科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 1
+        "neutral": 3
       }
     },
     "杉本純子": {
@@ -148242,7 +150322,7 @@
     },
     "辻由布子": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 1,
+      "speech_count": 2,
       "bills": [
         {
           "bill_id": "house_221_8900",
@@ -148251,17 +150331,25 @@
           "date": "2026-06-03",
           "meeting": "文部科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8918",
+          "bill_name": "著作権法の一部を改正する法律案",
+          "issue_number": 6033,
+          "date": "2026-06-03",
+          "meeting": "文部科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 1
+        "neutral": 2
       }
     },
     "原田直樹": {
       "party": "中道改革連合・無所属",
-      "speech_count": 2,
+      "speech_count": 3,
       "bills": [
         {
           "bill_id": "house_221_8900",
@@ -148278,12 +150366,20 @@
           "date": "2026-04-10",
           "meeting": "外務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8918",
+          "bill_name": "著作権法の一部を改正する法律案",
+          "issue_number": 6033,
+          "date": "2026-06-03",
+          "meeting": "文部科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 2
+        "neutral": 3
       }
     },
     "尾原知明": {
@@ -149354,7 +151450,7 @@
     },
     "鍋島勢理": {
       "party": "国民民主党・無所属クラブ",
-      "speech_count": 2,
+      "speech_count": 4,
       "bills": [
         {
           "bill_id": "councillors_221_16421",
@@ -149371,12 +151467,28 @@
           "date": "2026-04-14",
           "meeting": "環境委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8905",
+          "bill_name": "太陽電池廃棄物の再資源化等の推進に関する法律案",
+          "issue_number": 6020,
+          "date": "2026-04-28",
+          "meeting": "環境委員会",
+          "stance": "賛成"
+        },
+        {
+          "bill_id": "house_221_8908",
+          "bill_name": "南極地域の環境の保護に関する法律の一部を改正する法律案",
+          "issue_number": 6023,
+          "date": "2026-05-29",
+          "meeting": "環境委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
-        "support": 0,
+        "support": 1,
         "oppose": 0,
-        "neutral": 2
+        "neutral": 3
       }
     },
     "工藤聖子": {
@@ -149548,7 +151660,7 @@
     },
     "犬飼明佳": {
       "party": "中道改革連合・無所属",
-      "speech_count": 1,
+      "speech_count": 2,
       "bills": [
         {
           "bill_id": "councillors_221_16424",
@@ -149557,11 +151669,19 @@
           "date": "2026-04-10",
           "meeting": "国土交通委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8910",
+          "bill_name": "個人情報の保護に関する法律等の一部を改正する法律案",
+          "issue_number": 6025,
+          "date": "2026-05-26",
+          "meeting": "本会議",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 0,
+        "oppose": 1,
         "neutral": 1
       }
     },
@@ -149586,7 +151706,7 @@
     },
     "宮路拓馬": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 2,
+      "speech_count": 17,
       "bills": [
         {
           "bill_id": "councillors_221_16425",
@@ -149603,12 +151723,132 @@
           "date": "2026-04-10",
           "meeting": "環境委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8905",
+          "bill_name": "太陽電池廃棄物の再資源化等の推進に関する法律案",
+          "issue_number": 6020,
+          "date": "2026-05-12",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8905",
+          "bill_name": "太陽電池廃棄物の再資源化等の推進に関する法律案",
+          "issue_number": 6020,
+          "date": "2026-04-28",
+          "meeting": "環境委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8905",
+          "bill_name": "太陽電池廃棄物の再資源化等の推進に関する法律案",
+          "issue_number": 6020,
+          "date": "2026-04-24",
+          "meeting": "環境委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8905",
+          "bill_name": "太陽電池廃棄物の再資源化等の推進に関する法律案",
+          "issue_number": 6020,
+          "date": "2026-04-21",
+          "meeting": "環境委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8905",
+          "bill_name": "太陽電池廃棄物の再資源化等の推進に関する法律案",
+          "issue_number": 6020,
+          "date": "2026-04-17",
+          "meeting": "環境委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8908",
+          "bill_name": "南極地域の環境の保護に関する法律の一部を改正する法律案",
+          "issue_number": 6023,
+          "date": "2026-05-29",
+          "meeting": "環境委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8908",
+          "bill_name": "南極地域の環境の保護に関する法律の一部を改正する法律案",
+          "issue_number": 6023,
+          "date": "2026-05-26",
+          "meeting": "環境委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8915",
+          "bill_name": "廃棄物の処理及び清掃に関する法律等の一部を改正する法律案",
+          "issue_number": 6030,
+          "date": "2026-05-26",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8915",
+          "bill_name": "廃棄物の処理及び清掃に関する法律等の一部を改正する法律案",
+          "issue_number": 6030,
+          "date": "2026-05-22",
+          "meeting": "環境委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8915",
+          "bill_name": "廃棄物の処理及び清掃に関する法律等の一部を改正する法律案",
+          "issue_number": 6030,
+          "date": "2026-05-19",
+          "meeting": "環境委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8915",
+          "bill_name": "廃棄物の処理及び清掃に関する法律等の一部を改正する法律案",
+          "issue_number": 6030,
+          "date": "2026-05-15",
+          "meeting": "環境委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8916",
+          "bill_name": "ポリ塩化ビフェニル廃棄物の適正な処理の推進に関する特別措置法及び中間貯蔵・環境安全事業株式会社法の一部を改正する法律案",
+          "issue_number": 6031,
+          "date": "2026-05-26",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8916",
+          "bill_name": "ポリ塩化ビフェニル廃棄物の適正な処理の推進に関する特別措置法及び中間貯蔵・環境安全事業株式会社法の一部を改正する法律案",
+          "issue_number": 6031,
+          "date": "2026-05-22",
+          "meeting": "環境委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8916",
+          "bill_name": "ポリ塩化ビフェニル廃棄物の適正な処理の推進に関する特別措置法及び中間貯蔵・環境安全事業株式会社法の一部を改正する法律案",
+          "issue_number": 6031,
+          "date": "2026-05-19",
+          "meeting": "環境委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "house_221_8916",
+          "bill_name": "ポリ塩化ビフェニル廃棄物の適正な処理の推進に関する特別措置法及び中間貯蔵・環境安全事業株式会社法の一部を改正する法律案",
+          "issue_number": 6031,
+          "date": "2026-05-15",
+          "meeting": "環境委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 2
+        "neutral": 17
       }
     },
     "細田健一": {
@@ -150332,6 +152572,82 @@
         "support": 1,
         "oppose": 0,
         "neutral": 0
+      }
+    },
+    "島村かおる": {
+      "party": "参政党",
+      "speech_count": 1,
+      "bills": [
+        {
+          "bill_id": "house_221_8905",
+          "bill_name": "太陽電池廃棄物の再資源化等の推進に関する法律案",
+          "issue_number": 6020,
+          "date": "2026-04-28",
+          "meeting": "環境委員会",
+          "stance": "反対"
+        }
+      ],
+      "stance_summary": {
+        "support": 0,
+        "oppose": 1,
+        "neutral": 0
+      }
+    },
+    "渡辺真太朗": {
+      "party": "無所属",
+      "speech_count": 1,
+      "bills": [
+        {
+          "bill_id": "house_221_8905",
+          "bill_name": "太陽電池廃棄物の再資源化等の推進に関する法律案",
+          "issue_number": 6020,
+          "date": "2026-04-21",
+          "meeting": "環境委員会",
+          "stance": "中立"
+        }
+      ],
+      "stance_summary": {
+        "support": 0,
+        "oppose": 0,
+        "neutral": 1
+      }
+    },
+    "井上俊剛": {
+      "party": "",
+      "speech_count": 1,
+      "bills": [
+        {
+          "bill_id": "house_221_8907",
+          "bill_name": "犯罪による収益の移転防止に関する法律の一部を改正する法律案",
+          "issue_number": 6022,
+          "date": "2026-04-22",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
+        }
+      ],
+      "stance_summary": {
+        "support": 0,
+        "oppose": 0,
+        "neutral": 1
+      }
+    },
+    "岡素彦": {
+      "party": "",
+      "speech_count": 1,
+      "bills": [
+        {
+          "bill_id": "house_221_8917",
+          "bill_name": "刑事訴訟法の一部を改正する法律案",
+          "issue_number": 6032,
+          "date": "2026-05-21",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        }
+      ],
+      "stance_summary": {
+        "support": 0,
+        "oppose": 0,
+        "neutral": 1
       }
     }
   }
