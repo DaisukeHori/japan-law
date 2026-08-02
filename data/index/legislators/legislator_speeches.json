@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-07-26T20:44:29.347Z",
+  "updated_at": "2026-08-02T19:44:55.006Z",
   "total_legislators": 1193,
-  "total_speeches": 18838,
+  "total_speeches": 19007,
   "legislators": {
     "東徹": {
       "party": "日本維新の会",
@@ -192,7 +192,7 @@
     },
     "小林史武": {
       "party": "",
-      "speech_count": 161,
+      "speech_count": 164,
       "bills": [
         {
           "bill_id": "house_211_7800",
@@ -1481,12 +1481,36 @@
           "date": "2025-06-04",
           "meeting": "議院運営委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15679",
+          "bill_name": "地方交付税法等の一部を改正する法律案",
+          "issue_number": 6118,
+          "date": "2024-03-28",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15679",
+          "bill_name": "地方交付税法等の一部を改正する法律案",
+          "issue_number": 6118,
+          "date": "2024-03-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15680",
+          "bill_name": "関税定率法等の一部を改正する法律案",
+          "issue_number": 6119,
+          "date": "2024-03-29",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 161
+        "neutral": 164
       }
     },
     "細田博之": {
@@ -2334,7 +2358,7 @@
     },
     "山口俊一": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 379,
+      "speech_count": 381,
       "bills": [
         {
           "bill_id": "house_211_7800",
@@ -5367,17 +5391,33 @@
           "date": "2024-02-15",
           "meeting": "議院運営委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15679",
+          "bill_name": "地方交付税法等の一部を改正する法律案",
+          "issue_number": 6118,
+          "date": "2024-03-02",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15679",
+          "bill_name": "地方交付税法等の一部を改正する法律案",
+          "issue_number": 6118,
+          "date": "2024-02-15",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 379
+        "neutral": 381
       }
     },
     "岡田憲治": {
       "party": "",
-      "speech_count": 285,
+      "speech_count": 293,
       "bills": [
         {
           "bill_id": "house_211_7800",
@@ -7658,17 +7698,81 @@
           "date": "2024-03-02",
           "meeting": "議院運営委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15679",
+          "bill_name": "地方交付税法等の一部を改正する法律案",
+          "issue_number": 6118,
+          "date": "2024-03-02",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15680",
+          "bill_name": "関税定率法等の一部を改正する法律案",
+          "issue_number": 6119,
+          "date": "2024-03-19",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15681",
+          "bill_name": "国際通貨基金及び国際復興開発銀行への加盟に伴う措置に関する法律の一部を改正する法律案",
+          "issue_number": 6120,
+          "date": "2024-04-04",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15682",
+          "bill_name": "在外公館の名称及び位置並びに在外公館に勤務する外務公務員の給与に関する法律の一部を改正する法律案",
+          "issue_number": 6121,
+          "date": "2024-03-19",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15683",
+          "bill_name": "二千二十七年国際園芸博覧会政府委員の設置に関する臨時措置法案",
+          "issue_number": 6122,
+          "date": "2024-03-26",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15684",
+          "bill_name": "国家公務員等の旅費に関する法律の一部を改正する法律案",
+          "issue_number": 6123,
+          "date": "2024-04-11",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15685",
+          "bill_name": "生活困窮者自立支援法等の一部を改正する法律案",
+          "issue_number": 6124,
+          "date": "2024-03-29",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15686",
+          "bill_name": "雇用保険法等の一部を改正する法律案",
+          "issue_number": 6125,
+          "date": "2024-04-11",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 285
+        "neutral": 293
       }
     },
     "尾辻秀久": {
       "party": "各派に属しない議員",
-      "speech_count": 288,
+      "speech_count": 295,
       "bills": [
         {
           "bill_id": "house_211_7806",
@@ -9973,12 +10077,68 @@
           "date": "2024-03-28",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15679",
+          "bill_name": "地方交付税法等の一部を改正する法律案",
+          "issue_number": 6118,
+          "date": "2024-03-13",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15681",
+          "bill_name": "国際通貨基金及び国際復興開発銀行への加盟に伴う措置に関する法律の一部を改正する法律案",
+          "issue_number": 6120,
+          "date": "2024-04-12",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15682",
+          "bill_name": "在外公館の名称及び位置並びに在外公館に勤務する外務公務員の給与に関する法律の一部を改正する法律案",
+          "issue_number": 6121,
+          "date": "2024-03-28",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15683",
+          "bill_name": "二千二十七年国際園芸博覧会政府委員の設置に関する臨時措置法案",
+          "issue_number": 6122,
+          "date": "2024-03-29",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15684",
+          "bill_name": "国家公務員等の旅費に関する法律の一部を改正する法律案",
+          "issue_number": 6123,
+          "date": "2024-04-26",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15685",
+          "bill_name": "生活困窮者自立支援法等の一部を改正する法律案",
+          "issue_number": 6124,
+          "date": "2024-04-17",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15686",
+          "bill_name": "雇用保険法等の一部を改正する法律案",
+          "issue_number": 6125,
+          "date": "2024-05-10",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 288
+        "neutral": 295
       }
     },
     "古賀友一郎": {
@@ -12816,7 +12976,7 @@
     },
     "小沢雅仁": {
       "party": "立憲民主・社民",
-      "speech_count": 38,
+      "speech_count": 39,
       "bills": [
         {
           "bill_id": "house_211_7811",
@@ -13121,10 +13281,18 @@
           "date": "2024-03-28",
           "meeting": "総務委員会",
           "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15679",
+          "bill_name": "地方交付税法等の一部を改正する法律案",
+          "issue_number": 6118,
+          "date": "2024-03-28",
+          "meeting": "総務委員会",
+          "stance": "賛成"
         }
       ],
       "stance_summary": {
-        "support": 9,
+        "support": 10,
         "oppose": 3,
         "neutral": 26
       }
@@ -15191,7 +15359,7 @@
     },
     "天畠大輔": {
       "party": "れいわ新選組",
-      "speech_count": 33,
+      "speech_count": 34,
       "bills": [
         {
           "bill_id": "house_211_7812",
@@ -15456,17 +15624,25 @@
           "date": "2025-06-12",
           "meeting": "厚生労働委員会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15685",
+          "bill_name": "生活困窮者自立支援法等の一部を改正する法律案",
+          "issue_number": 6124,
+          "date": "2024-04-09",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 3,
         "oppose": 13,
-        "neutral": 17
+        "neutral": 18
       }
     },
     "宮本徹": {
       "party": "日本共産党",
-      "speech_count": 23,
+      "speech_count": 24,
       "bills": [
         {
           "bill_id": "house_211_7813",
@@ -15651,12 +15827,20 @@
           "date": "2023-11-24",
           "meeting": "予算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15686",
+          "bill_name": "雇用保険法等の一部を改正する法律案",
+          "issue_number": 6125,
+          "date": "2024-04-10",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 9,
-        "neutral": 14
+        "neutral": 15
       }
     },
     "本多則惠": {
@@ -17470,8 +17654,8 @@
       }
     },
     "野田国義": {
-      "party": "立憲民主・社民・無所属",
-      "speech_count": 19,
+      "party": "立憲民主・社民",
+      "speech_count": 20,
       "bills": [
         {
           "bill_id": "house_211_7815",
@@ -17624,12 +17808,20 @@
           "date": "2025-03-24",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15679",
+          "bill_name": "地方交付税法等の一部を改正する法律案",
+          "issue_number": 6118,
+          "date": "2024-03-13",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 2,
-        "neutral": 17
+        "neutral": 18
       }
     },
     "小泉龍司": {
@@ -21641,7 +21833,7 @@
     },
     "古屋範子": {
       "party": "公明党",
-      "speech_count": 77,
+      "speech_count": 83,
       "bills": [
         {
           "bill_id": "house_211_7862",
@@ -22258,12 +22450,60 @@
           "date": "2024-02-15",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15679",
+          "bill_name": "地方交付税法等の一部を改正する法律案",
+          "issue_number": 6118,
+          "date": "2024-03-02",
+          "meeting": "本会議",
+          "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15679",
+          "bill_name": "地方交付税法等の一部を改正する法律案",
+          "issue_number": 6118,
+          "date": "2024-03-02",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15679",
+          "bill_name": "地方交付税法等の一部を改正する法律案",
+          "issue_number": 6118,
+          "date": "2024-02-29",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15679",
+          "bill_name": "地方交付税法等の一部を改正する法律案",
+          "issue_number": 6118,
+          "date": "2024-02-22",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15679",
+          "bill_name": "地方交付税法等の一部を改正する法律案",
+          "issue_number": 6118,
+          "date": "2024-02-20",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15679",
+          "bill_name": "地方交付税法等の一部を改正する法律案",
+          "issue_number": 6118,
+          "date": "2024-02-15",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
-        "support": 8,
+        "support": 9,
         "oppose": 0,
-        "neutral": 69
+        "neutral": 74
       }
     },
     "柴愼一": {
@@ -22909,7 +23149,7 @@
     },
     "神谷宗幣": {
       "party": "各派に属しない議員",
-      "speech_count": 37,
+      "speech_count": 38,
       "bills": [
         {
           "bill_id": "house_211_7863",
@@ -23206,17 +23446,25 @@
           "date": "2025-06-05",
           "meeting": "財政金融委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15681",
+          "bill_name": "国際通貨基金及び国際復興開発銀行への加盟に伴う措置に関する法律の一部を改正する法律案",
+          "issue_number": 6120,
+          "date": "2024-04-11",
+          "meeting": "財政金融委員会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 4,
+        "oppose": 5,
         "neutral": 33
       }
     },
     "堂込麻紀子": {
       "party": "各派に属しない議員",
-      "speech_count": 17,
+      "speech_count": 18,
       "bills": [
         {
           "bill_id": "house_211_7863",
@@ -23353,12 +23601,20 @@
           "date": "2024-03-21",
           "meeting": "財政金融委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15680",
+          "bill_name": "関税定率法等の一部を改正する法律案",
+          "issue_number": 6119,
+          "date": "2024-03-29",
+          "meeting": "財政金融委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 5,
-        "neutral": 12
+        "neutral": 13
       }
     },
     "横沢高徳": {
@@ -24634,7 +24890,7 @@
     },
     "鈴木俊一": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 160,
+      "speech_count": 172,
       "bills": [
         {
           "bill_id": "house_211_7863",
@@ -25915,17 +26171,113 @@
           "date": "2024-02-13",
           "meeting": "財務金融委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15680",
+          "bill_name": "関税定率法等の一部を改正する法律案",
+          "issue_number": 6119,
+          "date": "2024-03-22",
+          "meeting": "財政金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15680",
+          "bill_name": "関税定率法等の一部を改正する法律案",
+          "issue_number": 6119,
+          "date": "2024-03-08",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15680",
+          "bill_name": "関税定率法等の一部を改正する法律案",
+          "issue_number": 6119,
+          "date": "2024-03-07",
+          "meeting": "財政金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15680",
+          "bill_name": "関税定率法等の一部を改正する法律案",
+          "issue_number": 6119,
+          "date": "2024-02-13",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15681",
+          "bill_name": "国際通貨基金及び国際復興開発銀行への加盟に伴う措置に関する法律の一部を改正する法律案",
+          "issue_number": 6120,
+          "date": "2024-04-09",
+          "meeting": "財政金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15681",
+          "bill_name": "国際通貨基金及び国際復興開発銀行への加盟に伴う措置に関する法律の一部を改正する法律案",
+          "issue_number": 6120,
+          "date": "2024-03-27",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15681",
+          "bill_name": "国際通貨基金及び国際復興開発銀行への加盟に伴う措置に関する法律の一部を改正する法律案",
+          "issue_number": 6120,
+          "date": "2024-03-07",
+          "meeting": "財政金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15681",
+          "bill_name": "国際通貨基金及び国際復興開発銀行への加盟に伴う措置に関する法律の一部を改正する法律案",
+          "issue_number": 6120,
+          "date": "2024-02-13",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15684",
+          "bill_name": "国家公務員等の旅費に関する法律の一部を改正する法律案",
+          "issue_number": 6123,
+          "date": "2024-04-23",
+          "meeting": "財政金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15684",
+          "bill_name": "国家公務員等の旅費に関する法律の一部を改正する法律案",
+          "issue_number": 6123,
+          "date": "2024-04-05",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15684",
+          "bill_name": "国家公務員等の旅費に関する法律の一部を改正する法律案",
+          "issue_number": 6123,
+          "date": "2024-03-07",
+          "meeting": "財政金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15684",
+          "bill_name": "国家公務員等の旅費に関する法律の一部を改正する法律案",
+          "issue_number": 6123,
+          "date": "2024-02-13",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 14,
-        "neutral": 146
+        "neutral": 158
       }
     },
     "浅田均": {
-      "party": "日本維新の会",
-      "speech_count": 19,
+      "party": "日本維新の会・教育無償化を実現する会",
+      "speech_count": 20,
       "bills": [
         {
           "bill_id": "house_211_7863",
@@ -26078,12 +26430,20 @@
           "date": "2025-06-12",
           "meeting": "財政金融委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15684",
+          "bill_name": "国家公務員等の旅費に関する法律の一部を改正する法律案",
+          "issue_number": 6123,
+          "date": "2024-04-25",
+          "meeting": "財政金融委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 3,
         "oppose": 3,
-        "neutral": 13
+        "neutral": 14
       }
     },
     "矢倉克夫": {
@@ -27493,7 +27853,7 @@
     },
     "櫻井周": {
       "party": "立憲民主党・無所属",
-      "speech_count": 43,
+      "speech_count": 45,
       "bills": [
         {
           "bill_id": "house_211_7863",
@@ -27838,12 +28198,28 @@
           "date": "2025-04-18",
           "meeting": "財務金融委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15681",
+          "bill_name": "国際通貨基金及び国際復興開発銀行への加盟に伴う措置に関する法律の一部を改正する法律案",
+          "issue_number": 6120,
+          "date": "2024-04-03",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15684",
+          "bill_name": "国家公務員等の旅費に関する法律の一部を改正する法律案",
+          "issue_number": 6123,
+          "date": "2024-04-09",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 2,
         "oppose": 8,
-        "neutral": 33
+        "neutral": 35
       }
     },
     "階猛": {
@@ -28829,7 +29205,7 @@
     },
     "田村貴昭": {
       "party": "日本共産党",
-      "speech_count": 73,
+      "speech_count": 75,
       "bills": [
         {
           "bill_id": "house_211_7864",
@@ -29414,17 +29790,33 @@
           "date": "2025-05-30",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15680",
+          "bill_name": "関税定率法等の一部を改正する法律案",
+          "issue_number": 6119,
+          "date": "2024-03-15",
+          "meeting": "財務金融委員会",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15681",
+          "bill_name": "国際通貨基金及び国際復興開発銀行への加盟に伴う措置に関する法律の一部を改正する法律案",
+          "issue_number": 6120,
+          "date": "2024-04-03",
+          "meeting": "財務金融委員会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 2,
-        "oppose": 21,
+        "oppose": 23,
         "neutral": 50
       }
     },
     "浅尾慶一郎": {
       "party": "自由民主党",
-      "speech_count": 56,
+      "speech_count": 57,
       "bills": [
         {
           "bill_id": "house_211_7864",
@@ -29873,12 +30265,20 @@
           "date": "2025-04-09",
           "meeting": "決算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15679",
+          "bill_name": "地方交付税法等の一部を改正する法律案",
+          "issue_number": 6118,
+          "date": "2024-03-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 4,
-        "neutral": 52
+        "neutral": 53
       }
     },
     "若松謙維": {
@@ -30903,7 +31303,7 @@
     },
     "吉田統彦": {
       "party": "立憲民主党・無所属",
-      "speech_count": 9,
+      "speech_count": 10,
       "bills": [
         {
           "bill_id": "house_211_7865",
@@ -30976,17 +31376,25 @@
           "date": "2024-03-27",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15685",
+          "bill_name": "生活困窮者自立支援法等の一部を改正する法律案",
+          "issue_number": 6124,
+          "date": "2024-03-27",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 9
+        "neutral": 10
       }
     },
     "吉田とも代": {
       "party": "日本維新の会",
-      "speech_count": 14,
+      "speech_count": 15,
       "bills": [
         {
           "bill_id": "house_211_7866",
@@ -31099,10 +31507,18 @@
           "date": "2024-02-29",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15679",
+          "bill_name": "地方交付税法等の一部を改正する法律案",
+          "issue_number": 6118,
+          "date": "2024-03-02",
+          "meeting": "総務委員会",
+          "stance": "賛成"
         }
       ],
       "stance_summary": {
-        "support": 5,
+        "support": 6,
         "oppose": 1,
         "neutral": 8
       }
@@ -32930,8 +33346,8 @@
       }
     },
     "友納理緒": {
-      "party": "自由民主党・無所属の会",
-      "speech_count": 11,
+      "party": "自由民主党",
+      "speech_count": 12,
       "bills": [
         {
           "bill_id": "house_211_7868",
@@ -33020,12 +33436,20 @@
           "date": "2026-05-22",
           "meeting": "環境委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15685",
+          "bill_name": "生活困窮者自立支援法等の一部を改正する法律案",
+          "issue_number": 6124,
+          "date": "2024-04-09",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 11
+        "neutral": 12
       }
     },
     "後藤茂之": {
@@ -33470,8 +33894,8 @@
       }
     },
     "上田清司": {
-      "party": "国民民主党・新緑風会",
-      "speech_count": 39,
+      "party": "各派に属しない議員",
+      "speech_count": 40,
       "bills": [
         {
           "bill_id": "house_211_7868",
@@ -33784,12 +34208,20 @@
           "date": "2025-06-10",
           "meeting": "財政金融委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15685",
+          "bill_name": "生活困窮者自立支援法等の一部を改正する法律案",
+          "issue_number": 6124,
+          "date": "2024-04-11",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 9,
         "oppose": 12,
-        "neutral": 18
+        "neutral": 19
       }
     },
     "大西英男": {
@@ -36920,7 +37352,7 @@
     },
     "岸田文雄": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 75,
+      "speech_count": 76,
       "bills": [
         {
           "bill_id": "house_211_7869",
@@ -37521,12 +37953,20 @@
           "date": "2023-10-27",
           "meeting": "予算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15685",
+          "bill_name": "生活困窮者自立支援法等の一部を改正する法律案",
+          "issue_number": 6124,
+          "date": "2024-03-28",
+          "meeting": "予算委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 2,
         "oppose": 1,
-        "neutral": 72
+        "neutral": 73
       }
     },
     "河野義博": {
@@ -38388,7 +38828,7 @@
     },
     "松本剛明": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 115,
+      "speech_count": 121,
       "bills": [
         {
           "bill_id": "house_211_7870",
@@ -39309,12 +39749,60 @@
           "date": "2024-02-13",
           "meeting": "総務委員会",
           "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15679",
+          "bill_name": "地方交付税法等の一部を改正する法律案",
+          "issue_number": 6118,
+          "date": "2024-03-19",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15679",
+          "bill_name": "地方交付税法等の一部を改正する法律案",
+          "issue_number": 6118,
+          "date": "2024-03-13",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15679",
+          "bill_name": "地方交付税法等の一部を改正する法律案",
+          "issue_number": 6118,
+          "date": "2024-03-07",
+          "meeting": "総務委員会",
+          "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15679",
+          "bill_name": "地方交付税法等の一部を改正する法律案",
+          "issue_number": 6118,
+          "date": "2024-02-15",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15679",
+          "bill_name": "地方交付税法等の一部を改正する法律案",
+          "issue_number": 6118,
+          "date": "2024-02-15",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15679",
+          "bill_name": "地方交付税法等の一部を改正する法律案",
+          "issue_number": 6118,
+          "date": "2024-02-13",
+          "meeting": "総務委員会",
+          "stance": "賛成"
         }
       ],
       "stance_summary": {
-        "support": 20,
+        "support": 22,
         "oppose": 4,
-        "neutral": 91
+        "neutral": 95
       }
     },
     "池田達雄": {
@@ -40369,7 +40857,7 @@
     },
     "宮本岳志": {
       "party": "日本共産党",
-      "speech_count": 46,
+      "speech_count": 47,
       "bills": [
         {
           "bill_id": "house_211_7870",
@@ -40738,12 +41226,20 @@
           "date": "2024-03-02",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15679",
+          "bill_name": "地方交付税法等の一部を改正する法律案",
+          "issue_number": 6118,
+          "date": "2024-03-02",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 5,
         "oppose": 6,
-        "neutral": 35
+        "neutral": 36
       }
     },
     "井原巧": {
@@ -40986,7 +41482,7 @@
     },
     "西岡秀子": {
       "party": "国民民主党・無所属クラブ",
-      "speech_count": 39,
+      "speech_count": 40,
       "bills": [
         {
           "bill_id": "house_211_7870",
@@ -41299,10 +41795,18 @@
           "date": "2024-03-02",
           "meeting": "総務委員会",
           "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15679",
+          "bill_name": "地方交付税法等の一部を改正する法律案",
+          "issue_number": 6118,
+          "date": "2024-03-02",
+          "meeting": "総務委員会",
+          "stance": "賛成"
         }
       ],
       "stance_summary": {
-        "support": 8,
+        "support": 9,
         "oppose": 8,
         "neutral": 23
       }
@@ -41960,7 +42464,7 @@
     },
     "おおつき紅葉": {
       "party": "立憲民主党・無所属",
-      "speech_count": 19,
+      "speech_count": 20,
       "bills": [
         {
           "bill_id": "house_211_7871",
@@ -42113,12 +42617,20 @@
           "date": "2024-02-20",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15679",
+          "bill_name": "地方交付税法等の一部を改正する法律案",
+          "issue_number": 6118,
+          "date": "2024-02-20",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 19
+        "neutral": 20
       }
     },
     "小野寺真也": {
@@ -42545,7 +43057,7 @@
     },
     "杉久武": {
       "party": "公明党",
-      "speech_count": 39,
+      "speech_count": 40,
       "bills": [
         {
           "bill_id": "house_211_7872",
@@ -42858,12 +43370,20 @@
           "date": "2025-05-15",
           "meeting": "財政金融委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15686",
+          "bill_name": "雇用保険法等の一部を改正する法律案",
+          "issue_number": 6125,
+          "date": "2024-04-25",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 2,
-        "neutral": 37
+        "neutral": 38
       }
     },
     "加田裕之": {
@@ -48680,7 +49200,7 @@
     },
     "足立康史": {
       "party": "日本維新の会",
-      "speech_count": 14,
+      "speech_count": 16,
       "bills": [
         {
           "bill_id": "house_211_7874",
@@ -48793,12 +49313,28 @@
           "date": "2024-03-27",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15685",
+          "bill_name": "生活困窮者自立支援法等の一部を改正する法律案",
+          "issue_number": 6124,
+          "date": "2024-04-04",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15685",
+          "bill_name": "生活困窮者自立支援法等の一部を改正する法律案",
+          "issue_number": 6124,
+          "date": "2024-03-27",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 1,
-        "neutral": 13
+        "neutral": 15
       }
     },
     "山崎誠": {
@@ -50106,8 +50642,8 @@
       }
     },
     "打越さく良": {
-      "party": "立憲民主・社民・無所属",
-      "speech_count": 42,
+      "party": "立憲民主・社民",
+      "speech_count": 44,
       "bills": [
         {
           "bill_id": "house_211_7879",
@@ -50444,17 +50980,33 @@
           "date": "2025-04-23",
           "meeting": "本会議",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15685",
+          "bill_name": "生活困窮者自立支援法等の一部を改正する法律案",
+          "issue_number": 6124,
+          "date": "2024-04-16",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15686",
+          "bill_name": "雇用保険法等の一部を改正する法律案",
+          "issue_number": 6125,
+          "date": "2024-05-09",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 8,
-        "neutral": 34
+        "neutral": 36
       }
     },
     "倉林明子": {
       "party": "日本共産党",
-      "speech_count": 21,
+      "speech_count": 22,
       "bills": [
         {
           "bill_id": "house_211_7879",
@@ -50623,17 +51175,25 @@
           "date": "2025-06-04",
           "meeting": "本会議",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15685",
+          "bill_name": "生活困窮者自立支援法等の一部を改正する法律案",
+          "issue_number": 6124,
+          "date": "2024-04-16",
+          "meeting": "厚生労働委員会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 12,
+        "oppose": 13,
         "neutral": 9
       }
     },
     "田村まみ": {
       "party": "国民民主党・新緑風会",
-      "speech_count": 35,
+      "speech_count": 36,
       "bills": [
         {
           "bill_id": "house_211_7879",
@@ -50914,10 +51474,18 @@
           "date": "2025-04-04",
           "meeting": "消費者問題に関する特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15686",
+          "bill_name": "雇用保険法等の一部を改正する法律案",
+          "issue_number": 6125,
+          "date": "2024-05-09",
+          "meeting": "厚生労働委員会",
+          "stance": "賛成"
         }
       ],
       "stance_summary": {
-        "support": 3,
+        "support": 4,
         "oppose": 5,
         "neutral": 27
       }
@@ -51275,7 +51843,7 @@
     },
     "中島克仁": {
       "party": "立憲民主党・無所属",
-      "speech_count": 36,
+      "speech_count": 39,
       "bills": [
         {
           "bill_id": "house_211_7879",
@@ -51564,12 +52132,36 @@
           "date": "2025-04-16",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15685",
+          "bill_name": "生活困窮者自立支援法等の一部を改正する法律案",
+          "issue_number": 6124,
+          "date": "2024-03-27",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15686",
+          "bill_name": "雇用保険法等の一部を改正する法律案",
+          "issue_number": 6125,
+          "date": "2024-04-10",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15686",
+          "bill_name": "雇用保険法等の一部を改正する法律案",
+          "issue_number": 6125,
+          "date": "2024-04-09",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 4,
-        "neutral": 32
+        "neutral": 35
       }
     },
     "田畑裕明": {
@@ -51788,7 +52380,7 @@
     },
     "新谷正義": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 68,
+      "speech_count": 79,
       "bills": [
         {
           "bill_id": "house_211_7879",
@@ -52333,17 +52925,105 @@
           "date": "2024-04-03",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15685",
+          "bill_name": "生活困窮者自立支援法等の一部を改正する法律案",
+          "issue_number": 6124,
+          "date": "2024-03-29",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15685",
+          "bill_name": "生活困窮者自立支援法等の一部を改正する法律案",
+          "issue_number": 6124,
+          "date": "2024-03-27",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15685",
+          "bill_name": "生活困窮者自立支援法等の一部を改正する法律案",
+          "issue_number": 6124,
+          "date": "2024-03-26",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15685",
+          "bill_name": "生活困窮者自立支援法等の一部を改正する法律案",
+          "issue_number": 6124,
+          "date": "2024-03-22",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15685",
+          "bill_name": "生活困窮者自立支援法等の一部を改正する法律案",
+          "issue_number": 6124,
+          "date": "2024-03-15",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15685",
+          "bill_name": "生活困窮者自立支援法等の一部を改正する法律案",
+          "issue_number": 6124,
+          "date": "2024-03-13",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15686",
+          "bill_name": "雇用保険法等の一部を改正する法律案",
+          "issue_number": 6125,
+          "date": "2024-04-11",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15686",
+          "bill_name": "雇用保険法等の一部を改正する法律案",
+          "issue_number": 6125,
+          "date": "2024-04-10",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15686",
+          "bill_name": "雇用保険法等の一部を改正する法律案",
+          "issue_number": 6125,
+          "date": "2024-04-09",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15686",
+          "bill_name": "雇用保険法等の一部を改正する法律案",
+          "issue_number": 6125,
+          "date": "2024-04-05",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15686",
+          "bill_name": "雇用保険法等の一部を改正する法律案",
+          "issue_number": 6125,
+          "date": "2024-04-03",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 68
+        "neutral": 79
       }
     },
     "井坂信彦": {
       "party": "立憲民主党・無所属",
-      "speech_count": 25,
+      "speech_count": 27,
       "bills": [
         {
           "bill_id": "house_211_7879",
@@ -52544,12 +53224,28 @@
           "date": "2025-05-28",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15685",
+          "bill_name": "生活困窮者自立支援法等の一部を改正する法律案",
+          "issue_number": 6124,
+          "date": "2024-03-27",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15686",
+          "bill_name": "雇用保険法等の一部を改正する法律案",
+          "issue_number": 6125,
+          "date": "2024-04-10",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 2,
-        "neutral": 23
+        "neutral": 25
       }
     },
     "池下卓": {
@@ -54844,8 +55540,8 @@
       }
     },
     "一谷勇一郎": {
-      "party": "日本維新の会",
-      "speech_count": 16,
+      "party": "日本維新の会・教育無償化を実現する会",
+      "speech_count": 17,
       "bills": [
         {
           "bill_id": "house_211_7880",
@@ -54974,17 +55670,25 @@
           "date": "2023-10-30",
           "meeting": "予算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15686",
+          "bill_name": "雇用保険法等の一部を改正する法律案",
+          "issue_number": 6125,
+          "date": "2024-04-05",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 1,
         "oppose": 1,
-        "neutral": 14
+        "neutral": 15
       }
     },
     "足立敏之": {
       "party": "自由民主党",
-      "speech_count": 29,
+      "speech_count": 32,
       "bills": [
         {
           "bill_id": "house_211_7881",
@@ -55217,12 +55921,36 @@
           "date": "2024-03-21",
           "meeting": "財政金融委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15680",
+          "bill_name": "関税定率法等の一部を改正する法律案",
+          "issue_number": 6119,
+          "date": "2024-03-29",
+          "meeting": "財政金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15681",
+          "bill_name": "国際通貨基金及び国際復興開発銀行への加盟に伴う措置に関する法律の一部を改正する法律案",
+          "issue_number": 6120,
+          "date": "2024-04-11",
+          "meeting": "財政金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15684",
+          "bill_name": "国家公務員等の旅費に関する法律の一部を改正する法律案",
+          "issue_number": 6123,
+          "date": "2024-04-25",
+          "meeting": "財政金融委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 29
+        "neutral": 32
       }
     },
     "青島健太": {
@@ -56211,7 +56939,7 @@
     },
     "岩本剛人": {
       "party": "自由民主党",
-      "speech_count": 14,
+      "speech_count": 15,
       "bills": [
         {
           "bill_id": "house_211_7882",
@@ -56324,12 +57052,20 @@
           "date": "2024-03-13",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15679",
+          "bill_name": "地方交付税法等の一部を改正する法律案",
+          "issue_number": 6118,
+          "date": "2024-03-13",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 14
+        "neutral": 15
       }
     },
     "浜田靖一": {
@@ -61387,8 +62123,8 @@
       }
     },
     "熊谷裕人": {
-      "party": "立憲民主・社民・無所属",
-      "speech_count": 62,
+      "party": "立憲民主・社民",
+      "speech_count": 65,
       "bills": [
         {
           "bill_id": "house_211_7883",
@@ -61885,12 +62621,36 @@
           "date": "2025-05-15",
           "meeting": "財政金融委員会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15680",
+          "bill_name": "関税定率法等の一部を改正する法律案",
+          "issue_number": 6119,
+          "date": "2024-03-29",
+          "meeting": "財政金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15681",
+          "bill_name": "国際通貨基金及び国際復興開発銀行への加盟に伴う措置に関する法律の一部を改正する法律案",
+          "issue_number": 6120,
+          "date": "2024-04-11",
+          "meeting": "財政金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15684",
+          "bill_name": "国家公務員等の旅費に関する法律の一部を改正する法律案",
+          "issue_number": 6123,
+          "date": "2024-04-25",
+          "meeting": "財政金融委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 21,
-        "neutral": 41
+        "neutral": 44
       }
     },
     "三木圭恵": {
@@ -63077,7 +63837,7 @@
     },
     "井野俊郎": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 28,
+      "speech_count": 29,
       "bills": [
         {
           "bill_id": "house_211_7883",
@@ -63302,12 +64062,20 @@
           "date": "2024-03-02",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15679",
+          "bill_name": "地方交付税法等の一部を改正する法律案",
+          "issue_number": 6118,
+          "date": "2024-03-02",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 6,
         "oppose": 0,
-        "neutral": 22
+        "neutral": 23
       }
     },
     "高橋克法": {
@@ -64831,7 +65599,7 @@
     },
     "吉川元": {
       "party": "立憲民主党・無所属",
-      "speech_count": 25,
+      "speech_count": 27,
       "bills": [
         {
           "bill_id": "house_211_7884",
@@ -65032,12 +65800,28 @@
           "date": "2025-04-16",
           "meeting": "文部科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15679",
+          "bill_name": "地方交付税法等の一部を改正する法律案",
+          "issue_number": 6118,
+          "date": "2024-03-02",
+          "meeting": "総務委員会",
+          "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15679",
+          "bill_name": "地方交付税法等の一部を改正する法律案",
+          "issue_number": 6118,
+          "date": "2024-02-29",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
-        "support": 5,
+        "support": 6,
         "oppose": 2,
-        "neutral": 18
+        "neutral": 19
       }
     },
     "梅谷守": {
@@ -66716,7 +67500,7 @@
     },
     "高木かおり": {
       "party": "日本維新の会・教育無償化を実現する会",
-      "speech_count": 27,
+      "speech_count": 29,
       "bills": [
         {
           "bill_id": "house_211_7886",
@@ -66933,12 +67717,28 @@
           "date": "2024-03-13",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15679",
+          "bill_name": "地方交付税法等の一部を改正する法律案",
+          "issue_number": 6118,
+          "date": "2024-03-28",
+          "meeting": "総務委員会",
+          "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15679",
+          "bill_name": "地方交付税法等の一部を改正する法律案",
+          "issue_number": 6118,
+          "date": "2024-03-13",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
-        "support": 8,
+        "support": 9,
         "oppose": 2,
-        "neutral": 17
+        "neutral": 18
       }
     },
     "浜口誠": {
@@ -68081,7 +68881,7 @@
     },
     "伊藤岳": {
       "party": "日本共産党",
-      "speech_count": 47,
+      "speech_count": 48,
       "bills": [
         {
           "bill_id": "house_211_7887",
@@ -68458,12 +69258,20 @@
           "date": "2025-05-20",
           "meeting": "総務委員会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15679",
+          "bill_name": "地方交付税法等の一部を改正する法律案",
+          "issue_number": 6118,
+          "date": "2024-03-28",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 12,
-        "neutral": 35
+        "neutral": 36
       }
     },
     "泉田裕彦": {
@@ -71945,7 +72753,7 @@
     },
     "平林晃": {
       "party": "公明党",
-      "speech_count": 34,
+      "speech_count": 35,
       "bills": [
         {
           "bill_id": "house_211_7891",
@@ -72218,11 +73026,19 @@
           "date": "2024-02-15",
           "meeting": "本会議",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15679",
+          "bill_name": "地方交付税法等の一部を改正する法律案",
+          "issue_number": 6118,
+          "date": "2024-02-15",
+          "meeting": "本会議",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 7,
+        "oppose": 8,
         "neutral": 27
       }
     },
@@ -75732,7 +76548,7 @@
     },
     "湯原俊二": {
       "party": "立憲民主党・無所属",
-      "speech_count": 7,
+      "speech_count": 8,
       "bills": [
         {
           "bill_id": "house_211_7900",
@@ -75789,11 +76605,19 @@
           "date": "2024-02-15",
           "meeting": "本会議",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15679",
+          "bill_name": "地方交付税法等の一部を改正する法律案",
+          "issue_number": 6118,
+          "date": "2024-02-15",
+          "meeting": "本会議",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 6,
+        "oppose": 7,
         "neutral": 1
       }
     },
@@ -78173,7 +78997,7 @@
     },
     "浜田聡": {
       "party": "ＮＨＫから国民を守る党",
-      "speech_count": 33,
+      "speech_count": 34,
       "bills": [
         {
           "bill_id": "house_211_7902",
@@ -78438,11 +79262,19 @@
           "date": "2024-03-28",
           "meeting": "総務委員会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15679",
+          "bill_name": "地方交付税法等の一部を改正する法律案",
+          "issue_number": 6118,
+          "date": "2024-03-28",
+          "meeting": "総務委員会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 14,
+        "oppose": 15,
         "neutral": 19
       }
     },
@@ -78542,7 +79374,7 @@
     },
     "小熊慎司": {
       "party": "立憲民主党・無所属",
-      "speech_count": 5,
+      "speech_count": 6,
       "bills": [
         {
           "bill_id": "house_211_7906",
@@ -78583,12 +79415,20 @@
           "date": "2024-03-22",
           "meeting": "外務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15683",
+          "bill_name": "二千二十七年国際園芸博覧会政府委員の設置に関する臨時措置法案",
+          "issue_number": 6122,
+          "date": "2024-03-22",
+          "meeting": "外務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 1,
-        "neutral": 4
+        "neutral": 5
       }
     },
     "赤木正幸": {
@@ -80762,7 +81602,7 @@
     },
     "新妻秀規": {
       "party": "公明党",
-      "speech_count": 55,
+      "speech_count": 56,
       "bills": [
         {
           "bill_id": "councillors_211_15314",
@@ -81203,12 +82043,20 @@
           "date": "2024-03-28",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15679",
+          "bill_name": "地方交付税法等の一部を改正する法律案",
+          "issue_number": 6118,
+          "date": "2024-03-28",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 55
+        "neutral": 56
       }
     },
     "大西健介": {
@@ -82392,7 +83240,7 @@
     },
     "高良鉄美": {
       "party": "沖縄の風",
-      "speech_count": 21,
+      "speech_count": 22,
       "bills": [
         {
           "bill_id": "councillors_211_15315",
@@ -82561,12 +83409,20 @@
           "date": "2025-05-21",
           "meeting": "憲法審査会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15683",
+          "bill_name": "二千二十七年国際園芸博覧会政府委員の設置に関する臨時措置法案",
+          "issue_number": 6122,
+          "date": "2024-03-29",
+          "meeting": "外交防衛委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 21
+        "neutral": 22
       }
     },
     "浅川晃広": {
@@ -91375,7 +92231,7 @@
     },
     "小池晃": {
       "party": "日本共産党",
-      "speech_count": 44,
+      "speech_count": 46,
       "bills": [
         {
           "bill_id": "councillors_211_15418",
@@ -91728,11 +92584,27 @@
           "date": "2025-06-12",
           "meeting": "財政金融委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15680",
+          "bill_name": "関税定率法等の一部を改正する法律案",
+          "issue_number": 6119,
+          "date": "2024-03-29",
+          "meeting": "財政金融委員会",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15681",
+          "bill_name": "国際通貨基金及び国際復興開発銀行への加盟に伴う措置に関する法律の一部を改正する法律案",
+          "issue_number": 6120,
+          "date": "2024-04-11",
+          "meeting": "財政金融委員会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 26,
+        "oppose": 28,
         "neutral": 18
       }
     },
@@ -93180,7 +94052,7 @@
     },
     "岬麻紀": {
       "party": "日本維新の会",
-      "speech_count": 6,
+      "speech_count": 7,
       "bills": [
         {
           "bill_id": "councillors_211_15418",
@@ -93229,17 +94101,25 @@
           "date": "2024-03-27",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15685",
+          "bill_name": "生活困窮者自立支援法等の一部を改正する法律案",
+          "issue_number": 6124,
+          "date": "2024-03-27",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 6
+        "neutral": 7
       }
     },
     "津島淳": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 85,
+      "speech_count": 93,
       "bills": [
         {
           "bill_id": "councillors_211_15418",
@@ -93920,12 +94800,76 @@
           "date": "2024-02-16",
           "meeting": "財務金融委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15680",
+          "bill_name": "関税定率法等の一部を改正する法律案",
+          "issue_number": 6119,
+          "date": "2024-03-15",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15680",
+          "bill_name": "関税定率法等の一部を改正する法律案",
+          "issue_number": 6119,
+          "date": "2024-03-13",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15680",
+          "bill_name": "関税定率法等の一部を改正する法律案",
+          "issue_number": 6119,
+          "date": "2024-03-12",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15680",
+          "bill_name": "関税定率法等の一部を改正する法律案",
+          "issue_number": 6119,
+          "date": "2024-03-08",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15681",
+          "bill_name": "国際通貨基金及び国際復興開発銀行への加盟に伴う措置に関する法律の一部を改正する法律案",
+          "issue_number": 6120,
+          "date": "2024-04-03",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15681",
+          "bill_name": "国際通貨基金及び国際復興開発銀行への加盟に伴う措置に関する法律の一部を改正する法律案",
+          "issue_number": 6120,
+          "date": "2024-03-27",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15684",
+          "bill_name": "国家公務員等の旅費に関する法律の一部を改正する法律案",
+          "issue_number": 6123,
+          "date": "2024-04-09",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15684",
+          "bill_name": "国家公務員等の旅費に関する法律の一部を改正する法律案",
+          "issue_number": 6123,
+          "date": "2024-04-05",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 85
+        "neutral": 93
       }
     },
     "柳澤協二": {
@@ -94685,7 +95629,7 @@
     },
     "額賀福志郎": {
       "party": "無所属",
-      "speech_count": 525,
+      "speech_count": 534,
       "bills": [
         {
           "bill_id": "councillors_212_15437",
@@ -98886,12 +99830,84 @@
           "date": "2025-05-20",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15679",
+          "bill_name": "地方交付税法等の一部を改正する法律案",
+          "issue_number": 6118,
+          "date": "2024-03-02",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15679",
+          "bill_name": "地方交付税法等の一部を改正する法律案",
+          "issue_number": 6118,
+          "date": "2024-02-15",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15680",
+          "bill_name": "関税定率法等の一部を改正する法律案",
+          "issue_number": 6119,
+          "date": "2024-03-19",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15681",
+          "bill_name": "国際通貨基金及び国際復興開発銀行への加盟に伴う措置に関する法律の一部を改正する法律案",
+          "issue_number": 6120,
+          "date": "2024-04-04",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15682",
+          "bill_name": "在外公館の名称及び位置並びに在外公館に勤務する外務公務員の給与に関する法律の一部を改正する法律案",
+          "issue_number": 6121,
+          "date": "2024-03-19",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15683",
+          "bill_name": "二千二十七年国際園芸博覧会政府委員の設置に関する臨時措置法案",
+          "issue_number": 6122,
+          "date": "2024-03-26",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15684",
+          "bill_name": "国家公務員等の旅費に関する法律の一部を改正する法律案",
+          "issue_number": 6123,
+          "date": "2024-04-11",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15685",
+          "bill_name": "生活困窮者自立支援法等の一部を改正する法律案",
+          "issue_number": 6124,
+          "date": "2024-03-29",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15686",
+          "bill_name": "雇用保険法等の一部を改正する法律案",
+          "issue_number": 6125,
+          "date": "2024-04-11",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 4,
         "oppose": 0,
-        "neutral": 521
+        "neutral": 530
       }
     },
     "池田貴城": {
@@ -100443,7 +101459,7 @@
     },
     "比嘉奈津美": {
       "party": "自由民主党",
-      "speech_count": 47,
+      "speech_count": 54,
       "bills": [
         {
           "bill_id": "house_212_8043",
@@ -100820,17 +101836,73 @@
           "date": "2025-06-12",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15685",
+          "bill_name": "生活困窮者自立支援法等の一部を改正する法律案",
+          "issue_number": 6124,
+          "date": "2024-04-16",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15685",
+          "bill_name": "生活困窮者自立支援法等の一部を改正する法律案",
+          "issue_number": 6124,
+          "date": "2024-04-11",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15685",
+          "bill_name": "生活困窮者自立支援法等の一部を改正する法律案",
+          "issue_number": 6124,
+          "date": "2024-04-09",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15686",
+          "bill_name": "雇用保険法等の一部を改正する法律案",
+          "issue_number": 6125,
+          "date": "2024-05-09",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15686",
+          "bill_name": "雇用保険法等の一部を改正する法律案",
+          "issue_number": 6125,
+          "date": "2024-05-07",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15686",
+          "bill_name": "雇用保険法等の一部を改正する法律案",
+          "issue_number": 6125,
+          "date": "2024-04-25",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15686",
+          "bill_name": "雇用保険法等の一部を改正する法律案",
+          "issue_number": 6125,
+          "date": "2024-04-23",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 1,
-        "neutral": 46
+        "neutral": 53
       }
     },
     "武見敬三": {
       "party": "自由民主党",
-      "speech_count": 53,
+      "speech_count": 58,
       "bills": [
         {
           "bill_id": "house_212_8043",
@@ -101255,12 +102327,52 @@
           "date": "2023-11-08",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15685",
+          "bill_name": "生活困窮者自立支援法等の一部を改正する法律案",
+          "issue_number": 6124,
+          "date": "2024-05-23",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15685",
+          "bill_name": "生活困窮者自立支援法等の一部を改正する法律案",
+          "issue_number": 6124,
+          "date": "2024-04-04",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15685",
+          "bill_name": "生活困窮者自立支援法等の一部を改正する法律案",
+          "issue_number": 6124,
+          "date": "2024-03-13",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15686",
+          "bill_name": "雇用保険法等の一部を改正する法律案",
+          "issue_number": 6125,
+          "date": "2024-04-18",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15686",
+          "bill_name": "雇用保険法等の一部を改正する法律案",
+          "issue_number": 6125,
+          "date": "2024-04-03",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 53
+        "neutral": 58
       }
     },
     "上田英俊": {
@@ -103059,8 +104171,8 @@
       }
     },
     "大椿ゆうこ": {
-      "party": "立憲民主・社民・無所属",
-      "speech_count": 28,
+      "party": "立憲民主・社民",
+      "speech_count": 29,
       "bills": [
         {
           "bill_id": "house_213_8163",
@@ -103285,12 +104397,20 @@
           "date": "2025-05-14",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15685",
+          "bill_name": "生活困窮者自立支援法等の一部を改正する法律案",
+          "issue_number": 6124,
+          "date": "2024-04-09",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 28
+        "neutral": 29
       }
     },
     "大坪寛子": {
@@ -104006,7 +105126,7 @@
     },
     "馬場雄基": {
       "party": "立憲民主党・無所属",
-      "speech_count": 16,
+      "speech_count": 17,
       "bills": [
         {
           "bill_id": "house_213_8190",
@@ -104135,12 +105255,20 @@
           "date": "2025-05-16",
           "meeting": "環境委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15680",
+          "bill_name": "関税定率法等の一部を改正する法律案",
+          "issue_number": 6119,
+          "date": "2024-03-15",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 3,
-        "neutral": 13
+        "neutral": 14
       }
     },
     "藤巻健太": {
@@ -104933,7 +106061,7 @@
     },
     "中嶋秀樹": {
       "party": "日本維新の会・教育無償化を実現する会",
-      "speech_count": 20,
+      "speech_count": 21,
       "bills": [
         {
           "bill_id": "house_213_8191",
@@ -105094,17 +106222,25 @@
           "date": "2024-02-16",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15679",
+          "bill_name": "地方交付税法等の一部を改正する法律案",
+          "issue_number": 6118,
+          "date": "2024-02-22",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 7,
         "oppose": 0,
-        "neutral": 13
+        "neutral": 14
       }
     },
     "保岡宏武": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 7,
+      "speech_count": 8,
       "bills": [
         {
           "bill_id": "house_213_8191",
@@ -105161,17 +106297,25 @@
           "date": "2024-02-22",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15679",
+          "bill_name": "地方交付税法等の一部を改正する法律案",
+          "issue_number": 6118,
+          "date": "2024-02-22",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 7
+        "neutral": 8
       }
     },
     "英利アルフィヤ": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 2,
+      "speech_count": 3,
       "bills": [
         {
           "bill_id": "house_213_8193",
@@ -105188,17 +106332,25 @@
           "date": "2024-03-12",
           "meeting": "財務金融委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15680",
+          "bill_name": "関税定率法等の一部を改正する法律案",
+          "issue_number": 6119,
+          "date": "2024-03-12",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 2
+        "neutral": 3
       }
     },
     "中川宏昌": {
       "party": "公明党",
-      "speech_count": 26,
+      "speech_count": 27,
       "bills": [
         {
           "bill_id": "house_213_8193",
@@ -105407,17 +106559,25 @@
           "date": "2025-05-14",
           "meeting": "財務金融委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15680",
+          "bill_name": "関税定率法等の一部を改正する法律案",
+          "issue_number": 6119,
+          "date": "2024-03-12",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 2,
         "oppose": 5,
-        "neutral": 19
+        "neutral": 20
       }
     },
     "小野田紀美": {
-      "party": "自由民主党・無所属の会",
-      "speech_count": 22,
+      "party": "自由民主党",
+      "speech_count": 24,
       "bills": [
         {
           "bill_id": "house_213_8195",
@@ -105594,17 +106754,33 @@
           "date": "2026-04-28",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15682",
+          "bill_name": "在外公館の名称及び位置並びに在外公館に勤務する外務公務員の給与に関する法律の一部を改正する法律案",
+          "issue_number": 6121,
+          "date": "2024-03-27",
+          "meeting": "外交防衛委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15683",
+          "bill_name": "二千二十七年国際園芸博覧会政府委員の設置に関する臨時措置法案",
+          "issue_number": 6122,
+          "date": "2024-03-29",
+          "meeting": "外交防衛委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 2,
-        "neutral": 20
+        "neutral": 22
       }
     },
     "上川陽子": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 13,
+      "speech_count": 17,
       "bills": [
         {
           "bill_id": "house_213_8195",
@@ -105709,17 +106885,49 @@
           "date": "2024-03-15",
           "meeting": "外務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15682",
+          "bill_name": "在外公館の名称及び位置並びに在外公館に勤務する外務公務員の給与に関する法律の一部を改正する法律案",
+          "issue_number": 6121,
+          "date": "2024-03-26",
+          "meeting": "外交防衛委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15682",
+          "bill_name": "在外公館の名称及び位置並びに在外公館に勤務する外務公務員の給与に関する法律の一部を改正する法律案",
+          "issue_number": 6121,
+          "date": "2024-03-13",
+          "meeting": "外務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15683",
+          "bill_name": "二千二十七年国際園芸博覧会政府委員の設置に関する臨時措置法案",
+          "issue_number": 6122,
+          "date": "2024-03-27",
+          "meeting": "外交防衛委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15683",
+          "bill_name": "二千二十七年国際園芸博覧会政府委員の設置に関する臨時措置法案",
+          "issue_number": 6122,
+          "date": "2024-03-15",
+          "meeting": "外務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 13
+        "neutral": 17
       }
     },
     "勝俣孝明": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 19,
+      "speech_count": 23,
       "bills": [
         {
           "bill_id": "house_213_8195",
@@ -105872,17 +107080,49 @@
           "date": "2025-04-16",
           "meeting": "国土交通委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15682",
+          "bill_name": "在外公館の名称及び位置並びに在外公館に勤務する外務公務員の給与に関する法律の一部を改正する法律案",
+          "issue_number": 6121,
+          "date": "2024-03-15",
+          "meeting": "外務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15682",
+          "bill_name": "在外公館の名称及び位置並びに在外公館に勤務する外務公務員の給与に関する法律の一部を改正する法律案",
+          "issue_number": 6121,
+          "date": "2024-03-13",
+          "meeting": "外務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15683",
+          "bill_name": "二千二十七年国際園芸博覧会政府委員の設置に関する臨時措置法案",
+          "issue_number": 6122,
+          "date": "2024-03-22",
+          "meeting": "外務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15683",
+          "bill_name": "二千二十七年国際園芸博覧会政府委員の設置に関する臨時措置法案",
+          "issue_number": 6122,
+          "date": "2024-03-15",
+          "meeting": "外務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 19
+        "neutral": 23
       }
     },
     "穀田恵二": {
       "party": "日本共産党",
-      "speech_count": 4,
+      "speech_count": 5,
       "bills": [
         {
           "bill_id": "house_213_8196",
@@ -105915,17 +107155,25 @@
           "date": "2024-03-22",
           "meeting": "外務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15683",
+          "bill_name": "二千二十七年国際園芸博覧会政府委員の設置に関する臨時措置法案",
+          "issue_number": 6122,
+          "date": "2024-03-22",
+          "meeting": "外務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 4
+        "neutral": 5
       }
     },
     "朝川知昭": {
       "party": "",
-      "speech_count": 10,
+      "speech_count": 12,
       "bills": [
         {
           "bill_id": "house_213_8198",
@@ -106006,17 +107254,33 @@
           "date": "2024-03-13",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15685",
+          "bill_name": "生活困窮者自立支援法等の一部を改正する法律案",
+          "issue_number": 6124,
+          "date": "2024-04-16",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15685",
+          "bill_name": "生活困窮者自立支援法等の一部を改正する法律案",
+          "issue_number": 6124,
+          "date": "2024-03-13",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 10
+        "neutral": 12
       }
     },
     "菊池馨実": {
       "party": "",
-      "speech_count": 6,
+      "speech_count": 7,
       "bills": [
         {
           "bill_id": "house_213_8198",
@@ -106065,17 +107329,25 @@
           "date": "2026-04-21",
           "meeting": "厚生労働委員会",
           "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15685",
+          "bill_name": "生活困窮者自立支援法等の一部を改正する法律案",
+          "issue_number": 6124,
+          "date": "2024-04-11",
+          "meeting": "厚生労働委員会",
+          "stance": "賛成"
         }
       ],
       "stance_summary": {
-        "support": 6,
+        "support": 7,
         "oppose": 0,
         "neutral": 0
       }
     },
     "生稲晃子": {
-      "party": "自由民主党・無所属の会",
-      "speech_count": 11,
+      "party": "自由民主党",
+      "speech_count": 13,
       "bills": [
         {
           "bill_id": "house_213_8198",
@@ -106164,17 +107436,33 @@
           "date": "2026-04-23",
           "meeting": "外交防衛委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15685",
+          "bill_name": "生活困窮者自立支援法等の一部を改正する法律案",
+          "issue_number": 6124,
+          "date": "2024-04-02",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15686",
+          "bill_name": "雇用保険法等の一部を改正する法律案",
+          "issue_number": 6125,
+          "date": "2024-05-16",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 11
+        "neutral": 13
       }
     },
     "金子容三": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 7,
+      "speech_count": 8,
       "bills": [
         {
           "bill_id": "house_213_8198",
@@ -106231,17 +107519,25 @@
           "date": "2024-03-15",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15685",
+          "bill_name": "生活困窮者自立支援法等の一部を改正する法律案",
+          "issue_number": 6124,
+          "date": "2024-03-15",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 7
+        "neutral": 8
       }
     },
     "堀井奈津子": {
       "party": "",
-      "speech_count": 5,
+      "speech_count": 6,
       "bills": [
         {
           "bill_id": "house_213_8199",
@@ -106282,17 +107578,25 @@
           "date": "2024-05-16",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15686",
+          "bill_name": "雇用保険法等の一部を改正する法律案",
+          "issue_number": 6125,
+          "date": "2024-05-16",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 5
+        "neutral": 6
       }
     },
     "水島郁子": {
       "party": "",
-      "speech_count": 3,
+      "speech_count": 4,
       "bills": [
         {
           "bill_id": "house_213_8199",
@@ -106317,17 +107621,25 @@
           "date": "2024-05-07",
           "meeting": "厚生労働委員会",
           "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15686",
+          "bill_name": "雇用保険法等の一部を改正する法律案",
+          "issue_number": 6125,
+          "date": "2024-05-07",
+          "meeting": "厚生労働委員会",
+          "stance": "賛成"
         }
       ],
       "stance_summary": {
-        "support": 3,
+        "support": 4,
         "oppose": 0,
         "neutral": 0
       }
     },
     "村上陽子": {
       "party": "",
-      "speech_count": 4,
+      "speech_count": 5,
       "bills": [
         {
           "bill_id": "house_213_8199",
@@ -106360,17 +107672,25 @@
           "date": "2024-05-07",
           "meeting": "厚生労働委員会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15686",
+          "bill_name": "雇用保険法等の一部を改正する法律案",
+          "issue_number": 6125,
+          "date": "2024-05-07",
+          "meeting": "厚生労働委員会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 3,
+        "oppose": 4,
         "neutral": 1
       }
     },
     "星北斗": {
       "party": "自由民主党",
-      "speech_count": 3,
+      "speech_count": 4,
       "bills": [
         {
           "bill_id": "house_213_8199",
@@ -106395,17 +107715,25 @@
           "date": "2024-04-23",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15686",
+          "bill_name": "雇用保険法等の一部を改正する法律案",
+          "issue_number": 6125,
+          "date": "2024-04-23",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 3
+        "neutral": 4
       }
     },
     "冨高裕子": {
       "party": "",
-      "speech_count": 3,
+      "speech_count": 4,
       "bills": [
         {
           "bill_id": "house_213_8199",
@@ -106427,6 +107755,14 @@
           "bill_id": "councillors_213_15669",
           "bill_name": "雇用保険法等の一部を改正する法律案",
           "issue_number": 5936,
+          "date": "2024-04-09",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15686",
+          "bill_name": "雇用保険法等の一部を改正する法律案",
+          "issue_number": 6125,
           "date": "2024-04-09",
           "meeting": "厚生労働委員会",
           "stance": "中立"
@@ -106435,12 +107771,12 @@
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 3
+        "neutral": 4
       }
     },
     "平田充": {
       "party": "",
-      "speech_count": 3,
+      "speech_count": 4,
       "bills": [
         {
           "bill_id": "house_213_8199",
@@ -106465,17 +107801,25 @@
           "date": "2024-04-09",
           "meeting": "厚生労働委員会",
           "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15686",
+          "bill_name": "雇用保険法等の一部を改正する法律案",
+          "issue_number": 6125,
+          "date": "2024-04-09",
+          "meeting": "厚生労働委員会",
+          "stance": "賛成"
         }
       ],
       "stance_summary": {
-        "support": 3,
+        "support": 4,
         "oppose": 0,
         "neutral": 0
       }
     },
     "山田雅彦": {
       "party": "",
-      "speech_count": 5,
+      "speech_count": 6,
       "bills": [
         {
           "bill_id": "house_213_8199",
@@ -106516,12 +107860,20 @@
           "date": "2024-04-05",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15686",
+          "bill_name": "雇用保険法等の一部を改正する法律案",
+          "issue_number": 6125,
+          "date": "2024-04-05",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 5
+        "neutral": 6
       }
     },
     "清水秀行": {
