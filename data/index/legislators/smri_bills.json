@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-07-26T18:54:08.633Z",
+  "updated_at": "2026-08-02T18:51:56.139Z",
   "source": "SmartNews Media Research Institute",
   "total_count": 16549,
-  "passed_count": 6250,
+  "passed_count": 6256,
   "bills": [
     {
       "id": "house_142_0",
@@ -105720,7 +105720,7 @@
       "proposer": "新藤　義孝君外八名",
       "proposer_party": "自由民主党・無所属の会; 日本維新の会; 国民民主党・無所属クラブ; 参政党",
       "proposer_type": "衆法",
-      "status": "審議中",
+      "status": "成立",
       "house": "衆議院",
       "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE28DE.htm"
     },
@@ -105912,7 +105912,7 @@
       "proposer": "簗　和生君外七名",
       "proposer_party": "自由民主党・無所属の会; 日本維新の会",
       "proposer_type": "衆法",
-      "status": "審議中",
+      "status": "成立",
       "house": "衆議院",
       "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE2ACE.htm"
     },
@@ -105936,7 +105936,7 @@
       "proposer": "地域活性化・こども政策・デジタル社会形成に関する特別委員長",
       "proposer_party": "",
       "proposer_type": "衆法",
-      "status": "審議中",
+      "status": "成立",
       "house": "衆議院",
       "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE2BCA.htm"
     },
@@ -106044,7 +106044,7 @@
       "proposer": "国土交通委員長",
       "proposer_party": "",
       "proposer_type": "衆法",
-      "status": "審議中",
+      "status": "成立",
       "house": "衆議院",
       "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE2CF6.htm"
     },
@@ -106056,7 +106056,7 @@
       "proposer": "竹詰　仁君外一名",
       "proposer_party": "",
       "proposer_type": "衆法",
-      "status": "審議中",
+      "status": "廃案",
       "house": "衆議院",
       "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE213E.htm"
     },
@@ -106068,7 +106068,7 @@
       "proposer": "伊藤　孝恵君外一名",
       "proposer_party": "",
       "proposer_type": "衆法",
-      "status": "審議中",
+      "status": "廃案",
       "house": "衆議院",
       "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE23A2.htm"
     },
@@ -106080,7 +106080,7 @@
       "proposer": "伊藤　孝恵君外一名",
       "proposer_party": "",
       "proposer_type": "衆法",
-      "status": "審議中",
+      "status": "廃案",
       "house": "衆議院",
       "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE23BA.htm"
     },
@@ -106092,7 +106092,7 @@
       "proposer": "伊藤　孝恵君外一名",
       "proposer_party": "",
       "proposer_type": "衆法",
-      "status": "審議中",
+      "status": "廃案",
       "house": "衆議院",
       "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE23D2.htm"
     },
@@ -106104,7 +106104,7 @@
       "proposer": "神谷　宗幣君外四名",
       "proposer_party": "",
       "proposer_type": "衆法",
-      "status": "審議中",
+      "status": "廃案",
       "house": "衆議院",
       "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE2532.htm"
     },
@@ -106116,7 +106116,7 @@
       "proposer": "神谷　宗幣君外四名",
       "proposer_party": "",
       "proposer_type": "衆法",
-      "status": "審議中",
+      "status": "廃案",
       "house": "衆議院",
       "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE254A.htm"
     },
@@ -106140,7 +106140,7 @@
       "proposer": "伊藤　孝恵君",
       "proposer_party": "",
       "proposer_type": "衆法",
-      "status": "審議中",
+      "status": "廃案",
       "house": "衆議院",
       "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE28A6.htm"
     },
@@ -106152,7 +106152,7 @@
       "proposer": "神谷　宗幣君外三名",
       "proposer_party": "",
       "proposer_type": "衆法",
-      "status": "審議中",
+      "status": "廃案",
       "house": "衆議院",
       "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE2996.htm"
     },
@@ -106164,7 +106164,7 @@
       "proposer": "高木　真理君外一名",
       "proposer_party": "",
       "proposer_type": "衆法",
-      "status": "審議中",
+      "status": "廃案",
       "house": "衆議院",
       "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE2A42.htm"
     },
@@ -106176,7 +106176,7 @@
       "proposer": "舟山　康江君外四名",
       "proposer_party": "",
       "proposer_type": "衆法",
-      "status": "審議中",
+      "status": "廃案",
       "house": "衆議院",
       "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE2A6E.htm"
     },
@@ -106188,7 +106188,7 @@
       "proposer": "石川　博崇君外三名",
       "proposer_party": "",
       "proposer_type": "衆法",
-      "status": "審議中",
+      "status": "廃案",
       "house": "衆議院",
       "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE2B02.htm"
     },
@@ -106200,7 +106200,7 @@
       "proposer": "小西　洋之君外二名",
       "proposer_party": "",
       "proposer_type": "衆法",
-      "status": "審議中",
+      "status": "廃案",
       "house": "衆議院",
       "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE2B56.htm"
     },
@@ -106212,7 +106212,7 @@
       "proposer": "小西　洋之君外三名",
       "proposer_party": "",
       "proposer_type": "衆法",
-      "status": "審議中",
+      "status": "廃案",
       "house": "衆議院",
       "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE2B72.htm"
     },
@@ -106224,7 +106224,7 @@
       "proposer": "舟山　康江君外七名",
       "proposer_party": "",
       "proposer_type": "衆法",
-      "status": "審議中",
+      "status": "廃案",
       "house": "衆議院",
       "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE2BC6.htm"
     },
@@ -106236,7 +106236,7 @@
       "proposer": "打越　さく良君外九名",
       "proposer_party": "",
       "proposer_type": "衆法",
-      "status": "審議中",
+      "status": "廃案",
       "house": "衆議院",
       "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE2B8A.htm"
     },
@@ -106248,7 +106248,7 @@
       "proposer": "原田　秀一君",
       "proposer_party": "",
       "proposer_type": "衆法",
-      "status": "審議中",
+      "status": "廃案",
       "house": "衆議院",
       "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE2BE2.htm"
     },
@@ -106272,7 +106272,7 @@
       "proposer": "伊藤　孝恵君",
       "proposer_party": "",
       "proposer_type": "衆法",
-      "status": "審議中",
+      "status": "廃案",
       "house": "衆議院",
       "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE2CC2.htm"
     },
@@ -106284,7 +106284,7 @@
       "proposer": "奥村　祥大君外一名",
       "proposer_party": "",
       "proposer_type": "衆法",
-      "status": "審議中",
+      "status": "廃案",
       "house": "衆議院",
       "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE2CDA.htm"
     },
@@ -106296,7 +106296,7 @@
       "proposer": "奥村　祥大君外一名",
       "proposer_party": "",
       "proposer_type": "衆法",
-      "status": "審議中",
+      "status": "廃案",
       "house": "衆議院",
       "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE2CF2.htm"
     },
@@ -106764,7 +106764,7 @@
       "proposer": "内閣",
       "proposer_party": "",
       "proposer_type": "閣法",
-      "status": "審議中",
+      "status": "成立",
       "house": "衆議院",
       "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE2376.htm"
     },
@@ -107052,7 +107052,7 @@
       "proposer": "内閣",
       "proposer_party": "",
       "proposer_type": "閣法",
-      "status": "審議中",
+      "status": "成立",
       "house": "衆議院",
       "url": "https://www.shugiin.go.jp/internet/itdb_gian.nsf/html/gian/keika/1DE28F2.htm"
     },
