@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-02T19:44:55.006Z",
+  "updated_at": "2026-08-09T19:07:31.849Z",
   "total_legislators": 1193,
-  "total_speeches": 19007,
+  "total_speeches": 19221,
   "legislators": {
     "東徹": {
       "party": "日本維新の会",
@@ -192,7 +192,7 @@
     },
     "小林史武": {
       "party": "",
-      "speech_count": 164,
+      "speech_count": 168,
       "bills": [
         {
           "bill_id": "house_211_7800",
@@ -1505,12 +1505,44 @@
           "date": "2024-03-29",
           "meeting": "議院運営委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15687",
+          "bill_name": "奄美群島振興開発特別措置法及び小笠原諸島振興開発特別措置法の一部を改正する法律案",
+          "issue_number": 6134,
+          "date": "2024-03-29",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15690",
+          "bill_name": "防衛省設置法等の一部を改正する法律案",
+          "issue_number": 6137,
+          "date": "2024-05-08",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15692",
+          "bill_name": "脱炭素成長型経済構造への円滑な移行のための低炭素水素等の供給及び利用の促進に関する法律案",
+          "issue_number": 6139,
+          "date": "2024-04-24",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15693",
+          "bill_name": "二酸化炭素の貯留事業に関する法律案",
+          "issue_number": 6140,
+          "date": "2024-04-24",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 164
+        "neutral": 168
       }
     },
     "細田博之": {
@@ -2358,7 +2390,7 @@
     },
     "山口俊一": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 381,
+      "speech_count": 385,
       "bills": [
         {
           "bill_id": "house_211_7800",
@@ -5407,17 +5439,49 @@
           "date": "2024-02-15",
           "meeting": "議院運営委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15686",
+          "bill_name": "雇用保険法等の一部を改正する法律案",
+          "issue_number": 6133,
+          "date": "2024-03-29",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15690",
+          "bill_name": "防衛省設置法等の一部を改正する法律案",
+          "issue_number": 6137,
+          "date": "2024-04-04",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15692",
+          "bill_name": "脱炭素成長型経済構造への円滑な移行のための低炭素水素等の供給及び利用の促進に関する法律案",
+          "issue_number": 6139,
+          "date": "2024-03-12",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15693",
+          "bill_name": "二酸化炭素の貯留事業に関する法律案",
+          "issue_number": 6140,
+          "date": "2024-03-12",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 381
+        "neutral": 385
       }
     },
     "岡田憲治": {
       "party": "",
-      "speech_count": 293,
+      "speech_count": 303,
       "bills": [
         {
           "bill_id": "house_211_7800",
@@ -7762,17 +7826,97 @@
           "date": "2024-04-11",
           "meeting": "議院運営委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15686",
+          "bill_name": "雇用保険法等の一部を改正する法律案",
+          "issue_number": 6133,
+          "date": "2024-03-29",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15687",
+          "bill_name": "奄美群島振興開発特別措置法及び小笠原諸島振興開発特別措置法の一部を改正する法律案",
+          "issue_number": 6134,
+          "date": "2024-03-19",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15688",
+          "bill_name": "広域的地域活性化のための基盤整備に関する法律の一部を改正する法律案",
+          "issue_number": 6135,
+          "date": "2024-04-25",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15689",
+          "bill_name": "特定防衛調達に係る国庫債務負担行為により支出すべき年限に関する特別措置法の一部を改正する法律案",
+          "issue_number": 6136,
+          "date": "2024-03-19",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15690",
+          "bill_name": "防衛省設置法等の一部を改正する法律案",
+          "issue_number": 6137,
+          "date": "2024-04-16",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15690",
+          "bill_name": "防衛省設置法等の一部を改正する法律案",
+          "issue_number": 6137,
+          "date": "2024-04-04",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15691",
+          "bill_name": "裁判所職員定員法の一部を改正する法律案",
+          "issue_number": 6138,
+          "date": "2024-03-19",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15692",
+          "bill_name": "脱炭素成長型経済構造への円滑な移行のための低炭素水素等の供給及び利用の促進に関する法律案",
+          "issue_number": 6139,
+          "date": "2024-04-09",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15693",
+          "bill_name": "二酸化炭素の貯留事業に関する法律案",
+          "issue_number": 6140,
+          "date": "2024-04-09",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15694",
+          "bill_name": "都市緑地法等の一部を改正する法律案",
+          "issue_number": 6141,
+          "date": "2024-05-14",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 293
+        "neutral": 303
       }
     },
     "尾辻秀久": {
       "party": "各派に属しない議員",
-      "speech_count": 295,
+      "speech_count": 307,
       "bills": [
         {
           "bill_id": "house_211_7806",
@@ -10133,12 +10277,108 @@
           "date": "2024-05-10",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15687",
+          "bill_name": "奄美群島振興開発特別措置法及び小笠原諸島振興開発特別措置法の一部を改正する法律案",
+          "issue_number": 6134,
+          "date": "2024-03-29",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15688",
+          "bill_name": "広域的地域活性化のための基盤整備に関する法律の一部を改正する法律案",
+          "issue_number": 6135,
+          "date": "2024-05-15",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15689",
+          "bill_name": "特定防衛調達に係る国庫債務負担行為により支出すべき年限に関する特別措置法の一部を改正する法律案",
+          "issue_number": 6136,
+          "date": "2024-03-28",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15690",
+          "bill_name": "防衛省設置法等の一部を改正する法律案",
+          "issue_number": 6137,
+          "date": "2024-05-10",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15690",
+          "bill_name": "防衛省設置法等の一部を改正する法律案",
+          "issue_number": 6137,
+          "date": "2024-05-08",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15691",
+          "bill_name": "裁判所職員定員法の一部を改正する法律案",
+          "issue_number": 6138,
+          "date": "2024-04-05",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15692",
+          "bill_name": "脱炭素成長型経済構造への円滑な移行のための低炭素水素等の供給及び利用の促進に関する法律案",
+          "issue_number": 6139,
+          "date": "2024-05-17",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15692",
+          "bill_name": "脱炭素成長型経済構造への円滑な移行のための低炭素水素等の供給及び利用の促進に関する法律案",
+          "issue_number": 6139,
+          "date": "2024-04-24",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15693",
+          "bill_name": "二酸化炭素の貯留事業に関する法律案",
+          "issue_number": 6140,
+          "date": "2024-05-17",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15693",
+          "bill_name": "二酸化炭素の貯留事業に関する法律案",
+          "issue_number": 6140,
+          "date": "2024-04-24",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15694",
+          "bill_name": "都市緑地法等の一部を改正する法律案",
+          "issue_number": 6141,
+          "date": "2024-05-22",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15695",
+          "bill_name": "流通業務の総合化及び効率化の促進に関する法律及び貨物自動車運送事業法の一部を改正する法律案",
+          "issue_number": 6142,
+          "date": "2024-04-26",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 295
+        "neutral": 307
       }
     },
     "古賀友一郎": {
@@ -10696,7 +10936,7 @@
     },
     "木原稔": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 81,
+      "speech_count": 91,
       "bills": [
         {
           "bill_id": "house_211_7811",
@@ -11345,12 +11585,92 @@
           "date": "2023-12-07",
           "meeting": "外交防衛委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15689",
+          "bill_name": "特定防衛調達に係る国庫債務負担行為により支出すべき年限に関する特別措置法の一部を改正する法律案",
+          "issue_number": 6136,
+          "date": "2024-03-21",
+          "meeting": "外交防衛委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15689",
+          "bill_name": "特定防衛調達に係る国庫債務負担行為により支出すべき年限に関する特別措置法の一部を改正する法律案",
+          "issue_number": 6136,
+          "date": "2024-03-12",
+          "meeting": "安全保障委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15689",
+          "bill_name": "特定防衛調達に係る国庫債務負担行為により支出すべき年限に関する特別措置法の一部を改正する法律案",
+          "issue_number": 6136,
+          "date": "2024-03-08",
+          "meeting": "安全保障委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15689",
+          "bill_name": "特定防衛調達に係る国庫債務負担行為により支出すべき年限に関する特別措置法の一部を改正する法律案",
+          "issue_number": 6136,
+          "date": "2024-03-07",
+          "meeting": "外交防衛委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15690",
+          "bill_name": "防衛省設置法等の一部を改正する法律案",
+          "issue_number": 6137,
+          "date": "2024-05-09",
+          "meeting": "外交防衛委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15690",
+          "bill_name": "防衛省設置法等の一部を改正する法律案",
+          "issue_number": 6137,
+          "date": "2024-05-08",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15690",
+          "bill_name": "防衛省設置法等の一部を改正する法律案",
+          "issue_number": 6137,
+          "date": "2024-04-04",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15690",
+          "bill_name": "防衛省設置法等の一部を改正する法律案",
+          "issue_number": 6137,
+          "date": "2024-04-04",
+          "meeting": "安全保障委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15690",
+          "bill_name": "防衛省設置法等の一部を改正する法律案",
+          "issue_number": 6137,
+          "date": "2024-03-08",
+          "meeting": "安全保障委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15690",
+          "bill_name": "防衛省設置法等の一部を改正する法律案",
+          "issue_number": 6137,
+          "date": "2024-03-07",
+          "meeting": "外交防衛委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 81
+        "neutral": 91
       }
     },
     "岡野まさ子": {
@@ -11406,7 +11726,7 @@
     },
     "斉藤鉄夫": {
       "party": "公明党",
-      "speech_count": 114,
+      "speech_count": 128,
       "bills": [
         {
           "bill_id": "house_211_7811",
@@ -12319,12 +12639,124 @@
           "date": "2024-03-13",
           "meeting": "国土交通委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15687",
+          "bill_name": "奄美群島振興開発特別措置法及び小笠原諸島振興開発特別措置法の一部を改正する法律案",
+          "issue_number": 6134,
+          "date": "2024-03-29",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15687",
+          "bill_name": "奄美群島振興開発特別措置法及び小笠原諸島振興開発特別措置法の一部を改正する法律案",
+          "issue_number": 6134,
+          "date": "2024-03-26",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15687",
+          "bill_name": "奄美群島振興開発特別措置法及び小笠原諸島振興開発特別措置法の一部を改正する法律案",
+          "issue_number": 6134,
+          "date": "2024-03-15",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15687",
+          "bill_name": "奄美群島振興開発特別措置法及び小笠原諸島振興開発特別措置法の一部を改正する法律案",
+          "issue_number": 6134,
+          "date": "2024-03-13",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15688",
+          "bill_name": "広域的地域活性化のための基盤整備に関する法律の一部を改正する法律案",
+          "issue_number": 6135,
+          "date": "2024-05-14",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15688",
+          "bill_name": "広域的地域活性化のための基盤整備に関する法律の一部を改正する法律案",
+          "issue_number": 6135,
+          "date": "2024-05-09",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15688",
+          "bill_name": "広域的地域活性化のための基盤整備に関する法律の一部を改正する法律案",
+          "issue_number": 6135,
+          "date": "2024-04-19",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15688",
+          "bill_name": "広域的地域活性化のための基盤整備に関する法律の一部を改正する法律案",
+          "issue_number": 6135,
+          "date": "2024-04-17",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15694",
+          "bill_name": "都市緑地法等の一部を改正する法律案",
+          "issue_number": 6141,
+          "date": "2024-05-21",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15694",
+          "bill_name": "都市緑地法等の一部を改正する法律案",
+          "issue_number": 6141,
+          "date": "2024-05-16",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15694",
+          "bill_name": "都市緑地法等の一部を改正する法律案",
+          "issue_number": 6141,
+          "date": "2024-05-10",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15694",
+          "bill_name": "都市緑地法等の一部を改正する法律案",
+          "issue_number": 6141,
+          "date": "2024-05-08",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15695",
+          "bill_name": "流通業務の総合化及び効率化の促進に関する法律及び貨物自動車運送事業法の一部を改正する法律案",
+          "issue_number": 6142,
+          "date": "2024-04-25",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15695",
+          "bill_name": "流通業務の総合化及び効率化の促進に関する法律及び貨物自動車運送事業法の一部を改正する法律案",
+          "issue_number": 6142,
+          "date": "2024-04-18",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 114
+        "neutral": 128
       }
     },
     "高橋千鶴子": {
@@ -17826,7 +18258,7 @@
     },
     "小泉龍司": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 73,
+      "speech_count": 79,
       "bills": [
         {
           "bill_id": "house_211_7815",
@@ -18411,12 +18843,60 @@
           "date": "2024-03-08",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15691",
+          "bill_name": "裁判所職員定員法の一部を改正する法律案",
+          "issue_number": 6138,
+          "date": "2024-04-04",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15691",
+          "bill_name": "裁判所職員定員法の一部を改正する法律案",
+          "issue_number": 6138,
+          "date": "2024-04-02",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15691",
+          "bill_name": "裁判所職員定員法の一部を改正する法律案",
+          "issue_number": 6138,
+          "date": "2024-03-15",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15691",
+          "bill_name": "裁判所職員定員法の一部を改正する法律案",
+          "issue_number": 6138,
+          "date": "2024-03-13",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15691",
+          "bill_name": "裁判所職員定員法の一部を改正する法律案",
+          "issue_number": 6138,
+          "date": "2024-03-12",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15691",
+          "bill_name": "裁判所職員定員法の一部を改正する法律案",
+          "issue_number": 6138,
+          "date": "2024-03-08",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 73
+        "neutral": 79
       }
     },
     "小山展弘": {
@@ -20885,7 +21365,7 @@
     },
     "仁比聡平": {
       "party": "日本共産党",
-      "speech_count": 60,
+      "speech_count": 61,
       "bills": [
         {
           "bill_id": "house_211_7846",
@@ -21366,12 +21846,20 @@
           "date": "2025-04-25",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15691",
+          "bill_name": "裁判所職員定員法の一部を改正する法律案",
+          "issue_number": 6138,
+          "date": "2024-04-04",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 5,
         "oppose": 7,
-        "neutral": 48
+        "neutral": 49
       }
     },
     "鈴木千明": {
@@ -26563,7 +27051,7 @@
     },
     "道下大樹": {
       "party": "立憲民主党・無所属",
-      "speech_count": 21,
+      "speech_count": 22,
       "bills": [
         {
           "bill_id": "house_211_7863",
@@ -26732,12 +27220,20 @@
           "date": "2024-03-15",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15691",
+          "bill_name": "裁判所職員定員法の一部を改正する法律案",
+          "issue_number": 6138,
+          "date": "2024-03-15",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 1,
         "oppose": 7,
-        "neutral": 13
+        "neutral": 14
       }
     },
     "越智隆雄": {
@@ -28224,7 +28720,7 @@
     },
     "階猛": {
       "party": "立憲民主党・無所属",
-      "speech_count": 52,
+      "speech_count": 54,
       "bills": [
         {
           "bill_id": "house_211_7863",
@@ -28641,12 +29137,28 @@
           "date": "2025-06-03",
           "meeting": "財務金融委員会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15689",
+          "bill_name": "特定防衛調達に係る国庫債務負担行為により支出すべき年限に関する特別措置法の一部を改正する法律案",
+          "issue_number": 6136,
+          "date": "2024-03-15",
+          "meeting": "安全保障委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15691",
+          "bill_name": "裁判所職員定員法の一部を改正する法律案",
+          "issue_number": 6138,
+          "date": "2024-03-15",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 5,
-        "neutral": 47
+        "neutral": 49
       }
     },
     "住吉寛紀": {
@@ -29816,7 +30328,7 @@
     },
     "浅尾慶一郎": {
       "party": "自由民主党",
-      "speech_count": 57,
+      "speech_count": 60,
       "bills": [
         {
           "bill_id": "house_211_7864",
@@ -30273,12 +30785,36 @@
           "date": "2024-03-13",
           "meeting": "議院運営委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15690",
+          "bill_name": "防衛省設置法等の一部を改正する法律案",
+          "issue_number": 6137,
+          "date": "2024-05-08",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15692",
+          "bill_name": "脱炭素成長型経済構造への円滑な移行のための低炭素水素等の供給及び利用の促進に関する法律案",
+          "issue_number": 6139,
+          "date": "2024-04-24",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15693",
+          "bill_name": "二酸化炭素の貯留事業に関する法律案",
+          "issue_number": 6140,
+          "date": "2024-04-24",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 4,
-        "neutral": 53
+        "neutral": 56
       }
     },
     "若松謙維": {
@@ -32143,7 +32679,7 @@
     },
     "水野素子": {
       "party": "立憲民主・社民",
-      "speech_count": 27,
+      "speech_count": 29,
       "bills": [
         {
           "bill_id": "house_211_7868",
@@ -32360,12 +32896,28 @@
           "date": "2023-11-29",
           "meeting": "文教科学委員会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15690",
+          "bill_name": "防衛省設置法等の一部を改正する法律案",
+          "issue_number": 6137,
+          "date": "2024-05-14",
+          "meeting": "外交防衛委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15690",
+          "bill_name": "防衛省設置法等の一部を改正する法律案",
+          "issue_number": 6137,
+          "date": "2024-05-08",
+          "meeting": "本会議",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 13,
-        "neutral": 14
+        "oppose": 14,
+        "neutral": 15
       }
     },
     "杉尾秀哉": {
@@ -33636,7 +34188,7 @@
     },
     "塩田博昭": {
       "party": "公明党",
-      "speech_count": 31,
+      "speech_count": 33,
       "bills": [
         {
           "bill_id": "house_211_7868",
@@ -33885,12 +34437,28 @@
           "date": "2025-06-04",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15688",
+          "bill_name": "広域的地域活性化のための基盤整備に関する法律の一部を改正する法律案",
+          "issue_number": 6135,
+          "date": "2024-05-14",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15694",
+          "bill_name": "都市緑地法等の一部を改正する法律案",
+          "issue_number": 6141,
+          "date": "2024-05-21",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 1,
         "oppose": 0,
-        "neutral": 30
+        "neutral": 32
       }
     },
     "上田清司": {
@@ -35791,8 +36359,8 @@
       }
     },
     "古賀之士": {
-      "party": "立憲民主・社民・無所属",
-      "speech_count": 29,
+      "party": "立憲民主・社民",
+      "speech_count": 31,
       "bills": [
         {
           "bill_id": "house_211_7869",
@@ -36025,12 +36593,28 @@
           "date": "2025-05-15",
           "meeting": "経済産業委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15692",
+          "bill_name": "脱炭素成長型経済構造への円滑な移行のための低炭素水素等の供給及び利用の促進に関する法律案",
+          "issue_number": 6139,
+          "date": "2024-05-16",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15693",
+          "bill_name": "二酸化炭素の貯留事業に関する法律案",
+          "issue_number": 6140,
+          "date": "2024-05-16",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 29
+        "neutral": 31
       }
     },
     "石垣のりこ": {
@@ -36937,7 +37521,7 @@
     },
     "竹谷とし子": {
       "party": "公明党",
-      "speech_count": 13,
+      "speech_count": 15,
       "bills": [
         {
           "bill_id": "house_211_7869",
@@ -37042,17 +37626,33 @@
           "date": "2025-01-29",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15692",
+          "bill_name": "脱炭素成長型経済構造への円滑な移行のための低炭素水素等の供給及び利用の促進に関する法律案",
+          "issue_number": 6139,
+          "date": "2024-05-14",
+          "meeting": "経済産業委員会、環境委員会連合審査会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15693",
+          "bill_name": "二酸化炭素の貯留事業に関する法律案",
+          "issue_number": 6140,
+          "date": "2024-05-14",
+          "meeting": "経済産業委員会、環境委員会連合審査会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 13
+        "neutral": 15
       }
     },
     "土居健太郎": {
       "party": "",
-      "speech_count": 7,
+      "speech_count": 8,
       "bills": [
         {
           "bill_id": "house_211_7869",
@@ -37109,12 +37709,20 @@
           "date": "2025-04-09",
           "meeting": "決算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15693",
+          "bill_name": "二酸化炭素の貯留事業に関する法律案",
+          "issue_number": 6140,
+          "date": "2024-02-27",
+          "meeting": "予算委員会第六分科会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 7
+        "neutral": 8
       }
     },
     "松村祥史": {
@@ -37352,7 +37960,7 @@
     },
     "岸田文雄": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 76,
+      "speech_count": 77,
       "bills": [
         {
           "bill_id": "house_211_7869",
@@ -37961,12 +38569,20 @@
           "date": "2024-03-28",
           "meeting": "予算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15686",
+          "bill_name": "雇用保険法等の一部を改正する法律案",
+          "issue_number": 6133,
+          "date": "2024-03-15",
+          "meeting": "予算委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 2,
         "oppose": 1,
-        "neutral": 73
+        "neutral": 74
       }
     },
     "河野義博": {
@@ -41813,7 +42429,7 @@
     },
     "中川康洋": {
       "party": "公明党",
-      "speech_count": 80,
+      "speech_count": 81,
       "bills": [
         {
           "bill_id": "house_211_7870",
@@ -42454,17 +43070,25 @@
           "date": "2025-03-26",
           "meeting": "政治改革に関する特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15694",
+          "bill_name": "都市緑地法等の一部を改正する法律案",
+          "issue_number": 6141,
+          "date": "2024-03-22",
+          "meeting": "環境委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 80
+        "neutral": 81
       }
     },
     "おおつき紅葉": {
       "party": "立憲民主党・無所属",
-      "speech_count": 20,
+      "speech_count": 21,
       "bills": [
         {
           "bill_id": "house_211_7871",
@@ -42625,17 +43249,25 @@
           "date": "2024-02-20",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15691",
+          "bill_name": "裁判所職員定員法の一部を改正する法律案",
+          "issue_number": 6138,
+          "date": "2024-03-15",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 20
+        "neutral": 21
       }
     },
     "小野寺真也": {
       "party": "",
-      "speech_count": 6,
+      "speech_count": 8,
       "bills": [
         {
           "bill_id": "house_211_7872",
@@ -42684,17 +43316,33 @@
           "date": "2024-03-15",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15691",
+          "bill_name": "裁判所職員定員法の一部を改正する法律案",
+          "issue_number": 6138,
+          "date": "2024-04-04",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15691",
+          "bill_name": "裁判所職員定員法の一部を改正する法律案",
+          "issue_number": 6138,
+          "date": "2024-03-15",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 6
+        "neutral": 8
       }
     },
     "佐々木さやか": {
       "party": "公明党",
-      "speech_count": 44,
+      "speech_count": 45,
       "bills": [
         {
           "bill_id": "house_211_7872",
@@ -43047,12 +43695,20 @@
           "date": "2025-06-03",
           "meeting": "国土交通委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15691",
+          "bill_name": "裁判所職員定員法の一部を改正する法律案",
+          "issue_number": 6138,
+          "date": "2024-04-04",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 44
+        "neutral": 45
       }
     },
     "杉久武": {
@@ -43908,8 +44564,8 @@
       }
     },
     "牧山ひろえ": {
-      "party": "立憲民主・社民・無所属",
-      "speech_count": 71,
+      "party": "立憲民主・社民",
+      "speech_count": 72,
       "bills": [
         {
           "bill_id": "house_211_7872",
@@ -44478,17 +45134,25 @@
           "date": "2025-05-13",
           "meeting": "経済産業委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15691",
+          "bill_name": "裁判所職員定員法の一部を改正する法律案",
+          "issue_number": 6138,
+          "date": "2024-04-04",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 5,
         "oppose": 4,
-        "neutral": 62
+        "neutral": 63
       }
     },
     "齋藤健": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 86,
+      "speech_count": 99,
       "bills": [
         {
           "bill_id": "house_211_7872",
@@ -45177,12 +45841,116 @@
           "date": "2024-05-29",
           "meeting": "経済産業委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15692",
+          "bill_name": "脱炭素成長型経済構造への円滑な移行のための低炭素水素等の供給及び利用の促進に関する法律案",
+          "issue_number": 6139,
+          "date": "2024-04-25",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15692",
+          "bill_name": "脱炭素成長型経済構造への円滑な移行のための低炭素水素等の供給及び利用の促進に関する法律案",
+          "issue_number": 6139,
+          "date": "2024-04-24",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15692",
+          "bill_name": "脱炭素成長型経済構造への円滑な移行のための低炭素水素等の供給及び利用の促進に関する法律案",
+          "issue_number": 6139,
+          "date": "2024-03-15",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15692",
+          "bill_name": "脱炭素成長型経済構造への円滑な移行のための低炭素水素等の供給及び利用の促進に関する法律案",
+          "issue_number": 6139,
+          "date": "2024-03-12",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15692",
+          "bill_name": "脱炭素成長型経済構造への円滑な移行のための低炭素水素等の供給及び利用の促進に関する法律案",
+          "issue_number": 6139,
+          "date": "2024-03-12",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15692",
+          "bill_name": "脱炭素成長型経済構造への円滑な移行のための低炭素水素等の供給及び利用の促進に関する法律案",
+          "issue_number": 6139,
+          "date": "2024-03-08",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15693",
+          "bill_name": "二酸化炭素の貯留事業に関する法律案",
+          "issue_number": 6140,
+          "date": "2024-04-25",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15693",
+          "bill_name": "二酸化炭素の貯留事業に関する法律案",
+          "issue_number": 6140,
+          "date": "2024-04-24",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15693",
+          "bill_name": "二酸化炭素の貯留事業に関する法律案",
+          "issue_number": 6140,
+          "date": "2024-03-15",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15693",
+          "bill_name": "二酸化炭素の貯留事業に関する法律案",
+          "issue_number": 6140,
+          "date": "2024-03-12",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15693",
+          "bill_name": "二酸化炭素の貯留事業に関する法律案",
+          "issue_number": 6140,
+          "date": "2024-03-12",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15693",
+          "bill_name": "二酸化炭素の貯留事業に関する法律案",
+          "issue_number": 6140,
+          "date": "2024-03-08",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15695",
+          "bill_name": "流通業務の総合化及び効率化の促進に関する法律及び貨物自動車運送事業法の一部を改正する法律案",
+          "issue_number": 6142,
+          "date": "2024-05-29",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 1,
-        "neutral": 85
+        "neutral": 98
       }
     },
     "伊藤忠彦": {
@@ -45513,7 +46281,7 @@
     },
     "本村伸子": {
       "party": "日本共産党",
-      "speech_count": 50,
+      "speech_count": 51,
       "bills": [
         {
           "bill_id": "house_211_7872",
@@ -45914,12 +46682,20 @@
           "date": "2025-04-03",
           "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15691",
+          "bill_name": "裁判所職員定員法の一部を改正する法律案",
+          "issue_number": 6138,
+          "date": "2024-03-15",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 7,
-        "neutral": 43
+        "neutral": 44
       }
     },
     "羽田次郎": {
@@ -46700,8 +47476,8 @@
       }
     },
     "村田享子": {
-      "party": "立憲民主・社民・無所属",
-      "speech_count": 20,
+      "party": "立憲民主・社民",
+      "speech_count": 22,
       "bills": [
         {
           "bill_id": "house_211_7874",
@@ -46862,11 +47638,27 @@
           "date": "2025-05-09",
           "meeting": "本会議",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15692",
+          "bill_name": "脱炭素成長型経済構造への円滑な移行のための低炭素水素等の供給及び利用の促進に関する法律案",
+          "issue_number": 6139,
+          "date": "2024-04-24",
+          "meeting": "本会議",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15693",
+          "bill_name": "二酸化炭素の貯留事業に関する法律案",
+          "issue_number": 6140,
+          "date": "2024-04-24",
+          "meeting": "本会議",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 12,
+        "oppose": 14,
         "neutral": 8
       }
     },
@@ -49576,8 +50368,8 @@
       }
     },
     "落合貴之": {
-      "party": "中道改革連合・無所属",
-      "speech_count": 22,
+      "party": "立憲民主党・無所属",
+      "speech_count": 23,
       "bills": [
         {
           "bill_id": "house_211_7874",
@@ -49754,12 +50546,20 @@
           "date": "2026-05-27",
           "meeting": "経済産業委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15692",
+          "bill_name": "脱炭素成長型経済構造への円滑な移行のための低炭素水素等の供給及び利用の促進に関する法律案",
+          "issue_number": 6139,
+          "date": "2024-03-27",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 22
+        "neutral": 23
       }
     },
     "中野洋昌": {
@@ -53927,8 +54727,8 @@
       }
     },
     "森屋隆": {
-      "party": "立憲民主・社民・無所属",
-      "speech_count": 30,
+      "party": "立憲民主・社民",
+      "speech_count": 34,
       "bills": [
         {
           "bill_id": "house_211_7880",
@@ -54169,17 +54969,49 @@
           "date": "2025-04-24",
           "meeting": "国土交通委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15687",
+          "bill_name": "奄美群島振興開発特別措置法及び小笠原諸島振興開発特別措置法の一部を改正する法律案",
+          "issue_number": 6134,
+          "date": "2024-03-29",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15688",
+          "bill_name": "広域的地域活性化のための基盤整備に関する法律の一部を改正する法律案",
+          "issue_number": 6135,
+          "date": "2024-05-14",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15694",
+          "bill_name": "都市緑地法等の一部を改正する法律案",
+          "issue_number": 6141,
+          "date": "2024-05-21",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15695",
+          "bill_name": "流通業務の総合化及び効率化の促進に関する法律及び貨物自動車運送事業法の一部を改正する法律案",
+          "issue_number": 6142,
+          "date": "2024-04-25",
+          "meeting": "国土交通委員会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 4,
-        "neutral": 26
+        "oppose": 5,
+        "neutral": 29
       }
     },
     "田村智子": {
       "party": "日本共産党",
-      "speech_count": 33,
+      "speech_count": 34,
       "bills": [
         {
           "bill_id": "house_211_7880",
@@ -54444,17 +55276,25 @@
           "date": "2025-05-14",
           "meeting": "財務金融委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15694",
+          "bill_name": "都市緑地法等の一部を改正する法律案",
+          "issue_number": 6141,
+          "date": "2024-05-21",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 4,
-        "neutral": 29
+        "neutral": 30
       }
     },
     "三上えり": {
-      "party": "立憲民主・社民・無所属",
-      "speech_count": 22,
+      "party": "立憲民主・社民",
+      "speech_count": 25,
       "bills": [
         {
           "bill_id": "house_211_7880",
@@ -54631,17 +55471,41 @@
           "date": "2025-06-12",
           "meeting": "環境委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15687",
+          "bill_name": "奄美群島振興開発特別措置法及び小笠原諸島振興開発特別措置法の一部を改正する法律案",
+          "issue_number": 6134,
+          "date": "2024-03-29",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15688",
+          "bill_name": "広域的地域活性化のための基盤整備に関する法律の一部を改正する法律案",
+          "issue_number": 6135,
+          "date": "2024-05-14",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15694",
+          "bill_name": "都市緑地法等の一部を改正する法律案",
+          "issue_number": 6141,
+          "date": "2024-05-21",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 22
+        "neutral": 25
       }
     },
     "石井苗子": {
-      "party": "日本維新の会",
-      "speech_count": 20,
+      "party": "日本維新の会・教育無償化を実現する会",
+      "speech_count": 21,
       "bills": [
         {
           "bill_id": "house_211_7880",
@@ -54802,17 +55666,25 @@
           "date": "2025-05-23",
           "meeting": "政府開発援助等及び沖縄・北方問題に関する特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15690",
+          "bill_name": "防衛省設置法等の一部を改正する法律案",
+          "issue_number": 6137,
+          "date": "2024-05-08",
+          "meeting": "本会議",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 3,
-        "oppose": 2,
+        "oppose": 3,
         "neutral": 15
       }
     },
     "嘉田由紀子": {
-      "party": "日本維新の会",
-      "speech_count": 60,
+      "party": "日本維新の会・教育無償化を実現する会",
+      "speech_count": 61,
       "bills": [
         {
           "bill_id": "house_211_7880",
@@ -55293,12 +56165,20 @@
           "date": "2025-04-23",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15694",
+          "bill_name": "都市緑地法等の一部を改正する法律案",
+          "issue_number": 6141,
+          "date": "2024-05-21",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 5,
-        "neutral": 55
+        "neutral": 56
       }
     },
     "神津たけし": {
@@ -56086,7 +56966,7 @@
     },
     "小宮山泰子": {
       "party": "立憲民主党・無所属",
-      "speech_count": 11,
+      "speech_count": 12,
       "bills": [
         {
           "bill_id": "house_211_7881",
@@ -56175,12 +57055,20 @@
           "date": "2025-03-14",
           "meeting": "国土交通委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15694",
+          "bill_name": "都市緑地法等の一部を改正する法律案",
+          "issue_number": 6141,
+          "date": "2024-05-10",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 11
+        "neutral": 12
       }
     },
     "石田東生": {
@@ -56204,7 +57092,7 @@
     },
     "長坂康正": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 58,
+      "speech_count": 65,
       "bills": [
         {
           "bill_id": "house_211_7881",
@@ -56669,12 +57557,68 @@
           "date": "2025-05-30",
           "meeting": "厚生労働委員会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15687",
+          "bill_name": "奄美群島振興開発特別措置法及び小笠原諸島振興開発特別措置法の一部を改正する法律案",
+          "issue_number": 6134,
+          "date": "2024-03-19",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15687",
+          "bill_name": "奄美群島振興開発特別措置法及び小笠原諸島振興開発特別措置法の一部を改正する法律案",
+          "issue_number": 6134,
+          "date": "2024-03-15",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15687",
+          "bill_name": "奄美群島振興開発特別措置法及び小笠原諸島振興開発特別措置法の一部を改正する法律案",
+          "issue_number": 6134,
+          "date": "2024-03-13",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15688",
+          "bill_name": "広域的地域活性化のための基盤整備に関する法律の一部を改正する法律案",
+          "issue_number": 6135,
+          "date": "2024-04-19",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15688",
+          "bill_name": "広域的地域活性化のための基盤整備に関する法律の一部を改正する法律案",
+          "issue_number": 6135,
+          "date": "2024-04-17",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15694",
+          "bill_name": "都市緑地法等の一部を改正する法律案",
+          "issue_number": 6141,
+          "date": "2024-05-10",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15694",
+          "bill_name": "都市緑地法等の一部を改正する法律案",
+          "issue_number": 6141,
+          "date": "2024-05-08",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 2,
-        "neutral": 56
+        "neutral": 63
       }
     },
     "城井崇": {
@@ -56850,7 +57794,7 @@
     },
     "山本剛正": {
       "party": "日本維新の会・教育無償化を実現する会",
-      "speech_count": 4,
+      "speech_count": 5,
       "bills": [
         {
           "bill_id": "house_211_7881",
@@ -56883,12 +57827,20 @@
           "date": "2024-03-22",
           "meeting": "経済産業委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15693",
+          "bill_name": "二酸化炭素の貯留事業に関する法律案",
+          "issue_number": 6140,
+          "date": "2024-03-22",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 4
+        "neutral": 5
       }
     },
     "川嶋貴樹": {
@@ -60868,7 +61820,7 @@
     },
     "山添拓": {
       "party": "日本共産党",
-      "speech_count": 19,
+      "speech_count": 21,
       "bills": [
         {
           "bill_id": "house_211_7882",
@@ -61021,17 +61973,33 @@
           "date": "2025-05-20",
           "meeting": "外交防衛委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15690",
+          "bill_name": "防衛省設置法等の一部を改正する法律案",
+          "issue_number": 6137,
+          "date": "2024-05-09",
+          "meeting": "外交防衛委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15690",
+          "bill_name": "防衛省設置法等の一部を改正する法律案",
+          "issue_number": 6137,
+          "date": "2024-05-08",
+          "meeting": "本会議",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 9,
-        "neutral": 10
+        "oppose": 10,
+        "neutral": 11
       }
     },
     "伊波洋一": {
       "party": "沖縄の風",
-      "speech_count": 8,
+      "speech_count": 9,
       "bills": [
         {
           "bill_id": "house_211_7882",
@@ -61096,12 +62064,20 @@
           "date": "2026-03-26",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15690",
+          "bill_name": "防衛省設置法等の一部を改正する法律案",
+          "issue_number": 6137,
+          "date": "2024-05-09",
+          "meeting": "外交防衛委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 2,
-        "neutral": 6
+        "neutral": 7
       }
     },
     "小西洋之": {
@@ -61661,7 +62637,7 @@
     },
     "重徳和彦": {
       "party": "立憲民主党・無所属",
-      "speech_count": 17,
+      "speech_count": 19,
       "bills": [
         {
           "bill_id": "house_211_7882",
@@ -61798,12 +62774,28 @@
           "date": "2025-11-21",
           "meeting": "財務金融委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15689",
+          "bill_name": "特定防衛調達に係る国庫債務負担行為により支出すべき年限に関する特別措置法の一部を改正する法律案",
+          "issue_number": 6136,
+          "date": "2024-03-15",
+          "meeting": "安全保障委員会",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15690",
+          "bill_name": "防衛省設置法等の一部を改正する法律案",
+          "issue_number": 6137,
+          "date": "2024-06-13",
+          "meeting": "安全保障委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 2,
-        "neutral": 15
+        "oppose": 3,
+        "neutral": 16
       }
     },
     "伊藤俊輔": {
@@ -61894,7 +62886,7 @@
     },
     "赤嶺政賢": {
       "party": "日本共産党",
-      "speech_count": 10,
+      "speech_count": 11,
       "bills": [
         {
           "bill_id": "house_211_7882",
@@ -61975,11 +62967,19 @@
           "date": "2025-04-18",
           "meeting": "安全保障委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15690",
+          "bill_name": "防衛省設置法等の一部を改正する法律案",
+          "issue_number": 6137,
+          "date": "2024-04-11",
+          "meeting": "安全保障委員会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 3,
+        "oppose": 4,
         "neutral": 7
       }
     },
@@ -66380,7 +67380,7 @@
     },
     "荒井優": {
       "party": "立憲民主党・無所属",
-      "speech_count": 13,
+      "speech_count": 15,
       "bills": [
         {
           "bill_id": "house_211_7884",
@@ -66485,12 +67485,28 @@
           "date": "2024-04-05",
           "meeting": "経済産業委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15692",
+          "bill_name": "脱炭素成長型経済構造への円滑な移行のための低炭素水素等の供給及び利用の促進に関する法律案",
+          "issue_number": 6139,
+          "date": "2024-04-05",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15693",
+          "bill_name": "二酸化炭素の貯留事業に関する法律案",
+          "issue_number": 6140,
+          "date": "2024-04-05",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 13
+        "neutral": 15
       }
     },
     "早坂敦": {
@@ -66693,7 +67709,7 @@
     },
     "吉良よし子": {
       "party": "日本共産党",
-      "speech_count": 33,
+      "speech_count": 34,
       "bills": [
         {
           "bill_id": "house_211_7885",
@@ -66958,12 +67974,20 @@
           "date": "2026-06-16",
           "meeting": "文教科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15695",
+          "bill_name": "流通業務の総合化及び効率化の促進に関する法律及び貨物自動車運送事業法の一部を改正する法律案",
+          "issue_number": 6142,
+          "date": "2024-04-25",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 10,
-        "neutral": 23
+        "neutral": 24
       }
     },
     "中条きよし": {
@@ -72440,7 +73464,7 @@
     },
     "田中昌史": {
       "party": "自由民主党",
-      "speech_count": 3,
+      "speech_count": 4,
       "bills": [
         {
           "bill_id": "house_211_7891",
@@ -72465,17 +73489,25 @@
           "date": "2024-04-04",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15691",
+          "bill_name": "裁判所職員定員法の一部を改正する法律案",
+          "issue_number": 6138,
+          "date": "2024-04-04",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 3
+        "neutral": 4
       }
     },
     "谷合正明": {
       "party": "公明党",
-      "speech_count": 29,
+      "speech_count": 30,
       "bills": [
         {
           "bill_id": "house_211_7891",
@@ -72708,12 +73740,20 @@
           "date": "2025-04-02",
           "meeting": "憲法審査会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15694",
+          "bill_name": "都市緑地法等の一部を改正する法律案",
+          "issue_number": 6141,
+          "date": "2024-04-11",
+          "meeting": "環境委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 29
+        "neutral": 30
       }
     },
     "漆間譲司": {
@@ -79307,7 +80347,7 @@
     },
     "谷田川元": {
       "party": "立憲民主党・無所属",
-      "speech_count": 7,
+      "speech_count": 8,
       "bills": [
         {
           "bill_id": "house_211_7906",
@@ -79364,12 +80404,20 @@
           "date": "2025-05-23",
           "meeting": "国土交通委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15688",
+          "bill_name": "広域的地域活性化のための基盤整備に関する法律の一部を改正する法律案",
+          "issue_number": 6135,
+          "date": "2024-04-19",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 7
+        "neutral": 8
       }
     },
     "小熊慎司": {
@@ -79829,7 +80877,7 @@
     },
     "野間健": {
       "party": "立憲民主党・無所属",
-      "speech_count": 12,
+      "speech_count": 13,
       "bills": [
         {
           "bill_id": "house_211_7908",
@@ -79926,12 +80974,20 @@
           "date": "2024-03-15",
           "meeting": "国土交通委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15687",
+          "bill_name": "奄美群島振興開発特別措置法及び小笠原諸島振興開発特別措置法の一部を改正する法律案",
+          "issue_number": 6134,
+          "date": "2024-03-15",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 2,
-        "neutral": 10
+        "neutral": 11
       }
     },
     "竹田智雄": {
@@ -80610,7 +81666,7 @@
     },
     "日下正喜": {
       "party": "公明党",
-      "speech_count": 13,
+      "speech_count": 16,
       "bills": [
         {
           "bill_id": "house_211_7911",
@@ -80715,12 +81771,36 @@
           "date": "2024-03-15",
           "meeting": "国土交通委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15687",
+          "bill_name": "奄美群島振興開発特別措置法及び小笠原諸島振興開発特別措置法の一部を改正する法律案",
+          "issue_number": 6134,
+          "date": "2024-03-15",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15691",
+          "bill_name": "裁判所職員定員法の一部を改正する法律案",
+          "issue_number": 6138,
+          "date": "2024-03-15",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15694",
+          "bill_name": "都市緑地法等の一部を改正する法律案",
+          "issue_number": 6141,
+          "date": "2024-05-10",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 2,
         "oppose": 0,
-        "neutral": 11
+        "neutral": 14
       }
     },
     "浅沼一成": {
@@ -82061,7 +83141,7 @@
     },
     "大西健介": {
       "party": "立憲民主党・無所属",
-      "speech_count": 35,
+      "speech_count": 36,
       "bills": [
         {
           "bill_id": "councillors_211_15314",
@@ -82342,12 +83422,20 @@
           "date": "2025-04-24",
           "meeting": "消費者問題に関する特別委員会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15686",
+          "bill_name": "雇用保険法等の一部を改正する法律案",
+          "issue_number": 6133,
+          "date": "2024-03-29",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 1,
-        "neutral": 34
+        "neutral": 35
       }
     },
     "藤原朋子": {
@@ -87948,8 +89036,8 @@
       }
     },
     "岩谷良平": {
-      "party": "日本維新の会",
-      "speech_count": 8,
+      "party": "日本維新の会・教育無償化を実現する会",
+      "speech_count": 9,
       "bills": [
         {
           "bill_id": "councillors_211_15360",
@@ -88014,10 +89102,18 @@
           "date": "2026-03-05",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15690",
+          "bill_name": "防衛省設置法等の一部を改正する法律案",
+          "issue_number": 6137,
+          "date": "2024-04-04",
+          "meeting": "本会議",
+          "stance": "賛成"
         }
       ],
       "stance_summary": {
-        "support": 3,
+        "support": 4,
         "oppose": 0,
         "neutral": 5
       }
@@ -88077,8 +89173,8 @@
       }
     },
     "小林一大": {
-      "party": "自由民主党・無所属の会",
-      "speech_count": 12,
+      "party": "自由民主党",
+      "speech_count": 14,
       "bills": [
         {
           "bill_id": "councillors_211_15360",
@@ -88175,12 +89271,28 @@
           "date": "2026-04-02",
           "meeting": "外交防衛委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15692",
+          "bill_name": "脱炭素成長型経済構造への円滑な移行のための低炭素水素等の供給及び利用の促進に関する法律案",
+          "issue_number": 6139,
+          "date": "2024-05-09",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15693",
+          "bill_name": "二酸化炭素の貯留事業に関する法律案",
+          "issue_number": 6140,
+          "date": "2024-05-09",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 12
+        "neutral": 14
       }
     },
     "井上浩之": {
@@ -95629,7 +96741,7 @@
     },
     "額賀福志郎": {
       "party": "無所属",
-      "speech_count": 534,
+      "speech_count": 544,
       "bills": [
         {
           "bill_id": "councillors_212_15437",
@@ -99902,12 +101014,92 @@
           "date": "2024-04-11",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15687",
+          "bill_name": "奄美群島振興開発特別措置法及び小笠原諸島振興開発特別措置法の一部を改正する法律案",
+          "issue_number": 6134,
+          "date": "2024-03-19",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15688",
+          "bill_name": "広域的地域活性化のための基盤整備に関する法律の一部を改正する法律案",
+          "issue_number": 6135,
+          "date": "2024-04-25",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15689",
+          "bill_name": "特定防衛調達に係る国庫債務負担行為により支出すべき年限に関する特別措置法の一部を改正する法律案",
+          "issue_number": 6136,
+          "date": "2024-03-19",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15690",
+          "bill_name": "防衛省設置法等の一部を改正する法律案",
+          "issue_number": 6137,
+          "date": "2024-04-16",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15691",
+          "bill_name": "裁判所職員定員法の一部を改正する法律案",
+          "issue_number": 6138,
+          "date": "2024-03-19",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15692",
+          "bill_name": "脱炭素成長型経済構造への円滑な移行のための低炭素水素等の供給及び利用の促進に関する法律案",
+          "issue_number": 6139,
+          "date": "2024-04-09",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15692",
+          "bill_name": "脱炭素成長型経済構造への円滑な移行のための低炭素水素等の供給及び利用の促進に関する法律案",
+          "issue_number": 6139,
+          "date": "2024-03-12",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15693",
+          "bill_name": "二酸化炭素の貯留事業に関する法律案",
+          "issue_number": 6140,
+          "date": "2024-04-09",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15693",
+          "bill_name": "二酸化炭素の貯留事業に関する法律案",
+          "issue_number": 6140,
+          "date": "2024-03-12",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15694",
+          "bill_name": "都市緑地法等の一部を改正する法律案",
+          "issue_number": 6141,
+          "date": "2024-05-14",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 4,
         "oppose": 0,
-        "neutral": 530
+        "neutral": 540
       }
     },
     "池田貴城": {
@@ -100231,7 +101423,7 @@
     },
     "武部新": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 73,
+      "speech_count": 75,
       "bills": [
         {
           "bill_id": "house_212_8039",
@@ -100816,12 +102008,28 @@
           "date": "2025-03-13",
           "meeting": "文教科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15691",
+          "bill_name": "裁判所職員定員法の一部を改正する法律案",
+          "issue_number": 6138,
+          "date": "2024-03-15",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15691",
+          "bill_name": "裁判所職員定員法の一部を改正する法律案",
+          "issue_number": 6138,
+          "date": "2024-03-13",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 73
+        "neutral": 75
       }
     },
     "簗和生": {
@@ -101902,7 +103110,7 @@
     },
     "武見敬三": {
       "party": "自由民主党",
-      "speech_count": 58,
+      "speech_count": 59,
       "bills": [
         {
           "bill_id": "house_212_8043",
@@ -102367,12 +103575,20 @@
           "date": "2024-04-03",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15686",
+          "bill_name": "雇用保険法等の一部を改正する法律案",
+          "issue_number": 6133,
+          "date": "2024-03-29",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 58
+        "neutral": 59
       }
     },
     "上田英俊": {
@@ -103586,8 +104802,8 @@
       }
     },
     "青木愛": {
-      "party": "立憲民主・無所属",
-      "speech_count": 32,
+      "party": "立憲民主・社民",
+      "speech_count": 39,
       "bills": [
         {
           "bill_id": "house_213_8161",
@@ -103844,12 +105060,68 @@
           "date": "2026-04-23",
           "meeting": "外交防衛委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15687",
+          "bill_name": "奄美群島振興開発特別措置法及び小笠原諸島振興開発特別措置法の一部を改正する法律案",
+          "issue_number": 6134,
+          "date": "2024-03-29",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15687",
+          "bill_name": "奄美群島振興開発特別措置法及び小笠原諸島振興開発特別措置法の一部を改正する法律案",
+          "issue_number": 6134,
+          "date": "2024-03-29",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15688",
+          "bill_name": "広域的地域活性化のための基盤整備に関する法律の一部を改正する法律案",
+          "issue_number": 6135,
+          "date": "2024-05-14",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15694",
+          "bill_name": "都市緑地法等の一部を改正する法律案",
+          "issue_number": 6141,
+          "date": "2024-05-21",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15695",
+          "bill_name": "流通業務の総合化及び効率化の促進に関する法律及び貨物自動車運送事業法の一部を改正する法律案",
+          "issue_number": 6142,
+          "date": "2024-04-25",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15695",
+          "bill_name": "流通業務の総合化及び効率化の促進に関する法律及び貨物自動車運送事業法の一部を改正する法律案",
+          "issue_number": 6142,
+          "date": "2024-04-23",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15695",
+          "bill_name": "流通業務の総合化及び効率化の促進に関する法律及び貨物自動車運送事業法の一部を改正する法律案",
+          "issue_number": 6142,
+          "date": "2024-04-18",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 32
+        "neutral": 39
       }
     },
     "古川禎久": {
@@ -103873,7 +105145,7 @@
     },
     "伴野豊": {
       "party": "立憲民主党・無所属",
-      "speech_count": 36,
+      "speech_count": 37,
       "bills": [
         {
           "bill_id": "house_213_8161",
@@ -104162,12 +105434,20 @@
           "date": "2025-12-17",
           "meeting": "政治改革に関する特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15688",
+          "bill_name": "広域的地域活性化のための基盤整備に関する法律の一部を改正する法律案",
+          "issue_number": 6135,
+          "date": "2024-04-19",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 36
+        "neutral": 37
       }
     },
     "大椿ゆうこ": {
@@ -104485,7 +105765,7 @@
     },
     "長友慎治": {
       "party": "国民民主党・無所属クラブ",
-      "speech_count": 35,
+      "speech_count": 36,
       "bills": [
         {
           "bill_id": "house_213_8190",
@@ -104766,12 +106046,20 @@
           "date": "2025-06-19",
           "meeting": "政治改革に関する特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15688",
+          "bill_name": "広域的地域活性化のための基盤整備に関する法律の一部を改正する法律案",
+          "issue_number": 6135,
+          "date": "2024-05-15",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 1,
-        "neutral": 34
+        "neutral": 35
       }
     },
     "勝部賢志": {
@@ -106350,7 +107638,7 @@
     },
     "中川宏昌": {
       "party": "公明党",
-      "speech_count": 27,
+      "speech_count": 28,
       "bills": [
         {
           "bill_id": "house_213_8193",
@@ -106567,17 +107855,25 @@
           "date": "2024-03-12",
           "meeting": "財務金融委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15690",
+          "bill_name": "防衛省設置法等の一部を改正する法律案",
+          "issue_number": 6137,
+          "date": "2024-04-09",
+          "meeting": "安全保障委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 2,
         "oppose": 5,
-        "neutral": 20
+        "neutral": 21
       }
     },
     "小野田紀美": {
       "party": "自由民主党",
-      "speech_count": 24,
+      "speech_count": 27,
       "bills": [
         {
           "bill_id": "house_213_8195",
@@ -106770,12 +108066,36 @@
           "date": "2024-03-29",
           "meeting": "外交防衛委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15689",
+          "bill_name": "特定防衛調達に係る国庫債務負担行為により支出すべき年限に関する特別措置法の一部を改正する法律案",
+          "issue_number": 6136,
+          "date": "2024-03-28",
+          "meeting": "本会議",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15689",
+          "bill_name": "特定防衛調達に係る国庫債務負担行為により支出すべき年限に関する特別措置法の一部を改正する法律案",
+          "issue_number": 6136,
+          "date": "2024-03-22",
+          "meeting": "外交防衛委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15690",
+          "bill_name": "防衛省設置法等の一部を改正する法律案",
+          "issue_number": 6137,
+          "date": "2024-05-09",
+          "meeting": "外交防衛委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 2,
-        "neutral": 22
+        "oppose": 3,
+        "neutral": 24
       }
     },
     "上川陽子": {
@@ -107878,7 +109198,7 @@
     },
     "清水秀行": {
       "party": "",
-      "speech_count": 6,
+      "speech_count": 7,
       "bills": [
         {
           "bill_id": "house_213_8199",
@@ -107927,17 +109247,25 @@
           "date": "2025-02-25",
           "meeting": "予算委員会公聴会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15686",
+          "bill_name": "雇用保険法等の一部を改正する法律案",
+          "issue_number": 6133,
+          "date": "2024-02-29",
+          "meeting": "予算委員会公聴会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 6,
+        "oppose": 7,
         "neutral": 0
       }
     },
     "黒田昌義": {
       "party": "",
-      "speech_count": 4,
+      "speech_count": 5,
       "bills": [
         {
           "bill_id": "house_213_8201",
@@ -107970,17 +109298,25 @@
           "date": "2024-05-14",
           "meeting": "国土交通委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15688",
+          "bill_name": "広域的地域活性化のための基盤整備に関する法律の一部を改正する法律案",
+          "issue_number": 6135,
+          "date": "2024-05-14",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 4
+        "neutral": 5
       }
     },
     "角田秀穂": {
       "party": "公明党",
-      "speech_count": 11,
+      "speech_count": 12,
       "bills": [
         {
           "bill_id": "house_213_8201",
@@ -108069,17 +109405,25 @@
           "date": "2025-04-17",
           "meeting": "消費者問題に関する特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15688",
+          "bill_name": "広域的地域活性化のための基盤整備に関する法律の一部を改正する法律案",
+          "issue_number": 6135,
+          "date": "2024-02-09",
+          "meeting": "予算委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 11
+        "neutral": 12
       }
     },
     "小泉進次郎": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 65,
+      "speech_count": 71,
       "bills": [
         {
           "bill_id": "house_213_8202",
@@ -108600,17 +109944,65 @@
           "date": "2025-05-30",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15689",
+          "bill_name": "特定防衛調達に係る国庫債務負担行為により支出すべき年限に関する特別措置法の一部を改正する法律案",
+          "issue_number": 6136,
+          "date": "2024-03-19",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15689",
+          "bill_name": "特定防衛調達に係る国庫債務負担行為により支出すべき年限に関する特別措置法の一部を改正する法律案",
+          "issue_number": 6136,
+          "date": "2024-03-15",
+          "meeting": "安全保障委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15689",
+          "bill_name": "特定防衛調達に係る国庫債務負担行為により支出すべき年限に関する特別措置法の一部を改正する法律案",
+          "issue_number": 6136,
+          "date": "2024-03-12",
+          "meeting": "安全保障委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15690",
+          "bill_name": "防衛省設置法等の一部を改正する法律案",
+          "issue_number": 6137,
+          "date": "2024-04-11",
+          "meeting": "安全保障委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15690",
+          "bill_name": "防衛省設置法等の一部を改正する法律案",
+          "issue_number": 6137,
+          "date": "2024-04-09",
+          "meeting": "安全保障委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15690",
+          "bill_name": "防衛省設置法等の一部を改正する法律案",
+          "issue_number": 6137,
+          "date": "2024-04-04",
+          "meeting": "安全保障委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 65
+        "neutral": 71
       }
     },
     "榛葉賀津也": {
       "party": "国民民主党・新緑風会",
-      "speech_count": 2,
+      "speech_count": 3,
       "bills": [
         {
           "bill_id": "house_213_8203",
@@ -108627,17 +110019,25 @@
           "date": "2024-05-08",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15690",
+          "bill_name": "防衛省設置法等の一部を改正する法律案",
+          "issue_number": 6137,
+          "date": "2024-05-08",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 2
+        "neutral": 3
       }
     },
     "新垣邦男": {
       "party": "立憲民主党・無所属",
-      "speech_count": 4,
+      "speech_count": 5,
       "bills": [
         {
           "bill_id": "house_213_8203",
@@ -108670,17 +110070,25 @@
           "date": "2025-12-08",
           "meeting": "沖縄及び北方問題に関する特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15690",
+          "bill_name": "防衛省設置法等の一部を改正する法律案",
+          "issue_number": 6137,
+          "date": "2024-04-04",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 4
+        "neutral": 5
       }
     },
     "森本真治": {
-      "party": "立憲民主・社民・無所属",
-      "speech_count": 58,
+      "party": "立憲民主・社民",
+      "speech_count": 69,
       "bills": [
         {
           "bill_id": "house_213_8205",
@@ -109145,17 +110553,105 @@
           "date": "2025-06-12",
           "meeting": "厚生労働委員会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15692",
+          "bill_name": "脱炭素成長型経済構造への円滑な移行のための低炭素水素等の供給及び利用の促進に関する法律案",
+          "issue_number": 6139,
+          "date": "2024-05-16",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15692",
+          "bill_name": "脱炭素成長型経済構造への円滑な移行のための低炭素水素等の供給及び利用の促進に関する法律案",
+          "issue_number": 6139,
+          "date": "2024-05-14",
+          "meeting": "経済産業委員会、環境委員会連合審査会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15692",
+          "bill_name": "脱炭素成長型経済構造への円滑な移行のための低炭素水素等の供給及び利用の促進に関する法律案",
+          "issue_number": 6139,
+          "date": "2024-05-09",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15692",
+          "bill_name": "脱炭素成長型経済構造への円滑な移行のための低炭素水素等の供給及び利用の促進に関する法律案",
+          "issue_number": 6139,
+          "date": "2024-05-07",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15692",
+          "bill_name": "脱炭素成長型経済構造への円滑な移行のための低炭素水素等の供給及び利用の促進に関する法律案",
+          "issue_number": 6139,
+          "date": "2024-04-25",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15693",
+          "bill_name": "二酸化炭素の貯留事業に関する法律案",
+          "issue_number": 6140,
+          "date": "2024-05-17",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15693",
+          "bill_name": "二酸化炭素の貯留事業に関する法律案",
+          "issue_number": 6140,
+          "date": "2024-05-16",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15693",
+          "bill_name": "二酸化炭素の貯留事業に関する法律案",
+          "issue_number": 6140,
+          "date": "2024-05-14",
+          "meeting": "経済産業委員会、環境委員会連合審査会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15693",
+          "bill_name": "二酸化炭素の貯留事業に関する法律案",
+          "issue_number": 6140,
+          "date": "2024-05-09",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15693",
+          "bill_name": "二酸化炭素の貯留事業に関する法律案",
+          "issue_number": 6140,
+          "date": "2024-05-07",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15693",
+          "bill_name": "二酸化炭素の貯留事業に関する法律案",
+          "issue_number": 6140,
+          "date": "2024-04-25",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 4,
-        "neutral": 54
+        "neutral": 65
       }
     },
     "三原じゅん子": {
       "party": "自由民主党",
-      "speech_count": 52,
+      "speech_count": 54,
       "bills": [
         {
           "bill_id": "house_213_8205",
@@ -109572,17 +111068,33 @@
           "date": "2025-06-06",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15692",
+          "bill_name": "脱炭素成長型経済構造への円滑な移行のための低炭素水素等の供給及び利用の促進に関する法律案",
+          "issue_number": 6139,
+          "date": "2024-05-07",
+          "meeting": "環境委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15693",
+          "bill_name": "二酸化炭素の貯留事業に関する法律案",
+          "issue_number": 6140,
+          "date": "2024-05-07",
+          "meeting": "環境委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 52
+        "neutral": 54
       }
     },
     "岡本三成": {
-      "party": "中道改革連合・無所属",
-      "speech_count": 70,
+      "party": "公明党",
+      "speech_count": 85,
       "bills": [
         {
           "bill_id": "house_213_8205",
@@ -110143,17 +111655,137 @@
           "date": "2026-03-10",
           "meeting": "財務金融委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15692",
+          "bill_name": "脱炭素成長型経済構造への円滑な移行のための低炭素水素等の供給及び利用の促進に関する法律案",
+          "issue_number": 6139,
+          "date": "2024-04-09",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15692",
+          "bill_name": "脱炭素成長型経済構造への円滑な移行のための低炭素水素等の供給及び利用の促進に関する法律案",
+          "issue_number": 6139,
+          "date": "2024-04-05",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15692",
+          "bill_name": "脱炭素成長型経済構造への円滑な移行のための低炭素水素等の供給及び利用の促進に関する法律案",
+          "issue_number": 6139,
+          "date": "2024-04-03",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15692",
+          "bill_name": "脱炭素成長型経済構造への円滑な移行のための低炭素水素等の供給及び利用の促進に関する法律案",
+          "issue_number": 6139,
+          "date": "2024-04-03",
+          "meeting": "経済産業委員会環境委員会連合審査会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15692",
+          "bill_name": "脱炭素成長型経済構造への円滑な移行のための低炭素水素等の供給及び利用の促進に関する法律案",
+          "issue_number": 6139,
+          "date": "2024-03-29",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15692",
+          "bill_name": "脱炭素成長型経済構造への円滑な移行のための低炭素水素等の供給及び利用の促進に関する法律案",
+          "issue_number": 6139,
+          "date": "2024-03-27",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15692",
+          "bill_name": "脱炭素成長型経済構造への円滑な移行のための低炭素水素等の供給及び利用の促進に関する法律案",
+          "issue_number": 6139,
+          "date": "2024-03-22",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15692",
+          "bill_name": "脱炭素成長型経済構造への円滑な移行のための低炭素水素等の供給及び利用の促進に関する法律案",
+          "issue_number": 6139,
+          "date": "2024-03-15",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15693",
+          "bill_name": "二酸化炭素の貯留事業に関する法律案",
+          "issue_number": 6140,
+          "date": "2024-04-09",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15693",
+          "bill_name": "二酸化炭素の貯留事業に関する法律案",
+          "issue_number": 6140,
+          "date": "2024-04-05",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15693",
+          "bill_name": "二酸化炭素の貯留事業に関する法律案",
+          "issue_number": 6140,
+          "date": "2024-04-03",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15693",
+          "bill_name": "二酸化炭素の貯留事業に関する法律案",
+          "issue_number": 6140,
+          "date": "2024-04-03",
+          "meeting": "経済産業委員会環境委員会連合審査会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15693",
+          "bill_name": "二酸化炭素の貯留事業に関する法律案",
+          "issue_number": 6140,
+          "date": "2024-03-27",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15693",
+          "bill_name": "二酸化炭素の貯留事業に関する法律案",
+          "issue_number": 6140,
+          "date": "2024-03-22",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15693",
+          "bill_name": "二酸化炭素の貯留事業に関する法律案",
+          "issue_number": 6140,
+          "date": "2024-03-15",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 70
+        "neutral": 85
       }
     },
     "堀井学": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 7,
+      "speech_count": 9,
       "bills": [
         {
           "bill_id": "house_213_8205",
@@ -110210,17 +111842,33 @@
           "date": "2024-04-05",
           "meeting": "経済産業委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15692",
+          "bill_name": "脱炭素成長型経済構造への円滑な移行のための低炭素水素等の供給及び利用の促進に関する法律案",
+          "issue_number": 6139,
+          "date": "2024-04-05",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15693",
+          "bill_name": "二酸化炭素の貯留事業に関する法律案",
+          "issue_number": 6140,
+          "date": "2024-04-05",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 7
+        "neutral": 9
       }
     },
     "畦元将吾": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 6,
+      "speech_count": 8,
       "bills": [
         {
           "bill_id": "house_213_8205",
@@ -110269,17 +111917,33 @@
           "date": "2024-04-03",
           "meeting": "経済産業委員会環境委員会連合審査会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15692",
+          "bill_name": "脱炭素成長型経済構造への円滑な移行のための低炭素水素等の供給及び利用の促進に関する法律案",
+          "issue_number": 6139,
+          "date": "2024-04-03",
+          "meeting": "経済産業委員会環境委員会連合審査会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15693",
+          "bill_name": "二酸化炭素の貯留事業に関する法律案",
+          "issue_number": 6140,
+          "date": "2024-04-03",
+          "meeting": "経済産業委員会環境委員会連合審査会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 6
+        "neutral": 8
       }
     },
     "務台俊介": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 19,
+      "speech_count": 21,
       "bills": [
         {
           "bill_id": "house_213_8205",
@@ -110432,17 +112096,33 @@
           "date": "2024-03-29",
           "meeting": "環境委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15692",
+          "bill_name": "脱炭素成長型経済構造への円滑な移行のための低炭素水素等の供給及び利用の促進に関する法律案",
+          "issue_number": 6139,
+          "date": "2024-03-29",
+          "meeting": "環境委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15693",
+          "bill_name": "二酸化炭素の貯留事業に関する法律案",
+          "issue_number": 6140,
+          "date": "2024-03-29",
+          "meeting": "環境委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 19
+        "neutral": 21
       }
     },
     "勝又正秀": {
       "party": "",
-      "speech_count": 4,
+      "speech_count": 5,
       "bills": [
         {
           "bill_id": "house_213_8207",
@@ -110475,17 +112155,25 @@
           "date": "2024-06-11",
           "meeting": "環境委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15694",
+          "bill_name": "都市緑地法等の一部を改正する法律案",
+          "issue_number": 6141,
+          "date": "2024-06-11",
+          "meeting": "環境委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 4
+        "neutral": 5
       }
     },
     "馬淵澄夫": {
       "party": "立憲民主党・無所属",
-      "speech_count": 9,
+      "speech_count": 10,
       "bills": [
         {
           "bill_id": "house_213_8207",
@@ -110558,17 +112246,25 @@
           "date": "2024-05-10",
           "meeting": "国土交通委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15694",
+          "bill_name": "都市緑地法等の一部を改正する法律案",
+          "issue_number": 6141,
+          "date": "2024-05-10",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 2,
         "oppose": 0,
-        "neutral": 7
+        "neutral": 8
       }
     },
     "鎌原宜文": {
       "party": "",
-      "speech_count": 4,
+      "speech_count": 5,
       "bills": [
         {
           "bill_id": "house_213_8207",
@@ -110601,17 +112297,25 @@
           "date": "2024-04-11",
           "meeting": "環境委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15694",
+          "bill_name": "都市緑地法等の一部を改正する法律案",
+          "issue_number": 6141,
+          "date": "2024-04-11",
+          "meeting": "環境委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 4
+        "neutral": 5
       }
     },
     "山影雅良": {
       "party": "",
-      "speech_count": 4,
+      "speech_count": 5,
       "bills": [
         {
           "bill_id": "house_213_8208",
@@ -110644,12 +112348,20 @@
           "date": "2024-05-24",
           "meeting": "経済産業委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15695",
+          "bill_name": "流通業務の総合化及び効率化の促進に関する法律及び貨物自動車運送事業法の一部を改正する法律案",
+          "issue_number": 6142,
+          "date": "2024-05-24",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 4
+        "neutral": 5
       }
     },
     "加藤進": {
