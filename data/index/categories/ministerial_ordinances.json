@@ -1,7 +1,7 @@
 {
   "category": "ministerial_ordinances",
   "category_name": "省令",
-  "count": 71,
+  "count": 72,
   "laws": [
     {
       "id": "508M60001000001",
@@ -397,6 +397,12 @@
       "id": "508M60000040049",
       "lawNum": "令和八年財務省令第四十九号",
       "title": "ニッケル系ステンレス冷延鋼帯及び冷延鋼板に対して課する暫定的な不当廉売関税に関する政令第一条第二項に規定する特定国等において熱延鋼帯について冷間圧延をする工程を経て製造されていない旨の証明書の提出に関する省令",
+      "category": "ministerial_ordinances"
+    },
+    {
+      "id": "508M60000002063",
+      "lawNum": "令和八年内閣府令第六十三号",
+      "title": "日本学術会議の成立時総会の招集の通知に関する内閣府令",
       "category": "ministerial_ordinances"
     },
     {
