@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-08-09T19:07:31.849Z",
-  "total_legislators": 1193,
-  "total_speeches": 19221,
+  "updated_at": "2026-08-16T18:58:30.091Z",
+  "total_legislators": 1194,
+  "total_speeches": 19488,
   "legislators": {
     "東徹": {
-      "party": "日本維新の会",
-      "speech_count": 22,
+      "party": "日本維新の会・教育無償化を実現する会",
+      "speech_count": 24,
       "bills": [
         {
           "bill_id": "house_211_7800",
@@ -182,17 +182,33 @@
           "date": "2025-04-03",
           "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15705",
+          "bill_name": "地域再生法の一部を改正する法律案",
+          "issue_number": 6148,
+          "date": "2024-06-07",
+          "meeting": "地方創生及びデジタル社会の形成等に関する特別委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15705",
+          "bill_name": "地域再生法の一部を改正する法律案",
+          "issue_number": 6148,
+          "date": "2024-04-05",
+          "meeting": "地方創生及びデジタル社会の形成等に関する特別委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 2,
-        "neutral": 20
+        "neutral": 22
       }
     },
     "小林史武": {
       "party": "",
-      "speech_count": 168,
+      "speech_count": 172,
       "bills": [
         {
           "bill_id": "house_211_7800",
@@ -1537,12 +1553,44 @@
           "date": "2024-04-24",
           "meeting": "議院運営委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-03-28",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-03-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-02-21",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-05-17",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 168
+        "neutral": 172
       }
     },
     "細田博之": {
@@ -2390,7 +2438,7 @@
     },
     "山口俊一": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 385,
+      "speech_count": 391,
       "bills": [
         {
           "bill_id": "house_211_7800",
@@ -5471,17 +5519,65 @@
           "date": "2024-03-12",
           "meeting": "議院運営委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-06-21",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-03-02",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-02-15",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-06-21",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-04-02",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15707",
+          "bill_name": "地方自治法の一部を改正する法律案",
+          "issue_number": 6150,
+          "date": "2024-06-21",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 385
+        "neutral": 391
       }
     },
     "岡田憲治": {
       "party": "",
-      "speech_count": 303,
+      "speech_count": 311,
       "bills": [
         {
           "bill_id": "house_211_7800",
@@ -7906,17 +8002,81 @@
           "date": "2024-05-14",
           "meeting": "議院運営委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15696",
+          "bill_name": "令和六年能登半島地震災害の被災者に係る所得税法及び災害被害者に対する租税の減免、徴収猶予等に関する法律の臨時特例に関する法律案",
+          "issue_number": 6144,
+          "date": "2024-02-20",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-03-02",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-02-20",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-04-19",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-04-02",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15705",
+          "bill_name": "地域再生法の一部を改正する法律案",
+          "issue_number": 6148,
+          "date": "2024-03-29",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15706",
+          "bill_name": "銃砲刀剣類所持等取締法の一部を改正する法律案",
+          "issue_number": 6149,
+          "date": "2024-04-25",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15707",
+          "bill_name": "地方自治法の一部を改正する法律案",
+          "issue_number": 6150,
+          "date": "2024-06-21",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 303
+        "neutral": 311
       }
     },
     "尾辻秀久": {
       "party": "各派に属しない議員",
-      "speech_count": 307,
+      "speech_count": 316,
       "bills": [
         {
           "bill_id": "house_211_7806",
@@ -10373,12 +10533,84 @@
           "date": "2024-04-26",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15696",
+          "bill_name": "令和六年能登半島地震災害の被災者に係る所得税法及び災害被害者に対する租税の減免、徴収猶予等に関する法律の臨時特例に関する法律案",
+          "issue_number": 6144,
+          "date": "2024-02-21",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-03-28",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-03-13",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-06-05",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-05-17",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15699",
+          "bill_name": "新たな事業の創出及び産業への投資を促進するための産業競争力強化法等の一部を改正する法律案",
+          "issue_number": 6147,
+          "date": "2024-05-31",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15705",
+          "bill_name": "地域再生法の一部を改正する法律案",
+          "issue_number": 6148,
+          "date": "2024-04-12",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15706",
+          "bill_name": "銃砲刀剣類所持等取締法の一部を改正する法律案",
+          "issue_number": 6149,
+          "date": "2024-06-07",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15707",
+          "bill_name": "地方自治法の一部を改正する法律案",
+          "issue_number": 6150,
+          "date": "2024-06-19",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 307
+        "neutral": 316
       }
     },
     "古賀友一郎": {
@@ -12761,7 +12993,7 @@
     },
     "高橋千鶴子": {
       "party": "日本共産党",
-      "speech_count": 9,
+      "speech_count": 15,
       "bills": [
         {
           "bill_id": "house_211_7811",
@@ -12834,12 +13066,60 @@
           "date": "2023-11-24",
           "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
           "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-04-19",
+          "meeting": "本会議",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-04-18",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-04-02",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15705",
+          "bill_name": "地域再生法の一部を改正する法律案",
+          "issue_number": 6148,
+          "date": "2024-04-19",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15705",
+          "bill_name": "地域再生法の一部を改正する法律案",
+          "issue_number": 6148,
+          "date": "2024-03-26",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15705",
+          "bill_name": "地域再生法の一部を改正する法律案",
+          "issue_number": 6148,
+          "date": "2024-03-22",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 1,
-        "oppose": 4,
-        "neutral": 4
+        "oppose": 7,
+        "neutral": 7
       }
     },
     "堀内丈太郎": {
@@ -13052,8 +13332,8 @@
       }
     },
     "鬼木誠": {
-      "party": "立憲民主・社民・無所属",
-      "speech_count": 43,
+      "party": "立憲民主・社民",
+      "speech_count": 44,
       "bills": [
         {
           "bill_id": "house_211_7811",
@@ -13398,17 +13678,25 @@
           "date": "2025-06-12",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-06-04",
+          "meeting": "内閣委員会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 6,
+        "oppose": 7,
         "neutral": 37
       }
     },
     "小沢雅仁": {
       "party": "立憲民主・社民",
-      "speech_count": 39,
+      "speech_count": 41,
       "bills": [
         {
           "bill_id": "house_211_7811",
@@ -13721,11 +14009,27 @@
           "date": "2024-03-28",
           "meeting": "総務委員会",
           "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-03-28",
+          "meeting": "総務委員会",
+          "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15707",
+          "bill_name": "地方自治法の一部を改正する法律案",
+          "issue_number": 6150,
+          "date": "2024-06-19",
+          "meeting": "本会議",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
-        "support": 10,
-        "oppose": 3,
+        "support": 11,
+        "oppose": 4,
         "neutral": 26
       }
     },
@@ -16074,7 +16378,7 @@
     },
     "宮本徹": {
       "party": "日本共産党",
-      "speech_count": 24,
+      "speech_count": 25,
       "bills": [
         {
           "bill_id": "house_211_7813",
@@ -16267,12 +16571,20 @@
           "date": "2024-04-10",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15707",
+          "bill_name": "地方自治法の一部を改正する法律案",
+          "issue_number": 6150,
+          "date": "2024-06-20",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 9,
-        "neutral": 15
+        "neutral": 16
       }
     },
     "本多則惠": {
@@ -16961,7 +17273,7 @@
     },
     "田中健": {
       "party": "国民民主党・無所属クラブ",
-      "speech_count": 51,
+      "speech_count": 55,
       "bills": [
         {
           "bill_id": "house_211_7814",
@@ -17370,17 +17682,49 @@
           "date": "2025-05-30",
           "meeting": "財務金融委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-04-19",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-04-18",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-04-02",
+          "meeting": "本会議",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15705",
+          "bill_name": "地域再生法の一部を改正する法律案",
+          "issue_number": 6148,
+          "date": "2024-03-22",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 10,
-        "oppose": 10,
-        "neutral": 31
+        "oppose": 12,
+        "neutral": 33
       }
     },
     "谷公一": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 87,
+      "speech_count": 100,
       "bills": [
         {
           "bill_id": "house_211_7814",
@@ -18077,17 +18421,121 @@
           "date": "2025-03-11",
           "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-06-21",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-04-18",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-04-16",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-04-11",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-04-11",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会厚生労働委員会連合審査会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-04-09",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-04-05",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-04-03",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-04-02",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15705",
+          "bill_name": "地域再生法の一部を改正する法律案",
+          "issue_number": 6148,
+          "date": "2024-03-26",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15705",
+          "bill_name": "地域再生法の一部を改正する法律案",
+          "issue_number": 6148,
+          "date": "2024-03-22",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15705",
+          "bill_name": "地域再生法の一部を改正する法律案",
+          "issue_number": 6148,
+          "date": "2024-03-19",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15707",
+          "bill_name": "地方自治法の一部を改正する法律案",
+          "issue_number": 6150,
+          "date": "2024-06-21",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 87
+        "neutral": 100
       }
     },
     "野田国義": {
       "party": "立憲民主・社民",
-      "speech_count": 20,
+      "speech_count": 21,
       "bills": [
         {
           "bill_id": "house_211_7815",
@@ -18248,12 +18696,20 @@
           "date": "2024-03-13",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-03-13",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 2,
-        "neutral": 18
+        "neutral": 19
       }
     },
     "小泉龍司": {
@@ -22321,7 +22777,7 @@
     },
     "古屋範子": {
       "party": "公明党",
-      "speech_count": 83,
+      "speech_count": 91,
       "bills": [
         {
           "bill_id": "house_211_7862",
@@ -22986,12 +23442,76 @@
           "date": "2024-02-15",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-03-02",
+          "meeting": "本会議",
+          "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-03-02",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-02-29",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-02-22",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-02-20",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-02-16",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-02-15",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15707",
+          "bill_name": "地方自治法の一部を改正する法律案",
+          "issue_number": 6150,
+          "date": "2024-06-21",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
-        "support": 9,
+        "support": 10,
         "oppose": 0,
-        "neutral": 74
+        "neutral": 81
       }
     },
     "柴愼一": {
@@ -24895,7 +25415,7 @@
     },
     "阿達雅志": {
       "party": "自由民主党",
-      "speech_count": 59,
+      "speech_count": 65,
       "bills": [
         {
           "bill_id": "house_211_7863",
@@ -25368,17 +25888,65 @@
           "date": "2024-05-21",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-06-04",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-05-30",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-05-28",
+          "meeting": "内閣委員会、厚生労働委員会連合審査会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-05-23",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-05-21",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15706",
+          "bill_name": "銃砲刀剣類所持等取締法の一部を改正する法律案",
+          "issue_number": 6149,
+          "date": "2024-06-06",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 2,
         "oppose": 0,
-        "neutral": 57
+        "neutral": 63
       }
     },
     "鈴木俊一": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 172,
+      "speech_count": 174,
       "bills": [
         {
           "bill_id": "house_211_7863",
@@ -26755,12 +27323,28 @@
           "date": "2024-02-13",
           "meeting": "財務金融委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15696",
+          "bill_name": "令和六年能登半島地震災害の被災者に係る所得税法及び災害被害者に対する租税の減免、徴収猶予等に関する法律の臨時特例に関する法律案",
+          "issue_number": 6144,
+          "date": "2024-03-07",
+          "meeting": "財政金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15696",
+          "bill_name": "令和六年能登半島地震災害の被災者に係る所得税法及び災害被害者に対する租税の減免、徴収猶予等に関する法律の臨時特例に関する法律案",
+          "issue_number": 6144,
+          "date": "2024-02-16",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 14,
-        "neutral": 158
+        "neutral": 160
       }
     },
     "浅田均": {
@@ -29162,8 +29746,8 @@
       }
     },
     "住吉寛紀": {
-      "party": "日本維新の会",
-      "speech_count": 28,
+      "party": "日本維新の会・教育無償化を実現する会",
+      "speech_count": 29,
       "bills": [
         {
           "bill_id": "house_211_7863",
@@ -29388,12 +29972,20 @@
           "date": "2023-11-17",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15706",
+          "bill_name": "銃砲刀剣類所持等取締法の一部を改正する法律案",
+          "issue_number": 6149,
+          "date": "2024-04-19",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 2,
         "oppose": 2,
-        "neutral": 24
+        "neutral": 25
       }
     },
     "石井拓": {
@@ -29717,7 +30309,7 @@
     },
     "田村貴昭": {
       "party": "日本共産党",
-      "speech_count": 75,
+      "speech_count": 76,
       "bills": [
         {
           "bill_id": "house_211_7864",
@@ -30318,17 +30910,25 @@
           "date": "2024-04-03",
           "meeting": "財務金融委員会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-05-08",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 2,
         "oppose": 23,
-        "neutral": 50
+        "neutral": 51
       }
     },
     "浅尾慶一郎": {
       "party": "自由民主党",
-      "speech_count": 60,
+      "speech_count": 62,
       "bills": [
         {
           "bill_id": "house_211_7864",
@@ -30809,12 +31409,28 @@
           "date": "2024-04-24",
           "meeting": "議院運営委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-03-13",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-05-17",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 4,
-        "neutral": 56
+        "neutral": 58
       }
     },
     "若松謙維": {
@@ -31930,7 +32546,7 @@
     },
     "吉田とも代": {
       "party": "日本維新の会",
-      "speech_count": 15,
+      "speech_count": 17,
       "bills": [
         {
           "bill_id": "house_211_7866",
@@ -32051,12 +32667,28 @@
           "date": "2024-03-02",
           "meeting": "総務委員会",
           "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-03-02",
+          "meeting": "総務委員会",
+          "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-02-29",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
-        "support": 6,
+        "support": 7,
         "oppose": 1,
-        "neutral": 8
+        "neutral": 9
       }
     },
     "山下雄平": {
@@ -32921,8 +33553,8 @@
       }
     },
     "杉尾秀哉": {
-      "party": "立憲民主・社民・無所属",
-      "speech_count": 43,
+      "party": "立憲民主・社民",
+      "speech_count": 45,
       "bills": [
         {
           "bill_id": "house_211_7868",
@@ -33267,12 +33899,28 @@
           "date": "2025-04-17",
           "meeting": "国土交通委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-06-04",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15706",
+          "bill_name": "銃砲刀剣類所持等取締法の一部を改正する法律案",
+          "issue_number": 6149,
+          "date": "2024-06-06",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 1,
         "oppose": 12,
-        "neutral": 30
+        "neutral": 32
       }
     },
     "柴田巧": {
@@ -33899,7 +34547,7 @@
     },
     "友納理緒": {
       "party": "自由民主党",
-      "speech_count": 12,
+      "speech_count": 15,
       "bills": [
         {
           "bill_id": "house_211_7868",
@@ -33996,12 +34644,36 @@
           "date": "2024-04-09",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-05-28",
+          "meeting": "内閣委員会、厚生労働委員会連合審査会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-02-21",
+          "meeting": "国民生活・経済及び地方に関する調査会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15705",
+          "bill_name": "地域再生法の一部を改正する法律案",
+          "issue_number": 6148,
+          "date": "2024-04-05",
+          "meeting": "地方創生及びデジタル社会の形成等に関する特別委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 12
+        "neutral": 15
       }
     },
     "後藤茂之": {
@@ -34957,7 +35629,7 @@
     },
     "中谷一馬": {
       "party": "立憲民主党・無所属",
-      "speech_count": 7,
+      "speech_count": 8,
       "bills": [
         {
           "bill_id": "house_211_7868",
@@ -35014,12 +35686,20 @@
           "date": "2023-11-08",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-04-18",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 7
+        "neutral": 8
       }
     },
     "青柳陽一郎": {
@@ -35083,7 +35763,7 @@
     },
     "太栄志": {
       "party": "立憲民主党・無所属",
-      "speech_count": 25,
+      "speech_count": 26,
       "bills": [
         {
           "bill_id": "house_211_7868",
@@ -35284,17 +35964,25 @@
           "date": "2025-03-26",
           "meeting": "外務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15706",
+          "bill_name": "銃砲刀剣類所持等取締法の一部を改正する法律案",
+          "issue_number": 6149,
+          "date": "2024-04-19",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 10,
         "oppose": 2,
-        "neutral": 13
+        "neutral": 14
       }
     },
     "阿部司": {
-      "party": "日本維新の会",
-      "speech_count": 35,
+      "party": "日本維新の会・教育無償化を実現する会",
+      "speech_count": 36,
       "bills": [
         {
           "bill_id": "house_211_7868",
@@ -35575,12 +36263,20 @@
           "date": "2025-03-31",
           "meeting": "本会議",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-02-22",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 7,
-        "neutral": 28
+        "neutral": 29
       }
     },
     "土田慎": {
@@ -35906,7 +36602,7 @@
     },
     "田野瀬太道": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 36,
+      "speech_count": 37,
       "bills": [
         {
           "bill_id": "house_211_7868",
@@ -36195,17 +36891,25 @@
           "date": "2025-04-10",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15707",
+          "bill_name": "地方自治法の一部を改正する法律案",
+          "issue_number": 6150,
+          "date": "2024-06-21",
+          "meeting": "文部科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 1,
         "oppose": 0,
-        "neutral": 35
+        "neutral": 36
       }
     },
     "河西宏一": {
       "party": "公明党",
-      "speech_count": 18,
+      "speech_count": 20,
       "bills": [
         {
           "bill_id": "house_211_7868",
@@ -36350,12 +37054,28 @@
           "date": "2023-11-30",
           "meeting": "憲法審査会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-04-19",
+          "meeting": "本会議",
+          "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15705",
+          "bill_name": "地域再生法の一部を改正する法律案",
+          "issue_number": 6148,
+          "date": "2024-03-22",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
-        "support": 1,
+        "support": 2,
         "oppose": 4,
-        "neutral": 13
+        "neutral": 14
       }
     },
     "古賀之士": {
@@ -36618,8 +37338,8 @@
       }
     },
     "石垣のりこ": {
-      "party": "立憲民主・社民・無所属",
-      "speech_count": 33,
+      "party": "立憲民主・社民",
+      "speech_count": 34,
       "bills": [
         {
           "bill_id": "house_211_7869",
@@ -36884,12 +37604,20 @@
           "date": "2025-06-19",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-05-17",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 1,
         "oppose": 11,
-        "neutral": 21
+        "neutral": 22
       }
     },
     "由良英雄": {
@@ -37147,7 +37875,7 @@
     },
     "岡本あき子": {
       "party": "立憲民主党・無所属",
-      "speech_count": 16,
+      "speech_count": 17,
       "bills": [
         {
           "bill_id": "house_211_7869",
@@ -37276,12 +38004,20 @@
           "date": "2023-12-07",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-04-02",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 16
+        "neutral": 17
       }
     },
     "鎌田さゆり": {
@@ -37727,7 +38463,7 @@
     },
     "松村祥史": {
       "party": "自由民主党",
-      "speech_count": 22,
+      "speech_count": 26,
       "bills": [
         {
           "bill_id": "house_211_7869",
@@ -37904,12 +38640,44 @@
           "date": "2024-02-14",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15706",
+          "bill_name": "銃砲刀剣類所持等取締法の一部を改正する法律案",
+          "issue_number": 6149,
+          "date": "2024-06-04",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15706",
+          "bill_name": "銃砲刀剣類所持等取締法の一部を改正する法律案",
+          "issue_number": 6149,
+          "date": "2024-04-17",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15706",
+          "bill_name": "銃砲刀剣類所持等取締法の一部を改正する法律案",
+          "issue_number": 6149,
+          "date": "2024-03-07",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15706",
+          "bill_name": "銃砲刀剣類所持等取締法の一部を改正する法律案",
+          "issue_number": 6149,
+          "date": "2024-02-14",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 22
+        "neutral": 26
       }
     },
     "石井正弘": {
@@ -38701,8 +39469,8 @@
       }
     },
     "岸真紀子": {
-      "party": "立憲民主・社民・無所属",
-      "speech_count": 32,
+      "party": "立憲民主・社民",
+      "speech_count": 34,
       "bills": [
         {
           "bill_id": "house_211_7870",
@@ -38959,17 +39727,33 @@
           "date": "2025-06-18",
           "meeting": "本会議",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-03-22",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15707",
+          "bill_name": "地方自治法の一部を改正する法律案",
+          "issue_number": 6150,
+          "date": "2024-06-18",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 5,
         "oppose": 11,
-        "neutral": 16
+        "neutral": 18
       }
     },
     "竹詰仁": {
       "party": "国民民主党・新緑風会",
-      "speech_count": 58,
+      "speech_count": 61,
       "bills": [
         {
           "bill_id": "house_211_7870",
@@ -39434,17 +40218,41 @@
           "date": "2025-04-24",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-06-11",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-06-04",
+          "meeting": "内閣委員会",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-05-17",
+          "meeting": "本会議",
+          "stance": "賛成"
         }
       ],
       "stance_summary": {
-        "support": 9,
-        "oppose": 16,
-        "neutral": 33
+        "support": 10,
+        "oppose": 17,
+        "neutral": 34
       }
     },
     "松本剛明": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 121,
+      "speech_count": 132,
       "bills": [
         {
           "bill_id": "house_211_7870",
@@ -40413,17 +41221,105 @@
           "date": "2024-02-13",
           "meeting": "総務委員会",
           "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-04-11",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-03-22",
+          "meeting": "総務委員会",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-03-19",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-03-13",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-03-07",
+          "meeting": "総務委員会",
+          "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-02-29",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-02-21",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-02-16",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-02-15",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-02-15",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-02-13",
+          "meeting": "総務委員会",
+          "stance": "賛成"
         }
       ],
       "stance_summary": {
-        "support": 22,
-        "oppose": 4,
-        "neutral": 95
+        "support": 24,
+        "oppose": 5,
+        "neutral": 103
       }
     },
     "池田達雄": {
       "party": "",
-      "speech_count": 14,
+      "speech_count": 18,
       "bills": [
         {
           "bill_id": "house_211_7870",
@@ -40536,12 +41432,44 @@
           "date": "2024-02-22",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-04-23",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-03-22",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-02-22",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-02-16",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 14
+        "neutral": 18
       }
     },
     "佐藤啓": {
@@ -40628,8 +41556,8 @@
       }
     },
     "片山大介": {
-      "party": "日本維新の会",
-      "speech_count": 31,
+      "party": "日本維新の会・教育無償化を実現する会",
+      "speech_count": 35,
       "bills": [
         {
           "bill_id": "house_211_7870",
@@ -40878,12 +41806,44 @@
           "date": "2025-03-27",
           "meeting": "予算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-06-05",
+          "meeting": "本会議",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-06-04",
+          "meeting": "内閣委員会",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-05-17",
+          "meeting": "本会議",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15705",
+          "bill_name": "地域再生法の一部を改正する法律案",
+          "issue_number": 6148,
+          "date": "2024-04-05",
+          "meeting": "地方創生及びデジタル社会の形成等に関する特別委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 14,
-        "neutral": 17
+        "oppose": 17,
+        "neutral": 18
       }
     },
     "浮島智子": {
@@ -41473,7 +42433,7 @@
     },
     "宮本岳志": {
       "party": "日本共産党",
-      "speech_count": 47,
+      "speech_count": 48,
       "bills": [
         {
           "bill_id": "house_211_7870",
@@ -41850,12 +42810,20 @@
           "date": "2024-03-02",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-03-02",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 5,
         "oppose": 6,
-        "neutral": 36
+        "neutral": 37
       }
     },
     "井原巧": {
@@ -42098,7 +43066,7 @@
     },
     "西岡秀子": {
       "party": "国民民主党・無所属クラブ",
-      "speech_count": 40,
+      "speech_count": 43,
       "bills": [
         {
           "bill_id": "house_211_7870",
@@ -42419,17 +43387,41 @@
           "date": "2024-03-02",
           "meeting": "総務委員会",
           "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-03-02",
+          "meeting": "総務委員会",
+          "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-02-29",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-02-16",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
-        "support": 9,
+        "support": 10,
         "oppose": 8,
-        "neutral": 23
+        "neutral": 25
       }
     },
     "中川康洋": {
       "party": "公明党",
-      "speech_count": 81,
+      "speech_count": 83,
       "bills": [
         {
           "bill_id": "house_211_7870",
@@ -43078,17 +44070,33 @@
           "date": "2024-03-22",
           "meeting": "環境委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-02-22",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-02-16",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 81
+        "neutral": 83
       }
     },
     "おおつき紅葉": {
       "party": "立憲民主党・無所属",
-      "speech_count": 21,
+      "speech_count": 22,
       "bills": [
         {
           "bill_id": "house_211_7871",
@@ -43257,12 +44265,20 @@
           "date": "2024-03-15",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-02-20",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 21
+        "neutral": 22
       }
     },
     "小野寺真也": {
@@ -43713,7 +44729,7 @@
     },
     "杉久武": {
       "party": "公明党",
-      "speech_count": 40,
+      "speech_count": 43,
       "bills": [
         {
           "bill_id": "house_211_7872",
@@ -44034,12 +45050,36 @@
           "date": "2024-04-25",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-05-17",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-05-16",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15705",
+          "bill_name": "地域再生法の一部を改正する法律案",
+          "issue_number": 6148,
+          "date": "2024-04-05",
+          "meeting": "地方創生及びデジタル社会の形成等に関する特別委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 2,
-        "neutral": 38
+        "neutral": 41
       }
     },
     "加田裕之": {
@@ -44070,8 +45110,8 @@
       }
     },
     "福島みずほ": {
-      "party": "社会民主党",
-      "speech_count": 27,
+      "party": "立憲民主・社民",
+      "speech_count": 28,
       "bills": [
         {
           "bill_id": "house_211_7872",
@@ -44288,12 +45328,20 @@
           "date": "2026-05-12",
           "meeting": "外交防衛委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15705",
+          "bill_name": "地域再生法の一部を改正する法律案",
+          "issue_number": 6148,
+          "date": "2024-04-05",
+          "meeting": "地方創生及びデジタル社会の形成等に関する特別委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 2,
         "oppose": 2,
-        "neutral": 23
+        "neutral": 24
       }
     },
     "鈴木宗男": {
@@ -48242,8 +49290,8 @@
       }
     },
     "猪瀬直樹": {
-      "party": "日本維新の会",
-      "speech_count": 20,
+      "party": "日本維新の会・教育無償化を実現する会",
+      "speech_count": 21,
       "bills": [
         {
           "bill_id": "house_211_7874",
@@ -48404,12 +49452,20 @@
           "date": "2025-06-04",
           "meeting": "本会議",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-05-10",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 6,
         "oppose": 4,
-        "neutral": 10
+        "neutral": 11
       }
     },
     "礒崎哲史": {
@@ -50564,7 +51620,7 @@
     },
     "中野洋昌": {
       "party": "公明党",
-      "speech_count": 76,
+      "speech_count": 78,
       "bills": [
         {
           "bill_id": "house_211_7874",
@@ -51173,12 +52229,28 @@
           "date": "2025-04-17",
           "meeting": "国土交通委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-04-02",
+          "meeting": "本会議",
+          "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-02-26",
+          "meeting": "予算委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
-        "support": 0,
+        "support": 1,
         "oppose": 1,
-        "neutral": 75
+        "neutral": 76
       }
     },
     "山岡達丸": {
@@ -51993,7 +53065,7 @@
     },
     "田村まみ": {
       "party": "国民民主党・新緑風会",
-      "speech_count": 36,
+      "speech_count": 38,
       "bills": [
         {
           "bill_id": "house_211_7879",
@@ -52282,12 +53354,28 @@
           "date": "2024-05-09",
           "meeting": "厚生労働委員会",
           "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-05-28",
+          "meeting": "内閣委員会、厚生労働委員会連合審査会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-05-10",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 4,
         "oppose": 5,
-        "neutral": 27
+        "neutral": 29
       }
     },
     "井上隆": {
@@ -52592,7 +53680,7 @@
     },
     "窪田哲也": {
       "party": "公明党",
-      "speech_count": 5,
+      "speech_count": 6,
       "bills": [
         {
           "bill_id": "house_211_7879",
@@ -52633,12 +53721,20 @@
           "date": "2025-04-24",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-03-12",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 5
+        "neutral": 6
       }
     },
     "中島克仁": {
@@ -53180,7 +54276,7 @@
     },
     "新谷正義": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 79,
+      "speech_count": 80,
       "bills": [
         {
           "bill_id": "house_211_7879",
@@ -53813,12 +54909,20 @@
           "date": "2024-04-03",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-04-05",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 79
+        "neutral": 80
       }
     },
     "井坂信彦": {
@@ -56421,7 +57525,7 @@
     },
     "一谷勇一郎": {
       "party": "日本維新の会・教育無償化を実現する会",
-      "speech_count": 17,
+      "speech_count": 19,
       "bills": [
         {
           "bill_id": "house_211_7880",
@@ -56558,17 +57662,33 @@
           "date": "2024-04-05",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-04-18",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-04-02",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 1,
-        "oppose": 1,
-        "neutral": 15
+        "oppose": 2,
+        "neutral": 16
       }
     },
     "足立敏之": {
       "party": "自由民主党",
-      "speech_count": 32,
+      "speech_count": 33,
       "bills": [
         {
           "bill_id": "house_211_7881",
@@ -56825,12 +57945,20 @@
           "date": "2024-04-25",
           "meeting": "財政金融委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15696",
+          "bill_name": "令和六年能登半島地震災害の被災者に係る所得税法及び災害被害者に対する租税の減免、徴収猶予等に関する法律の臨時特例に関する法律案",
+          "issue_number": 6144,
+          "date": "2024-02-21",
+          "meeting": "財政金融委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 32
+        "neutral": 33
       }
     },
     "青島健太": {
@@ -57092,7 +58220,7 @@
     },
     "長坂康正": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 65,
+      "speech_count": 66,
       "bills": [
         {
           "bill_id": "house_211_7881",
@@ -57613,17 +58741,25 @@
           "date": "2024-05-08",
           "meeting": "国土交通委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15707",
+          "bill_name": "地方自治法の一部を改正する法律案",
+          "issue_number": 6150,
+          "date": "2024-06-21",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 2,
-        "neutral": 63
+        "neutral": 64
       }
     },
     "城井崇": {
       "party": "立憲民主党・無所属",
-      "speech_count": 20,
+      "speech_count": 21,
       "bills": [
         {
           "bill_id": "house_211_7881",
@@ -57784,12 +58920,20 @@
           "date": "2025-04-16",
           "meeting": "国土交通委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15705",
+          "bill_name": "地域再生法の一部を改正する法律案",
+          "issue_number": 6148,
+          "date": "2024-03-22",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 5,
-        "neutral": 15
+        "neutral": 16
       }
     },
     "山本剛正": {
@@ -57891,7 +59035,7 @@
     },
     "岩本剛人": {
       "party": "自由民主党",
-      "speech_count": 15,
+      "speech_count": 16,
       "bills": [
         {
           "bill_id": "house_211_7882",
@@ -58012,12 +59156,20 @@
           "date": "2024-03-13",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-03-13",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 15
+        "neutral": 16
       }
     },
     "浜田靖一": {
@@ -62985,7 +64137,7 @@
     },
     "音喜多駿": {
       "party": "日本維新の会・教育無償化を実現する会",
-      "speech_count": 16,
+      "speech_count": 18,
       "bills": [
         {
           "bill_id": "house_211_7883",
@@ -63114,12 +64266,28 @@
           "date": "2024-03-22",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-03-22",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-03-05",
+          "meeting": "予算委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 1,
         "oppose": 0,
-        "neutral": 15
+        "neutral": 17
       }
     },
     "熊谷裕人": {
@@ -64837,7 +66005,7 @@
     },
     "井野俊郎": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 29,
+      "speech_count": 30,
       "bills": [
         {
           "bill_id": "house_211_7883",
@@ -65070,12 +66238,20 @@
           "date": "2024-03-02",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-03-02",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 6,
         "oppose": 0,
-        "neutral": 23
+        "neutral": 24
       }
     },
     "高橋克法": {
@@ -66599,7 +67775,7 @@
     },
     "吉川元": {
       "party": "立憲民主党・無所属",
-      "speech_count": 27,
+      "speech_count": 30,
       "bills": [
         {
           "bill_id": "house_211_7884",
@@ -66816,12 +67992,36 @@
           "date": "2024-02-29",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-04-02",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-03-02",
+          "meeting": "総務委員会",
+          "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-02-29",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
-        "support": 6,
+        "support": 7,
         "oppose": 2,
-        "neutral": 19
+        "neutral": 21
       }
     },
     "梅谷守": {
@@ -68524,7 +69724,7 @@
     },
     "高木かおり": {
       "party": "日本維新の会・教育無償化を実現する会",
-      "speech_count": 29,
+      "speech_count": 33,
       "bills": [
         {
           "bill_id": "house_211_7886",
@@ -68757,12 +69957,44 @@
           "date": "2024-03-13",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-03-28",
+          "meeting": "総務委員会",
+          "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-03-13",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15705",
+          "bill_name": "地域再生法の一部を改正する法律案",
+          "issue_number": 6148,
+          "date": "2024-03-22",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15707",
+          "bill_name": "地方自治法の一部を改正する法律案",
+          "issue_number": 6150,
+          "date": "2024-06-19",
+          "meeting": "本会議",
+          "stance": "賛成"
         }
       ],
       "stance_summary": {
-        "support": 9,
+        "support": 11,
         "oppose": 2,
-        "neutral": 18
+        "neutral": 20
       }
     },
     "浜口誠": {
@@ -69905,7 +71137,7 @@
     },
     "伊藤岳": {
       "party": "日本共産党",
-      "speech_count": 48,
+      "speech_count": 51,
       "bills": [
         {
           "bill_id": "house_211_7887",
@@ -70290,12 +71522,36 @@
           "date": "2024-03-28",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-03-28",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15705",
+          "bill_name": "地域再生法の一部を改正する法律案",
+          "issue_number": 6148,
+          "date": "2024-04-05",
+          "meeting": "地方創生及びデジタル社会の形成等に関する特別委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15707",
+          "bill_name": "地方自治法の一部を改正する法律案",
+          "issue_number": 6150,
+          "date": "2024-06-19",
+          "meeting": "本会議",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 12,
-        "neutral": 36
+        "oppose": 13,
+        "neutral": 38
       }
     },
     "泉田裕彦": {
@@ -71059,7 +72315,7 @@
     },
     "星野剛士": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 79,
+      "speech_count": 82,
       "bills": [
         {
           "bill_id": "house_211_7889",
@@ -71692,12 +72948,36 @@
           "date": "2023-12-13",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15706",
+          "bill_name": "銃砲刀剣類所持等取締法の一部を改正する法律案",
+          "issue_number": 6149,
+          "date": "2024-04-19",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15706",
+          "bill_name": "銃砲刀剣類所持等取締法の一部を改正する法律案",
+          "issue_number": 6149,
+          "date": "2024-04-17",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15707",
+          "bill_name": "地方自治法の一部を改正する法律案",
+          "issue_number": 6150,
+          "date": "2024-06-21",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 2,
         "oppose": 0,
-        "neutral": 77
+        "neutral": 80
       }
     },
     "古賀篤": {
@@ -72343,7 +73623,7 @@
     },
     "田嶋要": {
       "party": "立憲民主党・無所属",
-      "speech_count": 5,
+      "speech_count": 6,
       "bills": [
         {
           "bill_id": "house_211_7889",
@@ -72384,12 +73664,20 @@
           "date": "2024-04-23",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-04-23",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 1,
-        "neutral": 4
+        "neutral": 5
       }
     },
     "山中伸介": {
@@ -73793,7 +75081,7 @@
     },
     "平林晃": {
       "party": "公明党",
-      "speech_count": 35,
+      "speech_count": 36,
       "bills": [
         {
           "bill_id": "house_211_7891",
@@ -74074,11 +75362,19 @@
           "date": "2024-02-15",
           "meeting": "本会議",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-02-15",
+          "meeting": "本会議",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 8,
+        "oppose": 9,
         "neutral": 27
       }
     },
@@ -74958,7 +76254,7 @@
     },
     "野中厚": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 31,
+      "speech_count": 32,
       "bills": [
         {
           "bill_id": "house_211_7894",
@@ -75207,12 +76503,20 @@
           "date": "2023-12-13",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15707",
+          "bill_name": "地方自治法の一部を改正する法律案",
+          "issue_number": 6150,
+          "date": "2024-06-21",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 31
+        "neutral": 32
       }
     },
     "金子恵美": {
@@ -76441,7 +77745,7 @@
     },
     "山本博司": {
       "party": "公明党",
-      "speech_count": 13,
+      "speech_count": 14,
       "bills": [
         {
           "bill_id": "house_211_7899",
@@ -76546,12 +77850,20 @@
           "date": "2025-06-13",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-03-19",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 13
+        "neutral": 14
       }
     },
     "和田義明": {
@@ -77464,8 +78776,8 @@
       }
     },
     "中司宏": {
-      "party": "日本維新の会",
-      "speech_count": 14,
+      "party": "日本維新の会・教育無償化を実現する会",
+      "speech_count": 15,
       "bills": [
         {
           "bill_id": "house_211_7900",
@@ -77578,17 +78890,25 @@
           "date": "2025-05-19",
           "meeting": "決算行政監視委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-02-15",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 1,
         "oppose": 0,
-        "neutral": 13
+        "neutral": 14
       }
     },
     "湯原俊二": {
       "party": "立憲民主党・無所属",
-      "speech_count": 8,
+      "speech_count": 9,
       "bills": [
         {
           "bill_id": "house_211_7900",
@@ -77653,17 +78973,25 @@
           "date": "2024-02-15",
           "meeting": "本会議",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-02-15",
+          "meeting": "本会議",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 7,
+        "oppose": 8,
         "neutral": 1
       }
     },
     "広瀬めぐみ": {
       "party": "自由民主党",
-      "speech_count": 5,
+      "speech_count": 6,
       "bills": [
         {
           "bill_id": "house_211_7901",
@@ -77704,12 +79032,20 @@
           "date": "2024-04-04",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15706",
+          "bill_name": "銃砲刀剣類所持等取締法の一部を改正する法律案",
+          "issue_number": 6149,
+          "date": "2024-06-06",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 5
+        "neutral": 6
       }
     },
     "稲富修二": {
@@ -77863,8 +79199,8 @@
       }
     },
     "森英介": {
-      "party": "無所属",
-      "speech_count": 78,
+      "party": "自由民主党・無所属の会",
+      "speech_count": 79,
       "bills": [
         {
           "bill_id": "house_211_7902",
@@ -78489,12 +79825,20 @@
           "date": "2026-05-26",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15707",
+          "bill_name": "地方自治法の一部を改正する法律案",
+          "issue_number": 6150,
+          "date": "2024-06-21",
+          "meeting": "憲法審査会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 78
+        "neutral": 79
       }
     },
     "平口洋": {
@@ -80037,7 +81381,7 @@
     },
     "浜田聡": {
       "party": "ＮＨＫから国民を守る党",
-      "speech_count": 34,
+      "speech_count": 35,
       "bills": [
         {
           "bill_id": "house_211_7902",
@@ -80310,11 +81654,19 @@
           "date": "2024-03-28",
           "meeting": "総務委員会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-03-28",
+          "meeting": "総務委員会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 15,
+        "oppose": 16,
         "neutral": 19
       }
     },
@@ -80422,7 +81774,7 @@
     },
     "小熊慎司": {
       "party": "立憲民主党・無所属",
-      "speech_count": 6,
+      "speech_count": 7,
       "bills": [
         {
           "bill_id": "house_211_7906",
@@ -80471,17 +81823,25 @@
           "date": "2024-03-22",
           "meeting": "外務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15707",
+          "bill_name": "地方自治法の一部を改正する法律案",
+          "issue_number": 6150,
+          "date": "2024-06-21",
+          "meeting": "北朝鮮による拉致問題等に関する特別委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 1,
-        "neutral": 5
+        "neutral": 6
       }
     },
     "赤木正幸": {
       "party": "日本維新の会・教育無償化を実現する会",
-      "speech_count": 7,
+      "speech_count": 9,
       "bills": [
         {
           "bill_id": "house_211_7906",
@@ -80538,12 +81898,28 @@
           "date": "2024-05-29",
           "meeting": "国土交通委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-04-19",
+          "meeting": "本会議",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15705",
+          "bill_name": "地域再生法の一部を改正する法律案",
+          "issue_number": 6148,
+          "date": "2024-03-22",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 2,
-        "neutral": 5
+        "oppose": 3,
+        "neutral": 6
       }
     },
     "山本佐知子": {
@@ -80794,7 +82170,7 @@
     },
     "坂本祐之輔": {
       "party": "立憲民主党・無所属",
-      "speech_count": 9,
+      "speech_count": 11,
       "bills": [
         {
           "bill_id": "house_211_7907",
@@ -80867,12 +82243,28 @@
           "date": "2023-11-24",
           "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-04-19",
+          "meeting": "本会議",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15705",
+          "bill_name": "地域再生法の一部を改正する法律案",
+          "issue_number": 6148,
+          "date": "2024-03-22",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 4,
-        "neutral": 5
+        "oppose": 5,
+        "neutral": 6
       }
     },
     "野間健": {
@@ -82682,7 +84074,7 @@
     },
     "新妻秀規": {
       "party": "公明党",
-      "speech_count": 56,
+      "speech_count": 62,
       "bills": [
         {
           "bill_id": "councillors_211_15314",
@@ -83131,12 +84523,60 @@
           "date": "2024-03-28",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-03-28",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-03-28",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-03-22",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-03-19",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-02-21",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15707",
+          "bill_name": "地方自治法の一部を改正する法律案",
+          "issue_number": 6150,
+          "date": "2024-06-18",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 56
+        "neutral": 62
       }
     },
     "大西健介": {
@@ -83440,7 +84880,7 @@
     },
     "藤原朋子": {
       "party": "",
-      "speech_count": 12,
+      "speech_count": 13,
       "bills": [
         {
           "bill_id": "councillors_211_15314",
@@ -83537,12 +84977,20 @@
           "date": "2025-03-14",
           "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-02-27",
+          "meeting": "予算委員会第一分科会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 12
+        "neutral": 13
       }
     },
     "高木陽介": {
@@ -83566,7 +85014,7 @@
     },
     "芳賀道也": {
       "party": "国民民主党・新緑風会",
-      "speech_count": 31,
+      "speech_count": 35,
       "bills": [
         {
           "bill_id": "councillors_211_15314",
@@ -83815,12 +85263,44 @@
           "date": "2025-03-14",
           "meeting": "本会議",
           "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-06-05",
+          "meeting": "本会議",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-03-22",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-03-13",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-02-21",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 5,
-        "oppose": 5,
-        "neutral": 21
+        "oppose": 6,
+        "neutral": 24
       }
     },
     "岩佐哲也": {
@@ -83961,8 +85441,8 @@
       }
     },
     "早稲田ゆき": {
-      "party": "中道改革連合・無所属",
-      "speech_count": 12,
+      "party": "立憲民主党・無所属",
+      "speech_count": 14,
       "bills": [
         {
           "bill_id": "councillors_211_15315",
@@ -84059,12 +85539,28 @@
           "date": "2026-05-21",
           "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-04-18",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15705",
+          "bill_name": "地域再生法の一部を改正する法律案",
+          "issue_number": 6148,
+          "date": "2024-03-26",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 1,
-        "neutral": 11
+        "oppose": 2,
+        "neutral": 12
       }
     },
     "松井信憲": {
@@ -84647,8 +86143,8 @@
       }
     },
     "山本香苗": {
-      "party": "中道改革連合・無所属",
-      "speech_count": 8,
+      "party": "公明党",
+      "speech_count": 10,
       "bills": [
         {
           "bill_id": "councillors_211_15315",
@@ -84713,12 +86209,28 @@
           "date": "2026-04-24",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-04-18",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-05-28",
+          "meeting": "内閣委員会、厚生労働委員会連合審査会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 8
+        "neutral": 10
       }
     },
     "佐々木昌弘": {
@@ -85119,7 +86631,7 @@
     },
     "自見はなこ": {
       "party": "自由民主党",
-      "speech_count": 46,
+      "speech_count": 53,
       "bills": [
         {
           "bill_id": "councillors_211_15315",
@@ -85488,12 +87000,68 @@
           "date": "2023-12-08",
           "meeting": "予算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15705",
+          "bill_name": "地域再生法の一部を改正する法律案",
+          "issue_number": 6148,
+          "date": "2024-05-24",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15705",
+          "bill_name": "地域再生法の一部を改正する法律案",
+          "issue_number": 6148,
+          "date": "2024-04-05",
+          "meeting": "地方創生及びデジタル社会の形成等に関する特別委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15705",
+          "bill_name": "地域再生法の一部を改正する法律案",
+          "issue_number": 6148,
+          "date": "2024-04-03",
+          "meeting": "地方創生及びデジタル社会の形成等に関する特別委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15705",
+          "bill_name": "地域再生法の一部を改正する法律案",
+          "issue_number": 6148,
+          "date": "2024-03-22",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15705",
+          "bill_name": "地域再生法の一部を改正する法律案",
+          "issue_number": 6148,
+          "date": "2024-03-19",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15705",
+          "bill_name": "地域再生法の一部を改正する法律案",
+          "issue_number": 6148,
+          "date": "2024-03-18",
+          "meeting": "地方創生及びデジタル社会の形成等に関する特別委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15705",
+          "bill_name": "地域再生法の一部を改正する法律案",
+          "issue_number": 6148,
+          "date": "2024-03-08",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 46
+        "neutral": 53
       }
     },
     "串田誠一": {
@@ -94557,7 +96125,7 @@
     },
     "藤岡隆雄": {
       "party": "立憲民主党・無所属",
-      "speech_count": 5,
+      "speech_count": 7,
       "bills": [
         {
           "bill_id": "councillors_211_15418",
@@ -94598,12 +96166,28 @@
           "date": "2024-05-22",
           "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-04-18",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15705",
+          "bill_name": "地域再生法の一部を改正する法律案",
+          "issue_number": 6148,
+          "date": "2024-03-22",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 1,
-        "neutral": 4
+        "neutral": 6
       }
     },
     "宮本周司": {
@@ -95163,8 +96747,8 @@
       }
     },
     "岬麻紀": {
-      "party": "日本維新の会",
-      "speech_count": 7,
+      "party": "日本維新の会・教育無償化を実現する会",
+      "speech_count": 8,
       "bills": [
         {
           "bill_id": "councillors_211_15418",
@@ -95221,17 +96805,25 @@
           "date": "2024-03-27",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-04-03",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 7
+        "neutral": 8
       }
     },
     "津島淳": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 93,
+      "speech_count": 96,
       "bills": [
         {
           "bill_id": "councillors_211_15418",
@@ -95976,12 +97568,36 @@
           "date": "2024-04-05",
           "meeting": "財務金融委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15696",
+          "bill_name": "令和六年能登半島地震災害の被災者に係る所得税法及び災害被害者に対する租税の減免、徴収猶予等に関する法律の臨時特例に関する法律案",
+          "issue_number": 6144,
+          "date": "2024-02-16",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-06-21",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15707",
+          "bill_name": "地方自治法の一部を改正する法律案",
+          "issue_number": 6150,
+          "date": "2024-06-21",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 93
+        "neutral": 96
       }
     },
     "柳澤協二": {
@@ -96741,7 +98357,7 @@
     },
     "額賀福志郎": {
       "party": "無所属",
-      "speech_count": 544,
+      "speech_count": 552,
       "bills": [
         {
           "bill_id": "councillors_212_15437",
@@ -101094,12 +102710,76 @@
           "date": "2024-05-14",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15696",
+          "bill_name": "令和六年能登半島地震災害の被災者に係る所得税法及び災害被害者に対する租税の減免、徴収猶予等に関する法律の臨時特例に関する法律案",
+          "issue_number": 6144,
+          "date": "2024-02-20",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-03-02",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-02-20",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-02-15",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-04-19",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15705",
+          "bill_name": "地域再生法の一部を改正する法律案",
+          "issue_number": 6148,
+          "date": "2024-03-29",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15706",
+          "bill_name": "銃砲刀剣類所持等取締法の一部を改正する法律案",
+          "issue_number": 6149,
+          "date": "2024-04-25",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15707",
+          "bill_name": "地方自治法の一部を改正する法律案",
+          "issue_number": 6150,
+          "date": "2024-06-21",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 4,
         "oppose": 0,
-        "neutral": 540
+        "neutral": 548
       }
     },
     "池田貴城": {
@@ -101179,7 +102859,7 @@
     },
     "長谷川岳": {
       "party": "自由民主党",
-      "speech_count": 5,
+      "speech_count": 6,
       "bills": [
         {
           "bill_id": "house_212_8018",
@@ -101220,12 +102900,20 @@
           "date": "2023-11-29",
           "meeting": "地方創生及びデジタル社会の形成等に関する特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15705",
+          "bill_name": "地域再生法の一部を改正する法律案",
+          "issue_number": 6148,
+          "date": "2024-04-05",
+          "meeting": "地方創生及びデジタル社会の形成等に関する特別委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 5
+        "neutral": 6
       }
     },
     "西田昭二": {
@@ -101423,7 +103111,7 @@
     },
     "武部新": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 75,
+      "speech_count": 76,
       "bills": [
         {
           "bill_id": "house_212_8039",
@@ -102024,12 +103712,20 @@
           "date": "2024-03-13",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15707",
+          "bill_name": "地方自治法の一部を改正する法律案",
+          "issue_number": 6150,
+          "date": "2024-06-21",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 75
+        "neutral": 76
       }
     },
     "簗和生": {
@@ -102667,7 +104363,7 @@
     },
     "比嘉奈津美": {
       "party": "自由民主党",
-      "speech_count": 54,
+      "speech_count": 55,
       "bills": [
         {
           "bill_id": "house_212_8043",
@@ -103100,12 +104796,20 @@
           "date": "2024-04-23",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-05-23",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 1,
-        "neutral": 53
+        "neutral": 54
       }
     },
     "武見敬三": {
@@ -104520,7 +106224,7 @@
     },
     "加藤鮎子": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 34,
+      "speech_count": 43,
       "bills": [
         {
           "bill_id": "house_213_8148",
@@ -104793,12 +106497,84 @@
           "date": "2025-04-17",
           "meeting": "消費者問題に関する特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-05-28",
+          "meeting": "内閣委員会、厚生労働委員会連合審査会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-05-21",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-05-17",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-05-13",
+          "meeting": "決算行政監視委員会第一分科会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-05-10",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-05-08",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-04-03",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-04-02",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-04-02",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 34
+        "neutral": 43
       }
     },
     "青木愛": {
@@ -106203,7 +107979,7 @@
     },
     "上田勇": {
       "party": "公明党",
-      "speech_count": 25,
+      "speech_count": 26,
       "bills": [
         {
           "bill_id": "house_213_8190",
@@ -106404,12 +108180,20 @@
           "date": "2025-05-29",
           "meeting": "財政金融委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15696",
+          "bill_name": "令和六年能登半島地震災害の被災者に係る所得税法及び災害被害者に対する租税の減免、徴収猶予等に関する法律の臨時特例に関する法律案",
+          "issue_number": 6144,
+          "date": "2024-03-08",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 5,
         "oppose": 0,
-        "neutral": 20
+        "neutral": 21
       }
     },
     "馬場雄基": {
@@ -107349,7 +109133,7 @@
     },
     "中嶋秀樹": {
       "party": "日本維新の会・教育無償化を実現する会",
-      "speech_count": 21,
+      "speech_count": 23,
       "bills": [
         {
           "bill_id": "house_213_8191",
@@ -107518,17 +109302,33 @@
           "date": "2024-02-22",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-02-22",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-02-16",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 7,
         "oppose": 0,
-        "neutral": 14
+        "neutral": 16
       }
     },
     "保岡宏武": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 8,
+      "speech_count": 9,
       "bills": [
         {
           "bill_id": "house_213_8191",
@@ -107593,12 +109393,20 @@
           "date": "2024-02-22",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-02-22",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 8
+        "neutral": 9
       }
     },
     "英利アルフィヤ": {
@@ -108247,7 +110055,7 @@
     },
     "勝俣孝明": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 23,
+      "speech_count": 24,
       "bills": [
         {
           "bill_id": "house_213_8195",
@@ -108432,12 +110240,20 @@
           "date": "2024-03-15",
           "meeting": "外務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15707",
+          "bill_name": "地方自治法の一部を改正する法律案",
+          "issue_number": 6150,
+          "date": "2024-06-21",
+          "meeting": "外務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 23
+        "neutral": 24
       }
     },
     "穀田恵二": {
@@ -108667,7 +110483,7 @@
     },
     "生稲晃子": {
       "party": "自由民主党",
-      "speech_count": 13,
+      "speech_count": 14,
       "bills": [
         {
           "bill_id": "house_213_8198",
@@ -108772,12 +110588,20 @@
           "date": "2024-05-16",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-05-16",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 13
+        "neutral": 14
       }
     },
     "金子容三": {
@@ -108857,7 +110681,7 @@
     },
     "堀井奈津子": {
       "party": "",
-      "speech_count": 6,
+      "speech_count": 7,
       "bills": [
         {
           "bill_id": "house_213_8199",
@@ -108906,12 +110730,20 @@
           "date": "2024-05-16",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-05-16",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 6
+        "neutral": 7
       }
     },
     "水島郁子": {
@@ -109139,7 +110971,7 @@
     },
     "山田雅彦": {
       "party": "",
-      "speech_count": 6,
+      "speech_count": 8,
       "bills": [
         {
           "bill_id": "house_213_8199",
@@ -109188,17 +111020,33 @@
           "date": "2024-04-05",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-05-16",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-04-05",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 6
+        "neutral": 8
       }
     },
     "清水秀行": {
       "party": "",
-      "speech_count": 7,
+      "speech_count": 8,
       "bills": [
         {
           "bill_id": "house_213_8199",
@@ -109255,11 +111103,19 @@
           "date": "2024-02-29",
           "meeting": "予算委員会公聴会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-02-29",
+          "meeting": "予算委員会公聴会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 7,
+        "oppose": 8,
         "neutral": 0
       }
     },
@@ -110088,7 +111944,7 @@
     },
     "森本真治": {
       "party": "立憲民主・社民",
-      "speech_count": 69,
+      "speech_count": 70,
       "bills": [
         {
           "bill_id": "house_213_8205",
@@ -110641,11 +112497,19 @@
           "date": "2024-04-25",
           "meeting": "経済産業委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15699",
+          "bill_name": "新たな事業の創出及び産業への投資を促進するための産業競争力強化法等の一部を改正する法律案",
+          "issue_number": 6147,
+          "date": "2024-05-31",
+          "meeting": "本会議",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 4,
+        "oppose": 5,
         "neutral": 65
       }
     },
@@ -111094,7 +112958,7 @@
     },
     "岡本三成": {
       "party": "公明党",
-      "speech_count": 85,
+      "speech_count": 86,
       "bills": [
         {
           "bill_id": "house_213_8205",
@@ -111775,12 +113639,20 @@
           "date": "2024-03-15",
           "meeting": "経済産業委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15707",
+          "bill_name": "地方自治法の一部を改正する法律案",
+          "issue_number": 6150,
+          "date": "2024-06-21",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 85
+        "neutral": 86
       }
     },
     "堀井学": {
@@ -111943,7 +113815,7 @@
     },
     "務台俊介": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 21,
+      "speech_count": 22,
       "bills": [
         {
           "bill_id": "house_213_8205",
@@ -112112,12 +113984,20 @@
           "date": "2024-03-29",
           "meeting": "環境委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15707",
+          "bill_name": "地方自治法の一部を改正する法律案",
+          "issue_number": 6150,
+          "date": "2024-06-21",
+          "meeting": "環境委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 21
+        "neutral": 22
       }
     },
     "勝又正秀": {
@@ -112366,7 +114246,7 @@
     },
     "加藤進": {
       "party": "",
-      "speech_count": 4,
+      "speech_count": 5,
       "bills": [
         {
           "bill_id": "house_213_8210",
@@ -112399,17 +114279,25 @@
           "date": "2024-06-13",
           "meeting": "国土交通委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-06-13",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 4
+        "neutral": 5
       }
     },
     "本多滝夫": {
       "party": "",
-      "speech_count": 5,
+      "speech_count": 6,
       "bills": [
         {
           "bill_id": "house_213_8210",
@@ -112450,17 +114338,25 @@
           "date": "2024-06-11",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-06-11",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 5
+        "neutral": 6
       }
     },
     "鈴木清": {
       "party": "",
-      "speech_count": 7,
+      "speech_count": 9,
       "bills": [
         {
           "bill_id": "house_213_8210",
@@ -112517,17 +114413,33 @@
           "date": "2024-03-21",
           "meeting": "災害対策特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-06-11",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-03-21",
+          "meeting": "災害対策特別委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 7
+        "neutral": 9
       }
     },
     "宮崎政久": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 60,
+      "speech_count": 61,
       "bills": [
         {
           "bill_id": "house_213_8210",
@@ -113008,17 +114920,25 @@
           "date": "2025-04-11",
           "meeting": "経済産業委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-04-18",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 60
+        "neutral": 61
       }
     },
     "林星一": {
       "party": "",
-      "speech_count": 4,
+      "speech_count": 5,
       "bills": [
         {
           "bill_id": "house_213_8210",
@@ -113051,17 +114971,25 @@
           "date": "2024-04-11",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-04-11",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 4
+        "neutral": 5
       }
     },
     "定光裕樹": {
       "party": "",
-      "speech_count": 4,
+      "speech_count": 5,
       "bills": [
         {
           "bill_id": "house_213_8210",
@@ -113094,17 +115022,25 @@
           "date": "2024-04-05",
           "meeting": "経済産業委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-04-05",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 4
+        "neutral": 5
       }
     },
     "船橋利実": {
       "party": "自由民主党",
-      "speech_count": 34,
+      "speech_count": 36,
       "bills": [
         {
           "bill_id": "house_213_8210",
@@ -113377,17 +115313,33 @@
           "date": "2025-05-29",
           "meeting": "財政金融委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-03-22",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-03-13",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 34
+        "neutral": 36
       }
     },
     "西野太亮": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 4,
+      "speech_count": 5,
       "bills": [
         {
           "bill_id": "house_213_8210",
@@ -113420,12 +115372,20 @@
           "date": "2026-04-14",
           "meeting": "環境委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15697",
+          "bill_name": "地方税法の一部を改正する法律案",
+          "issue_number": 6145,
+          "date": "2024-02-22",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 4
+        "neutral": 5
       }
     },
     "滝波宏文": {
@@ -114066,7 +116026,7 @@
     },
     "吉田健一郎": {
       "party": "",
-      "speech_count": 1,
+      "speech_count": 2,
       "bills": [
         {
           "bill_id": "house_213_8218",
@@ -114075,17 +116035,25 @@
           "date": "2024-05-30",
           "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15705",
+          "bill_name": "地域再生法の一部を改正する法律案",
+          "issue_number": 6148,
+          "date": "2024-05-30",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 1
+        "neutral": 2
       }
     },
     "佐々木正士郎": {
       "party": "",
-      "speech_count": 2,
+      "speech_count": 4,
       "bills": [
         {
           "bill_id": "house_213_8218",
@@ -114102,22 +116070,19 @@
           "date": "2024-03-22",
           "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
           "stance": "中立"
-        }
-      ],
-      "stance_summary": {
-        "support": 0,
-        "oppose": 0,
-        "neutral": 2
-      }
-    },
-    "佐々木俊一": {
-      "party": "",
-      "speech_count": 1,
-      "bills": [
+        },
         {
-          "bill_id": "house_213_8218",
+          "bill_id": "councillors_213_15705",
           "bill_name": "地域再生法の一部を改正する法律案",
-          "issue_number": 1678,
+          "issue_number": 6148,
+          "date": "2024-04-05",
+          "meeting": "地方創生及びデジタル社会の形成等に関する特別委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15705",
+          "bill_name": "地域再生法の一部を改正する法律案",
+          "issue_number": 6148,
           "date": "2024-03-22",
           "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
           "stance": "中立"
@@ -114126,12 +116091,39 @@
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 1
+        "neutral": 4
+      }
+    },
+    "佐々木俊一": {
+      "party": "",
+      "speech_count": 2,
+      "bills": [
+        {
+          "bill_id": "house_213_8218",
+          "bill_name": "地域再生法の一部を改正する法律案",
+          "issue_number": 1678,
+          "date": "2024-03-22",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15705",
+          "bill_name": "地域再生法の一部を改正する法律案",
+          "issue_number": 6148,
+          "date": "2024-03-22",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
+        }
+      ],
+      "stance_summary": {
+        "support": 0,
+        "oppose": 0,
+        "neutral": 2
       }
     },
     "舟本浩": {
       "party": "",
-      "speech_count": 2,
+      "speech_count": 3,
       "bills": [
         {
           "bill_id": "house_213_8218",
@@ -114148,17 +116140,25 @@
           "date": "2024-04-12",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15705",
+          "bill_name": "地域再生法の一部を改正する法律案",
+          "issue_number": 6148,
+          "date": "2024-03-22",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 2
+        "neutral": 3
       }
     },
     "中村広樹": {
       "party": "",
-      "speech_count": 2,
+      "speech_count": 4,
       "bills": [
         {
           "bill_id": "house_213_8218",
@@ -114175,17 +116175,33 @@
           "date": "2024-02-27",
           "meeting": "予算委員会第八分科会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15705",
+          "bill_name": "地域再生法の一部を改正する法律案",
+          "issue_number": 6148,
+          "date": "2024-02-28",
+          "meeting": "予算委員会第七分科会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15705",
+          "bill_name": "地域再生法の一部を改正する法律案",
+          "issue_number": 6148,
+          "date": "2024-02-27",
+          "meeting": "予算委員会第八分科会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 2
+        "neutral": 4
       }
     },
     "秋葉賢也": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 8,
+      "speech_count": 9,
       "bills": [
         {
           "bill_id": "house_213_8220",
@@ -114250,17 +116266,25 @@
           "date": "2023-12-13",
           "meeting": "消費者問題に関する特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15707",
+          "bill_name": "地方自治法の一部を改正する法律案",
+          "issue_number": 6150,
+          "date": "2024-06-21",
+          "meeting": "消費者問題に関する特別委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 8
+        "neutral": 9
       }
     },
     "石田真敏": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 4,
+      "speech_count": 5,
       "bills": [
         {
           "bill_id": "house_213_8220",
@@ -114293,17 +116317,25 @@
           "date": "2025-05-29",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15707",
+          "bill_name": "地方自治法の一部を改正する法律案",
+          "issue_number": 6150,
+          "date": "2024-06-21",
+          "meeting": "政治改革に関する特別委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 4
+        "neutral": 5
       }
     },
     "高階恵美子": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 2,
+      "speech_count": 3,
       "bills": [
         {
           "bill_id": "house_213_8220",
@@ -114320,17 +116352,25 @@
           "date": "2026-04-09",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15707",
+          "bill_name": "地方自治法の一部を改正する法律案",
+          "issue_number": 6150,
+          "date": "2024-06-21",
+          "meeting": "東日本大震災復興特別委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 2
+        "neutral": 3
       }
     },
     "泉健太": {
       "party": "立憲民主党・無所属",
-      "speech_count": 23,
+      "speech_count": 25,
       "bills": [
         {
           "bill_id": "house_213_8220",
@@ -114515,17 +116555,33 @@
           "date": "2023-12-13",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-06-20",
+          "meeting": "本会議",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15707",
+          "bill_name": "地方自治法の一部を改正する法律案",
+          "issue_number": 6150,
+          "date": "2024-06-20",
+          "meeting": "本会議",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 5,
+        "oppose": 7,
         "neutral": 18
       }
     },
     "高橋宏治": {
       "party": "",
-      "speech_count": 1,
+      "speech_count": 2,
       "bills": [
         {
           "bill_id": "house_213_8220",
@@ -114534,12 +116590,20 @@
           "date": "2024-06-18",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15707",
+          "bill_name": "地方自治法の一部を改正する法律案",
+          "issue_number": 6150,
+          "date": "2024-06-18",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 1
+        "neutral": 2
       }
     },
     "山野謙": {
@@ -131202,8 +133266,8 @@
       }
     },
     "奥村政佳": {
-      "party": "立憲民主・社民・無所属",
-      "speech_count": 14,
+      "party": "立憲民主・社民",
+      "speech_count": 15,
       "bills": [
         {
           "bill_id": "councillors_216_15900",
@@ -131316,12 +133380,20 @@
           "date": "2025-04-17",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-05-28",
+          "meeting": "内閣委員会、厚生労働委員会連合審査会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 2,
-        "neutral": 12
+        "neutral": 13
       }
     },
     "大門実紀史": {
@@ -146457,8 +148529,8 @@
       }
     },
     "輿水恵一": {
-      "party": "中道改革連合・無所属",
-      "speech_count": 5,
+      "party": "公明党",
+      "speech_count": 6,
       "bills": [
         {
           "bill_id": "house_213_8211",
@@ -146499,17 +148571,25 @@
           "date": "2026-05-29",
           "meeting": "環境委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-06-20",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 5
+        "neutral": 6
       }
     },
     "黒瀬敏文": {
       "party": "",
-      "speech_count": 2,
+      "speech_count": 3,
       "bills": [
         {
           "bill_id": "house_213_8211",
@@ -146526,17 +148606,25 @@
           "date": "2024-06-07",
           "meeting": "地方創生及びデジタル社会の形成等に関する特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-06-07",
+          "meeting": "地方創生及びデジタル社会の形成等に関する特別委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 2
+        "neutral": 3
       }
     },
     "木村英子": {
       "party": "れいわ新選組",
-      "speech_count": 11,
+      "speech_count": 12,
       "bills": [
         {
           "bill_id": "house_213_8211",
@@ -146625,17 +148713,25 @@
           "date": "2025-04-24",
           "meeting": "国土交通委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-06-04",
+          "meeting": "内閣委員会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 1,
-        "oppose": 4,
+        "oppose": 5,
         "neutral": 6
       }
     },
     "熊木正人": {
       "party": "",
-      "speech_count": 2,
+      "speech_count": 5,
       "bills": [
         {
           "bill_id": "house_213_8211",
@@ -146652,12 +148748,36 @@
           "date": "2024-05-23",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-05-23",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-04-04",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-03-26",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 2
+        "neutral": 5
       }
     },
     "小笠原陽一": {
@@ -147221,7 +149341,7 @@
     },
     "勝目康": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 11,
+      "speech_count": 12,
       "bills": [
         {
           "bill_id": "house_213_8224",
@@ -147310,12 +149430,20 @@
           "date": "2026-04-15",
           "meeting": "厚生労働委員会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-02-27",
+          "meeting": "予算委員会第一分科会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 1,
-        "neutral": 10
+        "neutral": 11
       }
     },
     "安彦広斉": {
@@ -166885,6 +169013,25 @@
           "issue_number": 6092,
           "date": "2025-04-15",
           "meeting": "国土交通委員会",
+          "stance": "中立"
+        }
+      ],
+      "stance_summary": {
+        "support": 0,
+        "oppose": 0,
+        "neutral": 1
+      }
+    },
+    "田中英之": {
+      "party": "自由民主党・無所属の会",
+      "speech_count": 1,
+      "bills": [
+        {
+          "bill_id": "councillors_213_15698",
+          "bill_name": "子ども・子育て支援法等の一部を改正する法律案",
+          "issue_number": 6146,
+          "date": "2024-04-02",
+          "meeting": "本会議",
           "stance": "中立"
         }
       ],
