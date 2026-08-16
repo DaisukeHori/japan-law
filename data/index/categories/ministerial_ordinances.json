@@ -1,7 +1,7 @@
 {
   "category": "ministerial_ordinances",
   "category_name": "省令",
-  "count": 72,
+  "count": 73,
   "laws": [
     {
       "id": "508M60001000001",
@@ -406,15 +406,21 @@
       "category": "ministerial_ordinances"
     },
     {
-      "id": "505RPMD08140002",
-      "lawNum": "令和五年八月十四日内閣総理大臣決定",
-      "title": "内閣感染症危機管理統括庁組織規則",
+      "id": "508M60000102013",
+      "lawNum": "令和八年内閣府・厚生労働省令第十三号",
+      "title": "地方公共団体情報システムの標準化に関する法律第二条第一項に規定する標準化対象事務を定める政令に規定するデジタル庁令・総務省令で定める事務を定める命令第九条各号に規定する事務の処理に係るシステムに必要とされる機能等に関する標準化基準を定める命令",
       "category": "ministerial_ordinances"
     },
     {
       "id": "505RPMD08140003",
       "lawNum": "令和五年八月十四日内閣総理大臣決定",
       "title": "内閣感染症危機管理統括庁に感染症危機管理統括審議官を置く規則",
+      "category": "ministerial_ordinances"
+    },
+    {
+      "id": "505RPMD08140002",
+      "lawNum": "令和五年八月十四日内閣総理大臣決定",
+      "title": "内閣感染症危機管理統括庁組織規則",
       "category": "ministerial_ordinances"
     },
     {
