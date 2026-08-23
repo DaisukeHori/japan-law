@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-16T18:58:29.864Z",
+  "updated_at": "2026-08-23T19:00:35.877Z",
   "issues": {
     "house_211_7800": 1340,
     "house_211_7806": 1341,
@@ -1398,6 +1398,8 @@
     "councillors_213_15698": 6146,
     "councillors_213_15699": 6147,
     "councillors_213_15705": 6148,
-    "councillors_213_15706": 6149
+    "councillors_213_15706": 6149,
+    "councillors_213_15700": 6151,
+    "councillors_213_15710": 6152
   }
 }

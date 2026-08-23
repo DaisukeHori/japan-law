@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-16T18:58:30.091Z",
+  "updated_at": "2026-08-23T19:00:36.109Z",
   "total_legislators": 1194,
-  "total_speeches": 19488,
+  "total_speeches": 19601,
   "legislators": {
     "東徹": {
       "party": "日本維新の会・教育無償化を実現する会",
@@ -208,7 +208,7 @@
     },
     "小林史武": {
       "party": "",
-      "speech_count": 172,
+      "speech_count": 173,
       "bills": [
         {
           "bill_id": "house_211_7800",
@@ -1585,12 +1585,20 @@
           "date": "2024-05-17",
           "meeting": "議院運営委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-04-17",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 172
+        "neutral": 173
       }
     },
     "細田博之": {
@@ -5577,7 +5585,7 @@
     },
     "岡田憲治": {
       "party": "",
-      "speech_count": 311,
+      "speech_count": 314,
       "bills": [
         {
           "bill_id": "house_211_7800",
@@ -8066,17 +8074,41 @@
           "date": "2024-06-21",
           "meeting": "議院運営委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-04-09",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15710",
+          "bill_name": "特定電気通信役務提供者の損害賠償責任の制限及び発信者情報の開示に関する法律の一部を改正する法律案",
+          "issue_number": 6152,
+          "date": "2024-04-19",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6153,
+          "date": "2024-04-25",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 311
+        "neutral": 314
       }
     },
     "尾辻秀久": {
       "party": "各派に属しない議員",
-      "speech_count": 316,
+      "speech_count": 320,
       "bills": [
         {
           "bill_id": "house_211_7806",
@@ -10605,12 +10637,44 @@
           "date": "2024-06-19",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-05-10",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-04-17",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15710",
+          "bill_name": "特定電気通信役務提供者の損害賠償責任の制限及び発信者情報の開示に関する法律の一部を改正する法律案",
+          "issue_number": 6152,
+          "date": "2024-05-10",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6153,
+          "date": "2024-06-07",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 316
+        "neutral": 320
       }
     },
     "古賀友一郎": {
@@ -10989,7 +11053,7 @@
     },
     "蓮舫": {
       "party": "立憲民主・社民",
-      "speech_count": 21,
+      "speech_count": 22,
       "bills": [
         {
           "bill_id": "house_211_7811",
@@ -11158,12 +11222,20 @@
           "date": "2023-12-12",
           "meeting": "文教科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6153,
+          "date": "2024-06-06",
+          "meeting": "文教科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 5,
-        "neutral": 16
+        "neutral": 17
       }
     },
     "木原稔": {
@@ -13696,7 +13768,7 @@
     },
     "小沢雅仁": {
       "party": "立憲民主・社民",
-      "speech_count": 41,
+      "speech_count": 42,
       "bills": [
         {
           "bill_id": "house_211_7811",
@@ -14025,11 +14097,19 @@
           "date": "2024-06-19",
           "meeting": "本会議",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15710",
+          "bill_name": "特定電気通信役務提供者の損害賠償責任の制限及び発信者情報の開示に関する法律の一部を改正する法律案",
+          "issue_number": 6152,
+          "date": "2024-05-09",
+          "meeting": "総務委員会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 11,
-        "oppose": 4,
+        "oppose": 5,
         "neutral": 26
       }
     },
@@ -16095,7 +16175,7 @@
     },
     "天畠大輔": {
       "party": "れいわ新選組",
-      "speech_count": 34,
+      "speech_count": 35,
       "bills": [
         {
           "bill_id": "house_211_7812",
@@ -16368,12 +16448,20 @@
           "date": "2024-04-09",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6153,
+          "date": "2024-05-16",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 3,
         "oppose": 13,
-        "neutral": 18
+        "neutral": 19
       }
     },
     "宮本徹": {
@@ -22777,7 +22865,7 @@
     },
     "古屋範子": {
       "party": "公明党",
-      "speech_count": 91,
+      "speech_count": 94,
       "bills": [
         {
           "bill_id": "house_211_7862",
@@ -23506,12 +23594,36 @@
           "date": "2024-06-21",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15710",
+          "bill_name": "特定電気通信役務提供者の損害賠償責任の制限及び発信者情報の開示に関する法律の一部を改正する法律案",
+          "issue_number": 6152,
+          "date": "2024-04-18",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15710",
+          "bill_name": "特定電気通信役務提供者の損害賠償責任の制限及び発信者情報の開示に関する法律の一部を改正する法律案",
+          "issue_number": 6152,
+          "date": "2024-04-16",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15710",
+          "bill_name": "特定電気通信役務提供者の損害賠償責任の制限及び発信者情報の開示に関する法律の一部を改正する法律案",
+          "issue_number": 6152,
+          "date": "2024-04-09",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 10,
         "oppose": 0,
-        "neutral": 81
+        "neutral": 84
       }
     },
     "柴愼一": {
@@ -25415,7 +25527,7 @@
     },
     "阿達雅志": {
       "party": "自由民主党",
-      "speech_count": 65,
+      "speech_count": 72,
       "bills": [
         {
           "bill_id": "house_211_7863",
@@ -25936,12 +26048,68 @@
           "date": "2024-06-06",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-05-10",
+          "meeting": "本会議",
+          "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-05-09",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-05-07",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-04-25",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-04-25",
+          "meeting": "内閣委員会、経済産業委員会連合審査会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-04-23",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-04-18",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
-        "support": 2,
+        "support": 3,
         "oppose": 0,
-        "neutral": 63
+        "neutral": 69
       }
     },
     "鈴木俊一": {
@@ -29746,8 +29914,8 @@
       }
     },
     "住吉寛紀": {
-      "party": "日本維新の会・教育無償化を実現する会",
-      "speech_count": 29,
+      "party": "日本維新の会",
+      "speech_count": 31,
       "bills": [
         {
           "bill_id": "house_211_7863",
@@ -29980,12 +30148,28 @@
           "date": "2024-04-19",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-04-09",
+          "meeting": "本会議",
+          "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-04-05",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
-        "support": 2,
+        "support": 3,
         "oppose": 2,
-        "neutral": 25
+        "neutral": 26
       }
     },
     "石井拓": {
@@ -30928,7 +31112,7 @@
     },
     "浅尾慶一郎": {
       "party": "自由民主党",
-      "speech_count": 62,
+      "speech_count": 63,
       "bills": [
         {
           "bill_id": "house_211_7864",
@@ -31425,12 +31609,20 @@
           "date": "2024-05-17",
           "meeting": "議院運営委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-04-17",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 4,
-        "neutral": 58
+        "neutral": 59
       }
     },
     "若松謙維": {
@@ -33554,7 +33746,7 @@
     },
     "杉尾秀哉": {
       "party": "立憲民主・社民",
-      "speech_count": 45,
+      "speech_count": 46,
       "bills": [
         {
           "bill_id": "house_211_7868",
@@ -33915,17 +34107,25 @@
           "date": "2024-06-06",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-04-17",
+          "meeting": "本会議",
+          "stance": "賛成"
         }
       ],
       "stance_summary": {
-        "support": 1,
+        "support": 2,
         "oppose": 12,
         "neutral": 32
       }
     },
     "柴田巧": {
-      "party": "日本維新の会",
-      "speech_count": 36,
+      "party": "日本維新の会・教育無償化を実現する会",
+      "speech_count": 40,
       "bills": [
         {
           "bill_id": "house_211_7868",
@@ -34214,17 +34414,49 @@
           "date": "2025-05-28",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-05-10",
+          "meeting": "本会議",
+          "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-05-09",
+          "meeting": "内閣委員会",
+          "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-04-23",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-04-17",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
-        "support": 6,
+        "support": 8,
         "oppose": 8,
-        "neutral": 22
+        "neutral": 24
       }
     },
     "大島九州男": {
       "party": "れいわ新選組",
-      "speech_count": 39,
+      "speech_count": 40,
       "bills": [
         {
           "bill_id": "house_211_7868",
@@ -34537,11 +34769,19 @@
           "date": "2025-06-19",
           "meeting": "内閣委員会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-05-09",
+          "meeting": "内閣委員会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 21,
+        "oppose": 22,
         "neutral": 18
       }
     },
@@ -35629,7 +35869,7 @@
     },
     "中谷一馬": {
       "party": "立憲民主党・無所属",
-      "speech_count": 8,
+      "speech_count": 9,
       "bills": [
         {
           "bill_id": "house_211_7868",
@@ -35694,12 +35934,20 @@
           "date": "2024-04-18",
           "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-04-03",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 8
+        "neutral": 9
       }
     },
     "青柳陽一郎": {
@@ -35763,7 +36011,7 @@
     },
     "太栄志": {
       "party": "立憲民主党・無所属",
-      "speech_count": 26,
+      "speech_count": 28,
       "bills": [
         {
           "bill_id": "house_211_7868",
@@ -35972,17 +36220,33 @@
           "date": "2024-04-19",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-04-18",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-04-05",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 10,
         "oppose": 2,
-        "neutral": 14
+        "neutral": 16
       }
     },
     "阿部司": {
       "party": "日本維新の会・教育無償化を実現する会",
-      "speech_count": 36,
+      "speech_count": 37,
       "bills": [
         {
           "bill_id": "house_211_7868",
@@ -36271,12 +36535,20 @@
           "date": "2024-02-22",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15710",
+          "bill_name": "特定電気通信役務提供者の損害賠償責任の制限及び発信者情報の開示に関する法律の一部を改正する法律案",
+          "issue_number": 6152,
+          "date": "2024-04-18",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 7,
-        "neutral": 29
+        "neutral": 30
       }
     },
     "土田慎": {
@@ -36602,7 +36874,7 @@
     },
     "田野瀬太道": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 37,
+      "speech_count": 38,
       "bills": [
         {
           "bill_id": "house_211_7868",
@@ -36899,12 +37171,20 @@
           "date": "2024-06-21",
           "meeting": "文部科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6153,
+          "date": "2024-04-19",
+          "meeting": "文部科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 1,
         "oppose": 0,
-        "neutral": 36
+        "neutral": 37
       }
     },
     "河西宏一": {
@@ -37339,7 +37619,7 @@
     },
     "石垣のりこ": {
       "party": "立憲民主・社民",
-      "speech_count": 34,
+      "speech_count": 36,
       "bills": [
         {
           "bill_id": "house_211_7869",
@@ -37612,12 +37892,28 @@
           "date": "2024-05-17",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-05-09",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6153,
+          "date": "2024-06-04",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 1,
         "oppose": 11,
-        "neutral": 22
+        "neutral": 24
       }
     },
     "由良英雄": {
@@ -37807,8 +38103,8 @@
       }
     },
     "庄子賢一": {
-      "party": "中道改革連合・無所属",
-      "speech_count": 7,
+      "party": "公明党",
+      "speech_count": 8,
       "bills": [
         {
           "bill_id": "house_211_7869",
@@ -37865,10 +38161,18 @@
           "date": "2026-04-14",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-04-05",
+          "meeting": "内閣委員会",
+          "stance": "賛成"
         }
       ],
       "stance_summary": {
-        "support": 1,
+        "support": 2,
         "oppose": 1,
         "neutral": 5
       }
@@ -39753,7 +40057,7 @@
     },
     "竹詰仁": {
       "party": "国民民主党・新緑風会",
-      "speech_count": 61,
+      "speech_count": 62,
       "bills": [
         {
           "bill_id": "house_211_7870",
@@ -40242,17 +40546,25 @@
           "date": "2024-05-17",
           "meeting": "本会議",
           "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-05-10",
+          "meeting": "本会議",
+          "stance": "賛成"
         }
       ],
       "stance_summary": {
-        "support": 10,
+        "support": 11,
         "oppose": 17,
         "neutral": 34
       }
     },
     "松本剛明": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 132,
+      "speech_count": 135,
       "bills": [
         {
           "bill_id": "house_211_7870",
@@ -41309,12 +41621,36 @@
           "date": "2024-02-13",
           "meeting": "総務委員会",
           "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15710",
+          "bill_name": "特定電気通信役務提供者の損害賠償責任の制限及び発信者情報の開示に関する法律の一部を改正する法律案",
+          "issue_number": 6152,
+          "date": "2024-04-25",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15710",
+          "bill_name": "特定電気通信役務提供者の損害賠償責任の制限及び発信者情報の開示に関する法律の一部を改正する法律案",
+          "issue_number": 6152,
+          "date": "2024-04-09",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15710",
+          "bill_name": "特定電気通信役務提供者の損害賠償責任の制限及び発信者情報の開示に関する法律の一部を改正する法律案",
+          "issue_number": 6152,
+          "date": "2024-02-27",
+          "meeting": "予算委員会第二分科会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 24,
         "oppose": 5,
-        "neutral": 103
+        "neutral": 106
       }
     },
     "池田達雄": {
@@ -46200,7 +46536,7 @@
     },
     "齋藤健": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 99,
+      "speech_count": 100,
       "bills": [
         {
           "bill_id": "house_211_7872",
@@ -46993,12 +47329,20 @@
           "date": "2024-05-29",
           "meeting": "経済産業委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-04-26",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 1,
-        "neutral": 98
+        "neutral": 99
       }
     },
     "伊藤忠彦": {
@@ -48525,7 +48869,7 @@
     },
     "村田享子": {
       "party": "立憲民主・社民",
-      "speech_count": 22,
+      "speech_count": 23,
       "bills": [
         {
           "bill_id": "house_211_7874",
@@ -48702,12 +49046,20 @@
           "date": "2024-04-24",
           "meeting": "本会議",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-04-25",
+          "meeting": "内閣委員会、経済産業委員会連合審査会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 14,
-        "neutral": 8
+        "neutral": 9
       }
     },
     "吉川沙織": {
@@ -51620,7 +51972,7 @@
     },
     "中野洋昌": {
       "party": "公明党",
-      "speech_count": 78,
+      "speech_count": 79,
       "bills": [
         {
           "bill_id": "house_211_7874",
@@ -52245,12 +52597,20 @@
           "date": "2024-02-26",
           "meeting": "予算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-04-02",
+          "meeting": "内閣委員会経済産業委員会連合審査会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 1,
         "oppose": 1,
-        "neutral": 76
+        "neutral": 77
       }
     },
     "山岡達丸": {
@@ -55153,8 +55513,8 @@
       }
     },
     "池下卓": {
-      "party": "日本維新の会",
-      "speech_count": 70,
+      "party": "日本維新の会・教育無償化を実現する会",
+      "speech_count": 71,
       "bills": [
         {
           "bill_id": "house_211_7879",
@@ -55715,12 +56075,20 @@
           "date": "2025-03-28",
           "meeting": "政治改革に関する特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6153,
+          "date": "2024-05-14",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 7,
         "oppose": 7,
-        "neutral": 56
+        "neutral": 57
       }
     },
     "佐藤英道": {
@@ -58759,7 +59127,7 @@
     },
     "城井崇": {
       "party": "立憲民主党・無所属",
-      "speech_count": 21,
+      "speech_count": 23,
       "bills": [
         {
           "bill_id": "house_211_7881",
@@ -58928,12 +59296,28 @@
           "date": "2024-03-22",
           "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6153,
+          "date": "2024-05-16",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6153,
+          "date": "2024-05-09",
+          "meeting": "本会議",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 5,
-        "neutral": 16
+        "oppose": 6,
+        "neutral": 17
       }
     },
     "山本剛正": {
@@ -66256,7 +66640,7 @@
     },
     "高橋克法": {
       "party": "自由民主党",
-      "speech_count": 28,
+      "speech_count": 29,
       "bills": [
         {
           "bill_id": "house_211_7884",
@@ -66481,12 +66865,20 @@
           "date": "2023-12-07",
           "meeting": "文教科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6153,
+          "date": "2024-06-06",
+          "meeting": "文教科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 28
+        "neutral": 29
       }
     },
     "臼井正一": {
@@ -66606,7 +66998,7 @@
     },
     "宮口治子": {
       "party": "立憲民主・社民",
-      "speech_count": 20,
+      "speech_count": 21,
       "bills": [
         {
           "bill_id": "house_211_7884",
@@ -66767,12 +67159,20 @@
           "date": "2023-12-01",
           "meeting": "本会議",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6153,
+          "date": "2024-06-06",
+          "meeting": "文教科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 12,
-        "neutral": 8
+        "neutral": 9
       }
     },
     "永岡桂子": {
@@ -67261,7 +67661,7 @@
     },
     "舩後靖彦": {
       "party": "れいわ新選組",
-      "speech_count": 36,
+      "speech_count": 38,
       "bills": [
         {
           "bill_id": "house_211_7884",
@@ -67550,12 +67950,28 @@
           "date": "2025-05-23",
           "meeting": "政治改革に関する特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6153,
+          "date": "2024-06-06",
+          "meeting": "文教科学委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6153,
+          "date": "2024-06-04",
+          "meeting": "文教科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 3,
-        "neutral": 33
+        "neutral": 35
       }
     },
     "村田治": {
@@ -68262,7 +68678,7 @@
     },
     "森山浩行": {
       "party": "立憲民主党・無所属",
-      "speech_count": 24,
+      "speech_count": 25,
       "bills": [
         {
           "bill_id": "house_211_7884",
@@ -68455,12 +68871,20 @@
           "date": "2025-05-14",
           "meeting": "国土交通委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-04-05",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 24
+        "neutral": 25
       }
     },
     "鰐淵洋子": {
@@ -68909,7 +69333,7 @@
     },
     "吉良よし子": {
       "party": "日本共産党",
-      "speech_count": 34,
+      "speech_count": 35,
       "bills": [
         {
           "bill_id": "house_211_7885",
@@ -69182,12 +69606,20 @@
           "date": "2024-04-25",
           "meeting": "国土交通委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6153,
+          "date": "2024-04-18",
+          "meeting": "文教科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 10,
-        "neutral": 24
+        "neutral": 25
       }
     },
     "中条きよし": {
@@ -70042,7 +70474,7 @@
     },
     "井上哲士": {
       "party": "日本共産党",
-      "speech_count": 61,
+      "speech_count": 63,
       "bills": [
         {
           "bill_id": "house_211_7886",
@@ -70531,17 +70963,33 @@
           "date": "2025-06-19",
           "meeting": "内閣委員会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-05-10",
+          "meeting": "本会議",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-05-09",
+          "meeting": "内閣委員会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 20,
+        "oppose": 22,
         "neutral": 41
       }
     },
     "浅野哲": {
       "party": "国民民主党・無所属クラブ",
-      "speech_count": 45,
+      "speech_count": 47,
       "bills": [
         {
           "bill_id": "house_211_7886",
@@ -70902,12 +71350,28 @@
           "date": "2025-05-30",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-04-09",
+          "meeting": "本会議",
+          "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-04-05",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
-        "support": 13,
+        "support": 14,
         "oppose": 2,
-        "neutral": 30
+        "neutral": 31
       }
     },
     "宮本悦子": {
@@ -71657,8 +72121,8 @@
       }
     },
     "石井章": {
-      "party": "日本維新の会",
-      "speech_count": 14,
+      "party": "日本維新の会・教育無償化を実現する会",
+      "speech_count": 15,
       "bills": [
         {
           "bill_id": "house_211_7889",
@@ -71771,12 +72235,20 @@
           "date": "2025-05-16",
           "meeting": "消費者問題に関する特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-04-25",
+          "meeting": "内閣委員会、経済産業委員会連合審査会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 14
+        "neutral": 15
       }
     },
     "滝沢求": {
@@ -72315,7 +72787,7 @@
     },
     "星野剛士": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 82,
+      "speech_count": 89,
       "bills": [
         {
           "bill_id": "house_211_7889",
@@ -72972,12 +73444,68 @@
           "date": "2024-06-21",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-04-09",
+          "meeting": "本会議",
+          "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-04-05",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-04-03",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-04-02",
+          "meeting": "内閣委員会経済産業委員会連合審査会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-03-28",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-03-27",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-03-22",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
-        "support": 2,
+        "support": 3,
         "oppose": 0,
-        "neutral": 80
+        "neutral": 86
       }
     },
     "古賀篤": {
@@ -73041,7 +73569,7 @@
     },
     "高市早苗": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 69,
+      "speech_count": 74,
       "bills": [
         {
           "bill_id": "house_211_7889",
@@ -73594,12 +74122,52 @@
           "date": "2023-11-16",
           "meeting": "情報監視審査会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-04-18",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-04-17",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-03-27",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-03-22",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-03-19",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 5,
         "oppose": 4,
-        "neutral": 60
+        "neutral": 65
       }
     },
     "岩田和親": {
@@ -75081,7 +75649,7 @@
     },
     "平林晃": {
       "party": "公明党",
-      "speech_count": 36,
+      "speech_count": 37,
       "bills": [
         {
           "bill_id": "house_211_7891",
@@ -75370,12 +75938,20 @@
           "date": "2024-02-15",
           "meeting": "本会議",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6153,
+          "date": "2024-05-29",
+          "meeting": "文部科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 9,
-        "neutral": 27
+        "neutral": 28
       }
     },
     "鈴木庸介": {
@@ -78777,7 +79353,7 @@
     },
     "中司宏": {
       "party": "日本維新の会・教育無償化を実現する会",
-      "speech_count": 15,
+      "speech_count": 18,
       "bills": [
         {
           "bill_id": "house_211_7900",
@@ -78898,12 +79474,36 @@
           "date": "2024-02-15",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15710",
+          "bill_name": "特定電気通信役務提供者の損害賠償責任の制限及び発信者情報の開示に関する法律の一部を改正する法律案",
+          "issue_number": 6152,
+          "date": "2024-04-25",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15710",
+          "bill_name": "特定電気通信役務提供者の損害賠償責任の制限及び発信者情報の開示に関する法律の一部を改正する法律案",
+          "issue_number": 6152,
+          "date": "2024-04-18",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15710",
+          "bill_name": "特定電気通信役務提供者の損害賠償責任の制限及び発信者情報の開示に関する法律の一部を改正する法律案",
+          "issue_number": 6152,
+          "date": "2024-04-09",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 1,
         "oppose": 0,
-        "neutral": 14
+        "neutral": 17
       }
     },
     "湯原俊二": {
@@ -83908,7 +84508,7 @@
     },
     "青山大人": {
       "party": "立憲民主党・無所属",
-      "speech_count": 5,
+      "speech_count": 6,
       "bills": [
         {
           "bill_id": "councillors_211_15302",
@@ -83949,12 +84549,20 @@
           "date": "2025-04-24",
           "meeting": "消費者問題に関する特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6153,
+          "date": "2024-04-19",
+          "meeting": "文部科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 1,
-        "neutral": 4
+        "neutral": 5
       }
     },
     "金村龍那": {
@@ -84074,7 +84682,7 @@
     },
     "新妻秀規": {
       "party": "公明党",
-      "speech_count": 62,
+      "speech_count": 65,
       "bills": [
         {
           "bill_id": "councillors_211_15314",
@@ -84571,12 +85179,36 @@
           "date": "2024-06-18",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15710",
+          "bill_name": "特定電気通信役務提供者の損害賠償責任の制限及び発信者情報の開示に関する法律の一部を改正する法律案",
+          "issue_number": 6152,
+          "date": "2024-05-09",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15710",
+          "bill_name": "特定電気通信役務提供者の損害賠償責任の制限及び発信者情報の開示に関する法律の一部を改正する法律案",
+          "issue_number": 6152,
+          "date": "2024-05-07",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15710",
+          "bill_name": "特定電気通信役務提供者の損害賠償責任の制限及び発信者情報の開示に関する法律の一部を改正する法律案",
+          "issue_number": 6152,
+          "date": "2024-04-25",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 62
+        "neutral": 65
       }
     },
     "大西健介": {
@@ -84880,7 +85512,7 @@
     },
     "藤原朋子": {
       "party": "",
-      "speech_count": 13,
+      "speech_count": 15,
       "bills": [
         {
           "bill_id": "councillors_211_15314",
@@ -84985,12 +85617,28 @@
           "date": "2024-02-27",
           "meeting": "予算委員会第一分科会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6153,
+          "date": "2024-06-18",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6153,
+          "date": "2024-05-16",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 13
+        "neutral": 15
       }
     },
     "高木陽介": {
@@ -87292,7 +87940,7 @@
     },
     "吉田はるみ": {
       "party": "立憲民主党・無所属",
-      "speech_count": 14,
+      "speech_count": 15,
       "bills": [
         {
           "bill_id": "councillors_211_15315",
@@ -87405,12 +88053,20 @@
           "date": "2025-11-05",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6153,
+          "date": "2024-04-19",
+          "meeting": "文部科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 4,
-        "neutral": 10
+        "neutral": 11
       }
     },
     "牧義夫": {
@@ -93713,7 +94369,7 @@
     },
     "盛山正仁": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 55,
+      "speech_count": 60,
       "bills": [
         {
           "bill_id": "councillors_211_15373",
@@ -94154,12 +94810,52 @@
           "date": "2023-11-08",
           "meeting": "文部科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6153,
+          "date": "2024-06-06",
+          "meeting": "文教科学委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6153,
+          "date": "2024-06-04",
+          "meeting": "文教科学委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6153,
+          "date": "2024-05-21",
+          "meeting": "文教科学委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6153,
+          "date": "2024-04-19",
+          "meeting": "文部科学委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6153,
+          "date": "2024-04-18",
+          "meeting": "文教科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 55
+        "neutral": 60
       }
     },
     "杉本和巳": {
@@ -96125,7 +96821,7 @@
     },
     "藤岡隆雄": {
       "party": "立憲民主党・無所属",
-      "speech_count": 7,
+      "speech_count": 8,
       "bills": [
         {
           "bill_id": "councillors_211_15418",
@@ -96182,11 +96878,19 @@
           "date": "2024-03-22",
           "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15710",
+          "bill_name": "特定電気通信役務提供者の損害賠償責任の制限及び発信者情報の開示に関する法律の一部を改正する法律案",
+          "issue_number": 6152,
+          "date": "2024-04-18",
+          "meeting": "総務委員会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 1,
+        "oppose": 2,
         "neutral": 6
       }
     },
@@ -98357,7 +99061,7 @@
     },
     "額賀福志郎": {
       "party": "無所属",
-      "speech_count": 552,
+      "speech_count": 556,
       "bills": [
         {
           "bill_id": "councillors_212_15437",
@@ -102774,12 +103478,44 @@
           "date": "2024-06-21",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-04-09",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-03-19",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15710",
+          "bill_name": "特定電気通信役務提供者の損害賠償責任の制限及び発信者情報の開示に関する法律の一部を改正する法律案",
+          "issue_number": 6152,
+          "date": "2024-04-19",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6153,
+          "date": "2024-04-25",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 4,
         "oppose": 0,
-        "neutral": 548
+        "neutral": 552
       }
     },
     "池田貴城": {
@@ -103730,7 +104466,7 @@
     },
     "簗和生": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 18,
+      "speech_count": 19,
       "bills": [
         {
           "bill_id": "house_212_8041",
@@ -103875,12 +104611,20 @@
           "date": "2026-05-19",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-03-22",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 18
+        "neutral": 19
       }
     },
     "北村経夫": {
@@ -105637,8 +106381,8 @@
       }
     },
     "金子道仁": {
-      "party": "日本維新の会",
-      "speech_count": 32,
+      "party": "日本維新の会・教育無償化を実現する会",
+      "speech_count": 34,
       "bills": [
         {
           "bill_id": "house_212_8046",
@@ -105895,17 +106639,33 @@
           "date": "2025-03-31",
           "meeting": "予算委員会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6153,
+          "date": "2024-06-06",
+          "meeting": "文教科学委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6153,
+          "date": "2024-05-21",
+          "meeting": "文教科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 4,
         "oppose": 12,
-        "neutral": 16
+        "neutral": 18
       }
     },
     "下野六太": {
       "party": "公明党",
-      "speech_count": 8,
+      "speech_count": 9,
       "bills": [
         {
           "bill_id": "house_212_8046",
@@ -105970,12 +106730,20 @@
           "date": "2025-03-24",
           "meeting": "文教科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6153,
+          "date": "2024-06-06",
+          "meeting": "文教科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 8
+        "neutral": 9
       }
     },
     "上山隆大": {
@@ -106224,7 +106992,7 @@
     },
     "加藤鮎子": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 43,
+      "speech_count": 44,
       "bills": [
         {
           "bill_id": "house_213_8148",
@@ -106569,12 +107337,20 @@
           "date": "2024-04-02",
           "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6153,
+          "date": "2024-06-07",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 43
+        "neutral": 44
       }
     },
     "青木愛": {
@@ -107228,7 +108004,7 @@
     },
     "大椿ゆうこ": {
       "party": "立憲民主・社民",
-      "speech_count": 29,
+      "speech_count": 30,
       "bills": [
         {
           "bill_id": "house_213_8163",
@@ -107461,12 +108237,20 @@
           "date": "2024-04-09",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-04-18",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 29
+        "neutral": 30
       }
     },
     "大坪寛子": {
@@ -111944,7 +112728,7 @@
     },
     "森本真治": {
       "party": "立憲民主・社民",
-      "speech_count": 70,
+      "speech_count": 71,
       "bills": [
         {
           "bill_id": "house_213_8205",
@@ -112505,12 +113289,20 @@
           "date": "2024-05-31",
           "meeting": "本会議",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-04-18",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 5,
-        "neutral": 65
+        "neutral": 66
       }
     },
     "三原じゅん子": {
@@ -112958,7 +113750,7 @@
     },
     "岡本三成": {
       "party": "公明党",
-      "speech_count": 86,
+      "speech_count": 87,
       "bills": [
         {
           "bill_id": "house_213_8205",
@@ -113647,12 +114439,20 @@
           "date": "2024-06-21",
           "meeting": "経済産業委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-03-27",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 86
+        "neutral": 87
       }
     },
     "堀井学": {
@@ -135447,7 +136247,7 @@
     },
     "望月禎": {
       "party": "",
-      "speech_count": 33,
+      "speech_count": 36,
       "bills": [
         {
           "bill_id": "councillors_216_15908",
@@ -135712,12 +136512,36 @@
           "date": "2026-04-24",
           "meeting": "文部科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6153,
+          "date": "2024-06-06",
+          "meeting": "文教科学委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6153,
+          "date": "2024-05-15",
+          "meeting": "文部科学委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6153,
+          "date": "2024-04-19",
+          "meeting": "文部科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 33
+        "neutral": 36
       }
     },
     "あべ俊子": {
@@ -146741,7 +147565,7 @@
     },
     "小林史明": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 7,
+      "speech_count": 8,
       "bills": [
         {
           "bill_id": "councillors_217_15964",
@@ -146798,10 +147622,18 @@
           "date": "2025-05-09",
           "meeting": "環境委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-04-09",
+          "meeting": "本会議",
+          "stance": "賛成"
         }
       ],
       "stance_summary": {
-        "support": 2,
+        "support": 3,
         "oppose": 0,
         "neutral": 5
       }
@@ -149268,7 +150100,7 @@
     },
     "矢野和彦": {
       "party": "",
-      "speech_count": 3,
+      "speech_count": 5,
       "bills": [
         {
           "bill_id": "house_213_8224",
@@ -149293,17 +150125,33 @@
           "date": "2024-03-22",
           "meeting": "文教科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6153,
+          "date": "2024-05-21",
+          "meeting": "文教科学委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6153,
+          "date": "2024-04-18",
+          "meeting": "文教科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 3
+        "neutral": 5
       }
     },
     "寺町東子": {
       "party": "",
-      "speech_count": 1,
+      "speech_count": 2,
       "bills": [
         {
           "bill_id": "house_213_8224",
@@ -149312,17 +150160,25 @@
           "date": "2024-05-16",
           "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6153,
+          "date": "2024-05-16",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 1,
+        "oppose": 2,
         "neutral": 0
       }
     },
     "木村次郎": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 1,
+      "speech_count": 2,
       "bills": [
         {
           "bill_id": "house_213_8224",
@@ -149331,12 +150187,20 @@
           "date": "2024-05-15",
           "meeting": "文部科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6153,
+          "date": "2024-05-15",
+          "meeting": "文部科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 1
+        "neutral": 2
       }
     },
     "勝目康": {
@@ -150300,7 +151164,7 @@
     },
     "吉田久美子": {
       "party": "公明党",
-      "speech_count": 4,
+      "speech_count": 6,
       "bills": [
         {
           "bill_id": "house_213_8234",
@@ -150333,12 +151197,28 @@
           "date": "2024-04-09",
           "meeting": "本会議",
           "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-04-09",
+          "meeting": "本会議",
+          "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-03-22",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
-        "support": 2,
+        "support": 3,
         "oppose": 0,
-        "neutral": 2
+        "neutral": 3
       }
     },
     "宮下一郎": {
@@ -156068,7 +156948,7 @@
     },
     "品川高浩": {
       "party": "",
-      "speech_count": 2,
+      "speech_count": 4,
       "bills": [
         {
           "bill_id": "house_213_8213",
@@ -156085,17 +156965,33 @@
           "date": "2024-04-02",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-04-09",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-04-02",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 2
+        "neutral": 4
       }
     },
     "高木啓": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 2,
+      "speech_count": 3,
       "bills": [
         {
           "bill_id": "house_213_8213",
@@ -156112,10 +157008,18 @@
           "date": "2024-04-05",
           "meeting": "内閣委員会",
           "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15700",
+          "bill_name": "重要経済安保情報の保護及び活用に関する法律案",
+          "issue_number": 6151,
+          "date": "2024-04-05",
+          "meeting": "内閣委員会",
+          "stance": "賛成"
         }
       ],
       "stance_summary": {
-        "support": 2,
+        "support": 3,
         "oppose": 0,
         "neutral": 0
       }
