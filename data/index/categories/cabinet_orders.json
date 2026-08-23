@@ -1,7 +1,7 @@
 {
   "category": "cabinet_orders",
   "category_name": "政令",
-  "count": 2316,
+  "count": 2317,
   "laws": [
     {
       "id": "322CO0000000052",
@@ -13897,6 +13897,12 @@
       "id": "508CO0000000224",
       "lawNum": "令和八年政令第二百二十四号",
       "title": "ニッケル系ステンレス冷延鋼帯及び冷延鋼板に対して課する暫定的な不当廉売関税に関する政令",
+      "category": "cabinet_orders"
+    },
+    {
+      "id": "508CO0000000254",
+      "lawNum": "令和八年政令第二百五十四号",
+      "title": "溶融亜鉛めっき鋼帯及び鋼板に対して課する暫定的な不当廉売関税に関する政令",
       "category": "cabinet_orders"
     }
   ]
