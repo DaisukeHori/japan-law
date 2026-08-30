@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-08-23T19:00:36.109Z",
-  "total_legislators": 1194,
-  "total_speeches": 19601,
+  "updated_at": "2026-08-30T21:04:31.289Z",
+  "total_legislators": 1199,
+  "total_speeches": 19862,
   "legislators": {
     "東徹": {
       "party": "日本維新の会・教育無償化を実現する会",
@@ -208,7 +208,7 @@
     },
     "小林史武": {
       "party": "",
-      "speech_count": 173,
+      "speech_count": 174,
       "bills": [
         {
           "bill_id": "house_211_7800",
@@ -1593,12 +1593,20 @@
           "date": "2024-04-17",
           "meeting": "議院運営委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15701",
+          "bill_name": "経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6155,
+          "date": "2024-04-17",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 173
+        "neutral": 174
       }
     },
     "細田博之": {
@@ -2446,7 +2454,7 @@
     },
     "山口俊一": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 391,
+      "speech_count": 392,
       "bills": [
         {
           "bill_id": "house_211_7800",
@@ -5575,17 +5583,25 @@
           "date": "2024-06-21",
           "meeting": "議院運営委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15701",
+          "bill_name": "経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6155,
+          "date": "2024-03-19",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 391
+        "neutral": 392
       }
     },
     "岡田憲治": {
       "party": "",
-      "speech_count": 314,
+      "speech_count": 316,
       "bills": [
         {
           "bill_id": "house_211_7800",
@@ -8098,17 +8114,33 @@
           "date": "2024-04-25",
           "meeting": "議院運営委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15701",
+          "bill_name": "経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6155,
+          "date": "2024-04-09",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-05-23",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 314
+        "neutral": 316
       }
     },
     "尾辻秀久": {
       "party": "各派に属しない議員",
-      "speech_count": 320,
+      "speech_count": 324,
       "bills": [
         {
           "bill_id": "house_211_7806",
@@ -10669,12 +10701,44 @@
           "date": "2024-06-07",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15701",
+          "bill_name": "経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6155,
+          "date": "2024-05-10",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15701",
+          "bill_name": "経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6155,
+          "date": "2024-04-17",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-05-29",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-06-14",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 320
+        "neutral": 324
       }
     },
     "古賀友一郎": {
@@ -19445,7 +19509,7 @@
     },
     "小山展弘": {
       "party": "立憲民主党・無所属",
-      "speech_count": 15,
+      "speech_count": 19,
       "bills": [
         {
           "bill_id": "house_211_7815",
@@ -19566,12 +19630,44 @@
           "date": "2025-04-11",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-09",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-03-01",
+          "meeting": "本会議",
+          "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-02-22",
+          "meeting": "予算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-02-06",
+          "meeting": "予算委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
-        "support": 0,
+        "support": 1,
         "oppose": 8,
-        "neutral": 7
+        "neutral": 10
       }
     },
     "酒井庸行": {
@@ -24738,8 +24834,8 @@
       }
     },
     "横沢高徳": {
-      "party": "立憲民主・社民・無所属",
-      "speech_count": 30,
+      "party": "立憲民主・社民",
+      "speech_count": 33,
       "bills": [
         {
           "bill_id": "house_211_7863",
@@ -24980,12 +25076,36 @@
           "date": "2025-05-30",
           "meeting": "本会議",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-06-13",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-05-28",
+          "meeting": "農林水産委員会",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-06-13",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 1,
-        "oppose": 5,
-        "neutral": 24
+        "oppose": 6,
+        "neutral": 26
       }
     },
     "河村小百合": {
@@ -25527,7 +25647,7 @@
     },
     "阿達雅志": {
       "party": "自由民主党",
-      "speech_count": 72,
+      "speech_count": 79,
       "bills": [
         {
           "bill_id": "house_211_7863",
@@ -26104,12 +26224,68 @@
           "date": "2024-04-18",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15701",
+          "bill_name": "経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6155,
+          "date": "2024-05-10",
+          "meeting": "本会議",
+          "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15701",
+          "bill_name": "経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6155,
+          "date": "2024-05-09",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15701",
+          "bill_name": "経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6155,
+          "date": "2024-05-07",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15701",
+          "bill_name": "経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6155,
+          "date": "2024-04-25",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15701",
+          "bill_name": "経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6155,
+          "date": "2024-04-25",
+          "meeting": "内閣委員会、経済産業委員会連合審査会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15701",
+          "bill_name": "経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6155,
+          "date": "2024-04-23",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15701",
+          "bill_name": "経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6155,
+          "date": "2024-04-18",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
-        "support": 3,
+        "support": 4,
         "oppose": 0,
-        "neutral": 69
+        "neutral": 75
       }
     },
     "鈴木俊一": {
@@ -29915,7 +30091,7 @@
     },
     "住吉寛紀": {
       "party": "日本維新の会",
-      "speech_count": 31,
+      "speech_count": 33,
       "bills": [
         {
           "bill_id": "house_211_7863",
@@ -30164,12 +30340,28 @@
           "date": "2024-04-05",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15701",
+          "bill_name": "経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6155,
+          "date": "2024-04-09",
+          "meeting": "本会議",
+          "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15701",
+          "bill_name": "経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6155,
+          "date": "2024-04-05",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
-        "support": 3,
+        "support": 4,
         "oppose": 2,
-        "neutral": 26
+        "neutral": 27
       }
     },
     "石井拓": {
@@ -30271,7 +30463,7 @@
     },
     "稲津久": {
       "party": "公明党",
-      "speech_count": 3,
+      "speech_count": 5,
       "bills": [
         {
           "bill_id": "house_211_7863",
@@ -30296,12 +30488,28 @@
           "date": "2024-03-21",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-17",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-09",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 3
+        "neutral": 5
       }
     },
     "岩渕友": {
@@ -30493,7 +30701,7 @@
     },
     "田村貴昭": {
       "party": "日本共産党",
-      "speech_count": 76,
+      "speech_count": 83,
       "bills": [
         {
           "bill_id": "house_211_7864",
@@ -31102,17 +31310,73 @@
           "date": "2024-05-08",
           "meeting": "財務金融委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-05-21",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-18",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-17",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-11",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-09",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-02-22",
+          "meeting": "予算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-05-21",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 2,
         "oppose": 23,
-        "neutral": 51
+        "neutral": 58
       }
     },
     "浅尾慶一郎": {
       "party": "自由民主党",
-      "speech_count": 63,
+      "speech_count": 64,
       "bills": [
         {
           "bill_id": "house_211_7864",
@@ -31617,12 +31881,20 @@
           "date": "2024-04-17",
           "meeting": "議院運営委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15701",
+          "bill_name": "経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6155,
+          "date": "2024-04-17",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 4,
-        "neutral": 59
+        "neutral": 60
       }
     },
     "若松謙維": {
@@ -32884,8 +33156,8 @@
       }
     },
     "山下雄平": {
-      "party": "自由民主党・無所属の会",
-      "speech_count": 9,
+      "party": "自由民主党",
+      "speech_count": 12,
       "bills": [
         {
           "bill_id": "house_211_7867",
@@ -32958,17 +33230,41 @@
           "date": "2026-03-26",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-05-28",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-05-23",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-06-13",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 9
+        "neutral": 12
       }
     },
     "徳永エリ": {
-      "party": "立憲民主・社民・無所属",
-      "speech_count": 28,
+      "party": "立憲民主・社民",
+      "speech_count": 33,
       "bills": [
         {
           "bill_id": "house_211_7867",
@@ -33193,12 +33489,52 @@
           "date": "2025-04-15",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-05-28",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-05-23",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-05-16",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-18",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-06-13",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 28
+        "neutral": 33
       }
     },
     "野村哲郎": {
@@ -33321,7 +33657,7 @@
     },
     "山田勝彦": {
       "party": "立憲民主党・無所属",
-      "speech_count": 14,
+      "speech_count": 16,
       "bills": [
         {
           "bill_id": "house_211_7867",
@@ -33434,12 +33770,28 @@
           "date": "2025-04-24",
           "meeting": "消費者問題に関する特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-02-26",
+          "meeting": "予算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-01-31",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 2,
-        "neutral": 12
+        "neutral": 14
       }
     },
     "鈴木英敬": {
@@ -34125,7 +34477,7 @@
     },
     "柴田巧": {
       "party": "日本維新の会・教育無償化を実現する会",
-      "speech_count": 40,
+      "speech_count": 43,
       "bills": [
         {
           "bill_id": "house_211_7868",
@@ -34446,17 +34798,41 @@
           "date": "2024-04-17",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15701",
+          "bill_name": "経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6155,
+          "date": "2024-05-10",
+          "meeting": "本会議",
+          "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15701",
+          "bill_name": "経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6155,
+          "date": "2024-05-09",
+          "meeting": "内閣委員会",
+          "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15701",
+          "bill_name": "経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6155,
+          "date": "2024-04-17",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
-        "support": 8,
+        "support": 10,
         "oppose": 8,
-        "neutral": 24
+        "neutral": 25
       }
     },
     "大島九州男": {
       "party": "れいわ新選組",
-      "speech_count": 40,
+      "speech_count": 41,
       "bills": [
         {
           "bill_id": "house_211_7868",
@@ -34777,11 +35153,19 @@
           "date": "2024-05-09",
           "meeting": "内閣委員会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15701",
+          "bill_name": "経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6155,
+          "date": "2024-05-09",
+          "meeting": "内閣委員会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 22,
+        "oppose": 23,
         "neutral": 18
       }
     },
@@ -37619,7 +38003,7 @@
     },
     "石垣のりこ": {
       "party": "立憲民主・社民",
-      "speech_count": 36,
+      "speech_count": 38,
       "bills": [
         {
           "bill_id": "house_211_7869",
@@ -37908,12 +38292,28 @@
           "date": "2024-06-04",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15701",
+          "bill_name": "経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6155,
+          "date": "2024-05-09",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-03-04",
+          "meeting": "予算委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 1,
         "oppose": 11,
-        "neutral": 24
+        "neutral": 26
       }
     },
     "由良英雄": {
@@ -39032,7 +39432,7 @@
     },
     "岸田文雄": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 77,
+      "speech_count": 88,
       "bills": [
         {
           "bill_id": "house_211_7869",
@@ -39649,12 +40049,100 @@
           "date": "2024-03-15",
           "meeting": "予算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-06-10",
+          "meeting": "決算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-05-28",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-17",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-03-08",
+          "meeting": "予算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-03-02",
+          "meeting": "予算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-02-26",
+          "meeting": "予算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-02-09",
+          "meeting": "予算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-02-06",
+          "meeting": "予算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-02-02",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-01-31",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-01-30",
+          "meeting": "本会議",
+          "stance": "賛成"
         }
       ],
       "stance_summary": {
-        "support": 2,
+        "support": 3,
         "oppose": 1,
-        "neutral": 74
+        "neutral": 84
       }
     },
     "河野義博": {
@@ -43191,7 +43679,7 @@
     },
     "神谷裕": {
       "party": "立憲民主党・無所属",
-      "speech_count": 25,
+      "speech_count": 27,
       "bills": [
         {
           "bill_id": "house_211_7870",
@@ -43392,12 +43880,28 @@
           "date": "2025-05-13",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-11",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-02-08",
+          "meeting": "予算委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 6,
-        "neutral": 19
+        "neutral": 21
       }
     },
     "西岡秀子": {
@@ -48091,8 +48595,8 @@
       }
     },
     "羽田次郎": {
-      "party": "立憲民主・社民・無所属",
-      "speech_count": 12,
+      "party": "立憲民主・社民",
+      "speech_count": 17,
       "bills": [
         {
           "bill_id": "house_211_7873",
@@ -48189,12 +48693,52 @@
           "date": "2025-06-11",
           "meeting": "本会議",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-05-29",
+          "meeting": "本会議",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-05-23",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-04",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-06-11",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-06-04",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 2,
-        "neutral": 10
+        "oppose": 3,
+        "neutral": 14
       }
     },
     "林芳正": {
@@ -50602,7 +51146,7 @@
     },
     "小野泰輔": {
       "party": "日本維新の会・教育無償化を実現する会",
-      "speech_count": 13,
+      "speech_count": 14,
       "bills": [
         {
           "bill_id": "house_211_7874",
@@ -50707,12 +51251,20 @@
           "date": "2024-04-03",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-02-27",
+          "meeting": "予算委員会第六分科会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 2,
-        "neutral": 11
+        "neutral": 12
       }
     },
     "竹内譲": {
@@ -57655,7 +58207,7 @@
     },
     "神津たけし": {
       "party": "立憲民主党・無所属",
-      "speech_count": 22,
+      "speech_count": 23,
       "bills": [
         {
           "bill_id": "house_211_7880",
@@ -57832,12 +58384,20 @@
           "date": "2025-04-03",
           "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-02-27",
+          "meeting": "予算委員会第六分科会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 10,
         "oppose": 6,
-        "neutral": 6
+        "neutral": 7
       }
     },
     "末次精一": {
@@ -57893,7 +58453,7 @@
     },
     "一谷勇一郎": {
       "party": "日本維新の会・教育無償化を実現する会",
-      "speech_count": 19,
+      "speech_count": 20,
       "bills": [
         {
           "bill_id": "house_211_7880",
@@ -58046,10 +58606,18 @@
           "date": "2024-04-02",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-18",
+          "meeting": "農林水産委員会",
+          "stance": "賛成"
         }
       ],
       "stance_summary": {
-        "support": 1,
+        "support": 2,
         "oppose": 2,
         "neutral": 16
       }
@@ -59419,7 +59987,7 @@
     },
     "岩本剛人": {
       "party": "自由民主党",
-      "speech_count": 16,
+      "speech_count": 17,
       "bills": [
         {
           "bill_id": "house_211_7882",
@@ -59548,12 +60116,20 @@
           "date": "2024-03-13",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-06-10",
+          "meeting": "決算委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 16
+        "neutral": 17
       }
     },
     "浜田靖一": {
@@ -72787,7 +73363,7 @@
     },
     "星野剛士": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 89,
+      "speech_count": 96,
       "bills": [
         {
           "bill_id": "house_211_7889",
@@ -73500,12 +74076,68 @@
           "date": "2024-03-22",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15701",
+          "bill_name": "経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6155,
+          "date": "2024-04-09",
+          "meeting": "本会議",
+          "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15701",
+          "bill_name": "経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6155,
+          "date": "2024-04-05",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15701",
+          "bill_name": "経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6155,
+          "date": "2024-04-03",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15701",
+          "bill_name": "経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6155,
+          "date": "2024-04-02",
+          "meeting": "内閣委員会経済産業委員会連合審査会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15701",
+          "bill_name": "経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6155,
+          "date": "2024-03-28",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15701",
+          "bill_name": "経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6155,
+          "date": "2024-03-27",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15701",
+          "bill_name": "経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6155,
+          "date": "2024-03-22",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
-        "support": 3,
+        "support": 4,
         "oppose": 0,
-        "neutral": 86
+        "neutral": 92
       }
     },
     "古賀篤": {
@@ -73569,7 +74201,7 @@
     },
     "高市早苗": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 74,
+      "speech_count": 78,
       "bills": [
         {
           "bill_id": "house_211_7889",
@@ -74162,12 +74794,44 @@
           "date": "2024-03-19",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15701",
+          "bill_name": "経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6155,
+          "date": "2024-04-18",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15701",
+          "bill_name": "経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6155,
+          "date": "2024-04-17",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15701",
+          "bill_name": "経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6155,
+          "date": "2024-03-22",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15701",
+          "bill_name": "経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6155,
+          "date": "2024-03-19",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 5,
         "oppose": 4,
-        "neutral": 65
+        "neutral": 69
       }
     },
     "岩田和親": {
@@ -74816,8 +75480,8 @@
       }
     },
     "池畑浩太朗": {
-      "party": "日本維新の会",
-      "speech_count": 15,
+      "party": "日本維新の会・教育無償化を実現する会",
+      "speech_count": 20,
       "bills": [
         {
           "bill_id": "house_211_7890",
@@ -74938,12 +75602,52 @@
           "date": "2025-04-10",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-05-29",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-18",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-17",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-09",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-02-19",
+          "meeting": "予算委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 2,
         "oppose": 1,
-        "neutral": 12
+        "neutral": 17
       }
     },
     "片平聡": {
@@ -75649,7 +76353,7 @@
     },
     "平林晃": {
       "party": "公明党",
-      "speech_count": 37,
+      "speech_count": 38,
       "bills": [
         {
           "bill_id": "house_211_7891",
@@ -75946,12 +76650,20 @@
           "date": "2024-05-29",
           "meeting": "文部科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-02-27",
+          "meeting": "予算委員会第六分科会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 9,
-        "neutral": 28
+        "neutral": 29
       }
     },
     "鈴木庸介": {
@@ -76830,7 +77542,7 @@
     },
     "野中厚": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 32,
+      "speech_count": 42,
       "bills": [
         {
           "bill_id": "house_211_7894",
@@ -77087,17 +77799,97 @@
           "date": "2024-06-21",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-18",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-17",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-11",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-09",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-04",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-03",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-05-23",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-05-21",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-05-15",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-05-09",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 32
+        "neutral": 42
       }
     },
     "金子恵美": {
       "party": "立憲民主党・無所属",
-      "speech_count": 12,
+      "speech_count": 16,
       "bills": [
         {
           "bill_id": "house_211_7894",
@@ -77194,12 +77986,44 @@
           "date": "2025-03-18",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-05-29",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-17",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-09",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-05-21",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 1,
         "oppose": 0,
-        "neutral": 11
+        "neutral": 15
       }
     },
     "緑川貴士": {
@@ -81382,7 +82206,7 @@
     },
     "舞立昇治": {
       "party": "自由民主党",
-      "speech_count": 32,
+      "speech_count": 34,
       "bills": [
         {
           "bill_id": "house_211_7902",
@@ -81639,12 +82463,28 @@
           "date": "2025-06-03",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-05-29",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-02-27",
+          "meeting": "予算委員会第六分科会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 32
+        "neutral": 34
       }
     },
     "大石あきこ": {
@@ -81981,7 +82821,7 @@
     },
     "浜田聡": {
       "party": "ＮＨＫから国民を守る党",
-      "speech_count": 35,
+      "speech_count": 36,
       "bills": [
         {
           "bill_id": "house_211_7902",
@@ -82262,12 +83102,20 @@
           "date": "2024-03-28",
           "meeting": "総務委員会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-08",
+          "meeting": "行政監視委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 16,
-        "neutral": 19
+        "neutral": 20
       }
     },
     "尾身朝子": {
@@ -82591,7 +83439,7 @@
     },
     "近藤和也": {
       "party": "立憲民主党・無所属",
-      "speech_count": 21,
+      "speech_count": 23,
       "bills": [
         {
           "bill_id": "house_211_7906",
@@ -82760,12 +83608,28 @@
           "date": "2023-11-21",
           "meeting": "予算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-18",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-11",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 21
+        "neutral": 23
       }
     },
     "坂本祐之輔": {
@@ -82869,7 +83733,7 @@
     },
     "野間健": {
       "party": "立憲民主党・無所属",
-      "speech_count": 13,
+      "speech_count": 16,
       "bills": [
         {
           "bill_id": "house_211_7908",
@@ -82974,12 +83838,36 @@
           "date": "2024-03-15",
           "meeting": "国土交通委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-17",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-02-09",
+          "meeting": "予算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-05-21",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 2,
-        "neutral": 11
+        "neutral": 14
       }
     },
     "竹田智雄": {
@@ -84368,7 +85256,7 @@
     },
     "遠藤良太": {
       "party": "日本維新の会・教育無償化を実現する会",
-      "speech_count": 4,
+      "speech_count": 5,
       "bills": [
         {
           "bill_id": "councillors_211_15302",
@@ -84401,12 +85289,20 @@
           "date": "2024-02-06",
           "meeting": "予算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-02-06",
+          "meeting": "予算委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 4
+        "neutral": 5
       }
     },
     "赤松健": {
@@ -84567,7 +85463,7 @@
     },
     "金村龍那": {
       "party": "日本維新の会",
-      "speech_count": 13,
+      "speech_count": 14,
       "bills": [
         {
           "bill_id": "councillors_211_15302",
@@ -84672,12 +85568,20 @@
           "date": "2026-05-26",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15701",
+          "bill_name": "経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6155,
+          "date": "2024-04-05",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 1,
         "oppose": 2,
-        "neutral": 10
+        "neutral": 11
       }
     },
     "新妻秀規": {
@@ -86959,7 +87863,7 @@
     },
     "高橋光男": {
       "party": "公明党",
-      "speech_count": 13,
+      "speech_count": 15,
       "bills": [
         {
           "bill_id": "councillors_211_15315",
@@ -87064,12 +87968,28 @@
           "date": "2026-04-23",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-04",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-06-04",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 4,
         "oppose": 0,
-        "neutral": 9
+        "neutral": 11
       }
     },
     "楠田幹人": {
@@ -89398,7 +90318,7 @@
     },
     "篠原孝": {
       "party": "立憲民主党・無所属",
-      "speech_count": 8,
+      "speech_count": 10,
       "bills": [
         {
           "bill_id": "councillors_211_15315",
@@ -89463,12 +90383,28 @@
           "date": "2025-02-07",
           "meeting": "予算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-05-29",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-17",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 8
+        "neutral": 10
       }
     },
     "三好敏之": {
@@ -93232,8 +94168,8 @@
       }
     },
     "田名部匡代": {
-      "party": "立憲民主・社民・無所属",
-      "speech_count": 15,
+      "party": "立憲民主・社民",
+      "speech_count": 16,
       "bills": [
         {
           "bill_id": "councillors_211_15360",
@@ -93354,17 +94290,25 @@
           "date": "2025-06-10",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-06-13",
+          "meeting": "農林水産委員会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 1,
+        "oppose": 2,
         "neutral": 14
       }
     },
     "横山信一": {
       "party": "公明党",
-      "speech_count": 26,
+      "speech_count": 28,
       "bills": [
         {
           "bill_id": "councillors_211_15360",
@@ -93573,17 +94517,33 @@
           "date": "2023-12-11",
           "meeting": "本会議",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-06-11",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-06-04",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 11,
-        "neutral": 15
+        "neutral": 17
       }
     },
     "舟山康江": {
       "party": "国民民主党・新緑風会",
-      "speech_count": 25,
+      "speech_count": 31,
       "bills": [
         {
           "bill_id": "councillors_211_15360",
@@ -93784,12 +94744,60 @@
           "date": "2025-04-24",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-06-13",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-06-04",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-05-29",
+          "meeting": "本会議",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-05-28",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-06-13",
+          "meeting": "農林水産委員会",
+          "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-06-04",
+          "meeting": "農林水産委員会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
-        "support": 6,
-        "oppose": 5,
-        "neutral": 14
+        "support": 7,
+        "oppose": 7,
+        "neutral": 17
       }
     },
     "植田和男": {
@@ -95299,7 +96307,7 @@
     },
     "紙智子": {
       "party": "日本共産党",
-      "speech_count": 15,
+      "speech_count": 21,
       "bills": [
         {
           "bill_id": "councillors_211_15418",
@@ -95420,12 +96428,60 @@
           "date": "2025-04-24",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-06-11",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-06-04",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-05-30",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-05-29",
+          "meeting": "本会議",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-05-28",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-06-13",
+          "meeting": "農林水産委員会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 3,
-        "neutral": 12
+        "oppose": 5,
+        "neutral": 16
       }
     },
     "秋野公造": {
@@ -99061,7 +100117,7 @@
     },
     "額賀福志郎": {
       "party": "無所属",
-      "speech_count": 556,
+      "speech_count": 559,
       "bills": [
         {
           "bill_id": "councillors_212_15437",
@@ -103510,12 +104566,36 @@
           "date": "2024-04-25",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15701",
+          "bill_name": "経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6155,
+          "date": "2024-04-09",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15701",
+          "bill_name": "経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6155,
+          "date": "2024-03-19",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-05-23",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 4,
         "oppose": 0,
-        "neutral": 552
+        "neutral": 555
       }
     },
     "池田貴城": {
@@ -104968,7 +106048,7 @@
     },
     "石川香織": {
       "party": "立憲民主党・無所属",
-      "speech_count": 16,
+      "speech_count": 18,
       "bills": [
         {
           "bill_id": "house_212_8042",
@@ -105097,12 +106177,28 @@
           "date": "2025-04-17",
           "meeting": "消費者問題に関する特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-02-22",
+          "meeting": "予算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-02-05",
+          "meeting": "予算委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 5,
-        "neutral": 11
+        "neutral": 13
       }
     },
     "比嘉奈津美": {
@@ -106041,7 +107137,7 @@
     },
     "上田英俊": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 4,
+      "speech_count": 5,
       "bills": [
         {
           "bill_id": "house_212_8043",
@@ -106074,12 +107170,20 @@
           "date": "2023-11-10",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-09",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 4
+        "neutral": 5
       }
     },
     "太田達也": {
@@ -106194,7 +107298,7 @@
     },
     "吉田真次": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 3,
+      "speech_count": 4,
       "bills": [
         {
           "bill_id": "house_212_8043",
@@ -106219,12 +107323,20 @@
           "date": "2023-11-08",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-02-27",
+          "meeting": "予算委員会第六分科会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 3
+        "neutral": 4
       }
     },
     "加藤明良": {
@@ -106382,7 +107494,7 @@
     },
     "金子道仁": {
       "party": "日本維新の会・教育無償化を実現する会",
-      "speech_count": 34,
+      "speech_count": 35,
       "bills": [
         {
           "bill_id": "house_212_8046",
@@ -106655,12 +107767,20 @@
           "date": "2024-05-21",
           "meeting": "文教科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-05-23",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 4,
         "oppose": 12,
-        "neutral": 18
+        "neutral": 19
       }
     },
     "下野六太": {
@@ -108004,7 +109124,7 @@
     },
     "大椿ゆうこ": {
       "party": "立憲民主・社民",
-      "speech_count": 30,
+      "speech_count": 31,
       "bills": [
         {
           "bill_id": "house_213_8163",
@@ -108245,12 +109365,20 @@
           "date": "2024-04-18",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-05-13",
+          "meeting": "決算委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 30
+        "neutral": 31
       }
     },
     "大坪寛子": {
@@ -108325,7 +109453,7 @@
     },
     "長友慎治": {
       "party": "国民民主党・無所属クラブ",
-      "speech_count": 36,
+      "speech_count": 41,
       "bills": [
         {
           "bill_id": "house_213_8190",
@@ -108614,12 +109742,52 @@
           "date": "2024-05-15",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-18",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-17",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-06-05",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-05-15",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-05-09",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 1,
-        "neutral": 35
+        "neutral": 40
       }
     },
     "勝部賢志": {
@@ -111390,7 +112558,7 @@
     },
     "金子容三": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 8,
+      "speech_count": 9,
       "bills": [
         {
           "bill_id": "house_213_8198",
@@ -111455,12 +112623,20 @@
           "date": "2024-03-15",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-02-27",
+          "meeting": "予算委員会第六分科会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 8
+        "neutral": 9
       }
     },
     "堀井奈津子": {
@@ -111956,7 +113132,7 @@
     },
     "角田秀穂": {
       "party": "公明党",
-      "speech_count": 12,
+      "speech_count": 14,
       "bills": [
         {
           "bill_id": "house_213_8201",
@@ -112053,12 +113229,28 @@
           "date": "2024-02-09",
           "meeting": "予算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-18",
+          "meeting": "農林水産委員会",
+          "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-02-09",
+          "meeting": "予算委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
-        "support": 0,
+        "support": 1,
         "oppose": 0,
-        "neutral": 12
+        "neutral": 13
       }
     },
     "小泉進次郎": {
@@ -112728,7 +113920,7 @@
     },
     "森本真治": {
       "party": "立憲民主・社民",
-      "speech_count": 71,
+      "speech_count": 72,
       "bills": [
         {
           "bill_id": "house_213_8205",
@@ -113297,12 +114489,20 @@
           "date": "2024-04-18",
           "meeting": "経済産業委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15701",
+          "bill_name": "経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6155,
+          "date": "2024-04-18",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 5,
-        "neutral": 66
+        "neutral": 67
       }
     },
     "三原じゅん子": {
@@ -113750,7 +114950,7 @@
     },
     "岡本三成": {
       "party": "公明党",
-      "speech_count": 87,
+      "speech_count": 88,
       "bills": [
         {
           "bill_id": "house_213_8205",
@@ -114447,12 +115647,20 @@
           "date": "2024-03-27",
           "meeting": "経済産業委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15701",
+          "bill_name": "経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6155,
+          "date": "2024-03-27",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 87
+        "neutral": 88
       }
     },
     "堀井学": {
@@ -116190,7 +117398,7 @@
     },
     "滝波宏文": {
       "party": "自由民主党",
-      "speech_count": 25,
+      "speech_count": 33,
       "bills": [
         {
           "bill_id": "house_213_8217",
@@ -116391,17 +117599,81 @@
           "date": "2025-04-24",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-05-28",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-05-23",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-05-16",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-06-13",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-06-11",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-06-06",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-06-04",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-05-30",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 25
+        "neutral": 33
       }
     },
     "清水真人": {
       "party": "自由民主党",
-      "speech_count": 2,
+      "speech_count": 3,
       "bills": [
         {
           "bill_id": "house_213_8217",
@@ -116418,17 +117690,25 @@
           "date": "2024-06-11",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-06-11",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 2
+        "neutral": 3
       }
     },
     "坂本哲志": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 45,
+      "speech_count": 71,
       "bills": [
         {
           "bill_id": "house_213_8217",
@@ -116789,17 +118069,225 @@
           "date": "2024-03-12",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-06-11",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-06-10",
+          "meeting": "決算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-06-05",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-06-04",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-05-30",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-05-29",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-05-28",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-05-23",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-05-21",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-05-16",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-11",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-09",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-08",
+          "meeting": "決算行政監視委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-04",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-03",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-02-28",
+          "meeting": "予算委員会第六分科会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-02-27",
+          "meeting": "予算委員会第六分科会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-02-22",
+          "meeting": "予算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-02-19",
+          "meeting": "予算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-02-09",
+          "meeting": "予算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-02-08",
+          "meeting": "予算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-06-11",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-06-04",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-05-30",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-05-16",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-05-15",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 45
+        "neutral": 71
       }
     },
     "山口晋": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 2,
+      "speech_count": 3,
       "bills": [
         {
           "bill_id": "house_213_8217",
@@ -116816,12 +118304,20 @@
           "date": "2024-04-25",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-02-27",
+          "meeting": "予算委員会第八分科会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 2
+        "neutral": 3
       }
     },
     "吉田健一郎": {
@@ -117170,7 +118666,7 @@
     },
     "泉健太": {
       "party": "立憲民主党・無所属",
-      "speech_count": 25,
+      "speech_count": 26,
       "bills": [
         {
           "bill_id": "house_213_8220",
@@ -117371,11 +118867,19 @@
           "date": "2024-06-20",
           "meeting": "本会議",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-06-20",
+          "meeting": "本会議",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 7,
+        "oppose": 8,
         "neutral": 18
       }
     },
@@ -134473,7 +135977,7 @@
     },
     "川内博史": {
       "party": "立憲民主党・無所属",
-      "speech_count": 11,
+      "speech_count": 13,
       "bills": [
         {
           "bill_id": "councillors_216_15900",
@@ -134562,12 +136066,28 @@
           "date": "2025-04-17",
           "meeting": "消費者問題に関する特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-05-21",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-05-15",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 1,
-        "neutral": 10
+        "neutral": 12
       }
     },
     "酒井なつみ": {
@@ -138453,7 +139973,7 @@
     },
     "福岡資麿": {
       "party": "自由民主党",
-      "speech_count": 80,
+      "speech_count": 82,
       "bills": [
         {
           "bill_id": "councillors_217_15928",
@@ -139094,12 +140614,28 @@
           "date": "2025-04-16",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-05-22",
+          "meeting": "予算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-02-01",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 80
+        "neutral": 82
       }
     },
     "大塚小百合": {
@@ -141350,7 +142886,7 @@
     },
     "渡辺創": {
       "party": "立憲民主党・無所属",
-      "speech_count": 26,
+      "speech_count": 28,
       "bills": [
         {
           "bill_id": "councillors_217_15935",
@@ -141559,10 +143095,26 @@
           "date": "2025-03-18",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-05-21",
+          "meeting": "農林水産委員会",
+          "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-05-21",
+          "meeting": "農林水産委員会",
+          "stance": "賛成"
         }
       ],
       "stance_summary": {
-        "support": 2,
+        "support": 4,
         "oppose": 0,
         "neutral": 24
       }
@@ -142796,8 +144348,8 @@
       }
     },
     "松野明美": {
-      "party": "日本維新の会",
-      "speech_count": 7,
+      "party": "日本維新の会・教育無償化を実現する会",
+      "speech_count": 9,
       "bills": [
         {
           "bill_id": "councillors_217_15939",
@@ -142854,12 +144406,28 @@
           "date": "2025-05-30",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-05-29",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-06-11",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 7
+        "neutral": 9
       }
     },
     "森健": {
@@ -144434,7 +146002,7 @@
     },
     "伊東良孝": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 67,
+      "speech_count": 70,
       "bills": [
         {
           "bill_id": "councillors_217_15945",
@@ -144971,12 +146539,36 @@
           "date": "2025-04-09",
           "meeting": "地方創生及びデジタル社会の形成等に関する特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-17",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-03-01",
+          "meeting": "予算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-02-09",
+          "meeting": "予算委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 67
+        "neutral": 70
       }
     },
     "藤本武士": {
@@ -147565,7 +149157,7 @@
     },
     "小林史明": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 8,
+      "speech_count": 9,
       "bills": [
         {
           "bill_id": "councillors_217_15964",
@@ -147630,10 +149222,18 @@
           "date": "2024-04-09",
           "meeting": "本会議",
           "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15701",
+          "bill_name": "経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6155,
+          "date": "2024-04-09",
+          "meeting": "本会議",
+          "stance": "賛成"
         }
       ],
       "stance_summary": {
-        "support": 3,
+        "support": 4,
         "oppose": 0,
         "neutral": 5
       }
@@ -150350,7 +151950,7 @@
     },
     "古川康": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 24,
+      "speech_count": 26,
       "bills": [
         {
           "bill_id": "house_213_8224",
@@ -150543,12 +152143,28 @@
           "date": "2026-03-05",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-03",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-02-27",
+          "meeting": "予算委員会第四分科会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 24
+        "neutral": 26
       }
     },
     "小国喜弘": {
@@ -151164,7 +152780,7 @@
     },
     "吉田久美子": {
       "party": "公明党",
-      "speech_count": 6,
+      "speech_count": 7,
       "bills": [
         {
           "bill_id": "house_213_8234",
@@ -151213,17 +152829,25 @@
           "date": "2024-03-22",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15701",
+          "bill_name": "経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6155,
+          "date": "2024-04-09",
+          "meeting": "本会議",
+          "stance": "賛成"
         }
       ],
       "stance_summary": {
-        "support": 3,
+        "support": 4,
         "oppose": 0,
         "neutral": 3
       }
     },
     "宮下一郎": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 24,
+      "speech_count": 25,
       "bills": [
         {
           "bill_id": "house_213_8245",
@@ -151416,12 +153040,20 @@
           "date": "2023-12-05",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-17",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 24
+        "neutral": 25
       }
     },
     "伊藤豊": {
@@ -156991,7 +158623,7 @@
     },
     "高木啓": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 3,
+      "speech_count": 4,
       "bills": [
         {
           "bill_id": "house_213_8213",
@@ -157016,17 +158648,25 @@
           "date": "2024-04-05",
           "meeting": "内閣委員会",
           "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15701",
+          "bill_name": "経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6155,
+          "date": "2024-04-05",
+          "meeting": "内閣委員会",
+          "stance": "賛成"
         }
       ],
       "stance_summary": {
-        "support": 3,
+        "support": 4,
         "oppose": 0,
         "neutral": 0
       }
     },
     "冨樫博之": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 19,
+      "speech_count": 20,
       "bills": [
         {
           "bill_id": "house_213_8213",
@@ -157179,12 +158819,20 @@
           "date": "2026-04-24",
           "meeting": "国土交通委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15701",
+          "bill_name": "経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6155,
+          "date": "2024-03-19",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 19
+        "neutral": 20
       }
     },
     "彦谷直克": {
@@ -157208,7 +158856,7 @@
     },
     "西銘恒三郎": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 1,
+      "speech_count": 2,
       "bills": [
         {
           "bill_id": "house_213_8215",
@@ -157217,17 +158865,25 @@
           "date": "2024-06-20",
           "meeting": "本会議",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-06-20",
+          "meeting": "本会議",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 1,
+        "oppose": 2,
         "neutral": 0
       }
     },
     "山本啓介": {
       "party": "自由民主党",
-      "speech_count": 1,
+      "speech_count": 2,
       "bills": [
         {
           "bill_id": "house_213_8215",
@@ -157236,17 +158892,25 @@
           "date": "2024-05-30",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-05-30",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 1
+        "neutral": 2
       }
     },
     "鈴木憲和": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 17,
+      "speech_count": 19,
       "bills": [
         {
           "bill_id": "house_213_8215",
@@ -157383,17 +159047,33 @@
           "date": "2026-04-09",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-05-30",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-05-23",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 17
+        "neutral": 19
       }
     },
     "武村展英": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 46,
+      "speech_count": 49,
       "bills": [
         {
           "bill_id": "house_213_8215",
@@ -157762,17 +159442,41 @@
           "date": "2025-04-23",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-05-29",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-05-21",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-17",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 46
+        "neutral": 49
       }
     },
     "橘慶一郎": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 1,
+      "speech_count": 2,
       "bills": [
         {
           "bill_id": "house_213_8215",
@@ -157781,17 +159485,25 @@
           "date": "2024-05-29",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-05-29",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 1
+        "neutral": 2
       }
     },
     "長井俊彦": {
       "party": "",
-      "speech_count": 5,
+      "speech_count": 6,
       "bills": [
         {
           "bill_id": "house_213_8215",
@@ -157832,17 +159544,25 @@
           "date": "2026-03-12",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-05-28",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 5
+        "neutral": 6
       }
     },
     "杉中淳": {
       "party": "",
-      "speech_count": 18,
+      "speech_count": 27,
       "bills": [
         {
           "bill_id": "house_213_8215",
@@ -157987,17 +159707,89 @@
           "date": "2024-03-13",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-05-28",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-05-23",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-05-21",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-10",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-06-04",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-05-23",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-05-21",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-05-16",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-05-15",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 18
+        "neutral": 27
       }
     },
     "寺田静": {
-      "party": "自由民主党・無所属の会",
-      "speech_count": 4,
+      "party": "各派に属しない議員",
+      "speech_count": 6,
       "bills": [
         {
           "bill_id": "house_213_8215",
@@ -158030,17 +159822,33 @@
           "date": "2026-05-21",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-05-28",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-06-04",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 4
+        "neutral": 6
       }
     },
     "村井正親": {
       "party": "",
-      "speech_count": 4,
+      "speech_count": 5,
       "bills": [
         {
           "bill_id": "house_213_8215",
@@ -158073,17 +159881,25 @@
           "date": "2024-04-02",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-05-23",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 4
+        "neutral": 5
       }
     },
     "横山英信": {
       "party": "",
-      "speech_count": 2,
+      "speech_count": 4,
       "bills": [
         {
           "bill_id": "house_213_8215",
@@ -158100,17 +159916,33 @@
           "date": "2024-05-23",
           "meeting": "農林水産委員会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-05-23",
+          "meeting": "農林水産委員会",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-05-23",
+          "meeting": "農林水産委員会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 2,
+        "oppose": 4,
         "neutral": 0
       }
     },
     "阪本克彦": {
       "party": "",
-      "speech_count": 2,
+      "speech_count": 4,
       "bills": [
         {
           "bill_id": "house_213_8215",
@@ -158127,12 +159959,28 @@
           "date": "2024-05-13",
           "meeting": "行政監視委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-05-16",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-10",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 2
+        "neutral": 4
       }
     },
     "馬場利彦": {
@@ -158232,7 +160080,7 @@
     },
     "武井俊輔": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 1,
+      "speech_count": 3,
       "bills": [
         {
           "bill_id": "house_213_8215",
@@ -158241,17 +160089,33 @@
           "date": "2024-04-09",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-09",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-02-26",
+          "meeting": "予算委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 1
+        "neutral": 3
       }
     },
     "安岡澄人": {
       "party": "",
-      "speech_count": 2,
+      "speech_count": 4,
       "bills": [
         {
           "bill_id": "house_213_8215",
@@ -158268,17 +160132,33 @@
           "date": "2024-04-03",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-09",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-03",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 2
+        "neutral": 4
       }
     },
     "合瀬宏毅": {
       "party": "",
-      "speech_count": 1,
+      "speech_count": 2,
       "bills": [
         {
           "bill_id": "house_213_8215",
@@ -158287,17 +160167,25 @@
           "date": "2024-04-04",
           "meeting": "農林水産委員会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-04",
+          "meeting": "農林水産委員会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 1,
+        "oppose": 2,
         "neutral": 0
       }
     },
     "中原浩一": {
       "party": "",
-      "speech_count": 1,
+      "speech_count": 2,
       "bills": [
         {
           "bill_id": "house_213_8215",
@@ -158306,17 +160194,25 @@
           "date": "2024-04-04",
           "meeting": "農林水産委員会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-04",
+          "meeting": "農林水産委員会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 1,
+        "oppose": 2,
         "neutral": 0
       }
     },
     "三輪泰史": {
       "party": "",
-      "speech_count": 1,
+      "speech_count": 2,
       "bills": [
         {
           "bill_id": "house_213_8215",
@@ -158325,17 +160221,25 @@
           "date": "2024-04-04",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-04",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 1
+        "neutral": 2
       }
     },
     "加藤竜祥": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 2,
+      "speech_count": 4,
       "bills": [
         {
           "bill_id": "house_213_8215",
@@ -158352,6 +160256,49 @@
           "date": "2025-04-04",
           "meeting": "国土交通委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-04",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-02-28",
+          "meeting": "予算委員会第六分科会",
+          "stance": "中立"
+        }
+      ],
+      "stance_summary": {
+        "support": 0,
+        "oppose": 0,
+        "neutral": 4
+      }
+    },
+    "宮浦浩司": {
+      "party": "",
+      "speech_count": 2,
+      "bills": [
+        {
+          "bill_id": "house_213_8215",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 2054,
+          "date": "2024-04-04",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-04",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
@@ -158360,28 +160307,9 @@
         "neutral": 2
       }
     },
-    "宮浦浩司": {
-      "party": "",
-      "speech_count": 1,
-      "bills": [
-        {
-          "bill_id": "house_213_8215",
-          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
-          "issue_number": 2054,
-          "date": "2024-04-04",
-          "meeting": "農林水産委員会",
-          "stance": "中立"
-        }
-      ],
-      "stance_summary": {
-        "support": 0,
-        "oppose": 0,
-        "neutral": 1
-      }
-    },
     "須藤元気": {
       "party": "各派に属しない議員",
-      "speech_count": 1,
+      "speech_count": 2,
       "bills": [
         {
           "bill_id": "house_213_8215",
@@ -158390,17 +160318,25 @@
           "date": "2024-04-04",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-04",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 1
+        "neutral": 2
       }
     },
     "山口那津男": {
       "party": "公明党",
-      "speech_count": 1,
+      "speech_count": 2,
       "bills": [
         {
           "bill_id": "house_213_8215",
@@ -158409,17 +160345,25 @@
           "date": "2024-02-02",
           "meeting": "本会議",
           "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-02-02",
+          "meeting": "本会議",
+          "stance": "賛成"
         }
       ],
       "stance_summary": {
-        "support": 1,
+        "support": 2,
         "oppose": 0,
         "neutral": 0
       }
     },
     "寺川彰": {
       "party": "",
-      "speech_count": 1,
+      "speech_count": 2,
       "bills": [
         {
           "bill_id": "house_213_8216",
@@ -158428,17 +160372,25 @@
           "date": "2024-06-06",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-06-06",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 1
+        "neutral": 2
       }
     },
     "谷口信和": {
       "party": "",
-      "speech_count": 1,
+      "speech_count": 2,
       "bills": [
         {
           "bill_id": "house_213_8216",
@@ -158447,17 +160399,25 @@
           "date": "2024-06-06",
           "meeting": "農林水産委員会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-06-06",
+          "meeting": "農林水産委員会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 1,
+        "oppose": 2,
         "neutral": 0
       }
     },
     "池上甲一": {
       "party": "",
-      "speech_count": 2,
+      "speech_count": 3,
       "bills": [
         {
           "bill_id": "house_213_8216",
@@ -158474,17 +160434,25 @@
           "date": "2024-06-06",
           "meeting": "農林水産委員会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-06-06",
+          "meeting": "農林水産委員会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 2,
+        "oppose": 3,
         "neutral": 0
       }
     },
     "宮崎雅夫": {
       "party": "自由民主党",
-      "speech_count": 3,
+      "speech_count": 5,
       "bills": [
         {
           "bill_id": "house_213_8216",
@@ -158509,17 +160477,33 @@
           "date": "2025-04-24",
           "meeting": "国土交通委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-03-08",
+          "meeting": "予算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-06-04",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 3
+        "neutral": 5
       }
     },
     "平形雄策": {
       "party": "",
-      "speech_count": 4,
+      "speech_count": 7,
       "bills": [
         {
           "bill_id": "house_213_8216",
@@ -158552,17 +160536,41 @@
           "date": "2024-04-02",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-02-27",
+          "meeting": "予算委員会第六分科会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-05-15",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-05-13",
+          "meeting": "決算委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 4
+        "neutral": 7
       }
     },
     "渡辺研司": {
       "party": "",
-      "speech_count": 1,
+      "speech_count": 2,
       "bills": [
         {
           "bill_id": "house_213_8216",
@@ -158571,17 +160579,25 @@
           "date": "2024-05-09",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-05-09",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 1
+        "neutral": 2
       }
     },
     "平澤明彦": {
       "party": "",
-      "speech_count": 1,
+      "speech_count": 2,
       "bills": [
         {
           "bill_id": "house_213_8216",
@@ -158590,17 +160606,25 @@
           "date": "2024-05-09",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-05-09",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 1
+        "neutral": 2
       }
     },
     "高橋博之": {
       "party": "",
-      "speech_count": 1,
+      "speech_count": 2,
       "bills": [
         {
           "bill_id": "house_213_8216",
@@ -158609,12 +160633,20 @@
           "date": "2024-05-09",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15703",
+          "bill_name": "食料供給困難事態対策法案",
+          "issue_number": 6157,
+          "date": "2024-05-09",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 1
+        "neutral": 2
       }
     },
     "山口浩幸": {
@@ -158870,7 +160902,7 @@
     },
     "中川郁子": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 1,
+      "speech_count": 2,
       "bills": [
         {
           "bill_id": "house_213_8239",
@@ -158879,12 +160911,20 @@
           "date": "2024-03-21",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-02-22",
+          "meeting": "予算委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 1
+        "neutral": 2
       }
     },
     "古川俊治": {
@@ -160091,7 +162131,7 @@
     },
     "佐藤紳": {
       "party": "",
-      "speech_count": 2,
+      "speech_count": 3,
       "bills": [
         {
           "bill_id": "house_217_8549",
@@ -160108,12 +162148,20 @@
           "date": "2025-04-18",
           "meeting": "外務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-02-28",
+          "meeting": "予算委員会第八分科会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 2
+        "neutral": 3
       }
     },
     "西川将人": {
@@ -169936,6 +171984,101 @@
           "issue_number": 6146,
           "date": "2024-04-02",
           "meeting": "本会議",
+          "stance": "中立"
+        }
+      ],
+      "stance_summary": {
+        "support": 0,
+        "oppose": 0,
+        "neutral": 1
+      }
+    },
+    "新村浩二": {
+      "party": "",
+      "speech_count": 1,
+      "bills": [
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-17",
+          "meeting": "農林水産委員会",
+          "stance": "賛成"
+        }
+      ],
+      "stance_summary": {
+        "support": 1,
+        "oppose": 0,
+        "neutral": 0
+      }
+    },
+    "田代正一": {
+      "party": "",
+      "speech_count": 1,
+      "bills": [
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-04-17",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        }
+      ],
+      "stance_summary": {
+        "support": 0,
+        "oppose": 0,
+        "neutral": 1
+      }
+    },
+    "長峯誠": {
+      "party": "自由民主党",
+      "speech_count": 1,
+      "bills": [
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-03-11",
+          "meeting": "予算委員会",
+          "stance": "中立"
+        }
+      ],
+      "stance_summary": {
+        "support": 0,
+        "oppose": 0,
+        "neutral": 1
+      }
+    },
+    "仁木博文": {
+      "party": "自由民主党・無所属の会",
+      "speech_count": 1,
+      "bills": [
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-02-28",
+          "meeting": "予算委員会第六分科会",
+          "stance": "中立"
+        }
+      ],
+      "stance_summary": {
+        "support": 0,
+        "oppose": 0,
+        "neutral": 1
+      }
+    },
+    "坂田進": {
+      "party": "",
+      "speech_count": 1,
+      "bills": [
+        {
+          "bill_id": "councillors_213_15702",
+          "bill_name": "食料・農業・農村基本法の一部を改正する法律案",
+          "issue_number": 6156,
+          "date": "2024-02-27",
+          "meeting": "予算委員会第四分科会",
           "stance": "中立"
         }
       ],
