@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-08-30T20:09:54.045Z",
-  "total_count": 8994,
+  "updated_at": "2026-09-06T19:39:54.556Z",
+  "total_count": 8995,
   "laws": [
     {
       "id": "321CONSTITUTION",
@@ -37833,6 +37833,12 @@
       "category": "misc"
     },
     {
+      "id": "412RPMD08210002",
+      "lawNum": "平成十二年八月二十一日内閣総理大臣決定",
+      "title": "内閣総務官室に総理大臣官邸事務所等を置く規則",
+      "category": "misc"
+    },
+    {
       "id": "412RPMD08210001",
       "lawNum": "平成十二年八月二十一日内閣総理大臣決定",
       "title": "内閣広報室に内閣副広報官等を置く規則",
@@ -37842,12 +37848,6 @@
       "id": "412RPMD08210000",
       "lawNum": "平成十二年八月二十一日内閣総理大臣決定",
       "title": "内閣官房に危機管理審議官を置く規則",
-      "category": "misc"
-    },
-    {
-      "id": "412RPMD08210002",
-      "lawNum": "平成十二年八月二十一日内閣総理大臣決定",
-      "title": "内閣総務官室に総理大臣官邸事務所等を置く規則",
       "category": "misc"
     },
     {
@@ -51519,6 +51519,12 @@
       "category": "ministerial_ordinances"
     },
     {
+      "id": "508M60000100130",
+      "lawNum": "令和八年厚生労働省令第百三十号",
+      "title": "令和八年熊本地震による災害に対処するための要介護認定有効期間及び要支援認定有効期間の特例に関する省令",
+      "category": "ministerial_ordinances"
+    },
+    {
       "id": "322R00000001001",
       "lawNum": "昭和二十二年会計検査院規則第一号",
       "title": "会計検査院規則の公布に関する規則",
@@ -53865,15 +53871,15 @@
       "category": "misc"
     },
     {
-      "id": "505RPMD08140003",
-      "lawNum": "令和五年八月十四日内閣総理大臣決定",
-      "title": "内閣感染症危機管理統括庁に感染症危機管理統括審議官を置く規則",
-      "category": "ministerial_ordinances"
-    },
-    {
       "id": "505RPMD08140002",
       "lawNum": "令和五年八月十四日内閣総理大臣決定",
       "title": "内閣感染症危機管理統括庁組織規則",
+      "category": "ministerial_ordinances"
+    },
+    {
+      "id": "505RPMD08140003",
+      "lawNum": "令和五年八月十四日内閣総理大臣決定",
+      "title": "内閣感染症危機管理統括庁に感染症危機管理統括審議官を置く規則",
       "category": "ministerial_ordinances"
     },
     {

@@ -1,15 +1,15 @@
 {
-  "total_laws": 8994,
+  "total_laws": 8995,
   "by_category": {
     "constitution": 1,
     "misc": 4444,
     "acts": 2080,
     "imperial_orders": 69,
     "cabinet_orders": 2320,
-    "ministerial_ordinances": 79,
+    "ministerial_ordinances": 80,
     "rules": 1
   },
-  "updated_at": "2026-08-30T20:13:47.149Z",
+  "updated_at": "2026-09-06T19:43:46.214Z",
   "legislators_count": 693,
   "parties_count": 12,
   "bills_count": 16549

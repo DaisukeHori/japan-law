@@ -1,7 +1,7 @@
 {
   "category": "ministerial_ordinances",
   "category_name": "省令",
-  "count": 79,
+  "count": 80,
   "laws": [
     {
       "id": "508M60001000001",
@@ -448,15 +448,21 @@
       "category": "ministerial_ordinances"
     },
     {
-      "id": "505RPMD08140003",
-      "lawNum": "令和五年八月十四日内閣総理大臣決定",
-      "title": "内閣感染症危機管理統括庁に感染症危機管理統括審議官を置く規則",
+      "id": "508M60000100130",
+      "lawNum": "令和八年厚生労働省令第百三十号",
+      "title": "令和八年熊本地震による災害に対処するための要介護認定有効期間及び要支援認定有効期間の特例に関する省令",
       "category": "ministerial_ordinances"
     },
     {
       "id": "505RPMD08140002",
       "lawNum": "令和五年八月十四日内閣総理大臣決定",
       "title": "内閣感染症危機管理統括庁組織規則",
+      "category": "ministerial_ordinances"
+    },
+    {
+      "id": "505RPMD08140003",
+      "lawNum": "令和五年八月十四日内閣総理大臣決定",
+      "title": "内閣感染症危機管理統括庁に感染症危機管理統括審議官を置く規則",
       "category": "ministerial_ordinances"
     },
     {
