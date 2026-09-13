@@ -1,11 +1,11 @@
 {
-  "updated_at": "2026-09-06T20:26:54.971Z",
+  "updated_at": "2026-09-13T20:50:04.111Z",
   "total_legislators": 1200,
-  "total_speeches": 20001,
+  "total_speeches": 20153,
   "legislators": {
     "東徹": {
       "party": "日本維新の会・教育無償化を実現する会",
-      "speech_count": 24,
+      "speech_count": 25,
       "bills": [
         {
           "bill_id": "house_211_7800",
@@ -198,12 +198,20 @@
           "date": "2024-04-05",
           "meeting": "地方創生及びデジタル社会の形成等に関する特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15731",
+          "bill_name": "地域の自主性及び自立性を高めるための改革の推進を図るための関係法律の整備に関する法律案",
+          "issue_number": 6163,
+          "date": "2024-06-07",
+          "meeting": "地方創生及びデジタル社会の形成等に関する特別委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 2,
-        "neutral": 22
+        "neutral": 23
       }
     },
     "小林史武": {
@@ -2454,7 +2462,7 @@
     },
     "山口俊一": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 393,
+      "speech_count": 394,
       "bills": [
         {
           "bill_id": "house_211_7800",
@@ -5599,17 +5607,25 @@
           "date": "2024-05-07",
           "meeting": "議院運営委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-06-21",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 393
+        "neutral": 394
       }
     },
     "岡田憲治": {
       "party": "",
-      "speech_count": 319,
+      "speech_count": 323,
       "bills": [
         {
           "bill_id": "house_211_7800",
@@ -8162,17 +8178,49 @@
           "date": "2024-05-14",
           "meeting": "議院運営委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-03-26",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15731",
+          "bill_name": "地域の自主性及び自立性を高めるための改革の推進を図るための関係法律の整備に関する法律案",
+          "issue_number": 6163,
+          "date": "2024-06-04",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15732",
+          "bill_name": "金融商品取引法及び投資信託及び投資法人に関する法律の一部を改正する法律案",
+          "issue_number": 6164,
+          "date": "2024-05-07",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15733",
+          "bill_name": "事業性融資の推進等に関する法律案",
+          "issue_number": 6165,
+          "date": "2024-05-21",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 319
+        "neutral": 323
       }
     },
     "尾辻秀久": {
       "party": "各派に属しない議員",
-      "speech_count": 326,
+      "speech_count": 331,
       "bills": [
         {
           "bill_id": "house_211_7806",
@@ -10781,12 +10829,52 @@
           "date": "2024-04-05",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-05-17",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15731",
+          "bill_name": "地域の自主性及び自立性を高めるための改革の推進を図るための関係法律の整備に関する法律案",
+          "issue_number": 6163,
+          "date": "2024-06-12",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15732",
+          "bill_name": "金融商品取引法及び投資信託及び投資法人に関する法律の一部を改正する法律案",
+          "issue_number": 6164,
+          "date": "2024-05-15",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15733",
+          "bill_name": "事業性融資の推進等に関する法律案",
+          "issue_number": 6165,
+          "date": "2024-06-07",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15734",
+          "bill_name": "出入国管理及び難民認定法等の一部を改正する法律案",
+          "issue_number": 6166,
+          "date": "2024-06-14",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 326
+        "neutral": 331
       }
     },
     "古賀友一郎": {
@@ -13880,7 +13968,7 @@
     },
     "小沢雅仁": {
       "party": "立憲民主・社民",
-      "speech_count": 46,
+      "speech_count": 48,
       "bills": [
         {
           "bill_id": "house_211_7811",
@@ -14249,12 +14337,28 @@
           "date": "2024-05-08",
           "meeting": "憲法審査会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-05-16",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-03-29",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 11,
         "oppose": 6,
-        "neutral": 29
+        "neutral": 31
       }
     },
     "赤羽一嘉": {
@@ -17964,7 +18068,7 @@
     },
     "谷公一": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 100,
+      "speech_count": 102,
       "bills": [
         {
           "bill_id": "house_211_7814",
@@ -18765,12 +18869,28 @@
           "date": "2024-06-21",
           "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15731",
+          "bill_name": "地域の自主性及び自立性を高めるための改革の推進を図るための関係法律の整備に関する法律案",
+          "issue_number": 6163,
+          "date": "2024-05-30",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15731",
+          "bill_name": "地域の自主性及び自立性を高めるための改革の推進を図るための関係法律の整備に関する法律案",
+          "issue_number": 6163,
+          "date": "2024-05-24",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 100
+        "neutral": 102
       }
     },
     "野田国義": {
@@ -21726,8 +21846,8 @@
       }
     },
     "清水貴之": {
-      "party": "日本維新の会",
-      "speech_count": 37,
+      "party": "日本維新の会・教育無償化を実現する会",
+      "speech_count": 38,
       "bills": [
         {
           "bill_id": "house_211_7845",
@@ -22024,10 +22144,18 @@
           "date": "2023-11-28",
           "meeting": "予算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15734",
+          "bill_name": "出入国管理及び難民認定法等の一部を改正する法律案",
+          "issue_number": 6166,
+          "date": "2024-06-14",
+          "meeting": "本会議",
+          "stance": "賛成"
         }
       ],
       "stance_summary": {
-        "support": 13,
+        "support": 14,
         "oppose": 1,
         "neutral": 23
       }
@@ -23065,7 +23193,7 @@
     },
     "古屋範子": {
       "party": "公明党",
-      "speech_count": 95,
+      "speech_count": 98,
       "bills": [
         {
           "bill_id": "house_211_7862",
@@ -23826,17 +23954,41 @@
           "date": "2024-05-09",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-06-21",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-03-21",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-03-14",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 10,
         "oppose": 0,
-        "neutral": 85
+        "neutral": 88
       }
     },
     "柴愼一": {
-      "party": "立憲民主・社民・無所属",
-      "speech_count": 55,
+      "party": "立憲民主・社民",
+      "speech_count": 56,
       "bills": [
         {
           "bill_id": "house_211_7863",
@@ -24277,12 +24429,20 @@
           "date": "2025-03-31",
           "meeting": "本会議",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15733",
+          "bill_name": "事業性融資の推進等に関する法律案",
+          "issue_number": 6165,
+          "date": "2024-05-30",
+          "meeting": "財政金融委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 3,
         "oppose": 20,
-        "neutral": 32
+        "neutral": 33
       }
     },
     "梅村聡": {
@@ -24477,7 +24637,7 @@
     },
     "神谷宗幣": {
       "party": "各派に属しない議員",
-      "speech_count": 38,
+      "speech_count": 41,
       "bills": [
         {
           "bill_id": "house_211_7863",
@@ -24782,12 +24942,36 @@
           "date": "2024-04-11",
           "meeting": "財政金融委員会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15732",
+          "bill_name": "金融商品取引法及び投資信託及び投資法人に関する法律の一部を改正する法律案",
+          "issue_number": 6164,
+          "date": "2024-05-14",
+          "meeting": "財政金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15733",
+          "bill_name": "事業性融資の推進等に関する法律案",
+          "issue_number": 6165,
+          "date": "2024-06-06",
+          "meeting": "財政金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15733",
+          "bill_name": "事業性融資の推進等に関する法律案",
+          "issue_number": 6165,
+          "date": "2024-06-04",
+          "meeting": "財政金融委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 5,
-        "neutral": 33
+        "neutral": 36
       }
     },
     "堂込麻紀子": {
@@ -26442,7 +26626,7 @@
     },
     "鈴木俊一": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 174,
+      "speech_count": 183,
       "bills": [
         {
           "bill_id": "house_211_7863",
@@ -27835,12 +28019,84 @@
           "date": "2024-02-16",
           "meeting": "財務金融委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15732",
+          "bill_name": "金融商品取引法及び投資信託及び投資法人に関する法律の一部を改正する法律案",
+          "issue_number": 6164,
+          "date": "2024-05-09",
+          "meeting": "財政金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15732",
+          "bill_name": "金融商品取引法及び投資信託及び投資法人に関する法律の一部を改正する法律案",
+          "issue_number": 6164,
+          "date": "2024-04-12",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15732",
+          "bill_name": "金融商品取引法及び投資信託及び投資法人に関する法律の一部を改正する法律案",
+          "issue_number": 6164,
+          "date": "2024-03-07",
+          "meeting": "財政金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15732",
+          "bill_name": "金融商品取引法及び投資信託及び投資法人に関する法律の一部を改正する法律案",
+          "issue_number": 6164,
+          "date": "2024-02-13",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15733",
+          "bill_name": "事業性融資の推進等に関する法律案",
+          "issue_number": 6165,
+          "date": "2024-05-28",
+          "meeting": "財政金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15733",
+          "bill_name": "事業性融資の推進等に関する法律案",
+          "issue_number": 6165,
+          "date": "2024-05-08",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15733",
+          "bill_name": "事業性融資の推進等に関する法律案",
+          "issue_number": 6165,
+          "date": "2024-04-23",
+          "meeting": "財政金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15733",
+          "bill_name": "事業性融資の推進等に関する法律案",
+          "issue_number": 6165,
+          "date": "2024-03-07",
+          "meeting": "財政金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15733",
+          "bill_name": "事業性融資の推進等に関する法律案",
+          "issue_number": 6165,
+          "date": "2024-02-13",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 14,
-        "neutral": 160
+        "neutral": 169
       }
     },
     "浅田均": {
@@ -28139,7 +28395,7 @@
     },
     "道下大樹": {
       "party": "立憲民主党・無所属",
-      "speech_count": 22,
+      "speech_count": 23,
       "bills": [
         {
           "bill_id": "house_211_7863",
@@ -28316,12 +28572,20 @@
           "date": "2024-03-15",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-03-14",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 1,
         "oppose": 7,
-        "neutral": 14
+        "neutral": 15
       }
     },
     "越智隆雄": {
@@ -29437,7 +29701,7 @@
     },
     "櫻井周": {
       "party": "立憲民主党・無所属",
-      "speech_count": 45,
+      "speech_count": 46,
       "bills": [
         {
           "bill_id": "house_211_7863",
@@ -29798,12 +30062,20 @@
           "date": "2024-04-09",
           "meeting": "財務金融委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15733",
+          "bill_name": "事業性融資の推進等に関する法律案",
+          "issue_number": 6165,
+          "date": "2024-05-17",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 2,
         "oppose": 8,
-        "neutral": 35
+        "neutral": 36
       }
     },
     "階猛": {
@@ -30561,7 +30833,7 @@
     },
     "小田原潔": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 2,
+      "speech_count": 3,
       "bills": [
         {
           "bill_id": "house_211_7863",
@@ -30578,12 +30850,20 @@
           "date": "2024-05-17",
           "meeting": "財務金融委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15733",
+          "bill_name": "事業性融資の推進等に関する法律案",
+          "issue_number": 6165,
+          "date": "2024-05-17",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 2
+        "neutral": 3
       }
     },
     "末松義規": {
@@ -30861,7 +31141,7 @@
     },
     "田村貴昭": {
       "party": "日本共産党",
-      "speech_count": 83,
+      "speech_count": 84,
       "bills": [
         {
           "bill_id": "house_211_7864",
@@ -31526,10 +31806,18 @@
           "date": "2024-05-21",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15733",
+          "bill_name": "事業性融資の推進等に関する法律案",
+          "issue_number": 6165,
+          "date": "2024-05-17",
+          "meeting": "財務金融委員会",
+          "stance": "賛成"
         }
       ],
       "stance_summary": {
-        "support": 2,
+        "support": 3,
         "oppose": 23,
         "neutral": 58
       }
@@ -32553,7 +32841,7 @@
     },
     "福田昭夫": {
       "party": "立憲民主党・無所属",
-      "speech_count": 7,
+      "speech_count": 8,
       "bills": [
         {
           "bill_id": "house_211_7864",
@@ -32610,12 +32898,20 @@
           "date": "2025-12-11",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-03-21",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 2,
-        "neutral": 5
+        "neutral": 6
       }
     },
     "井林辰憲": {
@@ -33169,8 +33465,8 @@
       }
     },
     "吉田とも代": {
-      "party": "日本維新の会",
-      "speech_count": 18,
+      "party": "日本維新の会・教育無償化を実現する会",
+      "speech_count": 19,
       "bills": [
         {
           "bill_id": "house_211_7866",
@@ -33315,12 +33611,20 @@
           "date": "2024-02-29",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-03-21",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 7,
         "oppose": 1,
-        "neutral": 10
+        "neutral": 11
       }
     },
     "山下雄平": {
@@ -37147,8 +37451,8 @@
       }
     },
     "伊東信久": {
-      "party": "日本維新の会",
-      "speech_count": 30,
+      "party": "日本維新の会・教育無償化を実現する会",
+      "speech_count": 31,
       "bills": [
         {
           "bill_id": "house_211_7868",
@@ -37389,12 +37693,20 @@
           "date": "2025-04-25",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15733",
+          "bill_name": "事業性融資の推進等に関する法律案",
+          "issue_number": 6165,
+          "date": "2024-05-17",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 2,
         "oppose": 3,
-        "neutral": 25
+        "neutral": 26
       }
     },
     "沢田良": {
@@ -41260,7 +41572,7 @@
     },
     "松本剛明": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 144,
+      "speech_count": 154,
       "bills": [
         {
           "bill_id": "house_211_7870",
@@ -42413,12 +42725,92 @@
           "date": "2024-03-07",
           "meeting": "総務委員会",
           "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-06-21",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-05-28",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-05-21",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-05-16",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-05-14",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-03-22",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-03-21",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-03-14",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-03-12",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-03-07",
+          "meeting": "総務委員会",
+          "stance": "賛成"
         }
       ],
       "stance_summary": {
-        "support": 25,
+        "support": 26,
         "oppose": 5,
-        "neutral": 114
+        "neutral": 123
       }
     },
     "池田達雄": {
@@ -43203,7 +43595,7 @@
     },
     "奥野総一郎": {
       "party": "立憲民主党・無所属",
-      "speech_count": 24,
+      "speech_count": 25,
       "bills": [
         {
           "bill_id": "house_211_7870",
@@ -43396,17 +43788,25 @@
           "date": "2025-06-05",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-03-14",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 24
+        "neutral": 25
       }
     },
     "守島正": {
-      "party": "日本維新の会",
-      "speech_count": 15,
+      "party": "日本維新の会・教育無償化を実現する会",
+      "speech_count": 16,
       "bills": [
         {
           "bill_id": "house_211_7870",
@@ -43527,17 +43927,25 @@
           "date": "2023-11-24",
           "meeting": "予算委員会",
           "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-02-27",
+          "meeting": "予算委員会第二分科会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 8,
         "oppose": 0,
-        "neutral": 7
+        "neutral": 8
       }
     },
     "宮本岳志": {
       "party": "日本共産党",
-      "speech_count": 50,
+      "speech_count": 51,
       "bills": [
         {
           "bill_id": "house_211_7870",
@@ -43938,17 +44346,25 @@
           "date": "2024-05-07",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-03-21",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 5,
         "oppose": 6,
-        "neutral": 39
+        "neutral": 40
       }
     },
     "井原巧": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 2,
+      "speech_count": 3,
       "bills": [
         {
           "bill_id": "house_211_7870",
@@ -43965,12 +44381,20 @@
           "date": "2024-03-14",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-03-14",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 2
+        "neutral": 3
       }
     },
     "神谷裕": {
@@ -44202,7 +44626,7 @@
     },
     "西岡秀子": {
       "party": "国民民主党・無所属クラブ",
-      "speech_count": 45,
+      "speech_count": 46,
       "bills": [
         {
           "bill_id": "house_211_7870",
@@ -44563,11 +44987,19 @@
           "date": "2024-05-07",
           "meeting": "本会議",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-03-21",
+          "meeting": "総務委員会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 10,
-        "oppose": 9,
+        "oppose": 10,
         "neutral": 26
       }
     },
@@ -45248,7 +45680,7 @@
     },
     "おおつき紅葉": {
       "party": "立憲民主党・無所属",
-      "speech_count": 23,
+      "speech_count": 24,
       "bills": [
         {
           "bill_id": "house_211_7871",
@@ -45433,12 +45865,20 @@
           "date": "2024-05-07",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-03-21",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 23
+        "neutral": 24
       }
     },
     "小野寺真也": {
@@ -45518,7 +45958,7 @@
     },
     "佐々木さやか": {
       "party": "公明党",
-      "speech_count": 45,
+      "speech_count": 52,
       "bills": [
         {
           "bill_id": "house_211_7872",
@@ -45879,12 +46319,68 @@
           "date": "2024-04-04",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15734",
+          "bill_name": "出入国管理及び難民認定法等の一部を改正する法律案",
+          "issue_number": 6166,
+          "date": "2024-06-14",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15734",
+          "bill_name": "出入国管理及び難民認定法等の一部を改正する法律案",
+          "issue_number": 6166,
+          "date": "2024-06-13",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15734",
+          "bill_name": "出入国管理及び難民認定法等の一部を改正する法律案",
+          "issue_number": 6166,
+          "date": "2024-06-11",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15734",
+          "bill_name": "出入国管理及び難民認定法等の一部を改正する法律案",
+          "issue_number": 6166,
+          "date": "2024-06-06",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15734",
+          "bill_name": "出入国管理及び難民認定法等の一部を改正する法律案",
+          "issue_number": 6166,
+          "date": "2024-06-04",
+          "meeting": "法務委員会、厚生労働委員会連合審査会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15734",
+          "bill_name": "出入国管理及び難民認定法等の一部を改正する法律案",
+          "issue_number": 6166,
+          "date": "2024-05-30",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15734",
+          "bill_name": "出入国管理及び難民認定法等の一部を改正する法律案",
+          "issue_number": 6166,
+          "date": "2024-05-28",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 45
+        "neutral": 52
       }
     },
     "杉久武": {
@@ -46271,7 +46767,7 @@
     },
     "福島みずほ": {
       "party": "立憲民主・社民",
-      "speech_count": 29,
+      "speech_count": 30,
       "bills": [
         {
           "bill_id": "house_211_7872",
@@ -46504,11 +47000,19 @@
           "date": "2024-03-21",
           "meeting": "地方創生及びデジタル社会の形成等に関する特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15734",
+          "bill_name": "出入国管理及び難民認定法等の一部を改正する法律案",
+          "issue_number": 6166,
+          "date": "2024-06-13",
+          "meeting": "法務委員会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 2,
-        "oppose": 2,
+        "oppose": 3,
         "neutral": 25
       }
     },
@@ -46781,7 +47285,7 @@
     },
     "牧山ひろえ": {
       "party": "立憲民主・社民",
-      "speech_count": 72,
+      "speech_count": 75,
       "bills": [
         {
           "bill_id": "house_211_7872",
@@ -47358,12 +47862,36 @@
           "date": "2024-04-04",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15734",
+          "bill_name": "出入国管理及び難民認定法等の一部を改正する法律案",
+          "issue_number": 6166,
+          "date": "2024-06-14",
+          "meeting": "本会議",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15734",
+          "bill_name": "出入国管理及び難民認定法等の一部を改正する法律案",
+          "issue_number": 6166,
+          "date": "2024-06-13",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15734",
+          "bill_name": "出入国管理及び難民認定法等の一部を改正する法律案",
+          "issue_number": 6166,
+          "date": "2024-06-06",
+          "meeting": "法務委員会",
+          "stance": "賛成"
         }
       ],
       "stance_summary": {
-        "support": 5,
-        "oppose": 4,
-        "neutral": 63
+        "support": 6,
+        "oppose": 5,
+        "neutral": 64
       }
     },
     "齋藤健": {
@@ -49071,7 +49599,7 @@
     },
     "林芳正": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 67,
+      "speech_count": 68,
       "bills": [
         {
           "bill_id": "house_211_7873",
@@ -49608,12 +50136,20 @@
           "date": "2025-03-28",
           "meeting": "予算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-02-28",
+          "meeting": "予算委員会第一分科会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 1,
-        "neutral": 66
+        "neutral": 67
       }
     },
     "黄川田仁志": {
@@ -49935,8 +50471,8 @@
       }
     },
     "吉川沙織": {
-      "party": "立憲民主・社民・無所属",
-      "speech_count": 71,
+      "party": "立憲民主・社民",
+      "speech_count": 73,
       "bills": [
         {
           "bill_id": "house_211_7874",
@@ -50505,12 +51041,28 @@
           "date": "2025-04-21",
           "meeting": "予算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-05-28",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-05-16",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 1,
         "oppose": 9,
-        "neutral": 61
+        "neutral": 63
       }
     },
     "猪瀬直樹": {
@@ -50694,7 +51246,7 @@
     },
     "礒崎哲史": {
       "party": "国民民主党・新緑風会",
-      "speech_count": 16,
+      "speech_count": 17,
       "bills": [
         {
           "bill_id": "house_211_7874",
@@ -50823,12 +51375,20 @@
           "date": "2025-05-09",
           "meeting": "本会議",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-06-12",
+          "meeting": "憲法審査会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 5,
-        "neutral": 11
+        "neutral": 12
       }
     },
     "田島麻衣子": {
@@ -52614,7 +53174,7 @@
     },
     "宗清皇一": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 6,
+      "speech_count": 7,
       "bills": [
         {
           "bill_id": "house_211_7874",
@@ -52663,12 +53223,20 @@
           "date": "2024-02-16",
           "meeting": "財務金融委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15733",
+          "bill_name": "事業性融資の推進等に関する法律案",
+          "issue_number": 6165,
+          "date": "2024-04-17",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 2,
         "oppose": 0,
-        "neutral": 4
+        "neutral": 5
       }
     },
     "落合貴之": {
@@ -58968,7 +59536,7 @@
     },
     "足立敏之": {
       "party": "自由民主党",
-      "speech_count": 33,
+      "speech_count": 39,
       "bills": [
         {
           "bill_id": "house_211_7881",
@@ -59233,12 +59801,60 @@
           "date": "2024-02-21",
           "meeting": "財政金融委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15732",
+          "bill_name": "金融商品取引法及び投資信託及び投資法人に関する法律の一部を改正する法律案",
+          "issue_number": 6164,
+          "date": "2024-05-14",
+          "meeting": "財政金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15733",
+          "bill_name": "事業性融資の推進等に関する法律案",
+          "issue_number": 6165,
+          "date": "2024-06-07",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15733",
+          "bill_name": "事業性融資の推進等に関する法律案",
+          "issue_number": 6165,
+          "date": "2024-06-06",
+          "meeting": "財政金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15733",
+          "bill_name": "事業性融資の推進等に関する法律案",
+          "issue_number": 6165,
+          "date": "2024-06-04",
+          "meeting": "財政金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15733",
+          "bill_name": "事業性融資の推進等に関する法律案",
+          "issue_number": 6165,
+          "date": "2024-05-30",
+          "meeting": "財政金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15733",
+          "bill_name": "事業性融資の推進等に関する法律案",
+          "issue_number": 6165,
+          "date": "2024-05-28",
+          "meeting": "財政金融委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 33
+        "neutral": 39
       }
     },
     "青島健太": {
@@ -65457,7 +66073,7 @@
     },
     "音喜多駿": {
       "party": "日本維新の会・教育無償化を実現する会",
-      "speech_count": 19,
+      "speech_count": 22,
       "bills": [
         {
           "bill_id": "house_211_7883",
@@ -65610,17 +66226,41 @@
           "date": "2024-06-13",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-05-16",
+          "meeting": "総務委員会",
+          "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-03-29",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-03-12",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
-        "support": 1,
+        "support": 2,
         "oppose": 0,
-        "neutral": 18
+        "neutral": 20
       }
     },
     "熊谷裕人": {
       "party": "立憲民主・社民",
-      "speech_count": 65,
+      "speech_count": 67,
       "bills": [
         {
           "bill_id": "house_211_7883",
@@ -66141,12 +66781,28 @@
           "date": "2024-04-25",
           "meeting": "財政金融委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15732",
+          "bill_name": "金融商品取引法及び投資信託及び投資法人に関する法律の一部を改正する法律案",
+          "issue_number": 6164,
+          "date": "2024-05-14",
+          "meeting": "財政金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15733",
+          "bill_name": "事業性融資の推進等に関する法律案",
+          "issue_number": 6165,
+          "date": "2024-06-06",
+          "meeting": "財政金融委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 21,
-        "neutral": 44
+        "neutral": 46
       }
     },
     "三木圭恵": {
@@ -69135,7 +69791,7 @@
     },
     "吉川元": {
       "party": "立憲民主党・無所属",
-      "speech_count": 31,
+      "speech_count": 34,
       "bills": [
         {
           "bill_id": "house_211_7884",
@@ -69384,12 +70040,36 @@
           "date": "2024-04-02",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-03-21",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-02-29",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-02-15",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 7,
         "oppose": 2,
-        "neutral": 22
+        "neutral": 25
       }
     },
     "梅谷守": {
@@ -72601,7 +73281,7 @@
     },
     "伊藤岳": {
       "party": "日本共産党",
-      "speech_count": 53,
+      "speech_count": 56,
       "bills": [
         {
           "bill_id": "house_211_7887",
@@ -73026,12 +73706,36 @@
           "date": "2024-06-13",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-05-21",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-05-16",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-03-29",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 14,
-        "neutral": 39
+        "neutral": 42
       }
     },
     "泉田裕彦": {
@@ -76825,7 +77529,7 @@
     },
     "平林晃": {
       "party": "公明党",
-      "speech_count": 38,
+      "speech_count": 39,
       "bills": [
         {
           "bill_id": "house_211_7891",
@@ -77130,12 +77834,20 @@
           "date": "2024-02-27",
           "meeting": "予算委員会第六分科会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-03-14",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 9,
-        "neutral": 29
+        "neutral": 30
       }
     },
     "鈴木庸介": {
@@ -80721,7 +81433,7 @@
     },
     "中司宏": {
       "party": "日本維新の会・教育無償化を実現する会",
-      "speech_count": 20,
+      "speech_count": 21,
       "bills": [
         {
           "bill_id": "house_211_7900",
@@ -80882,12 +81594,20 @@
           "date": "2024-06-06",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-03-21",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 1,
         "oppose": 0,
-        "neutral": 19
+        "neutral": 20
       }
     },
     "湯原俊二": {
@@ -86202,7 +86922,7 @@
     },
     "新妻秀規": {
       "party": "公明党",
-      "speech_count": 68,
+      "speech_count": 70,
       "bills": [
         {
           "bill_id": "councillors_211_15314",
@@ -86747,12 +87467,28 @@
           "date": "2024-06-06",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-05-16",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-03-29",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 68
+        "neutral": 70
       }
     },
     "大西健介": {
@@ -87206,7 +87942,7 @@
     },
     "芳賀道也": {
       "party": "国民民主党・新緑風会",
-      "speech_count": 38,
+      "speech_count": 39,
       "bills": [
         {
           "bill_id": "councillors_211_15314",
@@ -87511,12 +88247,20 @@
           "date": "2024-06-06",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-05-16",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 5,
         "oppose": 6,
-        "neutral": 27
+        "neutral": 28
       }
     },
     "岩佐哲也": {
@@ -88863,7 +89607,7 @@
     },
     "自見はなこ": {
       "party": "自由民主党",
-      "speech_count": 53,
+      "speech_count": 55,
       "bills": [
         {
           "bill_id": "councillors_211_15315",
@@ -89288,12 +90032,28 @@
           "date": "2024-03-08",
           "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15731",
+          "bill_name": "地域の自主性及び自立性を高めるための改革の推進を図るための関係法律の整備に関する法律案",
+          "issue_number": 6163,
+          "date": "2024-06-05",
+          "meeting": "地方創生及びデジタル社会の形成等に関する特別委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15731",
+          "bill_name": "地域の自主性及び自立性を高めるための改革の推進を図るための関係法律の整備に関する法律案",
+          "issue_number": 6163,
+          "date": "2024-05-24",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 53
+        "neutral": 55
       }
     },
     "串田誠一": {
@@ -92221,7 +92981,7 @@
     },
     "西田実仁": {
       "party": "公明党",
-      "speech_count": 5,
+      "speech_count": 6,
       "bills": [
         {
           "bill_id": "councillors_211_15360",
@@ -92262,11 +93022,19 @@
           "date": "2024-05-08",
           "meeting": "憲法審査会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-05-16",
+          "meeting": "総務委員会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 2,
+        "oppose": 3,
         "neutral": 3
       }
     },
@@ -93775,7 +94543,7 @@
     },
     "川崎政司": {
       "party": "",
-      "speech_count": 9,
+      "speech_count": 10,
       "bills": [
         {
           "bill_id": "councillors_211_15360",
@@ -93848,12 +94616,20 @@
           "date": "2023-11-15",
           "meeting": "憲法審査会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-06-12",
+          "meeting": "憲法審査会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 1,
-        "neutral": 8
+        "neutral": 9
       }
     },
     "安江伸夫": {
@@ -93884,8 +94660,8 @@
       }
     },
     "片山さつき": {
-      "party": "自由民主党・無所属の会",
-      "speech_count": 84,
+      "party": "自由民主党",
+      "speech_count": 85,
       "bills": [
         {
           "bill_id": "councillors_211_15360",
@@ -94558,12 +95334,20 @@
           "date": "2026-03-03",
           "meeting": "財務金融委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-06-12",
+          "meeting": "憲法審査会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 84
+        "neutral": 85
       }
     },
     "古賀千景": {
@@ -97359,7 +98143,7 @@
     },
     "小池晃": {
       "party": "日本共産党",
-      "speech_count": 46,
+      "speech_count": 47,
       "bills": [
         {
           "bill_id": "councillors_211_15418",
@@ -97728,11 +98512,19 @@
           "date": "2024-04-11",
           "meeting": "財政金融委員会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15733",
+          "bill_name": "事業性融資の推進等に関する法律案",
+          "issue_number": 6165,
+          "date": "2024-06-06",
+          "meeting": "財政金融委員会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 28,
+        "oppose": 29,
         "neutral": 18
       }
     },
@@ -99279,7 +100071,7 @@
     },
     "津島淳": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 96,
+      "speech_count": 102,
       "bills": [
         {
           "bill_id": "councillors_211_15418",
@@ -100048,12 +100840,60 @@
           "date": "2024-06-21",
           "meeting": "財務金融委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15732",
+          "bill_name": "金融商品取引法及び投資信託及び投資法人に関する法律の一部を改正する法律案",
+          "issue_number": 6164,
+          "date": "2024-04-26",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15732",
+          "bill_name": "金融商品取引法及び投資信託及び投資法人に関する法律の一部を改正する法律案",
+          "issue_number": 6164,
+          "date": "2024-04-12",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15733",
+          "bill_name": "事業性融資の推進等に関する法律案",
+          "issue_number": 6165,
+          "date": "2024-05-17",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15733",
+          "bill_name": "事業性融資の推進等に関する法律案",
+          "issue_number": 6165,
+          "date": "2024-05-14",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15733",
+          "bill_name": "事業性融資の推進等に関する法律案",
+          "issue_number": 6165,
+          "date": "2024-05-10",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15733",
+          "bill_name": "事業性融資の推進等に関する法律案",
+          "issue_number": 6165,
+          "date": "2024-05-08",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 96
+        "neutral": 102
       }
     },
     "柳澤協二": {
@@ -100813,7 +101653,7 @@
     },
     "額賀福志郎": {
       "party": "無所属",
-      "speech_count": 561,
+      "speech_count": 566,
       "bills": [
         {
           "bill_id": "councillors_212_15437",
@@ -105302,12 +106142,52 @@
           "date": "2024-05-14",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-05-07",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-03-26",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15731",
+          "bill_name": "地域の自主性及び自立性を高めるための改革の推進を図るための関係法律の整備に関する法律案",
+          "issue_number": 6163,
+          "date": "2024-06-04",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15732",
+          "bill_name": "金融商品取引法及び投資信託及び投資法人に関する法律の一部を改正する法律案",
+          "issue_number": 6164,
+          "date": "2024-05-07",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15733",
+          "bill_name": "事業性融資の推進等に関する法律案",
+          "issue_number": 6165,
+          "date": "2024-05-21",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 4,
         "oppose": 0,
-        "neutral": 557
+        "neutral": 562
       }
     },
     "池田貴城": {
@@ -106915,7 +107795,7 @@
     },
     "比嘉奈津美": {
       "party": "自由民主党",
-      "speech_count": 55,
+      "speech_count": 56,
       "bills": [
         {
           "bill_id": "house_212_8043",
@@ -107356,12 +108236,20 @@
           "date": "2024-05-23",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15734",
+          "bill_name": "出入国管理及び難民認定法等の一部を改正する法律案",
+          "issue_number": 6166,
+          "date": "2024-05-30",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 1,
-        "neutral": 54
+        "neutral": 55
       }
     },
     "武見敬三": {
@@ -110886,7 +111774,7 @@
     },
     "馬場雄基": {
       "party": "立憲民主党・無所属",
-      "speech_count": 17,
+      "speech_count": 18,
       "bills": [
         {
           "bill_id": "house_213_8190",
@@ -111023,12 +111911,20 @@
           "date": "2024-03-15",
           "meeting": "財務金融委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15732",
+          "bill_name": "金融商品取引法及び投資信託及び投資法人に関する法律の一部を改正する法律案",
+          "issue_number": 6164,
+          "date": "2024-04-26",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 3,
-        "neutral": 14
+        "neutral": 15
       }
     },
     "藤巻健太": {
@@ -113487,7 +114383,7 @@
     },
     "村上陽子": {
       "party": "",
-      "speech_count": 5,
+      "speech_count": 6,
       "bills": [
         {
           "bill_id": "house_213_8199",
@@ -113528,12 +114424,20 @@
           "date": "2024-05-07",
           "meeting": "厚生労働委員会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15733",
+          "bill_name": "事業性融資の推進等に関する法律案",
+          "issue_number": 6165,
+          "date": "2024-05-14",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 4,
-        "neutral": 1
+        "neutral": 2
       }
     },
     "星北斗": {
@@ -119899,7 +120803,7 @@
     },
     "広田一": {
       "party": "各派に属しない議員",
-      "speech_count": 8,
+      "speech_count": 9,
       "bills": [
         {
           "bill_id": "house_213_8220",
@@ -119964,12 +120868,20 @@
           "date": "2024-03-12",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-05-16",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 8
+        "neutral": 9
       }
     },
     "牧原出": {
@@ -135115,7 +136027,7 @@
     },
     "藤井一博": {
       "party": "自由民主党",
-      "speech_count": 4,
+      "speech_count": 5,
       "bills": [
         {
           "bill_id": "councillors_216_15885",
@@ -135148,12 +136060,20 @@
           "date": "2024-12-24",
           "meeting": "政治改革に関する特別委員会",
           "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-05-16",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 3,
         "oppose": 0,
-        "neutral": 1
+        "neutral": 2
       }
     },
     "里見隆治": {
@@ -141833,7 +142753,7 @@
     },
     "本田太郎": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 5,
+      "speech_count": 6,
       "bills": [
         {
           "bill_id": "councillors_217_15929",
@@ -141874,12 +142794,20 @@
           "date": "2025-05-09",
           "meeting": "外務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-02-27",
+          "meeting": "予算委員会第二分科会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 5
+        "neutral": 6
       }
     },
     "松尾明弘": {
@@ -151506,7 +152434,7 @@
     },
     "山名啓雄": {
       "party": "",
-      "speech_count": 9,
+      "speech_count": 11,
       "bills": [
         {
           "bill_id": "councillors_217_15981",
@@ -151579,12 +152507,28 @@
           "date": "2025-03-19",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-06-06",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-05-16",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 9
+        "neutral": 11
       }
     },
     "伊藤孝江": {
@@ -152286,7 +153230,7 @@
     },
     "小笠原陽一": {
       "party": "",
-      "speech_count": 6,
+      "speech_count": 12,
       "bills": [
         {
           "bill_id": "house_213_8221",
@@ -152335,17 +153279,65 @@
           "date": "2024-02-27",
           "meeting": "予算委員会第二分科会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-06-13",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-06-06",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-05-16",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-03-29",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-03-12",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-02-27",
+          "meeting": "予算委員会第二分科会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 6
+        "neutral": 12
       }
     },
     "稲葉延雄": {
       "party": "",
-      "speech_count": 12,
+      "speech_count": 19,
       "bills": [
         {
           "bill_id": "house_213_8221",
@@ -152442,17 +153434,73 @@
           "date": "2023-11-09",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-05-28",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-05-21",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-05-16",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-03-29",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-03-21",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-03-14",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-03-12",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 12
+        "neutral": 19
       }
     },
     "渡辺孝一": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 15,
+      "speech_count": 19,
       "bills": [
         {
           "bill_id": "house_213_8221",
@@ -152573,17 +153621,49 @@
           "date": "2023-12-07",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-05-16",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-03-21",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-03-14",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-02-21",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 15
+        "neutral": 19
       }
     },
     "金子真実": {
       "party": "",
-      "speech_count": 1,
+      "speech_count": 2,
       "bills": [
         {
           "bill_id": "house_213_8221",
@@ -152592,17 +153672,25 @@
           "date": "2024-05-16",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-05-16",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 1
+        "neutral": 2
       }
     },
     "小池英夫": {
       "party": "",
-      "speech_count": 3,
+      "speech_count": 4,
       "bills": [
         {
           "bill_id": "house_213_8221",
@@ -152627,17 +153715,25 @@
           "date": "2025-12-02",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-05-16",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 3
+        "neutral": 4
       }
     },
     "齊藤健一郎": {
       "party": "ＮＨＫから国民を守る党",
-      "speech_count": 3,
+      "speech_count": 5,
       "bills": [
         {
           "bill_id": "house_213_8221",
@@ -152662,17 +153758,33 @@
           "date": "2023-11-09",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-05-16",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-03-29",
+          "meeting": "総務委員会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 1,
-        "neutral": 2
+        "oppose": 2,
+        "neutral": 3
       }
     },
     "古賀信行": {
       "party": "",
-      "speech_count": 3,
+      "speech_count": 5,
       "bills": [
         {
           "bill_id": "house_213_8221",
@@ -152697,17 +153809,33 @@
           "date": "2024-03-14",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-03-21",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-03-14",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 3
+        "neutral": 5
       }
     },
     "根本拓也": {
       "party": "",
-      "speech_count": 2,
+      "speech_count": 4,
       "bills": [
         {
           "bill_id": "house_213_8221",
@@ -152724,17 +153852,33 @@
           "date": "2024-03-14",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-03-21",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-03-14",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 2
+        "neutral": 4
       }
     },
     "寺田健二": {
       "party": "",
-      "speech_count": 1,
+      "speech_count": 2,
       "bills": [
         {
           "bill_id": "house_213_8221",
@@ -152743,12 +153887,20 @@
           "date": "2024-02-15",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15708",
+          "bill_name": "放送法の一部を改正する法律案",
+          "issue_number": 6162,
+          "date": "2024-02-15",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 1
+        "neutral": 2
       }
     },
     "今川拓郎": {
@@ -153951,7 +155103,7 @@
     },
     "宮下一郎": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 25,
+      "speech_count": 26,
       "bills": [
         {
           "bill_id": "house_213_8245",
@@ -154152,17 +155304,25 @@
           "date": "2024-04-17",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15732",
+          "bill_name": "金融商品取引法及び投資信託及び投資法人に関する法律の一部を改正する法律案",
+          "issue_number": 6164,
+          "date": "2024-04-26",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 25
+        "neutral": 26
       }
     },
     "伊藤豊": {
       "party": "",
-      "speech_count": 7,
+      "speech_count": 8,
       "bills": [
         {
           "bill_id": "house_213_8246",
@@ -154219,17 +155379,25 @@
           "date": "2025-05-14",
           "meeting": "財務金融委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15733",
+          "bill_name": "事業性融資の推進等に関する法律案",
+          "issue_number": 6165,
+          "date": "2024-06-04",
+          "meeting": "財政金融委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 7
+        "neutral": 8
       }
     },
     "竹村和也": {
       "party": "",
-      "speech_count": 1,
+      "speech_count": 2,
       "bills": [
         {
           "bill_id": "house_213_8246",
@@ -154238,17 +155406,25 @@
           "date": "2024-05-30",
           "meeting": "財政金融委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15733",
+          "bill_name": "事業性融資の推進等に関する法律案",
+          "issue_number": 6165,
+          "date": "2024-05-30",
+          "meeting": "財政金融委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 1
+        "neutral": 2
       }
     },
     "福留朗裕": {
       "party": "",
-      "speech_count": 1,
+      "speech_count": 2,
       "bills": [
         {
           "bill_id": "house_213_8246",
@@ -154257,17 +155433,25 @@
           "date": "2024-05-14",
           "meeting": "財務金融委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15733",
+          "bill_name": "事業性融資の推進等に関する法律案",
+          "issue_number": 6165,
+          "date": "2024-05-14",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 1
+        "neutral": 2
       }
     },
     "井藤英樹": {
       "party": "",
-      "speech_count": 2,
+      "speech_count": 4,
       "bills": [
         {
           "bill_id": "house_213_8246",
@@ -154284,22 +155468,19 @@
           "date": "2024-04-05",
           "meeting": "財務金融委員会",
           "stance": "中立"
-        }
-      ],
-      "stance_summary": {
-        "support": 0,
-        "oppose": 0,
-        "neutral": 2
-      }
-    },
-    "岸信千世": {
-      "party": "自由民主党・無所属の会",
-      "speech_count": 1,
-      "bills": [
+        },
         {
-          "bill_id": "house_213_8246",
+          "bill_id": "councillors_213_15733",
           "bill_name": "事業性融資の推進等に関する法律案",
-          "issue_number": 1943,
+          "issue_number": 6165,
+          "date": "2024-05-10",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15733",
+          "bill_name": "事業性融資の推進等に関する法律案",
+          "issue_number": 6165,
           "date": "2024-04-05",
           "meeting": "財務金融委員会",
           "stance": "中立"
@@ -154308,7 +155489,34 @@
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 1
+        "neutral": 4
+      }
+    },
+    "岸信千世": {
+      "party": "自由民主党・無所属の会",
+      "speech_count": 2,
+      "bills": [
+        {
+          "bill_id": "house_213_8246",
+          "bill_name": "事業性融資の推進等に関する法律案",
+          "issue_number": 1943,
+          "date": "2024-04-05",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15733",
+          "bill_name": "事業性融資の推進等に関する法律案",
+          "issue_number": 6165,
+          "date": "2024-04-05",
+          "meeting": "財務金融委員会",
+          "stance": "中立"
+        }
+      ],
+      "stance_summary": {
+        "support": 0,
+        "oppose": 0,
+        "neutral": 2
       }
     },
     "美延映夫": {
@@ -162033,7 +163241,7 @@
     },
     "古川俊治": {
       "party": "自由民主党",
-      "speech_count": 1,
+      "speech_count": 2,
       "bills": [
         {
           "bill_id": "house_213_8244",
@@ -162042,12 +163250,20 @@
           "date": "2024-06-07",
           "meeting": "地方創生及びデジタル社会の形成等に関する特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15731",
+          "bill_name": "地域の自主性及び自立性を高めるための改革の推進を図るための関係法律の整備に関する法律案",
+          "issue_number": 6163,
+          "date": "2024-06-07",
+          "meeting": "地方創生及びデジタル社会の形成等に関する特別委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 1
+        "neutral": 2
       }
     },
     "吉川ゆうみ": {
