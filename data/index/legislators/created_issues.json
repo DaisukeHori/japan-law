@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T20:50:03.693Z",
+  "updated_at": "2026-09-20T20:42:10.505Z",
   "issues": {
     "house_211_7800": 1340,
     "house_211_7806": 1341,
@@ -1410,6 +1410,11 @@
     "councillors_213_15708": 6162,
     "councillors_213_15731": 6163,
     "councillors_213_15732": 6164,
-    "councillors_213_15733": 6165
+    "councillors_213_15733": 6165,
+    "councillors_213_15709": 6167,
+    "councillors_213_15711": 6168,
+    "councillors_213_15712": 6169,
+    "councillors_213_15713": 6170,
+    "councillors_213_15714": 6171
   }
 }

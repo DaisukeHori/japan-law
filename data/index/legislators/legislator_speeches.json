@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-13T20:50:04.111Z",
+  "updated_at": "2026-09-20T20:42:10.987Z",
   "total_legislators": 1200,
-  "total_speeches": 20153,
+  "total_speeches": 20274,
   "legislators": {
     "東徹": {
       "party": "日本維新の会・教育無償化を実現する会",
@@ -5625,7 +5625,7 @@
     },
     "岡田憲治": {
       "party": "",
-      "speech_count": 323,
+      "speech_count": 327,
       "bills": [
         {
           "bill_id": "house_211_7800",
@@ -8210,17 +8210,49 @@
           "date": "2024-05-21",
           "meeting": "議院運営委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15709",
+          "bill_name": "日本電信電話株式会社等に関する法律の一部を改正する法律案",
+          "issue_number": 6167,
+          "date": "2024-04-05",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15712",
+          "bill_name": "消費生活用製品安全法等の一部を改正する法律案",
+          "issue_number": 6169,
+          "date": "2024-05-30",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15713",
+          "bill_name": "風力発電設備の設置等による電波の伝搬障害を回避し電波を用いた自衛隊等の円滑かつ安全な活動を確保するための措置に関する法律案",
+          "issue_number": 6170,
+          "date": "2024-04-19",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15714",
+          "bill_name": "道路交通法の一部を改正する法律案",
+          "issue_number": 6171,
+          "date": "2024-04-16",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 323
+        "neutral": 327
       }
     },
     "尾辻秀久": {
       "party": "各派に属しない議員",
-      "speech_count": 331,
+      "speech_count": 335,
       "bills": [
         {
           "bill_id": "house_211_7806",
@@ -10869,12 +10901,44 @@
           "date": "2024-06-14",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15709",
+          "bill_name": "日本電信電話株式会社等に関する法律の一部を改正する法律案",
+          "issue_number": 6167,
+          "date": "2024-04-17",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15712",
+          "bill_name": "消費生活用製品安全法等の一部を改正する法律案",
+          "issue_number": 6169,
+          "date": "2024-06-19",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15713",
+          "bill_name": "風力発電設備の設置等による電波の伝搬障害を回避し電波を用いた自衛隊等の円滑かつ安全な活動を確保するための措置に関する法律案",
+          "issue_number": 6170,
+          "date": "2024-05-17",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15714",
+          "bill_name": "道路交通法の一部を改正する法律案",
+          "issue_number": 6171,
+          "date": "2024-05-17",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 331
+        "neutral": 335
       }
     },
     "古賀友一郎": {
@@ -11440,7 +11504,7 @@
     },
     "木原稔": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 91,
+      "speech_count": 95,
       "bills": [
         {
           "bill_id": "house_211_7811",
@@ -12169,12 +12233,44 @@
           "date": "2024-03-07",
           "meeting": "外交防衛委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15713",
+          "bill_name": "風力発電設備の設置等による電波の伝搬障害を回避し電波を用いた自衛隊等の円滑かつ安全な活動を確保するための措置に関する法律案",
+          "issue_number": 6170,
+          "date": "2024-05-14",
+          "meeting": "外交防衛委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15713",
+          "bill_name": "風力発電設備の設置等による電波の伝搬障害を回避し電波を用いた自衛隊等の円滑かつ安全な活動を確保するための措置に関する法律案",
+          "issue_number": 6170,
+          "date": "2024-04-16",
+          "meeting": "安全保障委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15713",
+          "bill_name": "風力発電設備の設置等による電波の伝搬障害を回避し電波を用いた自衛隊等の円滑かつ安全な活動を確保するための措置に関する法律案",
+          "issue_number": 6170,
+          "date": "2024-03-08",
+          "meeting": "安全保障委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15713",
+          "bill_name": "風力発電設備の設置等による電波の伝搬障害を回避し電波を用いた自衛隊等の円滑かつ安全な活動を確保するための措置に関する法律案",
+          "issue_number": 6170,
+          "date": "2024-03-07",
+          "meeting": "外交防衛委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 91
+        "neutral": 95
       }
     },
     "岡野まさ子": {
@@ -13968,7 +14064,7 @@
     },
     "小沢雅仁": {
       "party": "立憲民主・社民",
-      "speech_count": 48,
+      "speech_count": 49,
       "bills": [
         {
           "bill_id": "house_211_7811",
@@ -14353,12 +14449,20 @@
           "date": "2024-03-29",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15709",
+          "bill_name": "日本電信電話株式会社等に関する法律の一部を改正する法律案",
+          "issue_number": 6167,
+          "date": "2024-04-16",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 11,
         "oppose": 6,
-        "neutral": 31
+        "neutral": 32
       }
     },
     "赤羽一嘉": {
@@ -19896,7 +20000,7 @@
     },
     "酒井庸行": {
       "party": "自由民主党",
-      "speech_count": 31,
+      "speech_count": 32,
       "bills": [
         {
           "bill_id": "house_211_7819",
@@ -20145,12 +20249,20 @@
           "date": "2025-04-22",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15714",
+          "bill_name": "道路交通法の一部を改正する法律案",
+          "issue_number": 6171,
+          "date": "2024-05-16",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 31
+        "neutral": 32
       }
     },
     "坂井学": {
@@ -23193,7 +23305,7 @@
     },
     "古屋範子": {
       "party": "公明党",
-      "speech_count": 98,
+      "speech_count": 100,
       "bills": [
         {
           "bill_id": "house_211_7862",
@@ -23978,12 +24090,28 @@
           "date": "2024-03-14",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15709",
+          "bill_name": "日本電信電話株式会社等に関する法律の一部を改正する法律案",
+          "issue_number": 6167,
+          "date": "2024-04-04",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15709",
+          "bill_name": "日本電信電話株式会社等に関する法律の一部を改正する法律案",
+          "issue_number": 6167,
+          "date": "2024-04-02",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 10,
         "oppose": 0,
-        "neutral": 88
+        "neutral": 90
       }
     },
     "柴愼一": {
@@ -25852,7 +25980,7 @@
     },
     "本庄知史": {
       "party": "立憲民主党・無所属",
-      "speech_count": 13,
+      "speech_count": 14,
       "bills": [
         {
           "bill_id": "house_211_7863",
@@ -25957,17 +26085,25 @@
           "date": "2025-03-04",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15714",
+          "bill_name": "道路交通法の一部を改正する法律案",
+          "issue_number": 6171,
+          "date": "2024-04-12",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 1,
         "oppose": 0,
-        "neutral": 12
+        "neutral": 13
       }
     },
     "阿達雅志": {
       "party": "自由民主党",
-      "speech_count": 81,
+      "speech_count": 84,
       "bills": [
         {
           "bill_id": "house_211_7863",
@@ -26616,12 +26752,36 @@
           "date": "2024-04-04",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15714",
+          "bill_name": "道路交通法の一部を改正する法律案",
+          "issue_number": 6171,
+          "date": "2024-05-17",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15714",
+          "bill_name": "道路交通法の一部を改正する法律案",
+          "issue_number": 6171,
+          "date": "2024-05-16",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15714",
+          "bill_name": "道路交通法の一部を改正する法律案",
+          "issue_number": 6171,
+          "date": "2024-05-14",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 4,
         "oppose": 0,
-        "neutral": 77
+        "neutral": 80
       }
     },
     "鈴木俊一": {
@@ -28395,7 +28555,7 @@
     },
     "道下大樹": {
       "party": "立憲民主党・無所属",
-      "speech_count": 23,
+      "speech_count": 24,
       "bills": [
         {
           "bill_id": "house_211_7863",
@@ -28580,12 +28740,20 @@
           "date": "2024-03-14",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15709",
+          "bill_name": "日本電信電話株式会社等に関する法律の一部を改正する法律案",
+          "issue_number": 6167,
+          "date": "2024-04-04",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 1,
         "oppose": 7,
-        "neutral": 15
+        "neutral": 16
       }
     },
     "越智隆雄": {
@@ -34957,7 +35125,7 @@
     },
     "柴田巧": {
       "party": "日本維新の会・教育無償化を実現する会",
-      "speech_count": 43,
+      "speech_count": 44,
       "bills": [
         {
           "bill_id": "house_211_7868",
@@ -35302,12 +35470,20 @@
           "date": "2024-04-17",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15714",
+          "bill_name": "道路交通法の一部を改正する法律案",
+          "issue_number": 6171,
+          "date": "2024-05-16",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 10,
         "oppose": 8,
-        "neutral": 25
+        "neutral": 26
       }
     },
     "大島九州男": {
@@ -35651,7 +35827,7 @@
     },
     "友納理緒": {
       "party": "自由民主党",
-      "speech_count": 15,
+      "speech_count": 16,
       "bills": [
         {
           "bill_id": "house_211_7868",
@@ -35772,12 +35948,20 @@
           "date": "2024-04-05",
           "meeting": "地方創生及びデジタル社会の形成等に関する特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6168,
+          "date": "2024-03-04",
+          "meeting": "予算委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 15
+        "neutral": 16
       }
     },
     "後藤茂之": {
@@ -36875,7 +37059,7 @@
     },
     "太栄志": {
       "party": "立憲民主党・無所属",
-      "speech_count": 29,
+      "speech_count": 30,
       "bills": [
         {
           "bill_id": "house_211_7868",
@@ -37108,17 +37292,25 @@
           "date": "2024-05-10",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15714",
+          "bill_name": "道路交通法の一部を改正する法律案",
+          "issue_number": 6171,
+          "date": "2024-04-12",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 10,
         "oppose": 2,
-        "neutral": 17
+        "neutral": 18
       }
     },
     "阿部司": {
       "party": "日本維新の会・教育無償化を実現する会",
-      "speech_count": 38,
+      "speech_count": 39,
       "bills": [
         {
           "bill_id": "house_211_7868",
@@ -37423,12 +37615,20 @@
           "date": "2024-05-07",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15714",
+          "bill_name": "道路交通法の一部を改正する法律案",
+          "issue_number": 6171,
+          "date": "2024-04-12",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 7,
-        "neutral": 31
+        "neutral": 32
       }
     },
     "土田慎": {
@@ -37762,7 +37962,7 @@
     },
     "田野瀬太道": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 38,
+      "speech_count": 39,
       "bills": [
         {
           "bill_id": "house_211_7868",
@@ -38067,17 +38267,25 @@
           "date": "2024-04-19",
           "meeting": "文部科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6168,
+          "date": "2024-04-17",
+          "meeting": "文部科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 1,
         "oppose": 0,
-        "neutral": 37
+        "neutral": 38
       }
     },
     "河西宏一": {
       "party": "公明党",
-      "speech_count": 20,
+      "speech_count": 21,
       "bills": [
         {
           "bill_id": "house_211_7868",
@@ -38238,17 +38446,25 @@
           "date": "2024-03-22",
           "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15714",
+          "bill_name": "道路交通法の一部を改正する法律案",
+          "issue_number": 6171,
+          "date": "2024-04-12",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 2,
         "oppose": 4,
-        "neutral": 14
+        "neutral": 15
       }
     },
     "古賀之士": {
       "party": "立憲民主・社民",
-      "speech_count": 31,
+      "speech_count": 32,
       "bills": [
         {
           "bill_id": "house_211_7869",
@@ -38497,17 +38713,25 @@
           "date": "2024-05-16",
           "meeting": "経済産業委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15712",
+          "bill_name": "消費生活用製品安全法等の一部を改正する法律案",
+          "issue_number": 6169,
+          "date": "2024-06-18",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 31
+        "neutral": 32
       }
     },
     "石垣のりこ": {
       "party": "立憲民主・社民",
-      "speech_count": 38,
+      "speech_count": 39,
       "bills": [
         {
           "bill_id": "house_211_7869",
@@ -38812,12 +39036,20 @@
           "date": "2024-03-04",
           "meeting": "予算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15714",
+          "bill_name": "道路交通法の一部を改正する法律案",
+          "issue_number": 6171,
+          "date": "2024-05-16",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 1,
         "oppose": 11,
-        "neutral": 26
+        "neutral": 27
       }
     },
     "由良英雄": {
@@ -39671,7 +39903,7 @@
     },
     "松村祥史": {
       "party": "自由民主党",
-      "speech_count": 26,
+      "speech_count": 33,
       "bills": [
         {
           "bill_id": "house_211_7869",
@@ -39880,12 +40112,68 @@
           "date": "2024-02-14",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15714",
+          "bill_name": "道路交通法の一部を改正する法律案",
+          "issue_number": 6171,
+          "date": "2024-05-22",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15714",
+          "bill_name": "道路交通法の一部を改正する法律案",
+          "issue_number": 6171,
+          "date": "2024-05-16",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15714",
+          "bill_name": "道路交通法の一部を改正する法律案",
+          "issue_number": 6171,
+          "date": "2024-05-14",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15714",
+          "bill_name": "道路交通法の一部を改正する法律案",
+          "issue_number": 6171,
+          "date": "2024-04-12",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15714",
+          "bill_name": "道路交通法の一部を改正する法律案",
+          "issue_number": 6171,
+          "date": "2024-04-10",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15714",
+          "bill_name": "道路交通法の一部を改正する法律案",
+          "issue_number": 6171,
+          "date": "2024-03-22",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15714",
+          "bill_name": "道路交通法の一部を改正する法律案",
+          "issue_number": 6171,
+          "date": "2024-03-21",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 26
+        "neutral": 33
       }
     },
     "石井正弘": {
@@ -41572,7 +41860,7 @@
     },
     "松本剛明": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 154,
+      "speech_count": 157,
       "bills": [
         {
           "bill_id": "house_211_7870",
@@ -42805,12 +43093,36 @@
           "date": "2024-03-07",
           "meeting": "総務委員会",
           "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15709",
+          "bill_name": "日本電信電話株式会社等に関する法律の一部を改正する法律案",
+          "issue_number": 6167,
+          "date": "2024-04-16",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15709",
+          "bill_name": "日本電信電話株式会社等に関する法律の一部を改正する法律案",
+          "issue_number": 6167,
+          "date": "2024-04-11",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15709",
+          "bill_name": "日本電信電話株式会社等に関する法律の一部を改正する法律案",
+          "issue_number": 6167,
+          "date": "2024-04-02",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 26,
         "oppose": 5,
-        "neutral": 123
+        "neutral": 126
       }
     },
     "池田達雄": {
@@ -43945,7 +44257,7 @@
     },
     "宮本岳志": {
       "party": "日本共産党",
-      "speech_count": 51,
+      "speech_count": 53,
       "bills": [
         {
           "bill_id": "house_211_7870",
@@ -44354,12 +44666,28 @@
           "date": "2024-03-21",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15709",
+          "bill_name": "日本電信電話株式会社等に関する法律の一部を改正する法律案",
+          "issue_number": 6167,
+          "date": "2024-04-04",
+          "meeting": "総務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6168,
+          "date": "2024-04-03",
+          "meeting": "文部科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 5,
         "oppose": 6,
-        "neutral": 40
+        "neutral": 42
       }
     },
     "井原巧": {
@@ -47896,7 +48224,7 @@
     },
     "齋藤健": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 100,
+      "speech_count": 105,
       "bills": [
         {
           "bill_id": "house_211_7872",
@@ -48697,12 +49025,52 @@
           "date": "2024-04-26",
           "meeting": "経済産業委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15712",
+          "bill_name": "消費生活用製品安全法等の一部を改正する法律案",
+          "issue_number": 6169,
+          "date": "2024-06-13",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15712",
+          "bill_name": "消費生活用製品安全法等の一部を改正する法律案",
+          "issue_number": 6169,
+          "date": "2024-05-24",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15712",
+          "bill_name": "消費生活用製品安全法等の一部を改正する法律案",
+          "issue_number": 6169,
+          "date": "2024-03-15",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15712",
+          "bill_name": "消費生活用製品安全法等の一部を改正する法律案",
+          "issue_number": 6169,
+          "date": "2024-03-12",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15712",
+          "bill_name": "消費生活用製品安全法等の一部を改正する法律案",
+          "issue_number": 6169,
+          "date": "2024-03-08",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 1,
-        "neutral": 99
+        "neutral": 104
       }
     },
     "伊藤忠彦": {
@@ -50277,7 +50645,7 @@
     },
     "村田享子": {
       "party": "立憲民主・社民",
-      "speech_count": 23,
+      "speech_count": 24,
       "bills": [
         {
           "bill_id": "house_211_7874",
@@ -50462,17 +50830,25 @@
           "date": "2024-04-25",
           "meeting": "内閣委員会、経済産業委員会連合審査会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15712",
+          "bill_name": "消費生活用製品安全法等の一部を改正する法律案",
+          "issue_number": 6169,
+          "date": "2024-06-18",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 14,
-        "neutral": 9
+        "neutral": 10
       }
     },
     "吉川沙織": {
       "party": "立憲民主・社民",
-      "speech_count": 73,
+      "speech_count": 74,
       "bills": [
         {
           "bill_id": "house_211_7874",
@@ -51057,12 +51433,20 @@
           "date": "2024-05-16",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15709",
+          "bill_name": "日本電信電話株式会社等に関する法律の一部を改正する法律案",
+          "issue_number": 6167,
+          "date": "2024-04-16",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 1,
         "oppose": 9,
-        "neutral": 63
+        "neutral": 64
       }
     },
     "猪瀬直樹": {
@@ -52034,7 +52418,7 @@
     },
     "小野泰輔": {
       "party": "日本維新の会・教育無償化を実現する会",
-      "speech_count": 14,
+      "speech_count": 15,
       "bills": [
         {
           "bill_id": "house_211_7874",
@@ -52147,12 +52531,20 @@
           "date": "2024-02-27",
           "meeting": "予算委員会第六分科会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15712",
+          "bill_name": "消費生活用製品安全法等の一部を改正する法律案",
+          "issue_number": 6169,
+          "date": "2024-05-29",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 2,
-        "neutral": 12
+        "neutral": 13
       }
     },
     "竹内譲": {
@@ -53436,7 +53828,7 @@
     },
     "中野洋昌": {
       "party": "公明党",
-      "speech_count": 79,
+      "speech_count": 80,
       "bills": [
         {
           "bill_id": "house_211_7874",
@@ -54069,12 +54461,20 @@
           "date": "2024-04-02",
           "meeting": "内閣委員会経済産業委員会連合審査会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15712",
+          "bill_name": "消費生活用製品安全法等の一部を改正する法律案",
+          "issue_number": 6169,
+          "date": "2024-05-29",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 1,
         "oppose": 1,
-        "neutral": 77
+        "neutral": 78
       }
     },
     "山岡達丸": {
@@ -54889,7 +55289,7 @@
     },
     "田村まみ": {
       "party": "国民民主党・新緑風会",
-      "speech_count": 38,
+      "speech_count": 39,
       "bills": [
         {
           "bill_id": "house_211_7879",
@@ -55194,12 +55594,20 @@
           "date": "2024-05-10",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15714",
+          "bill_name": "道路交通法の一部を改正する法律案",
+          "issue_number": 6171,
+          "date": "2024-05-09",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 4,
         "oppose": 5,
-        "neutral": 29
+        "neutral": 30
       }
     },
     "井上隆": {
@@ -55504,7 +55912,7 @@
     },
     "窪田哲也": {
       "party": "公明党",
-      "speech_count": 6,
+      "speech_count": 7,
       "bills": [
         {
           "bill_id": "house_211_7879",
@@ -55553,12 +55961,20 @@
           "date": "2024-03-12",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15714",
+          "bill_name": "道路交通法の一部を改正する法律案",
+          "issue_number": 6171,
+          "date": "2024-05-08",
+          "meeting": "憲法審査会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 6
+        "neutral": 7
       }
     },
     "中島克仁": {
@@ -58620,7 +59036,7 @@
     },
     "嘉田由紀子": {
       "party": "日本維新の会・教育無償化を実現する会",
-      "speech_count": 61,
+      "speech_count": 62,
       "bills": [
         {
           "bill_id": "house_211_7880",
@@ -59109,17 +59525,25 @@
           "date": "2024-05-21",
           "meeting": "国土交通委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6168,
+          "date": "2024-04-15",
+          "meeting": "決算委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 5,
-        "neutral": 56
+        "neutral": 57
       }
     },
     "神津たけし": {
       "party": "立憲民主党・無所属",
-      "speech_count": 23,
+      "speech_count": 24,
       "bills": [
         {
           "bill_id": "house_211_7880",
@@ -59304,11 +59728,19 @@
           "date": "2024-02-27",
           "meeting": "予算委員会第六分科会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15714",
+          "bill_name": "道路交通法の一部を改正する法律案",
+          "issue_number": 6171,
+          "date": "2024-03-21",
+          "meeting": "本会議",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 10,
-        "oppose": 6,
+        "oppose": 7,
         "neutral": 7
       }
     },
@@ -65958,7 +66390,7 @@
     },
     "赤嶺政賢": {
       "party": "日本共産党",
-      "speech_count": 13,
+      "speech_count": 14,
       "bills": [
         {
           "bill_id": "house_211_7882",
@@ -66063,12 +66495,20 @@
           "date": "2024-04-25",
           "meeting": "憲法審査会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6168,
+          "date": "2024-02-28",
+          "meeting": "予算委員会第四分科会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 5,
-        "neutral": 8
+        "neutral": 9
       }
     },
     "音喜多駿": {
@@ -69261,7 +69701,7 @@
     },
     "舩後靖彦": {
       "party": "れいわ新選組",
-      "speech_count": 38,
+      "speech_count": 39,
       "bills": [
         {
           "bill_id": "house_211_7884",
@@ -69566,12 +70006,20 @@
           "date": "2024-06-04",
           "meeting": "文教科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6168,
+          "date": "2024-04-18",
+          "meeting": "文教科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 3,
-        "neutral": 35
+        "neutral": 36
       }
     },
     "村田治": {
@@ -70636,7 +71084,7 @@
     },
     "荒井優": {
       "party": "立憲民主党・無所属",
-      "speech_count": 16,
+      "speech_count": 17,
       "bills": [
         {
           "bill_id": "house_211_7884",
@@ -70765,12 +71213,20 @@
           "date": "2024-04-25",
           "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15712",
+          "bill_name": "消費生活用製品安全法等の一部を改正する法律案",
+          "issue_number": 6169,
+          "date": "2024-05-29",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 16
+        "neutral": 17
       }
     },
     "早坂敦": {
@@ -70794,7 +71250,7 @@
     },
     "伊藤孝恵": {
       "party": "国民民主党・新緑風会",
-      "speech_count": 21,
+      "speech_count": 22,
       "bills": [
         {
           "bill_id": "house_211_7884",
@@ -70963,12 +71419,20 @@
           "date": "2023-11-20",
           "meeting": "本会議",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6168,
+          "date": "2024-03-22",
+          "meeting": "文教科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 4,
         "oppose": 7,
-        "neutral": 10
+        "neutral": 11
       }
     },
     "吉良よし子": {
@@ -71641,7 +72105,7 @@
     },
     "塩村あやか": {
       "party": "立憲民主・社民",
-      "speech_count": 19,
+      "speech_count": 20,
       "bills": [
         {
           "bill_id": "house_211_7886",
@@ -71794,12 +72258,20 @@
           "date": "2024-03-22",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15714",
+          "bill_name": "道路交通法の一部を改正する法律案",
+          "issue_number": 6171,
+          "date": "2024-05-16",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 3,
-        "neutral": 16
+        "neutral": 17
       }
     },
     "高木かおり": {
@@ -72669,7 +73141,7 @@
     },
     "浅野哲": {
       "party": "国民民主党・無所属クラブ",
-      "speech_count": 47,
+      "speech_count": 48,
       "bills": [
         {
           "bill_id": "house_211_7886",
@@ -73046,12 +73518,20 @@
           "date": "2024-04-05",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15714",
+          "bill_name": "道路交通法の一部を改正する法律案",
+          "issue_number": 6171,
+          "date": "2024-04-12",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 14,
         "oppose": 2,
-        "neutral": 31
+        "neutral": 32
       }
     },
     "宮本悦子": {
@@ -73281,7 +73761,7 @@
     },
     "伊藤岳": {
       "party": "日本共産党",
-      "speech_count": 56,
+      "speech_count": 57,
       "bills": [
         {
           "bill_id": "house_211_7887",
@@ -73730,11 +74210,19 @@
           "date": "2024-03-29",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15709",
+          "bill_name": "日本電信電話株式会社等に関する法律の一部を改正する法律案",
+          "issue_number": 6167,
+          "date": "2024-04-16",
+          "meeting": "総務委員会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 14,
+        "oppose": 15,
         "neutral": 42
       }
     },
@@ -74515,7 +75003,7 @@
     },
     "星野剛士": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 99,
+      "speech_count": 102,
       "bills": [
         {
           "bill_id": "house_211_7889",
@@ -75308,12 +75796,36 @@
           "date": "2024-05-08",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15714",
+          "bill_name": "道路交通法の一部を改正する法律案",
+          "issue_number": 6171,
+          "date": "2024-04-16",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15714",
+          "bill_name": "道路交通法の一部を改正する法律案",
+          "issue_number": 6171,
+          "date": "2024-04-12",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15714",
+          "bill_name": "道路交通法の一部を改正する法律案",
+          "issue_number": 6171,
+          "date": "2024-04-10",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 4,
         "oppose": 0,
-        "neutral": 95
+        "neutral": 98
       }
     },
     "古賀篤": {
@@ -76155,7 +76667,7 @@
     },
     "河野太郎": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 39,
+      "speech_count": 40,
       "bills": [
         {
           "bill_id": "house_211_7890",
@@ -76468,12 +76980,20 @@
           "date": "2023-11-08",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15714",
+          "bill_name": "道路交通法の一部を改正する法律案",
+          "issue_number": 6171,
+          "date": "2024-05-15",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 39
+        "neutral": 40
       }
     },
     "稲田朋美": {
@@ -77037,7 +77557,7 @@
     },
     "川合孝典": {
       "party": "国民民主党・新緑風会",
-      "speech_count": 19,
+      "speech_count": 20,
       "bills": [
         {
           "bill_id": "house_211_7891",
@@ -77190,12 +77710,20 @@
           "date": "2025-04-24",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15714",
+          "bill_name": "道路交通法の一部を改正する法律案",
+          "issue_number": 6171,
+          "date": "2024-06-06",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 2,
-        "neutral": 17
+        "neutral": 18
       }
     },
     "田中昌史": {
@@ -77529,7 +78057,7 @@
     },
     "平林晃": {
       "party": "公明党",
-      "speech_count": 39,
+      "speech_count": 40,
       "bills": [
         {
           "bill_id": "house_211_7891",
@@ -77842,12 +78370,20 @@
           "date": "2024-03-14",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6168,
+          "date": "2024-04-17",
+          "meeting": "文部科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 9,
-        "neutral": 30
+        "neutral": 31
       }
     },
     "鈴木庸介": {
@@ -79595,7 +80131,7 @@
     },
     "塩川鉄也": {
       "party": "日本共産党",
-      "speech_count": 69,
+      "speech_count": 71,
       "bills": [
         {
           "bill_id": "house_211_7899",
@@ -80148,12 +80684,28 @@
           "date": "2024-05-10",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15714",
+          "bill_name": "道路交通法の一部を改正する法律案",
+          "issue_number": 6171,
+          "date": "2024-05-22",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15714",
+          "bill_name": "道路交通法の一部を改正する法律案",
+          "issue_number": 6171,
+          "date": "2024-04-12",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 15,
-        "neutral": 54
+        "neutral": 56
       }
     },
     "藤井比早之": {
@@ -83777,7 +84329,7 @@
     },
     "大石あきこ": {
       "party": "れいわ新選組",
-      "speech_count": 9,
+      "speech_count": 10,
       "bills": [
         {
           "bill_id": "house_211_7902",
@@ -83850,12 +84402,20 @@
           "date": "2025-12-10",
           "meeting": "予算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15714",
+          "bill_name": "道路交通法の一部を改正する法律案",
+          "issue_number": 6171,
+          "date": "2024-06-03",
+          "meeting": "政治改革に関する特別委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 9
+        "neutral": 10
       }
     },
     "吉川浩民": {
@@ -86732,7 +87292,7 @@
     },
     "青山大人": {
       "party": "立憲民主党・無所属",
-      "speech_count": 6,
+      "speech_count": 7,
       "bills": [
         {
           "bill_id": "councillors_211_15302",
@@ -86781,12 +87341,20 @@
           "date": "2024-04-19",
           "meeting": "文部科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15714",
+          "bill_name": "道路交通法の一部を改正する法律案",
+          "issue_number": 6171,
+          "date": "2024-04-08",
+          "meeting": "決算行政監視委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 1,
-        "neutral": 5
+        "neutral": 6
       }
     },
     "金村龍那": {
@@ -86922,7 +87490,7 @@
     },
     "新妻秀規": {
       "party": "公明党",
-      "speech_count": 70,
+      "speech_count": 71,
       "bills": [
         {
           "bill_id": "councillors_211_15314",
@@ -87483,12 +88051,20 @@
           "date": "2024-03-29",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15709",
+          "bill_name": "日本電信電話株式会社等に関する法律の一部を改正する法律案",
+          "issue_number": 6167,
+          "date": "2024-04-16",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 70
+        "neutral": 71
       }
     },
     "大西健介": {
@@ -92828,7 +93404,7 @@
     },
     "早川智之": {
       "party": "",
-      "speech_count": 4,
+      "speech_count": 6,
       "bills": [
         {
           "bill_id": "councillors_211_15340",
@@ -92861,12 +93437,28 @@
           "date": "2024-03-12",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15714",
+          "bill_name": "道路交通法の一部を改正する法律案",
+          "issue_number": 6171,
+          "date": "2024-05-16",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15714",
+          "bill_name": "道路交通法の一部を改正する法律案",
+          "issue_number": 6171,
+          "date": "2024-04-12",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 4
+        "neutral": 6
       }
     },
     "佐藤信秋": {
@@ -93766,7 +94358,7 @@
     },
     "小林一大": {
       "party": "自由民主党",
-      "speech_count": 14,
+      "speech_count": 16,
       "bills": [
         {
           "bill_id": "councillors_211_15360",
@@ -93879,12 +94471,28 @@
           "date": "2024-05-09",
           "meeting": "経済産業委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15712",
+          "bill_name": "消費生活用製品安全法等の一部を改正する法律案",
+          "issue_number": 6169,
+          "date": "2024-06-18",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15712",
+          "bill_name": "消費生活用製品安全法等の一部を改正する法律案",
+          "issue_number": 6169,
+          "date": "2024-03-22",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 14
+        "neutral": 16
       }
     },
     "井上浩之": {
@@ -95351,8 +95959,8 @@
       }
     },
     "古賀千景": {
-      "party": "立憲民主・無所属",
-      "speech_count": 26,
+      "party": "立憲民主・社民",
+      "speech_count": 27,
       "bills": [
         {
           "bill_id": "councillors_211_15360",
@@ -95561,12 +96169,20 @@
           "date": "2026-06-16",
           "meeting": "文教科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6168,
+          "date": "2024-03-22",
+          "meeting": "文教科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 1,
         "oppose": 12,
-        "neutral": 13
+        "neutral": 14
       }
     },
     "中川正春": {
@@ -95590,7 +96206,7 @@
     },
     "志水史雄": {
       "party": "",
-      "speech_count": 2,
+      "speech_count": 3,
       "bills": [
         {
           "bill_id": "councillors_211_15360",
@@ -95607,12 +96223,20 @@
           "date": "2024-03-15",
           "meeting": "外務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6168,
+          "date": "2024-03-15",
+          "meeting": "外務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 2
+        "neutral": 3
       }
     },
     "田名部匡代": {
@@ -96841,7 +97465,7 @@
     },
     "盛山正仁": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 60,
+      "speech_count": 66,
       "bills": [
         {
           "bill_id": "councillors_211_15373",
@@ -97322,12 +97946,60 @@
           "date": "2024-04-18",
           "meeting": "文教科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6168,
+          "date": "2024-04-17",
+          "meeting": "文部科学委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6168,
+          "date": "2024-04-03",
+          "meeting": "文部科学委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6168,
+          "date": "2024-04-01",
+          "meeting": "決算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6168,
+          "date": "2024-03-22",
+          "meeting": "文教科学委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6168,
+          "date": "2024-03-13",
+          "meeting": "文部科学委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6168,
+          "date": "2024-02-27",
+          "meeting": "予算委員会第四分科会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 60
+        "neutral": 66
       }
     },
     "杉本和巳": {
@@ -97597,7 +98269,7 @@
     },
     "緒方林太郎": {
       "party": "有志の会",
-      "speech_count": 19,
+      "speech_count": 20,
       "bills": [
         {
           "bill_id": "councillors_211_15391",
@@ -97750,12 +98422,20 @@
           "date": "2025-04-02",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15714",
+          "bill_name": "道路交通法の一部を改正する法律案",
+          "issue_number": 6171,
+          "date": "2024-04-12",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 19
+        "neutral": 20
       }
     },
     "中川貴元": {
@@ -101653,7 +102333,7 @@
     },
     "額賀福志郎": {
       "party": "無所属",
-      "speech_count": 566,
+      "speech_count": 570,
       "bills": [
         {
           "bill_id": "councillors_212_15437",
@@ -106182,12 +106862,44 @@
           "date": "2024-05-21",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15709",
+          "bill_name": "日本電信電話株式会社等に関する法律の一部を改正する法律案",
+          "issue_number": 6167,
+          "date": "2024-04-05",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15712",
+          "bill_name": "消費生活用製品安全法等の一部を改正する法律案",
+          "issue_number": 6169,
+          "date": "2024-05-30",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15713",
+          "bill_name": "風力発電設備の設置等による電波の伝搬障害を回避し電波を用いた自衛隊等の円滑かつ安全な活動を確保するための措置に関する法律案",
+          "issue_number": 6170,
+          "date": "2024-04-19",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15714",
+          "bill_name": "道路交通法の一部を改正する法律案",
+          "issue_number": 6171,
+          "date": "2024-04-16",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 4,
         "oppose": 0,
-        "neutral": 562
+        "neutral": 566
       }
     },
     "池田貴城": {
@@ -108898,7 +109610,7 @@
     },
     "吉田真次": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 4,
+      "speech_count": 5,
       "bills": [
         {
           "bill_id": "house_212_8043",
@@ -108931,12 +109643,20 @@
           "date": "2024-02-27",
           "meeting": "予算委員会第六分科会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15712",
+          "bill_name": "消費生活用製品安全法等の一部を改正する法律案",
+          "issue_number": 6169,
+          "date": "2024-05-29",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 4
+        "neutral": 5
       }
     },
     "加藤明良": {
@@ -111077,7 +111797,7 @@
     },
     "長友慎治": {
       "party": "国民民主党・無所属クラブ",
-      "speech_count": 41,
+      "speech_count": 42,
       "bills": [
         {
           "bill_id": "house_213_8190",
@@ -111406,11 +112126,19 @@
           "date": "2024-05-09",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15714",
+          "bill_name": "道路交通法の一部を改正する法律案",
+          "issue_number": 6171,
+          "date": "2024-03-21",
+          "meeting": "本会議",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 1,
+        "oppose": 2,
         "neutral": 40
       }
     },
@@ -113265,7 +113993,7 @@
     },
     "小野田紀美": {
       "party": "自由民主党",
-      "speech_count": 27,
+      "speech_count": 30,
       "bills": [
         {
           "bill_id": "house_213_8195",
@@ -113482,12 +114210,36 @@
           "date": "2024-05-09",
           "meeting": "外交防衛委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15713",
+          "bill_name": "風力発電設備の設置等による電波の伝搬障害を回避し電波を用いた自衛隊等の円滑かつ安全な活動を確保するための措置に関する法律案",
+          "issue_number": 6170,
+          "date": "2024-05-17",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15713",
+          "bill_name": "風力発電設備の設置等による電波の伝搬障害を回避し電波を用いた自衛隊等の円滑かつ安全な活動を確保するための措置に関する法律案",
+          "issue_number": 6170,
+          "date": "2024-05-16",
+          "meeting": "外交防衛委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15713",
+          "bill_name": "風力発電設備の設置等による電波の伝搬障害を回避し電波を用いた自衛隊等の円滑かつ安全な活動を確保するための措置に関する法律案",
+          "issue_number": 6170,
+          "date": "2024-05-14",
+          "meeting": "外交防衛委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 3,
-        "neutral": 24
+        "neutral": 27
       }
     },
     "上川陽子": {
@@ -114895,7 +115647,7 @@
     },
     "小泉進次郎": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 71,
+      "speech_count": 74,
       "bills": [
         {
           "bill_id": "house_213_8202",
@@ -115464,12 +116216,36 @@
           "date": "2024-04-04",
           "meeting": "安全保障委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15713",
+          "bill_name": "風力発電設備の設置等による電波の伝搬障害を回避し電波を用いた自衛隊等の円滑かつ安全な活動を確保するための措置に関する法律案",
+          "issue_number": 6170,
+          "date": "2024-04-19",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15713",
+          "bill_name": "風力発電設備の設置等による電波の伝搬障害を回避し電波を用いた自衛隊等の円滑かつ安全な活動を確保するための措置に関する法律案",
+          "issue_number": 6170,
+          "date": "2024-04-18",
+          "meeting": "安全保障委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15713",
+          "bill_name": "風力発電設備の設置等による電波の伝搬障害を回避し電波を用いた自衛隊等の円滑かつ安全な活動を確保するための措置に関する法律案",
+          "issue_number": 6170,
+          "date": "2024-04-16",
+          "meeting": "安全保障委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 71
+        "neutral": 74
       }
     },
     "榛葉賀津也": {
@@ -115560,7 +116336,7 @@
     },
     "森本真治": {
       "party": "立憲民主・社民",
-      "speech_count": 72,
+      "speech_count": 74,
       "bills": [
         {
           "bill_id": "house_213_8205",
@@ -116137,12 +116913,28 @@
           "date": "2024-04-18",
           "meeting": "経済産業委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15712",
+          "bill_name": "消費生活用製品安全法等の一部を改正する法律案",
+          "issue_number": 6169,
+          "date": "2024-06-19",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15712",
+          "bill_name": "消費生活用製品安全法等の一部を改正する法律案",
+          "issue_number": 6169,
+          "date": "2024-06-18",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 5,
-        "neutral": 67
+        "neutral": 69
       }
     },
     "三原じゅん子": {
@@ -116590,7 +117382,7 @@
     },
     "岡本三成": {
       "party": "公明党",
-      "speech_count": 88,
+      "speech_count": 90,
       "bills": [
         {
           "bill_id": "house_213_8205",
@@ -117295,12 +118087,28 @@
           "date": "2024-03-27",
           "meeting": "経済産業委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15712",
+          "bill_name": "消費生活用製品安全法等の一部を改正する法律案",
+          "issue_number": 6169,
+          "date": "2024-05-29",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15712",
+          "bill_name": "消費生活用製品安全法等の一部を改正する法律案",
+          "issue_number": 6169,
+          "date": "2024-05-24",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 88
+        "neutral": 90
       }
     },
     "堀井学": {
@@ -120171,7 +120979,7 @@
     },
     "舟本浩": {
       "party": "",
-      "speech_count": 3,
+      "speech_count": 4,
       "bills": [
         {
           "bill_id": "house_213_8218",
@@ -120196,12 +121004,20 @@
           "date": "2024-03-22",
           "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15714",
+          "bill_name": "道路交通法の一部を改正する法律案",
+          "issue_number": 6171,
+          "date": "2024-04-12",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 3
+        "neutral": 4
       }
     },
     "中村広樹": {
@@ -139759,7 +140575,7 @@
     },
     "望月禎": {
       "party": "",
-      "speech_count": 36,
+      "speech_count": 37,
       "bills": [
         {
           "bill_id": "councillors_216_15908",
@@ -140048,12 +140864,20 @@
           "date": "2024-04-19",
           "meeting": "文部科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6168,
+          "date": "2024-03-22",
+          "meeting": "文教科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 36
+        "neutral": 37
       }
     },
     "あべ俊子": {
@@ -151433,7 +152257,7 @@
     },
     "吉田雅之": {
       "party": "",
-      "speech_count": 10,
+      "speech_count": 12,
       "bills": [
         {
           "bill_id": "councillors_217_15976",
@@ -151514,12 +152338,28 @@
           "date": "2025-03-28",
           "meeting": "政治改革に関する特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15714",
+          "bill_name": "道路交通法の一部を改正する法律案",
+          "issue_number": 6171,
+          "date": "2024-05-16",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15714",
+          "bill_name": "道路交通法の一部を改正する法律案",
+          "issue_number": 6171,
+          "date": "2024-04-12",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 10
+        "neutral": 12
       }
     },
     "後藤祐一": {
@@ -153905,7 +154745,7 @@
     },
     "今川拓郎": {
       "party": "",
-      "speech_count": 1,
+      "speech_count": 2,
       "bills": [
         {
           "bill_id": "house_213_8222",
@@ -153914,17 +154754,25 @@
           "date": "2024-04-16",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15709",
+          "bill_name": "日本電信電話株式会社等に関する法律の一部を改正する法律案",
+          "issue_number": 6167,
+          "date": "2024-04-16",
+          "meeting": "総務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 1
+        "neutral": 2
       }
     },
     "矢野和彦": {
       "party": "",
-      "speech_count": 5,
+      "speech_count": 6,
       "bills": [
         {
           "bill_id": "house_213_8224",
@@ -153965,12 +154813,20 @@
           "date": "2024-04-18",
           "meeting": "文教科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6168,
+          "date": "2024-03-22",
+          "meeting": "文教科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 5
+        "neutral": 6
       }
     },
     "寺町東子": {
@@ -154029,7 +154885,7 @@
     },
     "勝目康": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 12,
+      "speech_count": 13,
       "bills": [
         {
           "bill_id": "house_213_8224",
@@ -154126,17 +154982,25 @@
           "date": "2024-02-27",
           "meeting": "予算委員会第一分科会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6168,
+          "date": "2024-04-17",
+          "meeting": "文部科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 1,
-        "neutral": 11
+        "neutral": 12
       }
     },
     "安彦広斉": {
       "party": "",
-      "speech_count": 1,
+      "speech_count": 2,
       "bills": [
         {
           "bill_id": "house_213_8224",
@@ -154145,17 +155009,25 @@
           "date": "2024-03-22",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6168,
+          "date": "2024-03-22",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 1
+        "neutral": 2
       }
     },
     "赤池誠章": {
       "party": "自由民主党",
-      "speech_count": 1,
+      "speech_count": 2,
       "bills": [
         {
           "bill_id": "house_213_8224",
@@ -154164,17 +155036,25 @@
           "date": "2024-03-22",
           "meeting": "文教科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6168,
+          "date": "2024-03-22",
+          "meeting": "文教科学委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 1
+        "neutral": 2
       }
     },
     "古川康": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 26,
+      "speech_count": 27,
       "bills": [
         {
           "bill_id": "house_213_8224",
@@ -154383,17 +155263,25 @@
           "date": "2024-02-27",
           "meeting": "予算委員会第四分科会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6168,
+          "date": "2024-02-27",
+          "meeting": "予算委員会第四分科会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 26
+        "neutral": 27
       }
     },
     "小国喜弘": {
       "party": "",
-      "speech_count": 1,
+      "speech_count": 2,
       "bills": [
         {
           "bill_id": "house_213_8224",
@@ -154402,17 +155290,25 @@
           "date": "2024-02-14",
           "meeting": "国民生活・経済及び地方に関する調査会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15711",
+          "bill_name": "学校教育法の一部を改正する法律案",
+          "issue_number": 6168,
+          "date": "2024-02-14",
+          "meeting": "国民生活・経済及び地方に関する調査会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 1
+        "neutral": 2
       }
     },
     "笠井亮": {
       "party": "日本共産党",
-      "speech_count": 1,
+      "speech_count": 2,
       "bills": [
         {
           "bill_id": "house_213_8225",
@@ -154421,17 +155317,25 @@
           "date": "2024-05-29",
           "meeting": "経済産業委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15712",
+          "bill_name": "消費生活用製品安全法等の一部を改正する法律案",
+          "issue_number": 6169,
+          "date": "2024-05-29",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 1
+        "neutral": 2
       }
     },
     "辻本圭助": {
       "party": "",
-      "speech_count": 1,
+      "speech_count": 2,
       "bills": [
         {
           "bill_id": "house_213_8225",
@@ -154440,17 +155344,25 @@
           "date": "2024-03-22",
           "meeting": "経済産業委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15712",
+          "bill_name": "消費生活用製品安全法等の一部を改正する法律案",
+          "issue_number": 6169,
+          "date": "2024-03-22",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 1
+        "neutral": 2
       }
     },
     "丸山秀治": {
       "party": "",
-      "speech_count": 1,
+      "speech_count": 2,
       "bills": [
         {
           "bill_id": "house_213_8227",
@@ -154459,17 +155371,25 @@
           "date": "2024-06-06",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15714",
+          "bill_name": "道路交通法の一部を改正する法律案",
+          "issue_number": 6171,
+          "date": "2024-06-06",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 1
+        "neutral": 2
       }
     },
     "成田憲彦": {
       "party": "",
-      "speech_count": 1,
+      "speech_count": 2,
       "bills": [
         {
           "bill_id": "house_213_8227",
@@ -154478,17 +155398,25 @@
           "date": "2024-05-27",
           "meeting": "政治改革に関する特別委員会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15714",
+          "bill_name": "道路交通法の一部を改正する法律案",
+          "issue_number": 6171,
+          "date": "2024-05-27",
+          "meeting": "政治改革に関する特別委員会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 1,
+        "oppose": 2,
         "neutral": 0
       }
     },
     "浅野敦行": {
       "party": "",
-      "speech_count": 2,
+      "speech_count": 3,
       "bills": [
         {
           "bill_id": "house_213_8227",
@@ -154505,17 +155433,25 @@
           "date": "2025-04-15",
           "meeting": "文教科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15714",
+          "bill_name": "道路交通法の一部を改正する法律案",
+          "issue_number": 6171,
+          "date": "2024-05-16",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 2
+        "neutral": 3
       }
     },
     "小林豊": {
       "party": "",
-      "speech_count": 5,
+      "speech_count": 8,
       "bills": [
         {
           "bill_id": "house_213_8227",
@@ -154556,17 +155492,41 @@
           "date": "2024-02-28",
           "meeting": "予算委員会第八分科会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15714",
+          "bill_name": "道路交通法の一部を改正する法律案",
+          "issue_number": 6171,
+          "date": "2024-04-23",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15714",
+          "bill_name": "道路交通法の一部を改正する法律案",
+          "issue_number": 6171,
+          "date": "2024-04-12",
+          "meeting": "環境委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15714",
+          "bill_name": "道路交通法の一部を改正する法律案",
+          "issue_number": 6171,
+          "date": "2024-04-10",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 5
+        "neutral": 8
       }
     },
     "鶴田浩久": {
       "party": "",
-      "speech_count": 3,
+      "speech_count": 4,
       "bills": [
         {
           "bill_id": "house_213_8227",
@@ -154591,12 +155551,20 @@
           "date": "2025-03-14",
           "meeting": "国土交通委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15714",
+          "bill_name": "道路交通法の一部を改正する法律案",
+          "issue_number": 6171,
+          "date": "2024-03-22",
+          "meeting": "国土交通委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 3
+        "neutral": 4
       }
     },
     "高田克樹": {
