@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-13T19:56:36.072Z",
-  "total_count": 9012,
+  "updated_at": "2026-09-20T19:53:07.970Z",
+  "total_count": 9013,
   "laws": [
     {
       "id": "321CONSTITUTION",
@@ -26589,6 +26589,12 @@
       "category": "cabinet_orders"
     },
     {
+      "id": "508CO0000000272",
+      "lawNum": "令和八年政令第二百七十二号",
+      "title": "社会経済の変化を踏まえた年金制度の機能強化のための国民年金法等の一部を改正する等の法律の一部の施行に伴う経過措置に関する政令",
+      "category": "cabinet_orders"
+    },
+    {
       "id": "119IO0000000000",
       "lawNum": "明治十九年勅令",
       "title": "メートル条約",
@@ -37929,12 +37935,6 @@
       "category": "misc"
     },
     {
-      "id": "412RPMD08210000",
-      "lawNum": "平成十二年八月二十一日内閣総理大臣決定",
-      "title": "内閣官房に危機管理審議官を置く規則",
-      "category": "misc"
-    },
-    {
       "id": "412RPMD08210002",
       "lawNum": "平成十二年八月二十一日内閣総理大臣決定",
       "title": "内閣総務官室に総理大臣官邸事務所等を置く規則",
@@ -37944,6 +37944,12 @@
       "id": "412RPMD08210001",
       "lawNum": "平成十二年八月二十一日内閣総理大臣決定",
       "title": "内閣広報室に内閣副広報官等を置く規則",
+      "category": "misc"
+    },
+    {
+      "id": "412RPMD08210000",
+      "lawNum": "平成十二年八月二十一日内閣総理大臣決定",
+      "title": "内閣官房に危機管理審議官を置く規則",
       "category": "misc"
     },
     {
@@ -53973,15 +53979,15 @@
       "category": "misc"
     },
     {
-      "id": "505RPMD08140002",
-      "lawNum": "令和五年八月十四日内閣総理大臣決定",
-      "title": "内閣感染症危機管理統括庁組織規則",
-      "category": "ministerial_ordinances"
-    },
-    {
       "id": "505RPMD08140003",
       "lawNum": "令和五年八月十四日内閣総理大臣決定",
       "title": "内閣感染症危機管理統括庁に感染症危機管理統括審議官を置く規則",
+      "category": "ministerial_ordinances"
+    },
+    {
+      "id": "505RPMD08140002",
+      "lawNum": "令和五年八月十四日内閣総理大臣決定",
+      "title": "内閣感染症危機管理統括庁組織規則",
       "category": "ministerial_ordinances"
     },
     {
