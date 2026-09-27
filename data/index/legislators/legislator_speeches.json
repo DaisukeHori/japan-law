@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-09-20T20:42:10.987Z",
+  "updated_at": "2026-09-27T21:21:07.671Z",
   "total_legislators": 1200,
-  "total_speeches": 20274,
+  "total_speeches": 20532,
   "legislators": {
     "東徹": {
       "party": "日本維新の会・教育無償化を実現する会",
@@ -216,7 +216,7 @@
     },
     "小林史武": {
       "party": "",
-      "speech_count": 174,
+      "speech_count": 176,
       "bills": [
         {
           "bill_id": "house_211_7800",
@@ -1609,12 +1609,28 @@
           "date": "2024-04-17",
           "meeting": "議院運営委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15716",
+          "bill_name": "情報通信技術の活用による行政手続等に係る関係者の利便性の向上並びに行政運営の簡素化及び効率化を図るためのデジタル社会形成基本法等の一部を改正する法律案",
+          "issue_number": 6173,
+          "date": "2024-05-15",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-04-19",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 174
+        "neutral": 176
       }
     },
     "細田博之": {
@@ -2462,7 +2478,7 @@
     },
     "山口俊一": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 394,
+      "speech_count": 396,
       "bills": [
         {
           "bill_id": "house_211_7800",
@@ -5615,17 +5631,33 @@
           "date": "2024-06-21",
           "meeting": "議院運営委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15716",
+          "bill_name": "情報通信技術の活用による行政手続等に係る関係者の利便性の向上並びに行政運営の簡素化及び効率化を図るためのデジタル社会形成基本法等の一部を改正する法律案",
+          "issue_number": 6173,
+          "date": "2024-04-19",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-03-14",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 394
+        "neutral": 396
       }
     },
     "岡田憲治": {
       "party": "",
-      "speech_count": 327,
+      "speech_count": 339,
       "bills": [
         {
           "bill_id": "house_211_7800",
@@ -8242,17 +8274,113 @@
           "date": "2024-04-16",
           "meeting": "議院運営委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15715",
+          "bill_name": "自動車の保管場所の確保等に関する法律の一部を改正する法律案",
+          "issue_number": 6172,
+          "date": "2024-04-16",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15716",
+          "bill_name": "情報通信技術の活用による行政手続等に係る関係者の利便性の向上並びに行政運営の簡素化及び効率化を図るためのデジタル社会形成基本法等の一部を改正する法律案",
+          "issue_number": 6173,
+          "date": "2024-05-07",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15717",
+          "bill_name": "再生医療等の安全性の確保等に関する法律及び臨床研究法の一部を改正する法律案",
+          "issue_number": 6174,
+          "date": "2024-05-21",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15718",
+          "bill_name": "地球温暖化対策の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6175,
+          "date": "2024-05-28",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15719",
+          "bill_name": "地域における生物の多様性の増進のための活動の促進等に関する法律案",
+          "issue_number": 6176,
+          "date": "2024-04-02",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15720",
+          "bill_name": "公益社団法人及び公益財団法人の認定等に関する法律の一部を改正する法律案",
+          "issue_number": 6177,
+          "date": "2024-05-14",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15722",
+          "bill_name": "総合法律支援法の一部を改正する法律案",
+          "issue_number": 6178,
+          "date": "2024-04-18",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-04-16",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-03-14",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15724",
+          "bill_name": "農業の生産性の向上のためのスマート農業技術の活用の促進に関する法律案",
+          "issue_number": 6180,
+          "date": "2024-05-23",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15725",
+          "bill_name": "漁業法及び特定水産動植物等の国内流通の適正化等に関する法律の一部を改正する法律案",
+          "issue_number": 6181,
+          "date": "2024-06-06",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15726",
+          "bill_name": "特定農産加工業経営改善臨時措置法の一部を改正する法律案",
+          "issue_number": 6182,
+          "date": "2024-03-26",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 327
+        "neutral": 339
       }
     },
     "尾辻秀久": {
       "party": "各派に属しない議員",
-      "speech_count": 335,
+      "speech_count": 348,
       "bills": [
         {
           "bill_id": "house_211_7806",
@@ -10933,12 +11061,116 @@
           "date": "2024-05-17",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15715",
+          "bill_name": "自動車の保管場所の確保等に関する法律の一部を改正する法律案",
+          "issue_number": 6172,
+          "date": "2024-05-17",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15716",
+          "bill_name": "情報通信技術の活用による行政手続等に係る関係者の利便性の向上並びに行政運営の簡素化及び効率化を図るためのデジタル社会形成基本法等の一部を改正する法律案",
+          "issue_number": 6173,
+          "date": "2024-05-31",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15716",
+          "bill_name": "情報通信技術の活用による行政手続等に係る関係者の利便性の向上並びに行政運営の簡素化及び効率化を図るためのデジタル社会形成基本法等の一部を改正する法律案",
+          "issue_number": 6173,
+          "date": "2024-05-15",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15717",
+          "bill_name": "再生医療等の安全性の確保等に関する法律及び臨床研究法の一部を改正する法律案",
+          "issue_number": 6174,
+          "date": "2024-06-07",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15718",
+          "bill_name": "地球温暖化対策の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6175,
+          "date": "2024-06-12",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15719",
+          "bill_name": "地域における生物の多様性の増進のための活動の促進等に関する法律案",
+          "issue_number": 6176,
+          "date": "2024-04-12",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15720",
+          "bill_name": "公益社団法人及び公益財団法人の認定等に関する法律の一部を改正する法律案",
+          "issue_number": 6177,
+          "date": "2024-04-05",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15722",
+          "bill_name": "総合法律支援法の一部を改正する法律案",
+          "issue_number": 6178,
+          "date": "2024-04-12",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-05-17",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-04-19",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15724",
+          "bill_name": "農業の生産性の向上のためのスマート農業技術の活用の促進に関する法律案",
+          "issue_number": 6180,
+          "date": "2024-06-14",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15725",
+          "bill_name": "漁業法及び特定水産動植物等の国内流通の適正化等に関する法律の一部を改正する法律案",
+          "issue_number": 6181,
+          "date": "2024-06-19",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15726",
+          "bill_name": "特定農産加工業経営改善臨時措置法の一部を改正する法律案",
+          "issue_number": 6182,
+          "date": "2024-04-05",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 335
+        "neutral": 348
       }
     },
     "古賀友一郎": {
@@ -13701,7 +13933,7 @@
     },
     "鬼木誠": {
       "party": "立憲民主・社民",
-      "speech_count": 44,
+      "speech_count": 45,
       "bills": [
         {
           "bill_id": "house_211_7811",
@@ -14054,12 +14286,20 @@
           "date": "2024-06-04",
           "meeting": "内閣委員会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15720",
+          "bill_name": "公益社団法人及び公益財団法人の認定等に関する法律の一部を改正する法律案",
+          "issue_number": 6177,
+          "date": "2024-04-04",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 7,
-        "neutral": 37
+        "neutral": 38
       }
     },
     "小沢雅仁": {
@@ -18172,7 +18412,7 @@
     },
     "谷公一": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 102,
+      "speech_count": 104,
       "bills": [
         {
           "bill_id": "house_211_7814",
@@ -18989,12 +19229,28 @@
           "date": "2024-05-24",
           "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15716",
+          "bill_name": "情報通信技術の活用による行政手続等に係る関係者の利便性の向上並びに行政運営の簡素化及び効率化を図るためのデジタル社会形成基本法等の一部を改正する法律案",
+          "issue_number": 6173,
+          "date": "2024-04-25",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15716",
+          "bill_name": "情報通信技術の活用による行政手続等に係る関係者の利便性の向上並びに行政運営の簡素化及び効率化を図るためのデジタル社会形成基本法等の一部を改正する法律案",
+          "issue_number": 6173,
+          "date": "2024-04-23",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 102
+        "neutral": 104
       }
     },
     "野田国義": {
@@ -19194,7 +19450,7 @@
     },
     "小泉龍司": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 79,
+      "speech_count": 93,
       "bills": [
         {
           "bill_id": "house_211_7815",
@@ -19827,12 +20083,124 @@
           "date": "2024-03-08",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15722",
+          "bill_name": "総合法律支援法の一部を改正する法律案",
+          "issue_number": 6178,
+          "date": "2024-04-16",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15722",
+          "bill_name": "総合法律支援法の一部を改正する法律案",
+          "issue_number": 6178,
+          "date": "2024-04-09",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15722",
+          "bill_name": "総合法律支援法の一部を改正する法律案",
+          "issue_number": 6178,
+          "date": "2024-03-12",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15722",
+          "bill_name": "総合法律支援法の一部を改正する法律案",
+          "issue_number": 6178,
+          "date": "2024-03-08",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-05-16",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-05-14",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-04-25",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-04-19",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-04-12",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-03-27",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-03-15",
+          "meeting": "予算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-03-14",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-03-12",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-03-08",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 79
+        "neutral": 93
       }
     },
     "小山展弘": {
@@ -21959,7 +22327,7 @@
     },
     "清水貴之": {
       "party": "日本維新の会・教育無償化を実現する会",
-      "speech_count": 38,
+      "speech_count": 41,
       "bills": [
         {
           "bill_id": "house_211_7845",
@@ -22264,12 +22632,36 @@
           "date": "2024-06-14",
           "meeting": "本会議",
           "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15722",
+          "bill_name": "総合法律支援法の一部を改正する法律案",
+          "issue_number": 6178,
+          "date": "2024-03-22",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-05-17",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-04-19",
+          "meeting": "本会議",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 14,
-        "oppose": 1,
-        "neutral": 23
+        "oppose": 2,
+        "neutral": 25
       }
     },
     "佐々木紀": {
@@ -25259,7 +25651,7 @@
     },
     "横沢高徳": {
       "party": "立憲民主・社民",
-      "speech_count": 34,
+      "speech_count": 37,
       "bills": [
         {
           "bill_id": "house_211_7863",
@@ -25532,12 +25924,36 @@
           "date": "2024-06-13",
           "meeting": "農林水産委員会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15724",
+          "bill_name": "農業の生産性の向上のためのスマート農業技術の活用の促進に関する法律案",
+          "issue_number": 6180,
+          "date": "2024-06-13",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15725",
+          "bill_name": "漁業法及び特定水産動植物等の国内流通の適正化等に関する法律の一部を改正する法律案",
+          "issue_number": 6181,
+          "date": "2024-06-18",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15726",
+          "bill_name": "特定農産加工業経営改善臨時措置法の一部を改正する法律案",
+          "issue_number": 6182,
+          "date": "2024-04-04",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 1,
         "oppose": 7,
-        "neutral": 26
+        "neutral": 29
       }
     },
     "河村小百合": {
@@ -26103,7 +26519,7 @@
     },
     "阿達雅志": {
       "party": "自由民主党",
-      "speech_count": 84,
+      "speech_count": 90,
       "bills": [
         {
           "bill_id": "house_211_7863",
@@ -26776,12 +27192,60 @@
           "date": "2024-05-14",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15715",
+          "bill_name": "自動車の保管場所の確保等に関する法律の一部を改正する法律案",
+          "issue_number": 6172,
+          "date": "2024-05-17",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15715",
+          "bill_name": "自動車の保管場所の確保等に関する法律の一部を改正する法律案",
+          "issue_number": 6172,
+          "date": "2024-05-16",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15715",
+          "bill_name": "自動車の保管場所の確保等に関する法律の一部を改正する法律案",
+          "issue_number": 6172,
+          "date": "2024-05-14",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15720",
+          "bill_name": "公益社団法人及び公益財団法人の認定等に関する法律の一部を改正する法律案",
+          "issue_number": 6177,
+          "date": "2024-04-05",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15720",
+          "bill_name": "公益社団法人及び公益財団法人の認定等に関する法律の一部を改正する法律案",
+          "issue_number": 6177,
+          "date": "2024-04-04",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15720",
+          "bill_name": "公益社団法人及び公益財団法人の認定等に関する法律の一部を改正する法律案",
+          "issue_number": 6177,
+          "date": "2024-04-02",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 4,
         "oppose": 0,
-        "neutral": 80
+        "neutral": 86
       }
     },
     "鈴木俊一": {
@@ -28555,7 +29019,7 @@
     },
     "道下大樹": {
       "party": "立憲民主党・無所属",
-      "speech_count": 24,
+      "speech_count": 28,
       "bills": [
         {
           "bill_id": "house_211_7863",
@@ -28748,12 +29212,44 @@
           "date": "2024-04-04",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-04-16",
+          "meeting": "本会議",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-04-12",
+          "meeting": "法務委員会",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-04-09",
+          "meeting": "法務委員会",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-03-15",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 1,
-        "oppose": 7,
-        "neutral": 16
+        "oppose": 10,
+        "neutral": 17
       }
     },
     "越智隆雄": {
@@ -28915,8 +29411,8 @@
       }
     },
     "斎藤アレックス": {
-      "party": "日本維新の会",
-      "speech_count": 20,
+      "party": "日本維新の会・教育無償化を実現する会",
+      "speech_count": 23,
       "bills": [
         {
           "bill_id": "house_211_7863",
@@ -29077,17 +29573,41 @@
           "date": "2025-05-13",
           "meeting": "政治改革に関する特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15722",
+          "bill_name": "総合法律支援法の一部を改正する法律案",
+          "issue_number": 6178,
+          "date": "2024-04-17",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-04-16",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-03-14",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 2,
         "oppose": 2,
-        "neutral": 16
+        "neutral": 19
       }
     },
     "米山隆一": {
       "party": "立憲民主党・無所属",
-      "speech_count": 83,
+      "speech_count": 87,
       "bills": [
         {
           "bill_id": "house_211_7863",
@@ -29752,12 +30272,44 @@
           "date": "2025-05-21",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15722",
+          "bill_name": "総合法律支援法の一部を改正する法律案",
+          "issue_number": 6178,
+          "date": "2024-04-17",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-04-25",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-04-12",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-03-14",
+          "meeting": "本会議",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 3,
-        "neutral": 80
+        "oppose": 4,
+        "neutral": 83
       }
     },
     "前原誠司": {
@@ -31071,7 +31623,7 @@
     },
     "稲津久": {
       "party": "公明党",
-      "speech_count": 5,
+      "speech_count": 6,
       "bills": [
         {
           "bill_id": "house_211_7863",
@@ -31112,12 +31664,20 @@
           "date": "2024-04-09",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15726",
+          "bill_name": "特定農産加工業経営改善臨時措置法の一部を改正する法律案",
+          "issue_number": 6182,
+          "date": "2024-03-21",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 5
+        "neutral": 6
       }
     },
     "岩渕友": {
@@ -31992,7 +32552,7 @@
     },
     "浅尾慶一郎": {
       "party": "自由民主党",
-      "speech_count": 64,
+      "speech_count": 66,
       "bills": [
         {
           "bill_id": "house_211_7864",
@@ -32505,12 +33065,28 @@
           "date": "2024-04-17",
           "meeting": "議院運営委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15716",
+          "bill_name": "情報通信技術の活用による行政手続等に係る関係者の利便性の向上並びに行政運営の簡素化及び効率化を図るためのデジタル社会形成基本法等の一部を改正する法律案",
+          "issue_number": 6173,
+          "date": "2024-05-15",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-04-19",
+          "meeting": "議院運営委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 4,
-        "neutral": 60
+        "neutral": 62
       }
     },
     "若松謙維": {
@@ -33543,7 +34119,7 @@
     },
     "吉田統彦": {
       "party": "立憲民主党・無所属",
-      "speech_count": 10,
+      "speech_count": 11,
       "bills": [
         {
           "bill_id": "house_211_7865",
@@ -33624,12 +34200,20 @@
           "date": "2024-03-27",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15717",
+          "bill_name": "再生医療等の安全性の確保等に関する法律及び臨床研究法の一部を改正する法律案",
+          "issue_number": 6174,
+          "date": "2024-05-15",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 10
+        "neutral": 11
       }
     },
     "吉田とも代": {
@@ -37059,7 +37643,7 @@
     },
     "太栄志": {
       "party": "立憲民主党・無所属",
-      "speech_count": 30,
+      "speech_count": 31,
       "bills": [
         {
           "bill_id": "house_211_7868",
@@ -37300,12 +37884,20 @@
           "date": "2024-04-12",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15720",
+          "bill_name": "公益社団法人及び公益財団法人の認定等に関する法律の一部を改正する法律案",
+          "issue_number": 6177,
+          "date": "2024-05-10",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 10,
         "oppose": 2,
-        "neutral": 18
+        "neutral": 19
       }
     },
     "阿部司": {
@@ -39462,7 +40054,7 @@
     },
     "鎌田さゆり": {
       "party": "立憲民主党・無所属",
-      "speech_count": 28,
+      "speech_count": 29,
       "bills": [
         {
           "bill_id": "house_211_7869",
@@ -39687,12 +40279,20 @@
           "date": "2025-04-25",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15722",
+          "bill_name": "総合法律支援法の一部を改正する法律案",
+          "issue_number": 6178,
+          "date": "2024-04-17",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 2,
         "oppose": 4,
-        "neutral": 22
+        "neutral": 23
       }
     },
     "竹谷とし子": {
@@ -39903,7 +40503,7 @@
     },
     "松村祥史": {
       "party": "自由民主党",
-      "speech_count": 33,
+      "speech_count": 37,
       "bills": [
         {
           "bill_id": "house_211_7869",
@@ -40168,12 +40768,44 @@
           "date": "2024-03-21",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15715",
+          "bill_name": "自動車の保管場所の確保等に関する法律の一部を改正する法律案",
+          "issue_number": 6172,
+          "date": "2024-05-14",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15715",
+          "bill_name": "自動車の保管場所の確保等に関する法律の一部を改正する法律案",
+          "issue_number": 6172,
+          "date": "2024-04-10",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15715",
+          "bill_name": "自動車の保管場所の確保等に関する法律の一部を改正する法律案",
+          "issue_number": 6172,
+          "date": "2024-03-07",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15715",
+          "bill_name": "自動車の保管場所の確保等に関する法律の一部を改正する法律案",
+          "issue_number": 6172,
+          "date": "2024-02-14",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 33
+        "neutral": 37
       }
     },
     "石井正弘": {
@@ -40224,7 +40856,7 @@
     },
     "岸田文雄": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 88,
+      "speech_count": 89,
       "bills": [
         {
           "bill_id": "house_211_7869",
@@ -40929,12 +41561,20 @@
           "date": "2024-01-30",
           "meeting": "本会議",
           "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-03-15",
+          "meeting": "予算委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 3,
         "oppose": 1,
-        "neutral": 84
+        "neutral": 85
       }
     },
     "河野義博": {
@@ -41054,7 +41694,7 @@
     },
     "岸真紀子": {
       "party": "立憲民主・社民",
-      "speech_count": 36,
+      "speech_count": 37,
       "bills": [
         {
           "bill_id": "house_211_7870",
@@ -41343,12 +41983,20 @@
           "date": "2024-03-19",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15716",
+          "bill_name": "情報通信技術の活用による行政手続等に係る関係者の利便性の向上並びに行政運営の簡素化及び効率化を図るためのデジタル社会形成基本法等の一部を改正する法律案",
+          "issue_number": 6173,
+          "date": "2024-05-29",
+          "meeting": "地方創生及びデジタル社会の形成等に関する特別委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 5,
         "oppose": 11,
-        "neutral": 20
+        "neutral": 21
       }
     },
     "竹詰仁": {
@@ -46008,7 +46656,7 @@
     },
     "おおつき紅葉": {
       "party": "立憲民主党・無所属",
-      "speech_count": 24,
+      "speech_count": 26,
       "bills": [
         {
           "bill_id": "house_211_7871",
@@ -46201,17 +46849,33 @@
           "date": "2024-03-21",
           "meeting": "総務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15722",
+          "bill_name": "総合法律支援法の一部を改正する法律案",
+          "issue_number": 6178,
+          "date": "2024-04-17",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-04-10",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 24
+        "neutral": 26
       }
     },
     "小野寺真也": {
       "party": "",
-      "speech_count": 8,
+      "speech_count": 9,
       "bills": [
         {
           "bill_id": "house_211_7872",
@@ -46276,17 +46940,25 @@
           "date": "2024-03-15",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-03-15",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 8
+        "neutral": 9
       }
     },
     "佐々木さやか": {
       "party": "公明党",
-      "speech_count": 52,
+      "speech_count": 58,
       "bills": [
         {
           "bill_id": "house_211_7872",
@@ -46703,12 +47375,60 @@
           "date": "2024-05-28",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15722",
+          "bill_name": "総合法律支援法の一部を改正する法律案",
+          "issue_number": 6178,
+          "date": "2024-04-11",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-05-16",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-05-14",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-05-09",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-05-07",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-04-25",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 52
+        "neutral": 58
       }
     },
     "杉久武": {
@@ -47068,7 +47788,7 @@
     },
     "加田裕之": {
       "party": "自由民主党",
-      "speech_count": 2,
+      "speech_count": 3,
       "bills": [
         {
           "bill_id": "house_211_7872",
@@ -47085,12 +47805,20 @@
           "date": "2024-06-06",
           "meeting": "環境委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15718",
+          "bill_name": "地球温暖化対策の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6175,
+          "date": "2024-06-06",
+          "meeting": "環境委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 2
+        "neutral": 3
       }
     },
     "福島みずほ": {
@@ -47346,7 +48074,7 @@
     },
     "鈴木宗男": {
       "party": "各派に属しない議員",
-      "speech_count": 32,
+      "speech_count": 34,
       "bills": [
         {
           "bill_id": "house_211_7872",
@@ -47603,17 +48331,33 @@
           "date": "2023-12-12",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15722",
+          "bill_name": "総合法律支援法の一部を改正する法律案",
+          "issue_number": 6178,
+          "date": "2024-04-11",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-04-25",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 32
+        "neutral": 34
       }
     },
     "牧山ひろえ": {
       "party": "立憲民主・社民",
-      "speech_count": 75,
+      "speech_count": 78,
       "bills": [
         {
           "bill_id": "house_211_7872",
@@ -48214,12 +48958,36 @@
           "date": "2024-06-06",
           "meeting": "法務委員会",
           "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15722",
+          "bill_name": "総合法律支援法の一部を改正する法律案",
+          "issue_number": 6178,
+          "date": "2024-04-11",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-05-17",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-05-16",
+          "meeting": "法務委員会",
+          "stance": "賛成"
         }
       ],
       "stance_summary": {
-        "support": 6,
+        "support": 7,
         "oppose": 5,
-        "neutral": 64
+        "neutral": 66
       }
     },
     "齋藤健": {
@@ -49401,7 +50169,7 @@
     },
     "本村伸子": {
       "party": "日本共産党",
-      "speech_count": 51,
+      "speech_count": 53,
       "bills": [
         {
           "bill_id": "house_211_7872",
@@ -49810,17 +50578,33 @@
           "date": "2024-03-15",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15722",
+          "bill_name": "総合法律支援法の一部を改正する法律案",
+          "issue_number": 6178,
+          "date": "2024-03-27",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15722",
+          "bill_name": "総合法律支援法の一部を改正する法律案",
+          "issue_number": 6178,
+          "date": "2024-03-26",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 7,
-        "neutral": 44
+        "neutral": 46
       }
     },
     "羽田次郎": {
       "party": "立憲民主・社民",
-      "speech_count": 17,
+      "speech_count": 18,
       "bills": [
         {
           "bill_id": "house_211_7873",
@@ -49957,12 +50741,20 @@
           "date": "2024-06-04",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15726",
+          "bill_name": "特定農産加工業経営改善臨時措置法の一部を改正する法律案",
+          "issue_number": 6182,
+          "date": "2024-04-04",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 3,
-        "neutral": 14
+        "neutral": 15
       }
     },
     "林芳正": {
@@ -51776,8 +52568,8 @@
       }
     },
     "田島麻衣子": {
-      "party": "立憲民主・社民・無所属",
-      "speech_count": 38,
+      "party": "立憲民主・社民",
+      "speech_count": 41,
       "bills": [
         {
           "bill_id": "house_211_7874",
@@ -52082,12 +52874,36 @@
           "date": "2025-05-29",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15718",
+          "bill_name": "地球温暖化対策の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6175,
+          "date": "2024-06-11",
+          "meeting": "環境委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15719",
+          "bill_name": "地域における生物の多様性の増進のための活動の促進等に関する法律案",
+          "issue_number": 6176,
+          "date": "2024-06-11",
+          "meeting": "環境委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15719",
+          "bill_name": "地域における生物の多様性の増進のための活動の促進等に関する法律案",
+          "issue_number": 6176,
+          "date": "2024-04-11",
+          "meeting": "環境委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 3,
-        "neutral": 35
+        "neutral": 38
       }
     },
     "大島敦": {
@@ -56516,7 +57332,7 @@
     },
     "新谷正義": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 80,
+      "speech_count": 83,
       "bills": [
         {
           "bill_id": "house_211_7879",
@@ -57157,12 +57973,36 @@
           "date": "2024-04-05",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15717",
+          "bill_name": "再生医療等の安全性の確保等に関する法律及び臨床研究法の一部を改正する法律案",
+          "issue_number": 6174,
+          "date": "2024-05-21",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15717",
+          "bill_name": "再生医療等の安全性の確保等に関する法律及び臨床研究法の一部を改正する法律案",
+          "issue_number": 6174,
+          "date": "2024-05-15",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15717",
+          "bill_name": "再生医療等の安全性の確保等に関する法律及び臨床研究法の一部を改正する法律案",
+          "issue_number": 6174,
+          "date": "2024-05-08",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 80
+        "neutral": 83
       }
     },
     "井坂信彦": {
@@ -59797,7 +60637,7 @@
     },
     "一谷勇一郎": {
       "party": "日本維新の会・教育無償化を実現する会",
-      "speech_count": 20,
+      "speech_count": 21,
       "bills": [
         {
           "bill_id": "house_211_7880",
@@ -59958,12 +60798,20 @@
           "date": "2024-04-18",
           "meeting": "農林水産委員会",
           "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15717",
+          "bill_name": "再生医療等の安全性の確保等に関する法律及び臨床研究法の一部を改正する法律案",
+          "issue_number": 6174,
+          "date": "2024-05-15",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 2,
         "oppose": 2,
-        "neutral": 16
+        "neutral": 17
       }
     },
     "足立敏之": {
@@ -61087,7 +61935,7 @@
     },
     "城井崇": {
       "party": "立憲民主党・無所属",
-      "speech_count": 23,
+      "speech_count": 24,
       "bills": [
         {
           "bill_id": "house_211_7881",
@@ -61272,12 +62120,20 @@
           "date": "2024-05-09",
           "meeting": "本会議",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15716",
+          "bill_name": "情報通信技術の活用による行政手続等に係る関係者の利便性の向上並びに行政運営の簡素化及び効率化を図るためのデジタル社会形成基本法等の一部を改正する法律案",
+          "issue_number": 6173,
+          "date": "2024-04-25",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 6,
-        "neutral": 17
+        "neutral": 18
       }
     },
     "山本剛正": {
@@ -65324,7 +66180,7 @@
     },
     "山添拓": {
       "party": "日本共産党",
-      "speech_count": 21,
+      "speech_count": 23,
       "bills": [
         {
           "bill_id": "house_211_7882",
@@ -65493,11 +66349,27 @@
           "date": "2024-05-08",
           "meeting": "本会議",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-05-17",
+          "meeting": "本会議",
+          "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-05-16",
+          "meeting": "法務委員会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 10,
+        "oppose": 12,
         "neutral": 11
       }
     },
@@ -74263,7 +75135,7 @@
     },
     "梶原大介": {
       "party": "自由民主党",
-      "speech_count": 8,
+      "speech_count": 9,
       "bills": [
         {
           "bill_id": "house_211_7888",
@@ -74328,12 +75200,20 @@
           "date": "2025-03-13",
           "meeting": "環境委員会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15719",
+          "bill_name": "地域における生物の多様性の増進のための活動の促進等に関する法律案",
+          "issue_number": 6176,
+          "date": "2024-04-11",
+          "meeting": "環境委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 1,
-        "neutral": 7
+        "neutral": 8
       }
     },
     "石井章": {
@@ -75003,7 +75883,7 @@
     },
     "星野剛士": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 102,
+      "speech_count": 108,
       "bills": [
         {
           "bill_id": "house_211_7889",
@@ -75820,12 +76700,60 @@
           "date": "2024-04-10",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15715",
+          "bill_name": "自動車の保管場所の確保等に関する法律の一部を改正する法律案",
+          "issue_number": 6172,
+          "date": "2024-04-16",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15715",
+          "bill_name": "自動車の保管場所の確保等に関する法律の一部を改正する法律案",
+          "issue_number": 6172,
+          "date": "2024-04-12",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15715",
+          "bill_name": "自動車の保管場所の確保等に関する法律の一部を改正する法律案",
+          "issue_number": 6172,
+          "date": "2024-04-10",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15720",
+          "bill_name": "公益社団法人及び公益財団法人の認定等に関する法律の一部を改正する法律案",
+          "issue_number": 6177,
+          "date": "2024-05-14",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15720",
+          "bill_name": "公益社団法人及び公益財団法人の認定等に関する法律の一部を改正する法律案",
+          "issue_number": 6177,
+          "date": "2024-05-10",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15720",
+          "bill_name": "公益社団法人及び公益財団法人の認定等に関する法律の一部を改正する法律案",
+          "issue_number": 6177,
+          "date": "2024-05-08",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 4,
         "oppose": 0,
-        "neutral": 98
+        "neutral": 104
       }
     },
     "古賀篤": {
@@ -76667,7 +77595,7 @@
     },
     "河野太郎": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 40,
+      "speech_count": 46,
       "bills": [
         {
           "bill_id": "house_211_7890",
@@ -76988,12 +77916,60 @@
           "date": "2024-05-15",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15716",
+          "bill_name": "情報通信技術の活用による行政手続等に係る関係者の利便性の向上並びに行政運営の簡素化及び効率化を図るためのデジタル社会形成基本法等の一部を改正する法律案",
+          "issue_number": 6173,
+          "date": "2024-05-24",
+          "meeting": "地方創生及びデジタル社会の形成等に関する特別委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15716",
+          "bill_name": "情報通信技術の活用による行政手続等に係る関係者の利便性の向上並びに行政運営の簡素化及び効率化を図るためのデジタル社会形成基本法等の一部を改正する法律案",
+          "issue_number": 6173,
+          "date": "2024-05-15",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15716",
+          "bill_name": "情報通信技術の活用による行政手続等に係る関係者の利便性の向上並びに行政運営の簡素化及び効率化を図るためのデジタル社会形成基本法等の一部を改正する法律案",
+          "issue_number": 6173,
+          "date": "2024-04-23",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15716",
+          "bill_name": "情報通信技術の活用による行政手続等に係る関係者の利便性の向上並びに行政運営の簡素化及び効率化を図るためのデジタル社会形成基本法等の一部を改正する法律案",
+          "issue_number": 6173,
+          "date": "2024-04-19",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15716",
+          "bill_name": "情報通信技術の活用による行政手続等に係る関係者の利便性の向上並びに行政運営の簡素化及び効率化を図るためのデジタル社会形成基本法等の一部を改正する法律案",
+          "issue_number": 6173,
+          "date": "2024-03-18",
+          "meeting": "地方創生及びデジタル社会の形成等に関する特別委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15716",
+          "bill_name": "情報通信技術の活用による行政手続等に係る関係者の利便性の向上並びに行政運営の簡素化及び効率化を図るためのデジタル社会形成基本法等の一部を改正する法律案",
+          "issue_number": 6173,
+          "date": "2024-03-08",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 40
+        "neutral": 46
       }
     },
     "稲田朋美": {
@@ -77557,7 +78533,7 @@
     },
     "川合孝典": {
       "party": "国民民主党・新緑風会",
-      "speech_count": 20,
+      "speech_count": 22,
       "bills": [
         {
           "bill_id": "house_211_7891",
@@ -77718,12 +78694,28 @@
           "date": "2024-06-06",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-05-16",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-04-19",
+          "meeting": "本会議",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 2,
-        "neutral": 18
+        "oppose": 3,
+        "neutral": 19
       }
     },
     "田中昌史": {
@@ -78057,7 +79049,7 @@
     },
     "平林晃": {
       "party": "公明党",
-      "speech_count": 40,
+      "speech_count": 41,
       "bills": [
         {
           "bill_id": "house_211_7891",
@@ -78378,12 +79370,20 @@
           "date": "2024-04-17",
           "meeting": "文部科学委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-04-09",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 9,
-        "neutral": 31
+        "neutral": 32
       }
     },
     "鈴木庸介": {
@@ -79262,7 +80262,7 @@
     },
     "野中厚": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 48,
+      "speech_count": 58,
       "bills": [
         {
           "bill_id": "house_211_7894",
@@ -79647,12 +80647,92 @@
           "date": "2024-04-25",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15724",
+          "bill_name": "農業の生産性の向上のためのスマート農業技術の活用の促進に関する法律案",
+          "issue_number": 6180,
+          "date": "2024-05-23",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15724",
+          "bill_name": "農業の生産性の向上のためのスマート農業技術の活用の促進に関する法律案",
+          "issue_number": 6180,
+          "date": "2024-05-21",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15724",
+          "bill_name": "農業の生産性の向上のためのスマート農業技術の活用の促進に関する法律案",
+          "issue_number": 6180,
+          "date": "2024-05-15",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15724",
+          "bill_name": "農業の生産性の向上のためのスマート農業技術の活用の促進に関する法律案",
+          "issue_number": 6180,
+          "date": "2024-05-09",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15724",
+          "bill_name": "農業の生産性の向上のためのスマート農業技術の活用の促進に関する法律案",
+          "issue_number": 6180,
+          "date": "2024-05-08",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15724",
+          "bill_name": "農業の生産性の向上のためのスマート農業技術の活用の促進に関する法律案",
+          "issue_number": 6180,
+          "date": "2024-04-25",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15725",
+          "bill_name": "漁業法及び特定水産動植物等の国内流通の適正化等に関する法律の一部を改正する法律案",
+          "issue_number": 6181,
+          "date": "2024-06-05",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15725",
+          "bill_name": "漁業法及び特定水産動植物等の国内流通の適正化等に関する法律の一部を改正する法律案",
+          "issue_number": 6181,
+          "date": "2024-05-29",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15726",
+          "bill_name": "特定農産加工業経営改善臨時措置法の一部を改正する法律案",
+          "issue_number": 6182,
+          "date": "2024-03-21",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15726",
+          "bill_name": "特定農産加工業経営改善臨時措置法の一部を改正する法律案",
+          "issue_number": 6182,
+          "date": "2024-03-13",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 48
+        "neutral": 58
       }
     },
     "金子恵美": {
@@ -79796,7 +80876,7 @@
     },
     "緑川貴士": {
       "party": "立憲民主党・無所属",
-      "speech_count": 3,
+      "speech_count": 4,
       "bills": [
         {
           "bill_id": "house_211_7894",
@@ -79821,12 +80901,20 @@
           "date": "2024-03-21",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15726",
+          "bill_name": "特定農産加工業経営改善臨時措置法の一部を改正する法律案",
+          "issue_number": 6182,
+          "date": "2024-03-21",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 3
+        "neutral": 4
       }
     },
     "前田剛志": {
@@ -80007,8 +81095,8 @@
       }
     },
     "國重徹": {
-      "party": "中道改革連合・無所属",
-      "speech_count": 14,
+      "party": "公明党",
+      "speech_count": 15,
       "bills": [
         {
           "bill_id": "house_211_7899",
@@ -80121,12 +81209,20 @@
           "date": "2026-04-14",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-04-18",
+          "meeting": "憲法審査会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 14
+        "neutral": 15
       }
     },
     "塩川鉄也": {
@@ -82247,7 +83343,7 @@
     },
     "広瀬めぐみ": {
       "party": "自由民主党",
-      "speech_count": 7,
+      "speech_count": 8,
       "bills": [
         {
           "bill_id": "house_211_7901",
@@ -82304,12 +83400,20 @@
           "date": "2024-04-04",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15720",
+          "bill_name": "公益社団法人及び公益財団法人の認定等に関する法律の一部を改正する法律案",
+          "issue_number": 6177,
+          "date": "2024-04-04",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 7
+        "neutral": 8
       }
     },
     "稲富修二": {
@@ -85613,7 +86717,7 @@
     },
     "野間健": {
       "party": "立憲民主党・無所属",
-      "speech_count": 17,
+      "speech_count": 18,
       "bills": [
         {
           "bill_id": "house_211_7908",
@@ -85750,12 +86854,20 @@
           "date": "2024-05-21",
           "meeting": "農林水産委員会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15724",
+          "bill_name": "農業の生産性の向上のためのスマート農業技術の活用の促進に関する法律案",
+          "issue_number": 6180,
+          "date": "2024-05-21",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 3,
-        "neutral": 14
+        "neutral": 15
       }
     },
     "竹田智雄": {
@@ -85915,8 +87027,8 @@
       }
     },
     "石川大我": {
-      "party": "立憲民主・社民・無所属",
-      "speech_count": 29,
+      "party": "立憲民主・社民",
+      "speech_count": 32,
       "bills": [
         {
           "bill_id": "house_211_7911",
@@ -86149,12 +87261,36 @@
           "date": "2025-05-28",
           "meeting": "本会議",
           "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15722",
+          "bill_name": "総合法律支援法の一部を改正する法律案",
+          "issue_number": 6178,
+          "date": "2024-04-11",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-04-25",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-04-19",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 4,
         "oppose": 2,
-        "neutral": 23
+        "neutral": 26
       }
     },
     "石橋通宏": {
@@ -86434,7 +87570,7 @@
     },
     "日下正喜": {
       "party": "公明党",
-      "speech_count": 16,
+      "speech_count": 18,
       "bills": [
         {
           "bill_id": "house_211_7911",
@@ -86563,12 +87699,28 @@
           "date": "2024-05-10",
           "meeting": "国土交通委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15722",
+          "bill_name": "総合法律支援法の一部を改正する法律案",
+          "issue_number": 6178,
+          "date": "2024-04-17",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-03-14",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 2,
         "oppose": 0,
-        "neutral": 14
+        "neutral": 16
       }
     },
     "浅沼一成": {
@@ -86919,7 +88071,7 @@
     },
     "石川博崇": {
       "party": "公明党",
-      "speech_count": 10,
+      "speech_count": 11,
       "bills": [
         {
           "bill_id": "house_211_7914",
@@ -87000,12 +88152,20 @@
           "date": "2024-04-11",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15722",
+          "bill_name": "総合法律支援法の一部を改正する法律案",
+          "issue_number": 6178,
+          "date": "2024-04-11",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 10
+        "neutral": 11
       }
     },
     "中原裕彦": {
@@ -89101,7 +90261,7 @@
     },
     "松井信憲": {
       "party": "",
-      "speech_count": 31,
+      "speech_count": 34,
       "bills": [
         {
           "bill_id": "councillors_211_15315",
@@ -89350,12 +90510,36 @@
           "date": "2025-11-27",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-06-04",
+          "meeting": "財政金融委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-04-15",
+          "meeting": "決算委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-04-10",
+          "meeting": "内閣委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 31
+        "neutral": 34
       }
     },
     "高良鉄美": {
@@ -90064,7 +91248,7 @@
     },
     "宮本直樹": {
       "party": "",
-      "speech_count": 2,
+      "speech_count": 3,
       "bills": [
         {
           "bill_id": "councillors_211_15315",
@@ -90081,12 +91265,20 @@
           "date": "2024-04-05",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-04-05",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 2
+        "neutral": 3
       }
     },
     "鈴木敦": {
@@ -91101,7 +92293,7 @@
     },
     "馬渡直史": {
       "party": "",
-      "speech_count": 8,
+      "speech_count": 11,
       "bills": [
         {
           "bill_id": "councillors_211_15315",
@@ -91166,12 +92358,36 @@
           "date": "2025-06-13",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-06-19",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-05-14",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-03-15",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 8
+        "neutral": 11
       }
     },
     "北神圭朗": {
@@ -95242,7 +96458,7 @@
     },
     "安江伸夫": {
       "party": "公明党",
-      "speech_count": 2,
+      "speech_count": 3,
       "bills": [
         {
           "bill_id": "councillors_211_15360",
@@ -95259,12 +96475,20 @@
           "date": "2024-04-25",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-04-25",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 2
+        "neutral": 3
       }
     },
     "片山さつき": {
@@ -98023,7 +99247,7 @@
     },
     "近藤昭一": {
       "party": "立憲民主党・無所属",
-      "speech_count": 27,
+      "speech_count": 28,
       "bills": [
         {
           "bill_id": "councillors_211_15383",
@@ -98240,11 +99464,19 @@
           "date": "2024-04-11",
           "meeting": "憲法審査会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15718",
+          "bill_name": "地球温暖化対策の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6175,
+          "date": "2024-05-24",
+          "meeting": "環境委員会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 4,
-        "oppose": 4,
+        "oppose": 5,
         "neutral": 19
       }
     },
@@ -98467,7 +99699,7 @@
     },
     "紙智子": {
       "party": "日本共産党",
-      "speech_count": 21,
+      "speech_count": 22,
       "bills": [
         {
           "bill_id": "councillors_211_15418",
@@ -98636,12 +99868,20 @@
           "date": "2024-06-13",
           "meeting": "農林水産委員会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15726",
+          "bill_name": "特定農産加工業経営改善臨時措置法の一部を改正する法律案",
+          "issue_number": 6182,
+          "date": "2024-04-04",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 5,
-        "neutral": 16
+        "neutral": 17
       }
     },
     "秋野公造": {
@@ -101913,7 +103153,7 @@
     },
     "掘井健智": {
       "party": "日本維新の会・教育無償化を実現する会",
-      "speech_count": 3,
+      "speech_count": 4,
       "bills": [
         {
           "bill_id": "councillors_211_15418",
@@ -101938,12 +103178,20 @@
           "date": "2024-03-21",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15726",
+          "bill_name": "特定農産加工業経営改善臨時措置法の一部を改正する法律案",
+          "issue_number": 6182,
+          "date": "2024-03-21",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 3
+        "neutral": 4
       }
     },
     "住澤整": {
@@ -102333,7 +103581,7 @@
     },
     "額賀福志郎": {
       "party": "無所属",
-      "speech_count": 570,
+      "speech_count": 582,
       "bills": [
         {
           "bill_id": "councillors_212_15437",
@@ -106894,12 +108142,108 @@
           "date": "2024-04-16",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15715",
+          "bill_name": "自動車の保管場所の確保等に関する法律の一部を改正する法律案",
+          "issue_number": 6172,
+          "date": "2024-04-16",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15716",
+          "bill_name": "情報通信技術の活用による行政手続等に係る関係者の利便性の向上並びに行政運営の簡素化及び効率化を図るためのデジタル社会形成基本法等の一部を改正する法律案",
+          "issue_number": 6173,
+          "date": "2024-05-07",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15716",
+          "bill_name": "情報通信技術の活用による行政手続等に係る関係者の利便性の向上並びに行政運営の簡素化及び効率化を図るためのデジタル社会形成基本法等の一部を改正する法律案",
+          "issue_number": 6173,
+          "date": "2024-04-19",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15717",
+          "bill_name": "再生医療等の安全性の確保等に関する法律及び臨床研究法の一部を改正する法律案",
+          "issue_number": 6174,
+          "date": "2024-05-21",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15718",
+          "bill_name": "地球温暖化対策の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6175,
+          "date": "2024-05-28",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15719",
+          "bill_name": "地域における生物の多様性の増進のための活動の促進等に関する法律案",
+          "issue_number": 6176,
+          "date": "2024-04-02",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15720",
+          "bill_name": "公益社団法人及び公益財団法人の認定等に関する法律の一部を改正する法律案",
+          "issue_number": 6177,
+          "date": "2024-05-14",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15722",
+          "bill_name": "総合法律支援法の一部を改正する法律案",
+          "issue_number": 6178,
+          "date": "2024-04-18",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-04-16",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15724",
+          "bill_name": "農業の生産性の向上のためのスマート農業技術の活用の促進に関する法律案",
+          "issue_number": 6180,
+          "date": "2024-05-23",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15725",
+          "bill_name": "漁業法及び特定水産動植物等の国内流通の適正化等に関する法律の一部を改正する法律案",
+          "issue_number": 6181,
+          "date": "2024-06-06",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15726",
+          "bill_name": "特定農産加工業経営改善臨時措置法の一部を改正する法律案",
+          "issue_number": 6182,
+          "date": "2024-03-26",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 4,
         "oppose": 0,
-        "neutral": 566
+        "neutral": 578
       }
     },
     "池田貴城": {
@@ -106979,7 +108323,7 @@
     },
     "長谷川岳": {
       "party": "自由民主党",
-      "speech_count": 6,
+      "speech_count": 8,
       "bills": [
         {
           "bill_id": "house_212_8018",
@@ -107028,12 +108372,28 @@
           "date": "2024-04-05",
           "meeting": "地方創生及びデジタル社会の形成等に関する特別委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15716",
+          "bill_name": "情報通信技術の活用による行政手続等に係る関係者の利便性の向上並びに行政運営の簡素化及び効率化を図るためのデジタル社会形成基本法等の一部を改正する法律案",
+          "issue_number": 6173,
+          "date": "2024-05-29",
+          "meeting": "地方創生及びデジタル社会の形成等に関する特別委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15716",
+          "bill_name": "情報通信技術の活用による行政手続等に係る関係者の利便性の向上並びに行政運営の簡素化及び効率化を図るためのデジタル社会形成基本法等の一部を改正する法律案",
+          "issue_number": 6173,
+          "date": "2024-05-24",
+          "meeting": "地方創生及びデジタル社会の形成等に関する特別委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 6
+        "neutral": 8
       }
     },
     "西田昭二": {
@@ -107231,7 +108591,7 @@
     },
     "武部新": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 76,
+      "speech_count": 85,
       "bills": [
         {
           "bill_id": "house_212_8039",
@@ -107840,12 +109200,84 @@
           "date": "2024-06-21",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15722",
+          "bill_name": "総合法律支援法の一部を改正する法律案",
+          "issue_number": 6178,
+          "date": "2024-04-17",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15722",
+          "bill_name": "総合法律支援法の一部を改正する法律案",
+          "issue_number": 6178,
+          "date": "2024-04-16",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-04-12",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-04-10",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-04-09",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-04-05",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-04-03",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-04-02",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-03-27",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 76
+        "neutral": 85
       }
     },
     "簗和生": {
@@ -108507,7 +109939,7 @@
     },
     "比嘉奈津美": {
       "party": "自由民主党",
-      "speech_count": 56,
+      "speech_count": 57,
       "bills": [
         {
           "bill_id": "house_212_8043",
@@ -108956,17 +110388,25 @@
           "date": "2024-05-30",
           "meeting": "厚生労働委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15717",
+          "bill_name": "再生医療等の安全性の確保等に関する法律及び臨床研究法の一部を改正する法律案",
+          "issue_number": 6174,
+          "date": "2024-06-06",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 1,
-        "neutral": 55
+        "neutral": 56
       }
     },
     "武見敬三": {
       "party": "自由民主党",
-      "speech_count": 59,
+      "speech_count": 61,
       "bills": [
         {
           "bill_id": "house_212_8043",
@@ -109439,12 +110879,28 @@
           "date": "2024-03-29",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15717",
+          "bill_name": "再生医療等の安全性の確保等に関する法律及び臨床研究法の一部を改正する法律案",
+          "issue_number": 6174,
+          "date": "2024-05-30",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15717",
+          "bill_name": "再生医療等の安全性の確保等に関する法律及び臨床研究法の一部を改正する法律案",
+          "issue_number": 6174,
+          "date": "2024-05-08",
+          "meeting": "厚生労働委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 59
+        "neutral": 61
       }
     },
     "上田英俊": {
@@ -110432,7 +111888,7 @@
     },
     "加藤鮎子": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 47,
+      "speech_count": 52,
       "bills": [
         {
           "bill_id": "house_213_8148",
@@ -110809,12 +112265,52 @@
           "date": "2024-04-04",
           "meeting": "内閣委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15720",
+          "bill_name": "公益社団法人及び公益財団法人の認定等に関する法律の一部を改正する法律案",
+          "issue_number": 6177,
+          "date": "2024-05-08",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15720",
+          "bill_name": "公益社団法人及び公益財団法人の認定等に関する法律の一部を改正する法律案",
+          "issue_number": 6177,
+          "date": "2024-04-02",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-04-10",
+          "meeting": "内閣委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-03-14",
+          "meeting": "本会議",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-03-13",
+          "meeting": "地域活性化・こども政策・デジタル社会形成に関する特別委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 47
+        "neutral": 52
       }
     },
     "青木愛": {
@@ -111797,7 +113293,7 @@
     },
     "長友慎治": {
       "party": "国民民主党・無所属クラブ",
-      "speech_count": 42,
+      "speech_count": 44,
       "bills": [
         {
           "bill_id": "house_213_8190",
@@ -112134,17 +113630,33 @@
           "date": "2024-03-21",
           "meeting": "本会議",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15724",
+          "bill_name": "農業の生産性の向上のためのスマート農業技術の活用の促進に関する法律案",
+          "issue_number": 6180,
+          "date": "2024-05-08",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15726",
+          "bill_name": "特定農産加工業経営改善臨時措置法の一部を改正する法律案",
+          "issue_number": 6182,
+          "date": "2024-03-21",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 2,
-        "neutral": 40
+        "neutral": 42
       }
     },
     "勝部賢志": {
-      "party": "立憲民主・社民・無所属",
-      "speech_count": 16,
+      "party": "立憲民主・社民",
+      "speech_count": 17,
       "bills": [
         {
           "bill_id": "house_213_8190",
@@ -112273,11 +113785,19 @@
           "date": "2025-06-12",
           "meeting": "財政金融委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-06-04",
+          "meeting": "財政金融委員会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 4,
+        "oppose": 5,
         "neutral": 12
       }
     },
@@ -112502,7 +114022,7 @@
     },
     "馬場雄基": {
       "party": "立憲民主党・無所属",
-      "speech_count": 18,
+      "speech_count": 21,
       "bills": [
         {
           "bill_id": "house_213_8190",
@@ -112647,12 +114167,36 @@
           "date": "2024-04-26",
           "meeting": "財務金融委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15718",
+          "bill_name": "地球温暖化対策の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6175,
+          "date": "2024-05-24",
+          "meeting": "環境委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15719",
+          "bill_name": "地域における生物の多様性の増進のための活動の促進等に関する法律案",
+          "issue_number": 6176,
+          "date": "2024-05-24",
+          "meeting": "環境委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15719",
+          "bill_name": "地域における生物の多様性の増進のための活動の促進等に関する法律案",
+          "issue_number": 6176,
+          "date": "2024-03-29",
+          "meeting": "環境委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 3,
-        "neutral": 15
+        "neutral": 18
       }
     },
     "藤巻健太": {
@@ -114942,7 +116486,7 @@
     },
     "金子容三": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 9,
+      "speech_count": 10,
       "bills": [
         {
           "bill_id": "house_213_8198",
@@ -115015,12 +116559,20 @@
           "date": "2024-02-27",
           "meeting": "予算委員会第六分科会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15718",
+          "bill_name": "地球温暖化対策の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6175,
+          "date": "2024-04-26",
+          "meeting": "環境委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 9
+        "neutral": 10
       }
     },
     "堀井奈津子": {
@@ -115398,7 +116950,7 @@
     },
     "清水秀行": {
       "party": "",
-      "speech_count": 8,
+      "speech_count": 9,
       "bills": [
         {
           "bill_id": "house_213_8199",
@@ -115463,11 +117015,19 @@
           "date": "2024-02-29",
           "meeting": "予算委員会公聴会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-02-29",
+          "meeting": "予算委員会公聴会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 8,
+        "oppose": 9,
         "neutral": 0
       }
     },
@@ -116939,7 +118499,7 @@
     },
     "三原じゅん子": {
       "party": "自由民主党",
-      "speech_count": 54,
+      "speech_count": 58,
       "bills": [
         {
           "bill_id": "house_213_8205",
@@ -117372,12 +118932,44 @@
           "date": "2024-05-07",
           "meeting": "環境委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15718",
+          "bill_name": "地球温暖化対策の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6175,
+          "date": "2024-06-11",
+          "meeting": "環境委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15718",
+          "bill_name": "地球温暖化対策の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6175,
+          "date": "2024-06-06",
+          "meeting": "環境委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15718",
+          "bill_name": "地球温暖化対策の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6175,
+          "date": "2024-06-04",
+          "meeting": "環境委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15719",
+          "bill_name": "地域における生物の多様性の増進のための活動の促進等に関する法律案",
+          "issue_number": 6176,
+          "date": "2024-04-11",
+          "meeting": "環境委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 54
+        "neutral": 58
       }
     },
     "岡本三成": {
@@ -118271,7 +119863,7 @@
     },
     "務台俊介": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 22,
+      "speech_count": 29,
       "bills": [
         {
           "bill_id": "house_213_8205",
@@ -118448,12 +120040,68 @@
           "date": "2024-06-21",
           "meeting": "環境委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15718",
+          "bill_name": "地球温暖化対策の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6175,
+          "date": "2024-05-24",
+          "meeting": "環境委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15718",
+          "bill_name": "地球温暖化対策の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6175,
+          "date": "2024-05-10",
+          "meeting": "環境委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15718",
+          "bill_name": "地球温暖化対策の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6175,
+          "date": "2024-04-26",
+          "meeting": "環境委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15718",
+          "bill_name": "地球温暖化対策の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6175,
+          "date": "2024-04-19",
+          "meeting": "環境委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15719",
+          "bill_name": "地域における生物の多様性の増進のための活動の促進等に関する法律案",
+          "issue_number": 6176,
+          "date": "2024-03-29",
+          "meeting": "環境委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15719",
+          "bill_name": "地域における生物の多様性の増進のための活動の促進等に関する法律案",
+          "issue_number": 6176,
+          "date": "2024-03-22",
+          "meeting": "環境委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15719",
+          "bill_name": "地域における生物の多様性の増進のための活動の促進等に関する法律案",
+          "issue_number": 6176,
+          "date": "2024-03-15",
+          "meeting": "環境委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 22
+        "neutral": 29
       }
     },
     "勝又正秀": {
@@ -119878,7 +121526,7 @@
     },
     "滝波宏文": {
       "party": "自由民主党",
-      "speech_count": 38,
+      "speech_count": 45,
       "bills": [
         {
           "bill_id": "house_213_8217",
@@ -120183,12 +121831,68 @@
           "date": "2024-05-30",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15724",
+          "bill_name": "農業の生産性の向上のためのスマート農業技術の活用の促進に関する法律案",
+          "issue_number": 6180,
+          "date": "2024-06-13",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15724",
+          "bill_name": "農業の生産性の向上のためのスマート農業技術の活用の促進に関する法律案",
+          "issue_number": 6180,
+          "date": "2024-06-11",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15724",
+          "bill_name": "農業の生産性の向上のためのスマート農業技術の活用の促進に関する法律案",
+          "issue_number": 6180,
+          "date": "2024-06-06",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15724",
+          "bill_name": "農業の生産性の向上のためのスマート農業技術の活用の促進に関する法律案",
+          "issue_number": 6180,
+          "date": "2024-06-04",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15724",
+          "bill_name": "農業の生産性の向上のためのスマート農業技術の活用の促進に関する法律案",
+          "issue_number": 6180,
+          "date": "2024-05-30",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15725",
+          "bill_name": "漁業法及び特定水産動植物等の国内流通の適正化等に関する法律の一部を改正する法律案",
+          "issue_number": 6181,
+          "date": "2024-06-18",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15726",
+          "bill_name": "特定農産加工業経営改善臨時措置法の一部を改正する法律案",
+          "issue_number": 6182,
+          "date": "2024-04-04",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 38
+        "neutral": 45
       }
     },
     "清水真人": {
@@ -120236,7 +121940,7 @@
     },
     "坂本哲志": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 74,
+      "speech_count": 82,
       "bills": [
         {
           "bill_id": "house_213_8217",
@@ -120829,12 +122533,76 @@
           "date": "2024-05-08",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15724",
+          "bill_name": "農業の生産性の向上のためのスマート農業技術の活用の促進に関する法律案",
+          "issue_number": 6180,
+          "date": "2024-06-17",
+          "meeting": "決算行政監視委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15724",
+          "bill_name": "農業の生産性の向上のためのスマート農業技術の活用の促進に関する法律案",
+          "issue_number": 6180,
+          "date": "2024-05-30",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15724",
+          "bill_name": "農業の生産性の向上のためのスマート農業技術の活用の促進に関する法律案",
+          "issue_number": 6180,
+          "date": "2024-04-25",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15725",
+          "bill_name": "漁業法及び特定水産動植物等の国内流通の適正化等に関する法律の一部を改正する法律案",
+          "issue_number": 6181,
+          "date": "2024-06-13",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15725",
+          "bill_name": "漁業法及び特定水産動植物等の国内流通の適正化等に関する法律の一部を改正する法律案",
+          "issue_number": 6181,
+          "date": "2024-05-29",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15726",
+          "bill_name": "特定農産加工業経営改善臨時措置法の一部を改正する法律案",
+          "issue_number": 6182,
+          "date": "2024-04-02",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15726",
+          "bill_name": "特定農産加工業経営改善臨時措置法の一部を改正する法律案",
+          "issue_number": 6182,
+          "date": "2024-03-13",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15726",
+          "bill_name": "特定農産加工業経営改善臨時措置法の一部を改正する法律案",
+          "issue_number": 6182,
+          "date": "2024-03-12",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 74
+        "neutral": 82
       }
     },
     "山口晋": {
@@ -122212,7 +123980,7 @@
     },
     "坂本三郎": {
       "party": "",
-      "speech_count": 3,
+      "speech_count": 4,
       "bills": [
         {
           "bill_id": "house_213_8220",
@@ -122237,12 +124005,20 @@
           "date": "2024-04-17",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15722",
+          "bill_name": "総合法律支援法の一部を改正する法律案",
+          "issue_number": 6178,
+          "date": "2024-05-13",
+          "meeting": "決算行政監視委員会第四分科会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 3
+        "neutral": 4
       }
     },
     "松木けんこう": {
@@ -134692,7 +136468,7 @@
     },
     "山下芳生": {
       "party": "日本共産党",
-      "speech_count": 18,
+      "speech_count": 19,
       "bills": [
         {
           "bill_id": "councillors_216_15885",
@@ -134837,12 +136613,20 @@
           "date": "2025-03-31",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15718",
+          "bill_name": "地球温暖化対策の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6175,
+          "date": "2024-06-11",
+          "meeting": "環境委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 3,
         "oppose": 0,
-        "neutral": 15
+        "neutral": 16
       }
     },
     "永井学": {
@@ -145710,7 +147494,7 @@
     },
     "渡辺創": {
       "party": "立憲民主党・無所属",
-      "speech_count": 28,
+      "speech_count": 29,
       "bills": [
         {
           "bill_id": "councillors_217_15935",
@@ -145935,12 +147719,20 @@
           "date": "2024-05-21",
           "meeting": "農林水産委員会",
           "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15725",
+          "bill_name": "漁業法及び特定水産動植物等の国内流通の適正化等に関する法律の一部を改正する法律案",
+          "issue_number": 6181,
+          "date": "2024-06-05",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 4,
         "oppose": 0,
-        "neutral": 24
+        "neutral": 25
       }
     },
     "堀内詔子": {
@@ -151536,7 +153328,7 @@
     },
     "秦康之": {
       "party": "",
-      "speech_count": 14,
+      "speech_count": 15,
       "bills": [
         {
           "bill_id": "councillors_217_15964",
@@ -151649,12 +153441,20 @@
           "date": "2025-05-09",
           "meeting": "環境委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15718",
+          "bill_name": "地球温暖化対策の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6175,
+          "date": "2024-05-14",
+          "meeting": "経済産業委員会、環境委員会連合審査会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 14
+        "neutral": 15
       }
     },
     "阿部聖哉": {
@@ -153373,7 +155173,7 @@
     },
     "伊藤孝江": {
       "party": "公明党",
-      "speech_count": 21,
+      "speech_count": 23,
       "bills": [
         {
           "bill_id": "councillors_217_15981",
@@ -153542,12 +155342,28 @@
           "date": "2026-05-14",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-05-14",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-04-25",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 21
+        "neutral": 23
       }
     },
     "岡田悟": {
@@ -155587,8 +157403,8 @@
       }
     },
     "海江田万里": {
-      "party": "立憲民主党・無所属",
-      "speech_count": 4,
+      "party": "無所属",
+      "speech_count": 5,
       "bills": [
         {
           "bill_id": "house_213_8229",
@@ -155621,17 +157437,25 @@
           "date": "2025-06-03",
           "meeting": "財務金融委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15716",
+          "bill_name": "情報通信技術の活用による行政手続等に係る関係者の利便性の向上並びに行政運営の簡素化及び効率化を図るためのデジタル社会形成基本法等の一部を改正する法律案",
+          "issue_number": 6173,
+          "date": "2024-04-19",
+          "meeting": "本会議",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 4
+        "neutral": 5
       }
     },
     "伊藤信太郎": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 11,
+      "speech_count": 17,
       "bills": [
         {
           "bill_id": "house_213_8231",
@@ -155720,17 +157544,65 @@
           "date": "2024-03-21",
           "meeting": "環境委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15718",
+          "bill_name": "地球温暖化対策の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6175,
+          "date": "2024-06-04",
+          "meeting": "環境委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15718",
+          "bill_name": "地球温暖化対策の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6175,
+          "date": "2024-04-19",
+          "meeting": "環境委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15718",
+          "bill_name": "地球温暖化対策の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6175,
+          "date": "2024-03-21",
+          "meeting": "環境委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15719",
+          "bill_name": "地域における生物の多様性の増進のための活動の促進等に関する法律案",
+          "issue_number": 6176,
+          "date": "2024-04-09",
+          "meeting": "環境委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15719",
+          "bill_name": "地域における生物の多様性の増進のための活動の促進等に関する法律案",
+          "issue_number": 6176,
+          "date": "2024-03-15",
+          "meeting": "環境委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15719",
+          "bill_name": "地域における生物の多様性の増進のための活動の促進等に関する法律案",
+          "issue_number": 6176,
+          "date": "2024-03-12",
+          "meeting": "環境委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 11
+        "neutral": 17
       }
     },
     "奥山祐矢": {
       "party": "",
-      "speech_count": 1,
+      "speech_count": 2,
       "bills": [
         {
           "bill_id": "house_213_8231",
@@ -155739,17 +157611,25 @@
           "date": "2024-05-09",
           "meeting": "経済産業委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15718",
+          "bill_name": "地球温暖化対策の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6175,
+          "date": "2024-05-09",
+          "meeting": "経済産業委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 1
+        "neutral": 2
       }
     },
     "大塚直": {
       "party": "",
-      "speech_count": 2,
+      "speech_count": 3,
       "bills": [
         {
           "bill_id": "house_213_8231",
@@ -155766,17 +157646,25 @@
           "date": "2025-05-13",
           "meeting": "環境委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15718",
+          "bill_name": "地球温暖化対策の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6175,
+          "date": "2024-04-26",
+          "meeting": "環境委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 2
+        "neutral": 3
       }
     },
     "浦田秀行": {
       "party": "",
-      "speech_count": 1,
+      "speech_count": 2,
       "bills": [
         {
           "bill_id": "house_213_8231",
@@ -155785,17 +157673,25 @@
           "date": "2024-04-12",
           "meeting": "環境委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15718",
+          "bill_name": "地球温暖化対策の推進に関する法律の一部を改正する法律案",
+          "issue_number": 6175,
+          "date": "2024-04-12",
+          "meeting": "環境委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 1
+        "neutral": 2
       }
     },
     "宮澤博行": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 1,
+      "speech_count": 2,
       "bills": [
         {
           "bill_id": "house_213_8232",
@@ -155804,12 +157700,20 @@
           "date": "2024-03-22",
           "meeting": "環境委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15719",
+          "bill_name": "地域における生物の多様性の増進のための活動の促進等に関する法律案",
+          "issue_number": 6176,
+          "date": "2024-03-22",
+          "meeting": "環境委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 1
+        "neutral": 2
       }
     },
     "北川修": {
@@ -157621,7 +159525,7 @@
     },
     "古庄玄知": {
       "party": "自由民主党",
-      "speech_count": 18,
+      "speech_count": 19,
       "bills": [
         {
           "bill_id": "councillors_217_15961",
@@ -157766,12 +159670,20 @@
           "date": "2025-05-22",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15722",
+          "bill_name": "総合法律支援法の一部を改正する法律案",
+          "issue_number": 6178,
+          "date": "2024-03-22",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 18
+        "neutral": 19
       }
     },
     "若山慎司": {
@@ -159531,7 +161443,7 @@
     },
     "東国幹": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 4,
+      "speech_count": 5,
       "bills": [
         {
           "bill_id": "councillors_217_16005",
@@ -159564,12 +161476,20 @@
           "date": "2026-03-12",
           "meeting": "農林水産委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15722",
+          "bill_name": "総合法律支援法の一部を改正する法律案",
+          "issue_number": 6178,
+          "date": "2024-04-17",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 4
+        "neutral": 5
       }
     },
     "奥野真": {
@@ -160476,7 +162396,7 @@
     },
     "竹内努": {
       "party": "",
-      "speech_count": 71,
+      "speech_count": 75,
       "bills": [
         {
           "bill_id": "councillors_217_16007",
@@ -161045,12 +162965,44 @@
           "date": "2025-02-27",
           "meeting": "予算委員会第三分科会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-05-23",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-05-16",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-04-10",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-04-09",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 71
+        "neutral": 75
       }
     },
     "高村正大": {
@@ -161502,7 +163454,7 @@
     },
     "沖野眞已": {
       "party": "",
-      "speech_count": 4,
+      "speech_count": 5,
       "bills": [
         {
           "bill_id": "councillors_217_16007",
@@ -161535,11 +163487,19 @@
           "date": "2025-05-09",
           "meeting": "国土交通委員会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-05-07",
+          "meeting": "法務委員会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 4,
+        "oppose": 5,
         "neutral": 0
       }
     },
@@ -163697,7 +165657,7 @@
     },
     "池上甲一": {
       "party": "",
-      "speech_count": 3,
+      "speech_count": 4,
       "bills": [
         {
           "bill_id": "house_213_8216",
@@ -163722,11 +165682,19 @@
           "date": "2024-06-06",
           "meeting": "農林水産委員会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15724",
+          "bill_name": "農業の生産性の向上のためのスマート農業技術の活用の促進に関する法律案",
+          "issue_number": 6180,
+          "date": "2024-06-06",
+          "meeting": "農林水産委員会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 3,
+        "oppose": 4,
         "neutral": 0
       }
     },
@@ -163783,7 +165751,7 @@
     },
     "平形雄策": {
       "party": "",
-      "speech_count": 7,
+      "speech_count": 8,
       "bills": [
         {
           "bill_id": "house_213_8216",
@@ -163840,12 +165808,20 @@
           "date": "2024-05-13",
           "meeting": "決算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15726",
+          "bill_name": "特定農産加工業経営改善臨時措置法の一部を改正する法律案",
+          "issue_number": 6182,
+          "date": "2024-04-02",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 7
+        "neutral": 8
       }
     },
     "渡辺研司": {
@@ -163969,7 +165945,7 @@
     },
     "門山宏哲": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 3,
+      "speech_count": 5,
       "bills": [
         {
           "bill_id": "house_213_8235",
@@ -163994,17 +165970,33 @@
           "date": "2023-12-07",
           "meeting": "外交防衛委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15722",
+          "bill_name": "総合法律支援法の一部を改正する法律案",
+          "issue_number": 6178,
+          "date": "2024-05-13",
+          "meeting": "決算行政監視委員会第四分科会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-04-15",
+          "meeting": "決算委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 3
+        "neutral": 5
       }
     },
     "江口有隣": {
       "party": "",
-      "speech_count": 2,
+      "speech_count": 4,
       "bills": [
         {
           "bill_id": "house_213_8235",
@@ -164021,17 +166013,33 @@
           "date": "2024-04-11",
           "meeting": "法務委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15722",
+          "bill_name": "総合法律支援法の一部を改正する法律案",
+          "issue_number": 6178,
+          "date": "2024-04-17",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15722",
+          "bill_name": "総合法律支援法の一部を改正する法律案",
+          "issue_number": 6178,
+          "date": "2024-04-11",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 2
+        "neutral": 4
       }
     },
     "森まさこ": {
       "party": "自由民主党",
-      "speech_count": 3,
+      "speech_count": 5,
       "bills": [
         {
           "bill_id": "house_213_8235",
@@ -164056,17 +166064,33 @@
           "date": "2025-05-20",
           "meeting": "法務委員会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15722",
+          "bill_name": "総合法律支援法の一部を改正する法律案",
+          "issue_number": 6178,
+          "date": "2024-04-11",
+          "meeting": "法務委員会",
+          "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-04-25",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 1,
-        "neutral": 2
+        "neutral": 4
       }
     },
     "熊田裕通": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 1,
+      "speech_count": 2,
       "bills": [
         {
           "bill_id": "house_213_8236",
@@ -164075,17 +166099,25 @@
           "date": "2024-04-12",
           "meeting": "法務委員会",
           "stance": "賛成"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-04-12",
+          "meeting": "法務委員会",
+          "stance": "賛成"
         }
       ],
       "stance_summary": {
-        "support": 1,
+        "support": 2,
         "oppose": 0,
         "neutral": 0
       }
     },
     "谷川とむ": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 2,
+      "speech_count": 3,
       "bills": [
         {
           "bill_id": "house_213_8236",
@@ -164102,17 +166134,25 @@
           "date": "2026-05-26",
           "meeting": "本会議",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-04-05",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 2
+        "neutral": 3
       }
     },
     "大村敦志": {
       "party": "",
-      "speech_count": 1,
+      "speech_count": 2,
       "bills": [
         {
           "bill_id": "house_213_8236",
@@ -164121,17 +166161,25 @@
           "date": "2024-04-03",
           "meeting": "法務委員会",
           "stance": "反対"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-04-03",
+          "meeting": "法務委員会",
+          "stance": "反対"
         }
       ],
       "stance_summary": {
         "support": 0,
-        "oppose": 1,
+        "oppose": 2,
         "neutral": 0
       }
     },
     "野村知司": {
       "party": "",
-      "speech_count": 5,
+      "speech_count": 6,
       "bills": [
         {
           "bill_id": "house_213_8236",
@@ -164172,17 +166220,25 @@
           "date": "2026-03-27",
           "meeting": "予算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15723",
+          "bill_name": "民法等の一部を改正する法律案",
+          "issue_number": 6179,
+          "date": "2024-03-22",
+          "meeting": "法務委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 5
+        "neutral": 6
       }
     },
     "中川郁子": {
       "party": "自由民主党・無所属の会",
-      "speech_count": 2,
+      "speech_count": 3,
       "bills": [
         {
           "bill_id": "house_213_8239",
@@ -164199,12 +166255,20 @@
           "date": "2024-02-22",
           "meeting": "予算委員会",
           "stance": "中立"
+        },
+        {
+          "bill_id": "councillors_213_15726",
+          "bill_name": "特定農産加工業経営改善臨時措置法の一部を改正する法律案",
+          "issue_number": 6182,
+          "date": "2024-03-21",
+          "meeting": "農林水産委員会",
+          "stance": "中立"
         }
       ],
       "stance_summary": {
         "support": 0,
         "oppose": 0,
-        "neutral": 2
+        "neutral": 3
       }
     },
     "古川俊治": {
