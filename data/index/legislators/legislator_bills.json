@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-20T19:56:52.381Z",
-  "total_proposers": 2172,
+  "updated_at": "2026-09-27T20:34:36.913Z",
+  "total_proposers": 2171,
   "by_legislator": {
     "熊代": {
       "name": "熊代",
@@ -81140,10 +81140,17 @@
     "勝信君外十名": {
       "name": "勝信君外十名",
       "party": "自由民主党; 公明党",
-      "total_bills": 1,
+      "total_bills": 2,
       "passed_bills": 1,
-      "success_rate": 1,
+      "success_rate": 0.5,
       "bills": [
+        {
+          "id": "house_221_8826",
+          "name": "衆議院議員の選挙制度改革及び定数削減に関する法律案",
+          "session": 221,
+          "status": "審議中",
+          "house": "衆議院"
+        },
         {
           "id": "house_208_7482",
           "name": "こども基本法案",
@@ -89424,8 +89431,8 @@
         }
       ]
     },
-    "淳二君外十名": {
-      "name": "淳二君外十名",
+    "淳二君外九名": {
+      "name": "淳二君外九名",
       "party": "自由民主党・無所属の会; 日本維新の会",
       "total_bills": 1,
       "passed_bills": 0,
@@ -89594,22 +89601,6 @@
           "name": "国家社会機能継続性確保施策及び副首都の整備に係る施策の推進に関する法律案",
           "session": 221,
           "status": "成立",
-          "house": "衆議院"
-        }
-      ]
-    },
-    "勝信君外十一名": {
-      "name": "勝信君外十一名",
-      "party": "自由民主党・無所属の会; 日本維新の会",
-      "total_bills": 1,
-      "passed_bills": 0,
-      "success_rate": 0,
-      "bills": [
-        {
-          "id": "house_221_8826",
-          "name": "衆議院議員の選挙制度改革及び定数削減に関する法律案",
-          "session": 221,
-          "status": "審議中",
           "house": "衆議院"
         }
       ]

@@ -1,7 +1,7 @@
 {
   "category": "ministerial_ordinances",
   "category_name": "省令",
-  "count": 81,
+  "count": 82,
   "laws": [
     {
       "id": "508M60001000001",
@@ -457,6 +457,12 @@
       "id": "508M60000002072",
       "lawNum": "令和八年内閣府令第七十二号",
       "title": "日本学術会議の業務運営、財務及び会計並びに人事管理に関する内閣府令",
+      "category": "ministerial_ordinances"
+    },
+    {
+      "id": "508M60000100137",
+      "lawNum": "令和八年厚生労働省令第百三十七号",
+      "title": "社会経済の変化を踏まえた年金制度の機能強化のための国民年金法等の一部を改正する等の法律の一部の施行に伴う経過措置に関する省令",
       "category": "ministerial_ordinances"
     },
     {
