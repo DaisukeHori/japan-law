@@ -1,7 +1,7 @@
 {
   "category": "acts",
   "category_name": "法律",
-  "count": 2080,
+  "count": 2079,
   "laws": [
     {
       "id": "122AC0000000034",
@@ -1066,15 +1066,9 @@
       "category": "acts"
     },
     {
-      "id": "323AC0000000121",
-      "lawNum": "昭和二十三年法律第百二十一号",
-      "title": "日本学術会議法",
-      "category": "acts"
-    },
-    {
       "id": "323AC0000000129",
       "lawNum": "昭和二十三年法律第百二十九号",
-      "title": "社会保険診療報酬支払基金法",
+      "title": "医療情報基盤・診療報酬審査支払機構法",
       "category": "acts"
     },
     {

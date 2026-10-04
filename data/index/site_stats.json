@@ -3,13 +3,13 @@
   "by_category": {
     "constitution": 1,
     "misc": 4444,
-    "acts": 2080,
+    "acts": 2079,
     "imperial_orders": 69,
     "cabinet_orders": 2337,
-    "ministerial_ordinances": 82,
+    "ministerial_ordinances": 83,
     "rules": 1
   },
-  "updated_at": "2026-09-27T20:34:38.367Z",
+  "updated_at": "2026-10-04T20:36:03.780Z",
   "legislators_count": 693,
   "parties_count": 12,
   "bills_count": 16549
