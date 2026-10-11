@@ -1,7 +1,7 @@
 {
   "category": "ministerial_ordinances",
   "category_name": "省令",
-  "count": 83,
+  "count": 89,
   "laws": [
     {
       "id": "508M60001000001",
@@ -466,9 +466,39 @@
       "category": "ministerial_ordinances"
     },
     {
+      "id": "508M60000042005",
+      "lawNum": "令和八年内閣府・財務省令第五号",
+      "title": "株式会社国際協力銀行法施行規則",
+      "category": "ministerial_ordinances"
+    },
+    {
+      "id": "508M60000042006",
+      "lawNum": "令和八年内閣府・財務省令第六号",
+      "title": "株式会社国際協力銀行の会計に関する命令",
+      "category": "ministerial_ordinances"
+    },
+    {
       "id": "508M60000010049",
       "lawNum": "令和八年法務省令第四十九号",
       "title": "皇族の身分を離れた者等の戸籍の取扱い等に関する法律施行規則",
+      "category": "ministerial_ordinances"
+    },
+    {
+      "id": "508M60000042007",
+      "lawNum": "令和八年内閣府・財務省令第七号",
+      "title": "経済施策を一体的に講ずることによる安全保障の確保の推進に関する法律に基づく特定海外事業計画の認定等に関する命令",
+      "category": "ministerial_ordinances"
+    },
+    {
+      "id": "508M60001500006",
+      "lawNum": "令和八年厚生労働省・経済産業省・環境省令第六号",
+      "title": "化学物質の審査及び製造等の規制に関する法律施行令第一条第一項第四十二号の規定に基づき化学物質を定める省令",
+      "category": "ministerial_ordinances"
+    },
+    {
+      "id": "508M60002001001",
+      "lawNum": "令和八年内閣官房・防衛省令第一号",
+      "title": "予備自衛官等の職務の円滑な遂行を図るための国家公務員及び地方公務員の兼業の特例に関する法律第三条第一項の規定による予備自衛官等の兼業に関する規則",
       "category": "ministerial_ordinances"
     },
     {
@@ -499,6 +529,12 @@
       "id": "508M60400000008",
       "lawNum": "令和八年国家公安委員会規則第八号",
       "title": "盗難特定金属製物品の処分の防止等に関する法律施行規則",
+      "category": "ministerial_ordinances"
+    },
+    {
+      "id": "508M60400000019",
+      "lawNum": "令和八年国家公安委員会規則第十九号",
+      "title": "警察官職務執行法第六条の二第八項の規定に基づく管理者への通知等に関する規則",
       "category": "ministerial_ordinances"
     }
   ]
