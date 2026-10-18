@@ -1,7 +1,7 @@
 {
   "category": "ministerial_ordinances",
   "category_name": "省令",
-  "count": 89,
+  "count": 92,
   "laws": [
     {
       "id": "508M60001000001",
@@ -499,6 +499,24 @@
       "id": "508M60002001001",
       "lawNum": "令和八年内閣官房・防衛省令第一号",
       "title": "予備自衛官等の職務の円滑な遂行を図るための国家公務員及び地方公務員の兼業の特例に関する法律第三条第一項の規定による予備自衛官等の兼業に関する規則",
+      "category": "ministerial_ordinances"
+    },
+    {
+      "id": "508M60000240005",
+      "lawNum": "令和八年財務省・農林水産省令第五号",
+      "title": "財務省及び農林水産省の所管する法令に係る民間事業者等が行う書面の保存等における情報通信の技術の利用に関する法律施行規則",
+      "category": "ministerial_ordinances"
+    },
+    {
+      "id": "508M60000240004",
+      "lawNum": "令和八年財務省・農林水産省令第四号",
+      "title": "財務省・農林水産省関係主要食糧の需給及び価格の安定に関する法律施行規則",
+      "category": "ministerial_ordinances"
+    },
+    {
+      "id": "508M60000002088",
+      "lawNum": "令和八年内閣府令第八十八号",
+      "title": "日本学術会議法施行規則",
       "category": "ministerial_ordinances"
     },
     {
