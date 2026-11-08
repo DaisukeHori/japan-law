@@ -1,7 +1,7 @@
 {
   "category": "cabinet_orders",
   "category_name": "政令",
-  "count": 2322,
+  "count": 2323,
   "laws": [
     {
       "id": "322CO0000000052",
@@ -13933,6 +13933,12 @@
       "id": "508CO0000000304",
       "lawNum": "令和八年政令第三百四号",
       "title": "防災庁組織令",
+      "category": "cabinet_orders"
+    },
+    {
+      "id": "508CO0000000332",
+      "lawNum": "令和八年政令第三百三十二号",
+      "title": "医療的ケア児等及び重症心身障害者並びにそれらの家族に対する支援に関する法律第十四条第一項の政令で定める市を定める政令",
       "category": "cabinet_orders"
     }
   ]
