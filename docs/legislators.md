@@ -1,13 +1,13 @@
 # 🏛️ 議員活動ダッシュボード
 
-> 最終更新: 2026-11-01T22:43:14.314Z
+> 最終更新: 2026-11-08T22:25:52.959Z
 
 ## 📊 概要
 
 | 項目 | 数値 |
 |------|------|
-| **追跡議員数** | 1250 名 |
-| **総発言記録** | 23684 件 |
+| **追跡議員数** | 1253 名 |
+| **総発言記録** | 24262 件 |
 
 ---
 
@@ -15,16 +15,16 @@
 
 | 党派 | 議員数 | 発言数 |
 |------|--------|--------|
-| ![自由民主党・無所属の会](https://img.shields.io/badge/%E8%87%AA%E7%94%B1%E6%B0%91%E4%B8%BB%E5%85%9A%E3%83%BB%E7%84%A1%E6%89%80%E5%B1%9E%E3%81%AE%E4%BC%9A-e74c3c) | 240 名 | 7244 件 |
-| ![不明](https://img.shields.io/badge/%E4%B8%8D%E6%98%8E-808080) | 456 名 | 3303 件 |
-| ![立憲民主党・無所属](https://img.shields.io/badge/%E7%AB%8B%E6%86%B2%E6%B0%91%E4%B8%BB%E5%85%9A%E3%83%BB%E7%84%A1%E6%89%80%E5%B1%9E-3498db) | 139 名 | 2315 件 |
-| ![公明党](https://img.shields.io/badge/%E5%85%AC%E6%98%8E%E5%85%9A-f39c12) | 59 名 | 1690 件 |
-| ![自由民主党](https://img.shields.io/badge/%E8%87%AA%E7%94%B1%E6%B0%91%E4%B8%BB%E5%85%9A-e74c3c) | 73 名 | 1627 件 |
-| ![立憲民主・社民](https://img.shields.io/badge/%E7%AB%8B%E6%86%B2%E6%B0%91%E4%B8%BB%E3%83%BB%E7%A4%BE%E6%B0%91-3498db) | 37 名 | 1513 件 |
-| ![日本維新の会・教育無償化を実現する会](https://img.shields.io/badge/%E6%97%A5%E6%9C%AC%E7%B6%AD%E6%96%B0%E3%81%AE%E4%BC%9A%E3%83%BB%E6%95%99%E8%82%B2%E7%84%A1%E5%84%9F%E5%8C%96%E3%82%92%E5%AE%9F%E7%8F%BE%E3%81%99%E3%82%8B%E4%BC%9A-27ae60) | 44 名 | 1004 件 |
-| ![日本共産党](https://img.shields.io/badge/%E6%97%A5%E6%9C%AC%E5%85%B1%E7%94%A3%E5%85%9A-c0392b) | 25 名 | 906 件 |
-| ![各派に属しない議員](https://img.shields.io/badge/%E5%90%84%E6%B4%BE%E3%81%AB%E5%B1%9E%E3%81%97%E3%81%AA%E3%81%84%E8%AD%B0%E5%93%A1-808080) | 9 名 | 899 件 |
-| ![無所属](https://img.shields.io/badge/%E7%84%A1%E6%89%80%E5%B1%9E-808080) | 6 名 | 860 件 |
+| ![自由民主党・無所属の会](https://img.shields.io/badge/%E8%87%AA%E7%94%B1%E6%B0%91%E4%B8%BB%E5%85%9A%E3%83%BB%E7%84%A1%E6%89%80%E5%B1%9E%E3%81%AE%E4%BC%9A-e74c3c) | 241 名 | 7386 件 |
+| ![不明](https://img.shields.io/badge/%E4%B8%8D%E6%98%8E-808080) | 456 名 | 3385 件 |
+| ![立憲民主党・無所属](https://img.shields.io/badge/%E7%AB%8B%E6%86%B2%E6%B0%91%E4%B8%BB%E5%85%9A%E3%83%BB%E7%84%A1%E6%89%80%E5%B1%9E-3498db) | 140 名 | 2395 件 |
+| ![公明党](https://img.shields.io/badge/%E5%85%AC%E6%98%8E%E5%85%9A-f39c12) | 59 名 | 1727 件 |
+| ![自由民主党](https://img.shields.io/badge/%E8%87%AA%E7%94%B1%E6%B0%91%E4%B8%BB%E5%85%9A-e74c3c) | 73 名 | 1676 件 |
+| ![立憲民主・社民](https://img.shields.io/badge/%E7%AB%8B%E6%86%B2%E6%B0%91%E4%B8%BB%E3%83%BB%E7%A4%BE%E6%B0%91-3498db) | 37 名 | 1558 件 |
+| ![日本維新の会・教育無償化を実現する会](https://img.shields.io/badge/%E6%97%A5%E6%9C%AC%E7%B6%AD%E6%96%B0%E3%81%AE%E4%BC%9A%E3%83%BB%E6%95%99%E8%82%B2%E7%84%A1%E5%84%9F%E5%8C%96%E3%82%92%E5%AE%9F%E7%8F%BE%E3%81%99%E3%82%8B%E4%BC%9A-27ae60) | 44 名 | 1054 件 |
+| ![日本共産党](https://img.shields.io/badge/%E6%97%A5%E6%9C%AC%E5%85%B1%E7%94%A3%E5%85%9A-c0392b) | 26 名 | 946 件 |
+| ![各派に属しない議員](https://img.shields.io/badge/%E5%90%84%E6%B4%BE%E3%81%AB%E5%B1%9E%E3%81%97%E3%81%AA%E3%81%84%E8%AD%B0%E5%93%A1-808080) | 9 名 | 904 件 |
+| ![無所属](https://img.shields.io/badge/%E7%84%A1%E6%89%80%E5%B1%9E-808080) | 6 名 | 862 件 |
 
 ---
 
@@ -32,27 +32,28 @@
 
 | 議員名 | 所属 | 発言数 | スタンス |
 |--------|------|--------|----------|
-| [額賀福志郎](./legislators/%E9%A1%8D%E8%B3%80%E7%A6%8F%E5%BF%97%E9%83%8E.md) | 無所属 | 650 | 🟢4 |
+| [額賀福志郎](./legislators/%E9%A1%8D%E8%B3%80%E7%A6%8F%E5%BF%97%E9%83%8E.md) | 無所属 | 652 | 🟢4 |
 | [築山信彦](./legislators/%E7%AF%89%E5%B1%B1%E4%BF%A1%E5%BD%A6.md) | - | 480 | ⚪ |
 | [浜田靖一](./legislators/%E6%B5%9C%E7%94%B0%E9%9D%96%E4%B8%80.md) | 自由民主党・無所属の会 | 463 | ⚪ |
-| [山口俊一](./legislators/%E5%B1%B1%E5%8F%A3%E4%BF%8A%E4%B8%80.md) | 自由民主党・無所属の会 | 443 | ⚪ |
-| [尾辻秀久](./legislators/%E5%B0%BE%E8%BE%BB%E7%A7%80%E4%B9%85.md) | 各派に属しない議員 | 413 | ⚪ |
-| [岡田憲治](./legislators/%E5%B2%A1%E7%94%B0%E6%86%B2%E6%B2%BB.md) | - | 400 | ⚪ |
+| [山口俊一](./legislators/%E5%B1%B1%E5%8F%A3%E4%BF%8A%E4%B8%80.md) | 自由民主党・無所属の会 | 445 | ⚪ |
+| [尾辻秀久](./legislators/%E5%B0%BE%E8%BE%BB%E7%A7%80%E4%B9%85.md) | 各派に属しない議員 | 414 | ⚪ |
+| [岡田憲治](./legislators/%E5%B2%A1%E7%94%B0%E6%86%B2%E6%B2%BB.md) | - | 402 | ⚪ |
 | [関口昌一](./legislators/%E9%96%A2%E5%8F%A3%E6%98%8C%E4%B8%80.md) | 各派に属しない議員 | 327 | ⚪ |
-| [鈴木俊一](./legislators/%E9%88%B4%E6%9C%A8%E4%BF%8A%E4%B8%80.md) | 自由民主党・無所属の会 | 207 | 🔴14 |
-| [鈴木馨祐](./legislators/%E9%88%B4%E6%9C%A8%E9%A6%A8%E7%A5%90.md) | 自由民主党・無所属の会 | 204 | 🔴2 |
-| [松本剛明](./legislators/%E6%9D%BE%E6%9C%AC%E5%89%9B%E6%98%8E.md) | 自由民主党・無所属の会 | 197 | 🟢26/🔴5 |
-| [笠置隆範](./legislators/%E7%AC%A0%E7%BD%AE%E9%9A%86%E7%AF%84.md) | - | 195 | ⚪ |
+| [松本剛明](./legislators/%E6%9D%BE%E6%9C%AC%E5%89%9B%E6%98%8E.md) | 自由民主党・無所属の会 | 226 | 🟢26/🔴5 |
+| [笠置隆範](./legislators/%E7%AC%A0%E7%BD%AE%E9%9A%86%E7%AF%84.md) | - | 220 | ⚪ |
+| [鈴木馨祐](./legislators/%E9%88%B4%E6%9C%A8%E9%A6%A8%E7%A5%90.md) | 自由民主党・無所属の会 | 213 | 🔴3 |
+| [鈴木俊一](./legislators/%E9%88%B4%E6%9C%A8%E4%BF%8A%E4%B8%80.md) | 自由民主党・無所属の会 | 210 | 🔴14 |
 | [小林史武](./legislators/%E5%B0%8F%E6%9E%97%E5%8F%B2%E6%AD%A6.md) | - | 189 | ⚪ |
-| [小泉龍司](./legislators/%E5%B0%8F%E6%B3%89%E9%BE%8D%E5%8F%B8.md) | 自由民主党・無所属の会 | 167 | ⚪ |
+| [岸田文雄](./legislators/%E5%B2%B8%E7%94%B0%E6%96%87%E9%9B%84.md) | 自由民主党・無所属の会 | 180 | 🟢4/🔴2 |
+| [小泉龍司](./legislators/%E5%B0%8F%E6%B3%89%E9%BE%8D%E5%8F%B8.md) | 自由民主党・無所属の会 | 173 | ⚪ |
 | [武部新](./legislators/%E6%AD%A6%E9%83%A8%E6%96%B0.md) | 自由民主党・無所属の会 | 163 | ⚪ |
-| [平口洋](./legislators/%E5%B9%B3%E5%8F%A3%E6%B4%8B.md) | 自由民主党・無所属の会 | 160 | ⚪ |
+| [平口洋](./legislators/%E5%B9%B3%E5%8F%A3%E6%B4%8B.md) | 自由民主党・無所属の会 | 161 | ⚪ |
 | [斉藤鉄夫](./legislators/%E6%96%89%E8%97%A4%E9%89%84%E5%A4%AB.md) | 公明党 | 152 | ⚪ |
 | [加藤勝信](./legislators/%E5%8A%A0%E8%97%A4%E5%8B%9D%E4%BF%A1.md) | 自由民主党・無所属の会 | 152 | 🔴3 |
-| [西村智奈美](./legislators/%E8%A5%BF%E6%9D%91%E6%99%BA%E5%A5%88%E7%BE%8E.md) | 立憲民主党・無所属 | 149 | 🔴2 |
-| [岸田文雄](./legislators/%E5%B2%B8%E7%94%B0%E6%96%87%E9%9B%84.md) | 自由民主党・無所属の会 | 147 | 🟢3/🔴1 |
-| [星野剛士](./legislators/%E6%98%9F%E9%87%8E%E5%89%9B%E5%A3%AB.md) | 自由民主党・無所属の会 | 133 | 🟢4 |
-| [新谷正義](./legislators/%E6%96%B0%E8%B0%B7%E6%AD%A3%E7%BE%A9.md) | 自由民主党・無所属の会 | 131 | ⚪ |
+| [西村智奈美](./legislators/%E8%A5%BF%E6%9D%91%E6%99%BA%E5%A5%88%E7%BE%8E.md) | 立憲民主党・無所属 | 151 | 🔴3 |
+| [星野剛士](./legislators/%E6%98%9F%E9%87%8E%E5%89%9B%E5%A3%AB.md) | 自由民主党・無所属の会 | 134 | 🟢4 |
+| [新谷正義](./legislators/%E6%96%B0%E8%B0%B7%E6%AD%A3%E7%BE%A9.md) | 自由民主党・無所属の会 | 132 | ⚪ |
+| [武見敬三](./legislators/%E6%AD%A6%E8%A6%8B%E6%95%AC%E4%B8%89.md) | 自由民主党 | 132 | ⚪ |
 | [大岡敏孝](./legislators/%E5%A4%A7%E5%B2%A1%E6%95%8F%E5%AD%9D.md) | 自由民主党・無所属の会 | 127 | ⚪ |
 | [石破茂](./legislators/%E7%9F%B3%E7%A0%B4%E8%8C%82.md) | 自由民主党・無所属の会 | 123 | 🔴22 |
 | [谷公一](./legislators/%E8%B0%B7%E5%85%AC%E4%B8%80.md) | 自由民主党・無所属の会 | 121 | ⚪ |
@@ -60,8 +61,7 @@
 | [和田政宗](./legislators/%E5%92%8C%E7%94%B0%E6%94%BF%E5%AE%97.md) | 参政党 | 117 | 🔴9 |
 | [渡辺周](./legislators/%E6%B8%A1%E8%BE%BA%E5%91%A8.md) | 立憲民主党・無所属 | 116 | 🟢3 |
 | [津島淳](./legislators/%E6%B4%A5%E5%B3%B6%E6%B7%B3.md) | 自由民主党・無所属の会 | 114 | ⚪ |
-| [武見敬三](./legislators/%E6%AD%A6%E8%A6%8B%E6%95%AC%E4%B8%89.md) | 自由民主党 | 113 | ⚪ |
-| [坂本哲志](./legislators/%E5%9D%82%E6%9C%AC%E5%93%B2%E5%BF%97.md) | 自由民主党・無所属の会 | 108 | ⚪ |
+| [坂本哲志](./legislators/%E5%9D%82%E6%9C%AC%E5%93%B2%E5%BF%97.md) | 自由民主党・無所属の会 | 114 | ⚪ |
 
 ---
 
